@@ -331,42 +331,99 @@
         };
 
         // --- 词库结构映射（指向实际的JSON文件路径） ---
-        const vocabStructure = {
-            reading: {
-                beginner: {
-                    unit: ['reading_beginner_unit1.json', 'reading_beginner_unit2.json', 'reading_beginner_unit3.json', 'reading_beginner_unit4.json', 'reading_beginner_unit5.json', 'reading_beginner_unit6.json', 'reading_beginner_unit7.json', 'reading_beginner_unit8.json', 'reading_beginner_unit9.json', 'reading_beginner_unit10.json'],
-                    past: 'expressions.json' // 将 expressions.json 映射到这里
-                },
-                intermediate: {
-                    unit: ['reading_intermediate_unit1.json', 'reading_intermediate_unit2.json', 'reading_intermediate_unit3.json', 'reading_intermediate_unit4.json', 'reading_intermediate_unit5.json', 'reading_intermediate_unit6.json', 'reading_intermediate_unit7.json', 'reading_intermediate_unit8.json', 'reading_intermediate_unit9.json', 'reading_intermediate_unit10.json'],
-                    past: 'reading_intermediate_past.json'
-                },
-                advanced: {
-                    unit: ['reading_advanced_unit1.json', 'reading_advanced_unit2.json', 'reading_advanced_unit3.json', 'reading_advanced_unit4.json', 'reading_advanced_unit5.json', 'reading_advanced_unit6.json', 'reading_advanced_unit7.json', 'reading_advanced_unit8.json', 'reading_advanced_unit9.json', 'reading_advanced_unit10.json'],
-                    past: 'reading_advanced_past.json'
-                }
-            },
-            listening: {
-                // 根据您上传的实际文件，将所有单元扩展到10个
-                beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json', 'listening_beginner_unit4.json', 'listening_beginner_unit5.json', 'listening_beginner_unit6.json', 'listening_beginner_unit7.json', 'listening_beginner_unit8.json', 'listening_beginner_unit9.json', 'listening_beginner_unit10.json'], past: 'listening_beginner_past.json' },
-                intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json', 'listening_intermediate_unit4.json', 'listening_intermediate_unit5.json', 'listening_intermediate_unit6.json', 'listening_intermediate_unit7.json', 'listening_intermediate_unit8.json', 'listening_intermediate_unit9.json', 'listening_intermediate_unit10.json'], past: 'listening_intermediate_past.json' },
-                advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json', 'listening_advanced_unit4.json', 'listening_advanced_unit5.json', 'listening_advanced_unit6.json', 'listening_advanced_unit7.json', 'listening_advanced_unit8.json', 'listening_advanced_unit9.json', 'listening_advanced_unit10.json'], past: 'listening_advanced_past.json' }
-            },
-            speaking: {
-                // 根据您上传的实际文件，将所有单元扩展到10个
-                beginner: { unit: ['speaking_beginner_unit1.json', 'speaking_beginner_unit2.json', 'speaking_beginner_unit3.json', 'speaking_beginner_unit4.json', 'speaking_beginner_unit5.json', 'speaking_beginner_unit6.json', 'speaking_beginner_unit7.json', 'speaking_beginner_unit8.json', 'speaking_beginner_unit9.json', 'speaking_beginner_unit10.json'], past: 'speaking_beginner_past.json' },
-                intermediate: { unit: ['speaking_intermediate_unit1.json', 'speaking_intermediate_unit2.json', 'speaking_intermediate_unit3.json', 'speaking_intermediate_unit4.json', 'speaking_intermediate_unit5.json', 'speaking_intermediate_unit6.json', 'speaking_intermediate_unit7.json', 'speaking_intermediate_unit8.json', 'speaking_intermediate_unit9.json', 'speaking_intermediate_unit10.json'], past: 'speaking_intermediate_past.json' },
-                advanced: { unit: ['speaking_advanced_unit1.json', 'speaking_advanced_unit2.json', 'speaking_advanced_unit3.json', 'speaking_advanced_unit4.json', 'speaking_advanced_unit5.json', 'speaking_advanced_unit6.json', 'speaking_advanced_unit7.json', 'speaking_advanced_unit8.json', 'speaking_advanced_unit9.json', 'speaking_advanced_unit10.json'], past: 'speaking_advanced_past.json' }
-            },
-            writing: {
-                beginner: { unit: ['writing_beginner_unit1.json'], past: 'writing_beginner_past.json' },
-                intermediate: { unit: ['writing_intermediate_unit1.json'], past: 'writing_intermediate_past.json' },
-                advanced: { unit: ['writing_advanced_unit1.json'], past: 'writing_advanced_past.json' }
-            }
-        };
+const vocabStructure = {
+  listening: {
+    beginner: {
+      unit: [
+        'listening_beginner_unit1.json',
+        'listening_beginner_unit2.json',
+        'listening_beginner_unit3.json',
+        'listening_beginner_unit4.json',
+        'listening_beginner_unit5.json',
+        'listening_beginner_unit6.json',
+        'listening_beginner_unit7.json',
+        'listening_beginner_unit8.json',
+        'listening_beginner_unit9.json',
+        'listening_beginner_unit10.json'
+      ]
+    },
+    intermediate: {
+      unit: [
+        'listening_intermediate_unit1.json',
+        'listening_intermediate_unit2.json',
+        'listening_intermediate_unit3.json',
+        'listening_intermediate_unit4.json',
+        'listening_intermediate_unit5.json',
+        'listening_intermediate_unit6.json',
+        'listening_intermediate_unit7.json',
+        'listening_intermediate_unit8.json',
+        'listening_intermediate_unit9.json',
+        'listening_intermediate_unit10.json'
+      ]
+    },
+    advanced: {
+      unit: [
+        'listening_advanced_unit1.json',
+        'listening_advanced_unit2.json',
+        'listening_advanced_unit3.json',
+        'listening_advanced_unit4.json',
+        'listening_advanced_unit5.json',
+        'listening_advanced_unit6.json',
+        'listening_advanced_unit7.json',
+        'listening_advanced_unit8.json',
+        'listening_advanced_unit9.json',
+        'listening_advanced_unit10.json'
+      ]
+    }
+  },
+  speaking: {
+    beginner: {
+      unit: [
+        'speaking_beginner_unit1.json',
+        'speaking_beginner_unit2.json',
+        'speaking_beginner_unit3.json',
+        'speaking_beginner_unit4.json',
+        'speaking_beginner_unit5.json',
+        'speaking_beginner_unit6.json',
+        'speaking_beginner_unit7.json',
+        'speaking_beginner_unit8.json',
+        'speaking_beginner_unit9.json',
+        'speaking_beginner_unit10.json'
+      ]
+    },
+    intermediate: {
+      unit: [
+        'speaking_intermediate_unit1.json',
+        'speaking_intermediate_unit2.json',
+        'speaking_intermediate_unit3.json',
+        'speaking_intermediate_unit4.json',
+        'speaking_intermediate_unit5.json',
+        'speaking_intermediate_unit6.json',
+        'speaking_intermediate_unit7.json',
+        'speaking_intermediate_unit8.json',
+        'speaking_intermediate_unit9.json',
+        'speaking_intermediate_unit10.json'
+      ]
+    },
+    advanced: {
+      unit: [
+        'speaking_advanced_unit1.json',
+        'speaking_advanced_unit2.json',
+        'speaking_advanced_unit3.json',
+        'speaking_advanced_unit4.json',
+        'speaking_advanced_unit5.json',
+        'speaking_advanced_unit6.json',
+        'speaking_advanced_unit7.json',
+        'speaking_advanced_unit8.json',
+        'speaking_advanced_unit9.json',
+        'speaking_advanced_unit10.json'
+      ]
+    }
+  }
+};
 
         // LLM API Key (留空，GitHub Pages 上部署需要您手动填入)
-        const apiKey = "";
+        const apiKey = "AIzaSyD7Tb_4ttDNI__kLiLgVyuZgCt-fcoQLCA";
         let speechSynth = window.speechSynthesis;
         let voicesLoaded = false;
 
@@ -1023,10 +1080,21 @@
         confirmBackBtn.addEventListener('click', goBack);
 
         confirmRoleContinueBtn.addEventListener('click', () => {
-            console.log('[Event] Confirm Role Continue button clicked.');
-            appState.viewHistory = []; // From confirm-role-view, always start a fresh history for selection
-            showView('selection-view');
-        });
+  console.log('[Event] Confirm Role Continue button clicked.');
+
+  if (appState.userRole === 'vip') {
+    // VIP 直接跳 expressions.json，并进入信息填写页
+    appState.selectedCategory = 'reading';
+    appState.selectedLevel = 'beginner';
+    appState.selectedContentType = 'past';
+    appState.selectedUnit = '';
+    handleFinalSelection(); // 直接加载词汇并跳转 info-view
+  } else {
+    // 班课学生按正常路径选择
+    appState.viewHistory = [];
+    showView('selection-view');
+  }
+});
 
         selectionBackBtn.addEventListener('click', goBack);
 
