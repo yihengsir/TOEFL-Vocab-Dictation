@@ -21,7 +21,6 @@
             overflow-y: auto;
         }
 
-        /* Styles for the main container wrapper */
         .main-container {
             background-color: #ffffff;
             border-radius: 1.5rem; /* Larger rounded corners */
@@ -309,7 +308,7 @@
 </head>
 <body>
     <div id="app-container" class="main-container">
-        <!-- 欢迎/角色选择视图 -->
+        <!-- Welcome/Role Selection View -->
         <div id="welcome-view" class="view">
             <h1 class="view-title">
                 TOEFL 词汇练习
@@ -319,7 +318,7 @@
             <button id="class-student-btn" class="btn-primary">我是班课学生</button>
         </div>
 
-        <!-- 身份确认视图 -->
+        <!-- Role Confirmation View -->
         <div id="confirm-role-view" class="view hidden">
             <button id="confirm-back-btn" class="btn-back">返回</button>
             <h2 class="view-title">
@@ -331,18 +330,18 @@
             <button id="confirm-role-continue-btn" class="btn-primary bg-purple-600 hover:bg-purple-700 focus:ring-purple-300">继续</button>
         </div>
 
-        <!-- 词库选择视图 -->
+        <!-- Vocabulary Selection View -->
         <div id="selection-view" class="view hidden">
             <button id="selection-back-btn" class="btn-back">返回</button>
             <h2 id="selection-title" class="view-title">
                 请选择分类
             </h2>
             <div id="selection-content" class="grid-layout grid-col-1-md-2">
-                <!-- 动态内容会填充在这里 -->
+                <!-- Dynamic content will be populated here -->
             </div>
         </div>
 
-        <!-- 学生信息填写视图 -->
+        <!-- Student Information Input View -->
         <div id="info-view" class="view hidden">
             <button id="info-back-btn" class="btn-back">返回</button>
             <h2 class="view-title">
@@ -353,10 +352,10 @@
             <button id="start-test-btn" class="btn-primary">开始测试</button>
         </div>
 
-        <!-- 听写测试视图 -->
+        <!-- Dictation Test View -->
         <div id="test-view" class="view hidden">
             <button id="test-back-btn" class="btn-back">返回</button>
-            <!-- 顶部的标题，与图二一致 -->
+            <!-- Top title, consistent with image -->
             <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
             <div class="flex flex-col gap-6 w-full">
                 <div id="question-display" class="quiz-question-display">
@@ -391,7 +390,7 @@
             </div>
         </div>
 
-        <!-- 测试结果视图 -->
+        <!-- Test Results View -->
         <div id="results-view" class="view hidden">
             <button id="results-back-btn" class="btn-back">返回</button>
             <h2 class="view-title">
@@ -412,12 +411,12 @@
     </div>
 
     <script type="module">
-        // Firebase 模块导入
+        // Firebase module imports
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-        // --- DOM 元素引用 ---
+        // --- DOM element references ---
         const appContainer = document.getElementById('app-container');
         const welcomeView = document.getElementById('welcome-view');
         const confirmRoleView = document.getElementById('confirm-role-view');
@@ -579,7 +578,7 @@
         };
 
         // LLM API Key (leave empty, Canvas runtime will automatically populate)
-        const geminiApiKey = "AIzaSyD7Tb_4ttDNI__kLiLgVyuZgCt-fcoQLCA"; // This will be automatically populated by Canvas runtime
+        const geminiApiKey = ""; // This will be automatically populated by Canvas runtime
 
         let speechSynth = window.speechSynthesis;
         let voicesLoaded = false;
@@ -953,12 +952,12 @@
             appState.incorrectAnswers = [];
             appState.testStartTime = new Date();
 
-            // Ensure test view UI elements are correctly visible
+            // Ensure test view UI elements are correctly visible at the start of a new test
             answerInput.classList.remove('hidden');
             getExampleBtn.classList.remove('hidden');
             checkAnswerBtn.classList.remove('hidden');
-            nextWordBtn.classList.add('hidden');
-            endTestBtn.classList.remove('hidden');
+            nextWordBtn.classList.add('hidden'); // Hide next button initially
+            endTestBtn.classList.remove('hidden'); // Ensure end test button is always visible during test
             feedbackMessage.classList.remove('hidden');
             exampleSentenceDisplay.classList.remove('hidden');
 
@@ -967,24 +966,43 @@
         }
 
         function loadQuestion() {
-            console.log(`[loadQuestion] Loading question ${appState.currentWordIndex + 1}...`);
+            console.log(`[loadQuestion] Loading question ${appState.currentWordIndex + 1} / ${appState.shuffledTestVocabulary.length}...`);
+
+            // Check if all unique words in the shuffled list have been presented
             if (appState.currentWordIndex >= appState.shuffledTestVocabulary.length) {
-                appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
-                appState.currentWordIndex = 0;
-                console.log('[loadQuestion] Reached end of vocabulary, reshuffling and restarting.');
+                // All words completed for this shuffled session
+                questionDisplay.textContent = '已完成全部词汇测验！';
+                answerInput.value = ''; // Clear input
+                answerInput.classList.add('hidden'); // Hide input
+                answerInput.readOnly = true; // Make sure it's read-only
+                feedbackMessage.textContent = '请点击 "结束测试" 查看结果。';
+                feedbackMessage.classList.remove('text-green-600', 'text-red-600');
+                exampleSentenceDisplay.textContent = ''; // Clear example
+                exampleSentenceDisplay.classList.add('hidden'); // Hide example display
+                getExampleBtn.classList.add('hidden'); // Hide example button
+                checkAnswerBtn.classList.add('hidden'); // Hide check button
+                nextWordBtn.classList.add('hidden'); // Hide next button
+                // endTestBtn is already visible in initializeTestLogic and should remain so
+
+                console.log('[loadQuestion] All vocabulary completed. Prompting user to end test.');
+                return; // Stop loading new questions
             }
 
+            // Normal loading of a question
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
             questionDisplay.textContent = currentPair.chinese;
             answerInput.value = '';
-            answerInput.classList.remove('feedback-correct', 'feedback-incorrect');
+            // Ensure input is visible and active for new question
+            answerInput.classList.remove('feedback-correct', 'feedback-incorrect', 'hidden');
             answerInput.readOnly = false;
             answerInput.focus();
             feedbackMessage.textContent = '';
             feedbackMessage.classList.remove('text-green-600', 'text-red-600');
-            nextWordBtn.classList.add('hidden');
-            checkAnswerBtn.classList.remove('hidden');
-            exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文';
+            nextWordBtn.classList.add('hidden'); // Hide next button until answered
+            checkAnswerBtn.classList.remove('hidden'); // Show check button
+            getExampleBtn.classList.remove('hidden'); // Ensure get example button is visible
+            exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文'; // Reset example sentence
+            exampleSentenceDisplay.classList.remove('hidden'); // Ensure example display is visible
             getExampleBtn.disabled = false;
             console.log(`[loadQuestion] Displaying Chinese: "${currentPair.chinese}"`);
         }
@@ -1020,9 +1038,12 @@
                 console.log(`[checkCurrentAnswer] Answer incorrect. Correct: "${correctEnglish}", Typed: "${typedAnswer}"`);
             }
 
-            checkAnswerBtn.classList.add('hidden');
-            nextWordBtn.classList.remove('hidden');
-            console.log('[checkCurrentAnswer] Answer checked. Ready for next word.');
+            checkAnswerBtn.classList.add('hidden'); // Hide check button
+            // Only show next word button if not all words are completed
+            if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
+                nextWordBtn.classList.remove('hidden');
+            }
+            console.log('[checkCurrentAnswer] Answer checked. Ready for next word or end test.');
         }
 
         function nextWord() {
