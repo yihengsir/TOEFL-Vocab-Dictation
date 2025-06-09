@@ -282,6 +282,7 @@
             transition-duration: 200ms;
         }
         .quiz-input-field:focus {
+            outline: none;
             border-color: #3b82f6; /* focus:border-blue-500 */
             box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus:ring-2 focus:ring-blue-200 */
         }
@@ -567,32 +568,32 @@
         const vocabStructure = {
             reading: {
                 beginner: {
-                    unit: Array.from({length: 10}, (_, i) => `reading_beginner_unit${i + 1}.json`),
-                    past: 'expressions.json' // VIP student test
+                    unit: Array.from({length: 10}, (_, i) => `data/reading_beginner_unit${i + 1}.json`),
+                    past: 'data/expressions.json' // VIP student test
                 },
                 intermediate: {
-                    unit: Array.from({length: 10}, (_, i) => `reading_intermediate_unit${i + 1}.json`),
+                    unit: Array.from({length: 10}, (_, i) => `data/reading_intermediate_unit${i + 1}.json`),
                     past: null // No past content file here
                 },
                 advanced: {
-                    unit: Array.from({length: 10}, (_, i) => `reading_advanced_unit${i + 1}.json`),
+                    unit: Array.from({length: 10}, (_, i) => `data/reading_advanced_unit${i + 1}.json`),
                     past: null // No past content file here
                 }
             },
             listening: {
-                beginner: { unit: Array.from({length: 10}, (_, i) => `listening_beginner_unit${i + 1}.json`), past: null },
-                intermediate: { unit: Array.from({length: 10}, (_, i) => `listening_intermediate_unit${i + 1}.json`), past: null },
-                advanced: { unit: Array.from({length: 10}, (_, i) => `listening_advanced_unit${i + 1}.json`), past: null }
+                beginner: { unit: Array.from({length: 10}, (_, i) => `data/listening_beginner_unit${i + 1}.json`), past: null },
+                intermediate: { unit: Array.from({length: 10}, (_, i) => `data/listening_intermediate_unit${i + 1}.json`), past: null },
+                advanced: { unit: Array.from({length: 10}, (_, i) => `data/listening_advanced_unit${i + 1}.json`), past: null }
             },
             speaking: {
-                beginner: { unit: Array.from({length: 10}, (_, i) => `speaking_beginner_unit${i + 1}.json`), past: null },
-                intermediate: { unit: Array.from({length: 10}, (_, i) => `speaking_intermediate_unit${i + 1}.json`), past: null },
-                advanced: { unit: Array.from({length: 10}, (_, i) => `speaking_advanced_unit${i + 1}.json`), past: null }
+                beginner: { unit: Array.from({length: 10}, (_, i) => `data/speaking_beginner_unit${i + 1}.json`), past: null },
+                intermediate: { unit: Array.from({length: 10}, (_, i) => `data/speaking_intermediate_unit${i + 1}.json`), past: null },
+                advanced: { unit: Array.from({length: 10}, (_, i) => `data/speaking_advanced_unit${i + 1}.json`), past: null }
             },
             writing: {
-                beginner: { unit: Array.from({length: 1}, (_, i) => `writing_beginner_unit${i + 1}.json`), past: null }, // Assuming only one unit
-                intermediate: { unit: Array.from({length: 1}, (_, i) => `writing_intermediate_unit${i + 1}.json`), past: null }, // Assuming only one unit
-                advanced: { unit: Array.from({length: 1}, (_, i) => `writing_advanced_unit${i + 1}.json`), past: null } // Assuming only one unit
+                beginner: { unit: Array.from({length: 1}, (_, i) => `data/writing_beginner_unit${i + 1}.json`), past: null }, // Assuming only one unit
+                intermediate: { unit: Array.from({length: 1}, (_, i) => `data/writing_intermediate_unit${i + 1}.json`), past: null }, // Assuming only one unit
+                advanced: { unit: Array.from({length: 1}, (_, i) => `data/writing_advanced_unit${i + 1}.json`), past: null } // Assuming only one unit
             }
         };
 
@@ -638,7 +639,10 @@
         function renderViewContent(viewId) {
             console.log(`[renderViewContent] Rendering content for view: ${viewId}`);
             // Clear classes from selectionContent, reset on each render
-            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
+            if (selectionContent) { // Check if selectionContent exists before manipulating
+                selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
+            }
+
 
             switch (viewId) {
                 case 'welcome-view':
@@ -913,7 +917,7 @@
             } else { // 'past'
                 jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
             }
-            const jsonPath = `data/${jsonFileName}`;
+            const jsonPath = `${jsonFileName}`; // jsonPath is already constructed to include "data/" prefix in vocabStructure
             console.log(`[handleFinalSelection] Attempting to load JSON from: ${jsonPath}`);
 
             selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
@@ -1009,7 +1013,26 @@
 
             // Normal loading of a question
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
-            questionDisplay.textContent = currentPair.chinese;
+            
+            // --- Part of Speech (POS) hint ---
+            let chineseDisplay = currentPair.chinese;
+            if (currentPair.pos) { // Check if 'pos' field exists in the vocabulary item
+                chineseDisplay += ` (${currentPair.pos})`;
+            }
+            questionDisplay.textContent = chineseDisplay;
+
+            // --- First-letter hint for phrases ---
+            let placeholderText = "在此输入英文词汇或短语...";
+            if (currentPair.english.includes(' ')) { // It's a phrase if it contains spaces
+                placeholderText = currentPair.english.split(' ').map(word => {
+                    if (word.length > 0) {
+                        return word[0] + '_'.repeat(word.length - 1);
+                    }
+                    return '';
+                }).join(' ');
+            }
+            answerInput.placeholder = placeholderText;
+
             answerInput.value = '';
             // Ensure input is visible and active for new question
             answerInput.classList.remove('feedback-correct', 'feedback-incorrect', 'hidden');
