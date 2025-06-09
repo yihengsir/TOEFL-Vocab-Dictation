@@ -1,42 +1,258 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "味道；滋味",
+    "english": "flavor",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "零食",
+    "english": "snack",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "社交",
+    "english": "socialize",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "英格兰松饼",
+    "english": "muffin",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "翻修",
+    "english": "renovation",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "反对",
+    "english": "disagree",
+    ""
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "定金",
+    "english": "deposit",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "单车",
+    "english": "bicycle",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "方便的",
+    "english": "convenient",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "健身房",
+    "english": "gym",
+    "pos": "n."
+  },
+  {
+    "chinese": "内容",
+    "english": "content",
+    "pos": "n."
+  },
+  {
+    "chinese": "设备",
+    "english": "device",
+    "pos": "n."
+  },
+  {
+    "chinese": "有效的",
+    "english": "effective",
+    "pos": "adj."
+  },
+  {
+    "chinese": "电子的",
+    "english": "electronic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "此外；而且；再者",
+    "english": "furthermore",
+    "pos": "adv."
+  },
+  {
+    "chinese": "高光",
+    "english": "highlighting",
+    "pos": "v."
+  },
+  {
+    "chinese": "文本",
+    "english": "text",
+    "pos": "n."
+  },
+  {
+    "chinese": "管理人；经理",
+    "english": "manager",
+    "pos": "n."
+  },
+  {
+    "chinese": "最近地",
+    "english": "recently",
+    "pos": "adv."
+  },
+  {
+    "chinese": "改善，改进之处",
+    "english": "improvement",
+    "pos": "n."
+  },
+  {
+    "chinese": "质量",
+    "english": "quality",
+    "pos": "n."
+  },
+  {
+    "chinese": "有利于健康的",
+    "english": "healthful",
+    "pos": "adj."
+  },
+  {
+    "chinese": "一段时期",
+    "english": "period",
+    "pos": "n."
+  },
+  {
+    "chinese": "最大限度的",
+    "english": "maximum",
+    "pos": "adj."
+  },
+  {
+    "chinese": "辨认",
+    "english": "identification",
+    "pos": "n."
+  },
+  {
+    "chinese": "建议",
+    "english": "suggestion",
+    "pos": "n."
+  },
+  {
+    "chinese": "基本上",
+    "english": "basically",
+    "pos": "adv."
+  },
+  {
+    "chinese": "夜间",
+    "english": "nighttime",
+    "pos": "n."
+  },
+  {
+    "chinese": "切实可行的",
+    "english": "practical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "转换",
+    "english": "switch",
+    "pos": "v."
+  },
+  {
+    "chinese": "内容",
+    "english": "content",
+    "pos": "n."
+  },
+  {
+    "chinese": "屏幕",
+    "english": "screen",
+    "pos": "n."
+  },
+  {
+    "chinese": "材料",
+    "english": "material",
+    "pos": "n."
+  },
+  {
+    "chinese": "定期的，规律的",
+    "english": "regular",
+    "pos": "adj."
+  },
+  {
+    "chinese": "帮助，援助",
+    "english": "aid",
+    "pos": "n."
+  },
+  {
+    "chinese": "运转",
+    "english": "operate",
+    "pos": "v."
+  },
+  {
+    "chinese": "特点",
+    "english": "feature",
+    "pos": "n."
+  },
+  {
+    "chinese": "笔记，随手记",
+    "english": "note-taking",
+    "pos": "n."
+  },
+  {
+    "chinese": "务实的",
+    "english": "realistic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "华丽的",
+    "english": "fancy",
+    "pos": "adj."
+  },
+  {
+    "chinese": "取代",
+    "english": "replace",
+    "pos": "v."
+  },
+  {
+    "chinese": "按键",
+    "english": "keypad",
+    "pos": "n."
+  },
+  {
+    "chinese": "按钮",
+    "english": "button",
+    "pos": "n."
+  },
+  {
+    "chinese": "工作，运转",
+    "english": "function",
+    "pos": "v."
+  },
+  {
+    "chinese": "在...划下划线",
+    "english": "underlining",
+    "pos": "v."
+  },
+  {
+    "chinese": "过时的",
+    "english": "old-fashioned",
+    "pos": "adj."
+  },
+  {
+    "chinese": "音节",
+    "english": "syllable",
+    "pos": "n."
+  },
+  {
+    "chinese": "无压力的",
+    "english": "unstressed",
+    "pos": "adj."
+  },
+  {
+    "chinese": "隔离",
+    "english": "isolation",
+    "pos": "n."
+  },
+  {
+    "chinese": "语音的",
+    "english": "phonetic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "节奏，韵律",
+    "english": "rhythm",
+    "pos": "n."
   }
 ]
