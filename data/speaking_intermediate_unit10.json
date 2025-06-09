@@ -1,42 +1,232 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "集中，集中注意力",
+    "english": "focus",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "正当的，合乎情理的",
+    "english": "justified",
+    "pos": "adj."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "任务",
+    "english": "task",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "更可取的",
+    "english": "preferable",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "通识课程",
+    "english": "general education courses",
+    "pos": "phrase"
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "化学",
+    "english": "chemistry",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "方法，方法论",
+    "english": "methodology",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "文学",
+    "english": "literature",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "分析",
+    "english": "analysis",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "核心",
+    "english": "core",
+    "pos": "n."
+  },
+  {
+    "chinese": "论文，散文",
+    "english": "essay",
+    "pos": "n."
+  },
+  {
+    "chinese": "跳过",
+    "english": "skip",
+    "pos": "v."
+  },
+  {
+    "chinese": "学费",
+    "english": "tuition",
+    "pos": "n."
+  },
+  {
+    "chinese": "省略",
+    "english": "omit",
+    "pos": "v."
+  },
+  {
+    "chinese": "毕业典礼",
+    "english": "graduation",
+    "pos": "n."
+  },
+  {
+    "chinese": "出现，产生",
+    "english": "arise",
+    "pos": "v."
+  },
+  {
+    "chinese": "专家",
+    "english": "expert",
+    "pos": "n."
+  },
+  {
+    "chinese": "应用，申请",
+    "english": "apply",
+    "pos": "v."
+  },
+  {
+    "chinese": "方法/接近",
+    "english": "approach",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "参加，出席",
+    "english": "attend",
+    "pos": "v."
+  },
+  {
+    "chinese": "职业",
+    "english": "career",
+    "pos": "n."
+  },
+  {
+    "chinese": "常见的，普通的",
+    "english": "common",
+    "pos": "adj."
+  },
+  {
+    "chinese": "发展，开发",
+    "english": "develop",
+    "pos": "v."
+  },
+  {
+    "chinese": "讨论",
+    "english": "discussion",
+    "pos": "n."
+  },
+  {
+    "chinese": "完全地，彻底地",
+    "english": "entirely",
+    "pos": "adv."
+  },
+  {
+    "chinese": "改进，提高",
+    "english": "improve",
+    "pos": "v."
+  },
+  {
+    "chinese": "实例，情况",
+    "english": "instance",
+    "pos": "n."
+  },
+  {
+    "chinese": "知识",
+    "english": "knowledge",
+    "pos": "n."
+  },
+  {
+    "chinese": "紧张的，焦虑的",
+    "english": "nervous",
+    "pos": "adj."
+  },
+  {
+    "chinese": "意见，看法",
+    "english": "opinion",
+    "pos": "n."
+  },
+  {
+    "chinese": "组织",
+    "english": "organize",
+    "pos": "v."
+  },
+  {
+    "chinese": "实际的，实用的",
+    "english": "practical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "多产的，富有成效的",
+    "english": "productive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "项目",
+    "english": "project",
+    "pos": "n."
+  },
+  {
+    "chinese": "提供",
+    "english": "provide",
+    "pos": "v."
+  },
+  {
+    "chinese": "减少，降低",
+    "english": "reduce",
+    "pos": "v."
+  },
+  {
+    "chinese": "研究/调查",
+    "english": "research",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "时间表/安排",
+    "english": "schedule",
+    "pos": "n."
+  },
+  {
+    "chinese": "使锋利，增强",
+    "english": "sharpen",
+    "pos": "v."
+  },
+  {
+    "chinese": "技能，技巧",
+    "english": "skill",
+    "pos": "n."
+  },
+  {
+    "chinese": "具体的，特定的",
+    "english": "specific",
+    "pos": "adj."
+  },
+  {
+    "chinese": "压力/强调",
+    "english": "stress",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "斗争/奋斗",
+    "english": "struggle",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "话题",
+    "english": "topic",
+    "pos": "n."
+  },
+  {
+    "chinese": "沮丧的",
+    "english": "upset",
+    "pos": "adj."
+  },
+  {
+    "chinese": "方法论",
+    "english": "methodology",
+    "pos": "n."
   }
 ]
