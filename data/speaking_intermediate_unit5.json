@@ -1,42 +1,287 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "侵略的，侵略性的",
+    "english": "aggressive",
+    "pos": "adj."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "出现，发生，发展",
+    "english": "arise",
+    "pos": "v."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "争斗的",
+    "english": "agonistic",
+    "pos": "adj."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "冲突",
+    "english": "conflict",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "示范",
+    "english": "demonstrate",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "参与",
+    "english": "participate",
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "解决",
+    "english": "resolve",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "资源",
+    "english": "resource",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "领地",
+    "english": "territory",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "投降",
+    "english": "surrender",
+    "pos": "v."
+  },
+  {
+    "chinese": "分散，散开",
+    "english": "scatter",
+    "pos": "v."
+  },
+  {
+    "chinese": "散落",
+    "english": "scatter",
+    "pos": "n."
+  },
+  {
+    "chinese": "不像，与…不同",
+    "english": "unlike",
+    "pos": "prep"
+  },
+  {
+    "chinese": "稀少的",
+    "english": "scarce",
+    "pos": "adj."
+  },
+  {
+    "chinese": "几乎不",
+    "english": "scarce",
+    "pos": "adv."
+  },
+  {
+    "chinese": "相互冲突的",
+    "english": "competing",
+    "pos": "adj."
+  },
+  {
+    "chinese": "竞争，对抗 (compete的-ing形式)",
+    "english": "competing",
+    "pos": "v."
+  },
+  {
+    "chinese": "因素",
+    "english": "factor",
+    "pos": "n."
+  },
+  {
+    "chinese": "昆虫",
+    "english": "insect",
+    "pos": "n."
+  },
+  {
+    "chinese": "生物，微生物，有机体",
+    "english": "organism",
+    "pos": "n."
+  },
+  {
+    "chinese": "捕食者（动物）",
+    "english": "predator",
+    "pos": "n."
+  },
+  {
+    "chinese": "生物的",
+    "english": "biotic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "非生物的",
+    "english": "abiotic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "无生命的",
+    "english": "nonliving",
+    "pos": "adj."
+  },
+  {
+    "chinese": "生物学",
+    "english": "biology",
+    "pos": "n."
+  },
+  {
+    "chinese": "观察",
+    "english": "observe",
+    "pos": "v."
+  },
+  {
+    "chinese": "蛇",
+    "english": "snake",
+    "pos": "n."
+  },
+  {
+    "chinese": "目击",
+    "english": "witness",
+    "pos": "v."
+  },
+  {
+    "chinese": "格格作响",
+    "english": "rattle",
+    "pos": "v."
+  },
+  {
+    "chinese": "响尾蛇",
+    "english": "rattlesnake",
+    "pos": "n."
+  },
+  {
+    "chinese": "多样的",
+    "english": "various",
+    "pos": "adj."
+  },
+  {
+    "chinese": "洞穴",
+    "english": "burrow",
+    "pos": "n."
+  },
+  {
+    "chinese": "直立的",
+    "english": "upright",
+    "pos": "adj."
+  },
+  {
+    "chinese": "摔跤",
+    "english": "wrestle",
+    "pos": "v."
+  },
+  {
+    "chinese": "获得",
+    "english": "gain",
+    "pos": "v."
+  },
+  {
+    "chinese": "铲",
+    "english": "shove",
+    "pos": "v."
+  },
+  {
+    "chinese": "移动",
+    "english": "maneuver",
+    "pos": "v."
+  },
+  {
+    "chinese": "（两者）都不",
+    "english": "neither",
+    "pos": "adj."
+  },
+  {
+    "chinese": "咬",
+    "english": "bite",
+    "pos": "v."
+  },
+  {
+    "chinese": "伤害",
+    "english": "injure",
+    "pos": "v."
+  },
+  {
+    "chinese": "释放",
+    "english": "release",
+    "pos": "v."
+  },
+  {
+    "chinese": "例子",
+    "english": "example",
+    "pos": "n."
+  },
+  {
+    "chinese": "物种",
+    "english": "species",
+    "pos": "n."
+  },
+  {
+    "chinese": "松鼠",
+    "english": "squirrel",
+    "pos": "n."
+  },
+  {
+    "chinese": "主要的",
+    "english": "primary",
+    "pos": "adj."
+  },
+  {
+    "chinese": "保存",
+    "english": "preserve",
+    "pos": "v."
+  },
+  {
+    "chinese": "埋",
+    "english": "bury",
+    "pos": "v."
+  },
+  {
+    "chinese": "存活",
+    "english": "survive",
+    "pos": "v."
+  },
+  {
+    "chinese": "猫头鹰",
+    "english": "owl",
+    "pos": "n."
+  },
+  {
+    "chinese": "老鼠（复数）",
+    "english": "mice",
+    "pos": "n."
+  },
+  {
+    "chinese": "繁殖",
+    "english": "reproduce",
+    "pos": "v."
+  },
+  {
+    "chinese": "持续",
+    "english": "last",
+    "pos": "v."
+  },
+  {
+    "chinese": "季节",
+    "english": "season",
+    "pos": "n."
+  },
+  {
+    "chinese": "生殖的",
+    "english": "reproductive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "一窝幼崽",
+    "english": "litter",
+    "pos": "n."
+  },
+  {
+    "chinese": "增加",
+    "english": "increase",
+    "pos": "v."
+  },
+  {
+    "chinese": "循环",
+    "english": "cycle",
+    "pos": "n."
   }
 ]
