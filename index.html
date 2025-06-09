@@ -334,11 +334,13 @@
                 }
             },
             listening: {
-                beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json'], past: 'listening_beginner_past.json' },
-                intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json'], past: 'listening_intermediate_past.json' },
-                advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json'], past: 'listening_advanced_past.json' }
+                // Corrected to include 10 units based on user's actual files
+                beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json', 'listening_beginner_unit4.json', 'listening_beginner_unit5.json', 'listening_beginner_unit6.json', 'listening_beginner_unit7.json', 'listening_beginner_unit8.json', 'listening_beginner_unit9.json', 'listening_beginner_unit10.json'], past: 'listening_beginner_past.json' },
+                intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json', 'listening_intermediate_unit4.json', 'listening_intermediate_unit5.json', 'listening_intermediate_unit6.json', 'listening_intermediate_unit7.json', 'listening_intermediate_unit8.json', 'listening_intermediate_unit9.json', 'listening_intermediate_unit10.json'], past: 'listening_intermediate_past.json' },
+                advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json', 'listening_advanced_unit4.json', 'listening_advanced_unit5.json', 'listening_advanced_unit6.json', 'listening_advanced_unit7.json', 'listening_advanced_unit8.json', 'listening_advanced_unit9.json', 'listening_advanced_unit10.json'], past: 'listening_advanced_past.json' }
             },
-            speaking: { // 假设听力和口语有10个单元，这里仅作为示例，您可以根据实际json文件数量调整
+            speaking: {
+                // Already assumed 10 units for speaking, confirmed by user's screenshot
                 beginner: { unit: ['speaking_beginner_unit1.json', 'speaking_beginner_unit2.json', 'speaking_beginner_unit3.json', 'speaking_beginner_unit4.json', 'speaking_beginner_unit5.json', 'speaking_beginner_unit6.json', 'speaking_beginner_unit7.json', 'speaking_beginner_unit8.json', 'speaking_beginner_unit9.json', 'speaking_beginner_unit10.json'], past: 'speaking_beginner_past.json' },
                 intermediate: { unit: ['speaking_intermediate_unit1.json', 'speaking_intermediate_unit2.json', 'speaking_intermediate_unit3.json', 'speaking_intermediate_unit4.json', 'speaking_intermediate_unit5.json', 'speaking_intermediate_unit6.json', 'speaking_intermediate_unit7.json', 'speaking_intermediate_unit8.json', 'speaking_intermediate_unit9.json', 'speaking_intermediate_unit10.json'], past: 'speaking_intermediate_past.json' },
                 advanced: { unit: ['speaking_advanced_unit1.json', 'speaking_advanced_unit2.json', 'speaking_advanced_unit3.json', 'speaking_advanced_unit4.json', 'speaking_advanced_unit5.json', 'speaking_advanced_unit6.json', 'speaking_advanced_unit7.json', 'speaking_advanced_unit8.json', 'speaking_advanced_unit9.json', 'speaking_advanced_unit10.json'], past: 'speaking_advanced_past.json' }
@@ -663,10 +665,14 @@
         }
 
         // --- 听写测试核心逻辑 (从旧版本复制并集成) ---
-        let currentWordIndex = 0; // 内部索引，因为 appState.currentWordIndex 也是同步的
-        let correctAnswersCount = 0; // 内部计数，因为 appState.correctAnswersCount 也是同步的
-        let questionsAttempted = 0; // 内部计数，因为 appState.questionsAttempted 也是同步的
-        let incorrectAnswers = []; // 内部数组，因为 appState.incorrectAnswers 也是同步的
+        // These are global variables that are implicitly used by the functions below.
+        // They are now synchronized with appState, so the internal variables are not strictly needed,
+        // but keeping them as local scope or removing them explicitly would require more refactoring
+        // For simplicity and avoiding immediate bugs from refactoring, they are kept as comments
+        // let currentWordIndex = 0;
+        // let correctAnswersCount = 0;
+        // let questionsAttempted = 0;
+        // let incorrectAnswers = [];
 
 
         function initializeTestLogic() {
