@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEFL 词汇测试 - 词库选择</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for speaker icon (if needed later) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Base styles and utility classes */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #eef2f6; /* 更柔和的背景色 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1.5rem; /* 增加整体内边距 */
+            overflow-y: auto;
+        }
+
+        .main-container {
+            background-color: #ffffff;
+            border-radius: 1.5rem; /* 更大的圆角 */
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* 更明显的阴影 */
+            padding: 2.5rem 3rem; /* 增加内边距 */
+            width: 100%;
+            max-width: 800px; /* 适当增加最大宽度 */
+            display: flex;
+            flex-direction: column;
+            gap: 2rem; /* 增加模块间距 */
+            text-align: center;
+            position: relative; /* 用于返回按钮的定位 */
+        }
+
+        /* 所有视图共享的样式 */
+        .view {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.5rem; /* 视图内部元素间距 */
+        }
+
+        /* 标题样式 */
+        .view-title {
+            @apply text-3xl md:text-4xl font-extrabold text-gray-800 mb-6; /* 更深的颜色，更粗的字体 */
+        }
+
+        /* 主要按钮样式 */
+        .btn-primary {
+            @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 w-2/3 md:w-1/2 mx-auto;
+            letter-spacing: 0.05em; /* 增加字母间距 */
+        }
+
+        /* 次要按钮/选择项样式 (卡片化) */
+        .btn-selection-item {
+            @apply bg-white border border-gray-200 text-gray-800 font-semibold py-4 px-6 rounded-xl shadow-md cursor-pointer transition duration-200 hover:bg-gray-50 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400;
+            text-align: center;
+            min-height: 80px; /* 确保按钮有足够高度，内容不会太挤 */
+            display: flex; /* 使用flex布局让内容垂直居中 */
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-selection-item-selected {
+            @apply bg-blue-500 text-white border-blue-500 shadow-xl ring-2 ring-blue-300;
+        }
+        .btn-selection-item-selected:hover {
+             @apply bg-blue-600; /* 选中状态下 hover 颜色稍微变深 */
+        }
+
+        /* 返回按钮样式 */
+        .btn-back {
+            @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-full shadow-md transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gray-200 absolute top-6 left-6 z-10;
+        }
+
+        /* 隐藏类 */
+        .hidden {
+            display: none !important;
+        }
+
+        /* 不同的选择网格布局 */
+        .grid-layout {
+            @apply grid gap-4 w-full; /* 基础网格间距 */
+        }
+        .grid-col-1-md-2 {
+            @apply grid-cols-1 md:grid-cols-2;
+        }
+        .grid-col-2-md-3 {
+            @apply grid-cols-2 md:grid-cols-3;
+        }
+        .grid-col-3-md-5 {
+            @apply grid-cols-3 md:grid-cols-5;
+        }
+
+        /* 额外优化：输入框样式 */
+        .input-field {
+            @apply block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm text-lg text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-container" class="main-container">
+        <!-- 欢迎/角色选择视图 -->
+        <div id="welcome-view" class="view">
+            <h1 class="view-title">
+                TOEFL 词汇练习
+            </h1>
+            <p class="text-xl text-gray-700 mb-8">请选择您的身份：</p>
+            <button id="vip-student-btn" class="btn-primary">我是 VIP 学生</button>
+            <button id="class-student-btn" class="btn-primary">我是班课学生</button>
+        </div>
+
+        <!-- 身份确认视图 -->
+        <div id="confirm-role-view" class="view hidden">
+            <button id="confirm-back-btn" class="btn-back">返回</button>
+            <h2 class="view-title">
+                确认您的身份
+            </h2>
+            <p id="confirm-role-text" class="text-xl text-purple-700 font-semibold mb-8">
+                您已选择：<span id="confirmed-role"></span>
+            </p>
+            <button id="confirm-role-continue-btn" class="btn-primary bg-purple-600 hover:bg-purple-700 focus:ring-purple-300">继续</button>
+        </div>
+
+        <!-- 词库选择视图 -->
+        <div id="selection-view" class="view hidden">
+            <button id="selection-back-btn" class="btn-back">返回</button>
+            <h2 id="selection-title" class="view-title">
+                请选择分类
+            </h2>
+            <div id="selection-content" class="grid-layout grid-col-1-md-2">
+                <!-- 动态内容会填充在这里 -->
+            </div>
+        </div>
+
+        <!-- 学生信息填写视图 (Placeholder for future step) -->
+        <div id="info-view" class="view hidden">
+            <button id="info-back-btn" class="btn-back">返回</button>
+            <h2 class="view-title">
+                填写学生信息
+            </h2>
+            <input type="text" id="student-name-input" class="input-field mb-4" placeholder="请输入您的姓名" />
+            <input type="text" id="student-class-input" class="input-field mb-6 hidden" placeholder="请输入您的班级 (班课学生)" />
+            <button id="start-test-btn" class="btn-primary">开始测试</button>
+        </div>
+
+        <!-- 听写测试视图 (Placeholder for future step) -->
+        <div id="test-view" class="view hidden">
+            <button id="test-back-btn" class="btn-back">返回</button>
+            <h2 class="view-title">
+                听写测试
+            </h2>
+            <p class="text-xl text-gray-600">测试内容会在这里加载...</p>
+            <button id="test-end-btn" class="btn-primary mt-8">结束测试</button>
+        </div>
+
+        <!-- 测试结果视图 (Placeholder for future step) -->
+        <div id="results-view" class="view hidden">
+            <button id="results-back-btn" class="btn-back">返回</button>
+            <h2 class="view-title">
+                测试结果
+            </h2>
+            <p class="text-xl text-gray-600">结果会在这里显示...</p>
+            <button id="results-restart-btn" class="btn-primary mt-8">重新开始</button>
+        </div>
+    </div>
+
+    <script>
+        // --- DOM 元素引用 ---
+        const appContainer = document.getElementById('app-container');
+        const welcomeView = document.getElementById('welcome-view');
+        const confirmRoleView = document.getElementById('confirm-role-view');
+        const selectionView = document.getElementById('selection-view');
+        const infoView = document.getElementById('info-view');
+        const testView = document.getElementById('test-view');
+        const resultsView = document.getElementById('results-view');
+
+        const vipStudentBtn = document.getElementById('vip-student-btn');
+        const classStudentBtn = document.getElementById('class-student-btn');
+
+        const confirmBackBtn = document.getElementById('confirm-back-btn');
+        const confirmedRoleSpan = document.getElementById('confirmed-role');
+        const confirmRoleContinueBtn = document.getElementById('confirm-role-continue-btn');
+
+        const selectionBackBtn = document.getElementById('selection-back-btn');
+        const selectionTitle = document.getElementById('selection-title');
+        const selectionContent = document.getElementById('selection-content');
+
+        const studentNameInput = document.getElementById('student-name-input');
+        const studentClassInput = document.getElementById('student-class-input');
+        const startTestBtn = document.getElementById('start-test-btn');
+        const infoBackBtn = document.getElementById('info-back-btn');
+
+        // --- 全局应用状态 ---
+        const appState = {
+            currentView: 'welcome-view', // 当前显示的视图ID
+            userRole: '', // 'vip' 或 'class'
+            selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing'
+            selectedLevel: '',    // 'beginner', 'intermediate', 'advanced'
+            selectedContentType: '',  // 'unit' 或 'past'
+            selectedUnit: '',     // 'unit1' 到 'unit10'
+            studentName: '',
+            studentClass: '',
+            viewHistory: [], // 用于追踪视图历史，方便返回
+            currentTestVocabulary: [], // 新增：用于存储当前测试的词汇数据
+        };
+
+        // --- 模拟词库结构（用于驱动选择界面，并指向实际的JSON文件路径） ---
+        // 假设您的词库文件都放在 'data/' 目录下
+        // 命名规则: [category]_[level]_[contentType][unit].json 或 [category]_[level]_[contentType].json
+        const vocabStructure = {
+            reading: {
+                beginner: {
+                    unit: ['reading_beginner_unit1.json', 'reading_beginner_unit2.json', 'reading_beginner_unit3.json', 'reading_beginner_unit4.json', 'reading_beginner_unit5.json', 'reading_beginner_unit6.json', 'reading_beginner_unit7.json', 'reading_beginner_unit8.json', 'reading_beginner_unit9.json', 'reading_beginner_unit10.json'],
+                    past: 'reading_beginner_past.json'
+                },
+                intermediate: {
+                    unit: ['reading_intermediate_unit1.json', 'reading_intermediate_unit2.json', 'reading_intermediate_unit3.json', 'reading_intermediate_unit4.json', 'reading_intermediate_unit5.json', 'reading_intermediate_unit6.json', 'reading_intermediate_unit7.json', 'reading_intermediate_unit8.json', 'reading_intermediate_unit9.json', 'reading_intermediate_unit10.json'],
+                    past: 'reading_intermediate_past.json'
+                },
+                advanced: {
+                    unit: ['reading_advanced_unit1.json', 'reading_advanced_unit2.json', 'reading_advanced_unit3.json', 'reading_advanced_unit4.json', 'reading_advanced_unit5.json', 'reading_advanced_unit6.json', 'reading_advanced_unit7.json', 'reading_advanced_unit8.json', 'reading_advanced_unit9.json', 'reading_advanced_unit10.json'],
+                    past: 'reading_advanced_past.json'
+                }
+            },
+            listening: {
+                beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json'], past: 'listening_beginner_past.json' },
+                intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json'], past: 'listening_intermediate_past.json' },
+                advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json'], past: 'listening_advanced_past.json' }
+            },
+            speaking: {
+                beginner: { unit: ['speaking_beginner_unit1.json', 'speaking_beginner_unit2.json'], past: 'speaking_beginner_past.json' },
+                intermediate: { unit: ['speaking_intermediate_unit1.json', 'speaking_intermediate_unit2.json'], past: 'speaking_intermediate_past.json' },
+                advanced: { unit: ['speaking_advanced_unit1.json', 'speaking_advanced_unit2.json'], past: 'speaking_advanced_past.json' }
+            },
+            writing: {
+                beginner: { unit: ['writing_beginner_unit1.json'], past: 'writing_beginner_past.json' },
+                intermediate: { unit: ['writing_intermediate_unit1.json'], past: 'writing_intermediate_past.json' },
+                advanced: { unit: ['writing_advanced_unit1.json'], past: 'writing_advanced_past.json' }
+            }
+        };
+
+        // LLM API Key (留空，GitHub Pages 上部署需要您手动填入)
+        const apiKey = "";
+        let speechSynth = window.speechSynthesis;
+        let voicesLoaded = false;
+
+
+        // --- 核心视图管理函数 ---
+        /**
+         * 切换到指定视图，并更新视图历史。
+         * @param {string} viewId - 要显示的视图的ID。
+         * @param {boolean} [pushToHistory=true] - 是否将当前视图推入历史栈。
+         */
+        function showView(viewId, pushToHistory = true) {
+            // 隐藏所有视图
+            document.querySelectorAll('.view').forEach(view => {
+                view.classList.add('hidden');
+            });
+
+            // 显示目标视图
+            document.getElementById(viewId).classList.remove('hidden');
+
+            // 更新历史记录
+            if (pushToHistory && appState.currentView !== viewId) { // 避免重复添加当前视图
+                appState.viewHistory.push(appState.currentView);
+            }
+            appState.currentView = viewId;
+
+            // 根据视图渲染内容
+            renderViewContent(viewId);
+        }
+
+        /**
+         * 渲染特定视图的内容。
+         * @param {string} viewId - 当前视图的ID。
+         */
+        function renderViewContent(viewId) {
+            // 清除 selectionContent 的类，每次渲染时重新设置
+            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
+
+            switch (viewId) {
+                case 'welcome-view':
+                    // 欢迎视图内容是静态的，无需额外渲染
+                    appState.viewHistory = []; // 重置历史记录
+                    break;
+                case 'confirm-role-view': // New: render confirm role view
+                    confirmedRoleSpan.textContent = appState.userRole === 'vip' ? 'VIP 学生' : '班课学生';
+                    break;
+                case 'selection-view':
+                    // 根据 appState 的不同阶段渲染选择视图
+                    if (appState.selectedUnit || appState.selectedContentType === 'past') {
+                         // 如果已经选择了单元或往期内容，说明是从其他视图返回，需要重新渲染到该层级
+                         renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
+                         if (appState.selectedContentType === 'unit') {
+                             renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
+                         }
+                    } else if (appState.selectedLevel) {
+                         // 如果已经选择了难度，说明是从内容类型选择层级返回，需要重新渲染到难度选择层级
+                        renderLevelSelection(appState.selectedCategory);
+                    } else if (appState.selectedCategory) {
+                        // 如果已经选择了分类，说明是从难度选择层级返回，需要重新渲染到分类选择层级
+                        renderCategorySelection();
+                    } else {
+                        // 初始进入选择视图，渲染一级分类
+                        renderCategorySelection();
+                    }
+                    break;
+                case 'info-view':
+                    // 清除之前的输入，并根据用户角色显示班级输入框
+                    studentNameInput.value = '';
+                    if (appState.userRole === 'class') {
+                        studentClassInput.classList.remove('hidden');
+                    } else {
+                        studentClassInput.classList.add('hidden');
+                        studentClassInput.value = ''; // Clear for VIP students
+                    }
+                    break;
+                case 'test-view':
+                    // 这里未来会调用加载词汇和启动测试的函数
+                    // testView.querySelector('p').textContent = '加载测试中...'; // 占位符
+                    break;
+                case 'results-view':
+                    // 这里未来会渲染测试结果
+                    // resultsView.querySelector('p').textContent = '显示测试结果...'; // 占位符
+                    break;
+            }
+        }
+
+        /**
+         * 返回上一个视图。
+         */
+        function goBack() {
+            if (appState.viewHistory.length > 0) {
+                // 弹出上一个视图ID
+                const prevViewId = appState.viewHistory.pop();
+
+                // 重置当前视图的相关状态，确保返回时正确渲染
+                if (appState.currentView === 'selection-view') {
+                    if (appState.selectedUnit || appState.selectedContentType === 'past') {
+                         appState.selectedUnit = ''; // 清除单元选择
+                         appState.selectedContentType = ''; // 清除内容类型选择
+                    } else if (appState.selectedLevel) {
+                        appState.selectedLevel = ''; // 清除难度选择
+                    } else if (appState.selectedCategory) {
+                        appState.selectedCategory = ''; // 清除分类选择
+                    }
+                } else if (appState.currentView === 'info-view') {
+                    // 从信息页返回，重置学生信息
+                    appState.studentName = '';
+                    appState.studentClass = '';
+                    // 确保返回到selection-view时能正确回到之前选择的最后一层
+                    // 已经通过 appState.viewHistory 和 showView(prevViewId, false) 机制处理
+                } else if (appState.currentView === 'confirm-role-view') {
+                    // 从身份确认页返回，重置用户角色
+                    appState.userRole = '';
+                }
+
+                // 调用 showView 但不将其推入历史，因为它已经是历史中的一员
+                showView(prevViewId, false);
+            }
+        }
+
+
+        // --- 渲染词库选择视图的不同阶段 ---
+
+        /**
+         * 渲染一级分类（Reading, Listening, Speaking, Writing）。
+         */
+        function renderCategorySelection() {
+            selectionTitle.textContent = '请选择分类';
+            selectionContent.innerHTML = ''; // Clear previous content
+            selectionContent.classList.add('grid-col-1-md-2'); // Set grid class
+
+            const categories = Object.keys(vocabStructure); // Get categories from vocabStructure
+            
+            categories.forEach(category => {
+                const button = document.createElement('button');
+                button.classList.add('btn-selection-item'); // Apply base styles
+                if (appState.selectedCategory === category) {
+                    button.classList.add('btn-selection-item-selected'); // Mark as selected
+                }
+                button.textContent = categoryNames[category] + ' ( ' + capitalizeFirstLetter(category) + ' )';
+                button.dataset.category = category;
+                button.addEventListener('click', () => {
+                    appState.selectedCategory = category;
+                    appState.selectedLevel = ''; // Reset next level down
+                    appState.selectedContentType = '';
+                    appState.selectedUnit = '';
+                    renderLevelSelection(category);
+                });
+                selectionContent.appendChild(button);
+            });
+        }
+
+        /**
+         * 渲染二级分类（初级、中级、高级）。
+         * @param {string} category - 已选择的一级分类。
+         */
+        function renderLevelSelection(category) {
+            selectionTitle.textContent = `选择 ${categoryNames[category]} 难度`;
+            selectionContent.innerHTML = '';
+            selectionContent.classList.add('grid-col-2-md-3'); // Adjust grid class
+
+            const levels = Object.keys(vocabStructure[category]); // Get levels for selected category
+            
+            levels.forEach(level => {
+                const button = document.createElement('button');
+                button.classList.add('btn-selection-item');
+                if (appState.selectedLevel === level) {
+                    button.classList.add('btn-selection-item-selected');
+                }
+                button.textContent = levelNames[level] + ' ( ' + capitalizeFirstLetter(level) + ' )';
+                button.dataset.level = level;
+                button.addEventListener('click', () => {
+                    appState.selectedLevel = level;
+                    appState.selectedContentType = ''; // Reset next level down
+                    appState.selectedUnit = '';
+                    renderContentTypeSelection(category, level);
+                });
+                selectionContent.appendChild(button);
+            });
+        }
+
+        /**
+         * 渲染三级分类（按照授课单元、按照往期内容）。
+         * @param {string} category - 已选择的一级分类。
+         * @param {string} level - 已选择的二级分类。
+         */
+        function renderContentTypeSelection(category, level) {
+            selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 内容类型`;
+            selectionContent.innerHTML = '';
+            selectionContent.classList.add('grid-col-1-md-2'); // Adjust grid class
+
+            // Check if there are 'unit' or 'past' content types defined for this category/level
+            const availableTypes = Object.keys(vocabStructure[category][level]);
+
+            const contentTypes = ['unit', 'past']; // Define the order for display
+            const contentNames = {
+                unit: '按照授课单元',
+                past: '按照往期内容'
+            };
+
+            contentTypes.forEach(type => {
+                // Only create button if this content type exists in vocabStructure for the selected category/level
+                if (availableTypes.includes(type)) {
+                    const button = document.createElement('button');
+                    button.classList.add('btn-selection-item');
+                    if (appState.selectedContentType === type) {
+                        button.classList.add('btn-selection-item-selected');
+                    }
+                    button.textContent = contentNames[type];
+                    button.dataset.contentType = type;
+                    button.addEventListener('click', () => {
+                        appState.selectedContentType = type;
+                        appState.selectedUnit = ''; // Reset unit if switching content type
+                        if (type === 'unit') {
+                            renderUnitSelection(category, level);
+                        } else { // 'past'
+                            // 调用新的处理函数来加载词汇
+                            handleFinalSelection();
+                        }
+                    });
+                    selectionContent.appendChild(button);
+                }
+            });
+        }
+
+        /**
+         * 渲染授课单元选择（根据 vocabStructure 实际配置的单元）。
+         * @param {string} category - 已选择的一级分类。
+         * @param {string} level - 已选择的二级分类。
+         */
+        function renderUnitSelection(category, level) {
+            selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 授课单元`;
+            selectionContent.innerHTML = '';
+            selectionContent.classList.add('grid-col-3-md-5'); // Adjust grid class for units
+
+            const unitsAvailable = vocabStructure[category]?.[level]?.unit; // Get units array from vocabStructure
+            if (!unitsAvailable || unitsAvailable.length === 0) {
+                selectionContent.innerHTML = '<p class="text-gray-600">当前难度暂无单元词库。</p>';
+                return;
+            }
+
+            unitsAvailable.forEach(unitFileName => { // unitFileName will be like 'reading_beginner_unit1.json'
+                // 从文件名中提取单元编号，例如 'reading_beginner_unit1.json' -> '1'
+                const unitNumberMatch = unitFileName.match(/unit(\d+)\.json/);
+                const unitNumber = unitNumberMatch ? unitNumberMatch[1] : unitFileName; // Fallback to full name if regex fails
+
+                const button = document.createElement('button');
+                button.classList.add('btn-selection-item');
+                // appState.selectedUnit 现在存储的是文件名，所以比较也是文件名
+                 if (appState.selectedUnit === unitFileName) {
+                    button.classList.add('btn-selection-item-selected');
+                }
+                button.textContent = `单元 ${unitNumber}`;
+                button.dataset.unit = unitFileName; // Store the full file name
+                button.addEventListener('click', () => {
+                    appState.selectedUnit = unitFileName; // Store the selected unit's file name
+                    // 调用新的处理函数来加载词汇
+                    handleFinalSelection();
+                });
+                selectionContent.appendChild(button);
+            });
+        }
+
+        /**
+         * 处理最终选择并加载词汇数据。
+         */
+        async function handleFinalSelection() {
+            let jsonFileName = '';
+            if (appState.selectedContentType === 'unit') {
+                // appState.selectedUnit 已经是文件名，直接使用
+                jsonFileName = appState.selectedUnit;
+            } else { // 'past'
+                jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
+            }
+            const jsonPath = `data/${jsonFileName}`;
+
+            // 显示加载状态
+            selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
+            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
+            selectionContent.classList.add('flex', 'justify-center', 'items-center', 'py-10');
+
+
+            try {
+                const response = await fetch(jsonPath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status} from ${jsonPath}`);
+                }
+                appState.currentTestVocabulary = await response.json();
+
+                if (!appState.currentTestVocabulary || appState.currentTestVocabulary.length === 0) {
+                    alert('所选词库为空，请选择其他词库或联系老师添加词汇。');
+                    goBack(); // Go back to the previous selection
+                    return;
+                }
+
+                console.log('Loaded vocabulary for test:', appState.currentTestVocabulary); // For debugging
+                showView('info-view'); // Proceed to student info view
+
+            } catch (error) {
+                alert(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
+                console.error('Vocabulary loading error:', error);
+                // 确保UI恢复到选择状态，而不是卡在加载
+                goBack(); // Go back to the previous selection on error
+            }
+        }
+
+
+        // --- 辅助映射对象（方便显示） ---
+        const categoryNames = {
+            reading: '阅读', listening: '听力', speaking: '口语', writing: '写作'
+        };
+        const levelNames = {
+            beginner: '初级', intermediate: '中级', advanced: '高级'
+        };
+        // 辅助函数：将单词首字母大写
+        function capitalizeFirstLetter(string) {
+            if (!string) return '';
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        // --- 事件监听器 ---
+        vipStudentBtn.addEventListener('click', () => {
+            appState.userRole = 'vip';
+            showView('confirm-role-view'); // Go to confirm role view
+        });
+
+        classStudentBtn.addEventListener('click', () => {
+            appState.userRole = 'class';
+            showView('confirm-role-view'); // Go to confirm role view
+        });
+
+        confirmBackBtn.addEventListener('click', goBack); // Back from confirm role
+
+        confirmRoleContinueBtn.addEventListener('click', () => {
+            // Reset history when confirming role and moving to main selection
+            appState.viewHistory = []; // From confirm-role-view, we always start a fresh history for selection
+            showView('selection-view'); // Continue to vocabulary selection
+        });
+
+        selectionBackBtn.addEventListener('click', goBack); // 词库选择视图的返回按钮
+        infoBackBtn.addEventListener('click', goBack);       // 学生信息填写视图的返回按钮
+
+        // --- 启动应用 ---
+        document.addEventListener('DOMContentLoaded', () => {
+            showView('welcome-view', false); // 默认显示欢迎视图，不推入历史
+            // 这里未来可以添加语音合成的初始化
+        });
+    </script>
+</body>
+</html>
