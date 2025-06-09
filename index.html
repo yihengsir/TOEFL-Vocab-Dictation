@@ -213,7 +213,7 @@
         <!-- 听写测试视图 -->
         <div id="test-view" class="view hidden">
             <button id="test-back-btn" class="btn-back">返回</button>
-            <!-- 添加顶部的标题，与图二一致 -->
+            <!-- 顶部的标题，与图二一致 -->
             <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
             <div class="flex flex-col gap-6 w-full">
                 <div id="question-display" class="quiz-question-display">
@@ -268,7 +268,12 @@
         </div>
     </div>
 
-    <script>
+    <script type="module">
+        // Firebase 模块导入
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
         // --- DOM 元素引用 ---
         const appContainer = document.getElementById('app-container');
         const welcomeView = document.getElementById('welcome-view');
@@ -335,7 +340,67 @@
             questionsAttempted: 0,
             incorrectAnswers: [], // 存储答错的题目详情
             testStartTime: null, // 记录测试开始时间
+            userId: null, // 当前用户的 Firebase Auth UID
         };
+
+        // --- Firebase 初始化 ---
+        let db;
+        let auth;
+        let authReady = false; // Flag to indicate Firebase Auth is ready
+
+        // Global variables provided by Canvas (MUST BE USED)
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
+        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+
+        // Initialize Firebase
+        if (Object.keys(firebaseConfig).length > 0) {
+            const app = initializeApp(firebaseConfig);
+            db = getFirestore(app);
+            auth = getAuth(app);
+
+            // Listen for auth state changes
+            onAuthStateChanged(auth, async (user) => {
+                if (user) {
+                    appState.userId = user.uid;
+                    console.log("[Firebase] User is signed in:", user.uid);
+                } else {
+                    appState.userId = null;
+                    console.log("[Firebase] No user is signed in. Attempting anonymous sign-in...");
+                    try {
+                        // If no initial auth token, sign in anonymously
+                        if (!initialAuthToken) {
+                            await signInAnonymously(auth);
+                            console.log("[Firebase] Signed in anonymously.");
+                        }
+                    } catch (error) {
+                        console.error("[Firebase] Anonymous sign-in failed:", error);
+                    }
+                }
+                authReady = true; // Mark auth as ready after initial check
+                console.log("[Firebase] Auth state changed. authReady:", authReady);
+            });
+
+            // Sign in with custom token if available, otherwise anonymously
+            (async () => {
+                try {
+                    if (initialAuthToken) {
+                        await signInWithCustomToken(auth, initialAuthToken);
+                        console.log("[Firebase] Signed in with custom token.");
+                    } else {
+                        // onAuthStateChanged will handle anonymous sign-in if no token
+                        console.log("[Firebase] No custom token provided. Waiting for onAuthStateChanged to handle auth.");
+                    }
+                } catch (error) {
+                    console.error("[Firebase] Initial auth failed:", error);
+                    // Fallback to anonymous sign-in if custom token fails (onAuthStateChanged handles this)
+                }
+            })();
+
+        } else {
+            console.error("[Firebase] Firebase config is missing. Firestore features will not work.");
+        }
+
 
         // --- 词库结构映射（指向实际的JSON文件路径） ---
         const vocabStructure = {
@@ -370,8 +435,9 @@
             }
         };
 
-        // LLM API Key (留空，GitHub Pages 上部署需要您手动填入)
-        const apiKey = "";
+        // LLM API Key (留空，Canvas 运行时会自动提供)
+        const geminiApiKey = ""; // This will be automatically populated by Canvas runtime
+
         let speechSynth = window.speechSynthesis;
         let voicesLoaded = false;
 
@@ -703,7 +769,8 @@
 
                 if (!appState.currentTestVocabulary || appState.currentTestVocabulary.length === 0) {
                     console.warn('[handleFinalSelection] Loaded vocabulary is empty.');
-                    alert('所选词库为空，请选择其他词库或联系老师添加词汇。');
+                    // Using custom modal for alerts
+                    showModal('所选词库为空，请选择其他词库或联系老师添加词汇。');
                     goBack();
                     return;
                 }
@@ -713,7 +780,8 @@
 
             } catch (error) {
                 console.error('[handleFinalSelection] Vocabulary loading error:', error);
-                alert(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
+                // Using custom modal for alerts
+                showModal(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
                 goBack();
             }
         }
@@ -732,7 +800,7 @@
             appState.testStartTime = null;
         }
 
-        // --- 听写测试核心逻辑 (从旧版本复制并集成) ---
+        // --- 听写测试核心逻辑 ---
         function initializeTestLogic() {
             console.log('[initializeTestLogic] Initializing test logic...');
             appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
@@ -820,8 +888,45 @@
             loadQuestion();
         }
 
-        function endTestSession() {
-            console.log('[endTestSession] Ending test session.');
+        async function endTestSession() {
+            console.log('[endTestSession] Ending test session and saving results...');
+            
+            // Collect test results
+            const testResult = {
+                studentName: appState.studentName,
+                studentClass: appState.studentClass,
+                userRole: appState.userRole,
+                category: appState.selectedCategory,
+                level: appState.selectedLevel,
+                contentType: appState.selectedContentType,
+                unit: appState.selectedUnit,
+                correctAnswers: appState.correctAnswersCount,
+                totalQuestions: appState.questionsAttempted,
+                accuracy: appState.questionsAttempted > 0 ? (appState.correctAnswersCount / appState.questionsAttempted) * 100 : 0,
+                incorrectAnswersDetails: JSON.stringify(appState.incorrectAnswers), // Store as string for Firestore
+                timestamp: serverTimestamp(), // Use Firestore's server timestamp
+                userId: appState.userId // Store Firebase User ID
+            };
+
+            // Save to Firestore
+            if (db && authReady) { // Ensure Firestore and Auth are ready
+                try {
+                    // Store in public collection for broader access if needed, or specific user's private collection
+                    // For now, let's use a public collection that you can read from as the teacher
+                    const collectionPath = `artifacts/${appId}/public/data/studentReports`;
+                    const docRef = await addDoc(collection(db, collectionPath), testResult);
+                    console.log("[Firestore] Document written with ID: ", docRef.id);
+                    // Optionally, show a success message to the student
+                    // showModal('测试报告已成功保存！');
+                } catch (e) {
+                    console.error("[Firestore] Error adding document: ", e);
+                    // showModal('保存测试报告失败，请检查网络或联系老师。');
+                }
+            } else {
+                console.warn("[Firestore] Firestore not initialized or Auth not ready. Test results will not be saved.");
+                // showModal('报告无法保存，请检查网络或稍后再试。');
+            }
+
             showView('results-view');
         }
 
@@ -935,11 +1040,11 @@
             const isAnswerCorrect = answerInput.classList.contains('feedback-correct');
 
             if (isAnswerEmpty && !isAnswerChecked) {
-                exampleSentenceDisplay.textContent = '请输入英文词汇或短语后再获取例句。';
+                showModal('请输入英文词汇或短语后再获取例句。');
                 console.warn('[getExampleSentence] Answer input is empty, cannot get example.');
                 return;
             } else if (isAnswerChecked && !isAnswerCorrect) {
-                 exampleSentenceDisplay.textContent = '请检查您的答案（红色部分），并查看正确答案，再获取例句。';
+                 showModal('请检查您的答案（红色部分），并查看正确答案，再获取例句。');
                  console.warn('[getExampleSentence] Answer incorrect and checked, guiding user to correct first.');
                  return;
             }
@@ -954,7 +1059,7 @@
                 chatHistory.push({ role: "user", parts: [{ text: prompt }] });
                 const payload = { contents: chatHistory };
 
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiApiKey}`;
                 const response = await fetch(apiUrl, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -1024,6 +1129,23 @@
             return array;
         }
 
+        // --- 自定义弹窗函数 (替代 alert/confirm) ---
+        function showModal(message) {
+            const modalHtml = `
+                <div id="custom-modal" class="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
+                    <div class="bg-white p-8 rounded-lg shadow-xl max-w-sm w-full text-center">
+                        <p class="text-lg font-semibold mb-6">${message}</p>
+                        <button id="modal-ok-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-200">确定</button>
+                    </div>
+                </div>
+            `;
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+            document.getElementById('modal-ok-btn').addEventListener('click', () => {
+                document.getElementById('custom-modal').remove();
+            });
+        }
+
+
         // --- 事件监听器 ---
         vipStudentBtn.addEventListener('click', () => {
             console.log('[Event] VIP Student button clicked.');
@@ -1058,7 +1180,7 @@
             }
 
             if (!appState.studentName) {
-                alert('请输入您的姓名才能开始测试！');
+                showModal('请输入您的姓名才能开始测试！');
                 console.warn('[Event] Student name not entered.');
                 return;
             }
