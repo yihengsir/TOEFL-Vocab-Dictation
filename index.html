@@ -334,34 +334,32 @@
         const vocabStructure = {
             reading: {
                 beginner: {
-                    unit: ['reading_beginner_unit1.json', 'reading_beginner_unit2.json', 'reading_beginner_unit3.json', 'reading_beginner_unit4.json', 'reading_beginner_unit5.json', 'reading_beginner_unit6.json', 'reading_beginner_unit7.json', 'reading_beginner_unit8.json', 'reading_beginner_unit9.json', 'reading_beginner_unit10.json'],
-                    past: 'expressions.json' // 将 expressions.json 映射到这里
+                    unit: Array.from({length: 10}, (_, i) => `reading_beginner_unit${i + 1}.json`),
+                    past: 'expressions.json' // VIP 学生对应的测试
                 },
                 intermediate: {
-                    unit: ['reading_intermediate_unit1.json', 'reading_intermediate_unit2.json', 'reading_intermediate_unit3.json', 'reading_intermediate_unit4.json', 'reading_intermediate_unit5.json', 'reading_intermediate_unit6.json', 'reading_intermediate_unit7.json', 'reading_intermediate_unit8.json', 'reading_intermediate_unit9.json', 'reading_intermediate_unit10.json'],
-                    past: 'reading_intermediate_past.json'
+                    unit: Array.from({length: 10}, (_, i) => `reading_intermediate_unit${i + 1}.json`),
+                    past: null // 此处无往期内容文件
                 },
                 advanced: {
-                    unit: ['reading_advanced_unit1.json', 'reading_advanced_unit2.json', 'reading_advanced_unit3.json', 'reading_advanced_unit4.json', 'reading_advanced_unit5.json', 'reading_advanced_unit6.json', 'reading_advanced_unit7.json', 'reading_advanced_unit8.json', 'reading_advanced_unit9.json', 'reading_advanced_unit10.json'],
-                    past: 'reading_advanced_past.json'
+                    unit: Array.from({length: 10}, (_, i) => `reading_advanced_unit${i + 1}.json`),
+                    past: null // 此处无往期内容文件
                 }
             },
             listening: {
-                // 根据您上传的实际文件，将所有单元扩展到10个
-                beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json', 'listening_beginner_unit4.json', 'listening_beginner_unit5.json', 'listening_beginner_unit6.json', 'listening_beginner_unit7.json', 'listening_beginner_unit8.json', 'listening_beginner_unit9.json', 'listening_beginner_unit10.json'], past: 'listening_beginner_past.json' },
-                intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json', 'listening_intermediate_unit4.json', 'listening_intermediate_unit5.json', 'listening_intermediate_unit6.json', 'listening_intermediate_unit7.json', 'listening_intermediate_unit8.json', 'listening_intermediate_unit9.json', 'listening_intermediate_unit10.json'], past: 'listening_intermediate_past.json' },
-                advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json', 'listening_advanced_unit4.json', 'listening_advanced_unit5.json', 'listening_advanced_unit6.json', 'listening_advanced_unit7.json', 'listening_advanced_unit8.json', 'listening_advanced_unit9.json', 'listening_advanced_unit10.json'], past: 'listening_advanced_past.json' }
+                beginner: { unit: Array.from({length: 10}, (_, i) => `listening_beginner_unit${i + 1}.json`), past: null },
+                intermediate: { unit: Array.from({length: 10}, (_, i) => `listening_intermediate_unit${i + 1}.json`), past: null },
+                advanced: { unit: Array.from({length: 10}, (_, i) => `listening_advanced_unit${i + 1}.json`), past: null }
             },
             speaking: {
-                // 根据您上传的实际文件，将所有单元扩展到10个
-                beginner: { unit: ['speaking_beginner_unit1.json', 'speaking_beginner_unit2.json', 'speaking_beginner_unit3.json', 'speaking_beginner_unit4.json', 'speaking_beginner_unit5.json', 'speaking_beginner_unit6.json', 'speaking_beginner_unit7.json', 'speaking_beginner_unit8.json', 'speaking_beginner_unit9.json', 'speaking_beginner_unit10.json'], past: 'speaking_beginner_past.json' },
-                intermediate: { unit: ['speaking_intermediate_unit1.json', 'speaking_intermediate_unit2.json', 'speaking_intermediate_unit3.json', 'speaking_intermediate_unit4.json', 'speaking_intermediate_unit5.json', 'speaking_intermediate_unit6.json', 'speaking_intermediate_unit7.json', 'speaking_intermediate_unit8.json', 'speaking_intermediate_unit9.json', 'speaking_intermediate_unit10.json'], past: 'speaking_intermediate_past.json' },
-                advanced: { unit: ['speaking_advanced_unit1.json', 'speaking_advanced_unit2.json', 'speaking_advanced_unit3.json', 'speaking_advanced_unit4.json', 'speaking_advanced_unit5.json', 'speaking_advanced_unit6.json', 'speaking_advanced_unit7.json', 'speaking_advanced_unit8.json', 'speaking_advanced_unit9.json', 'speaking_advanced_unit10.json'], past: 'speaking_advanced_past.json' }
+                beginner: { unit: Array.from({length: 10}, (_, i) => `speaking_beginner_unit${i + 1}.json`), past: null },
+                intermediate: { unit: Array.from({length: 10}, (_, i) => `speaking_intermediate_unit${i + 1}.json`), past: null },
+                advanced: { unit: Array.from({length: 10}, (_, i) => `speaking_advanced_unit${i + 1}.json`), past: null }
             },
             writing: {
-                beginner: { unit: ['writing_beginner_unit1.json'], past: 'writing_beginner_past.json' },
-                intermediate: { unit: ['writing_intermediate_unit1.json'], past: 'writing_intermediate_past.json' },
-                advanced: { unit: ['writing_advanced_unit1.json'], past: 'writing_advanced_past.json' }
+                beginner: { unit: Array.from({length: 1}, (_, i) => `writing_beginner_unit${i + 1}.json`), past: null }, // 假设只有一个单元
+                intermediate: { unit: Array.from({length: 1}, (_, i) => `writing_intermediate_unit${i + 1}.json`), past: null }, // 假设只有一个单元
+                advanced: { unit: Array.from({length: 1}, (_, i) => `writing_advanced_unit${i + 1}.json`), past: null } // 假设只有一个单元
             }
         };
 
@@ -585,37 +583,48 @@
             selectionContent.innerHTML = '';
             selectionContent.classList.add('grid-col-1-md-2');
 
-            const availableTypes = Object.keys(vocabStructure[category][level]);
-
-            const contentTypes = ['unit', 'past'];
-            const contentNames = {
-                unit: '按照授课单元',
-                past: '按照往期内容'
-            };
-
-            contentTypes.forEach(type => {
-                if (availableTypes.includes(type)) {
-                    const button = document.createElement('button');
-                    button.classList.add('btn-selection-item');
-                    if (appState.selectedContentType === type) {
-                        button.classList.add('btn-selection-item-selected');
-                    }
-                    button.textContent = contentNames[type];
-                    button.dataset.contentType = type;
-                    button.addEventListener('click', (event) => {
-                        console.log(`[Click] Content type button "${type}" clicked! Event target:`, event.target);
-                        appState.selectedContentType = type;
-                        appState.selectedUnit = ''; // Reset unit if switching content type
-                        if (type === 'unit') {
-                            showView('selection-view'); // Re-render selection-view to next level (unit selection)
-                        } else { // 'past'
-                            handleFinalSelection(); // Load vocabulary and proceed to info page
-                        }
-                    });
-                    selectionContent.appendChild(button);
-                    console.log(`[renderContentTypeSelection] Appended button for content type ${type}.`);
-                }
+            // 始终显示 '按照授课单元' 按钮
+            const unitButton = document.createElement('button');
+            unitButton.classList.add('btn-selection-item');
+            if (appState.selectedContentType === 'unit') {
+                unitButton.classList.add('btn-selection-item-selected');
+            }
+            unitButton.textContent = '按照授课单元';
+            unitButton.dataset.contentType = 'unit';
+            unitButton.addEventListener('click', (event) => {
+                console.log(`[Click] Content type button "unit" clicked! Event target:`, event.target);
+                appState.selectedContentType = 'unit';
+                appState.selectedUnit = '';
+                showView('selection-view'); // 重新渲染 selection-view 到单元选择
             });
+            selectionContent.appendChild(unitButton);
+            console.log('[renderContentTypeSelection] Appended button for content type unit.');
+
+
+            // 仅在用户是 VIP 且当前分类/难度有定义往期内容文件时显示 '按照往期内容' 按钮
+            const pastFileName = vocabStructure[category]?.[level]?.past;
+            if (appState.userRole === 'vip' && pastFileName) {
+                const pastButton = document.createElement('button');
+                pastButton.classList.add('btn-selection-item');
+                if (appState.selectedContentType === 'past') {
+                    pastButton.classList.add('btn-selection-item-selected');
+                }
+                pastButton.textContent = '按照往期内容';
+                pastButton.dataset.contentType = 'past';
+                pastButton.addEventListener('click', (event) => {
+                    console.log(`[Click] Content type button "past" clicked! Event target:`, event.target);
+                    appState.selectedContentType = 'past';
+                    appState.selectedUnit = ''; // 切换内容类型时重置单元
+                    handleFinalSelection(); // 加载词汇并跳转到信息页
+                });
+                selectionContent.appendChild(pastButton);
+                console.log('[renderContentTypeSelection] Appended button for content type past (VIP only).');
+            } else if (appState.userRole === 'class') {
+                console.log('[renderContentTypeSelection] Hiding "past" option for class student as per requirement.');
+            } else if (!pastFileName) {
+                console.log('[renderContentTypeSelection] Hiding "past" option, no past file defined for this selection in vocabStructure.');
+            }
+
             console.log('[renderContentTypeSelection] Finished rendering content type selection buttons.');
         }
 
@@ -651,7 +660,7 @@
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
                     appState.selectedUnit = unitFileName;
-                    handleFinalSelection(); // Load vocabulary and proceed to info page
+                    handleFinalSelection(); // 加载词汇并跳转到信息页
                 });
                 selectionContent.appendChild(button);
                 console.log(`[renderUnitSelection] Appended button for unit ${unitNumber}.`);
