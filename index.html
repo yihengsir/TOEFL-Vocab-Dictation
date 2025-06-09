@@ -419,20 +419,21 @@
                     console.log(`[renderViewContent] Confirmed role: ${appState.userRole}`);
                     break;
                 case 'selection-view':
-                    if (appState.selectedUnit || appState.selectedContentType === 'past') {
-                        console.log('[renderViewContent] Selection view: Rendering content type selection (from unit/past).');
+                    // ** 修复后的逻辑: 从最深层判断到最浅层 **
+                    if (appState.selectedCategory && appState.selectedLevel && appState.selectedContentType === 'unit') {
+                        // 如果已经选择了分类、难度和内容类型是单元，则渲染单元选择
+                        console.log('[renderViewContent] Selection view: Rendering unit selection.');
+                        renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
+                    } else if (appState.selectedCategory && appState.selectedLevel) {
+                        // 如果已经选择了分类和难度，但尚未选择内容类型，则渲染内容类型选择
+                        console.log('[renderViewContent] Selection view: Rendering content type selection.');
                         renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
-                        if (appState.selectedContentType === 'unit') {
-                            console.log('[renderViewContent] Selection view: Rendering unit selection.');
-                            renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
-                        }
-                    } else if (appState.selectedLevel) {
+                    } else if (appState.selectedCategory) {
+                        // 如果只选择了分类，则渲染难度选择
                         console.log('[renderViewContent] Selection view: Rendering level selection.');
                         renderLevelSelection(appState.selectedCategory);
-                    } else if (appState.selectedCategory) {
-                        console.log('[renderViewContent] Selection view: Rendering category selection (from level).');
-                        renderCategorySelection();
                     } else {
+                        // 否则（初始进入选择视图或从更前面返回），渲染分类选择
                         console.log('[renderViewContent] Selection view: Initial render, rendering category selection.');
                         renderCategorySelection();
                     }
@@ -471,15 +472,15 @@
 
                 // 根据当前视图，重置相关状态
                 if (appState.currentView === 'selection-view') {
-                    // When going back from a deeper selection level, clear the deeper state
-                    if (appState.selectedUnit || appState.selectedContentType === 'past') {
+                    // 当从选择视图返回时，需要根据返回到的层级清除下一级选择
+                    if (appState.selectedUnit || appState.selectedContentType === 'past') { // 从单元/往期返回到内容类型选择
                          appState.selectedUnit = '';
                          appState.selectedContentType = '';
                          console.log('[goBack] Resetting selectedUnit and selectedContentType.');
-                    } else if (appState.selectedLevel) {
+                    } else if (appState.selectedLevel) { // 从内容类型选择返回到难度选择
                         appState.selectedLevel = '';
                         console.log('[goBack] Resetting selectedLevel.');
-                    } else if (appState.selectedCategory) {
+                    } else if (appState.selectedCategory) { // 从难度选择返回到分类选择
                         appState.selectedCategory = '';
                         console.log('[goBack] Resetting selectedCategory.');
                     }
@@ -529,7 +530,7 @@
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Category button "${category}" clicked! Event target:`, event.target);
                     appState.selectedCategory = category;
-                    appState.selectedLevel = '';
+                    appState.selectedLevel = ''; // Reset next levels down
                     appState.selectedContentType = '';
                     appState.selectedUnit = '';
                     showView('selection-view'); // Re-render selection-view to next level
@@ -563,7 +564,7 @@
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Level button "${level}" clicked! Event target:`, event.target);
                     appState.selectedLevel = level;
-                    appState.selectedContentType = '';
+                    appState.selectedContentType = ''; // Reset next levels down
                     appState.selectedUnit = '';
                     showView('selection-view'); // Re-render selection-view to next level
                 });
@@ -604,7 +605,7 @@
                     button.addEventListener('click', (event) => {
                         console.log(`[Click] Content type button "${type}" clicked! Event target:`, event.target);
                         appState.selectedContentType = type;
-                        appState.selectedUnit = '';
+                        appState.selectedUnit = ''; // Reset unit if switching content type
                         if (type === 'unit') {
                             showView('selection-view'); // Re-render selection-view to next level (unit selection)
                         } else { // 'past'
