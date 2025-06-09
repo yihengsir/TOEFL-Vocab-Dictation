@@ -33,6 +33,9 @@
             gap: 2rem; /* 增加模块间距 */
             text-align: center;
             position: relative; /* 用于返回按钮的定位 */
+            /* 关键修复：确保 main-container 及其内容可点击 */
+            pointer-events: auto !important; /* 强制覆盖，确保点击事件传递 */
+            z-index: 1; /* 确保它位于默认层级，且可以接收事件 */
         }
 
         /* 所有视图共享的样式 */
@@ -42,9 +45,8 @@
             flex-direction: column;
             align-items: center;
             gap: 1.5rem; /* 视图内部元素间距 */
-            /* 调试 CSS: 确保视图在最上层且可交互 */
             position: relative; /* 确保 z-index 有效 */
-            z-index: 10; /* 确保视图层级高于其他潜在遮盖物 */
+            z-index: 2; /* 确保视图层级在 main-container 之上 */
             pointer-events: auto; /* 确保该元素及其子元素可交互 */
         }
 
@@ -58,7 +60,7 @@
             @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 w-2/3 md:w-1/2 mx-auto;
             letter-spacing: 0.05em; /* 增加字母间距 */
             pointer-events: auto; /* 明确设置为可交互 */
-            z-index: 20; /* 确保按钮层级高于其容器 */
+            z-index: 3; /* 确保按钮层级高于其容器 */
         }
 
         /* 次要按钮/选择项样式 (卡片化) */
@@ -70,7 +72,7 @@
             align-items: center;
             justify-content: center;
             pointer-events: auto; /* 明确设置为可交互 */
-            z-index: 20; /* 确保按钮层级高于其容器 */
+            z-index: 3; /* 确保按钮层级高于其容器 */
         }
 
         .btn-selection-item-selected {
@@ -95,7 +97,7 @@
         .grid-layout {
             @apply grid gap-4 w-full; /* 基础网格间距 */
             pointer-events: auto; /* 确保网格容器可交互 */
-            z-index: 15; /* 确保网格容器层级高于其他潜在遮盖物 */
+            z-index: 2; /* 确保网格容器层级在 view 之上 */
         }
         .grid-col-1-md-2 {
             @apply grid-cols-1 md:grid-cols-2;
