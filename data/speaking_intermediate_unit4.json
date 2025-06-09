@@ -1,42 +1,252 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "学术的",
+    "english": "academic",
+    "pos": "adj."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "概念",
+    "english": "concept",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "表达",
+    "english": "convey",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "整合",
+    "english": "integrate",
+    "pos": "v."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "讲座",
+    "english": "lecture",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "章节",
+    "english": "passage",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "不同种类，多样性",
+    "english": "variety",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "说明；（用示例）解释",
+    "english": "illustrate",
+    "pos": "v."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "术语",
+    "english": "term",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "牵引，拉（动）",
+    "english": "draw",
+    "pos": "v."
+  },
+  {
+    "chinese": "表现",
+    "english": "behave",
+    "pos": "v."
+  },
+  {
+    "chinese": "行为",
+    "english": "behavior",
+    "pos": "n."
+  },
+  {
+    "chinese": "遇见",
+    "english": "encounter",
+    "pos": "v."
+  },
+  {
+    "chinese": "模仿",
+    "english": "imitate",
+    "pos": "v."
+  },
+  {
+    "chinese": "评估",
+    "english": "assessment",
+    "pos": "n."
+  },
+  {
+    "chinese": "反驳；相反",
+    "english": "contradict",
+    "pos": "v."
+  },
+  {
+    "chinese": "印象",
+    "english": "impression",
+    "pos": "n."
+  },
+  {
+    "chinese": "起初的；初始的",
+    "english": "initial",
+    "pos": "adj."
+  },
+  {
+    "chinese": "首要；首要地位",
+    "english": "primacy",
+    "pos": "n."
+  },
+  {
+    "chinese": "影响",
+    "english": "impact",
+    "pos": "v."
+  },
+  {
+    "chinese": "负面的",
+    "english": "negative",
+    "pos": "adj."
+  },
+  {
+    "chinese": "技巧；技术",
+    "english": "technique",
+    "pos": "n."
+  },
+  {
+    "chinese": "中止",
+    "english": "discontinue",
+    "pos": "v."
+  },
+  {
+    "chinese": "叙述的",
+    "english": "narrative",
+    "pos": "adj."
+  },
+  {
+    "chinese": "元素",
+    "english": "element",
+    "pos": "n."
+  },
+  {
+    "chinese": "参考",
+    "english": "reference",
+    "pos": "n."
+  },
+  {
+    "chinese": "钦佩",
+    "english": "admire",
+    "pos": "v."
+  },
+  {
+    "chinese": "尊重",
+    "english": "respect",
+    "pos": "v."
+  },
+  {
+    "chinese": "态度",
+    "english": "attitude",
+    "pos": "n."
+  },
+  {
+    "chinese": "情况",
+    "english": "circumstance",
+    "pos": "n."
+  },
+  {
+    "chinese": "休闲的",
+    "english": "casual",
+    "pos": "adj."
+  },
+  {
+    "chinese": "运动鞋",
+    "english": "sneaker",
+    "pos": "n."
+  },
+  {
+    "chinese": "令人钦佩的",
+    "english": "impressive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "时髦的",
+    "english": "fashionable",
+    "pos": "adj."
+  },
+  {
+    "chinese": "时髦的",
+    "english": "sharp",
+    "pos": "adj"
+  },
+  {
+    "chinese": "首位",
+    "english": "primacy",
+    "pos": "n."
+  },
+  {
+    "chinese": "效应",
+    "english": "effect",
+    "pos": "n."
+  },
+  {
+    "chinese": "最初的",
+    "english": "initial",
+    "pos": "adj."
+  },
+  {
+    "chinese": "相矛盾",
+    "english": "contradict",
+    "pos": "v."
+  },
+  {
+    "chinese": "迹象",
+    "english": "evidence",
+    "pos": "n."
+  },
+  {
+    "chinese": "助手",
+    "english": "assistant",
+    "pos": "n."
+  },
+  {
+    "chinese": "实验",
+    "english": "experiment",
+    "pos": "n."
+  },
+  {
+    "chinese": "不可靠的",
+    "english": "unreliable",
+    "pos": "adj."
+  },
+  {
+    "chinese": "恢复",
+    "english": "recover",
+    "pos": "v."
+  },
+  {
+    "chinese": "普通的",
+    "english": "average",
+    "pos": "adj."
+  },
+  {
+    "chinese": "实验室",
+    "english": "laboratory",
+    "pos": "n."
+  },
+  {
+    "chinese": "出现",
+    "english": "occur",
+    "pos": "v."
+  },
+  {
+    "chinese": "判断",
+    "english": "judgement",
+    "pos": "n."
+  },
+  {
+    "chinese": "不称职的",
+    "english": "incompetent",
+    "pos": "adj."
+  },
+  {
+    "chinese": "注意",
+    "english": "notice",
+    "pos": "v."
   }
 ]
