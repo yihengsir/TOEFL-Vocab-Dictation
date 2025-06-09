@@ -42,6 +42,10 @@
             flex-direction: column;
             align-items: center;
             gap: 1.5rem; /* 视图内部元素间距 */
+            /* 调试 CSS: 确保视图在最上层且可交互 */
+            position: relative; /* 确保 z-index 有效 */
+            z-index: 10; /* 确保视图层级高于其他潜在遮盖物 */
+            pointer-events: auto; /* 确保该元素及其子元素可交互 */
         }
 
         /* 标题样式 */
@@ -53,6 +57,8 @@
         .btn-primary {
             @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 w-2/3 md:w-1/2 mx-auto;
             letter-spacing: 0.05em; /* 增加字母间距 */
+            pointer-events: auto; /* 明确设置为可交互 */
+            z-index: 20; /* 确保按钮层级高于其容器 */
         }
 
         /* 次要按钮/选择项样式 (卡片化) */
@@ -63,6 +69,8 @@
             display: flex; /* 使用flex布局让内容垂直居中 */
             align-items: center;
             justify-content: center;
+            pointer-events: auto; /* 明确设置为可交互 */
+            z-index: 20; /* 确保按钮层级高于其容器 */
         }
 
         .btn-selection-item-selected {
@@ -75,6 +83,7 @@
         /* 返回按钮样式 */
         .btn-back {
             @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-full shadow-md transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gray-200 absolute top-6 left-6 z-10;
+            pointer-events: auto; /* 明确设置为可交互 */
         }
 
         /* 隐藏类 */
@@ -85,6 +94,8 @@
         /* 不同的选择网格布局 */
         .grid-layout {
             @apply grid gap-4 w-full; /* 基础网格间距 */
+            pointer-events: auto; /* 确保网格容器可交互 */
+            z-index: 15; /* 确保网格容器层级高于其他潜在遮盖物 */
         }
         .grid-col-1-md-2 {
             @apply grid-cols-1 md:grid-cols-2;
@@ -322,7 +333,7 @@
             reading: {
                 beginner: {
                     unit: ['reading_beginner_unit1.json', 'reading_beginner_unit2.json', 'reading_beginner_unit3.json', 'reading_beginner_unit4.json', 'reading_beginner_unit5.json', 'reading_beginner_unit6.json', 'reading_beginner_unit7.json', 'reading_beginner_unit8.json', 'reading_beginner_unit9.json', 'reading_beginner_unit10.json'],
-                    past: 'reading_beginner_past.json'
+                    past: 'expressions.json' // 将 expressions.json 映射到这里
                 },
                 intermediate: {
                     unit: ['reading_intermediate_unit1.json', 'reading_intermediate_unit2.json', 'reading_intermediate_unit3.json', 'reading_intermediate_unit4.json', 'reading_intermediate_unit5.json', 'reading_intermediate_unit6.json', 'reading_intermediate_unit7.json', 'reading_intermediate_unit8.json', 'reading_intermediate_unit9.json', 'reading_intermediate_unit10.json'],
@@ -334,13 +345,13 @@
                 }
             },
             listening: {
-                // Corrected to include 10 units based on user's actual files
+                // 根据您上传的实际文件，将所有单元扩展到10个
                 beginner: { unit: ['listening_beginner_unit1.json', 'listening_beginner_unit2.json', 'listening_beginner_unit3.json', 'listening_beginner_unit4.json', 'listening_beginner_unit5.json', 'listening_beginner_unit6.json', 'listening_beginner_unit7.json', 'listening_beginner_unit8.json', 'listening_beginner_unit9.json', 'listening_beginner_unit10.json'], past: 'listening_beginner_past.json' },
                 intermediate: { unit: ['listening_intermediate_unit1.json', 'listening_intermediate_unit2.json', 'listening_intermediate_unit3.json', 'listening_intermediate_unit4.json', 'listening_intermediate_unit5.json', 'listening_intermediate_unit6.json', 'listening_intermediate_unit7.json', 'listening_intermediate_unit8.json', 'listening_intermediate_unit9.json', 'listening_intermediate_unit10.json'], past: 'listening_intermediate_past.json' },
                 advanced: { unit: ['listening_advanced_unit1.json', 'listening_advanced_unit2.json', 'listening_advanced_unit3.json', 'listening_advanced_unit4.json', 'listening_advanced_unit5.json', 'listening_advanced_unit6.json', 'listening_advanced_unit7.json', 'listening_advanced_unit8.json', 'listening_advanced_unit9.json', 'listening_advanced_unit10.json'], past: 'listening_advanced_past.json' }
             },
             speaking: {
-                // Already assumed 10 units for speaking, confirmed by user's screenshot
+                // 根据您上传的实际文件，将所有单元扩展到10个
                 beginner: { unit: ['speaking_beginner_unit1.json', 'speaking_beginner_unit2.json', 'speaking_beginner_unit3.json', 'speaking_beginner_unit4.json', 'speaking_beginner_unit5.json', 'speaking_beginner_unit6.json', 'speaking_beginner_unit7.json', 'speaking_beginner_unit8.json', 'speaking_beginner_unit9.json', 'speaking_beginner_unit10.json'], past: 'speaking_beginner_past.json' },
                 intermediate: { unit: ['speaking_intermediate_unit1.json', 'speaking_intermediate_unit2.json', 'speaking_intermediate_unit3.json', 'speaking_intermediate_unit4.json', 'speaking_intermediate_unit5.json', 'speaking_intermediate_unit6.json', 'speaking_intermediate_unit7.json', 'speaking_intermediate_unit8.json', 'speaking_intermediate_unit9.json', 'speaking_intermediate_unit10.json'], past: 'speaking_intermediate_past.json' },
                 advanced: { unit: ['speaking_advanced_unit1.json', 'speaking_advanced_unit2.json', 'speaking_advanced_unit3.json', 'speaking_advanced_unit4.json', 'speaking_advanced_unit5.json', 'speaking_advanced_unit6.json', 'speaking_advanced_unit7.json', 'speaking_advanced_unit8.json', 'speaking_advanced_unit9.json', 'speaking_advanced_unit10.json'], past: 'speaking_advanced_past.json' }
@@ -365,6 +376,7 @@
          * @param {boolean} [pushToHistory=true] - 是否将当前视图推入历史栈。
          */
         function showView(viewId, pushToHistory = true) {
+            console.log(`[showView] Attempting to show view: ${viewId}. Current appState.currentView: ${appState.currentView}`);
             // 隐藏所有视图
             document.querySelectorAll('.view').forEach(view => {
                 view.classList.add('hidden');
@@ -376,11 +388,13 @@
             // 更新历史记录
             if (pushToHistory && appState.currentView !== viewId) { // 避免重复添加当前视图
                 appState.viewHistory.push(appState.currentView);
+                console.log(`[showView] Added ${appState.currentView} to history. History:`, appState.viewHistory);
             }
             appState.currentView = viewId;
 
             // 根据视图渲染内容
             renderViewContent(viewId);
+            console.log(`[showView] Finished showing view: ${viewId}`);
         }
 
         /**
@@ -388,52 +402,57 @@
          * @param {string} viewId - 当前视图的ID。
          */
         function renderViewContent(viewId) {
+            console.log(`[renderViewContent] Rendering content for view: ${viewId}`);
             // 清除 selectionContent 的类，每次渲染时重新设置
             selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
 
             switch (viewId) {
                 case 'welcome-view':
-                    // 欢迎视图内容是静态的，无需额外渲染
-                    appState.viewHistory = []; // 重置历史记录
-                    // 重置所有与测试相关的数据，确保每次从欢迎页开始都是全新测试
+                    appState.viewHistory = [];
                     resetTestState();
+                    console.log('[renderViewContent] Resetting appState and history.');
                     break;
                 case 'confirm-role-view':
                     confirmedRoleSpan.textContent = appState.userRole === 'vip' ? 'VIP 学生' : '班课学生';
+                    console.log(`[renderViewContent] Confirmed role: ${appState.userRole}`);
                     break;
                 case 'selection-view':
-                    // 根据 appState 的不同阶段渲染选择视图
                     if (appState.selectedUnit || appState.selectedContentType === 'past') {
-                         renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
-                         if (appState.selectedContentType === 'unit') {
-                             renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
-                         }
+                        console.log('[renderViewContent] Selection view: Rendering content type selection (from unit/past).');
+                        renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
+                        if (appState.selectedContentType === 'unit') {
+                            console.log('[renderViewContent] Selection view: Rendering unit selection.');
+                            renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
+                        }
                     } else if (appState.selectedLevel) {
+                        console.log('[renderViewContent] Selection view: Rendering level selection.');
                         renderLevelSelection(appState.selectedCategory);
                     } else if (appState.selectedCategory) {
+                        console.log('[renderViewContent] Selection view: Rendering category selection (from level).');
                         renderCategorySelection();
                     } else {
+                        console.log('[renderViewContent] Selection view: Initial render, rendering category selection.');
                         renderCategorySelection();
                     }
                     break;
                 case 'info-view':
-                    // 清除之前的输入，并根据用户角色显示班级输入框
                     studentNameInput.value = '';
                     if (appState.userRole === 'class') {
                         studentClassInput.classList.remove('hidden');
-                        studentClassInput.value = ''; // 确保班级输入框也是空的
+                        studentClassInput.value = '';
                     } else {
                         studentClassInput.classList.add('hidden');
                         studentClassInput.value = '';
                     }
-                    studentNameInput.focus(); // 聚焦姓名输入框
+                    studentNameInput.focus();
+                    console.log('[renderViewContent] Info view: Ready for student info.');
                     break;
                 case 'test-view':
-                    // 重新初始化测试界面
+                    console.log('[renderViewContent] Test view: Initializing test logic.');
                     initializeTestLogic();
                     break;
                 case 'results-view':
-                    // 渲染最终结果
+                    console.log('[renderViewContent] Results view: Rendering final results.');
                     renderFinalResults();
                     break;
             }
@@ -443,67 +462,80 @@
          * 返回上一个视图。
          */
         function goBack() {
+            console.log(`[goBack] Current view: ${appState.currentView}, History:`, appState.viewHistory);
             if (appState.viewHistory.length > 0) {
                 const prevViewId = appState.viewHistory.pop();
+                console.log(`[goBack] Popped ${prevViewId} from history.`);
 
                 // 根据当前视图，重置相关状态
                 if (appState.currentView === 'selection-view') {
+                    // When going back from a deeper selection level, clear the deeper state
                     if (appState.selectedUnit || appState.selectedContentType === 'past') {
                          appState.selectedUnit = '';
                          appState.selectedContentType = '';
+                         console.log('[goBack] Resetting selectedUnit and selectedContentType.');
                     } else if (appState.selectedLevel) {
                         appState.selectedLevel = '';
+                        console.log('[goBack] Resetting selectedLevel.');
                     } else if (appState.selectedCategory) {
                         appState.selectedCategory = '';
+                        console.log('[goBack] Resetting selectedCategory.');
                     }
                 } else if (appState.currentView === 'info-view') {
                     appState.studentName = '';
                     appState.studentClass = '';
+                    console.log('[goBack] Resetting student info.');
                 } else if (appState.currentView === 'confirm-role-view') {
                     appState.userRole = '';
+                    console.log('[goBack] Resetting user role.');
                 } else if (appState.currentView === 'test-view') {
-                    // 如果从测试页返回，重置测试状态
                     resetTestState();
+                    console.log('[goBack] Resetting test state from test view.');
                 } else if (appState.currentView === 'results-view') {
-                    // 如果从结果页返回，重置测试状态
                     resetTestState();
+                    console.log('[goBack] Resetting test state from results view.');
                 }
 
                 showView(prevViewId, false); // 不推入历史，因为它已经被弹出了
+                console.log(`[goBack] Navigated to previous view: ${prevViewId}`);
+            } else {
+                console.log('[goBack] History is empty, cannot go back.');
             }
         }
 
 
         // --- 渲染词库选择视图的不同阶段 ---
-        // 这些函数大部分保持不变，只是优化了从 vocabStructure 中获取数据的方式
-
         /**
          * 渲染一级分类（Reading, Listening, Speaking, Writing）。
          */
         function renderCategorySelection() {
+            console.log('[renderCategorySelection] Starting to render category selection buttons.');
             selectionTitle.textContent = '请选择分类';
-            selectionContent.innerHTML = '';
+            selectionContent.innerHTML = ''; // Clear previous content
             selectionContent.classList.add('grid-col-1-md-2');
 
             const categories = Object.keys(vocabStructure);
             
             categories.forEach(category => {
                 const button = document.createElement('button');
-                button.classList.add('btn-selection-item');
+                button.classList.add('btn-selection-item'); // Apply base styles
                 if (appState.selectedCategory === category) {
-                    button.classList.add('btn-selection-item-selected');
+                    button.classList.add('btn-selection-item-selected'); // Mark as selected
                 }
                 button.textContent = categoryNames[category] + ' ( ' + capitalizeFirstLetter(category) + ' )';
                 button.dataset.category = category;
-                button.addEventListener('click', () => {
+                button.addEventListener('click', (event) => {
+                    console.log(`[Click] Category button "${category}" clicked! Event target:`, event.target);
                     appState.selectedCategory = category;
                     appState.selectedLevel = '';
                     appState.selectedContentType = '';
                     appState.selectedUnit = '';
-                    showView('selection-view'); // 重新渲染 selection-view 到下一级
+                    showView('selection-view'); // Re-render selection-view to next level
                 });
                 selectionContent.appendChild(button);
+                console.log(`[renderCategorySelection] Appended button for ${category}.`);
             });
+            console.log('[renderCategorySelection] Finished rendering category selection buttons.');
         }
 
         /**
@@ -511,6 +543,7 @@
          * @param {string} category - 已选择的一级分类。
          */
         function renderLevelSelection(category) {
+            console.log(`[renderLevelSelection] Starting to render level selection buttons for category: ${category}.`);
             selectionTitle.textContent = `选择 ${categoryNames[category]} 难度`;
             selectionContent.innerHTML = '';
             selectionContent.classList.add('grid-col-2-md-3');
@@ -525,14 +558,17 @@
                 }
                 button.textContent = levelNames[level] + ' ( ' + capitalizeFirstLetter(level) + ' )';
                 button.dataset.level = level;
-                button.addEventListener('click', () => {
+                button.addEventListener('click', (event) => {
+                    console.log(`[Click] Level button "${level}" clicked! Event target:`, event.target);
                     appState.selectedLevel = level;
                     appState.selectedContentType = '';
                     appState.selectedUnit = '';
-                    showView('selection-view'); // 重新渲染 selection-view 到下一级
+                    showView('selection-view'); // Re-render selection-view to next level
                 });
                 selectionContent.appendChild(button);
+                console.log(`[renderLevelSelection] Appended button for level ${level}.`);
             });
+            console.log('[renderLevelSelection] Finished rendering level selection buttons.');
         }
 
         /**
@@ -541,6 +577,7 @@
          * @param {string} level - 已选择的二级分类。
          */
         function renderContentTypeSelection(category, level) {
+            console.log(`[renderContentTypeSelection] Starting to render content type selection buttons for ${category}-${level}.`);
             selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 内容类型`;
             selectionContent.innerHTML = '';
             selectionContent.classList.add('grid-col-1-md-2');
@@ -562,18 +599,21 @@
                     }
                     button.textContent = contentNames[type];
                     button.dataset.contentType = type;
-                    button.addEventListener('click', () => {
+                    button.addEventListener('click', (event) => {
+                        console.log(`[Click] Content type button "${type}" clicked! Event target:`, event.target);
                         appState.selectedContentType = type;
                         appState.selectedUnit = '';
                         if (type === 'unit') {
-                            showView('selection-view'); // 重新渲染 selection-view 到下一级 (单元选择)
+                            showView('selection-view'); // Re-render selection-view to next level (unit selection)
                         } else { // 'past'
-                            handleFinalSelection(); // 加载词汇并跳转到信息页
+                            handleFinalSelection(); // Load vocabulary and proceed to info page
                         }
                     });
                     selectionContent.appendChild(button);
+                    console.log(`[renderContentTypeSelection] Appended button for content type ${type}.`);
                 }
             });
+            console.log('[renderContentTypeSelection] Finished rendering content type selection buttons.');
         }
 
         /**
@@ -582,6 +622,7 @@
          * @param {string} level - 已选择的二级分类。
          */
         function renderUnitSelection(category, level) {
+            console.log(`[renderUnitSelection] Starting to render unit selection buttons for ${category}-${level}.`);
             selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 授课单元`;
             selectionContent.innerHTML = '';
             selectionContent.classList.add('grid-col-3-md-5');
@@ -589,6 +630,7 @@
             const unitsAvailable = vocabStructure[category]?.[level]?.unit;
             if (!unitsAvailable || unitsAvailable.length === 0) {
                 selectionContent.innerHTML = '<p class="text-gray-600">当前难度暂无单元词库。</p>';
+                console.log('[renderUnitSelection] No units available for this selection.');
                 return;
             }
 
@@ -603,18 +645,22 @@
                 }
                 button.textContent = `单元 ${unitNumber}`;
                 button.dataset.unit = unitFileName;
-                button.addEventListener('click', () => {
+                button.addEventListener('click', (event) => {
+                    console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
                     appState.selectedUnit = unitFileName;
-                    handleFinalSelection(); // 加载词汇并跳转到信息页
+                    handleFinalSelection(); // Load vocabulary and proceed to info page
                 });
                 selectionContent.appendChild(button);
+                console.log(`[renderUnitSelection] Appended button for unit ${unitNumber}.`);
             });
+            console.log('[renderUnitSelection] Finished rendering unit selection buttons.');
         }
 
         /**
          * 处理最终选择并加载词汇数据。
          */
         async function handleFinalSelection() {
+            console.log('[handleFinalSelection] Starting vocabulary loading...');
             let jsonFileName = '';
             if (appState.selectedContentType === 'unit') {
                 jsonFileName = appState.selectedUnit;
@@ -622,6 +668,7 @@
                 jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
             }
             const jsonPath = `data/${jsonFileName}`;
+            console.log(`[handleFinalSelection] Attempting to load JSON from: ${jsonPath}`);
 
             selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
             selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
@@ -636,17 +683,18 @@
                 appState.currentTestVocabulary = await response.json();
 
                 if (!appState.currentTestVocabulary || appState.currentTestVocabulary.length === 0) {
+                    console.warn('[handleFinalSelection] Loaded vocabulary is empty.');
                     alert('所选词库为空，请选择其他词库或联系老师添加词汇。');
                     goBack();
                     return;
                 }
 
-                console.log('Loaded vocabulary for test:', appState.currentTestVocabulary);
+                console.log('[handleFinalSelection] Loaded vocabulary for test:', appState.currentTestVocabulary);
                 showView('info-view'); // Proceed to student info view
 
             } catch (error) {
+                console.error('[handleFinalSelection] Vocabulary loading error:', error);
                 alert(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
-                console.error('Vocabulary loading error:', error);
                 goBack();
             }
         }
@@ -655,6 +703,7 @@
          * 重置所有测试相关的状态数据。
          */
         function resetTestState() {
+            console.log('[resetTestState] Resetting all test-related state.');
             appState.currentTestVocabulary = [];
             appState.shuffledTestVocabulary = [];
             appState.currentWordIndex = 0;
@@ -665,23 +714,14 @@
         }
 
         // --- 听写测试核心逻辑 (从旧版本复制并集成) ---
-        // These are global variables that are implicitly used by the functions below.
-        // They are now synchronized with appState, so the internal variables are not strictly needed,
-        // but keeping them as local scope or removing them explicitly would require more refactoring
-        // For simplicity and avoiding immediate bugs from refactoring, they are kept as comments
-        // let currentWordIndex = 0;
-        // let correctAnswersCount = 0;
-        // let questionsAttempted = 0;
-        // let incorrectAnswers = [];
-
-
         function initializeTestLogic() {
+            console.log('[initializeTestLogic] Initializing test logic...');
             appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
             appState.currentWordIndex = 0;
             appState.correctAnswersCount = 0;
             appState.questionsAttempted = 0;
             appState.incorrectAnswers = [];
-            appState.testStartTime = new Date(); // 记录测试开始时间
+            appState.testStartTime = new Date();
 
             // 确保测试视图UI元素可见性正确
             answerInput.classList.remove('hidden');
@@ -693,13 +733,15 @@
             exampleSentenceDisplay.classList.remove('hidden');
 
             loadQuestion();
+            console.log('[initializeTestLogic] Test initialized and first question loaded.');
         }
 
         function loadQuestion() {
-            // 无限循环逻辑
+            console.log(`[loadQuestion] Loading question ${appState.currentWordIndex + 1}...`);
             if (appState.currentWordIndex >= appState.shuffledTestVocabulary.length) {
-                appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]); // 重新打乱
-                appState.currentWordIndex = 0; // 从头开始
+                appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
+                appState.currentWordIndex = 0;
+                console.log('[loadQuestion] Reached end of vocabulary, reshuffling and restarting.');
             }
 
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
@@ -714,9 +756,11 @@
             checkAnswerBtn.classList.remove('hidden');
             exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文';
             getExampleBtn.disabled = false;
+            console.log(`[loadQuestion] Displaying Chinese: "${currentPair.chinese}"`);
         }
 
         function checkCurrentAnswer() {
+            console.log('[checkCurrentAnswer] Checking answer...');
             appState.questionsAttempted++;
             const typedAnswer = answerInput.value.trim();
             const correctEnglish = appState.shuffledTestVocabulary[appState.currentWordIndex].english.trim();
@@ -731,6 +775,7 @@
                 answerInput.classList.add('feedback-correct');
                 appState.correctAnswersCount++;
                 playPronunciation(correctEnglish);
+                console.log('[checkCurrentAnswer] Answer correct.');
             } else {
                 feedbackMessage.innerHTML = `错误！正确答案是: "${correctEnglish}"`;
                 feedbackMessage.appendChild(createPlayButton(correctEnglish));
@@ -742,22 +787,27 @@
                     typed: typedAnswer,
                     correct: correctEnglish
                 });
+                console.log(`[checkCurrentAnswer] Answer incorrect. Correct: "${correctEnglish}", Typed: "${typedAnswer}"`);
             }
 
             checkAnswerBtn.classList.add('hidden');
             nextWordBtn.classList.remove('hidden');
+            console.log('[checkCurrentAnswer] Answer checked. Ready for next word.');
         }
 
         function nextWord() {
+            console.log('[nextWord] Moving to next word...');
             appState.currentWordIndex++;
             loadQuestion();
         }
 
-        function endTestSession() { // Renamed from endTest to avoid conflict with showView('results-view')
-            showView('results-view'); // 跳转到结果视图
+        function endTestSession() {
+            console.log('[endTestSession] Ending test session.');
+            showView('results-view');
         }
 
         function renderFinalResults() {
+            console.log('[renderFinalResults] Rendering final results...');
             // 隐藏测试视图中的所有可交互元素
             answerInput.classList.add('hidden');
             getExampleBtn.classList.add('hidden');
@@ -790,6 +840,7 @@
             resultsList.innerHTML = '';
             if (appState.incorrectAnswers.length === 0) {
                 resultsList.innerHTML = '<p class="text-green-700 font-semibold">太棒了！所有题目都正确！</p>';
+                console.log('[renderFinalResults] All answers correct!');
             } else {
                 appState.incorrectAnswers.forEach(item => {
                     const li = document.createElement('li');
@@ -805,22 +856,26 @@
                     }
                     resultsList.appendChild(li);
                 });
+                console.log(`[renderFinalResults] Displaying ${appState.incorrectAnswers.length} incorrect answers.`);
             }
+            console.log('[renderFinalResults] Results rendering complete.');
         }
 
-        // --- 语音合成和LLM例句功能 (从旧版本复制并集成) ---
+        // --- 语音合成和LLM例句功能 ---
 
         /**
          * Plays the pronunciation of a given word.
          * @param {string} word - The word to pronounce.
          */
         function playPronunciation(word) {
+            console.log(`[playPronunciation] Attempting to play: "${word}"`);
             if (!speechSynth || !voicesLoaded) {
-                console.warn('SpeechSynthesis API not ready or supported in this browser.');
+                console.warn('SpeechSynthesis API not ready or supported in this browser. Pronunciation will not work.');
                 return;
             }
             if (speechSynth.speaking) {
                 speechSynth.cancel();
+                console.log('[playPronunciation] Cancelling previous speech.');
             }
             const utterance = new SpeechSynthesisUtterance(word);
             utterance.lang = 'en-US';
@@ -828,6 +883,7 @@
             utterance.rate = 1;
             utterance.pitch = 1;
             speechSynth.speak(utterance);
+            console.log(`[playPronunciation] Spoke: "${word}"`);
         }
 
         /**
@@ -851,6 +907,7 @@
          * Generates an example sentence using the Gemini API (gemini-2.0-flash).
          */
         async function getExampleSentence() {
+            console.log('[getExampleSentence] Attempting to get example sentence...');
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
             const englishWord = currentPair.english;
 
@@ -860,14 +917,17 @@
 
             if (isAnswerEmpty && !isAnswerChecked) {
                 exampleSentenceDisplay.textContent = '请输入英文词汇或短语后再获取例句。';
+                console.warn('[getExampleSentence] Answer input is empty, cannot get example.');
                 return;
             } else if (isAnswerChecked && !isAnswerCorrect) {
                  exampleSentenceDisplay.textContent = '请检查您的答案（红色部分），并查看正确答案，再获取例句。';
+                 console.warn('[getExampleSentence] Answer incorrect and checked, guiding user to correct first.');
                  return;
             }
 
             exampleSentenceDisplay.innerHTML = '<div class="loading-spinner"></div>';
             getExampleBtn.disabled = true;
+            console.log(`[getExampleSentence] Prompting LLM for example of: "${englishWord}"`);
 
             try {
                 const prompt = `请提供一个关于英文词汇或短语 "${englishWord}" 的例句。例句需适合中级英语学习者，且句子内容避免过于简单或过于复杂。`;
@@ -889,17 +949,19 @@
                     result.candidates[0].content.parts.length > 0) {
                     const text = result.candidates[0].content.parts[0].text;
                     exampleSentenceDisplay.textContent = `例句: "${text}"`;
+                    console.log(`[getExampleSentence] LLM example received: "${text}"`);
                 } else {
                     exampleSentenceDisplay.textContent = '无法生成例句。请稍后再试。';
-                    console.error('LLM response structure unexpected:', result);
+                    console.error('[getExampleSentence] LLM response structure unexpected:', result);
                 }
             } catch (error) {
                 exampleSentenceDisplay.textContent = '获取例句失败。请检查网络或稍后再试。';
-                console.error('Error calling LLM API:', error);
+                console.error('[getExampleSentence] Error calling LLM API:', error);
             } finally {
                 if (!answerInput.readOnly) {
                     getExampleBtn.disabled = false;
                 }
+                console.log('[getExampleSentence] Example sentence request finished.');
             }
         }
 
@@ -920,14 +982,14 @@
         if (speechSynth) {
             speechSynth.onvoiceschanged = () => {
                 voicesLoaded = true;
-                console.log('SpeechSynthesis voices loaded.');
+                console.log('[SpeechSynthesis] Voices loaded.');
             };
             if (speechSynth.getVoices().length > 0) {
                 voicesLoaded = true;
-                console.log('SpeechSynthesis voices already available.');
+                console.log('[SpeechSynthesis] Voices already available.');
             }
         } else {
-            console.warn('浏览器不支持 SpeechSynthesis API。发音功能将不可用。');
+            console.warn('[SpeechSynthesis] 浏览器不支持 SpeechSynthesis API。发音功能将不可用。');
         }
 
         /**
@@ -945,11 +1007,13 @@
 
         // --- 事件监听器 ---
         vipStudentBtn.addEventListener('click', () => {
+            console.log('[Event] VIP Student button clicked.');
             appState.userRole = 'vip';
             showView('confirm-role-view');
         });
 
         classStudentBtn.addEventListener('click', () => {
+            console.log('[Event] Class Student button clicked.');
             appState.userRole = 'class';
             showView('confirm-role-view');
         });
@@ -957,6 +1021,7 @@
         confirmBackBtn.addEventListener('click', goBack);
 
         confirmRoleContinueBtn.addEventListener('click', () => {
+            console.log('[Event] Confirm Role Continue button clicked.');
             appState.viewHistory = []; // From confirm-role-view, always start a fresh history for selection
             showView('selection-view');
         });
@@ -965,6 +1030,7 @@
 
         // 学生信息填写页面的开始测试按钮
         startTestBtn.addEventListener('click', () => {
+            console.log('[Event] Start Test button clicked.');
             appState.studentName = studentNameInput.value.trim();
             if (appState.userRole === 'class') {
                 appState.studentClass = studentClassInput.value.trim();
@@ -974,6 +1040,7 @@
 
             if (!appState.studentName) {
                 alert('请输入您的姓名才能开始测试！');
+                console.warn('[Event] Student name not entered.');
                 return;
             }
             showView('test-view'); // 跳转到测试视图
@@ -989,6 +1056,7 @@
 
         // 结果视图的重新开始按钮
         resultsRestartBtn.addEventListener('click', () => {
+            console.log('[Event] Restart Test button clicked.');
             // 清除所有选择，回到欢迎界面，重新开始整个流程
             appState.userRole = '';
             appState.selectedCategory = '';
@@ -1006,6 +1074,7 @@
         // 允许按 Enter 键触发检查答案或下一个
         answerInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
+                console.log('[Event] Enter key pressed on answer input.');
                 if (!checkAnswerBtn.classList.contains('hidden')) {
                     checkCurrentAnswer();
                 } else if (!nextWordBtn.classList.contains('hidden')) {
@@ -1017,6 +1086,7 @@
 
         // --- 启动应用 ---
         document.addEventListener('DOMContentLoaded', () => {
+            console.log('[App Startup] DOMContentLoaded fired. Initializing view.');
             showView('welcome-view', false); // 默认显示欢迎视图，不推入历史
         });
     </script>
