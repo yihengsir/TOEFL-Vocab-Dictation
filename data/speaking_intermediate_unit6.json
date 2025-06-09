@@ -1,42 +1,252 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "认识，识别",
+    "english": "recognition",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "加盟连销权（加盟店）",
+    "english": "franchising",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "消费者",
+    "english": "consumer",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "尽管，即使",
+    "english": "despite",
+    "pos": "prep."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "说服",
+    "english": "persuade",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "缺点",
+    "english": "drawback",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "驳斥；批驳",
+    "english": "refute",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "弱势",
+    "english": "disadvantage",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "限制",
+    "english": "limitation",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "指示；表明；示意",
+    "english": "indicate",
+    "pos": "v."
+  },
+  {
+    "chinese": "实现；（凭长期努力）达到（某目标）",
+    "english": "achieve",
+    "pos": "v."
+  },
+  {
+    "chinese": "联系；相关联；连接",
+    "english": "link",
+    "pos": "v."
+  },
+  {
+    "chinese": "逻辑上；合乎逻辑地",
+    "english": "logically",
+    "pos": "adv."
+  },
+  {
+    "chinese": "符号；象征；记号",
+    "english": "symbol",
+    "pos": "n."
+  },
+  {
+    "chinese": "视觉的",
+    "english": "visual",
+    "pos": "adj."
+  },
+  {
+    "chinese": "竞争者",
+    "english": "competitor",
+    "pos": "n."
+  },
+  {
+    "chinese": "饼干",
+    "english": "biscuit",
+    "pos": "n."
+  },
+  {
+    "chinese": "广告",
+    "english": "commercial",
+    "pos": "n."
+  },
+  {
+    "chinese": "娱乐的；有趣的",
+    "english": "entertaining",
+    "pos": "adj."
+  },
+  {
+    "chinese": "形象；印象；画像",
+    "english": "image",
+    "pos": "n."
+  },
+  {
+    "chinese": "滑稽的; 可笑的; 有趣的",
+    "english": "comical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "活泼的; 令人兴奋的; 生气勃勃的",
+    "english": "lively",
+    "pos": "adj."
+  },
+  {
+    "chinese": "连锁店",
+    "english": "chain",
+    "pos": "n."
+  },
+  {
+    "chinese": "受欢迎的",
+    "english": "popular",
+    "pos": "adj."
+  },
+  {
+    "chinese": "饭店",
+    "english": "restaurant",
+    "pos": "n."
+  },
+  {
+    "chinese": "要求",
+    "english": "demand",
+    "pos": "v."
+  },
+  {
+    "chinese": "披萨",
+    "english": "pizza",
+    "pos": "n."
+  },
+  {
+    "chinese": "困难的",
+    "english": "tough",
+    "pos": "adj."
+  },
+  {
+    "chinese": "联系",
+    "english": "contact",
+    "pos": "v."
+  },
+  {
+    "chinese": "成功",
+    "english": "success",
+    "pos": "n."
+  },
+  {
+    "chinese": "交换",
+    "english": "exchange",
+    "pos": "v."
+  },
+  {
+    "chinese": "购买",
+    "english": "purchase",
+    "pos": "v."
+  },
+  {
+    "chinese": "平底锅",
+    "english": "pan",
+    "pos": "n."
+  },
+  {
+    "chinese": "专业的",
+    "english": "professional",
+    "pos": "adj."
+  },
+  {
+    "chinese": "观众；受众",
+    "english": "audience",
+    "pos": "n."
+  },
+  {
+    "chinese": "厨具",
+    "english": "cookware",
+    "pos": "n."
+  },
+  {
+    "chinese": "值得的",
+    "english": "worthwhile",
+    "pos": "adj."
+  },
+  {
+    "chinese": "担保",
+    "english": "warranty",
+    "pos": "n."
+  },
+  {
+    "chinese": "目标",
+    "english": "goal",
+    "pos": "n."
+  },
+  {
+    "chinese": "设计",
+    "english": "design",
+    "pos": "n."
+  },
+  {
+    "chinese": "典型的",
+    "english": "typical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "积极的",
+    "english": "positive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "未来",
+    "english": "future",
+    "pos": "n."
+  },
+  {
+    "chinese": "联系；联合；联想",
+    "english": "associate",
+    "pos": "v."
+  },
+  {
+    "chinese": "饼干；曲奇",
+    "english": "cookie",
+    "pos": "n."
+  },
+  {
+    "chinese": "角色",
+    "english": "character",
+    "pos": "n."
+  },
+  {
+    "chinese": "所以；因此",
+    "english": "therefore",
+    "pos": "adv."
+  },
+  {
+    "chinese": "独一无二的",
+    "english": "one-of-a-kind",
+    "pos": "adj."
+  },
+  {
+    "chinese": "锅",
+    "english": "pot",
+    "pos": "n."
+  },
+  {
+    "chinese": "众所周知的",
+    "english": "well-known",
+    "pos": "adj."
   }
 ]
