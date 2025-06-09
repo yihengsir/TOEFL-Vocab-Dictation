@@ -132,6 +132,7 @@
             @apply bg-green-100 border-green-500 text-green-800;
         }
         .feedback-incorrect {
+            /* Applied to input field when incorrect */
             @apply bg-red-100 border-red-500 text-red-800;
         }
         .loading-spinner {
@@ -212,8 +213,8 @@
         <!-- 听写测试视图 -->
         <div id="test-view" class="view hidden">
             <button id="test-back-btn" class="btn-back">返回</button>
-            <!-- 移除 "听写测试" 标题 -->
-            <!-- <h2 class="view-title">听写测试</h2> -->
+            <!-- 添加顶部的标题，与图二一致 -->
+            <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
             <div class="flex flex-col gap-6 w-full">
                 <div id="question-display" class="quiz-question-display">
                     加载词汇...
