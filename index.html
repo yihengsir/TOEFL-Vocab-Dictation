@@ -9,131 +9,274 @@
     <!-- Font Awesome for speaker icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Base styles and utility classes */
+        /* Custom styles for background and font */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #eef2f6; /* 更柔和的背景色 */
+            background-color: #eef2f6; /* Light blue-gray background */
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 1.5rem; /* 增加整体内边距 */
+            padding: 1.5rem; /* Increase overall padding */
             overflow-y: auto;
         }
 
+        /* Styles for the main container wrapper */
         .main-container {
             background-color: #ffffff;
-            border-radius: 1.5rem; /* 更大的圆角 */
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* 更明显的阴影 */
-            padding: 2.5rem 3rem; /* 增加内边距 */
+            border-radius: 1.5rem; /* Larger rounded corners */
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+            padding: 2.5rem 3rem; /* Increased padding */
             width: 100%;
-            max-width: 800px; /* 适当增加最大宽度 */
+            max-width: 800px; /* Adjusted max width */
             display: flex;
             flex-direction: column;
-            gap: 2rem; /* 增加模块间距 */
+            gap: 2rem; /* Increased spacing between modules */
             text-align: center;
-            position: relative; /* 用于返回按钮的定位 */
-            /* 关键修复：确保 main-container 及其内容可点击 */
-            pointer-events: auto !important; /* 强制覆盖，确保点击事件传递 */
-            z-index: 1; /* 确保它位于默认层级，且可以接收事件 */
+            position: relative; /* For absolute positioning of back button */
+            pointer-events: auto !important; /* Ensure click events are passed */
+            z-index: 1; /* Ensure it's above default layer and receives events */
         }
 
-        /* 所有视图共享的样式 */
+        /* Styles for all views */
         .view {
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1.5rem; /* 视图内部元素间距 */
-            position: relative; /* 确保 z-index 有效 */
-            z-index: 2; /* 确保视图层级在 main-container 之上 */
-            pointer-events: auto; /* 确保该元素及其子元素可交互 */
+            gap: 1.5rem; /* Spacing between elements inside a view */
+            position: relative; /* Ensure z-index works */
+            z-index: 2; /* Ensure view is above main-container */
+            pointer-events: auto; /* Ensure this element and its children are interactive */
         }
 
-        /* 标题样式 */
+        /* Title styles */
         .view-title {
-            @apply text-3xl md:text-4xl font-extrabold text-gray-800 mb-6; /* 更深的颜色，更粗的字体 */
+            font-size: 2.25rem; /* text-3xl */
+            line-height: 2.5rem; /* leading-9 */
+            font-weight: 800; /* font-extrabold */
+            color: #1f2937; /* text-gray-800 */
+            margin-bottom: 1.5rem; /* mb-6 */
+        }
+        /* Responsive adjustments for title */
+        @media (min-width: 768px) {
+            .view-title {
+                font-size: 2.5rem; /* md:text-4xl */
+                line-height: 1; /* md:leading-10 */
+            }
         }
 
-        /* 主要按钮样式 */
+        /* Primary button styles */
         .btn-primary {
-            @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-xl transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 w-2/3 md:w-1/2 mx-auto;
-            letter-spacing: 0.05em; /* 增加字母间距 */
-            pointer-events: auto; /* 明确设置为可交互 */
-            z-index: 3; /* 确保按钮层级高于其容器 */
+            background-color: #2563eb; /* bg-blue-600 */
+            color: #ffffff; /* text-white */
+            font-weight: 700; /* font-bold */
+            padding: 0.75rem 2rem; /* py-3 px-8 */
+            border-radius: 9999px; /* rounded-full */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
+            transition-property: all;
+            transition-duration: 300ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* transition-all */
+            transform: scale(1); /* hover:scale-105 base */
+            width: 66.666667%; /* w-2/3 */
+            margin-left: auto;
+            margin-right: auto;
+            letter-spacing: 0.05em; /* Increase letter spacing */
+            pointer-events: auto; /* Explicitly set to interactive */
+            z-index: 3; /* Ensure button layer is above its container */
+        }
+        .btn-primary:hover {
+            background-color: #1d4ed8; /* hover:bg-blue-700 */
+            transform: scale(1.05); /* hover:scale-105 */
+        }
+        .btn-primary:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); /* focus:ring-4 focus:ring-blue-300 */
+        }
+        @media (min-width: 768px) {
+            .btn-primary {
+                width: 50%; /* md:w-1/2 */
+            }
         }
 
-        /* 次要按钮/选择项样式 (卡片化) */
+        /* Secondary button/selection item styles (card-like) */
         .btn-selection-item {
-            @apply bg-white border border-gray-200 text-gray-800 font-semibold py-4 px-6 rounded-xl shadow-md cursor-pointer transition duration-200 hover:bg-gray-50 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-400;
+            background-color: #ffffff; /* bg-white */
+            border: 1px solid #e5e7eb; /* border border-gray-200 */
+            color: #1f2937; /* text-gray-800 */
+            font-weight: 600; /* font-semibold */
+            padding: 1rem 1.5rem; /* py-4 px-6 */
+            border-radius: 0.75rem; /* rounded-xl */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            cursor: pointer;
+            transition-property: all;
+            transition-duration: 200ms; /* transition-all */
             text-align: center;
-            min-height: 80px; /* 确保按钮有足够高度，内容不会太挤 */
-            display: flex; /* 使用flex布局让内容垂直居中 */
+            min-height: 80px; /* Ensure sufficient height */
+            display: flex; /* Use flexbox for vertical centering */
             align-items: center;
             justify-content: center;
-            pointer-events: auto; /* 明确设置为可交互 */
-            z-index: 3; /* 确保按钮层级高于其容器 */
+            pointer-events: auto; /* Explicitly set to interactive */
+            z-index: 3; /* Ensure button layer is above its container */
+        }
+        .btn-selection-item:hover {
+            background-color: #f9fafb; /* hover:bg-gray-50 */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* hover:shadow-lg */
+        }
+        .btn-selection-item:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus:ring-2 focus:ring-blue-400 */
         }
 
         .btn-selection-item-selected {
-            @apply bg-blue-500 text-white border-blue-500 shadow-xl ring-2 ring-blue-300;
+            background-color: #3b82f6; /* bg-blue-500 */
+            color: #ffffff; /* text-white */
+            border-color: #3b82f6; /* border-blue-500 */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* ring-2 ring-blue-300 */
         }
         .btn-selection-item-selected:hover {
-             @apply bg-blue-600; /* 选中状态下 hover 颜色稍微变深 */
+             background-color: #2563eb; /* bg-blue-600 */
         }
 
-        /* 返回按钮样式 */
+        /* Back button styles */
         .btn-back {
-            @apply bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-4 rounded-full shadow-md transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-gray-200 absolute top-6 left-6 z-10;
-            pointer-events: auto; /* 明确设置为可交互 */
+            background-color: #e5e7eb; /* bg-gray-200 */
+            color: #374151; /* text-gray-700 */
+            font-weight: 700; /* font-bold */
+            padding: 0.5rem 1rem; /* py-2 px-4 */
+            border-radius: 9999px; /* rounded-full */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
+            transition-property: all;
+            transition-duration: 300ms;
+            transform: scale(1); /* hover:scale-105 base */
+            position: absolute;
+            top: 1.5rem; /* top-6 */
+            left: 1.5rem; /* left-6 */
+            z-index: 10;
+            pointer-events: auto; /* Explicitly set to interactive */
+        }
+        .btn-back:hover {
+            background-color: #d1d5db; /* hover:bg-gray-300 */
+            transform: scale(1.05); /* hover:scale-105 */
+        }
+        .btn-back:focus {
+            outline: none;
+            box-shadow: 0 0 0 4px rgba(209, 213, 219, 0.5); /* focus:ring-4 focus:ring-gray-200 */
         }
 
-        /* 隐藏类 */
+        /* Hidden utility class */
         .hidden {
             display: none !important;
         }
 
-        /* 不同的选择网格布局 */
+        /* Different selection grid layouts */
         .grid-layout {
-            @apply grid gap-4 w-full; /* 基础网格间距 */
-            pointer-events: auto; /* 确保网格容器可交互 */
-            z-index: 2; /* 确保网格容器层级在 view 之上 */
+            display: grid;
+            gap: 1rem; /* gap-4 */
+            width: 100%; /* w-full */
+            pointer-events: auto; /* Ensure grid container is interactive */
+            z-index: 2; /* Ensure grid container is above view */
         }
         .grid-col-1-md-2 {
-            @apply grid-cols-1 md:grid-cols-2;
+            grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
         }
+        @media (min-width: 768px) {
+            .grid-col-1-md-2 {
+                grid-template-columns: repeat(2, minmax(0, 1fr)); /* md:grid-cols-2 */
+            }
+        }
+
         .grid-col-2-md-3 {
-            @apply grid-cols-2 md:grid-cols-3;
+            grid-template-columns: repeat(2, minmax(0, 1fr)); /* grid-cols-2 */
         }
+        @media (min-width: 768px) {
+            .grid-col-2-md-3 {
+                grid-template-columns: repeat(3, minmax(0, 1fr)); /* md:grid-cols-3 */
+            }
+        }
+
         .grid-col-3-md-5 {
-            @apply grid-cols-3 md:grid-cols-5;
+            grid-template-columns: repeat(3, minmax(0, 1fr)); /* grid-cols-3 */
+        }
+        @media (min-width: 768px) {
+            .grid-col-3-md-5 {
+                grid-template-columns: repeat(5, minmax(0, 1fr)); /* md:grid-cols-5 */
+            }
         }
 
-        /* 额外优化：输入框样式 */
+        /* Input field generic styles */
         .input-field {
-            @apply block w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm text-lg text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200;
+            display: block;
+            width: 100%;
+            padding: 0.75rem 1rem; /* px-4 py-3 */
+            border: 1px solid #d1d5db; /* border border-gray-300 */
+            border-radius: 0.5rem; /* rounded-lg */
+            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
+            font-size: 1.125rem; /* text-lg */
+            color: #1f2937; /* text-gray-800 */
+            background-color: #ffffff; /* bg-white */
+            transition-property: all;
+            transition-duration: 200ms;
+        }
+        .input-field::placeholder {
+            color: #9ca3af; /* placeholder-gray-400 */
+        }
+        .input-field:focus {
+            outline: none;
+            border-color: #3b82f6; /* focus:border-blue-500 */
+            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* focus:ring-2 focus:ring-blue-500 */
         }
 
-        /* 听写测试特定样式 */
-        /* Updated quiz-question-display for better prominence */
+
+        /* Dictation test specific styles */
         .quiz-question-display {
-            @apply bg-blue-100 text-blue-900 text-4xl md:text-5xl font-extrabold py-8 px-6 rounded-2xl shadow-lg; /* 更大更粗，更像卡片 */
-            min-height: 120px; /* 确保有足够的高度 */
+            background-color: #dbeafe; /* bg-blue-100 */
+            color: #1e40af; /* text-blue-900 */
+            font-size: 3rem; /* text-4xl */
+            line-height: 1.3; /* Adjusted line-height */
+            font-weight: 800; /* font-extrabold */
+            padding: 2rem 1.5rem; /* py-8 px-6 */
+            border-radius: 1rem; /* rounded-2xl */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+            min-height: 120px; /* Ensure sufficient height */
             display: flex;
             align-items: center;
             justify-content: center;
-            line-height: 1.3; /* 调整行高 */
         }
-        /* Updated quiz-input-field for better visual consistency */
+        @media (min-width: 768px) {
+            .quiz-question-display {
+                font-size: 3.75rem; /* md:text-5xl */
+            }
+        }
+
         .quiz-input-field {
-            @apply border-2 border-gray-300 bg-white rounded-xl p-4 text-xl text-gray-800 w-full text-center shadow-inner focus:border-blue-500 focus:ring-2 focus:ring-blue-200; /* 更圆润，有内阴影 */
+            border: 2px solid #d1d5db; /* border-2 border-gray-300 */
+            background-color: #ffffff; /* bg-white */
+            border-radius: 0.75rem; /* rounded-xl */
+            padding: 1rem; /* p-4 */
+            font-size: 1.25rem; /* text-xl */
+            color: #1f2937; /* text-gray-800 */
+            width: 100%; /* w-full */
+            text-align: center;
+            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); /* shadow-inner */
+            transition-property: all;
+            transition-duration: 200ms;
         }
+        .quiz-input-field:focus {
+            border-color: #3b82f6; /* focus:border-blue-500 */
+            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus:ring-2 focus:ring-blue-200 */
+        }
+
         .feedback-correct {
-            @apply bg-green-100 border-green-500 text-green-800;
+            background-color: #d1fae5; /* bg-green-100 */
+            border-color: #22c55e; /* border-green-500 */
+            color: #166534; /* text-green-800 */
         }
         .feedback-incorrect {
-            /* Applied to input field when incorrect */
-            @apply bg-red-100 border-red-500 text-red-800;
+            background-color: #fee2e2; /* bg-red-100 */
+            border-color: #ef4444; /* border-red-500 */
+            color: #991b1b; /* text-red-800 */
         }
         .loading-spinner {
             border: 4px solid #f3f3f3;
@@ -322,28 +465,28 @@
         const resultsBackBtn = document.getElementById('results-back-btn');
 
 
-        // --- 全局应用状态 ---
+        // --- Global Application State ---
         const appState = {
-            currentView: 'welcome-view', // 当前显示的视图ID
-            userRole: '', // 'vip' 或 'class'
+            currentView: 'welcome-view', // ID of the currently displayed view
+            userRole: '', // 'vip' or 'class'
             selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing'
             selectedLevel: '',    // 'beginner', 'intermediate', 'advanced'
-            selectedContentType: '',  // 'unit' 或 'past'
-            selectedUnit: '',     // 'unit1' 到 'unit10'
+            selectedContentType: '',  // 'unit' or 'past'
+            selectedUnit: '',     // e.g., 'unit1' to 'unit10'
             studentName: '',
             studentClass: '',
-            viewHistory: [], // 用于追踪视图历史，方便返回
-            currentTestVocabulary: [], // 存储当前测试的词汇数据
-            shuffledTestVocabulary: [], // 当前测试打乱后的词汇顺序
+            viewHistory: [], // Stack to track view history for back navigation
+            currentTestVocabulary: [], // Stores the vocabulary data for the current test
+            shuffledTestVocabulary: [], // Shuffled list of words for the current test session
             currentWordIndex: 0,
             correctAnswersCount: 0,
             questionsAttempted: 0,
-            incorrectAnswers: [], // 存储答错的题目详情
-            testStartTime: null, // 记录测试开始时间
-            userId: null, // 当前用户的 Firebase Auth UID
+            incorrectAnswers: [], // Stores details of incorrectly answered questions
+            testStartTime: null, // Records the start time of the test
+            userId: null, // Firebase Auth UID for the current user
         };
 
-        // --- Firebase 初始化 ---
+        // --- Firebase Initialization ---
         let db;
         let auth;
         let authReady = false; // Flag to indicate Firebase Auth is ready
@@ -402,20 +545,20 @@
         }
 
 
-        // --- 词库结构映射（指向实际的JSON文件路径） ---
+        // --- Vocabulary Structure Mapping (points to actual JSON file paths) ---
         const vocabStructure = {
             reading: {
                 beginner: {
                     unit: Array.from({length: 10}, (_, i) => `reading_beginner_unit${i + 1}.json`),
-                    past: 'expressions.json' // VIP 学生对应的测试
+                    past: 'expressions.json' // VIP student test
                 },
                 intermediate: {
                     unit: Array.from({length: 10}, (_, i) => `reading_intermediate_unit${i + 1}.json`),
-                    past: null // 此处无往期内容文件
+                    past: null // No past content file here
                 },
                 advanced: {
                     unit: Array.from({length: 10}, (_, i) => `reading_advanced_unit${i + 1}.json`),
-                    past: null // 此处无往期内容文件
+                    past: null // No past content file here
                 }
             },
             listening: {
@@ -429,54 +572,54 @@
                 advanced: { unit: Array.from({length: 10}, (_, i) => `speaking_advanced_unit${i + 1}.json`), past: null }
             },
             writing: {
-                beginner: { unit: Array.from({length: 1}, (_, i) => `writing_beginner_unit${i + 1}.json`), past: null }, // 假设只有一个单元
-                intermediate: { unit: Array.from({length: 1}, (_, i) => `writing_intermediate_unit${i + 1}.json`), past: null }, // 假设只有一个单元
-                advanced: { unit: Array.from({length: 1}, (_, i) => `writing_advanced_unit${i + 1}.json`), past: null } // 假设只有一个单元
+                beginner: { unit: Array.from({length: 1}, (_, i) => `writing_beginner_unit${i + 1}.json`), past: null }, // Assuming only one unit
+                intermediate: { unit: Array.from({length: 1}, (_, i) => `writing_intermediate_unit${i + 1}.json`), past: null }, // Assuming only one unit
+                advanced: { unit: Array.from({length: 1}, (_, i) => `writing_advanced_unit${i + 1}.json`), past: null } // Assuming only one unit
             }
         };
 
-        // LLM API Key (留空，Canvas 运行时会自动提供)
+        // LLM API Key (leave empty, Canvas runtime will automatically populate)
         const geminiApiKey = ""; // This will be automatically populated by Canvas runtime
 
         let speechSynth = window.speechSynthesis;
         let voicesLoaded = false;
 
 
-        // --- 核心视图管理函数 ---
+        // --- Core View Management Functions ---
         /**
-         * 切换到指定视图，并更新视图历史。
-         * @param {string} viewId - 要显示的视图的ID。
-         * @param {boolean} [pushToHistory=true] - 是否将当前视图推入历史栈。
+         * Switches to the specified view and updates view history.
+         * @param {string} viewId - The ID of the view to display.
+         * @param {boolean} [pushToHistory=true] - Whether to push the current view to the history stack.
          */
         function showView(viewId, pushToHistory = true) {
             console.log(`[showView] Attempting to show view: ${viewId}. Current appState.currentView: ${appState.currentView}`);
-            // 隐藏所有视图
+            // Hide all views
             document.querySelectorAll('.view').forEach(view => {
                 view.classList.add('hidden');
             });
 
-            // 显示目标视图
+            // Show the target view
             document.getElementById(viewId).classList.remove('hidden');
 
-            // 更新历史记录
-            if (pushToHistory && appState.currentView !== viewId) { // 避免重复添加当前视图
+            // Update history
+            if (pushToHistory && appState.currentView !== viewId) { // Avoid adding current view repeatedly
                 appState.viewHistory.push(appState.currentView);
                 console.log(`[showView] Added ${appState.currentView} to history. History:`, appState.viewHistory);
             }
             appState.currentView = viewId;
 
-            // 根据视图渲染内容
+            // Render content based on the view
             renderViewContent(viewId);
             console.log(`[showView] Finished showing view: ${viewId}`);
         }
 
         /**
-         * 渲染特定视图的内容。
-         * @param {string} viewId - 当前视图的ID。
+         * Renders the content of a specific view.
+         * @param {string} viewId - The ID of the current view.
          */
         function renderViewContent(viewId) {
             console.log(`[renderViewContent] Rendering content for view: ${viewId}`);
-            // 清除 selectionContent 的类，每次渲染时重新设置
+            // Clear classes from selectionContent, reset on each render
             selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
 
             switch (viewId) {
@@ -490,21 +633,21 @@
                     console.log(`[renderViewContent] Confirmed role: ${appState.userRole}`);
                     break;
                 case 'selection-view':
-                    // ** 修复后的逻辑: 从最深层判断到最浅层 **
+                    // Logic to determine which selection stage to render (category, level, content type, unit)
                     if (appState.selectedCategory && appState.selectedLevel && appState.selectedContentType === 'unit') {
-                        // 如果已经选择了分类、难度和内容类型是单元，则渲染单元选择
+                        // If category, level, and content type (unit) are selected, render unit selection
                         console.log('[renderViewContent] Selection view: Rendering unit selection.');
                         renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
                     } else if (appState.selectedCategory && appState.selectedLevel) {
-                        // 如果已经选择了分类和难度，但尚未选择内容类型，则渲染内容类型选择
+                        // If category and level are selected, but content type is not, render content type selection
                         console.log('[renderViewContent] Selection view: Rendering content type selection.');
                         renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
                     } else if (appState.selectedCategory) {
-                        // 如果只选择了分类，则渲染难度选择
+                        // If only category is selected, render level selection
                         console.log('[renderViewContent] Selection view: Rendering level selection.');
                         renderLevelSelection(appState.selectedCategory);
                     } else {
-                        // 否则（初始进入选择视图或从更前面返回），渲染分类选择
+                        // Otherwise (initial entry to selection view or returning from further back), render category selection
                         console.log('[renderViewContent] Selection view: Initial render, rendering category selection.');
                         renderCategorySelection();
                     }
@@ -533,7 +676,7 @@
         }
 
         /**
-         * 返回上一个视图。
+         * Navigates back to the previous view in history.
          */
         function goBack() {
             console.log(`[goBack] Current view: ${appState.currentView}, History:`, appState.viewHistory);
@@ -541,17 +684,17 @@
                 const prevViewId = appState.viewHistory.pop();
                 console.log(`[goBack] Popped ${prevViewId} from history.`);
 
-                // 根据当前视图，重置相关状态
+                // Reset relevant state based on the current view we are leaving
                 if (appState.currentView === 'selection-view') {
-                    // 当从选择视图返回时，需要根据返回到的层级清除下一级选择
-                    if (appState.selectedUnit || appState.selectedContentType === 'past') { // 从单元/往期返回到内容类型选择
+                    // When returning from selection view, clear subsequent selections based on the level returning to
+                    if (appState.selectedUnit || appState.selectedContentType === 'past') { // Returning from unit/past to content type selection
                          appState.selectedUnit = '';
                          appState.selectedContentType = '';
                          console.log('[goBack] Resetting selectedUnit and selectedContentType.');
-                    } else if (appState.selectedLevel) { // 从内容类型选择返回到难度选择
+                    } else if (appState.selectedLevel) { // Returning from content type selection to level selection
                         appState.selectedLevel = '';
                         console.log('[goBack] Resetting selectedLevel.');
-                    } else if (appState.selectedCategory) { // 从难度选择返回到分类选择
+                    } else if (appState.selectedCategory) { // Returning from level selection to category selection
                         appState.selectedCategory = '';
                         console.log('[goBack] Resetting selectedCategory.');
                     }
@@ -570,7 +713,7 @@
                     console.log('[goBack] Resetting test state from results view.');
                 }
 
-                showView(prevViewId, false); // 不推入历史，因为它已经被弹出了
+                showView(prevViewId, false); // Do not push to history again as it was just popped
                 console.log(`[goBack] Navigated to previous view: ${prevViewId}`);
             } else {
                 console.log('[goBack] History is empty, cannot go back.');
@@ -578,9 +721,9 @@
         }
 
 
-        // --- 渲染词库选择视图的不同阶段 ---
+        // --- Rendering Functions for Vocabulary Selection Views ---
         /**
-         * 渲染一级分类（Reading, Listening, Speaking, Writing）。
+         * Renders the primary categories (Reading, Listening, Speaking, Writing).
          */
         function renderCategorySelection() {
             console.log('[renderCategorySelection] Starting to render category selection buttons.');
@@ -613,8 +756,8 @@
         }
 
         /**
-         * 渲染二级分类（初级、中级、高级）。
-         * @param {string} category - 已选择的一级分类。
+         * Renders the secondary levels (Beginner, Intermediate, Advanced).
+         * @param {string} category - The selected primary category.
          */
         function renderLevelSelection(category) {
             console.log(`[renderLevelSelection] Starting to render level selection buttons for category: ${category}.`);
@@ -646,9 +789,9 @@
         }
 
         /**
-         * 渲染三级分类（按照授课单元、按照往期内容）。
-         * @param {string} category - 已选择的一级分类。
-         * @param {string} level - 已选择的二级分类。
+         * Renders the third-level content type selection (By Unit, By Past Content).
+         * @param {string} category - The selected primary category.
+         * @param {string} level - The selected secondary level.
          */
         function renderContentTypeSelection(category, level) {
             console.log(`[renderContentTypeSelection] Starting to render content type selection buttons for ${category}-${level}.`);
@@ -656,7 +799,7 @@
             selectionContent.innerHTML = '';
             selectionContent.classList.add('grid-col-1-md-2');
 
-            // 始终显示 '按照授课单元' 按钮
+            // Always display 'By Unit' button
             const unitButton = document.createElement('button');
             unitButton.classList.add('btn-selection-item');
             if (appState.selectedContentType === 'unit') {
@@ -668,13 +811,13 @@
                 console.log(`[Click] Content type button "unit" clicked! Event target:`, event.target);
                 appState.selectedContentType = 'unit';
                 appState.selectedUnit = '';
-                showView('selection-view'); // 重新渲染 selection-view 到单元选择
+                showView('selection-view'); // Re-render selection-view to unit selection
             });
             selectionContent.appendChild(unitButton);
             console.log('[renderContentTypeSelection] Appended button for content type unit.');
 
 
-            // 仅在用户是 VIP 且当前分类/难度有定义往期内容文件时显示 '按照往期内容' 按钮
+            // Only display 'By Past Content' button if user is VIP and a past content file is defined for this category/level
             const pastFileName = vocabStructure[category]?.[level]?.past;
             if (appState.userRole === 'vip' && pastFileName) {
                 const pastButton = document.createElement('button');
@@ -687,8 +830,8 @@
                 pastButton.addEventListener('click', (event) => {
                     console.log(`[Click] Content type button "past" clicked! Event target:`, event.target);
                     appState.selectedContentType = 'past';
-                    appState.selectedUnit = ''; // 切换内容类型时重置单元
-                    handleFinalSelection(); // 加载词汇并跳转到信息页
+                    appState.selectedUnit = ''; // Reset unit when switching content type
+                    handleFinalSelection(); // Load vocabulary and proceed to info page
                 });
                 selectionContent.appendChild(pastButton);
                 console.log('[renderContentTypeSelection] Appended button for content type past (VIP only).');
@@ -702,9 +845,9 @@
         }
 
         /**
-         * 渲染授课单元选择（根据 vocabStructure 实际配置的单元）。
-         * @param {string} category - 已选择的一级分类。
-         * @param {string} level - 已选择的二级分类。
+         * Renders the unit selection (based on units configured in vocabStructure).
+         * @param {string} category - The selected primary category.
+         * @param {string} level - The selected secondary level.
          */
         function renderUnitSelection(category, level) {
             console.log(`[renderUnitSelection] Starting to render unit selection buttons for ${category}-${level}.`);
@@ -733,7 +876,7 @@
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
                     appState.selectedUnit = unitFileName;
-                    handleFinalSelection(); // 加载词汇并跳转到信息页
+                    handleFinalSelection(); // Load vocabulary and proceed to info page
                 });
                 selectionContent.appendChild(button);
                 console.log(`[renderUnitSelection] Appended button for unit ${unitNumber}.`);
@@ -742,7 +885,7 @@
         }
 
         /**
-         * 处理最终选择并加载词汇数据。
+         * Handles the final selection and loads vocabulary data.
          */
         async function handleFinalSelection() {
             console.log('[handleFinalSelection] Starting vocabulary loading...');
@@ -787,7 +930,7 @@
         }
 
         /**
-         * 重置所有测试相关的状态数据。
+         * Resets all test-related state data.
          */
         function resetTestState() {
             console.log('[resetTestState] Resetting all test-related state.');
@@ -800,7 +943,7 @@
             appState.testStartTime = null;
         }
 
-        // --- 听写测试核心逻辑 ---
+        // --- Dictation Test Core Logic ---
         function initializeTestLogic() {
             console.log('[initializeTestLogic] Initializing test logic...');
             appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
@@ -810,7 +953,7 @@
             appState.incorrectAnswers = [];
             appState.testStartTime = new Date();
 
-            // 确保测试视图UI元素可见性正确
+            // Ensure test view UI elements are correctly visible
             answerInput.classList.remove('hidden');
             getExampleBtn.classList.remove('hidden');
             checkAnswerBtn.classList.remove('hidden');
@@ -932,7 +1075,7 @@
 
         function renderFinalResults() {
             console.log('[renderFinalResults] Rendering final results...');
-            // 隐藏测试视图中的所有可交互元素
+            // Hide all interactive elements from the test view
             answerInput.classList.add('hidden');
             getExampleBtn.classList.add('hidden');
             checkAnswerBtn.classList.add('hidden');
@@ -942,7 +1085,7 @@
             exampleSentenceDisplay.classList.add('hidden');
 
 
-            // 填充结果总结
+            // Populate results summary
             summaryName.textContent = appState.studentName || '未填写';
             if (appState.userRole === 'class') {
                 summaryClassRow.classList.remove('hidden');
@@ -960,7 +1103,7 @@
             
             incorrectCountSpan.textContent = appState.incorrectAnswers.length;
 
-            // 填充答错题目列表
+            // Populate list of incorrect answers
             resultsList.innerHTML = '';
             if (appState.incorrectAnswers.length === 0) {
                 resultsList.innerHTML = '<p class="text-green-700 font-semibold">太棒了！所有题目都正确！</p>';
@@ -985,7 +1128,7 @@
             console.log('[renderFinalResults] Results rendering complete.');
         }
 
-        // --- 语音合成和LLM例句功能 ---
+        // --- Speech Synthesis and LLM Example Sentence Functions ---
 
         /**
          * Plays the pronunciation of a given word.
@@ -1090,7 +1233,7 @@
         }
 
 
-        // --- 辅助映射对象（方便显示） ---
+        // --- Helper Mapping Objects (for display) ---
         const categoryNames = {
             reading: '阅读', listening: '听力', speaking: '口语', writing: '写作'
         };
@@ -1102,7 +1245,7 @@
             return string.charAt(0).toUpperCase() + string.slice(1);
         }
 
-        // --- 语音合成初始化 ---
+        // --- Speech Synthesis Initialization ---
         if (speechSynth) {
             speechSynth.onvoiceschanged = () => {
                 voicesLoaded = true;
@@ -1129,7 +1272,7 @@
             return array;
         }
 
-        // --- 自定义弹窗函数 (替代 alert/confirm) ---
+        // --- Custom Modal Function (replaces alert/confirm) ---
         function showModal(message) {
             const modalHtml = `
                 <div id="custom-modal" class="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
@@ -1146,7 +1289,7 @@
         }
 
 
-        // --- 事件监听器 ---
+        // --- Event Listeners ---
         vipStudentBtn.addEventListener('click', () => {
             console.log('[Event] VIP Student button clicked.');
             appState.userRole = 'vip';
@@ -1169,7 +1312,7 @@
 
         selectionBackBtn.addEventListener('click', goBack);
 
-        // 学生信息填写页面的开始测试按钮
+        // Start Test button on student info page
         startTestBtn.addEventListener('click', () => {
             console.log('[Event] Start Test button clicked.');
             appState.studentName = studentNameInput.value.trim();
@@ -1184,21 +1327,21 @@
                 console.warn('[Event] Student name not entered.');
                 return;
             }
-            showView('test-view'); // 跳转到测试视图
+            showView('test-view'); // Navigate to the test view
         });
         infoBackBtn.addEventListener('click', goBack);
 
-        // 听写测试视图的按钮
+        // Buttons for the dictation test view
         checkAnswerBtn.addEventListener('click', checkCurrentAnswer);
         nextWordBtn.addEventListener('click', nextWord);
-        endTestBtn.addEventListener('click', endTestSession); // 调用结束测试会话的函数
+        endTestBtn.addEventListener('click', endTestSession); // Call function to end test session
         getExampleBtn.addEventListener('click', getExampleSentence);
-        testBackBtn.addEventListener('click', goBack); // 测试视图的返回按钮
+        testBackBtn.addEventListener('click', goBack); // Back button for test view
 
-        // 结果视图的重新开始按钮
+        // Restart button for the results view
         resultsRestartBtn.addEventListener('click', () => {
             console.log('[Event] Restart Test button clicked.');
-            // 清除所有选择，回到欢迎界面，重新开始整个流程
+            // Clear all selections and go back to the welcome screen to restart the entire flow
             appState.userRole = '';
             appState.selectedCategory = '';
             appState.selectedLevel = '';
@@ -1206,13 +1349,13 @@
             appState.selectedUnit = '';
             appState.studentName = '';
             appState.studentClass = '';
-            resetTestState(); // 彻底重置测试相关状态
+            resetTestState(); // Completely reset test-related state
             showView('welcome-view');
         });
-        resultsBackBtn.addEventListener('click', goBack); // 结果视图的返回按钮
+        resultsBackBtn.addEventListener('click', goBack); // Back button for results view
 
 
-        // 允许按 Enter 键触发检查答案或下一个
+        // Allow pressing Enter key to check answer or move to next
         answerInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') {
                 console.log('[Event] Enter key pressed on answer input.');
@@ -1225,10 +1368,10 @@
         });
 
 
-        // --- 启动应用 ---
+        // --- Application Startup ---
         document.addEventListener('DOMContentLoaded', () => {
             console.log('[App Startup] DOMContentLoaded fired. Initializing view.');
-            showView('welcome-view', false); // 默认显示欢迎视图，不推入历史
+            showView('welcome-view', false); // Display welcome view by default, do not push to history
         });
     </script>
 </body>
