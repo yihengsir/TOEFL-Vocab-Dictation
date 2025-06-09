@@ -491,7 +491,7 @@
             selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing'
             selectedLevel: '',    // 'beginner', 'intermediate', 'advanced'
             selectedContentType: '',  // 'unit' or 'past'
-            selectedUnit: '',     // e.g., 'unit1' to 'unit10'
+            selectedUnit: '',     // e.g., 'unit1' to 'unit14'
             studentName: '',
             studentClass: '',
             viewHistory: [], // Stack to track view history for back navigation
@@ -564,36 +564,45 @@
         }
 
 
+        // Helper function to create an array of unit file names dynamically
+        function createUnitArray(category, level, count) {
+            const units = [];
+            for (let i = 1; i <= count; i++) {
+                units.push(`${category}_${level}_unit${i}.json`);
+            }
+            return units;
+        }
+
         // --- Vocabulary Structure Mapping (points to actual JSON file paths) ---
         const vocabStructure = {
             reading: {
                 beginner: {
-                    unit: Array.from({length: 10}, (_, i) => `data/reading_beginner_unit${i + 1}.json`),
-                    past: 'data/expressions.json' // VIP student test
+                    unit: createUnitArray('reading', 'beginner', 14), // Increased to 14 units
+                    past: 'reading_beginner_past.json'
                 },
                 intermediate: {
-                    unit: Array.from({length: 10}, (_, i) => `data/reading_intermediate_unit${i + 1}.json`),
-                    past: null // No past content file here
+                    unit: createUnitArray('reading', 'intermediate', 14), // Increased to 14 units
+                    past: 'reading_intermediate_past.json'
                 },
                 advanced: {
-                    unit: Array.from({length: 10}, (_, i) => `data/reading_advanced_unit${i + 1}.json`),
-                    past: null // No past content file here
+                    unit: createUnitArray('reading', 'advanced', 14), // Increased to 14 units
+                    past: 'reading_advanced_past.json'
                 }
             },
             listening: {
-                beginner: { unit: Array.from({length: 10}, (_, i) => `data/listening_beginner_unit${i + 1}.json`), past: null },
-                intermediate: { unit: Array.from({length: 10}, (_, i) => `data/listening_intermediate_unit${i + 1}.json`), past: null },
-                advanced: { unit: Array.from({length: 10}, (_, i) => `data/listening_advanced_unit${i + 1}.json`), past: null }
+                beginner: { unit: createUnitArray('listening', 'beginner', 14), past: 'listening_beginner_past.json' }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('listening', 'intermediate', 14), past: 'listening_intermediate_past.json' }, // Increased to 14 units
+                advanced: { unit: createUnitArray('listening', 'advanced', 14), past: 'listening_advanced_past.json' } // Increased to 14 units
             },
             speaking: {
-                beginner: { unit: Array.from({length: 10}, (_, i) => `data/speaking_beginner_unit${i + 1}.json`), past: null },
-                intermediate: { unit: Array.from({length: 10}, (_, i) => `data/speaking_intermediate_unit${i + 1}.json`), past: null },
-                advanced: { unit: Array.from({length: 10}, (_, i) => `data/speaking_advanced_unit${i + 1}.json`), past: null }
+                beginner: { unit: createUnitArray('speaking', 'beginner', 14), past: 'speaking_beginner_past.json' }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('speaking', 'intermediate', 14), past: 'speaking_intermediate_past.json' }, // Increased to 14 units
+                advanced: { unit: createUnitArray('speaking', 'advanced', 14), past: 'speaking_advanced_past.json' } // Increased to 14 units
             },
             writing: {
-                beginner: { unit: Array.from({length: 1}, (_, i) => `data/writing_beginner_unit${i + 1}.json`), past: null }, // Assuming only one unit
-                intermediate: { unit: Array.from({length: 1}, (_, i) => `data/writing_intermediate_unit${i + 1}.json`), past: null }, // Assuming only one unit
-                advanced: { unit: Array.from({length: 1}, (_, i) => `data/writing_advanced_unit${i + 1}.json`), past: null } // Assuming only one unit
+                beginner: { unit: createUnitArray('writing', 'beginner', 14), past: 'writing_beginner_past.json' }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('writing', 'intermediate', 14), past: 'writing_intermediate_past.json' }, // Increased to 14 units
+                advanced: { unit: createUnitArray('writing', 'advanced', 14), past: 'writing_advanced_past.json' } // Increased to 14 units
             }
         };
 
@@ -917,7 +926,7 @@
             } else { // 'past'
                 jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
             }
-            const jsonPath = `${jsonFileName}`; // jsonPath is already constructed to include "data/" prefix in vocabStructure
+            const jsonPath = `data/${jsonFileName}`; // jsonPath is already constructed to include "data/" prefix in vocabStructure
             console.log(`[handleFinalSelection] Attempting to load JSON from: ${jsonPath}`);
 
             selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
@@ -1286,7 +1295,7 @@
                 }
             } catch (error) {
                 exampleSentenceDisplay.textContent = '获取例句失败。请检查网络或稍后再试。';
-                console.error('[getExampleSentence] Error calling LLM API:', error);
+                console.error('Error calling LLM API:', error);
             } finally {
                 if (!answerInput.readOnly) {
                     getExampleBtn.disabled = false;
@@ -1306,20 +1315,6 @@
         function capitalizeFirstLetter(string) {
             if (!string) return '';
             return string.charAt(0).toUpperCase() + string.slice(1);
-        }
-
-        // --- Speech Synthesis Initialization ---
-        if (speechSynth) {
-            speechSynth.onvoiceschanged = () => {
-                voicesLoaded = true;
-                console.log('[SpeechSynthesis] Voices loaded.');
-            };
-            if (speechSynth.getVoices().length > 0) {
-                voicesLoaded = true;
-                console.log('[SpeechSynthesis] Voices already available.');
-            }
-        } else {
-            console.warn('[SpeechSynthesis] 浏览器不支持 SpeechSynthesis API。发音功能将不可用。');
         }
 
         /**
@@ -1349,6 +1344,21 @@
             document.getElementById('modal-ok-btn').addEventListener('click', () => {
                 document.getElementById('custom-modal').remove();
             });
+        }
+
+
+        // --- Speech Synthesis Initialization ---
+        if (speechSynth) {
+            speechSynth.onvoiceschanged = () => {
+                voicesLoaded = true;
+                console.log('[SpeechSynthesis] Voices loaded.');
+            };
+            if (speechSynth.getVoices().length > 0) {
+                voicesLoaded = true;
+                console.log('[SpeechSynthesis] Voices already available.');
+            }
+        } else {
+            console.warn('[SpeechSynthesis] 浏览器不支持 SpeechSynthesis API。发音功能将不可用。');
         }
 
 
