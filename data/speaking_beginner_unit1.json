@@ -1,42 +1,377 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "参与",
+    "english": "involve",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "参加",
+    "english": "participate",
+    "pos": "v."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "集中",
+    "english": "concentrate",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "参与",
+    "english": "engage",
+    "pos": "v."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "内容",
+    "english": "content",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "缺点",
+    "english": "drawback",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "幽默的",
+    "english": "humorous",
+    "pos": "adj."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "最新的",
+    "english": "up-to-date",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "令人印象深刻的",
+    "english": "impressive",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "讲课",
+    "english": "lecturing",
+    "pos": "n."
+  },
+  {
+    "chinese": "分心的",
+    "english": "distracted",
+    "pos": "adj."
+  },
+  {
+    "chinese": "困境",
+    "english": "dilemma",
+    "pos": "n."
+  },
+  {
+    "chinese": "因此",
+    "english": "thus",
+    "pos": "adv."
+  },
+  {
+    "chinese": "观点",
+    "english": "perspective",
+    "pos": "n."
+  },
+  {
+    "chinese": "可亲近的",
+    "english": "approachable",
+    "pos": "adj."
+  },
+  {
+    "chinese": "害怕的",
+    "english": "scared",
+    "pos": "adj."
+  },
+  {
+    "chinese": "各种不同的",
+    "english": "various",
+    "pos": "adj."
+  },
+  {
+    "chinese": "效率低，无效率；无能",
+    "english": "inefficiency",
+    "pos": "n."
+  },
+  {
+    "chinese": "积极地；活跃地，有活力地",
+    "english": "actively",
+    "pos": "adv."
+  },
+  {
+    "chinese": "管理",
+    "english": "manage",
+    "pos": "v."
+  },
+  {
+    "chinese": "大学，学院",
+    "english": "college",
+    "pos": "n."
+  },
+  {
+    "chinese": "力量，力气",
+    "english": "strength",
+    "pos": "n."
+  },
+  {
+    "chinese": "在前的",
+    "english": "prior",
+    "pos": "adj."
+  },
+  {
+    "chinese": "肯定地；当然",
+    "english": "definitely",
+    "pos": "adv."
+  },
+  {
+    "chinese": "偏爱，喜爱",
+    "english": "preference",
+    "pos": "n."
+  },
+  {
+    "chinese": "完成，达到",
+    "english": "achieve",
+    "pos": "v."
+  },
+  {
+    "chinese": "准确地，确切地",
+    "english": "exactly",
+    "pos": "adv."
+  },
+  {
+    "chinese": "鼓励",
+    "english": "encourage",
+    "pos": "v."
+  },
+  {
+    "chinese": "过程，进程",
+    "english": "process",
+    "pos": "n."
+  },
+  {
+    "chinese": "材料",
+    "english": "material",
+    "pos": "n."
+  },
+  {
+    "chinese": "有效地",
+    "english": "effectively",
+    "pos": "adv."
+  },
+  {
+    "chinese": "表演；表现",
+    "english": "perform",
+    "pos": "v."
+  },
+  {
+    "chinese": "组织，筹备",
+    "english": "organize",
+    "pos": "v."
+  },
+  {
+    "chinese": "详尽阐述",
+    "english": "elaboration",
+    "pos": "n."
+  },
+  {
+    "chinese": "假说，假设",
+    "english": "hypothesis",
+    "pos": "n."
+  },
+  {
+    "chinese": "假定的，有条件的",
+    "english": "conditional",
+    "pos": "adj."
+  },
+  {
+    "chinese": "观点",
+    "english": "opinion",
+    "pos": "n."
+  },
+  {
+    "chinese": "主要地",
+    "english": "mainly",
+    "pos": "adv."
+  },
+  {
+    "chinese": "事件，大事件",
+    "english": "event",
+    "pos": "n."
+  },
+  {
+    "chinese": "调查，研究",
+    "english": "research",
+    "pos": "n."
+  },
+  {
+    "chinese": "效率，效能",
+    "english": "efficiency",
+    "pos": "n."
+  },
+  {
+    "chinese": "提高，提升",
+    "english": "improve",
+    "pos": "v."
+  },
+  {
+    "chinese": "装备，配备",
+    "english": "equip",
+    "pos": "v."
+  },
+  {
+    "chinese": "详细说明",
+    "english": "elaborate",
+    "pos": "v."
+  },
+  {
+    "chinese": "无聊的",
+    "english": "bored",
+    "pos": "adj."
+  },
+  {
+    "chinese": "本地的",
+    "english": "local",
+    "pos": "adj."
+  },
+  {
+    "chinese": "旁听",
+    "english": "audit",
+    "pos": "v."
+  },
+  {
+    "chinese": "社区，社会",
+    "english": "community",
+    "pos": "n."
+  },
+  {
+    "chinese": "任务",
+    "english": "assignment",
+    "pos": "n."
+  },
+  {
+    "chinese": "参与",
+    "english": "engage",
+    "pos": "v."
+  },
+  {
+    "chinese": "分享和学习",
+    "english": "share and learn",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "更好集中注意力",
+    "english": "concentrate better",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "分心",
+    "english": "get distracted",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "更好的分数",
+    "english": "a better grade",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "惧怕",
+    "english": "be scared to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "具备",
+    "english": "be equipped with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "使慢下来",
+    "english": "slow things down",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "参加，加入某个活动/组织",
+    "english": "participate in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "导致",
+    "english": "lead to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "参与，从事",
+    "english": "engage in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "由于，因为",
+    "english": "due to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "导致，使某事发生",
+    "english": "result in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "利与弊",
+    "english": "pros and cons",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "投入",
+    "english": "dive into",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "喜欢",
+    "english": "in favor of",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "主题，题材",
+    "english": "subject matter",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "基于",
+    "english": "be based on",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "相反地",
+    "english": "in contrast",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "占用（时间、空间等）",
+    "english": "take up",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "高达",
+    "english": "up to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "追赶上",
+    "english": "catch up",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "参与，涉及",
+    "english": "be involved in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "旁听课程",
+    "english": "audit class",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "话语标记",
+    "english": "discourse marker",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "先前知识",
+    "english": "prior knowledge",
+    "pos": "phrase"
   }
 ]
