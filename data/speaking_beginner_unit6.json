@@ -1,42 +1,312 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "哺乳动物",
+    "english": "mammal",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "物种",
+    "english": "species",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "巢穴",
+    "english": "nest",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "雌性",
+    "english": "female",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "交配/配偶",
+    "english": "mate",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "羽毛",
+    "english": "feather",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "捕食者",
+    "english": "predator",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "迷人的",
+    "english": "fascinating",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "天堂",
+    "english": "paradise",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "明亮的",
+    "english": "bright",
+    "pos": "adj."
+  },
+  {
+    "chinese": "地下的",
+    "english": "underground",
+    "pos": "adj."
+  },
+  {
+    "chinese": "吸引",
+    "english": "attract",
+    "pos": "v."
+  },
+  {
+    "chinese": "融入",
+    "english": "blend",
+    "pos": "v."
+  },
+  {
+    "chinese": "环境",
+    "english": "surrounding",
+    "pos": "n."
+  },
+  {
+    "chinese": "相似的",
+    "english": "similar",
+    "pos": "adj."
+  },
+  {
+    "chinese": "雨林",
+    "english": "rainforest",
+    "pos": "n."
+  },
+  {
+    "chinese": "栖息地",
+    "english": "habitat",
+    "pos": "n."
+  },
+  {
+    "chinese": "分枝",
+    "english": "branch",
+    "pos": "n."
+  },
+  {
+    "chinese": "小树枝",
+    "english": "twig",
+    "pos": "n."
+  },
+  {
+    "chinese": "外表",
+    "english": "appearance",
+    "pos": "n."
+  },
+  {
+    "chinese": "出现",
+    "english": "appear",
+    "pos": "v."
+  },
+  {
+    "chinese": "某个",
+    "english": "certain",
+    "pos": "adj."
+  },
+  {
+    "chinese": "逃离",
+    "english": "escape",
+    "pos": "v."
+  },
+  {
+    "chinese": "捕获",
+    "english": "capture",
+    "pos": "v."
+  },
+  {
+    "chinese": "树懒",
+    "english": "sloth",
+    "pos": "n."
+  },
+  {
+    "chinese": "以......为食",
+    "english": "feed",
+    "pos": "v."
+  },
+  {
+    "chinese": "中央的",
+    "english": "central",
+    "pos": "adj."
+  },
+  {
+    "chinese": "移动",
+    "english": "movement",
+    "pos": "n."
+  },
+  {
+    "chinese": "表面",
+    "english": "surface",
+    "pos": "n."
+  },
+  {
+    "chinese": "贯穿整个时期",
+    "english": "throughout",
+    "pos": "prep."
+  },
+  {
+    "chinese": "然而",
+    "english": "nevertheless",
+    "pos": "adv."
+  },
+  {
+    "chinese": "鼹鼠",
+    "english": "mole",
+    "pos": "n."
+  },
+  {
+    "chinese": "感觉",
+    "english": "sense",
+    "pos": "n."
+  },
+  {
+    "chinese": "探测",
+    "english": "detect",
+    "pos": "v."
+  },
+  {
+    "chinese": "宽阔的",
+    "english": "broad",
+    "pos": "adj."
+  },
+  {
+    "chinese": "爪子",
+    "english": "claws",
+    "pos": "n."
+  },
+  {
+    "chinese": "极度地",
+    "english": "extremely",
+    "pos": "adv."
+  },
+  {
+    "chinese": "热带的",
+    "english": "tropical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "森林",
+    "english": "forest",
+    "pos": "n."
+  },
+  {
+    "chinese": "男性的；公的",
+    "english": "male",
+    "pos": "adj."
+  },
+  {
+    "chinese": "担忧",
+    "english": "concern",
+    "pos": "v."
+  },
+  {
+    "chinese": "令人钦佩的",
+    "english": "impressive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "伴侣",
+    "english": "mate",
+    "pos": "n."
+  },
+  {
+    "chinese": "可能性",
+    "english": "possibility",
+    "pos": "n."
+  },
+  {
+    "chinese": "满足",
+    "english": "satisify",
+    "pos": "v."
+  },
+  {
+    "chinese": "感到满足的",
+    "english": "fullfilled",
+    "pos": "adj."
+  },
+  {
+    "chinese": "暗淡的",
+    "english": "dull",
+    "pos": "adj."
+  },
+  {
+    "chinese": "发现",
+    "english": "notice",
+    "pos": "v."
+  },
+  {
+    "chinese": "保护性的",
+    "english": "protective",
+    "pos": "adj."
+  },
+  {
+    "chinese": "抓住",
+    "english": "catch",
+    "pos": "v."
+  },
+  {
+    "chinese": "普通的",
+    "english": "common",
+    "pos": "adj."
+  },
+  {
+    "chinese": "减少",
+    "english": "reduce",
+    "pos": "v."
+  },
+  {
+    "chinese": "满足......需求",
+    "english": "meet needs",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "注意",
+    "english": "pay attention to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "更有可能",
+    "english": "be more likely to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "尽可能......",
+    "english": "as ... as possible",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "突出",
+    "english": "stand out",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "交配",
+    "english": "mate with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "养育下一代",
+    "english": "raise the young",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "融入",
+    "english": "blend in with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "照顾",
+    "english": "take care of",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "发育不良的",
+    "english": "poorly developed",
+    "pos": "phrase"
   }
 ]
