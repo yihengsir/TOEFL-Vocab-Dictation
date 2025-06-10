@@ -1,0 +1,307 @@
+[
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "肥沃的"
+  },
+  {
+    "english": "sector",
+    "pos": "n.",
+    "chinese": "部门; 行业; 领域"
+  },
+  {
+    "english": "wealth",
+    "pos": "n.",
+    "chinese": "财富；富有"
+  },
+  {
+    "english": "cultivate",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "cognitive",
+    "pos": "adj.",
+    "chinese": "认知的"
+  },
+  {
+    "english": "fluid",
+    "pos": "n.",
+    "chinese": "液体"
+  },
+  {
+    "english": "approximately",
+    "pos": "adv.",
+    "chinese": "大概地"
+  },
+  {
+    "english": "archaeologist",
+    "pos": "n.",
+    "chinese": "考古学家"
+  },
+  {
+    "english": "crisis",
+    "pos": "n.",
+    "chinese": "危机"
+  },
+  {
+    "english": "element",
+    "pos": "n.",
+    "chinese": "要素"
+  },
+  {
+    "english": "intelligence",
+    "pos": "n.",
+    "chinese": "智力"
+  },
+  {
+    "english": "medium",
+    "pos": "n.",
+    "chinese": "中介"
+  },
+  {
+    "english": "religion",
+    "pos": "n.",
+    "chinese": "宗教"
+  },
+  {
+    "english": "sophisticated",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "severe",
+    "pos": "adj.",
+    "chinese": "严重的"
+  },
+  {
+    "english": "mold",
+    "pos": "n.",
+    "chinese": "模具"
+  },
+  {
+    "english": "technical",
+    "pos": "adj.",
+    "chinese": "技术性的"
+  },
+  {
+    "english": "significant",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "factor",
+    "pos": "n.",
+    "chinese": "因素"
+  },
+  {
+    "english": "fee",
+    "pos": "n.",
+    "chinese": "费用"
+  },
+  {
+    "english": "grain",
+    "pos": "n.",
+    "chinese": "谷物"
+  },
+  {
+    "english": "harbor",
+    "pos": "n.",
+    "chinese": "港口"
+  },
+  {
+    "english": "implication",
+    "pos": "n.",
+    "chinese": "暗指"
+  },
+  {
+    "english": "transport",
+    "pos": "v.",
+    "chinese": "运输"
+  },
+  {
+    "english": "abandon",
+    "pos": "v.",
+    "chinese": "抛弃"
+  },
+  {
+    "english": "acre",
+    "pos": "n.",
+    "chinese": "英亩"
+  },
+  {
+    "english": "adoption",
+    "pos": "n.",
+    "chinese": "采用"
+  },
+  {
+    "english": "complex",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "domestic",
+    "pos": "adj.",
+    "chinese": "国内的"
+  },
+  {
+    "english": "inhabitant",
+    "pos": "n.",
+    "chinese": "居民"
+  },
+  {
+    "english": "profound",
+    "pos": "adj.",
+    "chinese": "重大的；深沉的"
+  },
+  {
+    "english": "symbolic",
+    "pos": "adj.",
+    "chinese": "象征的"
+  },
+  {
+    "english": "ritual",
+    "pos": "n.",
+    "chinese": "仪式；习惯"
+  },
+  {
+    "english": "looseness",
+    "pos": "n.",
+    "chinese": "松动，疏松"
+  },
+  {
+    "english": "figurative",
+    "pos": "adj.",
+    "chinese": "形象的，比喻的"
+  },
+  {
+    "english": "insulate",
+    "pos": "v.",
+    "chinese": "使隔热，使绝缘"
+  },
+  {
+    "english": "agricultural",
+    "pos": "adj.",
+    "chinese": "农业的"
+  },
+  {
+    "english": "yield",
+    "pos": "n.",
+    "chinese": "产量"
+  },
+  {
+    "english": "restrict",
+    "pos": "v.",
+    "chinese": "限制"
+  },
+  {
+    "english": "consumer",
+    "pos": "n.",
+    "chinese": "消费者"
+  },
+  {
+    "english": "agriculture",
+    "pos": "n.",
+    "chinese": "农业"
+  },
+  {
+    "english": "consumption",
+    "pos": "n.",
+    "chinese": "消费"
+  },
+  {
+    "english": "fertilization",
+    "pos": "n.",
+    "chinese": "施肥"
+  },
+  {
+    "english": "drain",
+    "pos": "v.",
+    "chinese": "排水"
+  },
+  {
+    "english": "reflect",
+    "pos": "v.",
+    "chinese": "反映"
+  },
+  {
+    "english": "justify",
+    "pos": "v.",
+    "chinese": "证明...是正当的"
+  },
+  {
+    "english": "crop",
+    "pos": "n.",
+    "chinese": "庄稼"
+  },
+  {
+    "english": "immediate",
+    "pos": "adj.",
+    "chinese": "立即的"
+  },
+  {
+    "english": "develop",
+    "pos": "v.",
+    "chinese": "发展"
+  },
+  {
+    "english": "exhaust",
+    "pos": "v.",
+    "chinese": "使筋疲力尽"
+  },
+  {
+    "english": "gather",
+    "pos": "v.",
+    "chinese": "收集"
+  },
+  {
+    "english": "irrigation",
+    "pos": "n.",
+    "chinese": "灌溉"
+  },
+  {
+    "english": "sedentary",
+    "pos": "adj.",
+    "chinese": "定居的"
+  },
+  {
+    "english": "archaeological",
+    "pos": "adj.",
+    "chinese": "考古学的"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "当代的"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "广泛的"
+  },
+  {
+    "english": "furthermore",
+    "pos": "adv.",
+    "chinese": "此外"
+  },
+  {
+    "english": "independently",
+    "pos": "adv.",
+    "chinese": "独立地"
+  },
+  {
+    "english": "account",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "combination",
+    "pos": "n.",
+    "chinese": "结合"
+  },
+  {
+    "english": "existence",
+    "pos": "n.",
+    "chinese": "存在"
+  }
+]

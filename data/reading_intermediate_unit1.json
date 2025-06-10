@@ -1,0 +1,362 @@
+[
+  {
+    "english": "leak",
+    "pos": "v.",
+    "chinese": "泄露"
+  },
+  {
+    "english": "mineral",
+    "pos": "adj.",
+    "chinese": "矿物的"
+  },
+  {
+    "english": "shallow",
+    "pos": "adj.",
+    "chinese": "浅的"
+  },
+  {
+    "english": "analysis",
+    "pos": "n.",
+    "chinese": "分析"
+  },
+  {
+    "english": "assessment",
+    "pos": "n.",
+    "chinese": "评估"
+  },
+  {
+    "english": "frequency",
+    "pos": "n.",
+    "chinese": "频率"
+  },
+  {
+    "english": "infant",
+    "pos": "n.",
+    "chinese": "婴儿"
+  },
+  {
+    "english": "perception",
+    "pos": "n.",
+    "chinese": "感知"
+  },
+  {
+    "english": "sophisticated",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "devise",
+    "pos": "v.",
+    "chinese": "设计"
+  },
+  {
+    "english": "simultaneously",
+    "pos": "adv.",
+    "chinese": "同时地"
+  },
+  {
+    "english": "obstruct",
+    "pos": "v.",
+    "chinese": "阻塞"
+  },
+  {
+    "english": "pollutant",
+    "pos": "n.",
+    "chinese": "污染物"
+  },
+  {
+    "english": "functional",
+    "pos": "adj.",
+    "chinese": "功能的"
+  },
+  {
+    "english": "emerge",
+    "pos": "v.",
+    "chinese": "出现"
+  },
+  {
+    "english": "organism",
+    "pos": "n.",
+    "chinese": "生命体"
+  },
+  {
+    "english": "basin",
+    "pos": "n.",
+    "chinese": "盆地"
+  },
+  {
+    "english": "motion",
+    "pos": "v.",
+    "chinese": "运动"
+  },
+  {
+    "english": "portion",
+    "pos": "n.",
+    "chinese": "部分"
+  },
+  {
+    "english": "cultivate",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "content",
+    "pos": "n.",
+    "chinese": "内容"
+  },
+  {
+    "english": "immobile",
+    "pos": "adj.",
+    "chinese": "不动的"
+  },
+  {
+    "english": "effective",
+    "pos": "adj.",
+    "chinese": "有效的"
+  },
+  {
+    "english": "precise",
+    "pos": "adj.",
+    "chinese": "精确的"
+  },
+  {
+    "english": "stimulus",
+    "pos": "n.",
+    "chinese": "刺激"
+  },
+  {
+    "english": "stimuli",
+    "pos": "n.",
+    "chinese": "刺激（复数）"
+  },
+  {
+    "english": "concentrate",
+    "pos": "v.",
+    "chinese": "集中"
+  },
+  {
+    "english": "crust",
+    "pos": "n.",
+    "chinese": "地壳"
+  },
+  {
+    "english": "predict",
+    "pos": "v.",
+    "chinese": "预测"
+  },
+  {
+    "english": "anthropology",
+    "pos": "n.",
+    "chinese": "人类学"
+  },
+  {
+    "english": "seep",
+    "pos": "v.",
+    "chinese": "渗透"
+  },
+  {
+    "english": "permit",
+    "pos": "v.",
+    "chinese": "允许"
+  },
+  {
+    "english": "response",
+    "pos": "n.",
+    "chinese": "响应、回应"
+  },
+  {
+    "english": "monitor",
+    "pos": "v.",
+    "chinese": "监控"
+  },
+  {
+    "english": "technique",
+    "pos": "n.",
+    "chinese": "技巧"
+  },
+  {
+    "english": "visual",
+    "pos": "adj.",
+    "chinese": "视觉的"
+  },
+  {
+    "english": "indicator",
+    "pos": "n.",
+    "chinese": "指示器"
+  },
+  {
+    "english": "limitation",
+    "pos": "n.",
+    "chinese": "限制"
+  },
+  {
+    "english": "attention",
+    "pos": "n.",
+    "chinese": "注意力"
+  },
+  {
+    "english": "perplexed",
+    "pos": "adj.",
+    "chinese": "困惑的；迷惑的"
+  },
+  {
+    "english": "dense",
+    "pos": "adj.",
+    "chinese": "密集的"
+  },
+  {
+    "english": "display",
+    "pos": "v.",
+    "chinese": "显示"
+  },
+  {
+    "english": "exploit",
+    "pos": "v.",
+    "chinese": "利用"
+  },
+  {
+    "english": "inhabit",
+    "pos": "v.",
+    "chinese": "居住"
+  },
+  {
+    "english": "mode",
+    "pos": "n.",
+    "chinese": "方式"
+  },
+  {
+    "english": "vegetation",
+    "pos": "n.",
+    "chinese": "植被"
+  },
+  {
+    "english": "inhibit",
+    "pos": "v.",
+    "chinese": "抑制"
+  },
+  {
+    "english": "thermal",
+    "pos": "adj.",
+    "chinese": "热的、温暖的"
+  },
+  {
+    "english": "might",
+    "pos": "n.",
+    "chinese": "强大力量"
+  },
+  {
+    "english": "suck",
+    "pos": "v.",
+    "chinese": "吸吮；吸取"
+  },
+  {
+    "english": "yard",
+    "pos": "n.",
+    "chinese": "院子"
+  },
+  {
+    "english": "rear",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "retain",
+    "pos": "v.",
+    "chinese": "保留"
+  },
+  {
+    "english": "fossil",
+    "pos": "n.",
+    "chinese": "化石"
+  },
+  {
+    "english": "whale",
+    "pos": "n.",
+    "chinese": "鲸鱼"
+  },
+  {
+    "english": "extinct",
+    "pos": "adj.",
+    "chinese": "灭绝的"
+  },
+  {
+    "english": "mobility",
+    "pos": "n.",
+    "chinese": "移动"
+  },
+  {
+    "english": "distinctive",
+    "pos": "adj.",
+    "chinese": "独特的"
+  },
+  {
+    "english": "dominate",
+    "pos": "v.",
+    "chinese": "支配"
+  },
+  {
+    "english": "mobile",
+    "pos": "adj.",
+    "chinese": "移动的"
+  },
+  {
+    "english": "profound",
+    "pos": "adj.",
+    "chinese": "深刻的"
+  },
+  {
+    "english": "vital",
+    "pos": "adj.",
+    "chinese": "生命有关的"
+  },
+  {
+    "english": "reflection",
+    "pos": "n.",
+    "chinese": "反射、反思"
+  },
+  {
+    "english": "breed",
+    "pos": "v.",
+    "chinese": "繁殖"
+  },
+  {
+    "english": "locomotion",
+    "pos": "n.",
+    "chinese": "运动能力"
+  },
+  {
+    "english": "accumulate",
+    "pos": "v.",
+    "chinese": "积累"
+  },
+  {
+    "english": "adjustment",
+    "pos": "n.",
+    "chinese": "调整"
+  },
+  {
+    "english": "hypothesis",
+    "pos": "n.",
+    "chinese": "假设"
+  },
+  {
+    "english": "consumption",
+    "pos": "n.",
+    "chinese": "消费"
+  },
+  {
+    "english": "convert",
+    "pos": "v.",
+    "chinese": "转换"
+  },
+  {
+    "english": "revolutionary",
+    "pos": "adj.",
+    "chinese": "革命性的"
+  },
+  {
+    "english": "thereby",
+    "pos": "adv.",
+    "chinese": "因此"
+  }
+]

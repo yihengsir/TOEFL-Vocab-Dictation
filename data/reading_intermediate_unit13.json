@@ -1,0 +1,622 @@
+[
+  {
+    "english": "accompany",
+    "pos": "v.",
+    "chinese": "伴随"
+  },
+  {
+    "english": "facilitate",
+    "pos": "v.",
+    "chinese": "帮助，促进"
+  },
+  {
+    "english": "attribute",
+    "pos": "v.",
+    "chinese": "把……归因于"
+  },
+  {
+    "english": "internal",
+    "pos": "adj.",
+    "chinese": "内部的，里面的"
+  },
+  {
+    "english": "critical",
+    "pos": "adj.",
+    "chinese": "关键的"
+  },
+  {
+    "english": "confront",
+    "pos": "v.",
+    "chinese": "面对"
+  },
+  {
+    "english": "cultivate",
+    "pos": "v.",
+    "chinese": "种植，耕作"
+  },
+  {
+    "english": "conclude",
+    "pos": "v.",
+    "chinese": "总结"
+  },
+  {
+    "english": "evidently",
+    "pos": "adv.",
+    "chinese": "明显地"
+  },
+  {
+    "english": "tobacco",
+    "pos": "n.",
+    "chinese": "烟草"
+  },
+  {
+    "english": "agriculture",
+    "pos": "n.",
+    "chinese": "农业"
+  },
+  {
+    "english": "fertilizer",
+    "pos": "n.",
+    "chinese": "肥料，化肥"
+  },
+  {
+    "english": "ratio",
+    "pos": "n.",
+    "chinese": "比例"
+  },
+  {
+    "english": "marginal",
+    "pos": "adj.",
+    "chinese": "边缘的"
+  },
+  {
+    "english": "exceptional",
+    "pos": "adj.",
+    "chinese": "罕见的，异常的"
+  },
+  {
+    "english": "assumption",
+    "pos": "n.",
+    "chinese": "假设"
+  },
+  {
+    "english": "explosion",
+    "pos": "n.",
+    "chinese": "扩张"
+  },
+  {
+    "english": "statistical",
+    "pos": "adj.",
+    "chinese": "数据的"
+  },
+  {
+    "english": "agriculture",
+    "pos": "n.",
+    "chinese": "农业"
+  },
+  {
+    "english": "province",
+    "pos": "n .",
+    "chinese": "省份"
+  },
+  {
+    "english": "spectacularly",
+    "pos": "adv.",
+    "chinese": "壮观得，令人吃惊地"
+  },
+  {
+    "english": "starle",
+    "pos": "v.",
+    "chinese": "使惊吓"
+  },
+  {
+    "english": "vast",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "annual",
+    "pos": "adj.",
+    "chinese": "年度的"
+  },
+  {
+    "english": "highlight",
+    "pos": "v.",
+    "chinese": "突出，强调"
+  },
+  {
+    "english": "accelerate",
+    "pos": "v.",
+    "chinese": "加速"
+  },
+  {
+    "english": "coincide",
+    "pos": "v.",
+    "chinese": "符合，相一致"
+  },
+  {
+    "english": "absence",
+    "pos": "n.",
+    "chinese": "缺乏，缺少"
+  },
+  {
+    "english": "permit",
+    "pos": "v.",
+    "chinese": "允许，许可"
+  },
+  {
+    "english": "emerge",
+    "pos": "v.",
+    "chinese": "出现，暴露"
+  },
+  {
+    "english": "respond",
+    "pos": "v.",
+    "chinese": "回应"
+  },
+  {
+    "english": "gradually",
+    "pos": "adv.",
+    "chinese": "逐渐地"
+  },
+  {
+    "english": "talent",
+    "pos": "n.",
+    "chinese": "才能"
+  },
+  {
+    "english": "authority",
+    "pos": "n.",
+    "chinese": "权威"
+  },
+  {
+    "english": "conflict",
+    "pos": "n.",
+    "chinese": "冲突"
+  },
+  {
+    "english": "data",
+    "pos": "n.",
+    "chinese": "数据"
+  },
+  {
+    "english": "aim",
+    "pos": "v.",
+    "chinese": "瞄准"
+  },
+  {
+    "english": "recognize",
+    "pos": "v.",
+    "chinese": "认出"
+  },
+  {
+    "english": "emphasis",
+    "pos": "n.",
+    "chinese": "强调"
+  },
+  {
+    "english": "frequent",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "interpret",
+    "pos": "v.",
+    "chinese": "混合"
+  },
+  {
+    "english": "blend",
+    "pos": "adj.",
+    "chinese": "消极的"
+  },
+  {
+    "english": "sibling",
+    "pos": "n.",
+    "chinese": "兄弟姐妹"
+  },
+  {
+    "english": "formal",
+    "pos": "adj.",
+    "chinese": "正式的"
+  },
+  {
+    "english": "source",
+    "pos": "n.",
+    "chinese": "来源"
+  },
+  {
+    "english": "reject",
+    "pos": "v.",
+    "chinese": "拒绝"
+  },
+  {
+    "english": "quantity",
+    "pos": "n.",
+    "chinese": "数量"
+  },
+  {
+    "english": "importance",
+    "pos": "n.",
+    "chinese": "重要性"
+  },
+  {
+    "english": "explicit",
+    "pos": "adj.",
+    "chinese": "明确的"
+  },
+  {
+    "english": "verify",
+    "pos": "v.",
+    "chinese": "证实"
+  },
+  {
+    "english": "communicate",
+    "pos": "v.",
+    "chinese": "交流"
+  },
+  {
+    "english": "enhance",
+    "pos": "v.",
+    "chinese": "提高"
+  },
+  {
+    "english": "caution",
+    "pos": "n.",
+    "chinese": "谨慎"
+  },
+  {
+    "english": "rational",
+    "pos": "adj.",
+    "chinese": "理性的"
+  },
+  {
+    "english": "indirect",
+    "pos": "adj.",
+    "chinese": "间接的"
+  },
+  {
+    "english": "describe",
+    "pos": "v.",
+    "chinese": "描述"
+  },
+  {
+    "english": "avenue",
+    "pos": "n.",
+    "chinese": "大街"
+  },
+  {
+    "english": "perceive",
+    "pos": "v.",
+    "chinese": "感知"
+  },
+  {
+    "english": "immaturity",
+    "pos": "n.",
+    "chinese": "不成熟"
+  },
+  {
+    "english": "endure",
+    "pos": "v.",
+    "chinese": "忍受"
+  },
+  {
+    "english": "intermediate",
+    "pos": "adj.",
+    "chinese": "中间的"
+  },
+  {
+    "english": "endorse",
+    "pos": "v.",
+    "chinese": "支持"
+  },
+  {
+    "english": "cereal",
+    "pos": "n.",
+    "chinese": "谷物"
+  },
+  {
+    "english": "fond",
+    "pos": "adj.",
+    "chinese": "喜欢的"
+  },
+  {
+    "english": "maturation",
+    "pos": "n.",
+    "chinese": "成熟"
+  },
+  {
+    "english": "provoke",
+    "pos": "v.",
+    "chinese": "激起"
+  },
+  {
+    "english": "offset",
+    "pos": "v.",
+    "chinese": "抵消"
+  },
+  {
+    "english": "comprehend",
+    "pos": "v.",
+    "chinese": "理解"
+  },
+  {
+    "english": "impression",
+    "pos": "n.",
+    "chinese": "印象"
+  },
+  {
+    "english": "evident",
+    "pos": "adj.",
+    "chinese": "明显的"
+  },
+  {
+    "english": "reversal",
+    "pos": "n.",
+    "chinese": "反转"
+  },
+  {
+    "english": "outlook",
+    "pos": "n.",
+    "chinese": "观点"
+  },
+  {
+    "english": "achievement",
+    "pos": "n.",
+    "chinese": "成就"
+  },
+  {
+    "english": "nutritionally",
+    "pos": "adv.",
+    "chinese": "营养地"
+  },
+  {
+    "english": "psychological",
+    "pos": "adj.",
+    "chinese": "心理的"
+  },
+  {
+    "english": "audience",
+    "pos": "n.",
+    "chinese": "观众"
+  },
+  {
+    "english": "aggregate",
+    "pos": "adj.",
+    "chinese": "总计的"
+  },
+  {
+    "english": "administration",
+    "pos": "n.",
+    "chinese": "管理"
+  },
+  {
+    "english": "cooperative",
+    "pos": "adj.",
+    "chinese": "合作的"
+  },
+  {
+    "english": "millennium",
+    "pos": "n.",
+    "chinese": "千年"
+  },
+  {
+    "english": "cartoon",
+    "pos": "n.",
+    "chinese": "动画片"
+  },
+  {
+    "english": "maximize",
+    "pos": "v.",
+    "chinese": "最大化"
+  },
+  {
+    "english": "concept",
+    "pos": "n.",
+    "chinese": "概念"
+  },
+  {
+    "english": "narrate",
+    "pos": "v.",
+    "chinese": "叙述"
+  },
+  {
+    "english": "verbal",
+    "pos": "adj.",
+    "chinese": "言辞的"
+  },
+  {
+    "english": "oriented",
+    "pos": "adj.",
+    "chinese": "以…为方向的"
+  },
+  {
+    "english": "psychologist",
+    "pos": "n.",
+    "chinese": "心理学家"
+  },
+  {
+    "english": "regulator",
+    "pos": "n.",
+    "chinese": "管理者"
+  },
+  {
+    "english": "hostile",
+    "pos": "adj.",
+    "chinese": "敌对的"
+  },
+  {
+    "english": "credible",
+    "pos": "adj.",
+    "chinese": "可信的"
+  },
+  {
+    "english": "exclusive",
+    "pos": "adj.",
+    "chinese": "独家的"
+  },
+  {
+    "english": "plausible",
+    "pos": "adj.",
+    "chinese": "似乎合理的"
+  },
+  {
+    "english": "prompt",
+    "pos": "v.",
+    "chinese": "促使"
+  },
+  {
+    "english": "verbally",
+    "pos": "adv.",
+    "chinese": "言辞地"
+  },
+  {
+    "english": "animated",
+    "pos": "adj.",
+    "chinese": "动画的"
+  },
+  {
+    "english": "audio",
+    "pos": "adj.",
+    "chinese": "声音的"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "commission",
+    "pos": "n.",
+    "chinese": "委员会"
+  },
+  {
+    "english": "decisive",
+    "pos": "adj.",
+    "chinese": "果断的"
+  },
+  {
+    "english": "incompatibility",
+    "pos": "n.",
+    "chinese": "不相容"
+  },
+  {
+    "english": "nutritional",
+    "pos": "adj.",
+    "chinese": "营养的"
+  },
+  {
+    "english": "extraordinary",
+    "pos": "adj.",
+    "chinese": "非凡的"
+  },
+  {
+    "english": "literacy",
+    "pos": "n.",
+    "chinese": "读写能力"
+  },
+  {
+    "english": "precisely",
+    "pos": "adv.",
+    "chinese": "精确地"
+  },
+  {
+    "english": "format",
+    "pos": "n.",
+    "chinese": "格式"
+  },
+  {
+    "english": "monarchy",
+    "pos": "n.",
+    "chinese": "君主制"
+  },
+  {
+    "english": "criticize",
+    "pos": "v.",
+    "chinese": "批评"
+  },
+  {
+    "english": "ripen",
+    "pos": "v.",
+    "chinese": "成熟"
+  },
+  {
+    "english": "reconstruct",
+    "pos": "v.",
+    "chinese": "重建"
+  },
+  {
+    "english": "oversee",
+    "pos": "v.",
+    "chinese": "监督"
+  },
+  {
+    "english": "verbalize",
+    "pos": "v.",
+    "chinese": "用言语表达"
+  },
+  {
+    "english": "validate",
+    "pos": "v.",
+    "chinese": "验证"
+  },
+  {
+    "english": "transitional",
+    "pos": "adj.",
+    "chinese": "过渡的"
+  },
+  {
+    "english": "ally",
+    "pos": "n.",
+    "chinese": "盟友"
+  },
+  {
+    "english": "demonstration",
+    "pos": "n.",
+    "chinese": "示范"
+  },
+  {
+    "english": "distinguish",
+    "pos": "v.",
+    "chinese": "区分"
+  },
+  {
+    "english": "exaggeration",
+    "pos": "n.",
+    "chinese": "夸张"
+  },
+  {
+    "english": "civilization",
+    "pos": "n.",
+    "chinese": "文明"
+  },
+  {
+    "english": "personality",
+    "pos": "n.",
+    "chinese": "个性"
+  },
+  {
+    "english": "retrieval",
+    "pos": "n.",
+    "chinese": "检索"
+  },
+  {
+    "english": "toddler",
+    "pos": "n.",
+    "chinese": "幼童"
+  },
+  {
+    "english": "subjective",
+    "pos": "adj.",
+    "chinese": "主观的"
+  },
+  {
+    "english": "anthropologist",
+    "pos": "n.",
+    "chinese": "人类学家"
+  },
+  {
+    "english": "repression",
+    "pos": "n.",
+    "chinese": "压抑"
+  }
+]

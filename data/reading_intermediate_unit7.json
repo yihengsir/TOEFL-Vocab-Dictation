@@ -1,0 +1,477 @@
+[
+  {
+    "english": "legendary",
+    "pos": "adj.",
+    "chinese": "非常著名的"
+  },
+  {
+    "english": "undertake",
+    "pos": "v.",
+    "chinese": "承担"
+  },
+  {
+    "english": "drain",
+    "pos": "v.",
+    "chinese": "排水"
+  },
+  {
+    "english": "merchant",
+    "pos": "n.",
+    "chinese": "商人"
+  },
+  {
+    "english": "lease",
+    "pos": "v.",
+    "chinese": "租恁"
+  },
+  {
+    "english": "investor",
+    "pos": "n.",
+    "chinese": "投资者"
+  },
+  {
+    "english": "annual",
+    "pos": "adj.",
+    "chinese": "年度的"
+  },
+  {
+    "english": "significantly",
+    "pos": "adv.",
+    "chinese": "显著地"
+  },
+  {
+    "english": "agricultural",
+    "pos": "adj.",
+    "chinese": "农业的"
+  },
+  {
+    "english": "profitable",
+    "pos": "adj.",
+    "chinese": "可赚钱的，有利可图的"
+  },
+  {
+    "english": "myth",
+    "pos": "n.",
+    "chinese": "神话故事"
+  },
+  {
+    "english": "ritual",
+    "pos": "n.",
+    "chinese": "仪式"
+  },
+  {
+    "english": "frequently",
+    "pos": "adv.",
+    "chinese": "频繁地"
+  },
+  {
+    "english": "accompany",
+    "pos": "v.",
+    "chinese": "陪伴，附加"
+  },
+  {
+    "english": "sophisticated",
+    "pos": "adj.",
+    "chinese": "复杂的，精致的"
+  },
+  {
+    "english": "abandon",
+    "pos": "v.",
+    "chinese": "禁止"
+  },
+  {
+    "english": "interior",
+    "pos": "adj.",
+    "chinese": "内部的，里面的"
+  },
+  {
+    "english": "modify",
+    "pos": "v.",
+    "chinese": "修饰，修改"
+  },
+  {
+    "english": "oral",
+    "pos": "adj.",
+    "chinese": "口头的"
+  },
+  {
+    "english": "cattle",
+    "pos": "n.",
+    "chinese": "牛"
+  },
+  {
+    "english": "pump",
+    "pos": "n.",
+    "chinese": "泵"
+  },
+  {
+    "english": "mill",
+    "pos": "n.",
+    "chinese": "磨坊"
+  },
+  {
+    "english": "sheet",
+    "pos": "n.",
+    "chinese": "薄片"
+  },
+  {
+    "english": "drainage",
+    "pos": "n.",
+    "chinese": "排水，排水系统"
+  },
+  {
+    "english": "currency",
+    "pos": "n.",
+    "chinese": "货币"
+  },
+  {
+    "english": "permit",
+    "pos": "v.",
+    "chinese": "允许"
+  },
+  {
+    "english": "retreat",
+    "pos": "v.",
+    "chinese": "撤退，退却"
+  },
+  {
+    "english": "elite",
+    "pos": "n./adj.",
+    "chinese": "精英；精英的"
+  },
+  {
+    "english": "modest",
+    "pos": "adj.",
+    "chinese": "简陋的，适度的"
+  },
+  {
+    "english": "universal",
+    "pos": "adj.",
+    "chinese": "普遍的，通用的"
+  },
+  {
+    "english": "esteem",
+    "pos": "n./v.",
+    "chinese": "尊重，敬重"
+  },
+  {
+    "english": "temperate",
+    "pos": "adj.",
+    "chinese": "温和的，温带的"
+  },
+  {
+    "english": "sparse",
+    "pos": "adj.",
+    "chinese": "稀疏的"
+  },
+  {
+    "english": "treaty",
+    "pos": "n.",
+    "chinese": "条约"
+  },
+  {
+    "english": "status",
+    "pos": "n.",
+    "chinese": "地位，状态"
+  },
+  {
+    "english": "conquer",
+    "pos": "v.",
+    "chinese": "征服"
+  },
+  {
+    "english": "colleague",
+    "pos": "n.",
+    "chinese": "同事"
+  },
+  {
+    "english": "essential",
+    "pos": "adj.",
+    "chinese": "必要的，基本的"
+  },
+  {
+    "english": "exclude",
+    "pos": "v.",
+    "chinese": "排除，不包括"
+  },
+  {
+    "english": "eliminate",
+    "pos": "v.",
+    "chinese": "消除，淘汰"
+  },
+  {
+    "english": "shift",
+    "pos": "v.",
+    "chinese": "转变"
+  },
+  {
+    "english": "thoroughly",
+    "pos": "adv.",
+    "chinese": "彻底地，完全地"
+  },
+  {
+    "english": "treasure",
+    "pos": "n./v.",
+    "chinese": "财富；珍惜"
+  },
+  {
+    "english": "literature",
+    "pos": "n.",
+    "chinese": "文学"
+  },
+  {
+    "english": "authorize",
+    "pos": "v.",
+    "chinese": "授权"
+  },
+  {
+    "english": "obtain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "expansion",
+    "pos": "n.",
+    "chinese": "扩张"
+  },
+  {
+    "english": "competitive",
+    "pos": "adj.",
+    "chinese": "竞争的"
+  },
+  {
+    "english": "competitor",
+    "pos": "n.",
+    "chinese": "竞争者"
+  },
+  {
+    "english": "element",
+    "pos": "n.",
+    "chinese": "元素，成分"
+  },
+  {
+    "english": "equivalent",
+    "pos": "adj.",
+    "chinese": "等价的"
+  },
+  {
+    "english": "dominance",
+    "pos": "n.",
+    "chinese": "支配"
+  },
+  {
+    "english": "privilege",
+    "pos": "n.",
+    "chinese": "特权"
+  },
+  {
+    "english": "forager",
+    "pos": "n.",
+    "chinese": "觅食者"
+  },
+  {
+    "english": "association",
+    "pos": "n.",
+    "chinese": "联系"
+  },
+  {
+    "english": "deposit",
+    "pos": "n./v.",
+    "chinese": "沉淀，沉积"
+  },
+  {
+    "english": "boundary",
+    "pos": "n.",
+    "chinese": "边界，界限"
+  },
+  {
+    "english": "transaction",
+    "pos": "n.",
+    "chinese": "交易"
+  },
+  {
+    "english": "reclaim",
+    "pos": "v.",
+    "chinese": "开垦；收回"
+  },
+  {
+    "english": "concession",
+    "pos": "n.",
+    "chinese": "特许权"
+  },
+  {
+    "english": "accounting",
+    "pos": "n.",
+    "chinese": "会计，结算"
+  },
+  {
+    "english": "complex",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "genetic",
+    "pos": "adj.",
+    "chinese": "基因的，遗传的"
+  },
+  {
+    "english": "hypothesize",
+    "pos": "v.",
+    "chinese": "假设"
+  },
+  {
+    "english": "elevate",
+    "pos": "v.",
+    "chinese": "提高"
+  },
+  {
+    "english": "volcanic eruption",
+    "pos": "n.",
+    "chinese": "火山喷发"
+  },
+  {
+    "english": "meteorite impact",
+    "pos": "n.",
+    "chinese": "陨石撞击"
+  },
+  {
+    "english": "formation",
+    "pos": "n.",
+    "chinese": "形成"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "组成"
+  },
+  {
+    "english": "sedimentary",
+    "pos": "adj.",
+    "chinese": "沉积的"
+  },
+  {
+    "english": "progressive",
+    "pos": "adj.",
+    "chinese": "渐进的"
+  },
+  {
+    "english": "revolutionize",
+    "pos": "v.",
+    "chinese": "革命化"
+  },
+  {
+    "english": "reclamation",
+    "pos": "n.",
+    "chinese": "开垦"
+  },
+  {
+    "english": "migration",
+    "pos": "n.",
+    "chinese": "迁移，迁徙"
+  },
+  {
+    "english": "evolution",
+    "pos": "n.",
+    "chinese": "演化，进化"
+  },
+  {
+    "english": "invariably",
+    "pos": "adv.",
+    "chinese": "不变地"
+  },
+  {
+    "english": "climatic",
+    "pos": "adj.",
+    "chinese": "气候的"
+  },
+  {
+    "english": "predator",
+    "pos": "n.",
+    "chinese": "捕食者"
+  },
+  {
+    "english": "prey",
+    "pos": "n.",
+    "chinese": "猎物"
+  },
+  {
+    "english": "moisture",
+    "pos": "n.",
+    "chinese": "水分，湿度"
+  },
+  {
+    "english": "photosynthesis",
+    "pos": "n.",
+    "chinese": "光合作用"
+  },
+  {
+    "english": "assess",
+    "pos": "v.",
+    "chinese": "评估"
+  },
+  {
+    "english": "moreover",
+    "pos": "adv.",
+    "chinese": "此外"
+  },
+  {
+    "english": "literary",
+    "pos": "adj.",
+    "chinese": "文学的"
+  },
+  {
+    "english": "sovereign",
+    "pos": "adj.",
+    "chinese": "主权的"
+  },
+  {
+    "english": "colony",
+    "pos": "n.",
+    "chinese": "殖民地；群体"
+  },
+  {
+    "english": "division",
+    "pos": "n.",
+    "chinese": "分裂"
+  },
+  {
+    "english": "transfer",
+    "pos": "v.",
+    "chinese": "转移"
+  },
+  {
+    "english": "massive",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "exaggerate",
+    "pos": "v.",
+    "chinese": "夸大"
+  },
+  {
+    "english": "fundamental",
+    "pos": "adj.",
+    "chinese": "基本的，根本的"
+  },
+  {
+    "english": "infinitely",
+    "pos": "adv.",
+    "chinese": "及其，非常"
+  },
+  {
+    "english": "intellectual",
+    "pos": "adj.",
+    "chinese": "智力的，有才的"
+  },
+  {
+    "english": "cease",
+    "pos": "v.",
+    "chinese": "停止，使结束"
+  },
+  {
+    "english": "yield",
+    "pos": "v.",
+    "chinese": "产生，出产"
+  }
+]

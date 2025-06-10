@@ -1,0 +1,352 @@
+[
+  {
+    "english": "rural",
+    "pos": "adj.",
+    "chinese": "乡村的"
+  },
+  {
+    "english": "transport",
+    "pos": "v.",
+    "chinese": "运输"
+  },
+  {
+    "english": "spice",
+    "pos": "n.",
+    "chinese": "香料"
+  },
+  {
+    "english": "migrate",
+    "pos": "v.",
+    "chinese": "迁徙"
+  },
+  {
+    "english": "drill",
+    "pos": "v.",
+    "chinese": "钻孔"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "sample",
+    "pos": "n.",
+    "chinese": "样本"
+  },
+  {
+    "english": "import",
+    "pos": "v.",
+    "chinese": "进口"
+  },
+  {
+    "english": "literature",
+    "pos": "n.",
+    "chinese": "文学"
+  },
+  {
+    "english": "sophisticated",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "script",
+    "pos": "n.",
+    "chinese": "文本"
+  },
+  {
+    "english": "secular",
+    "pos": "adj.",
+    "chinese": "世俗的"
+  },
+  {
+    "english": "temple",
+    "pos": "n.",
+    "chinese": "寺庙"
+  },
+  {
+    "english": "theology",
+    "pos": "n.",
+    "chinese": "神学"
+  },
+  {
+    "english": "motion",
+    "pos": "n.",
+    "chinese": "运动"
+  },
+  {
+    "english": "phrase",
+    "pos": "v.",
+    "chinese": "短语，表达"
+  },
+  {
+    "english": "visible",
+    "pos": "adj.",
+    "chinese": "可视的"
+  },
+  {
+    "english": "innovation",
+    "pos": "n.",
+    "chinese": "创新"
+  },
+  {
+    "english": "explore",
+    "pos": "v.",
+    "chinese": "探索"
+  },
+  {
+    "english": "fort",
+    "pos": "n.",
+    "chinese": "堡垒"
+  },
+  {
+    "english": "pottery",
+    "pos": "n.",
+    "chinese": "陶器"
+  },
+  {
+    "english": "surrounding",
+    "pos": "adj.",
+    "chinese": "周围的，附近的"
+  },
+  {
+    "english": "bacterium",
+    "pos": "n.",
+    "chinese": "细菌"
+  },
+  {
+    "english": "boundary",
+    "pos": "n.",
+    "chinese": "界限"
+  },
+  {
+    "english": "distinct",
+    "pos": "adj.",
+    "chinese": "不同的"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样的"
+  },
+  {
+    "english": "element",
+    "pos": "n.",
+    "chinese": "元素"
+  },
+  {
+    "english": "inhabit",
+    "pos": "v.",
+    "chinese": "居住在"
+  },
+  {
+    "english": "marine",
+    "pos": "adj.",
+    "chinese": "海洋的"
+  },
+  {
+    "english": "virtually",
+    "pos": "adj.",
+    "chinese": "实际上"
+  },
+  {
+    "english": "abundant",
+    "pos": "adj.",
+    "chinese": "丰富的"
+  },
+  {
+    "english": "decay",
+    "pos": "n.",
+    "chinese": "衰减"
+  },
+  {
+    "english": "discard",
+    "pos": "v.",
+    "chinese": "丢弃"
+  },
+  {
+    "english": "frontier",
+    "pos": "n.",
+    "chinese": "边境，边界"
+  },
+  {
+    "english": "geometry",
+    "pos": "n.",
+    "chinese": "几何"
+  },
+  {
+    "english": "insect",
+    "pos": "n.",
+    "chinese": "昆虫"
+  },
+  {
+    "english": "insulate",
+    "pos": "v.",
+    "chinese": "绝缘"
+  },
+  {
+    "english": "appropriately",
+    "pos": "adv.",
+    "chinese": "恰当地"
+  },
+  {
+    "english": "approximately",
+    "pos": "adv.",
+    "chinese": "大致"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "组成"
+  },
+  {
+    "english": "compound",
+    "pos": "n.",
+    "chinese": "化合物"
+  },
+  {
+    "english": "constitute",
+    "pos": "v.",
+    "chinese": "组成"
+  },
+  {
+    "english": "damp",
+    "pos": "adj.",
+    "chinese": "潮湿的"
+  },
+  {
+    "english": "retreat",
+    "pos": "v.",
+    "chinese": "范围缩小"
+  },
+  {
+    "english": "scattered",
+    "pos": "adj.",
+    "chinese": "分散的"
+  },
+  {
+    "english": "vessel",
+    "pos": "n.",
+    "chinese": "船"
+  },
+  {
+    "english": "basin",
+    "pos": "n.",
+    "chinese": "海盆"
+  },
+  {
+    "english": "cinema",
+    "pos": "n.",
+    "chinese": "电影业"
+  },
+  {
+    "english": "disperse",
+    "pos": "v.",
+    "chinese": "分散"
+  },
+  {
+    "english": "drought",
+    "pos": "n.",
+    "chinese": "干旱"
+  },
+  {
+    "english": "expedition",
+    "pos": "n.",
+    "chinese": "远征队"
+  },
+  {
+    "english": "indigenous",
+    "pos": "adj.",
+    "chinese": "本地的"
+  },
+  {
+    "english": "intact",
+    "pos": "adj.",
+    "chinese": "完好无损的"
+  },
+  {
+    "english": "primitive",
+    "pos": "adj.",
+    "chinese": "原始的"
+  },
+  {
+    "english": "penetrate",
+    "pos": "v.",
+    "chinese": "渗透"
+  },
+  {
+    "english": "dye",
+    "pos": "n.",
+    "chinese": "染料"
+  },
+  {
+    "english": "enzyme",
+    "pos": "n.",
+    "chinese": "酶"
+  },
+  {
+    "english": "sediment",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "semiarid",
+    "pos": "adj.",
+    "chinese": "半干旱的"
+  },
+  {
+    "english": "susceptible",
+    "pos": "adj.",
+    "chinese": "易受影响的"
+  },
+  {
+    "english": "precipitation",
+    "pos": "n.",
+    "chinese": "降水"
+  },
+  {
+    "english": "flora",
+    "pos": "n.",
+    "chinese": "植物群"
+  },
+  {
+    "english": "secrete",
+    "pos": "v.",
+    "chinese": "分泌"
+  },
+  {
+    "english": "surpass",
+    "pos": "v.",
+    "chinese": "超过"
+  },
+  {
+    "english": "vicinity",
+    "pos": "n.",
+    "chinese": "附近"
+  },
+  {
+    "english": "reptile",
+    "pos": "n.",
+    "chinese": "爬行动物"
+  },
+  {
+    "english": "terrestrial",
+    "pos": "adj.",
+    "chinese": "陆地的"
+  },
+  {
+    "english": "invertebrate",
+    "pos": "n.",
+    "chinese": "无脊椎动物"
+  },
+  {
+    "english": "pollinator",
+    "pos": "n.",
+    "chinese": "传粉者"
+  },
+  {
+    "english": "exterminate",
+    "pos": "v.",
+    "chinese": "灭绝"
+  }
+]

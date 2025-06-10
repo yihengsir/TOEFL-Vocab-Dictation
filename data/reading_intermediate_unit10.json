@@ -1,0 +1,262 @@
+[
+  {
+    "english": "input",
+    "pos": "n.",
+    "chinese": "输入"
+  },
+  {
+    "english": "output",
+    "pos": "n.",
+    "chinese": "输出"
+  },
+  {
+    "english": "climatic",
+    "pos": "adj.",
+    "chinese": "气候的"
+  },
+  {
+    "english": "exceed",
+    "pos": "v.",
+    "chinese": "超过，超越"
+  },
+  {
+    "english": "prolong",
+    "pos": "v.",
+    "chinese": "延长，拉长"
+  },
+  {
+    "english": "essential",
+    "pos": "adj.",
+    "chinese": "至关重要的"
+  },
+  {
+    "english": "accumulate",
+    "pos": "v.",
+    "chinese": "积累"
+  },
+  {
+    "english": "transform",
+    "pos": "v.",
+    "chinese": "变化，改变"
+  },
+  {
+    "english": "visual",
+    "pos": "adj.",
+    "chinese": "视觉的，看得见的"
+  },
+  {
+    "english": "dominant",
+    "pos": "adj.",
+    "chinese": "占优势的，统治的"
+  },
+  {
+    "english": "fragile",
+    "pos": "adj.",
+    "chinese": "易碎的, 脆弱的"
+  },
+  {
+    "english": "obstruct",
+    "pos": "v.",
+    "chinese": "阻碍，堵塞"
+  },
+  {
+    "english": "exploit",
+    "pos": "v.",
+    "chinese": "利用"
+  },
+  {
+    "english": "mode",
+    "pos": "n.",
+    "chinese": "模式"
+  },
+  {
+    "english": "convenient",
+    "pos": "adj.",
+    "chinese": "便利的"
+  },
+  {
+    "english": "initially",
+    "pos": "adv.",
+    "chinese": "最初地"
+  },
+  {
+    "english": "comparative",
+    "pos": "adj.",
+    "chinese": "相对的，比较的"
+  },
+  {
+    "english": "appropriate",
+    "pos": "adj.",
+    "chinese": "恰当的，适合的"
+  },
+  {
+    "english": "durable",
+    "pos": "adj.",
+    "chinese": "耐用的，持久的"
+  },
+  {
+    "english": "commerce",
+    "pos": "n.",
+    "chinese": "商业，贸易"
+  },
+  {
+    "english": "boast",
+    "pos": "v.",
+    "chinese": "自夸，自吹自擂"
+  },
+  {
+    "english": "archaeologist",
+    "pos": "n.",
+    "chinese": "考古学家"
+  },
+  {
+    "english": "excavator",
+    "pos": "n.",
+    "chinese": "开凿者，发掘者"
+  },
+  {
+    "english": "alternative",
+    "pos": "n.",
+    "chinese": "选择"
+  },
+  {
+    "english": "freight",
+    "pos": "n.",
+    "chinese": "货运"
+  },
+  {
+    "english": "soak",
+    "pos": "v.",
+    "chinese": "浸泡"
+  },
+  {
+    "english": "clumsy",
+    "pos": "adj.",
+    "chinese": "笨拙的，不得体的"
+  },
+  {
+    "english": "bulky",
+    "pos": "adj.",
+    "chinese": "笨重的"
+  },
+  {
+    "english": "aquatic",
+    "pos": "adj.",
+    "chinese": "水产的"
+  },
+  {
+    "english": "prairie",
+    "pos": "n.",
+    "chinese": "大草原"
+  },
+  {
+    "english": "perishable",
+    "pos": "adj.",
+    "chinese": "易腐烂的"
+  },
+  {
+    "english": "boast",
+    "pos": "v.",
+    "chinese": "有"
+  },
+  {
+    "english": "virtue",
+    "pos": "n.",
+    "chinese": "优点"
+  },
+  {
+    "english": "ablaze",
+    "pos": "adj.",
+    "chinese": "着火的"
+  },
+  {
+    "english": "unearth",
+    "pos": "v.",
+    "chinese": "挖掘"
+  },
+  {
+    "english": "yield",
+    "pos": "v.",
+    "chinese": "屈服"
+  },
+  {
+    "english": "alternative",
+    "pos": "n.",
+    "chinese": "替代品"
+  },
+  {
+    "english": "geothermal",
+    "pos": "adj.",
+    "chinese": "地热的"
+  },
+  {
+    "english": "reservoir",
+    "pos": "n.",
+    "chinese": "储存"
+  },
+  {
+    "english": "derive",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "fracture",
+    "pos": "v.",
+    "chinese": "断裂"
+  },
+  {
+    "english": "molten",
+    "pos": "adj.",
+    "chinese": "熔化的"
+  },
+  {
+    "english": "seep",
+    "pos": "v.",
+    "chinese": "渗透"
+  },
+  {
+    "english": "chunk",
+    "pos": "n.",
+    "chinese": "厚块"
+  },
+  {
+    "english": "inhabit",
+    "pos": "v.",
+    "chinese": "居住"
+  },
+  {
+    "english": "densely",
+    "pos": "adv.",
+    "chinese": "稠密地"
+  },
+  {
+    "english": "simultaneously",
+    "pos": "adv.",
+    "chinese": "同时地"
+  },
+  {
+    "english": "excavate",
+    "pos": "v.",
+    "chinese": "挖掘"
+  },
+  {
+    "english": "crop",
+    "pos": "n.",
+    "chinese": "农作物"
+  },
+  {
+    "english": "predator",
+    "pos": "n.",
+    "chinese": "捕食性动物"
+  },
+  {
+    "english": "aggression",
+    "pos": "n.",
+    "chinese": "侵略"
+  },
+  {
+    "english": "commercial",
+    "pos": "adj.",
+    "chinese": "商业的"
+  }
+]

@@ -1,0 +1,452 @@
+[
+  {
+    "english": "device",
+    "pos": "n.",
+    "chinese": "设备"
+  },
+  {
+    "english": "landscape",
+    "pos": "n.",
+    "chinese": "风景，地形"
+  },
+  {
+    "english": "dominate",
+    "pos": "v.",
+    "chinese": "支配"
+  },
+  {
+    "english": "occupy",
+    "pos": "v.",
+    "chinese": "占据，占用"
+  },
+  {
+    "english": "closure",
+    "pos": "n.",
+    "chinese": "封闭"
+  },
+  {
+    "english": "herd",
+    "pos": "n.",
+    "chinese": "兽群，牧群"
+  },
+  {
+    "english": "annually",
+    "pos": "adv.",
+    "chinese": "每年，每年一次"
+  },
+  {
+    "english": "chemical",
+    "pos": "adj.",
+    "chinese": "化学的"
+  },
+  {
+    "english": "decay",
+    "pos": "n.",
+    "chinese": "腐烂"
+  },
+  {
+    "english": "preservation",
+    "pos": "n.",
+    "chinese": "保存"
+  },
+  {
+    "english": "literally",
+    "pos": "adv.",
+    "chinese": "字面上地"
+  },
+  {
+    "english": "sufficiently",
+    "pos": "adv.",
+    "chinese": "足够地，充分地"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "构成，组成"
+  },
+  {
+    "english": "crystal",
+    "pos": "n.",
+    "chinese": "结晶，晶体"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相关地"
+  },
+  {
+    "english": "fulfill",
+    "pos": "v.",
+    "chinese": "完成，达到"
+  },
+  {
+    "english": "imitation",
+    "pos": "n.",
+    "chinese": "仿制品，模仿"
+  },
+  {
+    "english": "fantasy",
+    "pos": "n.",
+    "chinese": "幻想，想象"
+  },
+  {
+    "english": "permit",
+    "pos": "v.",
+    "chinese": "许可，准许"
+  },
+  {
+    "english": "anxiety",
+    "pos": "n.",
+    "chinese": "焦虑，忧虑"
+  },
+  {
+    "english": "confront",
+    "pos": "v.",
+    "chinese": "面对"
+  },
+  {
+    "english": "household",
+    "pos": "n.",
+    "chinese": "一家人"
+  },
+  {
+    "english": "autonomy",
+    "pos": "n.",
+    "chinese": "自治"
+  },
+  {
+    "english": "instability",
+    "pos": "n.",
+    "chinese": "不稳定"
+  },
+  {
+    "english": "originally",
+    "pos": "adv.",
+    "chinese": "原来地"
+  },
+  {
+    "english": "available",
+    "pos": "adj.",
+    "chinese": "可获得的"
+  },
+  {
+    "english": "phenomenon",
+    "pos": "n.",
+    "chinese": "现象"
+  },
+  {
+    "english": "cooperation",
+    "pos": "n.",
+    "chinese": "合作"
+  },
+  {
+    "english": "principle",
+    "pos": "n.",
+    "chinese": "原则"
+  },
+  {
+    "english": "conventional",
+    "pos": "adj.",
+    "chinese": "传统的"
+  },
+  {
+    "english": "spectrum",
+    "pos": "n.",
+    "chinese": "光谱，波谱"
+  },
+  {
+    "english": "bull",
+    "pos": "n.",
+    "chinese": "公牛"
+  },
+  {
+    "english": "celebrity",
+    "pos": "n.",
+    "chinese": "名人"
+  },
+  {
+    "english": "spoon",
+    "pos": "n.",
+    "chinese": "勺子"
+  },
+  {
+    "english": "athlete",
+    "pos": "n.",
+    "chinese": "运动员"
+  },
+  {
+    "english": "fuel",
+    "pos": "n.",
+    "chinese": "燃料"
+  },
+  {
+    "english": "fate",
+    "pos": "n.",
+    "chinese": "命运"
+  },
+  {
+    "english": "chart",
+    "pos": "n.",
+    "chinese": "图表"
+  },
+  {
+    "english": "absorb",
+    "pos": "v.",
+    "chinese": "吸收"
+  },
+  {
+    "english": "fiber",
+    "pos": "n.",
+    "chinese": "纤维"
+  },
+  {
+    "english": "flaw",
+    "pos": "n.",
+    "chinese": "缺陷"
+  },
+  {
+    "english": "combat",
+    "pos": "n.",
+    "chinese": "战斗"
+  },
+  {
+    "english": "horn",
+    "pos": "n.",
+    "chinese": "角"
+  },
+  {
+    "english": "herder",
+    "pos": "n.",
+    "chinese": "牧羊人"
+  },
+  {
+    "english": "evaluate",
+    "pos": "v.",
+    "chinese": "评估"
+  },
+  {
+    "english": "conduct",
+    "pos": "v.",
+    "chinese": "传导"
+  },
+  {
+    "english": "compose",
+    "pos": "v.",
+    "chinese": "组成"
+  },
+  {
+    "english": "fiction",
+    "pos": "n.",
+    "chinese": "虚构作品"
+  },
+  {
+    "english": "motive",
+    "pos": "n.",
+    "chinese": "动机"
+  },
+  {
+    "english": "construct",
+    "pos": "v.",
+    "chinese": "建造"
+  },
+  {
+    "english": "perspective",
+    "pos": "n.",
+    "chinese": "视角"
+  },
+  {
+    "english": "primary",
+    "pos": "adj.",
+    "chinese": "主要的"
+  },
+  {
+    "english": "flourish",
+    "pos": "v.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "diminish",
+    "pos": "v.",
+    "chinese": "减少"
+  },
+  {
+    "english": "fossilize",
+    "pos": "v.",
+    "chinese": "变成化石"
+  },
+  {
+    "english": "presence",
+    "pos": "n.",
+    "chinese": "存在"
+  },
+  {
+    "english": "navigation",
+    "pos": "n.",
+    "chinese": "航行"
+  },
+  {
+    "english": "reverse",
+    "pos": "n.",
+    "chinese": "相反"
+  },
+  {
+    "english": "dense",
+    "pos": "adj.",
+    "chinese": "密集的"
+  },
+  {
+    "english": "puzzling",
+    "pos": "adj.",
+    "chinese": "令人困惑的"
+  },
+  {
+    "english": "trigger",
+    "pos": "v.",
+    "chinese": "触发"
+  },
+  {
+    "english": "encounter",
+    "pos": "v.",
+    "chinese": "遇到"
+  },
+  {
+    "english": "effectiveness",
+    "pos": "n.",
+    "chinese": "有效性"
+  },
+  {
+    "english": "scarce",
+    "pos": "adj.",
+    "chinese": "稀缺的"
+  },
+  {
+    "english": "mixture",
+    "pos": "n.",
+    "chinese": "混合物"
+  },
+  {
+    "english": "emphasize",
+    "pos": "v.",
+    "chinese": "强调"
+  },
+  {
+    "english": "define",
+    "pos": "v.",
+    "chinese": "定义"
+  },
+  {
+    "english": "temperature",
+    "pos": "n.",
+    "chinese": "温度"
+  },
+  {
+    "english": "dwelling",
+    "pos": "n.",
+    "chinese": "住所"
+  },
+  {
+    "english": "geometric",
+    "pos": "adj.",
+    "chinese": "几何的"
+  },
+  {
+    "english": "precede",
+    "pos": "v.",
+    "chinese": "在...之前"
+  },
+  {
+    "english": "implement",
+    "pos": "v.",
+    "chinese": "实施"
+  },
+  {
+    "english": "consequence",
+    "pos": "n.",
+    "chinese": "后果"
+  },
+  {
+    "english": "accustom",
+    "pos": "v.",
+    "chinese": "使...习惯于"
+  },
+  {
+    "english": "ash",
+    "pos": "n.",
+    "chinese": "灰烬"
+  },
+  {
+    "english": "demonstrate",
+    "pos": "v.",
+    "chinese": "展示"
+  },
+  {
+    "english": "relevant",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "vertical",
+    "pos": "adj.",
+    "chinese": "垂直的"
+  },
+  {
+    "english": "fracture",
+    "pos": "n.",
+    "chinese": "断裂"
+  },
+  {
+    "english": "scholar",
+    "pos": "n.",
+    "chinese": "学者"
+  },
+  {
+    "english": "empirical",
+    "pos": "adj.",
+    "chinese": "经验的"
+  },
+  {
+    "english": "conductance",
+    "pos": "n.",
+    "chinese": "电导率"
+  },
+  {
+    "english": "spine",
+    "pos": "n.",
+    "chinese": "脊柱"
+  },
+  {
+    "english": "tissue",
+    "pos": "n.",
+    "chinese": "组织"
+  },
+  {
+    "english": "prey",
+    "pos": "n.",
+    "chinese": "猎物"
+  },
+  {
+    "english": "suppress",
+    "pos": "v.",
+    "chinese": "抑制"
+  },
+  {
+    "english": "reconstruction",
+    "pos": "n.",
+    "chinese": "重建"
+  },
+  {
+    "english": "archaeology",
+    "pos": "n.",
+    "chinese": "考古学"
+  },
+  {
+    "english": "linguistic",
+    "pos": "adj.",
+    "chinese": "语言的"
+  },
+  {
+    "english": "transformation",
+    "pos": "n.",
+    "chinese": "转变"
+  }
+]

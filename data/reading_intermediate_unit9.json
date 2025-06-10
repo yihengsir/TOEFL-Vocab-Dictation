@@ -1,0 +1,357 @@
+[
+  {
+    "english": "expansion",
+    "pos": "n.",
+    "chinese": "扩展，扩大"
+  },
+  {
+    "english": "tobacco",
+    "pos": "n.",
+    "chinese": "烟草，烟叶"
+  },
+  {
+    "english": "cultivation",
+    "pos": "n.",
+    "chinese": "栽培，耕作"
+  },
+  {
+    "english": "commodity",
+    "pos": "n.",
+    "chinese": "商品"
+  },
+  {
+    "english": "peak",
+    "pos": "n.",
+    "chinese": "最高点，尖端"
+  },
+  {
+    "english": "mammal",
+    "pos": "n.",
+    "chinese": "哺乳动物"
+  },
+  {
+    "english": "marine",
+    "pos": "adj.",
+    "chinese": "海的，海产的"
+  },
+  {
+    "english": "fossil",
+    "pos": "adj.",
+    "chinese": "化石的"
+  },
+  {
+    "english": "interaction",
+    "pos": "n.",
+    "chinese": "互动"
+  },
+  {
+    "english": "organism",
+    "pos": "n.",
+    "chinese": "有机物，有机体"
+  },
+  {
+    "english": "corporation",
+    "pos": "n.",
+    "chinese": "公司"
+  },
+  {
+    "english": "latter",
+    "pos": "adj.",
+    "chinese": "后者的，后来的"
+  },
+  {
+    "english": "manufacturing",
+    "pos": "n.",
+    "chinese": "制造业，工业"
+  },
+  {
+    "english": "radiation",
+    "pos": "n.",
+    "chinese": "辐射"
+  },
+  {
+    "english": "solar",
+    "pos": "adj.",
+    "chinese": "太阳的，太阳能的"
+  },
+  {
+    "english": "element",
+    "pos": "n.",
+    "chinese": "要素，元素"
+  },
+  {
+    "english": "abundant",
+    "pos": "adj.",
+    "chinese": "大量的，充足的"
+  },
+  {
+    "english": "diameter",
+    "pos": "n.",
+    "chinese": "直径"
+  },
+  {
+    "english": "practical",
+    "pos": "adj.",
+    "chinese": "实际的"
+  },
+  {
+    "english": "accumulation",
+    "pos": "n.",
+    "chinese": "积累物"
+  },
+  {
+    "english": "density",
+    "pos": "n.",
+    "chinese": "密度"
+  },
+  {
+    "english": "expand",
+    "pos": "v.",
+    "chinese": "扩张"
+  },
+  {
+    "english": "fertilizer",
+    "pos": "n.",
+    "chinese": "肥料"
+  },
+  {
+    "english": "gradually",
+    "pos": "adv.",
+    "chinese": "逐渐地"
+  },
+  {
+    "english": "manufacture",
+    "pos": "v.",
+    "chinese": "制造"
+  },
+  {
+    "english": "permanent",
+    "pos": "adj.",
+    "chinese": "永久的"
+  },
+  {
+    "english": "underlain",
+    "pos": "v.",
+    "chinese": "位于...之下"
+  },
+  {
+    "english": "petroleum",
+    "pos": "n.",
+    "chinese": "石油"
+  },
+  {
+    "english": "mining",
+    "pos": "n.",
+    "chinese": "采矿"
+  },
+  {
+    "english": "publish",
+    "pos": "v.",
+    "chinese": "出版"
+  },
+  {
+    "english": "reveal",
+    "pos": "v.",
+    "chinese": "揭示"
+  },
+  {
+    "english": "surveyor",
+    "pos": "n.",
+    "chinese": "测量员"
+  },
+  {
+    "english": "transport",
+    "pos": "v.",
+    "chinese": "运输"
+  },
+  {
+    "english": "breadth",
+    "pos": "n.",
+    "chinese": "宽度"
+  },
+  {
+    "english": "locomotive",
+    "pos": "n.",
+    "chinese": "机车"
+  },
+  {
+    "english": "comprise",
+    "pos": "v.",
+    "chinese": "包含"
+  },
+  {
+    "english": "confirm",
+    "pos": "v.",
+    "chinese": "确认"
+  },
+  {
+    "english": "consist",
+    "pos": "v.",
+    "chinese": "由...组成"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "当代的"
+  },
+  {
+    "english": "phase",
+    "pos": "n.",
+    "chinese": "阶段"
+  },
+  {
+    "english": "temperature",
+    "pos": "n.",
+    "chinese": "温度"
+  },
+  {
+    "english": "accurately",
+    "pos": "adv.",
+    "chinese": "准确地"
+  },
+  {
+    "english": "carbon",
+    "pos": "n.",
+    "chinese": "碳"
+  },
+  {
+    "english": "climate",
+    "pos": "n.",
+    "chinese": "气候"
+  },
+  {
+    "english": "deposit",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "relatively:",
+    "pos": "adv.",
+    "chinese": "相对地"
+  },
+  {
+    "english": "vast",
+    "pos": "adj.",
+    "chinese": "广阔的"
+  },
+  {
+    "english": "sediment",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "absorb",
+    "pos": "v.",
+    "chinese": "吸收"
+  },
+  {
+    "english": "analysis",
+    "pos": "n.",
+    "chinese": "分析"
+  },
+  {
+    "english": "continental",
+    "pos": "adj.",
+    "chinese": "大陆的"
+  },
+  {
+    "english": "continent",
+    "pos": "n.",
+    "chinese": "大陆"
+  },
+  {
+    "english": "cycle",
+    "pos": "n.",
+    "chinese": "循环"
+  },
+  {
+    "english": "withdrawn",
+    "pos": "v.",
+    "chinese": "撤回"
+  },
+  {
+    "english": "evaporate",
+    "pos": "v.",
+    "chinese": "蒸发"
+  },
+  {
+    "english": "precipitate",
+    "pos": "v.",
+    "chinese": "沉淀"
+  },
+  {
+    "english": "boundary",
+    "pos": "n.",
+    "chinese": "边界"
+  },
+  {
+    "english": "drain",
+    "pos": "v.",
+    "chinese": "排水"
+  },
+  {
+    "english": "grain",
+    "pos": "n.",
+    "chinese": "颗粒"
+  },
+  {
+    "english": "zone",
+    "pos": "n.",
+    "chinese": "区域"
+  },
+  {
+    "english": "enable",
+    "pos": "v.",
+    "chinese": "使能够"
+  },
+  {
+    "english": "migration",
+    "pos": "n.",
+    "chinese": "迁移"
+  },
+  {
+    "english": "formation",
+    "pos": "n.",
+    "chinese": "形成"
+  },
+  {
+    "english": "originate",
+    "pos": "v.",
+    "chinese": "起源"
+  },
+  {
+    "english": "rival",
+    "pos": "v.",
+    "chinese": "竞争"
+  },
+  {
+    "english": "porcelain",
+    "pos": "n.",
+    "chinese": "瓷器"
+  },
+  {
+    "english": "elevate",
+    "pos": "v.",
+    "chinese": "提升"
+  },
+  {
+    "english": "practical",
+    "pos": "adj.",
+    "chinese": "实际的"
+  },
+  {
+    "english": "corn",
+    "pos": "n.",
+    "chinese": "玉米"
+  },
+  {
+    "english": "transportation",
+    "pos": "n.",
+    "chinese": "运输"
+  },
+  {
+    "english": "sufficient",
+    "pos": "adj.",
+    "chinese": "足够的"
+  }
+]

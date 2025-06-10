@@ -1,0 +1,392 @@
+[
+  {
+    "english": "explosion",
+    "pos": "n.",
+    "chinese": "爆发，爆炸"
+  },
+  {
+    "english": "fossilization",
+    "pos": "n.",
+    "chinese": "化石作用"
+  },
+  {
+    "english": "assign",
+    "pos": "v.",
+    "chinese": "分配，布置"
+  },
+  {
+    "english": "category",
+    "pos": "n.",
+    "chinese": "种类"
+  },
+  {
+    "english": "resemble",
+    "pos": "v.",
+    "chinese": "与……相像，类似于"
+  },
+  {
+    "english": "interprete",
+    "pos": "v.",
+    "chinese": "理解，解释"
+  },
+  {
+    "english": "numerous",
+    "pos": "adj.",
+    "chinese": "数不清的，很多的"
+  },
+  {
+    "english": "bacterium",
+    "pos": "n.",
+    "chinese": "细菌"
+  },
+  {
+    "english": "undergo",
+    "pos": "v.",
+    "chinese": "经历，经验"
+  },
+  {
+    "english": "organic",
+    "pos": "adj.",
+    "chinese": "有机的"
+  },
+  {
+    "english": "acid",
+    "pos": "n.",
+    "chinese": "酸"
+  },
+  {
+    "english": "swelling",
+    "pos": "n.",
+    "chinese": "肿胀，膨胀"
+  },
+  {
+    "english": "compound",
+    "pos": "n.",
+    "chinese": "化合物"
+  },
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "肥沃的"
+  },
+  {
+    "english": "acidic",
+    "pos": "adj.",
+    "chinese": "酸的"
+  },
+  {
+    "english": "catalog",
+    "pos": "n.",
+    "chinese": "目录"
+  },
+  {
+    "english": "sequence",
+    "pos": "n.",
+    "chinese": "顺序，序列"
+  },
+  {
+    "english": "oxygen",
+    "pos": "n.",
+    "chinese": "氧气"
+  },
+  {
+    "english": "cave",
+    "pos": "n.",
+    "chinese": "洞穴"
+  },
+  {
+    "english": "depict",
+    "pos": "v.",
+    "chinese": "描述"
+  },
+  {
+    "english": "preserve",
+    "pos": "v.",
+    "chinese": "保存，保护"
+  },
+  {
+    "english": "instinctively",
+    "pos": "adv.",
+    "chinese": "本能地"
+  },
+  {
+    "english": "philosopher",
+    "pos": "n.",
+    "chinese": "哲学家"
+  },
+  {
+    "english": "triumph",
+    "pos": "n.",
+    "chinese": "胜利，巨大成就"
+  },
+  {
+    "english": "ancestor",
+    "pos": "n.",
+    "chinese": "祖先"
+  },
+  {
+    "english": "imitative",
+    "pos": "adj.",
+    "chinese": "模仿的"
+  },
+  {
+    "english": "geometrical",
+    "pos": "adj.",
+    "chinese": "几何的"
+  },
+  {
+    "english": "scatter",
+    "pos": "v.",
+    "chinese": "散落"
+  },
+  {
+    "english": "geologically",
+    "pos": "adv.",
+    "chinese": "地质学地"
+  },
+  {
+    "english": "multiple",
+    "pos": "adj.",
+    "chinese": "多重，多个的"
+  },
+  {
+    "english": "conceivably",
+    "pos": "adv.",
+    "chinese": "令人信服地"
+  },
+  {
+    "english": "penetrate",
+    "pos": "v.",
+    "chinese": "穿透，渗透"
+  },
+  {
+    "english": "crop",
+    "pos": "n.",
+    "chinese": "庄稼"
+  },
+  {
+    "english": "era",
+    "pos": "n.",
+    "chinese": "时代"
+  },
+  {
+    "english": "marine",
+    "pos": "adj.",
+    "chinese": "海洋的"
+  },
+  {
+    "english": "zones",
+    "pos": "n.",
+    "chinese": "区域"
+  },
+  {
+    "english": "host",
+    "pos": "v.",
+    "chinese": "主办"
+  },
+  {
+    "english": "route",
+    "pos": "n.",
+    "chinese": "路线"
+  },
+  {
+    "english": "peak",
+    "pos": "n.",
+    "chinese": "巅峰"
+  },
+  {
+    "english": "visible",
+    "pos": "adj.",
+    "chinese": "可视的"
+  },
+  {
+    "english": "defined",
+    "pos": "adj.",
+    "chinese": "轮廓分明的"
+  },
+  {
+    "english": "update",
+    "pos": "v.",
+    "chinese": "更新"
+  },
+  {
+    "english": "civil",
+    "pos": "adj.",
+    "chinese": "公民的，文明的"
+  },
+  {
+    "english": "belief",
+    "pos": "n.",
+    "chinese": "信念"
+  },
+  {
+    "english": "themes",
+    "pos": "n.",
+    "chinese": "主题"
+  },
+  {
+    "english": "dialogue",
+    "pos": "n.",
+    "chinese": "对话"
+  },
+  {
+    "english": "further",
+    "pos": "adj.",
+    "chinese": "更多的，进一步的"
+  },
+  {
+    "english": "alongside",
+    "pos": "prep.",
+    "chinese": "在...旁边"
+  },
+  {
+    "english": "merely",
+    "pos": "adv.",
+    "chinese": "仅仅"
+  },
+  {
+    "english": "motivation",
+    "pos": "n.",
+    "chinese": "动力"
+  },
+  {
+    "english": "primary",
+    "pos": "adj.",
+    "chinese": "主要的，首要的"
+  },
+  {
+    "english": "precision",
+    "pos": "n.",
+    "chinese": "精确性"
+  },
+  {
+    "english": "significance",
+    "pos": "n.",
+    "chinese": "重要性，意义"
+  },
+  {
+    "english": "international",
+    "pos": "adj.",
+    "chinese": "国际的"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多元的"
+  },
+  {
+    "english": "transformation",
+    "pos": "n.",
+    "chinese": "转变"
+  },
+  {
+    "english": "innovation",
+    "pos": "n.",
+    "chinese": "创新"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "同时代的"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "构成，创作"
+  },
+  {
+    "english": "narratives",
+    "pos": "n.",
+    "chinese": "叙述"
+  },
+  {
+    "english": "elaboration",
+    "pos": "n.",
+    "chinese": "详尽阐述，精美"
+  },
+  {
+    "english": "explosion",
+    "pos": "n.",
+    "chinese": "爆炸"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "广阔的"
+  },
+  {
+    "english": "foundation",
+    "pos": "n.",
+    "chinese": "基础"
+  },
+  {
+    "english": "fine",
+    "pos": "adj.",
+    "chinese": "精美的，优质的"
+  },
+  {
+    "english": "execute",
+    "pos": "v.",
+    "chinese": "执行"
+  },
+  {
+    "english": "mature",
+    "pos": "adj.",
+    "chinese": "成熟的"
+  },
+  {
+    "english": "theory",
+    "pos": "n.",
+    "chinese": "理论"
+  },
+  {
+    "english": "prosperity",
+    "pos": "n.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "motion",
+    "pos": "n.",
+    "chinese": "运动，移动"
+  },
+  {
+    "english": "leather",
+    "pos": "n.",
+    "chinese": "皮革"
+  },
+  {
+    "english": "decrease",
+    "pos": "v.",
+    "chinese": "减少"
+  },
+  {
+    "english": "decade",
+    "pos": "n.",
+    "chinese": "十年"
+  },
+  {
+    "english": "accompany",
+    "pos": "v.",
+    "chinese": "陪伴，伴随"
+  },
+  {
+    "english": "formation",
+    "pos": "n.",
+    "chinese": "形成"
+  },
+  {
+    "english": "fundamentally",
+    "pos": "adv.",
+    "chinese": "根本地，基础地"
+  },
+  {
+    "english": "fertility",
+    "pos": "n.",
+    "chinese": "肥沃，富饶"
+  },
+  {
+    "english": "vessel",
+    "pos": "n.",
+    "chinese": "船，血管"
+  }
+]

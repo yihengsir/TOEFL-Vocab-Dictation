@@ -1,0 +1,312 @@
+[
+  {
+    "english": "endangered",
+    "pos": "adj,",
+    "chinese": "濒危的"
+  },
+  {
+    "english": "extinction",
+    "pos": "n.",
+    "chinese": "灭绝"
+  },
+  {
+    "english": "rumor",
+    "pos": "n.",
+    "chinese": "谣言"
+  },
+  {
+    "english": "extent",
+    "pos": "n.",
+    "chinese": "程度，范围"
+  },
+  {
+    "english": "behavioral",
+    "pos": "adj.",
+    "chinese": "关于行为的"
+  },
+  {
+    "english": "cite",
+    "pos": "v.",
+    "chinese": "引用"
+  },
+  {
+    "english": "episode",
+    "pos": "n.",
+    "chinese": "经历，事件"
+  },
+  {
+    "english": "approximately",
+    "pos": "adv.",
+    "chinese": "近似地"
+  },
+  {
+    "english": "hypothesis",
+    "pos": "n.",
+    "chinese": "假设"
+  },
+  {
+    "english": "companion",
+    "pos": "n.",
+    "chinese": "伴星，同伴"
+  },
+  {
+    "english": "devastation",
+    "pos": "n.",
+    "chinese": "毁灭"
+  },
+  {
+    "english": "impact",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "transition",
+    "pos": "n.",
+    "chinese": "过渡，转变"
+  },
+  {
+    "english": "evolutionary",
+    "pos": "adj.",
+    "chinese": "进化的"
+  },
+  {
+    "english": "competitor",
+    "pos": "n.",
+    "chinese": "竞争者"
+  },
+  {
+    "english": "carbon",
+    "pos": "n.",
+    "chinese": "碳"
+  },
+  {
+    "english": "overcome",
+    "pos": "v.",
+    "chinese": "克服"
+  },
+  {
+    "english": "prosper",
+    "pos": "v.",
+    "chinese": "繁盛，成功"
+  },
+  {
+    "english": "relative",
+    "pos": "adj.",
+    "chinese": "相对的"
+  },
+  {
+    "english": "diversity",
+    "pos": "n.",
+    "chinese": "多样性"
+  },
+  {
+    "english": "immigrant",
+    "pos": "n.",
+    "chinese": "移民"
+  },
+  {
+    "english": "vessel",
+    "pos": "n.",
+    "chinese": "血管"
+  },
+  {
+    "english": "leather",
+    "pos": "n.",
+    "chinese": "皮革"
+  },
+  {
+    "english": "substance",
+    "pos": "n.",
+    "chinese": "物质"
+  },
+  {
+    "english": "deposit",
+    "pos": "v.",
+    "chinese": "留存，沉积"
+  },
+  {
+    "english": "annual",
+    "pos": "adj.",
+    "chinese": "年度的"
+  },
+  {
+    "english": "core",
+    "pos": "n.",
+    "chinese": "核心，中心部分"
+  },
+  {
+    "english": "consistent",
+    "pos": "adj.",
+    "chinese": "一致的，连续的"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "contaminate",
+    "pos": "v.",
+    "chinese": "污染，弄脏"
+  },
+  {
+    "english": "harvest",
+    "pos": "n.",
+    "chinese": "收获"
+  },
+  {
+    "english": "toxic",
+    "pos": "adj.",
+    "chinese": "有毒的"
+  },
+  {
+    "english": "abundance",
+    "pos": "n.",
+    "chinese": "富裕，充盈"
+  },
+  {
+    "english": "notorious",
+    "pos": "adj.",
+    "chinese": "声名狼藉的"
+  },
+  {
+    "english": "import",
+    "pos": "v.",
+    "chinese": "进口"
+  },
+  {
+    "english": "consume",
+    "pos": "v.",
+    "chinese": "消费"
+  },
+  {
+    "english": "craft",
+    "pos": "n.",
+    "chinese": "工艺品"
+  },
+  {
+    "english": "method",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "technique",
+    "pos": "n.",
+    "chinese": "技术"
+  },
+  {
+    "english": "transport",
+    "pos": "v.",
+    "chinese": "运输"
+  },
+  {
+    "english": "reflect",
+    "pos": "v.",
+    "chinese": "反映"
+  },
+  {
+    "english": "justify",
+    "pos": "v.",
+    "chinese": "对...作出解释"
+  },
+  {
+    "english": "profit",
+    "pos": "n.",
+    "chinese": "利润"
+  },
+  {
+    "english": "scheme",
+    "pos": "n.",
+    "chinese": "计划"
+  },
+  {
+    "english": "migration",
+    "pos": "n.",
+    "chinese": "移民"
+  },
+  {
+    "english": "inhabit",
+    "pos": "v.",
+    "chinese": "居住"
+  },
+  {
+    "english": "leak",
+    "pos": "v.",
+    "chinese": "泄露"
+  },
+  {
+    "english": "modify",
+    "pos": "v.",
+    "chinese": "修改"
+  },
+  {
+    "english": "negotiate",
+    "pos": "v.",
+    "chinese": "商讨"
+  },
+  {
+    "english": "extent",
+    "pos": "n.",
+    "chinese": "程度"
+  },
+  {
+    "english": "expansion",
+    "pos": "n.",
+    "chinese": "扩张"
+  },
+  {
+    "english": "transport",
+    "pos": "n.",
+    "chinese": "运输"
+  },
+  {
+    "english": "gradual",
+    "pos": "adj,",
+    "chinese": "逐渐的"
+  },
+  {
+    "english": "initial",
+    "pos": "adj,",
+    "chinese": "最初的"
+  },
+  {
+    "english": "confident",
+    "pos": "adj,",
+    "chinese": "自信的"
+  },
+  {
+    "english": "colonize",
+    "pos": "v.",
+    "chinese": "殖民"
+  },
+  {
+    "english": "manufacture",
+    "pos": "n.",
+    "chinese": "手工制造业"
+  },
+  {
+    "english": "investment",
+    "pos": "n.",
+    "chinese": "投入"
+  },
+  {
+    "english": "proliferation",
+    "pos": "n.",
+    "chinese": "激增"
+  },
+  {
+    "english": "continental",
+    "pos": "adj.",
+    "chinese": "大陆的"
+  },
+  {
+    "english": "vast",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "esteem",
+    "pos": "n.",
+    "chinese": "尊重"
+  }
+]

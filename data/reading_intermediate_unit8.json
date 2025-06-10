@@ -1,0 +1,652 @@
+[
+  {
+    "english": "temple",
+    "pos": "n.",
+    "chinese": "寺庙"
+  },
+  {
+    "english": "secular",
+    "pos": "adj.",
+    "chinese": "现世的，世俗的"
+  },
+  {
+    "english": "administrator",
+    "pos": "n.",
+    "chinese": "管理者"
+  },
+  {
+    "english": "timber",
+    "pos": "n.",
+    "chinese": "木材"
+  },
+  {
+    "english": "damp",
+    "pos": "adj.",
+    "chinese": "潮湿的"
+  },
+  {
+    "english": "clay",
+    "pos": "n.",
+    "chinese": "黏土，泥土"
+  },
+  {
+    "english": "script",
+    "pos": "n.",
+    "chinese": "笔迹"
+  },
+  {
+    "english": "grain",
+    "pos": "n.",
+    "chinese": "粮食"
+  },
+  {
+    "english": "hazardous",
+    "pos": "adj.",
+    "chinese": "冒险的，危险的"
+  },
+  {
+    "english": "overall",
+    "pos": "adj.",
+    "chinese": "总体的，全部的"
+  },
+  {
+    "english": "neutralize",
+    "pos": "v.",
+    "chinese": "使无效"
+  },
+  {
+    "english": "delay",
+    "pos": "v.",
+    "chinese": "耽搁，延迟"
+  },
+  {
+    "english": "experiment",
+    "pos": "v.",
+    "chinese": "尝试，做实验"
+  },
+  {
+    "english": "variety",
+    "pos": "n.",
+    "chinese": "多种式样"
+  },
+  {
+    "english": "technique",
+    "pos": "n.",
+    "chinese": "技术，技巧"
+  },
+  {
+    "english": "artificial",
+    "pos": "adj.",
+    "chinese": "人工的"
+  },
+  {
+    "english": "facilitate",
+    "pos": "v.",
+    "chinese": "帮助，促进"
+  },
+  {
+    "english": "factor",
+    "pos": "n.",
+    "chinese": "因素"
+  },
+  {
+    "english": "resilience",
+    "pos": "n.",
+    "chinese": "弹性，恢复力"
+  },
+  {
+    "english": "severely",
+    "pos": "n.",
+    "chinese": "严重地，严厉地"
+  },
+  {
+    "english": "accumulation",
+    "pos": "n.",
+    "chinese": "积累，堆积物"
+  },
+  {
+    "english": "aspect",
+    "pos": "n.",
+    "chinese": "方面"
+  },
+  {
+    "english": "colonize",
+    "pos": "v.",
+    "chinese": "在……建立殖民度，移民于……"
+  },
+  {
+    "english": "destruction",
+    "pos": "n.",
+    "chinese": "摧毁，破坏"
+  },
+  {
+    "english": "explosion",
+    "pos": "n.",
+    "chinese": "爆发，爆炸"
+  },
+  {
+    "english": "pale",
+    "pos": "adj.",
+    "chinese": "苍白的，无力的"
+  },
+  {
+    "english": "absence",
+    "pos": "n.",
+    "chinese": "缺乏"
+  },
+  {
+    "english": "accompany",
+    "pos": "v.",
+    "chinese": "伴随"
+  },
+  {
+    "english": "acquire",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "alternative",
+    "pos": "n.",
+    "chinese": "选择"
+  },
+  {
+    "english": "assess",
+    "pos": "v.",
+    "chinese": "评估"
+  },
+  {
+    "english": "campaign",
+    "pos": "v.",
+    "chinese": "参加活动"
+  },
+  {
+    "english": "civilian",
+    "pos": "n.",
+    "chinese": "平民"
+  },
+  {
+    "english": "cluster",
+    "pos": "n.",
+    "chinese": "群集"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "构成"
+  },
+  {
+    "english": "comprise",
+    "pos": "v.",
+    "chinese": "包括"
+  },
+  {
+    "english": "considerable",
+    "pos": "adj.",
+    "chinese": "相当大的"
+  },
+  {
+    "english": "convert",
+    "pos": "v.",
+    "chinese": "转换"
+  },
+  {
+    "english": "cooperate",
+    "pos": "v.",
+    "chinese": "合作"
+  },
+  {
+    "english": "density",
+    "pos": "n.",
+    "chinese": "密度"
+  },
+  {
+    "english": "depict",
+    "pos": "v.",
+    "chinese": "描述"
+  },
+  {
+    "english": "diplomatic",
+    "pos": "adj.",
+    "chinese": "外交的"
+  },
+  {
+    "english": "distribute",
+    "pos": "v.",
+    "chinese": "分布"
+  },
+  {
+    "english": "diversity",
+    "pos": "n.",
+    "chinese": "多样性"
+  },
+  {
+    "english": "drift",
+    "pos": "v.",
+    "chinese": "漂移"
+  },
+  {
+    "english": "encounter",
+    "pos": "v.",
+    "chinese": "遭遇"
+  },
+  {
+    "english": "exclude",
+    "pos": "v.",
+    "chinese": "排斥"
+  },
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "肥沃的"
+  },
+  {
+    "english": "frequently",
+    "pos": "adv.",
+    "chinese": "经常地"
+  },
+  {
+    "english": "function",
+    "pos": "n.",
+    "chinese": "功能"
+  },
+  {
+    "english": "fundamental",
+    "pos": "adj.",
+    "chinese": "基本的"
+  },
+  {
+    "english": "impact",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "imperial",
+    "pos": "adj.",
+    "chinese": "帝国的"
+  },
+  {
+    "english": "imposition",
+    "pos": "n.",
+    "chinese": "强加"
+  },
+  {
+    "english": "incorporate",
+    "pos": "v.",
+    "chinese": "包含"
+  },
+  {
+    "english": "inevitably",
+    "pos": "adv.",
+    "chinese": "不可避免地"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "majority",
+    "pos": "n.",
+    "chinese": "大多数"
+  },
+  {
+    "english": "marginal",
+    "pos": "adj.",
+    "chinese": "边缘的"
+  },
+  {
+    "english": "migration",
+    "pos": "n.",
+    "chinese": "迁移"
+  },
+  {
+    "english": "mild",
+    "pos": "adj.",
+    "chinese": "温和的"
+  },
+  {
+    "english": "modest",
+    "pos": "adj.",
+    "chinese": "不太大的"
+  },
+  {
+    "english": "mutually",
+    "pos": "adv.",
+    "chinese": "相互地"
+  },
+  {
+    "english": "origin",
+    "pos": "n.",
+    "chinese": "起源"
+  },
+  {
+    "english": "overwhelming",
+    "pos": "adj.",
+    "chinese": "压倒性的"
+  },
+  {
+    "english": "participate",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "permanent",
+    "pos": "adj.",
+    "chinese": "永久的"
+  },
+  {
+    "english": "potentially",
+    "pos": "adv.",
+    "chinese": "潜在地"
+  },
+  {
+    "english": "presence",
+    "pos": "n.",
+    "chinese": "存在"
+  },
+  {
+    "english": "prior",
+    "pos": "adj.",
+    "chinese": "优先的"
+  },
+  {
+    "english": "rebellion",
+    "pos": "n.",
+    "chinese": "反抗"
+  },
+  {
+    "english": "reflect",
+    "pos": "v.",
+    "chinese": "反映"
+  },
+  {
+    "english": "religious",
+    "pos": "adj.",
+    "chinese": "宗教的"
+  },
+  {
+    "english": "remote",
+    "pos": "adj.",
+    "chinese": "遥远的"
+  },
+  {
+    "english": "ritual",
+    "pos": "n.",
+    "chinese": "仪式"
+  },
+  {
+    "english": "sophisticated",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "speculation",
+    "pos": "n.",
+    "chinese": "推测"
+  },
+  {
+    "english": "subsequent",
+    "pos": "adj.",
+    "chinese": "随后的"
+  },
+  {
+    "english": "substantial",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "symbol",
+    "pos": "n.",
+    "chinese": "符号"
+  },
+  {
+    "english": "territory",
+    "pos": "n.",
+    "chinese": "领土"
+  },
+  {
+    "english": "unyielding",
+    "pos": "adj.",
+    "chinese": "坚定的"
+  },
+  {
+    "english": "vast",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "abundant",
+    "pos": "adj.",
+    "chinese": "丰富的"
+  },
+  {
+    "english": "accustomed",
+    "pos": "adj.",
+    "chinese": "习惯的"
+  },
+  {
+    "english": "aesthetic",
+    "pos": "adj.",
+    "chinese": "美学的"
+  },
+  {
+    "english": "autonomy",
+    "pos": "n.",
+    "chinese": "自治"
+  },
+  {
+    "english": "copper",
+    "pos": "n.",
+    "chinese": "铜"
+  },
+  {
+    "english": "herb",
+    "pos": "n.",
+    "chinese": "草本植物，药草"
+  },
+  {
+    "english": "mineral",
+    "pos": "n.",
+    "chinese": "矿物"
+  },
+  {
+    "english": "tropical",
+    "pos": "adj.",
+    "chinese": "热带的，炎热的"
+  },
+  {
+    "english": "insect",
+    "pos": "n.",
+    "chinese": "昆虫"
+  },
+  {
+    "english": "decay",
+    "pos": "n.",
+    "chinese": "衰退"
+  },
+  {
+    "english": "dwelling",
+    "pos": "n.",
+    "chinese": "住所"
+  },
+  {
+    "english": "enclose",
+    "pos": "v.",
+    "chinese": "包围"
+  },
+  {
+    "english": "flourish",
+    "pos": "v.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "generic",
+    "pos": "adj.",
+    "chinese": "一般的"
+  },
+  {
+    "english": "harvest",
+    "pos": "n.",
+    "chinese": "收获"
+  },
+  {
+    "english": "implicitly",
+    "pos": "adv.",
+    "chinese": "含蓄地"
+  },
+  {
+    "english": "infer",
+    "pos": "v.",
+    "chinese": "推断"
+  },
+  {
+    "english": "infrastructure",
+    "pos": "n.",
+    "chinese": "基础设施"
+  },
+  {
+    "english": "merchant",
+    "pos": "n.",
+    "chinese": "商人"
+  },
+  {
+    "english": "multiply",
+    "pos": "v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "navigate",
+    "pos": "v.",
+    "chinese": "导航"
+  },
+  {
+    "english": "prevailing",
+    "pos": "adj.",
+    "chinese": "流行的"
+  },
+  {
+    "english": "sheer",
+    "pos": "adj.",
+    "chinese": "绝对的"
+  },
+  {
+    "english": "sphere",
+    "pos": "n.",
+    "chinese": "球体"
+  },
+  {
+    "english": "suppress",
+    "pos": "v.",
+    "chinese": "镇压"
+  },
+  {
+    "english": "traumatic",
+    "pos": "adj.",
+    "chinese": "创伤的"
+  },
+  {
+    "english": "volcanic",
+    "pos": "adj.",
+    "chinese": "火山的"
+  },
+  {
+    "english": "worship",
+    "pos": "n.",
+    "chinese": "崇拜"
+  },
+  {
+    "english": "aggregated",
+    "pos": "adj.",
+    "chinese": "聚集的"
+  },
+  {
+    "english": "conversely",
+    "pos": "adv.",
+    "chinese": "相反地"
+  },
+  {
+    "english": "dominance",
+    "pos": "n.",
+    "chinese": "主导地位"
+  },
+  {
+    "english": "fungus",
+    "pos": "n.",
+    "chinese": "真菌"
+  },
+  {
+    "english": "moist",
+    "pos": "adj.",
+    "chinese": "潮湿的"
+  },
+  {
+    "english": "nutrient",
+    "pos": "n.",
+    "chinese": "营养物质"
+  },
+  {
+    "english": "static",
+    "pos": "adj.",
+    "chinese": "静态的"
+  },
+  {
+    "english": "susceptible",
+    "pos": "adj.",
+    "chinese": "易受影响的"
+  },
+  {
+    "english": "supremacy",
+    "pos": "n.",
+    "chinese": "至高无上"
+  },
+  {
+    "english": "realm",
+    "pos": "n.",
+    "chinese": "领域，王国"
+  },
+  {
+    "english": "envision",
+    "pos": "n.",
+    "chinese": "想象，展望"
+  },
+  {
+    "english": "friction",
+    "pos": "n.",
+    "chinese": "摩擦，争执"
+  },
+  {
+    "english": "tomb",
+    "pos": "n.",
+    "chinese": "坟墓"
+  },
+  {
+    "english": "underestimate",
+    "pos": "v.",
+    "chinese": "低估"
+  },
+  {
+    "english": "vegetation",
+    "pos": "n.",
+    "chinese": "植被"
+  },
+  {
+    "english": "envision",
+    "pos": "n.",
+    "chinese": "想象，展望"
+  },
+  {
+    "english": "supremacy",
+    "pos": "n.",
+    "chinese": "至高无上"
+  },
+  {
+    "english": "realm",
+    "pos": "n.",
+    "chinese": "领域，王国"
+  },
+  {
+    "english": "friction",
+    "pos": "n.",
+    "chinese": "摩擦，争执"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "english": "category",
+    "pos": "n.",
+    "chinese": "种类"
+  },
+  {
+    "english": "distance",
+    "pos": "n.",
+    "chinese": "距离"
+  },
+  {
+    "english": "mystery",
+    "pos": "n.",
+    "chinese": "秘密，谜"
+  },
+  {
+    "english": "diameter",
+    "pos": "n.",
+    "chinese": "直径"
+  },
+  {
+    "english": "hence",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "correlation",
+    "pos": "n.",
+    "chinese": "相关性，相互关系"
+  },
+  {
+    "english": "dimension",
+    "pos": "n.",
+    "chinese": "尺寸，面积"
+  },
+  {
+    "english": "density",
+    "pos": "n.",
+    "chinese": "密度"
+  },
+  {
+    "english": "composition",
+    "pos": "n .",
+    "chinese": "构成"
+  },
+  {
+    "english": "hydrogen",
+    "pos": "n.",
+    "chinese": "氢"
+  },
+  {
+    "english": "gravity",
+    "pos": "n.",
+    "chinese": "重力"
+  },
+  {
+    "english": "molecular",
+    "pos": "n.",
+    "chinese": "分子"
+  },
+  {
+    "english": "motion",
+    "pos": "n.",
+    "chinese": "运动"
+  },
+  {
+    "english": "comparatively",
+    "pos": "adv.",
+    "chinese": "相比地，相对地"
+  },
+  {
+    "english": "retain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "portion",
+    "pos": "n.",
+    "chinese": "一部分"
+  },
+  {
+    "english": "astronomer",
+    "pos": "n.",
+    "chinese": "宇航员"
+  },
+  {
+    "english": "hypothesize",
+    "pos": "v.",
+    "chinese": "假设，猜测"
+  },
+  {
+    "english": "traumatic",
+    "pos": "adj.",
+    "chinese": "创伤的"
+  },
+  {
+    "english": "awkwardness",
+    "pos": "n.",
+    "chinese": "粗劣→尴尬，不便"
+  },
+  {
+    "english": "outcome",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "domestic",
+    "pos": "adj.",
+    "chinese": "国内的"
+  },
+  {
+    "english": "elevation",
+    "pos": "n.",
+    "chinese": "高度，海拔"
+  },
+  {
+    "english": "merchant",
+    "pos": "n.",
+    "chinese": "商人"
+  },
+  {
+    "english": "architecture",
+    "pos": "n.",
+    "chinese": "建筑"
+  },
+  {
+    "english": "comprise",
+    "pos": "v.",
+    "chinese": "包含，包括"
+  },
+  {
+    "english": "symbolism",
+    "pos": "n.",
+    "chinese": "象征主义，象征手法"
+  },
+  {
+    "english": "religious",
+    "pos": "n.",
+    "chinese": "宗教的"
+  },
+  {
+    "english": "worship",
+    "pos": "n.",
+    "chinese": "崇拜"
+  },
+  {
+    "english": "diplomatic",
+    "pos": "adj.",
+    "chinese": "外交的"
+  },
+  {
+    "english": "client",
+    "pos": "n.",
+    "chinese": "客户"
+  },
+  {
+    "english": "differ",
+    "pos": "v.",
+    "chinese": "和...不同"
+  },
+  {
+    "english": "distant",
+    "pos": "adj.",
+    "chinese": "遥远的"
+  },
+  {
+    "english": "evolve",
+    "pos": "v.",
+    "chinese": "发展"
+  },
+  {
+    "english": "festival",
+    "pos": "n.",
+    "chinese": "节日"
+  },
+  {
+    "english": "inferior",
+    "pos": "adj.",
+    "chinese": "下级的"
+  },
+  {
+    "english": "holy",
+    "pos": "adj.",
+    "chinese": "神圣的"
+  },
+  {
+    "english": "troop",
+    "pos": "n.",
+    "chinese": "军队"
+  },
+  {
+    "english": "dweller",
+    "pos": "n.",
+    "chinese": "居民"
+  },
+  {
+    "english": "disadvantage",
+    "pos": "n.",
+    "chinese": "不利条件"
+  },
+  {
+    "english": "carving",
+    "pos": "n.",
+    "chinese": "雕刻品"
+  },
+  {
+    "english": "curved",
+    "pos": "adj.",
+    "chinese": "曲线的"
+  },
+  {
+    "english": "external",
+    "pos": "adj.",
+    "chinese": "外部的"
+  },
+  {
+    "english": "furnish",
+    "pos": "v.",
+    "chinese": "装修"
+  },
+  {
+    "english": "haul",
+    "pos": "v.",
+    "chinese": "拖运"
+  },
+  {
+    "english": "likewise",
+    "pos": "adv.",
+    "chinese": "同样地"
+  },
+  {
+    "english": "marble",
+    "pos": "n.",
+    "chinese": "大理石"
+  },
+  {
+    "english": "medium",
+    "pos": "n.",
+    "chinese": "媒介"
+  },
+  {
+    "english": "rocket",
+    "pos": "n.",
+    "chinese": "火箭"
+  },
+  {
+    "english": "sacred",
+    "pos": "adj.",
+    "chinese": "神圣的"
+  },
+  {
+    "english": "terrace",
+    "pos": "n.",
+    "chinese": "露台"
+  },
+  {
+    "english": "assert",
+    "pos": "v.",
+    "chinese": "断言"
+  },
+  {
+    "english": "carve",
+    "pos": "v.",
+    "chinese": "雕刻"
+  },
+  {
+    "english": "relieve",
+    "pos": "v.",
+    "chinese": "缓解"
+  },
+  {
+    "english": "sculpture",
+    "pos": "n.",
+    "chinese": "雕塑"
+  },
+  {
+    "english": "furnishing",
+    "pos": "n.",
+    "chinese": "家具"
+  },
+  {
+    "english": "surplus",
+    "pos": "n.",
+    "chinese": "剩余"
+  },
+  {
+    "english": "enthusiastic",
+    "pos": "adj.",
+    "chinese": "热情的"
+  },
+  {
+    "english": "insignificant",
+    "pos": "adj.",
+    "chinese": "不重要的"
+  },
+  {
+    "english": "unpredictable",
+    "pos": "adj.",
+    "chinese": "不可预测的"
+  },
+  {
+    "english": "architect",
+    "pos": "n.",
+    "chinese": "建筑师"
+  },
+  {
+    "english": "framework",
+    "pos": "n.",
+    "chinese": "框架"
+  },
+  {
+    "english": "ceremonial",
+    "pos": "adj.",
+    "chinese": "仪式的"
+  },
+  {
+    "english": "contend",
+    "pos": "v.",
+    "chinese": "对付"
+  },
+  {
+    "english": "corresponding",
+    "pos": "adj.",
+    "chinese": "相应的"
+  },
+  {
+    "english": "dismiss",
+    "pos": "v.",
+    "chinese": "轻视"
+  },
+  {
+    "english": "isolated",
+    "pos": "adj.",
+    "chinese": "孤立的"
+  },
+  {
+    "english": "velocity",
+    "pos": "n.",
+    "chinese": "速度"
+  },
+  {
+    "english": "participant",
+    "pos": "n.",
+    "chinese": "参与者"
+  },
+  {
+    "english": "proportion",
+    "pos": "n.",
+    "chinese": "比例"
+  },
+  {
+    "english": "provincial",
+    "pos": "adj.",
+    "chinese": "乡下的"
+  },
+  {
+    "english": "residence",
+    "pos": "n.",
+    "chinese": "住处"
+  },
+  {
+    "english": "astonish",
+    "pos": "v.",
+    "chinese": "使...惊讶"
+  },
+  {
+    "english": "dam",
+    "pos": "n.",
+    "chinese": "水坝"
+  },
+  {
+    "english": "dioxide",
+    "pos": "n.",
+    "chinese": "二氧化物"
+  },
+  {
+    "english": "aggregation",
+    "pos": "n.",
+    "chinese": "聚集"
+  },
+  {
+    "english": "amply",
+    "pos": "adv.",
+    "chinese": "充足地"
+  },
+  {
+    "english": "condense",
+    "pos": "v.",
+    "chinese": "凝结"
+  },
+  {
+    "english": "culminate",
+    "pos": "v.",
+    "chinese": "达到顶点"
+  },
+  {
+    "english": "hemisphere",
+    "pos": "n.",
+    "chinese": "半球"
+  },
+  {
+    "english": "lavishly",
+    "pos": "adj.",
+    "chinese": "丰富地"
+  },
+  {
+    "english": "mosaic",
+    "pos": "n.",
+    "chinese": "马赛克"
+  },
+  {
+    "english": "onset",
+    "pos": "n.",
+    "chinese": "开始"
+  },
+  {
+    "english": "void",
+    "pos": "n.",
+    "chinese": "空缺"
+  }
+]

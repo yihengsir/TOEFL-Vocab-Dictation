@@ -1,0 +1,462 @@
+[
+  {
+    "english": "whereas",
+    "pos": "conj",
+    "chinese": "然而"
+  },
+  {
+    "english": "colonization",
+    "pos": "n.",
+    "chinese": "殖民"
+  },
+  {
+    "english": "extent",
+    "pos": "n.",
+    "chinese": "程度"
+  },
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "肥沃的"
+  },
+  {
+    "english": "invasion",
+    "pos": "n.",
+    "chinese": "入侵"
+  },
+  {
+    "english": "magnetic",
+    "pos": "adj.",
+    "chinese": "磁性的，有磁性的"
+  },
+  {
+    "english": "bacteria",
+    "pos": "n.",
+    "chinese": "固氮细菌"
+  },
+  {
+    "english": "protein",
+    "pos": "n.",
+    "chinese": "蛋白质"
+  },
+  {
+    "english": "particle",
+    "pos": "n.",
+    "chinese": "颗粒"
+  },
+  {
+    "english": "accumulate",
+    "pos": "v.",
+    "chinese": "累计，增加"
+  },
+  {
+    "english": "universal",
+    "pos": "adj.",
+    "chinese": "普遍的"
+  },
+  {
+    "english": "derive",
+    "pos": "v.",
+    "chinese": "得到，获得"
+  },
+  {
+    "english": "strict",
+    "pos": "adj.",
+    "chinese": "严格的"
+  },
+  {
+    "english": "household",
+    "pos": "n.",
+    "chinese": "家庭"
+  },
+  {
+    "english": "imply",
+    "pos": "v.",
+    "chinese": "意味着，隐含"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "广泛的"
+  },
+  {
+    "english": "division",
+    "pos": "n.",
+    "chinese": "分工"
+  },
+  {
+    "english": "rank",
+    "pos": "n.",
+    "chinese": "阶级"
+  },
+  {
+    "english": "generate",
+    "pos": "v.",
+    "chinese": "产生，造成"
+  },
+  {
+    "english": "gender",
+    "pos": "n.",
+    "chinese": "性别"
+  },
+  {
+    "english": "tube",
+    "pos": "n.",
+    "chinese": "管子"
+  },
+  {
+    "english": "approximately",
+    "pos": "adv.",
+    "chinese": "大概"
+  },
+  {
+    "english": "exhibitor",
+    "pos": "n.",
+    "chinese": "参展商，参展者"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相当地"
+  },
+  {
+    "english": "prosper",
+    "pos": "v.",
+    "chinese": "繁荣，成功"
+  },
+  {
+    "english": "surge",
+    "pos": "n.",
+    "chinese": "飞涨，急剧上升"
+  },
+  {
+    "english": "estimate",
+    "pos": "v.",
+    "chinese": "估计，预测"
+  },
+  {
+    "english": "potentially",
+    "pos": "adv.",
+    "chinese": "潜在地"
+  },
+  {
+    "english": "deposit",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "budget",
+    "pos": "n.",
+    "chinese": "预算"
+  },
+  {
+    "english": "arise",
+    "pos": "v.",
+    "chinese": "发生，出现"
+  },
+  {
+    "english": "deliberate",
+    "pos": "adj.",
+    "chinese": "故意的"
+  },
+  {
+    "english": "momentous",
+    "pos": "adj.",
+    "chinese": "重大的，重要的"
+  },
+  {
+    "english": "belief",
+    "pos": "n.",
+    "chinese": "信仰"
+  },
+  {
+    "english": "silk",
+    "pos": "n.",
+    "chinese": "丝绸"
+  },
+  {
+    "english": "colony",
+    "pos": "n.",
+    "chinese": "殖民地"
+  },
+  {
+    "english": "origin",
+    "pos": "n.",
+    "chinese": "起源"
+  },
+  {
+    "english": "behavior",
+    "pos": "n.",
+    "chinese": "行为"
+  },
+  {
+    "english": "pace",
+    "pos": "n.",
+    "chinese": "步速"
+  },
+  {
+    "english": "host",
+    "pos": "n.",
+    "chinese": "主人"
+  },
+  {
+    "english": "mild",
+    "pos": "adj.",
+    "chinese": "温和的"
+  },
+  {
+    "english": "despite",
+    "pos": "prep.",
+    "chinese": "尽管"
+  },
+  {
+    "english": "obtain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "link",
+    "pos": "n.",
+    "chinese": "联系"
+  },
+  {
+    "english": "descend",
+    "pos": "v.",
+    "chinese": "下降"
+  },
+  {
+    "english": "task",
+    "pos": "n.",
+    "chinese": "任务"
+  },
+  {
+    "english": "mature",
+    "pos": "adj.",
+    "chinese": "成熟的"
+  },
+  {
+    "english": "function",
+    "pos": "n.",
+    "chinese": "功能"
+  },
+  {
+    "english": "drift",
+    "pos": "v.",
+    "chinese": "漂流"
+  },
+  {
+    "english": "decrease",
+    "pos": "v./n.",
+    "chinese": "减少"
+  },
+  {
+    "english": "decline",
+    "pos": "v./n.",
+    "chinese": "下降"
+  },
+  {
+    "english": "independent",
+    "pos": "adj.",
+    "chinese": "独立的"
+  },
+  {
+    "english": "accomplish",
+    "pos": "v.",
+    "chinese": "完成，实现"
+  },
+  {
+    "english": "acquire",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "immature",
+    "pos": "adj.",
+    "chinese": "不成熟的"
+  },
+  {
+    "english": "ancient",
+    "pos": "adj.",
+    "chinese": "古代的"
+  },
+  {
+    "english": "resource",
+    "pos": "n.",
+    "chinese": "资源"
+  },
+  {
+    "english": "dampen",
+    "pos": "v.",
+    "chinese": "使...潮湿"
+  },
+  {
+    "english": "strategy",
+    "pos": "n.",
+    "chinese": "策略"
+  },
+  {
+    "english": "stimulate",
+    "pos": "v.",
+    "chinese": "刺激"
+  },
+  {
+    "english": "structure",
+    "pos": "n.",
+    "chinese": "结构"
+  },
+  {
+    "english": "reveal",
+    "pos": "v.",
+    "chinese": "揭示"
+  },
+  {
+    "english": "contrast",
+    "pos": "n./v.",
+    "chinese": "对比"
+  },
+  {
+    "english": "compete",
+    "pos": "v.",
+    "chinese": "竞争"
+  },
+  {
+    "english": "display",
+    "pos": "v./n.",
+    "chinese": "显示"
+  },
+  {
+    "english": "correspond",
+    "pos": "v.",
+    "chinese": "符合"
+  },
+  {
+    "english": "unique",
+    "pos": "adj.",
+    "chinese": "独特的"
+  },
+  {
+    "english": "efficiently",
+    "pos": "adv.",
+    "chinese": "有效地"
+  },
+  {
+    "english": "motivation",
+    "pos": "n.",
+    "chinese": "动力"
+  },
+  {
+    "english": "reproduce",
+    "pos": "v.",
+    "chinese": "繁殖"
+  },
+  {
+    "english": "reproduction",
+    "pos": "n.",
+    "chinese": "繁殖"
+  },
+  {
+    "english": "contradict",
+    "pos": "v.",
+    "chinese": "与...矛盾"
+  },
+  {
+    "english": "descendant",
+    "pos": "n.",
+    "chinese": "后代"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "当代的"
+  },
+  {
+    "english": "component",
+    "pos": "n.",
+    "chinese": "组成部分"
+  },
+  {
+    "english": "inspire",
+    "pos": "v.",
+    "chinese": "激发"
+  },
+  {
+    "english": "analyze",
+    "pos": "v.",
+    "chinese": "分析"
+  },
+  {
+    "english": "logical",
+    "pos": "adj.",
+    "chinese": "逻辑的"
+  },
+  {
+    "english": "efficiency",
+    "pos": "n.",
+    "chinese": "效率"
+  },
+  {
+    "english": "enable",
+    "pos": "v.",
+    "chinese": "使...能够"
+  },
+  {
+    "english": "infertile",
+    "pos": "adj.",
+    "chinese": "不肥沃的"
+  },
+  {
+    "english": "inflate",
+    "pos": "v.",
+    "chinese": "膨胀"
+  },
+  {
+    "english": "underlying",
+    "pos": "adj.",
+    "chinese": "潜在的"
+  },
+  {
+    "english": "sustain",
+    "pos": "v.",
+    "chinese": "维持"
+  },
+  {
+    "english": "distribute",
+    "pos": "v.",
+    "chinese": "分配"
+  },
+  {
+    "english": "distribution",
+    "pos": "n.",
+    "chinese": "分配"
+  },
+  {
+    "english": "construction",
+    "pos": "n.",
+    "chinese": "建造"
+  },
+  {
+    "english": "aggressive",
+    "pos": "adj.",
+    "chinese": "侵略性的"
+  },
+  {
+    "english": "theory",
+    "pos": "n.",
+    "chinese": "理论"
+  },
+  {
+    "english": "unlike",
+    "pos": "prep.",
+    "chinese": "不像"
+  },
+  {
+    "english": "potential",
+    "pos": "adj.",
+    "chinese": "潜在的"
+  },
+  {
+    "english": "status",
+    "pos": "n.",
+    "chinese": "地位"
+  }
+]
