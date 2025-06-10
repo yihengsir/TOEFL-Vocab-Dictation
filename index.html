@@ -56,17 +56,16 @@
             font-weight: 800; /* font-extrabold */
             color: #1f2937; /* text-gray-800 */
             margin-bottom: 1.5rem; /* mb-6 */
-            /* Added for single line on mobile */
-            white-space: nowrap; /* Prevent text wrapping */
-            overflow: hidden; /* Hide overflow content */
-            text-overflow: ellipsis; /* Add ellipsis for overflow */
+            white-space: normal; /* Allow wrapping by default */
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
         /* Responsive adjustments for title */
         @media (max-width: 767px) { /* Adjust for mobile specifically */
             .view-title {
                 font-size: 1.75rem; /* Smaller text on mobile */
                 line-height: 1.2; /* Tighter line height */
-                /* Ensure it still fits in one line if possible, otherwise ellipsis */
+                white-space: normal; /* Allow wrapping on small screens */
             }
         }
         @media (min-width: 768px) {
@@ -149,6 +148,11 @@
         .btn-selection-item-selected:hover {
              background-color: #2563eb; /* bg-blue-600 */
         }
+        /* Ensure text in selection items stays on one line */
+        .btn-selection-item span {
+            white-space: nowrap;
+        }
+
 
         /* Back button styles */
         .btn-back {
@@ -378,6 +382,7 @@
             <!-- Top title, consistent with image -->
             <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
             <div class="flex flex-col gap-6 w-full">
+                <div id="test-progress-display" class="text-gray-600 text-base font-semibold mb-2"></div>
                 <div id="question-display" class="quiz-question-display">
                     加载词汇...
                 </div>
@@ -427,6 +432,7 @@
             </h3>
             <div id="results-list" class="text-left bg-gray-50 p-4 rounded-lg shadow-inner w-full max-h-96 overflow-y-auto"></div>
             <button id="results-restart-btn" class="btn-primary mt-8">重新开始练习</button>
+            <button id="share-results-btn" class="btn-primary bg-yellow-500 hover:bg-yellow-600 focus:ring-yellow-300 mt-4">分享结果</button>
         </div>
     </div>
 
@@ -462,6 +468,7 @@
         const infoBackBtn = document.getElementById('info-back-btn');
 
         // Test View specific elements
+        const testProgressDisplay = document.getElementById('test-progress-display'); // New element for progress
         const questionDisplay = document.getElementById('question-display');
         const answerInput = document.getElementById('answer-input');
         const getExampleBtn = document.getElementById('get-example-btn');
@@ -481,6 +488,7 @@
         const incorrectCountSpan = document.getElementById('incorrect-count');
         const resultsList = document.getElementById('results-list');
         const resultsRestartBtn = document.getElementById('results-restart-btn');
+        const shareResultsBtn = document.getElementById('share-results-btn'); // New share button
         const resultsBackBtn = document.getElementById('results-back-btn');
 
 
@@ -578,31 +586,31 @@
             reading: {
                 beginner: {
                     unit: createUnitArray('reading', 'beginner', 14), // Increased to 14 units
-                    past: 'reading_beginner_past.json'
+                    past: 'expressions.json' // VIP student test
                 },
                 intermediate: {
                     unit: createUnitArray('reading', 'intermediate', 14), // Increased to 14 units
-                    past: 'reading_intermediate_past.json'
+                    past: null // No past content file here
                 },
                 advanced: {
                     unit: createUnitArray('reading', 'advanced', 14), // Increased to 14 units
-                    past: 'reading_advanced_past.json'
+                    past: null // No past content file here
                 }
             },
             listening: {
-                beginner: { unit: createUnitArray('listening', 'beginner', 14), past: 'listening_beginner_past.json' }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('listening', 'intermediate', 14), past: 'listening_intermediate_past.json' }, // Increased to 14 units
-                advanced: { unit: createUnitArray('listening', 'advanced', 14), past: 'listening_advanced_past.json' } // Increased to 14 units
+                beginner: { unit: createUnitArray('listening', 'beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('listening', 'intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('listening', 'advanced', 14), past: null } // Increased to 14 units
             },
             speaking: {
-                beginner: { unit: createUnitArray('speaking', 'beginner', 14), past: 'speaking_beginner_past.json' }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('speaking', 'intermediate', 14), past: 'speaking_intermediate_past.json' }, // Increased to 14 units
-                advanced: { unit: createUnitArray('speaking', 'advanced', 14), past: 'speaking_advanced_past.json' } // Increased to 14 units
+                beginner: { unit: createUnitArray('speaking', 'beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('speaking', 'intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('speaking', 'advanced', 14), past: null } // Increased to 14 units
             },
             writing: {
-                beginner: { unit: createUnitArray('writing', 'beginner', 14), past: 'writing_beginner_past.json' }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('writing', 'intermediate', 14), past: 'writing_intermediate_past.json' }, // Increased to 14 units
-                advanced: { unit: createUnitArray('writing', 'advanced', 14), past: 'writing_advanced_past.json' } // Increased to 14 units
+                beginner: { unit: createUnitArray('writing', 'beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('writing', 'intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('writing', 'advanced', 14), past: null } // Increased to 14 units
             }
         };
 
@@ -770,7 +778,8 @@
                 if (appState.selectedCategory === category) {
                     button.classList.add('btn-selection-item-selected'); // Mark as selected
                 }
-                button.textContent = categoryNames[category] + ' ( ' + capitalizeFirstLetter(category) + ' )';
+                // Wrap text in a span to apply white-space: nowrap
+                button.innerHTML = `<span>${categoryNames[category]} ( ${capitalizeFirstLetter(category)} )</span>`;
                 button.dataset.category = category;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Category button "${category}" clicked! Event target:`, event.target);
@@ -804,7 +813,8 @@
                 if (appState.selectedLevel === level) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                button.textContent = levelNames[level] + ' ( ' + capitalizeFirstLetter(level) + ' )';
+                // Wrap text in a span to apply white-space: nowrap
+                button.innerHTML = `<span>${levelNames[level]} ( ${capitalizeFirstLetter(level)} )</span>`;
                 button.dataset.level = level;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Level button "${level}" clicked! Event target:`, event.target);
@@ -836,7 +846,7 @@
             if (appState.selectedContentType === 'unit') {
                 unitButton.classList.add('btn-selection-item-selected');
             }
-            unitButton.textContent = '按照授课单元';
+            unitButton.innerHTML = `<span>按照授课单元</span>`; // Wrap text
             unitButton.dataset.contentType = 'unit';
             unitButton.addEventListener('click', (event) => {
                 console.log(`[Click] Content type button "unit" clicked! Event target:`, event.target);
@@ -856,7 +866,7 @@
                 if (appState.selectedContentType === 'past') {
                     pastButton.classList.add('btn-selection-item-selected');
                 }
-                pastButton.textContent = '按照往期内容';
+                pastButton.innerHTML = `<span>按照往期内容</span>`; // Wrap text
                 pastButton.dataset.contentType = 'past';
                 pastButton.addEventListener('click', (event) => {
                     console.log(`[Click] Content type button "past" clicked! Event target:`, event.target);
@@ -902,7 +912,7 @@
                  if (appState.selectedUnit === unitFileName) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                button.textContent = `单元 ${unitNumber}`;
+                button.innerHTML = `<span>单元 ${unitNumber}</span>`; // Wrap text
                 button.dataset.unit = unitFileName;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
@@ -943,7 +953,6 @@
 
                 if (!appState.currentTestVocabulary || appState.currentTestVocabulary.length === 0) {
                     console.warn('[handleFinalSelection] Loaded vocabulary is empty.');
-                    // Using custom modal for alerts
                     showModal('所选词库为空，请选择其他词库或联系老师添加词汇。');
                     goBack();
                     return;
@@ -954,7 +963,6 @@
 
             } catch (error) {
                 console.error('[handleFinalSelection] Vocabulary loading error:', error);
-                // Using custom modal for alerts
                 showModal(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
                 goBack();
             }
@@ -1004,6 +1012,7 @@
             if (appState.currentWordIndex >= appState.shuffledTestVocabulary.length) {
                 // All words completed for this shuffled session
                 questionDisplay.textContent = '已完成全部词汇测验！';
+                testProgressDisplay.textContent = ''; // Clear progress display
                 answerInput.value = ''; // Clear input
                 answerInput.classList.add('hidden'); // Hide input
                 answerInput.readOnly = true; // Make sure it's read-only
@@ -1020,6 +1029,12 @@
                 return; // Stop loading new questions
             }
 
+            // Update progress display
+            const totalWords = appState.shuffledTestVocabulary.length;
+            const wordsRemaining = totalWords - appState.currentWordIndex - 1;
+            testProgressDisplay.textContent = `当前：第 ${appState.currentWordIndex + 1} / ${totalWords} 词 (还剩 ${wordsRemaining} 词)`;
+
+
             // Normal loading of a question
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
             
@@ -1030,15 +1045,18 @@
             }
             questionDisplay.textContent = chineseDisplay;
 
-            // --- First-letter hint for phrases ---
+            // --- First-letter hint for phrases and single words ---
             let placeholderText = "在此输入英文词汇或短语...";
-            if (currentPair.english.includes(' ')) { // It's a phrase if it contains spaces
-                placeholderText = currentPair.english.split(' ').map(word => {
+            const englishWordForHint = currentPair.english.trim();
+            if (englishWordForHint.includes(' ')) { // It's a phrase if it contains spaces
+                placeholderText = englishWordForHint.split(' ').map(word => {
                     if (word.length > 0) {
                         return word[0] + '_'.repeat(word.length - 1);
                     }
                     return '';
                 }).join(' ');
+            } else if (englishWordForHint.length > 0) { // Single word hint
+                 placeholderText = englishWordForHint[0] + '_'.repeat(englishWordForHint.length - 1);
             }
             answerInput.placeholder = placeholderText;
 
@@ -1155,6 +1173,7 @@
             endTestBtn.classList.add('hidden');
             feedbackMessage.classList.add('hidden');
             exampleSentenceDisplay.classList.add('hidden');
+            testProgressDisplay.classList.add('hidden'); // Hide progress display on results page
 
 
             // Populate results summary
@@ -1198,6 +1217,74 @@
                 console.log(`[renderFinalResults] Displaying ${appState.incorrectAnswers.length} incorrect answers.`);
             }
             console.log('[renderFinalResults] Results rendering complete.');
+        }
+
+        /**
+         * Encodes test results into a Base64 string for URL sharing.
+         * @returns {string} Base64 encoded JSON string of results.
+         */
+        function encodeResultsForShare() {
+            const resultsToShare = {
+                n: appState.studentName,
+                c: appState.studentClass,
+                r: appState.userRole,
+                cat: appState.selectedCategory,
+                lvl: appState.selectedLevel,
+                ct: appState.selectedContentType,
+                u: appState.selectedUnit,
+                ca: appState.correctAnswersCount,
+                tq: appState.questionsAttempted,
+                ia: appState.incorrectAnswers
+            };
+            return btoa(JSON.stringify(resultsToShare)); // btoa for Base64 encoding
+        }
+
+        /**
+         * Decodes shared results from a Base64 string and populates appState.
+         * @param {string} encodedString - Base64 encoded string from URL.
+         * @returns {boolean} True if successful, false otherwise.
+         */
+        function decodeAndPopulateResults(encodedString) {
+            try {
+                const decodedJson = JSON.parse(atob(encodedString)); // atob for Base64 decoding
+                appState.studentName = decodedJson.n || '';
+                appState.studentClass = decodedJson.c || '';
+                appState.userRole = decodedJson.r || '';
+                appState.selectedCategory = decodedJson.cat || '';
+                appState.selectedLevel = decodedJson.lvl || '';
+                appState.selectedContentType = decodedJson.ct || '';
+                appState.selectedUnit = decodedJson.u || '';
+                appState.correctAnswersCount = decodedJson.ca || 0;
+                appState.questionsAttempted = decodedJson.tq || 0;
+                appState.incorrectAnswers = decodedJson.ia || [];
+                console.log('[Share] Decoded results:', decodedJson);
+                return true;
+            } catch (error) {
+                console.error('[Share] Failed to decode shared results:', error);
+                return false;
+            }
+        }
+
+        /**
+         * Handles sharing the test results.
+         */
+        async function handleShareResults() {
+            const encodedResults = encodeResultsForShare();
+            const shareUrl = `${window.location.origin}${window.location.pathname}#results=${encodedResults}`;
+
+            // Use document.execCommand('copy') for better iframe compatibility
+            const dummyInput = document.createElement('textarea');
+            document.body.appendChild(dummyInput);
+            dummyInput.value = shareUrl;
+            dummyInput.select();
+            try {
+                document.execCommand('copy');
+                showModal('分享链接已复制到剪贴板！');
+            } catch (err) {
+                console.error('Failed to copy text: ', err);
+                showModal('复制链接失败，请手动复制：' + shareUrl);
+            }
+            document.body.removeChild(dummyInput);
         }
 
         // --- Speech Synthesis and LLM Example Sentence Functions ---
@@ -1426,6 +1513,7 @@
             showView('welcome-view');
         });
         resultsBackBtn.addEventListener('click', goBack); // Back button for results view
+        shareResultsBtn.addEventListener('click', handleShareResults); // New share button event listener
 
 
         // Allow pressing Enter key to check answer or move to next
@@ -1444,6 +1532,18 @@
         // --- Application Startup ---
         document.addEventListener('DOMContentLoaded', () => {
             console.log('[App Startup] DOMContentLoaded fired. Initializing view.');
+
+            // Check for shared results in URL hash
+            const hash = window.location.hash;
+            if (hash.startsWith('#results=')) {
+                const encodedResults = hash.substring('#results='.length);
+                if (decodeAndPopulateResults(encodedResults)) {
+                    showView('results-view', false); // Show results view directly, no history push
+                    return; // Stop normal startup flow
+                } else {
+                    console.warn('Invalid share link detected. Proceeding to normal startup.');
+                }
+            }
             showView('welcome-view', false); // Display welcome view by default, do not push to history
         });
     </script>
