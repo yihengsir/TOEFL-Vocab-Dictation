@@ -1,247 +1,292 @@
 [
   {
-    "english": "characteristic",
-    "pos": "n.",
-    "chinese": "特点；特征"
+    "chinese": "蜥蜴",
+    "english": "lizard",
+    "pos": "n."
   },
   {
-    "english": "geographic",
-    "pos": "adj.",
-    "chinese": "地理上的"
+    "chinese": "昆虫",
+    "english": "insect",
+    "pos": "n."
   },
   {
-    "english": "strategy",
-    "pos": "n.",
-    "chinese": "策略"
+    "chinese": "使最小化",
+    "english": "minimize",
+    "pos": "v."
   },
   {
-    "english": "target",
-    "pos": "n.",
-    "chinese": "目标"
+    "chinese": "猎物；受害者",
+    "english": "prey",
+    "pos": "n."
   },
   {
-    "english": "specifically",
-    "pos": "adv.",
-    "chinese": "具体地；具体来说"
+    "chinese": "震动",
+    "english": "vibration",
+    "pos": "n."
   },
   {
-    "english": "diversify",
-    "pos": "v.",
-    "chinese": "使…多样化"
+    "chinese": "捕获",
+    "english": "capture",
+    "pos": "v."
   },
   {
-    "english": "diverse",
-    "pos": "adj.",
-    "chinese": "不同的；多种多样的"
+    "chinese": "气候",
+    "english": "climate",
+    "pos": "n."
   },
   {
-    "english": "fulfill",
-    "pos": "v.",
-    "chinese": "满足"
+    "chinese": "使能够",
+    "english": "enable",
+    "pos": "v."
   },
   {
-    "english": "monitor",
-    "pos": "n.",
-    "chinese": "显示器"
+    "chinese": "恶劣的; 严厉的; 严酷的",
+    "english": "harsh",
+    "pos": "adj."
   },
   {
-    "english": "potential",
-    "pos": "adj.",
-    "chinese": "潜在的；可能的"
+    "chinese": "（生理）感觉",
+    "english": "sense",
+    "pos": "n."
   },
   {
-    "english": "obstacle",
-    "pos": "n.",
-    "chinese": "阻碍"
+    "chinese": "微妙的; 巧妙的; 狡猾的",
+    "english": "subtle",
+    "pos": "adj."
   },
   {
-    "english": "aspect",
-    "pos": "n.",
-    "chinese": "方面"
+    "chinese": "温度",
+    "english": "temperature",
+    "pos": "n."
   },
   {
-    "english": "division",
-    "pos": "n.",
-    "chinese": "部门"
+    "chinese": "地下的",
+    "english": "subsurface",
+    "pos": "adj."
   },
   {
-    "english": "loyal",
-    "pos": "adj.",
-    "chinese": "忠诚的"
+    "chinese": "表面",
+    "english": "surface",
+    "pos": "n."
   },
   {
-    "english": "established",
-    "pos": "adj.",
-    "chinese": "确认的；公认的"
+    "chinese": "暴露",
+    "english": "exposure",
+    "pos": "n."
   },
   {
-    "english": "encounter",
-    "pos": "n.",
-    "chinese": "遭遇，遇见"
+    "chinese": "突出；伸出",
+    "english": "protrude",
+    "pos": "v."
   },
   {
-    "english": "confident",
-    "pos": "adj.",
-    "chinese": "自信的"
+    "chinese": "北极的",
+    "english": "arctic",
+    "pos": "adj."
   },
   {
-    "english": "effectively",
-    "pos": "adv.",
-    "chinese": "有效地"
+    "chinese": "紧凑的；小型的",
+    "english": "compact",
+    "pos": "adj."
   },
   {
-    "english": "ocean",
-    "pos": "n.",
-    "chinese": "海洋"
+    "chinese": "猫头鹰",
+    "english": "owl",
+    "pos": "n."
   },
   {
-    "english": "response",
-    "pos": "n.",
-    "chinese": "回应/反应"
+    "chinese": "包括；在于；由…组成",
+    "english": "consist",
+    "pos": "v."
   },
   {
-    "english": "sample",
-    "pos": "n.",
-    "chinese": "样本，抽样"
+    "chinese": "有效地；效率高地",
+    "english": "efficiently",
+    "pos": "adv."
   },
   {
-    "english": "efficient",
-    "pos": "adj.",
-    "chinese": "高效的"
+    "chinese": "层",
+    "english": "layer",
+    "pos": "n."
   },
   {
-    "english": "resource",
-    "pos": "n.",
-    "chinese": "资源"
+    "chinese": "主要地",
+    "english": "primarily",
+    "pos": "adv."
   },
   {
-    "english": "increase",
-    "pos": "n.",
-    "chinese": "增加/提高"
+    "chinese": "相对地",
+    "english": "relatively",
+    "pos": "adv."
   },
   {
-    "english": "advantage",
-    "pos": "n.",
-    "chinese": "优势"
+    "chinese": "保持；保留",
+    "english": "retain",
+    "pos": "v."
   },
   {
-    "english": "appeal",
-    "pos": "n.",
-    "chinese": "吸引力/呼吁"
+    "chinese": "保护某人或某物",
+    "english": "shield",
+    "pos": "v."
   },
   {
-    "english": "customer",
-    "pos": "n.",
-    "chinese": "顾客"
+    "chinese": "羽毛",
+    "english": "feather",
+    "pos": "n."
   },
   {
-    "english": "branch",
-    "pos": "n.",
-    "chinese": "分支，树枝"
+    "chinese": "特征；特色",
+    "english": "feature",
+    "pos": "n."
   },
   {
-    "english": "develop",
-    "pos": "v.",
-    "chinese": "发展/开发"
+    "chinese": "毛；皮毛",
+    "english": "fur",
+    "pos": "n."
   },
   {
-    "english": "existing",
-    "pos": "adj.",
-    "chinese": "现有的"
+    "chinese": "身体的；物质的",
+    "english": "physical",
+    "pos": "adj."
   },
   {
-    "english": "discuss",
-    "pos": "v.",
-    "chinese": "讨论"
+    "chinese": "营养",
+    "english": "nutrient",
+    "pos": "n."
   },
   {
-    "english": "increasing",
-    "pos": "adj.",
-    "chinese": "增加的"
+    "chinese": "土壤",
+    "english": "soil",
+    "pos": "n."
   },
   {
-    "english": "jacket",
-    "pos": "n.",
-    "chinese": "夹克"
+    "chinese": "活跃的",
+    "english": "active",
+    "pos": "adj."
   },
   {
-    "english": "likely",
-    "pos": "n.",
-    "chinese": "可能的/很可能地"
+    "chinese": "陷阱",
+    "english": "trap",
+    "pos": "n."
   },
   {
-    "english": "product",
-    "pos": "n.",
-    "chinese": "产品"
+    "chinese": "吸引",
+    "english": "attract",
+    "pos": "v."
   },
   {
-    "english": "location",
-    "pos": "n.",
-    "chinese": "位置/地点"
+    "chinese": "笼子",
+    "english": "cage",
+    "pos": "n."
   },
   {
-    "english": "sales",
-    "pos": "n.",
-    "chinese": "销售"
+    "chinese": "消化",
+    "english": "digest",
+    "pos": "v."
   },
   {
-    "english": "screen",
-    "pos": "n.",
-    "chinese": "屏幕"
+    "chinese": "被动的",
+    "english": "passive",
+    "pos": "adj."
   },
   {
-    "english": "similar",
-    "pos": "adj.",
-    "chinese": "类似的"
+    "chinese": "茅膏菜；露水",
+    "english": "sundew",
+    "pos": "n."
   },
   {
-    "english": "ski",
-    "pos": "n.",
-    "chinese": "滑雪/滑雪板"
+    "chinese": "胶水",
+    "english": "glue",
+    "pos": "n."
   },
   {
-    "english": "skiing",
-    "pos": "n.",
-    "chinese": "滑雪运动"
+    "chinese": "物质",
+    "english": "substance",
+    "pos": "n."
   },
   {
-    "english": "operate",
-    "pos": "v.",
-    "chinese": "操作/经营"
+    "chinese": "条件",
+    "english": "condition",
+    "pos": "n."
   },
   {
-    "english": "technological",
-    "pos": "adj.",
-    "chinese": "技术的"
+    "chinese": "适应",
+    "english": "adapt",
+    "pos": "v."
   },
   {
-    "english": "technology",
-    "pos": "n.",
-    "chinese": "技术"
+    "chinese": "极端的",
+    "english": "extreme",
+    "pos": "adj."
   },
   {
-    "english": "process",
-    "pos": "n.",
-    "chinese": "过程/程序"
+    "chinese": "结果",
+    "english": "result",
+    "pos": "n."
   },
   {
-    "english": "provide",
-    "pos": "v.",
-    "chinese": "提供"
+    "chinese": "狼",
+    "english": "wolf",
+    "pos": "n."
   },
   {
-    "english": "quality",
-    "pos": "n.",
-    "chinese": "质量"
+    "chinese": "移动",
+    "english": "locomotion",
+    "pos": "n."
   },
   {
-    "english": "restaurant",
-    "pos": "n.",
-    "chinese": "餐馆"
+    "chinese": "暴露",
+    "english": "expose",
+    "pos": "v."
   },
   {
-    "english": "success",
-    "pos": "n.",
-    "chinese": "成功"
+    "chinese": "沙子",
+    "english": "sand",
+    "pos": "n."
+  },
+  {
+    "chinese": "沙漠",
+    "english": "desert",
+    "pos": "n."
+  },
+  {
+    "chinese": "来源",
+    "english": "source",
+    "pos": "n."
+  },
+  {
+    "chinese": "被困在",
+    "english": "be stuck on",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "地下（次表面）移动",
+    "english": "surface locomotion",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "出其不意地",
+    "english": "by surprise",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "在......（地方）常见",
+    "english": "commonly seen",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "到处都是",
+    "english": "all over",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "保持温暖",
+    "english": "stay warm",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "体温",
+    "english": "body heat",
+    "pos": "phrase"
   }
 ]
