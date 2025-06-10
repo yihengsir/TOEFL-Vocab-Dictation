@@ -1,302 +1,242 @@
 [
   {
-    "english": "characteristic",
+    "english": "orchestra",
     "pos": "n.",
-    "chinese": "特点；特征"
+    "chinese": "管弦乐队"
   },
   {
-    "english": "geographic",
+    "english": "intelligent",
     "pos": "adj.",
-    "chinese": "地理上的"
+    "chinese": "聪明的"
   },
   {
-    "english": "strategy",
-    "pos": "n.",
-    "chinese": "策略"
-  },
-  {
-    "english": "target",
-    "pos": "n.",
-    "chinese": "目标"
-  },
-  {
-    "english": "specifically",
+    "english": "exceptionally",
     "pos": "adv.",
-    "chinese": "具体地；具体来说"
+    "chinese": "罕见，非常"
   },
   {
-    "english": "diversify",
+    "english": "concert",
+    "pos": "n.",
+    "chinese": "音乐会"
+  },
+  {
+    "english": "classical",
+    "pos": "adj.",
+    "chinese": "古典的，经典的"
+  },
+  {
+    "english": "previous",
+    "pos": "adj.",
+    "chinese": "先前的，之前的"
+  },
+  {
+    "english": "recall",
     "pos": "v.",
-    "chinese": "使…多样化"
+    "chinese": "回忆，召回"
   },
   {
-    "english": "diverse",
+    "english": "destructive",
     "pos": "adj.",
-    "chinese": "不同的；多种多样的"
+    "chinese": "毁灭的，毁灭性的"
   },
   {
-    "english": "fulfill",
+    "english": "explore",
     "pos": "v.",
-    "chinese": "满足"
+    "chinese": "探索"
   },
   {
-    "english": "monitor",
+    "english": "narrator",
     "pos": "n.",
-    "chinese": "显示器"
+    "chinese": "旁白者"
   },
   {
-    "english": "potential",
-    "pos": "adj.",
-    "chinese": "潜在的；可能的"
-  },
-  {
-    "english": "obstacle",
+    "english": "perspective",
     "pos": "n.",
-    "chinese": "阻碍"
+    "chinese": "观点，态度"
   },
   {
-    "english": "aspect",
+    "english": "professor",
     "pos": "n.",
-    "chinese": "方面"
+    "chinese": "教授"
   },
   {
-    "english": "division",
+    "english": "psychological",
+    "pos": "adj.",
+    "chinese": "心理上的"
+  },
+  {
+    "english": "psychologist",
     "pos": "n.",
-    "chinese": "部门"
+    "chinese": "心理学家"
   },
   {
-    "english": "loyal",
-    "pos": "adj.",
-    "chinese": "忠诚的"
+    "english": "psychology",
+    "pos": "n.",
+    "chinese": "心理学"
   },
   {
-    "english": "established",
-    "pos": "adj.",
-    "chinese": "确认的；公认的"
+    "english": "solve",
+    "pos": "v.",
+    "chinese": "解决"
   },
   {
-    "english": "encounter",
-    "pos": "n./v.",
-    "chinese": "遭遇，遇见"
+    "english": "theory",
+    "pos": "n.",
+    "chinese": "理论"
   },
   {
-    "english": "confident",
-    "pos": "adj.",
-    "chinese": "自信的"
+    "english": "urge",
+    "pos": "n.",
+    "chinese": "冲动，欲望"
   },
   {
-    "english": "effectively",
+    "english": "dependency",
+    "pos": "n.",
+    "chinese": "依赖"
+  },
+  {
+    "english": "fantasy",
+    "pos": "n.",
+    "chinese": "幻想"
+  },
+  {
+    "english": "invent",
+    "pos": "v.",
+    "chinese": "发明"
+  },
+  {
+    "english": "mechanism",
+    "pos": "n.",
+    "chinese": "机制"
+  },
+  {
+    "english": "sublimation",
+    "pos": "n.",
+    "chinese": "升华，纯化"
+  },
+  {
+    "english": "unconsciously",
     "pos": "adv.",
-    "chinese": "有效地"
+    "chinese": "无意识地"
   },
   {
-    "english": "ocean",
-    "pos": "n.",
-    "chinese": "海洋"
-  },
-  {
-    "english": "response",
-    "pos": "n.",
-    "chinese": "回应/反应"
-  },
-  {
-    "english": "sample",
-    "pos": "n./v.",
-    "chinese": "样本，抽样"
-  },
-  {
-    "english": "efficient",
-    "pos": "adj.",
-    "chinese": "高效的"
-  },
-  {
-    "english": "resource",
-    "pos": "n.",
-    "chinese": "资源"
-  },
-  {
-    "english": "increase",
-    "pos": "n./v.",
-    "chinese": "增加/提高"
-  },
-  {
-    "english": "advantage",
-    "pos": "n.",
-    "chinese": "优势"
-  },
-  {
-    "english": "appeal",
-    "pos": "n./v.",
-    "chinese": "吸引力/呼吁"
-  },
-  {
-    "english": "customer",
-    "pos": "n.",
-    "chinese": "顾客"
-  },
-  {
-    "english": "branch",
-    "pos": "n.",
-    "chinese": "分支，树枝"
-  },
-  {
-    "english": "develop",
+    "english": "redirect",
     "pos": "v.",
-    "chinese": "发展/开发"
+    "chinese": "使改变方向"
   },
   {
-    "english": "existing",
-    "pos": "adj.",
-    "chinese": "现有的"
-  },
-  {
-    "english": "discuss",
+    "english": "prevent",
     "pos": "v.",
-    "chinese": "讨论"
+    "chinese": "防止"
   },
   {
-    "english": "increasing",
-    "pos": "adj.",
-    "chinese": "增加的"
-  },
-  {
-    "english": "jacket",
-    "pos": "n.",
-    "chinese": "夹克"
-  },
-  {
-    "english": "likely",
-    "pos": "adj./adv.",
-    "chinese": "可能的/很可能地"
-  },
-  {
-    "english": "product",
-    "pos": "n.",
-    "chinese": "产品"
-  },
-  {
-    "english": "location",
-    "pos": "n.",
-    "chinese": "位置/地点"
-  },
-  {
-    "english": "sales",
-    "pos": "n.",
-    "chinese": "销售"
-  },
-  {
-    "english": "screen",
-    "pos": "n./v.",
-    "chinese": "屏幕"
-  },
-  {
-    "english": "similar",
-    "pos": "adj.",
-    "chinese": "类似的"
-  },
-  {
-    "english": "ski",
-    "pos": "n./v.",
-    "chinese": "滑雪/滑雪板"
-  },
-  {
-    "english": "skiing",
-    "pos": "n.",
-    "chinese": "滑雪运动"
-  },
-  {
-    "english": "operate",
+    "english": "guard",
     "pos": "v.",
-    "chinese": "操作/经营"
+    "chinese": "守卫，看护"
   },
   {
-    "english": "technological",
-    "pos": "adj.",
-    "chinese": "技术的"
-  },
-  {
-    "english": "technology",
-    "pos": "n.",
-    "chinese": "技术"
-  },
-  {
-    "english": "process",
-    "pos": "n.",
-    "chinese": "过程/程序"
-  },
-  {
-    "english": "provide",
+    "english": "solve",
     "pos": "v.",
-    "chinese": "提供"
+    "chinese": "解决"
   },
   {
-    "english": "quality",
+    "english": "typically",
+    "pos": "adv.",
+    "chinese": "通常地"
+  },
+  {
+    "english": "behavior",
     "pos": "n.",
-    "chinese": "质量"
+    "chinese": "行为"
   },
   {
-    "english": "restaurant",
+    "english": "construct",
+    "pos": "v.",
+    "chinese": "建造/构造"
+  },
+  {
+    "english": "according",
+    "pos": "adj.",
+    "chinese": "一致的，相符的"
+  },
+  {
+    "english": "adult",
     "pos": "n.",
-    "chinese": "餐馆"
+    "chinese": "成年人"
   },
   {
-    "english": "success",
+    "english": "anxious",
+    "pos": "adj.",
+    "chinese": "焦虑的"
+  },
+  {
+    "english": "benefit",
     "pos": "n.",
-    "chinese": "成功"
+    "chinese": "好处/有益于"
   },
   {
-    "english": "tend to",
-    "pos": "倾向于",
-    "chinese": "For example, a company that makes toy cars tend to advertise during children’s television shows to make sure their target customers, the kids, see the advertisement"
+    "english": "block",
+    "pos": "n.",
+    "chinese": "块/阻碍"
   },
   {
-    "english": "make sure",
-    "pos": "确保",
-    "chinese": "For example, a company that makes toy cars tend to advertise during children’s television shows to make sure their target customers, the kids, see the advertisement"
+    "english": "common",
+    "pos": "adj.",
+    "chinese": "常见的"
   },
   {
-    "english": "be more likely to",
-    "pos": "更有可能",
-    "chinese": "So, they’ll be more likely to buy the toy cars later"
+    "english": "constant",
+    "pos": "n.",
+    "chinese": "恒定的/常数"
   },
   {
-    "english": "in this way",
-    "pos": "这样，用这个方法",
-    "chinese": "Thus, they can sell more boats in this way"
+    "english": "contribute",
+    "pos": "v.",
+    "chinese": "贡献/捐献"
   },
   {
-    "english": "new branch of",
-    "pos": "新分支",
-    "chinese": "For example, if you open a new branch of a pizza restaurant, the company will send someone to train you as well as the employees on every aspect of running the restaurant"
+    "english": "curious",
+    "pos": "adj.",
+    "chinese": "好奇的"
   },
   {
-    "english": "take... as an example",
-    "pos": "以...为例",
-    "chinese": "Still takes the pizza restaurant as an example."
+    "english": "desire",
+    "pos": "n.",
+    "chinese": "愿望/渴望"
   },
   {
-    "english": "well-known",
-    "pos": "知名的",
-    "chinese": "that’s when there’s already a well-known, established company"
+    "english": "development",
+    "pos": "n.",
+    "chinese": "发展"
   },
   {
-    "english": "a part of",
-    "pos": "一部分",
-    "chinese": "your new business will be a part of the larger, established company with the same name, and it’ll be run just like the other branches of that company."
+    "english": "emotionally",
+    "pos": "adv.",
+    "chinese": "情感上地"
   },
   {
-    "english": "come up with",
-    "pos": "想出，提出（计划）",
-    "chinese": "so you don’t have to do the training yourself, or come up with your own business plan"
+    "english": "tower",
+    "pos": "n.",
+    "chinese": "塔"
   },
   {
-    "english": "be confident of",
-    "pos": "对...有信心",
-    "chinese": "So when you open a new division, people will want to come because they’ll be confident of its quality."
+    "english": "harm",
+    "pos": "n.",
+    "chinese": "伤害/损害"
   },
   {
-    "english": "be going to be",
-    "pos": "将会是",
-    "chinese": "So when you open your own restaurant with the same name in a new location, people know your pizza’s going to be really good, too"
+    "english": "represent",
+    "pos": "v.",
+    "chinese": "代表/象征"
+  },
+  {
+    "english": "smash",
+    "pos": "v.",
+    "chinese": "粉碎/撞击"
+  },
+  {
+    "english": "uneasy",
+    "pos": "adj.",
+    "chinese": "不安的/不稳定的"
   }
 ]

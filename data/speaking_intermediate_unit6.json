@@ -1,277 +1,257 @@
 [
   {
-    "english": "recognition",
+    "english": "lizard",
     "pos": "n.",
-    "chinese": "认识，识别"
+    "chinese": "蜥蜴"
   },
   {
-    "english": "franchising",
+    "english": "insect",
     "pos": "n.",
-    "chinese": "加盟连销权（加盟店）"
+    "chinese": "昆虫"
   },
   {
-    "english": "consumer",
-    "pos": "n.",
-    "chinese": "消费者"
-  },
-  {
-    "english": "despite",
-    "pos": "prep.",
-    "chinese": "尽管，即使"
-  },
-  {
-    "english": "persuade",
+    "english": "minimize",
     "pos": "v.",
-    "chinese": "说服"
+    "chinese": "使最小化"
   },
   {
-    "english": "drawback",
+    "english": "prey",
     "pos": "n.",
-    "chinese": "缺点"
+    "chinese": "猎物；受害者"
   },
   {
-    "english": "refute",
-    "pos": "v.",
-    "chinese": "驳斥；批驳"
-  },
-  {
-    "english": "disadvantage",
+    "english": "vibration",
     "pos": "n.",
-    "chinese": "弱势"
+    "chinese": "震动"
   },
   {
-    "english": "limitation",
+    "english": "capture",
+    "pos": "v.",
+    "chinese": "捕获"
+  },
+  {
+    "english": "climate",
     "pos": "n.",
-    "chinese": "限制"
+    "chinese": "气候"
   },
   {
-    "english": "indicate",
+    "english": "enable",
     "pos": "v.",
-    "chinese": "指示；表明；示意"
+    "chinese": "使能够"
   },
   {
-    "english": "achieve",
+    "english": "harsh",
+    "pos": "adj.",
+    "chinese": "恶劣的; 严厉的; 严酷的"
+  },
+  {
+    "english": "sense",
+    "pos": "n.",
+    "chinese": "（生理）感觉"
+  },
+  {
+    "english": "subtle",
+    "pos": "adj.",
+    "chinese": "微妙的; 巧妙的; 狡猾的"
+  },
+  {
+    "english": "temperature",
+    "pos": "n.",
+    "chinese": "温度"
+  },
+  {
+    "english": "subsurface",
+    "pos": "adj.",
+    "chinese": "地下的"
+  },
+  {
+    "english": "surface",
+    "pos": "n.",
+    "chinese": "表面"
+  },
+  {
+    "english": "exposure",
+    "pos": "n.",
+    "chinese": "暴露"
+  },
+  {
+    "english": "protrude",
     "pos": "v.",
-    "chinese": "实现；（凭长期努力）达到（某目标）"
+    "chinese": "突出；伸出"
   },
   {
-    "english": "link",
+    "english": "arctic",
+    "pos": "adj.",
+    "chinese": "北极的"
+  },
+  {
+    "english": "compact",
+    "pos": "adj.",
+    "chinese": "紧凑的；小型的"
+  },
+  {
+    "english": "owl",
+    "pos": "n.",
+    "chinese": "猫头鹰"
+  },
+  {
+    "english": "consist",
     "pos": "v.",
-    "chinese": "联系；相关联；连接"
+    "chinese": "包括；在于；由…组成"
   },
   {
-    "english": "logically",
+    "english": "efficiently",
     "pos": "adv.",
-    "chinese": "逻辑上；合乎逻辑地"
+    "chinese": "有效地；效率高地"
   },
   {
-    "english": "symbol",
+    "english": "layer",
     "pos": "n.",
-    "chinese": "符号；象征；记号"
+    "chinese": "层"
   },
   {
-    "english": "visual",
-    "pos": "adj.",
-    "chinese": "视觉的"
-  },
-  {
-    "english": "competitor",
-    "pos": "n.",
-    "chinese": "竞争者"
-  },
-  {
-    "english": "biscuit",
-    "pos": "n.",
-    "chinese": "饼干"
-  },
-  {
-    "english": "commercial",
-    "pos": "n.",
-    "chinese": "广告"
-  },
-  {
-    "english": "entertaining",
-    "pos": "adj.",
-    "chinese": "娱乐的；有趣的"
-  },
-  {
-    "english": "image",
-    "pos": "n.",
-    "chinese": "形象；印象；画像"
-  },
-  {
-    "english": "comical",
-    "pos": "adj.",
-    "chinese": "滑稽的; 可笑的; 有趣的"
-  },
-  {
-    "english": "lively",
-    "pos": "adj.",
-    "chinese": "活泼的; 令人兴奋的; 生气勃勃的"
-  },
-  {
-    "english": "chain",
-    "pos": "n.",
-    "chinese": "连锁店"
-  },
-  {
-    "english": "popular",
-    "pos": "adj.",
-    "chinese": "受欢迎的"
-  },
-  {
-    "english": "restaurant",
-    "pos": "n.",
-    "chinese": "饭店"
-  },
-  {
-    "english": "demand",
-    "pos": "v.",
-    "chinese": "要求"
-  },
-  {
-    "english": "pizza",
-    "pos": "n.",
-    "chinese": "披萨"
-  },
-  {
-    "english": "tough",
-    "pos": "adj.",
-    "chinese": "困难的"
-  },
-  {
-    "english": "contact",
-    "pos": "v.",
-    "chinese": "联系"
-  },
-  {
-    "english": "success",
-    "pos": "n.",
-    "chinese": "成功"
-  },
-  {
-    "english": "exchange",
-    "pos": "v.",
-    "chinese": "交换"
-  },
-  {
-    "english": "purchase",
-    "pos": "v.",
-    "chinese": "购买"
-  },
-  {
-    "english": "pan",
-    "pos": "n.",
-    "chinese": "平底锅"
-  },
-  {
-    "english": "professional",
-    "pos": "adj.",
-    "chinese": "专业的"
-  },
-  {
-    "english": "audience",
-    "pos": "n.",
-    "chinese": "观众；受众"
-  },
-  {
-    "english": "cookware",
-    "pos": "n.",
-    "chinese": "厨具"
-  },
-  {
-    "english": "worthwhile",
-    "pos": "adj.",
-    "chinese": "值得的"
-  },
-  {
-    "english": "warranty",
-    "pos": "n.",
-    "chinese": "担保"
-  },
-  {
-    "english": "goal",
-    "pos": "n.",
-    "chinese": "目标"
-  },
-  {
-    "english": "design",
-    "pos": "n.",
-    "chinese": "设计"
-  },
-  {
-    "english": "typical",
-    "pos": "adj.",
-    "chinese": "典型的"
-  },
-  {
-    "english": "positive",
-    "pos": "adj.",
-    "chinese": "积极的"
-  },
-  {
-    "english": "future",
-    "pos": "n.",
-    "chinese": "未来"
-  },
-  {
-    "english": "associate",
-    "pos": "v.",
-    "chinese": "联系；联合；联想"
-  },
-  {
-    "english": "cookie",
-    "pos": "n.",
-    "chinese": "饼干；曲奇"
-  },
-  {
-    "english": "character",
-    "pos": "n.",
-    "chinese": "角色"
-  },
-  {
-    "english": "therefore",
+    "english": "primarily",
     "pos": "adv.",
-    "chinese": "所以；因此"
+    "chinese": "主要地"
   },
   {
-    "english": "one-of-a-kind",
-    "pos": "adj.",
-    "chinese": "独一无二的"
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相对地"
   },
   {
-    "english": "pot",
+    "english": "retain",
+    "pos": "v.",
+    "chinese": "保持；保留"
+  },
+  {
+    "english": "shield",
+    "pos": "v.",
+    "chinese": "保护某人或某物"
+  },
+  {
+    "english": "feather",
     "pos": "n.",
-    "chinese": "锅"
+    "chinese": "羽毛"
   },
   {
-    "english": "well-known",
+    "english": "feature",
+    "pos": "n.",
+    "chinese": "特征；特色"
+  },
+  {
+    "english": "fur",
+    "pos": "n.",
+    "chinese": "毛；皮毛"
+  },
+  {
+    "english": "physical",
     "pos": "adj.",
-    "chinese": "众所周知的"
+    "chinese": "身体的；物质的"
   },
   {
-    "english": "In exchange",
-    "pos": "作为交换",
-    "chinese": "作为交换"
+    "english": "nutrient",
+    "pos": "n.",
+    "chinese": "营养"
   },
   {
-    "english": "TV commercial",
-    "pos": "电视广告",
-    "chinese": "电视广告"
+    "english": "soil",
+    "pos": "n.",
+    "chinese": "土壤"
   },
   {
-    "english": "made by",
-    "pos": "由……制造",
-    "chinese": "由……制造"
+    "english": "active",
+    "pos": "adj.",
+    "chinese": "活跃的"
   },
   {
-    "english": "in-demand",
-    "pos": "有需求的",
-    "chinese": "有需求的"
+    "english": "trap",
+    "pos": "n.",
+    "chinese": "陷阱"
   },
   {
-    "english": "name recognition",
-    "pos": "知名度",
-    "chinese": "知名度"
+    "english": "attract",
+    "pos": "v.",
+    "chinese": "吸引"
+  },
+  {
+    "english": "cage",
+    "pos": "n.",
+    "chinese": "笼子"
+  },
+  {
+    "english": "digest",
+    "pos": "v.",
+    "chinese": "消化"
+  },
+  {
+    "english": "passive",
+    "pos": "adj.",
+    "chinese": "被动的"
+  },
+  {
+    "english": "sundew",
+    "pos": "n.",
+    "chinese": "茅膏菜；露水"
+  },
+  {
+    "english": "glue",
+    "pos": "n.",
+    "chinese": "胶水"
+  },
+  {
+    "english": "substance",
+    "pos": "n.",
+    "chinese": "物质"
+  },
+  {
+    "english": "condition",
+    "pos": "n.",
+    "chinese": "条件"
+  },
+  {
+    "english": "adapt",
+    "pos": "v.",
+    "chinese": "适应"
+  },
+  {
+    "english": "extreme",
+    "pos": "adj.",
+    "chinese": "极端的"
+  },
+  {
+    "english": "result",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "wolf",
+    "pos": "n.",
+    "chinese": "狼"
+  },
+  {
+    "english": "locomotion",
+    "pos": "n.",
+    "chinese": "移动"
+  },
+  {
+    "english": "expose",
+    "pos": "v.",
+    "chinese": "暴露"
+  },
+  {
+    "english": "sand",
+    "pos": "n.",
+    "chinese": "沙子"
+  },
+  {
+    "english": "desert",
+    "pos": "n.",
+    "chinese": "沙漠"
+  },
+  {
+    "english": "source",
+    "pos": "n.",
+    "chinese": "来源"
   }
 ]

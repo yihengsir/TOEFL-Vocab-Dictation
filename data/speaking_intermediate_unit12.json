@@ -1,242 +1,97 @@
 [
   {
-    "english": "anticipate",
+    "english": "achieve",
     "pos": "v.",
-    "chinese": "期待"
+    "chinese": "取得"
   },
   {
-    "english": "evaluate",
+    "english": "enroll",
     "pos": "v.",
-    "chinese": "评估"
+    "chinese": "参加"
   },
   {
-    "english": "pace",
-    "pos": "n.",
-    "chinese": "节奏，步伐"
-  },
-  {
-    "english": "precisely",
-    "pos": "adv.",
-    "chinese": "精确地"
-  },
-  {
-    "english": "sufficient",
+    "english": "ultimate",
     "pos": "adj.",
-    "chinese": "足够的"
+    "chinese": "最终的"
   },
   {
-    "english": "thorough",
+    "english": "succeed",
+    "pos": "v.",
+    "chinese": "成功"
+  },
+  {
+    "english": "foster",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "motivation",
+    "pos": "n.",
+    "chinese": "动力"
+  },
+  {
+    "english": "accomplish",
+    "pos": "v.",
+    "chinese": "完成"
+  },
+  {
+    "english": "independence",
+    "pos": "n.",
+    "chinese": "独立；自主"
+  },
+  {
+    "english": "appropriate",
     "pos": "adj.",
-    "chinese": "周到的"
+    "chinese": "合适的"
   },
   {
-    "english": "coherently",
-    "pos": "adv.",
-    "chinese": "连贯地"
-  },
-  {
-    "english": "allot",
+    "english": "frustrate",
     "pos": "v.",
-    "chinese": "分配，配给"
+    "chinese": "使沮丧"
   },
   {
-    "english": "receive",
-    "pos": "v.",
-    "chinese": "收到"
-  },
-  {
-    "english": "email",
+    "english": "discourage",
     "pos": "n.",
-    "chinese": "电子邮件"
+    "chinese": "气馁"
   },
   {
-    "english": "binder",
+    "english": "personality",
     "pos": "n.",
-    "chinese": "活页夹"
+    "chinese": "个性"
   },
   {
-    "english": "reflect",
-    "pos": "v.",
-    "chinese": "反射，反映"
+    "english": "balance",
+    "pos": "n.",
+    "chinese": "平衡"
   },
   {
-    "english": "pinpoint",
-    "pos": "v.",
-    "chinese": "明确指出"
+    "english": "insight",
+    "pos": "n.",
+    "chinese": "了解；洞悉"
   },
   {
-    "english": "verbal",
+    "english": "rhythm",
+    "pos": "n.",
+    "chinese": "节奏"
+  },
+  {
+    "english": "passionate",
     "pos": "adj.",
-    "chinese": "口头的"
+    "chinese": "热诚的"
   },
   {
-    "english": "grammar",
+    "english": "strength",
     "pos": "n.",
-    "chinese": "语法"
+    "chinese": "优势"
   },
   {
-    "english": "criticize",
-    "pos": "v.",
-    "chinese": "批判"
-  },
-  {
-    "english": "genuinely",
-    "pos": "adv.",
-    "chinese": "真诚地"
-  },
-  {
-    "english": "facial",
-    "pos": "adj.",
-    "chinese": "面部的"
-  },
-  {
-    "english": "tone",
+    "english": "connection",
     "pos": "n.",
-    "chinese": "语气"
+    "chinese": "联系；人脉"
   },
   {
-    "english": "accurate",
-    "pos": "adj.",
-    "chinese": "准确的"
-  },
-  {
-    "english": "resolve",
-    "pos": "v.",
-    "chinese": "解决"
-  },
-  {
-    "english": "text",
-    "pos": "v.",
-    "chinese": "发短信"
-  },
-  {
-    "english": "outline",
+    "english": "debt",
     "pos": "n.",
-    "chinese": "轮廓，大纲"
-  },
-  {
-    "english": "yell",
-    "pos": "v.",
-    "chinese": "大喊"
-  },
-  {
-    "english": "communicate",
-    "pos": "v.",
-    "chinese": "交流"
-  },
-  {
-    "english": "phrase",
-    "pos": "n.",
-    "chinese": "语句"
-  },
-  {
-    "english": "misinterpret",
-    "pos": "v.",
-    "chinese": "误解，曲解"
-  },
-  {
-    "english": "conflict",
-    "pos": "n.",
-    "chinese": "冲突"
-  },
-  {
-    "english": "rapid",
-    "pos": "adj.",
-    "chinese": "迅速的，快捷的，瞬间的"
-  },
-  {
-    "english": "preference",
-    "pos": "n.",
-    "chinese": "偏好"
-  },
-  {
-    "english": "describe",
-    "pos": "v.",
-    "chinese": "描述"
-  },
-  {
-    "english": "effective",
-    "pos": "adj.",
-    "chinese": "有效的"
-  },
-  {
-    "english": "withdraw",
-    "pos": "v.",
-    "chinese": "撤回"
-  },
-  {
-    "english": "encouraging",
-    "pos": "adj.",
-    "chinese": "鼓舞人心的"
-  },
-  {
-    "english": "phrase",
-    "pos": "v.",
-    "chinese": "用......的方式表达"
-  },
-  {
-    "english": "convey",
-    "pos": "v.",
-    "chinese": "表达"
-  },
-  {
-    "english": "interaction",
-    "pos": "n.",
-    "chinese": "互动"
-  },
-  {
-    "english": "rapport",
-    "pos": "n.",
-    "chinese": "融洽（关系）；和谐（关系）"
-  },
-  {
-    "english": "via",
-    "pos": "prep.",
-    "chinese": "通过，借助于"
-  },
-  {
-    "english": "ensure",
-    "pos": "v.",
-    "chinese": "确保"
-  },
-  {
-    "english": "category",
-    "pos": "n.",
-    "chinese": "种类；范畴"
-  },
-  {
-    "english": "allot for",
-    "pos": "分配",
-    "chinese": "The time allotted for each speaking response is considered sufficient for you to give a complete answer."
-  },
-  {
-    "english": "take a lot of time",
-    "pos": "很费时",
-    "chinese": "I have to write a lot of feedback every day, which takes lots of time."
-  },
-  {
-    "english": "keep a record",
-    "pos": "保留记录",
-    "chinese": "Written feedback helps me to keep a record."
-  },
-  {
-    "english": "pinpoint areas",
-    "pos": "定位.......的地方",
-    "chinese": "Pinpoint areas that I still need to work on."
-  },
-  {
-    "english": "organize ideas",
-    "pos": "梳理想法",
-    "chinese": "I take time to organize my ideas."
-  },
-  {
-    "english": "in real-time",
-    "pos": "实时的",
-    "chinese": "Communicate in real-time."
-  },
-  {
-    "english": "resolve the issue",
-    "pos": "解决问题",
-    "chinese": "Quickly understand each other and resolve the issue."
+    "chinese": "债务"
   }
 ]

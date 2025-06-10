@@ -1,147 +1,102 @@
 [
   {
-    "english": "achieve",
-    "pos": "v.",
-    "chinese": "取得"
+    "english": "merely",
+    "pos": "adv.",
+    "chinese": "仅仅"
   },
   {
-    "english": "enroll",
+    "english": "clarify",
     "pos": "v.",
-    "chinese": "参加"
+    "chinese": "阐明"
   },
   {
-    "english": "ultimate",
+    "english": "violence",
+    "pos": "n.",
+    "chinese": "暴力"
+  },
+  {
+    "english": "ban",
+    "pos": "v.",
+    "chinese": "禁止"
+  },
+  {
+    "english": "entertaining",
     "pos": "adj.",
-    "chinese": "最终的"
+    "chinese": "娱乐性"
   },
   {
-    "english": "succeed",
-    "pos": "v.",
-    "chinese": "成功"
-  },
-  {
-    "english": "foster",
-    "pos": "v.",
-    "chinese": "促进"
-  },
-  {
-    "english": "motivation",
+    "english": "nightmare",
     "pos": "n.",
-    "chinese": "动力"
+    "chinese": "噩梦"
   },
   {
-    "english": "accomplish",
+    "english": "deserve",
     "pos": "v.",
-    "chinese": "完成"
+    "chinese": "值得"
   },
   {
-    "english": "independence",
-    "pos": "n.",
-    "chinese": "独立；自主"
-  },
-  {
-    "english": "appropriate",
+    "english": "satisfied",
     "pos": "adj.",
-    "chinese": "合适的"
+    "chinese": "满意的"
   },
   {
-    "english": "frustrate",
+    "english": "rescue",
     "pos": "v.",
-    "chinese": "使沮丧"
+    "chinese": "营救"
   },
   {
-    "english": "discourage",
-    "pos": "n.",
-    "chinese": "气馁"
-  },
-  {
-    "english": "personality",
-    "pos": "n.",
-    "chinese": "个性"
-  },
-  {
-    "english": "balance",
-    "pos": "n.",
-    "chinese": "平衡"
-  },
-  {
-    "english": "insight",
-    "pos": "n.",
-    "chinese": "了解；洞悉"
-  },
-  {
-    "english": "rhythm",
-    "pos": "n.",
-    "chinese": "节奏"
-  },
-  {
-    "english": "passionate",
+    "english": "bravery",
     "pos": "adj.",
-    "chinese": "热诚的"
+    "chinese": "勇敢的"
   },
   {
-    "english": "strength",
+    "english": "character",
     "pos": "n.",
-    "chinese": "优势"
+    "chinese": "角色"
   },
   {
-    "english": "connection",
+    "english": "leisure",
     "pos": "n.",
-    "chinese": "联系；人脉"
+    "chinese": "闲暇；空余时间"
   },
   {
-    "english": "debt",
+    "english": "punch",
+    "pos": "v.",
+    "chinese": "拳打"
+  },
+  {
+    "english": "content",
     "pos": "n.",
-    "chinese": "债务"
+    "chinese": "内容"
   },
   {
-    "english": "career path",
-    "pos": "职业道路",
-    "chinese": "Parents should choose the career path."
+    "english": "aggressive",
+    "pos": "adj.",
+    "chinese": "好斗的"
   },
   {
-    "english": "know better than",
-    "pos": "比......更了解",
-    "chinese": "Children know themselves better than anyone else, including their parents."
+    "english": "negative",
+    "pos": "adj.",
+    "chinese": "负面的"
   },
   {
-    "english": "work in different fields/industries",
-    "pos": "在不同领域工作",
-    "chinese": "They have worked most of their lives; they may have even worked in different fields or industries."
+    "english": "literacy",
+    "pos": "n.",
+    "chinese": "识字；读写能力"
   },
   {
-    "english": "make the right decision",
-    "pos": "做正确的决定",
-    "chinese": "They can help their child make the right decision."
+    "english": "audit",
+    "pos": "v.",
+    "chinese": "旁听"
   },
   {
-    "english": "be more supportive of",
-    "pos": "更支持",
-    "chinese": "Parents will be more supportive of their child’s future."
+    "english": "certificate",
+    "pos": "n.",
+    "chinese": "证明"
   },
   {
-    "english": "feel responsible for",
-    "pos": "感到有责任",
-    "chinese": "They will feel responsible for their decision and their child’s success."
-  },
-  {
-    "english": "be fearful of",
-    "pos": "对......感到恐惧",
-    "chinese": "This is because children who are fearful of making a mistake tend to be more worried."
-  },
-  {
-    "english": "stepping stones",
-    "pos": "踏板",
-    "chinese": "They will never hide their mistakes and consider their mistakes as stepping stones to success."
-  },
-  {
-    "english": "increase resiliency",
-    "pos": "增强韧性",
-    "chinese": "Making mistakes increases resiliency."
-  },
-  {
-    "english": "build confidence",
-    "pos": "建立自信",
-    "chinese": "It helps build confidence."
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "不同的；多样的"
   }
 ]
