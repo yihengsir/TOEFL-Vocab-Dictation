@@ -1,0 +1,447 @@
+[
+  {
+    "english": "therapeutic",
+    "pos": "adj.",
+    "chinese": "治疗的"
+  },
+  {
+    "english": "coordinate",
+    "pos": "v.",
+    "chinese": "使协调"
+  },
+  {
+    "english": "entail",
+    "pos": "v.",
+    "chinese": "牵涉，需要"
+  },
+  {
+    "english": "navigate",
+    "pos": "v.",
+    "chinese": "导航"
+  },
+  {
+    "english": "dormant",
+    "pos": "adj.",
+    "chinese": "休眠的"
+  },
+  {
+    "english": "dominant",
+    "pos": "adj.",
+    "chinese": "占优势的"
+  },
+  {
+    "english": "intricate",
+    "pos": "adj.",
+    "chinese": "错综复杂的"
+  },
+  {
+    "english": "contribute to",
+    "pos": "v.",
+    "chinese": "导致"
+  },
+  {
+    "english": "nurture",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "merely",
+    "pos": "adv.",
+    "chinese": "仅仅"
+  },
+  {
+    "english": "barren",
+    "pos": "adj.",
+    "chinese": "贫瘠的"
+  },
+  {
+    "english": "visual",
+    "pos": "adj.",
+    "chinese": "视觉的"
+  },
+  {
+    "english": "joint",
+    "pos": "n.",
+    "chinese": "关节"
+  },
+  {
+    "english": "facilitate",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "precise",
+    "pos": "adj.",
+    "chinese": "准确的"
+  },
+  {
+    "english": "component",
+    "pos": "n.",
+    "chinese": "组成部分"
+  },
+  {
+    "english": "accelerate",
+    "pos": "v.",
+    "chinese": "（使）加速"
+  },
+  {
+    "english": "opposite",
+    "pos": "adj.",
+    "chinese": "相反的"
+  },
+  {
+    "english": "adjust",
+    "pos": "v.",
+    "chinese": "调整"
+  },
+  {
+    "english": "rhythm",
+    "pos": "n.",
+    "chinese": "韵律"
+  },
+  {
+    "english": "active",
+    "pos": "adj.",
+    "chinese": "活跃的"
+  },
+  {
+    "english": "activity",
+    "pos": "n.",
+    "chinese": "活动"
+  },
+  {
+    "english": "adapt",
+    "pos": "v.",
+    "chinese": "适应"
+  },
+  {
+    "english": "associate",
+    "pos": "v.",
+    "chinese": "联系"
+  },
+  {
+    "english": "challenge",
+    "pos": "v.",
+    "chinese": "质疑"
+  },
+  {
+    "english": "claim",
+    "pos": "v.",
+    "chinese": "声称"
+  },
+  {
+    "english": "comparably",
+    "pos": "adv.",
+    "chinese": "类似地"
+  },
+  {
+    "english": "connection",
+    "pos": "n.",
+    "chinese": "连接，关系"
+  },
+  {
+    "english": "depression",
+    "pos": "n.",
+    "chinese": "抑郁"
+  },
+  {
+    "english": "develop",
+    "pos": "v.",
+    "chinese": "发展，培养"
+  },
+  {
+    "english": "development",
+    "pos": "n.",
+    "chinese": "发展，成长"
+  },
+  {
+    "english": "direct",
+    "pos": "v.",
+    "chinese": "把……对准"
+  },
+  {
+    "english": "effect",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "elderly",
+    "pos": "n.",
+    "chinese": "老人"
+  },
+  {
+    "english": "embarrassment",
+    "pos": "n.",
+    "chinese": "尴尬"
+  },
+  {
+    "english": "emotion",
+    "pos": "n.",
+    "chinese": "情感"
+  },
+  {
+    "english": "engage in",
+    "pos": "v.",
+    "chinese": "参加"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "建立"
+  },
+  {
+    "english": "eventually",
+    "pos": "adv.",
+    "chinese": "最终，终于"
+  },
+  {
+    "english": "firm",
+    "pos": "n.",
+    "chinese": "公司"
+  },
+  {
+    "english": "guide",
+    "pos": "v.",
+    "chinese": "引导"
+  },
+  {
+    "english": "increase",
+    "pos": "v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "laboratory",
+    "pos": "n.",
+    "chinese": "实验室"
+  },
+  {
+    "english": "memory",
+    "pos": "n.",
+    "chinese": "记忆"
+  },
+  {
+    "english": "mood",
+    "pos": "n.",
+    "chinese": "心情"
+  },
+  {
+    "english": "muscle",
+    "pos": "n.",
+    "chinese": "肌肉"
+  },
+  {
+    "english": "object",
+    "pos": "n.",
+    "chinese": "物体"
+  },
+  {
+    "english": "occur",
+    "pos": "v.",
+    "chinese": "发生"
+  },
+  {
+    "english": "ordinary",
+    "pos": "adj.",
+    "chinese": "普通的"
+  },
+  {
+    "english": "pattern",
+    "pos": "n.",
+    "chinese": "模式"
+  },
+  {
+    "english": "performance",
+    "pos": "n.",
+    "chinese": "表现"
+  },
+  {
+    "english": "period",
+    "pos": "n.",
+    "chinese": "时期"
+  },
+  {
+    "english": "physical",
+    "pos": "adj.",
+    "chinese": "身体的"
+  },
+  {
+    "english": "process",
+    "pos": "n.",
+    "chinese": "过程"
+  },
+  {
+    "english": "react",
+    "pos": "v.",
+    "chinese": "反应"
+  },
+  {
+    "english": "region",
+    "pos": "n.",
+    "chinese": "区域"
+  },
+  {
+    "english": "replace",
+    "pos": "v.",
+    "chinese": "替换，代替"
+  },
+  {
+    "english": "require",
+    "pos": "v.",
+    "chinese": "需要，要求"
+  },
+  {
+    "english": "result in",
+    "pos": "v.",
+    "chinese": "导致"
+  },
+  {
+    "english": "signal",
+    "pos": "n.",
+    "chinese": "信号"
+  },
+  {
+    "english": "skill",
+    "pos": "n.",
+    "chinese": "技能，技巧"
+  },
+  {
+    "english": "strength",
+    "pos": "n.",
+    "chinese": "力量"
+  },
+  {
+    "english": "thus",
+    "pos": "adv.",
+    "chinese": "因此，从而"
+  },
+  {
+    "english": "university",
+    "pos": "n.",
+    "chinese": "大学"
+  },
+  {
+    "english": "weaken",
+    "pos": "v.",
+    "chinese": "削弱，减弱"
+  },
+  {
+    "english": "distinguish",
+    "pos": "v.",
+    "chinese": "区分"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样的"
+  },
+  {
+    "english": "effectively",
+    "pos": "adv.",
+    "chinese": "有效地"
+  },
+  {
+    "english": "exclude",
+    "pos": "v.",
+    "chinese": "排除"
+  },
+  {
+    "english": "exhibit",
+    "pos": "v.",
+    "chinese": "展示"
+  },
+  {
+    "english": "flexibility",
+    "pos": "n.",
+    "chinese": "灵活性"
+  },
+  {
+    "english": "infant",
+    "pos": "n.",
+    "chinese": "婴儿"
+  },
+  {
+    "english": "interpretation",
+    "pos": "n.",
+    "chinese": "解释"
+  },
+  {
+    "english": "mechanism",
+    "pos": "n.",
+    "chinese": "机制，方法"
+  },
+  {
+    "english": "mobility",
+    "pos": "n.",
+    "chinese": "活动性"
+  },
+  {
+    "english": "perceive",
+    "pos": "v.",
+    "chinese": "意识到"
+  },
+  {
+    "english": "prosperous",
+    "pos": "adj.",
+    "chinese": "繁荣的，成功的"
+  },
+  {
+    "english": "regulation",
+    "pos": "n.",
+    "chinese": "规则"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相对地"
+  },
+  {
+    "english": "simultaneously",
+    "pos": "adv.",
+    "chinese": "同时地"
+  },
+  {
+    "english": "trigger",
+    "pos": "v.",
+    "chinese": "引发"
+  },
+  {
+    "english": "vulnerable",
+    "pos": "adj.",
+    "chinese": "脆弱的"
+  },
+  {
+    "english": "primitive",
+    "pos": "adj.",
+    "chinese": "原始的"
+  },
+  {
+    "english": "reactivation",
+    "pos": "n.",
+    "chinese": "重新激活"
+  },
+  {
+    "english": "sensation",
+    "pos": "n.",
+    "chinese": "感觉，感知"
+  },
+  {
+    "english": "lava",
+    "pos": "n.",
+    "chinese": "岩浆"
+  },
+  {
+    "english": "impart",
+    "pos": "v.",
+    "chinese": "赋予"
+  },
+  {
+    "english": "inert",
+    "pos": "adj.",
+    "chinese": "惰性的"
+  },
+  {
+    "english": "circadian",
+    "pos": "adj.",
+    "chinese": "昼夜的"
+  }
+]

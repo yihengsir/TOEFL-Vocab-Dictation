@@ -1,0 +1,347 @@
+[
+  {
+    "english": "fascinating",
+    "pos": "adj.",
+    "chinese": "吸引人的"
+  },
+  {
+    "english": "impact",
+    "pos": "n./v.",
+    "chinese": "影响"
+  },
+  {
+    "english": "reach",
+    "pos": "n.",
+    "chinese": "范围"
+  },
+  {
+    "english": "impressive",
+    "pos": "adj.",
+    "chinese": "令人印象深刻的"
+  },
+  {
+    "english": "shape",
+    "pos": "v.",
+    "chinese": "塑造"
+  },
+  {
+    "english": "emerge",
+    "pos": "v.",
+    "chinese": "出现"
+  },
+  {
+    "english": "enduring",
+    "pos": "adj.",
+    "chinese": "持久的"
+  },
+  {
+    "english": "innovative",
+    "pos": "adj.",
+    "chinese": "创新的"
+  },
+  {
+    "english": "worship",
+    "pos": "v.",
+    "chinese": "崇拜"
+  },
+  {
+    "english": "mystery",
+    "pos": "n.",
+    "chinese": "迷"
+  },
+  {
+    "english": "legacy",
+    "pos": "n.",
+    "chinese": "遗产"
+  },
+  {
+    "english": "symbolize",
+    "pos": "v.",
+    "chinese": "作为…的象征"
+  },
+  {
+    "english": "revival",
+    "pos": "n.",
+    "chinese": "复兴"
+  },
+  {
+    "english": "span",
+    "pos": "v.",
+    "chinese": "跨越"
+  },
+  {
+    "english": "damp",
+    "pos": "adj.",
+    "chinese": "潮湿的"
+  },
+  {
+    "english": "embroidery",
+    "pos": "n.",
+    "chinese": "刺绣品"
+  },
+  {
+    "english": "stitch",
+    "pos": "v.",
+    "chinese": "缝"
+  },
+  {
+    "english": "weave",
+    "pos": "v.",
+    "chinese": "编织"
+  },
+  {
+    "english": "fabric",
+    "pos": "n.",
+    "chinese": "织物布料"
+  },
+  {
+    "english": "thread",
+    "pos": "n.",
+    "chinese": "线"
+  },
+  {
+    "english": "spinning",
+    "pos": "n.",
+    "chinese": "纺纱"
+  },
+  {
+    "english": "nestle",
+    "pos": "v.",
+    "chinese": "（使）位于"
+  },
+  {
+    "english": "cradle",
+    "pos": "n.",
+    "chinese": "摇篮"
+  },
+  {
+    "english": "decor",
+    "pos": "n.",
+    "chinese": "装饰"
+  },
+  {
+    "english": "ornament",
+    "pos": "n.",
+    "chinese": "装饰"
+  },
+  {
+    "english": "citizen",
+    "pos": "n.",
+    "chinese": "市民、公民"
+  },
+  {
+    "english": "expand",
+    "pos": "v.",
+    "chinese": "扩张、扩大"
+  },
+  {
+    "english": "valley",
+    "pos": "n.",
+    "chinese": "山谷"
+  },
+  {
+    "english": "trade",
+    "pos": "n./v.",
+    "chinese": "贸易、交易"
+  },
+  {
+    "english": "tomb",
+    "pos": "n.",
+    "chinese": "坟墓"
+  },
+  {
+    "english": "clay",
+    "pos": "n.",
+    "chinese": "黏土"
+  },
+  {
+    "english": "dye",
+    "pos": "v.",
+    "chinese": "染色"
+  },
+  {
+    "english": "tribe",
+    "pos": "n.",
+    "chinese": "部落"
+  },
+  {
+    "english": "route",
+    "pos": "n.",
+    "chinese": "路线"
+  },
+  {
+    "english": "eventually",
+    "pos": "adv.",
+    "chinese": "最终、最后"
+  },
+  {
+    "english": "dynasty",
+    "pos": "n.",
+    "chinese": "朝代"
+  },
+  {
+    "english": "temple",
+    "pos": "n.",
+    "chinese": "寺庙"
+  },
+  {
+    "english": "military",
+    "pos": "adj.",
+    "chinese": "军事的"
+  },
+  {
+    "english": "craft",
+    "pos": "n./v.",
+    "chinese": "手工艺/制作"
+  },
+  {
+    "english": "architecture",
+    "pos": "n.",
+    "chinese": "建筑"
+  },
+  {
+    "english": "complex",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "compound",
+    "pos": "n.",
+    "chinese": "化合物"
+  },
+  {
+    "english": "ceremony",
+    "pos": "n.",
+    "chinese": "仪式、典礼"
+  },
+  {
+    "english": "remain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "luxurious",
+    "pos": "adj.",
+    "chinese": "奢华的"
+  },
+  {
+    "english": "exceptional",
+    "pos": "adj.",
+    "chinese": "杰出的"
+  },
+  {
+    "english": "precise",
+    "pos": "adj.",
+    "chinese": "精确的"
+  },
+  {
+    "english": "wisdom",
+    "pos": "n.",
+    "chinese": "智慧"
+  },
+  {
+    "english": "profound",
+    "pos": "adj.",
+    "chinese": "造诣深的"
+  },
+  {
+    "english": "exchange",
+    "pos": "n.",
+    "chinese": "交换"
+  },
+  {
+    "english": "foster",
+    "pos": "v.",
+    "chinese": "促进、培养"
+  },
+  {
+    "english": "explore",
+    "pos": "v.",
+    "chinese": "探索"
+  },
+  {
+    "english": "exploration",
+    "pos": "n.",
+    "chinese": "探索"
+  },
+  {
+    "english": "chapter",
+    "pos": "n.",
+    "chinese": "章节、篇章"
+  },
+  {
+    "english": "vital",
+    "pos": "adj.",
+    "chinese": "至关重要的"
+  },
+  {
+    "english": "peak",
+    "pos": "n.",
+    "chinese": "顶峰、高峰"
+  },
+  {
+    "english": "remarkable",
+    "pos": "adj.",
+    "chinese": "杰出的、卓越的"
+  },
+  {
+    "english": "incredible",
+    "pos": "adj.",
+    "chinese": "令人惊叹的"
+  },
+  {
+    "english": "connection",
+    "pos": "n.",
+    "chinese": "连接、联系"
+  },
+  {
+    "english": "contribution",
+    "pos": "n.",
+    "chinese": "贡献"
+  },
+  {
+    "english": "unity",
+    "pos": "n.",
+    "chinese": "统一、团结"
+  },
+  {
+    "english": "unique",
+    "pos": "adj.",
+    "chinese": "独特的"
+  },
+  {
+    "english": "treasure",
+    "pos": "n.",
+    "chinese": "宝藏"
+  },
+  {
+    "english": "emperor",
+    "pos": "n.",
+    "chinese": "皇帝"
+  },
+  {
+    "english": "empire",
+    "pos": "n.",
+    "chinese": "帝国"
+  },
+  {
+    "english": "long-lasting",
+    "pos": "adj.",
+    "chinese": "持久的"
+  },
+  {
+    "english": "marvel",
+    "pos": "n.",
+    "chinese": "令人惊奇的东西"
+  },
+  {
+    "english": "mosaic",
+    "pos": "n.",
+    "chinese": "马赛克，（很多东西的）混合物"
+  },
+  {
+    "english": "gunpowder",
+    "pos": "n.",
+    "chinese": "火药"
+  }
+]

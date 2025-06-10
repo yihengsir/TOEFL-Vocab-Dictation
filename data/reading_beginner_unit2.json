@@ -1,0 +1,597 @@
+[
+  {
+    "english": "exceed",
+    "pos": "v.",
+    "chinese": "超过"
+  },
+  {
+    "english": "outlast",
+    "pos": "v.",
+    "chinese": "比…持续时间长"
+  },
+  {
+    "english": "suffer",
+    "pos": "v.",
+    "chinese": "遭受"
+  },
+  {
+    "english": "principle",
+    "pos": "n.",
+    "chinese": "原则"
+  },
+  {
+    "english": "irrigation",
+    "pos": "n.",
+    "chinese": "灌溉"
+  },
+  {
+    "english": "recharge",
+    "pos": "v.",
+    "chinese": "休整"
+  },
+  {
+    "english": "convey",
+    "pos": "v.",
+    "chinese": "传达"
+  },
+  {
+    "english": "reveal",
+    "pos": "v.",
+    "chinese": "揭示"
+  },
+  {
+    "english": "insist",
+    "pos": "v.",
+    "chinese": "坚持"
+  },
+  {
+    "english": "oppose",
+    "pos": "v.",
+    "chinese": "反对"
+  },
+  {
+    "english": "multifunctional",
+    "pos": "adj.",
+    "chinese": "多功能的"
+  },
+  {
+    "english": "set apart",
+    "pos": "v.",
+    "chinese": "区分"
+  },
+  {
+    "english": "distinguish",
+    "pos": "v.",
+    "chinese": "区分"
+  },
+  {
+    "english": "religious",
+    "pos": "adj.",
+    "chinese": "宗教的"
+  },
+  {
+    "english": "keep track of",
+    "pos": "v.",
+    "chinese": "跟踪"
+  },
+  {
+    "english": "weave",
+    "pos": "n.",
+    "chinese": "编法"
+  },
+  {
+    "english": "cultivation",
+    "pos": "n.",
+    "chinese": "种植"
+  },
+  {
+    "english": "erosion",
+    "pos": "n.",
+    "chinese": "侵蚀"
+  },
+  {
+    "english": "install",
+    "pos": "v.",
+    "chinese": "安装"
+  },
+  {
+    "english": "reasonable",
+    "pos": "adj.",
+    "chinese": "合理的"
+  },
+  {
+    "english": "access",
+    "pos": "n.",
+    "chinese": "(使用或见到的)机会、通道"
+  },
+  {
+    "english": "accounting",
+    "pos": "n.",
+    "chinese": "会计工作"
+  },
+  {
+    "english": "advanced",
+    "pos": "adj.",
+    "chinese": "先进的"
+  },
+  {
+    "english": "advantage",
+    "pos": "n.",
+    "chinese": "优势"
+  },
+  {
+    "english": "assume",
+    "pos": "v.",
+    "chinese": "假设"
+  },
+  {
+    "english": "attend",
+    "pos": "v.",
+    "chinese": "出席"
+  },
+  {
+    "english": "attract",
+    "pos": "v.",
+    "chinese": "吸引"
+  },
+  {
+    "english": "balanced",
+    "pos": "adj.",
+    "chinese": "平衡的"
+  },
+  {
+    "english": "boom",
+    "pos": "v.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "commercial",
+    "pos": "adj.",
+    "chinese": "商业的"
+  },
+  {
+    "english": "compare",
+    "pos": "v.",
+    "chinese": "比较"
+  },
+  {
+    "english": "connect",
+    "pos": "v.",
+    "chinese": "连接"
+  },
+  {
+    "english": "contribute",
+    "pos": "v.",
+    "chinese": "贡献"
+  },
+  {
+    "english": "create",
+    "pos": "v.",
+    "chinese": "创造"
+  },
+  {
+    "english": "credit",
+    "pos": "n.",
+    "chinese": "信贷"
+  },
+  {
+    "english": "desert",
+    "pos": "n.",
+    "chinese": "沙漠"
+  },
+  {
+    "english": "develop",
+    "pos": "v.",
+    "chinese": "发展"
+  },
+  {
+    "english": "economic",
+    "pos": "adj.",
+    "chinese": "经济的"
+  },
+  {
+    "english": "effort",
+    "pos": "n.",
+    "chinese": "努力"
+  },
+  {
+    "english": "empire",
+    "pos": "n.",
+    "chinese": "帝国"
+  },
+  {
+    "english": "encourage",
+    "pos": "v.",
+    "chinese": "鼓励"
+  },
+  {
+    "english": "energy",
+    "pos": "n.",
+    "chinese": "能源"
+  },
+  {
+    "english": "engage",
+    "pos": "v.",
+    "chinese": "从事"
+  },
+  {
+    "english": "environment",
+    "pos": "n.",
+    "chinese": "环境"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "建立"
+  },
+  {
+    "english": "exchange",
+    "pos": "v.",
+    "chinese": "兑换"
+  },
+  {
+    "english": "exist",
+    "pos": "v.",
+    "chinese": "存在"
+  },
+  {
+    "english": "extend",
+    "pos": "v.",
+    "chinese": "延伸"
+  },
+  {
+    "english": "financial",
+    "pos": "v.",
+    "chinese": "金融的"
+  },
+  {
+    "english": "foreign",
+    "pos": "adj.",
+    "chinese": "外国的"
+  },
+  {
+    "english": "gain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "height",
+    "pos": "n.",
+    "chinese": "高度"
+  },
+  {
+    "english": "improve",
+    "pos": "v.",
+    "chinese": "改善"
+  },
+  {
+    "english": "including",
+    "pos": "prep.",
+    "chinese": "包括"
+  },
+  {
+    "english": "increase",
+    "pos": "n./v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "individual",
+    "pos": "n.",
+    "chinese": "个人"
+  },
+  {
+    "english": "industry",
+    "pos": "n.",
+    "chinese": "工业"
+  },
+  {
+    "english": "influence",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "introduce",
+    "pos": "v.",
+    "chinese": "引入"
+  },
+  {
+    "english": "item",
+    "pos": "n.",
+    "chinese": "物品"
+  },
+  {
+    "english": "knowledge",
+    "pos": "n.",
+    "chinese": "知识"
+  },
+  {
+    "english": "labor",
+    "pos": "n.",
+    "chinese": "劳动"
+  },
+  {
+    "english": "lack",
+    "pos": "n.",
+    "chinese": "缺乏"
+  },
+  {
+    "english": "likely",
+    "pos": "adj.",
+    "chinese": "可能的"
+  },
+  {
+    "english": "limited",
+    "pos": "adj.",
+    "chinese": "有限的"
+  },
+  {
+    "english": "locate",
+    "pos": "v.",
+    "chinese": "位于"
+  },
+  {
+    "english": "maintain",
+    "pos": "v.",
+    "chinese": "维持"
+  },
+  {
+    "english": "mathematics",
+    "pos": "n.",
+    "chinese": "数学"
+  },
+  {
+    "english": "modern",
+    "pos": "adj.",
+    "chinese": "现代的"
+  },
+  {
+    "english": "operate",
+    "pos": "v.",
+    "chinese": "经营"
+  },
+  {
+    "english": "opportunity",
+    "pos": "n.",
+    "chinese": "机会"
+  },
+  {
+    "english": "option",
+    "pos": "n.",
+    "chinese": "选择"
+  },
+  {
+    "english": "organization",
+    "pos": "n.",
+    "chinese": "组织"
+  },
+  {
+    "english": "political",
+    "pos": "adj.",
+    "chinese": "政治的"
+  },
+  {
+    "english": "population",
+    "pos": "n.",
+    "chinese": "人口"
+  },
+  {
+    "english": "port",
+    "pos": "n.",
+    "chinese": "港口"
+  },
+  {
+    "english": "practice",
+    "pos": "n.",
+    "chinese": "实践"
+  },
+  {
+    "english": "process",
+    "pos": "n.",
+    "chinese": "过程"
+  },
+  {
+    "english": "productivity",
+    "pos": "n.",
+    "chinese": "生产力"
+  },
+  {
+    "english": "professional",
+    "pos": "adj.",
+    "chinese": "专业的"
+  },
+  {
+    "english": "property",
+    "pos": "n.",
+    "chinese": "财产"
+  },
+  {
+    "english": "provide",
+    "pos": "v.",
+    "chinese": "提供"
+  },
+  {
+    "english": "qualification",
+    "pos": "n.",
+    "chinese": "资格"
+  },
+  {
+    "english": "quality",
+    "pos": "n.",
+    "chinese": "质量"
+  },
+  {
+    "english": "rapid",
+    "pos": "adj.",
+    "chinese": "快速的"
+  },
+  {
+    "english": "receive",
+    "pos": "v.",
+    "chinese": "接受"
+  },
+  {
+    "english": "reduced",
+    "pos": "adj.",
+    "chinese": "减少的"
+  },
+  {
+    "english": "region",
+    "pos": "n.",
+    "chinese": "地区"
+  },
+  {
+    "english": "rely",
+    "pos": "v.",
+    "chinese": "依赖"
+  },
+  {
+    "english": "remain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "replace",
+    "pos": "v.",
+    "chinese": "替换"
+  },
+  {
+    "english": "representative",
+    "pos": "n.",
+    "chinese": "代表"
+  },
+  {
+    "english": "researcher",
+    "pos": "n.",
+    "chinese": "研究人员"
+  },
+  {
+    "english": "resist",
+    "pos": "v.",
+    "chinese": "抵抗"
+  },
+  {
+    "english": "role",
+    "pos": "n.",
+    "chinese": "角色"
+  },
+  {
+    "english": "shade",
+    "pos": "n.",
+    "chinese": "阴影"
+  },
+  {
+    "english": "spinning",
+    "pos": "n.",
+    "chinese": "纺织"
+  },
+  {
+    "english": "spread",
+    "pos": "v.",
+    "chinese": "传播"
+  },
+  {
+    "english": "supply",
+    "pos": "n.",
+    "chinese": "供应"
+  },
+  {
+    "english": "valuable",
+    "pos": "adj.",
+    "chinese": "有价值的"
+  },
+  {
+    "english": "various",
+    "pos": "adj.",
+    "chinese": "各种各样的"
+  },
+  {
+    "english": "insight",
+    "pos": "n.",
+    "chinese": "见解"
+  },
+  {
+    "english": "notion",
+    "pos": "n.",
+    "chinese": "概念"
+  },
+  {
+    "english": "payoff",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "faculty",
+    "pos": "n.",
+    "chinese": "全体教师"
+  },
+  {
+    "english": "match",
+    "pos": "v.",
+    "chinese": "匹配"
+  },
+  {
+    "english": "security",
+    "pos": "n.",
+    "chinese": "安全"
+  },
+  {
+    "english": "dismiss",
+    "pos": "v.",
+    "chinese": "解雇"
+  },
+  {
+    "english": "objective",
+    "pos": "adj.",
+    "chinese": "客观的"
+  },
+  {
+    "english": "restriction",
+    "pos": "n.",
+    "chinese": "限制"
+  },
+  {
+    "english": "get rid of",
+    "pos": "v.",
+    "chinese": "消除影响"
+  },
+  {
+    "english": "alliance",
+    "pos": "n.",
+    "chinese": "同盟"
+  },
+  {
+    "english": "dissolve",
+    "pos": "v.",
+    "chinese": "溶解"
+  },
+  {
+    "english": "residue",
+    "pos": "n.",
+    "chinese": "残余物"
+  },
+  {
+    "english": "evaporate",
+    "pos": "v.",
+    "chinese": "蒸发"
+  },
+  {
+    "english": "pastureland",
+    "pos": "n.",
+    "chinese": "牧场"
+  },
+  {
+    "english": "sanitation",
+    "pos": "n.",
+    "chinese": "公共卫生"
+  },
+  {
+    "english": "aquifer",
+    "pos": "n.",
+    "chinese": "含水层"
+  },
+  {
+    "english": "semiarid",
+    "pos": "adj.",
+    "chinese": "半干旱的"
+  }
+]

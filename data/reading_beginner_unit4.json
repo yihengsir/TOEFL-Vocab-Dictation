@@ -1,0 +1,442 @@
+[
+  {
+    "english": "rigid",
+    "pos": "adj.",
+    "chinese": "刻板的"
+  },
+  {
+    "english": "productive",
+    "pos": "adj.",
+    "chinese": "多产的"
+  },
+  {
+    "english": "efficient",
+    "pos": "adj.",
+    "chinese": "高效的"
+  },
+  {
+    "english": "permit",
+    "pos": "v.",
+    "chinese": "批准"
+  },
+  {
+    "english": "prevailing",
+    "pos": "adj.",
+    "chinese": "盛行的"
+  },
+  {
+    "english": "pre-determined",
+    "pos": "adj.",
+    "chinese": "预定的"
+  },
+  {
+    "english": "flexible",
+    "pos": "adj.",
+    "chinese": "灵活的"
+  },
+  {
+    "english": "modify",
+    "pos": "v.",
+    "chinese": "修改"
+  },
+  {
+    "english": "operation",
+    "pos": "n.",
+    "chinese": "运作"
+  },
+  {
+    "english": "affordable",
+    "pos": "adj.",
+    "chinese": "买得起的，便宜的"
+  },
+  {
+    "english": "tailor",
+    "pos": "v.",
+    "chinese": "定制"
+  },
+  {
+    "english": "fade",
+    "pos": "v.",
+    "chinese": "褪色"
+  },
+  {
+    "english": "life expectancy",
+    "pos": "n.",
+    "chinese": "预期寿命"
+  },
+  {
+    "english": "evolve",
+    "pos": "v.",
+    "chinese": "进化"
+  },
+  {
+    "english": "defense",
+    "pos": "n.",
+    "chinese": "防御"
+  },
+  {
+    "english": "disperse",
+    "pos": "v.",
+    "chinese": "分散"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样的"
+  },
+  {
+    "english": "negligible",
+    "pos": "adj.",
+    "chinese": "微不足道的"
+  },
+  {
+    "english": "challenging",
+    "pos": "adj.",
+    "chinese": "困难的，有挑战的"
+  },
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "（田地）高产的"
+  },
+  {
+    "english": "brain",
+    "pos": "n.",
+    "chinese": "大脑"
+  },
+  {
+    "english": "coast",
+    "pos": "n.",
+    "chinese": "海岸"
+  },
+  {
+    "english": "contact",
+    "pos": "n.",
+    "chinese": "接触"
+  },
+  {
+    "english": "desert",
+    "pos": "n.",
+    "chinese": "沙漠"
+  },
+  {
+    "english": "energy",
+    "pos": "n.",
+    "chinese": "能量"
+  },
+  {
+    "english": "event",
+    "pos": "n.",
+    "chinese": "事件"
+  },
+  {
+    "english": "evidence",
+    "pos": "n.",
+    "chinese": "证据"
+  },
+  {
+    "english": "heap",
+    "pos": "n.",
+    "chinese": "一堆，许多"
+  },
+  {
+    "english": "iron",
+    "pos": "n.",
+    "chinese": "铁"
+  },
+  {
+    "english": "journey",
+    "pos": "n.",
+    "chinese": "旅程"
+  },
+  {
+    "english": "model",
+    "pos": "n.",
+    "chinese": "模型"
+  },
+  {
+    "english": "option",
+    "pos": "n.",
+    "chinese": "选择"
+  },
+  {
+    "english": "path",
+    "pos": "n.",
+    "chinese": "路径"
+  },
+  {
+    "english": "process",
+    "pos": "n.",
+    "chinese": "过程"
+  },
+  {
+    "english": "region",
+    "pos": "n.",
+    "chinese": "地区"
+  },
+  {
+    "english": "straw",
+    "pos": "n.",
+    "chinese": "稻草"
+  },
+  {
+    "english": "weapon",
+    "pos": "n.",
+    "chinese": "武器"
+  },
+  {
+    "english": "compare",
+    "pos": "v.",
+    "chinese": "比较"
+  },
+  {
+    "english": "examine",
+    "pos": "v.",
+    "chinese": "检测"
+  },
+  {
+    "english": "perform",
+    "pos": "v.",
+    "chinese": "执行"
+  },
+  {
+    "english": "propose",
+    "pos": "v.",
+    "chinese": "提出"
+  },
+  {
+    "english": "remain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "trace",
+    "pos": "v.",
+    "chinese": "追踪"
+  },
+  {
+    "english": "therefore",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "adaptable",
+    "pos": "adj.",
+    "chinese": "可适应的"
+  },
+  {
+    "english": "available",
+    "pos": "adj.",
+    "chinese": "可用的"
+  },
+  {
+    "english": "metallic",
+    "pos": "adj.",
+    "chinese": "金属制的"
+  },
+  {
+    "english": "ally with",
+    "pos": "v.",
+    "chinese": "与...结盟"
+  },
+  {
+    "english": "approach",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "limitation",
+    "pos": "n.",
+    "chinese": "限制"
+  },
+  {
+    "english": "proportion",
+    "pos": "n.",
+    "chinese": "比例"
+  },
+  {
+    "english": "shift",
+    "pos": "n.",
+    "chinese": "切换"
+  },
+  {
+    "english": "fiber",
+    "pos": "n.",
+    "chinese": "纤维"
+  },
+  {
+    "english": "knowledge",
+    "pos": "n.",
+    "chinese": "知识"
+  },
+  {
+    "english": "refinement",
+    "pos": "n.",
+    "chinese": "精炼"
+  },
+  {
+    "english": "self-improvement",
+    "pos": "n.",
+    "chinese": "自我改善"
+  },
+  {
+    "english": "rely on",
+    "pos": "v.",
+    "chinese": "依靠于"
+  },
+  {
+    "english": "inhibit",
+    "pos": "v.",
+    "chinese": "抑制"
+  },
+  {
+    "english": "persist",
+    "pos": "v.",
+    "chinese": "继续存在"
+  },
+  {
+    "english": "grand",
+    "pos": "adj.",
+    "chinese": "宏伟的"
+  },
+  {
+    "english": "incapable",
+    "pos": "adj.",
+    "chinese": "不能的"
+  },
+  {
+    "english": "dramatical",
+    "pos": "adj.",
+    "chinese": "剧烈的"
+  },
+  {
+    "english": "recurring",
+    "pos": "adj.",
+    "chinese": "反复出现的"
+  },
+  {
+    "english": "wisdom",
+    "pos": "n.",
+    "chinese": "智慧"
+  },
+  {
+    "english": "prestige",
+    "pos": "n.",
+    "chinese": "声望"
+  },
+  {
+    "english": "discrepancies",
+    "pos": "n.",
+    "chinese": "差异"
+  },
+  {
+    "english": "tension",
+    "pos": "n.",
+    "chinese": "紧张"
+  },
+  {
+    "english": "wagon",
+    "pos": "n.",
+    "chinese": "马车"
+  },
+  {
+    "english": "awe-inspiring",
+    "pos": "adj.",
+    "chinese": "令人惊叹的"
+  },
+  {
+    "english": "enduring",
+    "pos": "adj.",
+    "chinese": "持久的"
+  },
+  {
+    "english": "innovative",
+    "pos": "adj.",
+    "chinese": "创新的"
+  },
+  {
+    "english": "monumental",
+    "pos": "adj.",
+    "chinese": "宏伟的"
+  },
+  {
+    "english": "numbing",
+    "pos": "adj.",
+    "chinese": "乏味的"
+  },
+  {
+    "english": "obliged",
+    "pos": "adj.",
+    "chinese": "感激的"
+  },
+  {
+    "english": "predominantly",
+    "pos": "adv.",
+    "chinese": "主要地"
+  },
+  {
+    "english": "anchor",
+    "pos": "v.",
+    "chinese": "将……固定在水里"
+  },
+  {
+    "english": "algorithm",
+    "pos": "n.",
+    "chinese": "算法"
+  },
+  {
+    "english": "advent",
+    "pos": "n.",
+    "chinese": "出现"
+  },
+  {
+    "english": "codify",
+    "pos": "v.",
+    "chinese": "编成法典"
+  },
+  {
+    "english": "diffuse",
+    "pos": "v.",
+    "chinese": "散布"
+  },
+  {
+    "english": "emerge",
+    "pos": "v.",
+    "chinese": "出现"
+  },
+  {
+    "english": "prowess",
+    "pos": "n.",
+    "chinese": "超凡技术"
+  },
+  {
+    "english": "permutation",
+    "pos": "n.",
+    "chinese": "排列"
+  },
+  {
+    "english": "archaeologist",
+    "pos": "n.",
+    "chinese": "考古学家"
+  },
+  {
+    "english": "volcanic eruptions",
+    "pos": "n.",
+    "chinese": "火山喷发"
+  },
+  {
+    "english": "foliage",
+    "pos": "n.",
+    "chinese": "枝叶"
+  },
+  {
+    "english": "revolution",
+    "pos": "n.",
+    "chinese": "革命"
+  },
+  {
+    "english": "technology",
+    "pos": "n.",
+    "chinese": "科技"
+  }
+]

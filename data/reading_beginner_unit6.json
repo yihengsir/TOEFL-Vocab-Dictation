@@ -1,0 +1,537 @@
+[
+  {
+    "english": "thrive",
+    "pos": "v.",
+    "chinese": "茁壮成长"
+  },
+  {
+    "english": "flee",
+    "pos": "v.",
+    "chinese": "逃跑"
+  },
+  {
+    "english": "utilize",
+    "pos": "v.",
+    "chinese": "使用"
+  },
+  {
+    "english": "stagnate",
+    "pos": "v.",
+    "chinese": "停滞"
+  },
+  {
+    "english": "significantly",
+    "pos": "adv.",
+    "chinese": "显著地"
+  },
+  {
+    "english": "ignite",
+    "pos": "v.",
+    "chinese": "点燃"
+  },
+  {
+    "english": "implausible",
+    "pos": "adj.",
+    "chinese": "不可信的"
+  },
+  {
+    "english": "fluctuation",
+    "pos": "n.",
+    "chinese": "波动"
+  },
+  {
+    "english": "consistency",
+    "pos": "n.",
+    "chinese": "一致性"
+  },
+  {
+    "english": "primitive",
+    "pos": "adj.",
+    "chinese": "原始的"
+  },
+  {
+    "english": "entice",
+    "pos": "v.",
+    "chinese": "诱使"
+  },
+  {
+    "english": "possess",
+    "pos": "v.",
+    "chinese": "拥有"
+  },
+  {
+    "english": "occupy",
+    "pos": "v.",
+    "chinese": "占据"
+  },
+  {
+    "english": "tedious",
+    "pos": "adj.",
+    "chinese": "冗长的"
+  },
+  {
+    "english": "perishable",
+    "pos": "adj.",
+    "chinese": "易变质的"
+  },
+  {
+    "english": "domesticate",
+    "pos": "v.",
+    "chinese": "驯养"
+  },
+  {
+    "english": "hind",
+    "pos": "adj.",
+    "chinese": "后面的"
+  },
+  {
+    "english": "stem",
+    "pos": "n.",
+    "chinese": "茎"
+  },
+  {
+    "english": "rodent",
+    "pos": "n.",
+    "chinese": "啮齿动物"
+  },
+  {
+    "english": "initiate",
+    "pos": "v.",
+    "chinese": "开始"
+  },
+  {
+    "english": "adaptation",
+    "pos": "n.",
+    "chinese": "适应"
+  },
+  {
+    "english": "advanced",
+    "pos": "adj.",
+    "chinese": "高级的"
+  },
+  {
+    "english": "attend",
+    "pos": "v.",
+    "chinese": "参加"
+  },
+  {
+    "english": "attract",
+    "pos": "v.",
+    "chinese": "吸引"
+  },
+  {
+    "english": "common",
+    "pos": "adj.",
+    "chinese": "常见的"
+  },
+  {
+    "english": "condition",
+    "pos": "n.",
+    "chinese": "条件"
+  },
+  {
+    "english": "cope with",
+    "pos": "v.",
+    "chinese": "应对"
+  },
+  {
+    "english": "decoration",
+    "pos": "n.",
+    "chinese": "装饰"
+  },
+  {
+    "english": "distance",
+    "pos": "n.",
+    "chinese": "距离"
+  },
+  {
+    "english": "environment",
+    "pos": "n.",
+    "chinese": "环境"
+  },
+  {
+    "english": "exist",
+    "pos": "v.",
+    "chinese": "存在"
+  },
+  {
+    "english": "feather",
+    "pos": "v.",
+    "chinese": "长羽毛"
+  },
+  {
+    "english": "individual",
+    "pos": "adj.",
+    "chinese": "个体的"
+  },
+  {
+    "english": "mass",
+    "pos": "n.",
+    "chinese": "大量"
+  },
+  {
+    "english": "massive",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "native",
+    "pos": "adj.",
+    "chinese": "本地的"
+  },
+  {
+    "english": "population",
+    "pos": "n.",
+    "chinese": "人口"
+  },
+  {
+    "english": "receive",
+    "pos": "v.",
+    "chinese": "收到"
+  },
+  {
+    "english": "recommend",
+    "pos": "v.",
+    "chinese": "推荐"
+  },
+  {
+    "english": "regularly",
+    "pos": "adv.",
+    "chinese": "经常地"
+  },
+  {
+    "english": "seek",
+    "pos": "v.",
+    "chinese": "寻找"
+  },
+  {
+    "english": "stability",
+    "pos": "n.",
+    "chinese": "稳定性"
+  },
+  {
+    "english": "supply",
+    "pos": "n.",
+    "chinese": "供应"
+  },
+  {
+    "english": "survive",
+    "pos": "v.",
+    "chinese": "生存"
+  },
+  {
+    "english": "threaten",
+    "pos": "v.",
+    "chinese": "威胁"
+  },
+  {
+    "english": "tough",
+    "pos": "adj.",
+    "chinese": "困难的"
+  },
+  {
+    "english": "unappreciated",
+    "pos": "adj.",
+    "chinese": "未被赏识的"
+  },
+  {
+    "english": "wipe",
+    "pos": "v.",
+    "chinese": "擦除"
+  },
+  {
+    "english": "annual",
+    "pos": "adj.",
+    "chinese": "年度的"
+  },
+  {
+    "english": "blend",
+    "pos": "v.",
+    "chinese": "混合"
+  },
+  {
+    "english": "communicate",
+    "pos": "v.",
+    "chinese": "交流"
+  },
+  {
+    "english": "considerably",
+    "pos": "adv.",
+    "chinese": "显著地"
+  },
+  {
+    "english": "consume",
+    "pos": "v.",
+    "chinese": "消耗"
+  },
+  {
+    "english": "convey",
+    "pos": "v.",
+    "chinese": "传达"
+  },
+  {
+    "english": "crucial",
+    "pos": "adj.",
+    "chinese": "至关重要的"
+  },
+  {
+    "english": "curved",
+    "pos": "adj.",
+    "chinese": "弧形的"
+  },
+  {
+    "english": "defend",
+    "pos": "v.",
+    "chinese": "保卫"
+  },
+  {
+    "english": "deliberately",
+    "pos": "adv.",
+    "chinese": "故意地"
+  },
+  {
+    "english": "dense",
+    "pos": "adj.",
+    "chinese": "密集的"
+  },
+  {
+    "english": "distinctive",
+    "pos": "adj.",
+    "chinese": "有特色的"
+  },
+  {
+    "english": "elaborate",
+    "pos": "v.",
+    "chinese": "详尽说明"
+  },
+  {
+    "english": "evolve",
+    "pos": "v.",
+    "chinese": "进化"
+  },
+  {
+    "english": "failure",
+    "pos": "n.",
+    "chinese": "失败"
+  },
+  {
+    "english": "flesh",
+    "pos": "n.",
+    "chinese": "肉体"
+  },
+  {
+    "english": "frequency",
+    "pos": "n.",
+    "chinese": "频率"
+  },
+  {
+    "english": "harsh",
+    "pos": "adj.",
+    "chinese": "苛刻的"
+  },
+  {
+    "english": "household",
+    "pos": "n.",
+    "chinese": "家庭"
+  },
+  {
+    "english": "interfere",
+    "pos": "v.",
+    "chinese": "干涉"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "merely",
+    "pos": "adv.",
+    "chinese": "仅仅"
+  },
+  {
+    "english": "molecule",
+    "pos": "n.",
+    "chinese": "分子"
+  },
+  {
+    "english": "potential",
+    "pos": "adj.",
+    "chinese": "潜在的"
+  },
+  {
+    "english": "potentially",
+    "pos": "adv.",
+    "chinese": "可能地"
+  },
+  {
+    "english": "protein",
+    "pos": "n.",
+    "chinese": "蛋白质"
+  },
+  {
+    "english": "pursue",
+    "pos": "v.",
+    "chinese": "追捕"
+  },
+  {
+    "english": "relative",
+    "pos": "adj.",
+    "chinese": "相对的"
+  },
+  {
+    "english": "reproduction",
+    "pos": "n.",
+    "chinese": "繁殖"
+  },
+  {
+    "english": "reward",
+    "pos": "n.",
+    "chinese": "奖励"
+  },
+  {
+    "english": "scatter",
+    "pos": "v.",
+    "chinese": "散布"
+  },
+  {
+    "english": "target",
+    "pos": "v.",
+    "chinese": "把……作为目标"
+  },
+  {
+    "english": "temporary",
+    "pos": "adj.",
+    "chinese": "临时的"
+  },
+  {
+    "english": "theory",
+    "pos": "n.",
+    "chinese": "理论"
+  },
+  {
+    "english": "uniform",
+    "pos": "adj.",
+    "chinese": "统一的"
+  },
+  {
+    "english": "ancestor",
+    "pos": "n.",
+    "chinese": "祖先"
+  },
+  {
+    "english": "digestion",
+    "pos": "n.",
+    "chinese": "消化"
+  },
+  {
+    "english": "disperse",
+    "pos": "v.",
+    "chinese": "分散"
+  },
+  {
+    "english": "dynamic",
+    "pos": "adj.",
+    "chinese": "动态的"
+  },
+  {
+    "english": "predator",
+    "pos": "n.",
+    "chinese": "捕食者"
+  },
+  {
+    "english": "prey",
+    "pos": "n.",
+    "chinese": "猎物"
+  },
+  {
+    "english": "shrink",
+    "pos": "v.",
+    "chinese": "缩小"
+  },
+  {
+    "english": "trait",
+    "pos": "n.",
+    "chinese": "特征"
+  },
+  {
+    "english": "vanish",
+    "pos": "v.",
+    "chinese": "消失"
+  },
+  {
+    "english": "debris",
+    "pos": "n.",
+    "chinese": "碎片"
+  },
+  {
+    "english": "embryo",
+    "pos": "n.",
+    "chinese": "胚胎"
+  },
+  {
+    "english": "sediment",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "barren",
+    "pos": "adj.",
+    "chinese": "贫瘠的"
+  },
+  {
+    "english": "intricate",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "oscillation",
+    "pos": "n.",
+    "chinese": "波动"
+  },
+  {
+    "english": "devour",
+    "pos": "v.",
+    "chinese": "吞食"
+  },
+  {
+    "english": "reptile",
+    "pos": "n.",
+    "chinese": "爬行动物"
+  },
+  {
+    "english": "stunt",
+    "pos": "n.",
+    "chinese": "发育迟缓的"
+  },
+  {
+    "english": "asteroid",
+    "pos": "n.",
+    "chinese": "小行星"
+  },
+  {
+    "english": "stagnation",
+    "pos": "n.",
+    "chinese": "停滞"
+  },
+  {
+    "english": "tundra",
+    "pos": "n.",
+    "chinese": "冻原"
+  },
+  {
+    "english": "vertebrate",
+    "pos": "n.",
+    "chinese": "脊椎动物"
+  },
+  {
+    "english": "nocturnal",
+    "pos": "adj.",
+    "chinese": "夜间活动的"
+  },
+  {
+    "english": "iridium",
+    "pos": "n.",
+    "chinese": "铱"
+  }
+]

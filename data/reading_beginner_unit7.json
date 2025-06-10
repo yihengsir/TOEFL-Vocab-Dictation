@@ -1,0 +1,282 @@
+[
+  {
+    "english": "impede",
+    "pos": "v.",
+    "chinese": "阻碍"
+  },
+  {
+    "english": "block",
+    "pos": "v.",
+    "chinese": "阻碍"
+  },
+  {
+    "english": "incorporate",
+    "pos": "v.",
+    "chinese": "包含，吸收"
+  },
+  {
+    "english": "exclude",
+    "pos": "v.",
+    "chinese": "排除，阻止"
+  },
+  {
+    "english": "opposite to",
+    "pos": "adj.",
+    "chinese": "相反的"
+  },
+  {
+    "english": "resistance",
+    "pos": "n.",
+    "chinese": "反对，反抗"
+  },
+  {
+    "english": "terminate",
+    "pos": "v.",
+    "chinese": "结束"
+  },
+  {
+    "english": "merge",
+    "pos": "v.",
+    "chinese": "合并，并入"
+  },
+  {
+    "english": "accumulation",
+    "pos": "n.",
+    "chinese": "积累"
+  },
+  {
+    "english": "moderate",
+    "pos": "adj.",
+    "chinese": "适度的"
+  },
+  {
+    "english": "allusive",
+    "pos": "adj.",
+    "chinese": "暗指的"
+  },
+  {
+    "english": "attribute to",
+    "pos": "v.",
+    "chinese": "归因于……"
+  },
+  {
+    "english": "permanently",
+    "pos": "adv.",
+    "chinese": "永久地"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "collide",
+    "pos": "v.",
+    "chinese": "撞击"
+  },
+  {
+    "english": "split",
+    "pos": "v.",
+    "chinese": "分开"
+  },
+  {
+    "english": "rare",
+    "pos": "adj.",
+    "chinese": "稀少的"
+  },
+  {
+    "english": "organism",
+    "pos": "n.",
+    "chinese": "生物"
+  },
+  {
+    "english": "adverse",
+    "pos": "adj.",
+    "chinese": "不利的"
+  },
+  {
+    "english": "compelling",
+    "pos": "adj.",
+    "chinese": "令人信服的"
+  },
+  {
+    "english": "release",
+    "pos": "v.",
+    "chinese": "释放"
+  },
+  {
+    "english": "tropical",
+    "pos": "adj.",
+    "chinese": "热带的"
+  },
+  {
+    "english": "landmass",
+    "pos": "n.",
+    "chinese": "陆地，陆块"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样的"
+  },
+  {
+    "english": "stagnation",
+    "pos": "n.",
+    "chinese": "停滞"
+  },
+  {
+    "english": "particle",
+    "pos": "n.",
+    "chinese": "颗粒"
+  },
+  {
+    "english": "vapor",
+    "pos": "n.",
+    "chinese": "蒸汽"
+  },
+  {
+    "english": "precipitation",
+    "pos": "n.",
+    "chinese": "降水"
+  },
+  {
+    "english": "stunt",
+    "pos": "v.",
+    "chinese": "阻碍，抑制"
+  },
+  {
+    "english": "flee",
+    "pos": "v.",
+    "chinese": "逃跑"
+  },
+  {
+    "english": "discipline",
+    "pos": "n.",
+    "chinese": "学科，科目"
+  },
+  {
+    "english": "extract",
+    "pos": "v.",
+    "chinese": "提取"
+  },
+  {
+    "english": "identical",
+    "pos": "adj.",
+    "chinese": "相同的"
+  },
+  {
+    "english": "landscape",
+    "pos": "n.",
+    "chinese": "风景"
+  },
+  {
+    "english": "dynamic",
+    "pos": "adj.",
+    "chinese": "不断变化的"
+  },
+  {
+    "english": "excessive",
+    "pos": "adj.",
+    "chinese": "过多的"
+  },
+  {
+    "english": "insufficient",
+    "pos": "adj.",
+    "chinese": "不足够的"
+  },
+  {
+    "english": "alternative",
+    "pos": "adj.",
+    "chinese": "可供替代的"
+  },
+  {
+    "english": "conducive to",
+    "pos": "v.",
+    "chinese": "有助于……"
+  },
+  {
+    "english": "paucity of",
+    "pos": "n.",
+    "chinese": "缺乏"
+  },
+  {
+    "english": "temporarily",
+    "pos": "adv.",
+    "chinese": "短暂地"
+  },
+  {
+    "english": "orbit",
+    "pos": "n.",
+    "chinese": "轨道"
+  },
+  {
+    "english": "component",
+    "pos": "n.",
+    "chinese": "组成物"
+  },
+  {
+    "english": "continent",
+    "pos": "n.",
+    "chinese": "大陆"
+  },
+  {
+    "english": "scarcity",
+    "pos": "n.",
+    "chinese": "缺乏"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "aid",
+    "pos": "v.",
+    "chinese": "帮助"
+  },
+  {
+    "english": "magma",
+    "pos": "n.",
+    "chinese": "岩浆"
+  },
+  {
+    "english": "current",
+    "pos": "adj.",
+    "chinese": "现在的"
+  },
+  {
+    "english": "glacier",
+    "pos": "n.",
+    "chinese": "冰川"
+  },
+  {
+    "english": "fossil",
+    "pos": "n.",
+    "chinese": "化石"
+  },
+  {
+    "english": "comparable",
+    "pos": "a.",
+    "chinese": "类似的"
+  },
+  {
+    "english": "resemble",
+    "pos": "v.",
+    "chinese": "像"
+  },
+  {
+    "english": "inject",
+    "pos": "v.",
+    "chinese": "注射"
+  },
+  {
+    "english": "diameter",
+    "pos": "n.",
+    "chinese": "直径"
+  },
+  {
+    "english": "transient",
+    "pos": "adj.",
+    "chinese": "短暂的"
+  }
+]

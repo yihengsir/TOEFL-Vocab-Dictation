@@ -1,0 +1,347 @@
+[
+  {
+    "english": "echo",
+    "pos": "v.",
+    "chinese": "回荡"
+  },
+  {
+    "english": "equality",
+    "pos": "n.",
+    "chinese": "平等"
+  },
+  {
+    "english": "troubleshoot",
+    "pos": "v.",
+    "chinese": "排除故障"
+  },
+  {
+    "english": "crash",
+    "pos": "n.",
+    "chinese": "崩溃"
+  },
+  {
+    "english": "automatically",
+    "pos": "adv.",
+    "chinese": "自动地"
+  },
+  {
+    "english": "temporary",
+    "pos": "adj.",
+    "chinese": "临时的"
+  },
+  {
+    "english": "permanent",
+    "pos": "adj.",
+    "chinese": "永久的"
+  },
+  {
+    "english": "steam engine",
+    "pos": "n.",
+    "chinese": "蒸汽机"
+  },
+  {
+    "english": "deforestation",
+    "pos": "n.",
+    "chinese": "毁林"
+  },
+  {
+    "english": "aesthetics",
+    "pos": "n.",
+    "chinese": "美学"
+  },
+  {
+    "english": "coordinate",
+    "pos": "n.",
+    "chinese": "坐标"
+  },
+  {
+    "english": "ordered",
+    "pos": "adj.",
+    "chinese": "有序的"
+  },
+  {
+    "english": "molecule",
+    "pos": "n.",
+    "chinese": "分子"
+  },
+  {
+    "english": "gravity",
+    "pos": "n.",
+    "chinese": "重力"
+  },
+  {
+    "english": "particle",
+    "pos": "n.",
+    "chinese": "颗粒"
+  },
+  {
+    "english": "contraction",
+    "pos": "n.",
+    "chinese": "收缩"
+  },
+  {
+    "english": "collapse",
+    "pos": "v.",
+    "chinese": "坍塌"
+  },
+  {
+    "english": "harsh",
+    "pos": "adj.",
+    "chinese": "严酷的"
+  },
+  {
+    "english": "sediment",
+    "pos": "n.",
+    "chinese": "沉淀物"
+  },
+  {
+    "english": "mineral",
+    "pos": "n.",
+    "chinese": "矿物质"
+  },
+  {
+    "english": "dissolve",
+    "pos": "v.",
+    "chinese": "溶解"
+  },
+  {
+    "english": "crater",
+    "pos": "n.",
+    "chinese": "坑"
+  },
+  {
+    "english": "meteorite",
+    "pos": "n.",
+    "chinese": "陨石"
+  },
+  {
+    "english": "lunar",
+    "pos": "adj.",
+    "chinese": "月球的"
+  },
+  {
+    "english": "transition",
+    "pos": "n.",
+    "chinese": "转化"
+  },
+  {
+    "english": "radiation",
+    "pos": "n.",
+    "chinese": "辐射"
+  },
+  {
+    "english": "shield",
+    "pos": "n.",
+    "chinese": "屏障"
+  },
+  {
+    "english": "nature",
+    "pos": "n.",
+    "chinese": "本质"
+  },
+  {
+    "english": "remote",
+    "pos": "adj.",
+    "chinese": "遥远的"
+  },
+  {
+    "english": "assumption",
+    "pos": "n.",
+    "chinese": "假设"
+  },
+  {
+    "english": "reservoir",
+    "pos": "n.",
+    "chinese": "蓄水池"
+  },
+  {
+    "english": "dim",
+    "pos": "adj.",
+    "chinese": "暗淡的"
+  },
+  {
+    "english": "crust",
+    "pos": "n.",
+    "chinese": "硬表面"
+  },
+  {
+    "english": "insulating",
+    "pos": "adj.",
+    "chinese": "隔绝的"
+  },
+  {
+    "english": "periodically",
+    "pos": "adv.",
+    "chinese": "周期性地"
+  },
+  {
+    "english": "lava",
+    "pos": "n.",
+    "chinese": "岩浆"
+  },
+  {
+    "english": "station",
+    "pos": "v.",
+    "chinese": "驻扎"
+  },
+  {
+    "english": "burst",
+    "pos": "v.",
+    "chinese": "迸发"
+  },
+  {
+    "english": "gain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "material",
+    "pos": "n.",
+    "chinese": "物质"
+  },
+  {
+    "english": "observe",
+    "pos": "v.",
+    "chinese": "观察"
+  },
+  {
+    "english": "occur",
+    "pos": "v.",
+    "chinese": "发生"
+  },
+  {
+    "english": "planet",
+    "pos": "n.",
+    "chinese": "行星"
+  },
+  {
+    "english": "process",
+    "pos": "n.",
+    "chinese": "过程"
+  },
+  {
+    "english": "surrouding",
+    "pos": "adj.",
+    "chinese": "周围的"
+  },
+  {
+    "english": "direction",
+    "pos": "n.",
+    "chinese": "方向"
+  },
+  {
+    "english": "increase",
+    "pos": "v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "plane",
+    "pos": "n.",
+    "chinese": "平面"
+  },
+  {
+    "english": "spin",
+    "pos": "v.",
+    "chinese": "快速旋转"
+  },
+  {
+    "english": "combine",
+    "pos": "v.",
+    "chinese": "结合"
+  },
+  {
+    "english": "concentrate",
+    "pos": "v.",
+    "chinese": "使聚集，使浓缩"
+  },
+  {
+    "english": "contract",
+    "pos": "v.",
+    "chinese": "收缩"
+  },
+  {
+    "english": "eventually",
+    "pos": "adv.",
+    "chinese": "最终地"
+  },
+  {
+    "english": "mass",
+    "pos": "n.",
+    "chinese": "质量"
+  },
+  {
+    "english": "attraction",
+    "pos": "n.",
+    "chinese": "吸引力"
+  },
+  {
+    "english": "constant",
+    "pos": "adj.",
+    "chinese": "恒定的"
+  },
+  {
+    "english": "speed",
+    "pos": "n.",
+    "chinese": "速度"
+  },
+  {
+    "english": "century",
+    "pos": "n.",
+    "chinese": "世纪"
+  },
+  {
+    "english": "cloud",
+    "pos": "n.",
+    "chinese": "云"
+  },
+  {
+    "english": "clue",
+    "pos": "n.",
+    "chinese": "线索"
+  },
+  {
+    "english": "current",
+    "pos": "adj.",
+    "chinese": "当前的"
+  },
+  {
+    "english": "entire",
+    "pos": "adj.",
+    "chinese": "整个的"
+  },
+  {
+    "english": "dust",
+    "pos": "n.",
+    "chinese": "灰尘"
+  },
+  {
+    "english": "series",
+    "pos": "n.",
+    "chinese": "连续，一系列事件"
+  },
+  {
+    "english": "account",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "moon",
+    "pos": "n.",
+    "chinese": "卫星"
+  },
+  {
+    "english": "distance",
+    "pos": "n.",
+    "chinese": "距离"
+  },
+  {
+    "english": "percent",
+    "pos": "n.",
+    "chinese": "百分之..."
+  },
+  {
+    "english": "various",
+    "pos": "adj.",
+    "chinese": "各种各样的"
+  }
+]
