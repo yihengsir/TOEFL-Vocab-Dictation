@@ -1,142 +1,134 @@
 [
   {
+    "chinese": "仅仅",
     "english": "merely",
-    "pos": "adv.",
-    "chinese": "仅仅"
+    "pos": "adv."
   },
   {
+    "chinese": "阐明",
     "english": "clarify",
-    "pos": "v.",
-    "chinese": "阐明"
+    "pos": "v."
   },
   {
+    "chinese": "暴力",
     "english": "violence",
-    "pos": "n.",
-    "chinese": "暴力"
+    "pos": "n."
   },
   {
+    "chinese": "禁止",
     "english": "ban",
-    "pos": "v.",
-    "chinese": "禁止"
+    "pos": "v."
   },
   {
+    "chinese": "娱乐性",
     "english": "entertaining",
-    "pos": "adj.",
-    "chinese": "娱乐性"
+    "pos": "adj."
   },
   {
+    "chinese": "噩梦",
     "english": "nightmare",
-    "pos": "n.",
-    "chinese": "噩梦"
+    "pos": "n."
   },
   {
+    "chinese": "值得",
     "english": "deserve",
-    "pos": "v.",
-    "chinese": "值得"
+    "pos": "v."
   },
   {
+    "chinese": "满意的",
     "english": "satisfied",
-    "pos": "adj.",
-    "chinese": "满意的"
+    "pos": "adj."
   },
   {
+    "chinese": "营救",
     "english": "rescue",
-    "pos": "v.",
-    "chinese": "营救"
+    "pos": "v."
   },
   {
+    "chinese": "勇敢的",
     "english": "bravery",
-    "pos": "adj.",
-    "chinese": "勇敢的"
+    "pos": "adj."
   },
   {
+    "chinese": "角色",
     "english": "character",
-    "pos": "n.",
-    "chinese": "角色"
+    "pos": "n."
   },
   {
+    "chinese": "闲暇；空余时间",
     "english": "leisure",
-    "pos": "n.",
-    "chinese": "闲暇；空余时间"
+    "pos": "n."
   },
   {
+    "chinese": "拳打",
     "english": "punch",
-    "pos": "v.",
-    "chinese": "拳打"
+    "pos": "v."
   },
   {
+    "chinese": "内容",
     "english": "content",
-    "pos": "n.",
-    "chinese": "内容"
+    "pos": "n."
   },
   {
+    "chinese": "好斗的",
     "english": "aggressive",
-    "pos": "adj.",
-    "chinese": "好斗的"
+    "pos": "adj."
   },
   {
+    "chinese": "负面的",
     "english": "negative",
-    "pos": "adj.",
-    "chinese": "负面的"
+    "pos": "adj."
   },
   {
+    "chinese": "识字；读写能力",
     "english": "literacy",
-    "pos": "n.",
-    "chinese": "识字；读写能力"
+    "pos": "n."
   },
   {
+    "chinese": "旁听",
     "english": "audit",
-    "pos": "v.",
-    "chinese": "旁听"
+    "pos": "v."
   },
   {
+    "chinese": "证明",
     "english": "certificate",
-    "pos": "n.",
-    "chinese": "证明"
+    "pos": "n."
   },
   {
+    "chinese": "不同的；多样的",
     "english": "diverse",
-    "pos": "adj.",
-    "chinese": "不同的；多样的"
+    "pos": "adj."
   },
   {
-    "english": "should be banned",
-    "pos": "应当被禁止",
-    "chinese": "I think violence should be banned in TV programs or movies."
+    "chinese": "应当被禁止",
+    "english": "should be banned"
   },
   {
-    "english": "make people anxious",
-    "pos": "让人不安",
-    "chinese": "This is because they make people anxious or even scared."
+    "chinese": "让人不安",
+    "english": "make people anxious"
   },
   {
-    "english": "being stalked",
-    "pos": "被跟踪",
-    "chinese": "Like some scenes show the character being stalked, beaten or even tortured."
+    "chinese": "被跟踪",
+    "english": "being stalked"
   },
   {
-    "english": "feel satisfied",
-    "pos": "感到满足",
-    "chinese": "All those violent scenes when they are beaten down make me feel very satisfied."
+    "chinese": "感到满足",
+    "english": "feel satisfied"
   },
   {
-    "english": "get emotonally attached to",
-    "pos": "对.......共情",
-    "chinese": "Whenever we watch a movie, we get emotionally attached to it."
+    "chinese": "对.......共情",
+    "english": "get emotonally attached to"
   },
   {
-    "english": "fight against",
-    "pos": "打击",
-    "chinese": "In the movie Django Unchained, the character had to use violence to fight against bad guys."
+    "chinese": "打击",
+    "english": "fight against"
   },
   {
-    "english": "good role models for",
-    "pos": "好榜样",
-    "chinese": "We need to ban violent movies. They are not good role models for kids."
+    "chinese": "好榜样",
+    "english": "good role models for"
   },
   {
-    "english": "be necessary to",
-    "pos": "必要",
-    "chinese": "This is necessary to protect children from exposure to harmful content."
+    "chinese": "必要",
+    "english": "be necessary to"
   }
 ]
