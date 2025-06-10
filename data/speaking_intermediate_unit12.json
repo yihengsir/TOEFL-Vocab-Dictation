@@ -1,97 +1,272 @@
 [
   {
-    "english": "achieve",
-    "pos": "v.",
-    "chinese": "取得"
+    "chinese": "期待",
+    "english": "anticipate",
+    "pos": "v."
   },
   {
-    "english": "enroll",
-    "pos": "v.",
-    "chinese": "参加"
+    "chinese": "评估",
+    "english": "evaluate",
+    "pos": "v."
   },
   {
-    "english": "ultimate",
-    "pos": "adj.",
-    "chinese": "最终的"
+    "chinese": "节奏，步伐",
+    "english": "pace",
+    "pos": "n."
   },
   {
-    "english": "succeed",
-    "pos": "v.",
-    "chinese": "成功"
+    "chinese": "精确地",
+    "english": "precisely",
+    "pos": "adv."
   },
   {
-    "english": "foster",
-    "pos": "v.",
-    "chinese": "促进"
+    "chinese": "足够的",
+    "english": "sufficient",
+    "pos": "adj."
   },
   {
-    "english": "motivation",
-    "pos": "n.",
-    "chinese": "动力"
+    "chinese": "周到的",
+    "english": "thorough",
+    "pos": "adj."
   },
   {
-    "english": "accomplish",
-    "pos": "v.",
-    "chinese": "完成"
+    "chinese": "连贯地",
+    "english": "coherently",
+    "pos": "adv."
   },
   {
-    "english": "independence",
-    "pos": "n.",
-    "chinese": "独立；自主"
+    "chinese": "分配，配给",
+    "english": "allot",
+    "pos": "v."
   },
   {
-    "english": "appropriate",
-    "pos": "adj.",
-    "chinese": "合适的"
+    "chinese": "收到",
+    "english": "receive",
+    "pos": "v."
   },
   {
-    "english": "frustrate",
-    "pos": "v.",
-    "chinese": "使沮丧"
+    "chinese": "电子邮件",
+    "english": "email",
+    "pos": "n."
   },
   {
-    "english": "discourage",
-    "pos": "n.",
-    "chinese": "气馁"
+    "chinese": "活页夹",
+    "english": "binder",
+    "pos": "n."
   },
   {
-    "english": "personality",
-    "pos": "n.",
-    "chinese": "个性"
+    "chinese": "反射，反映",
+    "english": "reflect",
+    "pos": "v."
   },
   {
-    "english": "balance",
-    "pos": "n.",
-    "chinese": "平衡"
+    "chinese": "明确指出",
+    "english": "pinpoint",
+    "pos": "v."
   },
   {
-    "english": "insight",
-    "pos": "n.",
-    "chinese": "了解；洞悉"
+    "chinese": "口头的",
+    "english": "verbal",
+    "pos": "adj."
   },
   {
-    "english": "rhythm",
-    "pos": "n.",
-    "chinese": "节奏"
+    "chinese": "语法",
+    "english": "grammar",
+    "pos": "n."
   },
   {
-    "english": "passionate",
-    "pos": "adj.",
-    "chinese": "热诚的"
+    "chinese": "批判",
+    "english": "criticize",
+    "pos": "v."
   },
   {
-    "english": "strength",
-    "pos": "n.",
-    "chinese": "优势"
+    "chinese": "真诚地",
+    "english": "genuinely",
+    "pos": "adv."
   },
   {
-    "english": "connection",
-    "pos": "n.",
-    "chinese": "联系；人脉"
+    "chinese": "面部的",
+    "english": "facial",
+    "pos": "adj."
   },
   {
-    "english": "debt",
-    "pos": "n.",
-    "chinese": "债务"
+    "chinese": "语气",
+    "english": "tone",
+    "pos": "n."
+  },
+  {
+    "chinese": "准确的",
+    "english": "accurate",
+    "pos": "adj."
+  },
+  {
+    "chinese": "解决",
+    "english": "resolve",
+    "pos": "v."
+  },
+  {
+    "chinese": "发短信",
+    "english": "text",
+    "pos": "v."
+  },
+  {
+    "chinese": "轮廓，大纲",
+    "english": "outline",
+    "pos": "n."
+  },
+  {
+    "chinese": "大喊",
+    "english": "yell",
+    "pos": "v."
+  },
+  {
+    "chinese": "交流",
+    "english": "communicate",
+    "pos": "v."
+  },
+  {
+    "chinese": "语句",
+    "english": "phrase",
+    "pos": "n."
+  },
+  {
+    "chinese": "误解，曲解",
+    "english": "misinterpret",
+    "pos": "v."
+  },
+  {
+    "chinese": "冲突",
+    "english": "conflict",
+    "pos": "n."
+  },
+  {
+    "chinese": "迅速的，快捷的，瞬间的",
+    "english": "rapid",
+    "pos": "adj."
+  },
+  {
+    "chinese": "偏好",
+    "english": "preference",
+    "pos": "n."
+  },
+  {
+    "chinese": "描述",
+    "english": "describe",
+    "pos": "v."
+  },
+  {
+    "chinese": "有效的",
+    "english": "effective",
+    "pos": "adj."
+  },
+  {
+    "chinese": "撤回",
+    "english": "withdraw",
+    "pos": "v."
+  },
+  {
+    "chinese": "鼓舞人心的",
+    "english": "encouraging",
+    "pos": "adj."
+  },
+  {
+    "chinese": "用......的方式表达",
+    "english": "phrase",
+    "pos": "v."
+  },
+  {
+    "chinese": "表达",
+    "english": "convey",
+    "pos": "v."
+  },
+  {
+    "chinese": "互动",
+    "english": "interaction",
+    "pos": "n."
+  },
+  {
+    "chinese": "融洽（关系）；和谐（关系）",
+    "english": "rapport",
+    "pos": "n."
+  },
+  {
+    "chinese": "通过，借助于",
+    "english": "via",
+    "pos": "prep."
+  },
+  {
+    "chinese": "确保",
+    "english": "ensure",
+    "pos": "v."
+  },
+  {
+    "chinese": "种类；范畴",
+    "english": "category",
+    "pos": "n."
+  },
+  {
+    "chinese": "记住",
+    "english": "Keep in mind",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "给某人计时",
+    "english": "Time oneself",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "摸清楚某事",
+    "english": "Get an idea of sth",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "保持记录",
+    "english": "Keep a record",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "隔三差五",
+    "english": "Every once in a while",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "对...有作用；向...做工作",
+    "english": "work on sth",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "三思",
+    "english": "think carefully",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "面对面",
+    "english": "face-to-face",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "口头反馈",
+    "english": "verbal feedback",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "字面反馈",
+    "english": "written feedback",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "面部表情",
+    "english": "facial expression",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "使某人微笑",
+    "english": "put a smile on one's face",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "自在",
+    "english": "at ease",
+    "pos": "phrase"
   }
 ]
