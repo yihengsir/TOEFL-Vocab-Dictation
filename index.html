@@ -26,6 +26,7 @@
             border-radius: 1.5rem; /* Larger rounded corners */
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
             padding: 2.5rem 3rem; /* Increased padding */
+            padding-top: 4rem; /* Increased top padding to avoid back button overlap */
             width: 100%;
             max-width: 800px; /* Adjusted max width */
             display: flex;
@@ -55,6 +56,7 @@
             line-height: 2.5rem; /* leading-9 */
             font-weight: 800; /* font-extrabold */
             color: #1f2937; /* text-gray-800 */
+            margin-top: 0.5rem; /* Adjusted margin-top for title */
             margin-bottom: 1.5rem; /* mb-6 */
             white-space: normal; /* Allow wrapping by default */
             overflow: hidden;
@@ -66,6 +68,7 @@
                 font-size: 1.75rem; /* Smaller text on mobile */
                 line-height: 1.2; /* Tighter line height */
                 white-space: normal; /* Allow wrapping on small screens */
+                margin-top: 0.25rem; /* Further adjustment for small screens */
             }
         }
         @media (min-width: 768px) {
@@ -123,6 +126,7 @@
             text-align: center;
             min-height: 80px; /* Ensure sufficient height */
             display: flex; /* Use flexbox for vertical centering */
+            flex-direction: column; /* Stack content vertically */
             align-items: center;
             justify-content: center;
             pointer-events: auto; /* Explicitly set to interactive */
@@ -148,9 +152,29 @@
         .btn-selection-item-selected:hover {
              background-color: #2563eb; /* bg-blue-600 */
         }
-        /* Ensure text in selection items stays on one line */
-        .btn-selection-item span {
-            white-space: nowrap;
+        /* Styles for inner text elements (chinese/english) in selection items */
+        .btn-selection-item .chinese-text {
+            font-size: 1.125rem; /* text-lg */
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 0.25rem; /* Small space between Chinese and English */
+        }
+        .btn-selection-item .english-text {
+            font-size: 0.875rem; /* text-sm */
+            font-weight: 500;
+            color: #6b7280; /* gray-500 */
+            line-height: 1.2;
+        }
+        .btn-selection-item-selected .english-text {
+            color: #e0e7ff; /* Lighter color for English text when selected */
+        }
+        @media (max-width: 767px) {
+            .btn-selection-item .chinese-text {
+                font-size: 1rem; /* Smaller Chinese text on mobile */
+            }
+            .btn-selection-item .english-text {
+                font-size: 0.75rem; /* Smaller English text on mobile */
+            }
         }
 
 
@@ -165,8 +189,8 @@
             transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); /* Combined transition */
             transform: scale(1); /* hover:scale-105 base */
             position: absolute;
-            top: 1rem; /* Adjusted from 1.5rem to create more space */
-            left: 1rem; /* Adjusted from 1.5rem */
+            top: 1rem; /* Adjusted for left-top empty space */
+            left: 1rem; /* Adjusted for left-top empty space */
             z-index: 10;
             pointer-events: auto; /* Explicitly set to interactive */
         }
@@ -180,8 +204,8 @@
         }
         @media (max-width: 767px) { /* Mobile specific adjustment for back button */
             .btn-back {
-                top: 0.75rem; /* Even smaller top padding on very small screens */
-                left: 0.75rem; /* Even smaller left padding */
+                top: 0.75rem; /* Smaller top padding on very small screens */
+                left: 0.75rem; /* Smaller left padding */
                 padding: 0.4rem 0.8rem; /* Slightly smaller padding */
                 font-size: 0.8rem; /* Smaller font size for the button text */
             }
@@ -778,8 +802,11 @@
                 if (appState.selectedCategory === category) {
                     button.classList.add('btn-selection-item-selected'); // Mark as selected
                 }
-                // Wrap text in a span to apply white-space: nowrap
-                button.innerHTML = `<span>${categoryNames[category]} ( ${capitalizeFirstLetter(category)} )</span>`;
+                // New structure: Chinese text on top, English below, centered
+                button.innerHTML = `
+                    <p class="chinese-text">${categoryNames[category]}</p>
+                    <p class="english-text">${capitalizeFirstLetter(category)}</p>
+                `;
                 button.dataset.category = category;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Category button "${category}" clicked! Event target:`, event.target);
@@ -813,8 +840,11 @@
                 if (appState.selectedLevel === level) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                // Wrap text in a span to apply white-space: nowrap
-                button.innerHTML = `<span>${levelNames[level]} ( ${capitalizeFirstLetter(level)} )</span>`;
+                // New structure: Chinese text on top, English below, centered, no parentheses
+                button.innerHTML = `
+                    <p class="chinese-text">${levelNames[level]}</p>
+                    <p class="english-text">${capitalizeFirstLetter(level)}</p>
+                `;
                 button.dataset.level = level;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Level button "${level}" clicked! Event target:`, event.target);
@@ -846,7 +876,7 @@
             if (appState.selectedContentType === 'unit') {
                 unitButton.classList.add('btn-selection-item-selected');
             }
-            unitButton.innerHTML = `<span>按照授课单元</span>`; // Wrap text
+            unitButton.innerHTML = `<span>按照授课单元</span>`; // Keep it simple for now, can be split if needed
             unitButton.dataset.contentType = 'unit';
             unitButton.addEventListener('click', (event) => {
                 console.log(`[Click] Content type button "unit" clicked! Event target:`, event.target);
@@ -866,7 +896,7 @@
                 if (appState.selectedContentType === 'past') {
                     pastButton.classList.add('btn-selection-item-selected');
                 }
-                pastButton.innerHTML = `<span>按照往期内容</span>`; // Wrap text
+                pastButton.innerHTML = `<span>按照往期内容</span>`; // Keep it simple for now
                 pastButton.dataset.contentType = 'past';
                 pastButton.addEventListener('click', (event) => {
                     console.log(`[Click] Content type button "past" clicked! Event target:`, event.target);
@@ -912,7 +942,7 @@
                  if (appState.selectedUnit === unitFileName) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                button.innerHTML = `<span>单元 ${unitNumber}</span>`; // Wrap text
+                button.innerHTML = `<span>单元 ${unitNumber}</span>`; // Keep it simple for now
                 button.dataset.unit = unitFileName;
                 button.addEventListener('click', (event) => {
                     console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
@@ -936,7 +966,7 @@
             } else { // 'past'
                 jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
             }
-            const jsonPath = `data/${jsonFileName}`; // jsonPath is already constructed to include "data/" prefix in vocabStructure
+            const jsonPath = `data/${jsonFileName}`;
             console.log(`[handleFinalSelection] Attempting to load JSON from: ${jsonPath}`);
 
             selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
@@ -1000,6 +1030,7 @@
             endTestBtn.classList.remove('hidden'); // Ensure end test button is always visible during test
             feedbackMessage.classList.remove('hidden');
             exampleSentenceDisplay.classList.remove('hidden');
+            testProgressDisplay.classList.remove('hidden'); // Ensure progress display is visible
 
             loadQuestion();
             console.log('[initializeTestLogic] Test initialized and first question loaded.');
@@ -1221,6 +1252,7 @@
 
         /**
          * Encodes test results into a Base64 string for URL sharing.
+         * Handles non-Latin1 characters.
          * @returns {string} Base64 encoded JSON string of results.
          */
         function encodeResultsForShare() {
@@ -1236,17 +1268,22 @@
                 tq: appState.questionsAttempted,
                 ia: appState.incorrectAnswers
             };
-            return btoa(JSON.stringify(resultsToShare)); // btoa for Base64 encoding
+            // Use encodeURIComponent to handle non-Latin1 characters before btoa
+            return btoa(encodeURIComponent(JSON.stringify(resultsToShare)));
         }
 
         /**
          * Decodes shared results from a Base64 string and populates appState.
+         * Handles non-Latin1 characters.
          * @param {string} encodedString - Base64 encoded string from URL.
          * @returns {boolean} True if successful, false otherwise.
          */
         function decodeAndPopulateResults(encodedString) {
             try {
-                const decodedJson = JSON.parse(atob(encodedString)); // atob for Base64 decoding
+                // Decode from Base64, then decode URI components
+                const decodedJsonString = decodeURIComponent(atob(encodedString));
+                const decodedJson = JSON.parse(decodedJsonString);
+                
                 appState.studentName = decodedJson.n || '';
                 appState.studentClass = decodedJson.c || '';
                 appState.userRole = decodedJson.r || '';
