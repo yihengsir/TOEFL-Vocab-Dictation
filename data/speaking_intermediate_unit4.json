@@ -171,7 +171,7 @@
   },
   {
     "english": "sharp",
-    "pos": "adj",
+    "pos": "adj.",
     "chinese": "时髦的"
   },
   {
@@ -251,87 +251,87 @@
   },
   {
     "english": "be known as",
-    "pos": "被称作",
-    "chinese": "Groups of people whom we admire and whose behavior and attitudes we tend to imitate are known as reference groups."
+    "pos": "phrase",
+    "chinese": "被称作"
   },
   {
     "english": "frame of reference",
-    "pos": "参照系",
-    "chinese": "Reference groups provide a model – a frame of reference – that can shape how we think and behave."
+    "pos": "n.",
+    "chinese": "参照系"
   },
   {
     "english": "in other words",
-    "pos": "换句话说",
-    "chinese": "In other words, the opinions we have of people or situations tend to be based much more on the first information we learn about them than on information we learn later."
+    "pos": "phrase",
+    "chinese": "换句话说"
   },
   {
     "english": "draw attention to",
-    "pos": "吸引注意",
-    "chinese": "By thus simply drawing attention to the effect of the student's behavior, the teacher can often lead the student to discontinue the behavior."
+    "pos": "phrase",
+    "chinese": "吸引注意"
   },
   {
     "english": "run an experiment",
-    "pos": "做实验",
-    "chinese": "Well, during my very first week on the job, I made a suggestion to my boss on how we could improve the way we were running an experiment."
+    "pos": "phrase",
+    "chinese": "做实验"
   },
   {
     "english": "change sb's mind",
-    "pos": "改主意",
-    "chinese": "My boss decided, perhaps without even realizing it…he decided I was a great research assistant, and he never changed his mind."
+    "pos": "phrase",
+    "chinese": "改主意"
   },
   {
     "english": "turn out",
-    "pos": "结果是、原来是",
-    "chinese": "But after that week, she turned out to be better than the professor."
+    "pos": "phrase",
+    "chinese": "结果是、原来是"
   },
   {
     "english": "based on",
-    "pos": "基于",
-    "chinese": "Primacy effect means that the opinions we have of people are based on the first information we learn about them."
+    "pos": "phrase",
+    "chinese": "基于"
   },
   {
     "english": "even though",
-    "pos": "尽管",
-    "chinese": "And after his first week, even though he was only average, his boss always introduced him as the star."
+    "pos": "phrase",
+    "chinese": "尽管"
   },
   {
     "english": "dress up",
-    "pos": "穿着正式",
-    "chinese": "When these young people went out, they preferred to dress up."
+    "pos": "phrase",
+    "chinese": "穿着正式"
   },
   {
     "english": "be influenced by",
-    "pos": "被......影响",
-    "chinese": "We may be influenced by many different reference groups."
+    "pos": "phrase",
+    "chinese": "被......影响"
   },
   {
     "english": "a bunch of",
-    "pos": "一群",
-    "chinese": "I became friends with a bunch of art students."
+    "pos": "phrase",
+    "chinese": "一群"
   },
   {
     "english": "fit in",
-    "pos": "融入",
-    "chinese": "So that’s what I started wearing too and I fit right in and I felt really cool."
+    "pos": "phrase",
+    "chinese": "融入"
   },
   {
     "english": "form opinions about",
-    "pos": "形成关于……的看法",
-    "chinese": "When people form opinions about a person or a situation, those opinions are likely to be based on first impressions."
+    "pos": "phrase",
+    "chinese": "形成关于……的看法"
   },
   {
     "english": "make judgement",
-    "pos": "做出判断",
-    "chinese": "Researchers believe that the primacy effect occurs because after people have made an initial judgment, they tend to notice evidence that supports that judgment."
+    "pos": "phrase",
+    "chinese": "做出判断"
   },
   {
     "english": "handle responsibility",
-    "pos": "承担责任",
-    "chinese": "I started working with some really bright young people who’d already been working at the company for a few years, who were already handling major responsibilities for the company."
+    "pos": "phrase",
+    "chinese": "承担责任"
   },
   {
     "english": "thought of sb. as",
-    "pos": "认为某人是",
-    "chinese": "But our boss thought of her asunreliable ’cuz he only noticed her mistakes."
+    "pos": "phrase",
+    "chinese": "认为某人是"
   }
 ]
