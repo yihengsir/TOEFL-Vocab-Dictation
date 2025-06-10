@@ -1,42 +1,292 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "洞穴",
+    "english": "burrow",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "生态系统",
+    "english": "ecosystem",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "放松",
+    "english": "loosen",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "鹰",
+    "english": "owl",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "好处",
+    "english": "benefit",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "松的",
+    "english": "loose",
+    "pos": "adj."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "挖掘",
+    "english": "dig",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "提供",
+    "english": "provide",
+    "pos": "v."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "侵略",
+    "english": "invasion",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "介绍",
+    "english": "introduce",
+    "pos": "v."
+  },
+  {
+    "chinese": "资源",
+    "english": "resources",
+    "pos": "n."
+  },
+  {
+    "chinese": "藻类",
+    "english": "algae",
+    "pos": "n."
+  },
+  {
+    "chinese": "威胁",
+    "english": "threat",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "泥土",
+    "english": "soil",
+    "pos": "n."
+  },
+  {
+    "chinese": "遮蔽物",
+    "english": "shelter",
+    "pos": "n."
+  },
+  {
+    "chinese": "草原",
+    "english": "prairie",
+    "pos": "n."
+  },
+  {
+    "chinese": "沙漠",
+    "english": "desert",
+    "pos": "n."
+  },
+  {
+    "chinese": "北极",
+    "english": "Arctic",
+    "pos": "n."
+  },
+  {
+    "chinese": "厚的",
+    "english": "thick",
+    "pos": "adj."
+  },
+  {
+    "chinese": "隐秘的",
+    "english": "hidden",
+    "pos": "adj."
+  },
+  {
+    "chinese": "有益的",
+    "english": "beneficial",
+    "pos": "adj."
+  },
+  {
+    "chinese": "暴露的",
+    "english": "exposed",
+    "pos": "adj."
+  },
+  {
+    "chinese": "故意的",
+    "english": "intentional",
+    "pos": "adj."
+  },
+  {
+    "chinese": "竞争",
+    "english": "compete",
+    "pos": "v."
+  },
+  {
+    "chinese": "鲤鱼",
+    "english": "carp",
+    "pos": "n."
+  },
+  {
+    "chinese": "濒危的",
+    "english": "endangered",
+    "pos": "adj."
+  },
+  {
+    "chinese": "危害",
+    "english": "damage",
+    "pos": "n."
+  },
+  {
+    "chinese": "环境的",
+    "english": "environmental",
+    "pos": "adj."
+  },
+  {
+    "chinese": "草原",
+    "english": "grassland",
+    "pos": "n."
+  },
+  {
+    "chinese": "海洋",
+    "english": "ocean",
+    "pos": "n."
+  },
+  {
+    "chinese": "讲座",
+    "english": "lecture",
+    "pos": "n."
+  },
+  {
+    "chinese": "提及",
+    "english": "mention",
+    "pos": "v."
+  },
+  {
+    "chinese": "稠密的",
+    "english": "dense",
+    "pos": "adj."
+  },
+  {
+    "chinese": "蚯蚓",
+    "english": "earthworm",
+    "pos": "n."
+  },
+  {
+    "chinese": "必要的",
+    "english": "necessary",
+    "pos": "adj."
+  },
+  {
+    "chinese": "制作",
+    "english": "produce",
+    "pos": "v."
+  },
+  {
+    "chinese": "海豚",
+    "english": "dolphin",
+    "pos": "n."
+  },
+  {
+    "chinese": "鲸鱼",
+    "english": "whale",
+    "pos": "n."
+  },
+  {
+    "chinese": "海洋的",
+    "english": "marine",
+    "pos": "adj."
+  },
+  {
+    "chinese": "兽群",
+    "english": "herd",
+    "pos": "n."
+  },
+  {
+    "chinese": "边界",
+    "english": "barrier",
+    "pos": "n."
+  },
+  {
+    "chinese": "暂时的",
+    "english": "temporary",
+    "pos": "adj."
+  },
+  {
+    "chinese": "在......下方",
+    "english": "beneath",
+    "pos": "prep."
+  },
+  {
+    "chinese": "使糊涂",
+    "english": "confuse",
+    "pos": "v."
+  },
+  {
+    "chinese": "使惊吓",
+    "english": "frighten",
+    "pos": "v."
+  },
+  {
+    "chinese": "吹",
+    "english": "blow",
+    "pos": "v."
+  },
+  {
+    "chinese": "泡沫",
+    "english": "bubble",
+    "pos": "n."
+  },
+  {
+    "chinese": "特定的",
+    "english": "particular",
+    "pos": "adj."
+  },
+  {
+    "chinese": "破坏",
+    "english": "destroy",
+    "pos": "v."
+  },
+  {
+    "chinese": "暴露在",
+    "english": "be exposed to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "保护......免受......伤害",
+    "english": "protect from",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "给......提供......",
+    "english": "provide for",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "保障......安全",
+    "english": "keep sb./sth. safe",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "被......摧毁",
+    "english": "be destroyed by",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "在......中扮演重要的角色",
+    "english": "play an important role in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "对......有益处",
+    "english": "be beneficial to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "珊瑚礁",
+    "english": "coral reef",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "生根，扎根",
+    "english": "take root",
+    "pos": "phrase"
   }
 ]
