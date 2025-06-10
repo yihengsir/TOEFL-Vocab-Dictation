@@ -291,47 +291,47 @@
   },
   {
     "english": "divide sth up",
-    "pos": "分开",
-    "chinese": "instead, they scatter it—divide it up and hide it in many places."
+    "pos": "phrase",
+    "chinese": "分开"
   },
   {
     "english": "hide sth in",
-    "pos": "隐藏",
-    "chinese": "Instead, they tend to divide the food up and hide it in many different places."
+    "pos": "phrase",
+    "chinese": "隐藏"
   },
   {
     "english": "fall from",
-    "pos": "从某处掉落",
-    "chinese": "Because that’s when they fall from the trees, you know, they are everywhere."
+    "pos": "phrase",
+    "chinese": "从某处掉落"
   },
   {
     "english": "put sth in",
-    "pos": "将某物放入",
-    "chinese": "The squirrels will actually dig hundreds of holes and just put one nut in each hole."
+    "pos": "phrase",
+    "chinese": "将某物放入"
   },
   {
     "english": "cause ... changes",
-    "pos": "造成某种影响",
-    "chinese": "Biotic and abiotic factors cause continual changes in the number of individuals that make up a population of organisms."
+    "pos": "phrase",
+    "chinese": "造成某种影响"
   },
   {
     "english": "conflict over sth",
-    "pos": "关于某事物的冲突",
-    "chinese": "Within certain animal species, conflicts sometimes arise over resources such as territory or food."
+    "pos": "phrase",
+    "chinese": "关于某事物的冲突"
   },
   {
     "english": "resolve conflict",
-    "pos": "解决冲突",
-    "chinese": "To resolve these conflicts, two animals of the same species may engage in agonistic behavior."
+    "pos": "phrase",
+    "chinese": "解决冲突"
   },
   {
     "english": "for future use",
-    "pos": "在未来使用",
-    "chinese": "In such environments, some animals collect and prepare food when it is plentiful, then hoard it—store it—for future use."
+    "pos": "phrase",
+    "chinese": "在未来使用"
   },
   {
     "english": "Once sth is established",
-    "pos": "一旦某物出现",
-    "chinese": "Once the winner is established, that animal gains access to the desired resources, while the weaker animal surrenders and leaves the area."
+    "pos": "phrase",
+    "chinese": "一旦某物出现"
   }
 ]
