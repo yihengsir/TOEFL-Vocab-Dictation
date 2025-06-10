@@ -1,1 +1,502 @@
-[]
+[
+  {
+    "english": "crucial",
+    "pos": "adj.",
+    "chinese": "至关重要的，关键的"
+  },
+  {
+    "english": "upcoming",
+    "pos": "adj.",
+    "chinese": "即将来临的"
+  },
+  {
+    "english": "instruction",
+    "pos": "n.",
+    "chinese": "教授，传授"
+  },
+  {
+    "english": "debate",
+    "pos": "n.",
+    "chinese": "辩论"
+  },
+  {
+    "english": "foundation",
+    "pos": "n.",
+    "chinese": "基础"
+  },
+  {
+    "english": "merit",
+    "pos": "n.",
+    "chinese": "优点"
+  },
+  {
+    "english": "comprehensive",
+    "pos": "adj.",
+    "chinese": "综合的"
+  },
+  {
+    "english": "ensure",
+    "pos": "v.",
+    "chinese": "确保"
+  },
+  {
+    "english": "receive",
+    "pos": "v.",
+    "chinese": "接收，收到"
+  },
+  {
+    "english": "expert",
+    "pos": "n.",
+    "chinese": "专家"
+  },
+  {
+    "english": "failure",
+    "pos": "n.",
+    "chinese": "失败"
+  },
+  {
+    "english": "focus",
+    "pos": "n.",
+    "chinese": "中心点，焦点"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "collaboration",
+    "pos": "n.",
+    "chinese": "合作，协作"
+  },
+  {
+    "english": "communication",
+    "pos": "n.",
+    "chinese": "交流"
+  },
+  {
+    "english": "contrast",
+    "pos": "n.",
+    "chinese": "对比"
+  },
+  {
+    "english": "critical",
+    "pos": "adj.",
+    "chinese": "关键的"
+  },
+  {
+    "english": "enhance",
+    "pos": "v.",
+    "chinese": "提高，增强"
+  },
+  {
+    "english": "essential",
+    "pos": "adj.",
+    "chinese": "必不可少的，基本的"
+  },
+  {
+    "english": "foster",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "lecture",
+    "pos": "v.",
+    "chinese": "授课、讲授"
+  },
+  {
+    "english": "prioritize",
+    "pos": "v.",
+    "chinese": "优先处理，优先顺序划分"
+  },
+  {
+    "english": "preferable",
+    "pos": "adj.",
+    "chinese": "更好的"
+  },
+  {
+    "english": "cultivation",
+    "pos": "n.",
+    "chinese": "（品质）的培养"
+  },
+  {
+    "english": "random",
+    "pos": "n.",
+    "chinese": "随意；随机"
+  },
+  {
+    "english": "session",
+    "pos": "n.",
+    "chinese": "学年，一段时间"
+  },
+  {
+    "english": "entire",
+    "pos": "adj.",
+    "chinese": "整个的"
+  },
+  {
+    "english": "conducive",
+    "pos": "adj.",
+    "chinese": "有助的，有益的"
+  },
+  {
+    "english": "therefore",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "advantageous",
+    "pos": "adj.",
+    "chinese": "有利的，有益的"
+  },
+  {
+    "english": "position",
+    "pos": "n.",
+    "chinese": "立场"
+  },
+  {
+    "english": "job-sharing",
+    "pos": "n.",
+    "chinese": "轮班制"
+  },
+  {
+    "english": "complexity",
+    "pos": "n.",
+    "chinese": "复杂性"
+  },
+  {
+    "english": "interpret",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "definitely",
+    "pos": "adv.",
+    "chinese": "肯定地，明确地"
+  },
+  {
+    "english": "major",
+    "pos": "n.",
+    "chinese": "专业"
+  },
+  {
+    "english": "perspective",
+    "pos": "n.",
+    "chinese": "观点、角度"
+  },
+  {
+    "english": "relevant",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "ancient",
+    "pos": "adj.",
+    "chinese": "古代的"
+  },
+  {
+    "english": "civilization",
+    "pos": "n.",
+    "chinese": "文明，文明社会"
+  },
+  {
+    "english": "ultimately",
+    "pos": "adv.",
+    "chinese": "最终地"
+  },
+  {
+    "english": "defeat",
+    "pos": "v.",
+    "chinese": "击败"
+  },
+  {
+    "english": "elaborate",
+    "pos": "v.",
+    "chinese": "详尽阐述"
+  },
+  {
+    "english": "whereas",
+    "pos": "conj.",
+    "chinese": "然而，但是"
+  },
+  {
+    "english": "superlative",
+    "pos": "n.",
+    "chinese": "最高级"
+  },
+  {
+    "english": "compulsory",
+    "pos": "adj.",
+    "chinese": "强制的，义务的"
+  },
+  {
+    "english": "optional",
+    "pos": "adj.",
+    "chinese": "可选择的"
+  },
+  {
+    "english": "empathy",
+    "pos": "n.",
+    "chinese": "同情"
+  },
+  {
+    "english": "informed",
+    "pos": "adj.",
+    "chinese": "有学问的，有见识的"
+  },
+  {
+    "english": "mandatory",
+    "pos": "adj.",
+    "chinese": "强制性的，义务的"
+  },
+  {
+    "english": "play a crucial role in...",
+    "pos": "v.",
+    "chinese": "在......中起关键作用"
+  },
+  {
+    "english": "teacher-centered/student-centered education",
+    "pos": "n.",
+    "chinese": "以教师/学生为中心的教育"
+  },
+  {
+    "english": "cover all necessary topics",
+    "pos": "v.",
+    "chinese": "涵盖所有必要的主题"
+  },
+  {
+    "english": "place the focus on the student's interests and preferences",
+    "pos": "v.",
+    "chinese": "把关注点放在学生的兴趣和偏好上"
+  },
+  {
+    "english": "a lack of structure",
+    "pos": "n.",
+    "chinese": "缺乏结构"
+  },
+  {
+    "english": "prioritize students' needs and interests",
+    "pos": "v.",
+    "chinese": "优先考虑学生的需要和兴趣"
+  },
+  {
+    "english": "allow students to do",
+    "pos": "v.",
+    "chinese": "允许学生做"
+  },
+  {
+    "english": "take an active role in their learning",
+    "pos": "v.",
+    "chinese": "在学习中发挥积极作用"
+  },
+  {
+    "english": "develop critical thinking skills",
+    "pos": "v.",
+    "chinese": "培养批判性思维技能"
+  },
+  {
+    "english": "promote collaboration and communication among peers",
+    "pos": "v.",
+    "chinese": "促进同龄人之间的协作和交流"
+  },
+  {
+    "english": "prepare students for the real world",
+    "pos": "v.",
+    "chinese": "让学生为真实世界做好准备"
+  },
+  {
+    "english": "self-regulated learning",
+    "pos": "n.",
+    "chinese": "自主学习"
+  },
+  {
+    "english": "interpersonal skills",
+    "pos": "n.",
+    "chinese": "人际交往能力"
+  },
+  {
+    "english": "be direct and time-efficient",
+    "pos": "adj.",
+    "chinese": "直接且省时"
+  },
+  {
+    "english": "ensure the accuracy of the course content",
+    "pos": "v.",
+    "chinese": "确保课程内容的准确性"
+  },
+  {
+    "english": "maximize teaching time",
+    "pos": "v.",
+    "chinese": "最大化利用教学时间"
+  },
+  {
+    "english": "prevent students from talking off topic",
+    "pos": "v.",
+    "chinese": "防止学生谈论无关话题"
+  },
+  {
+    "english": "stimulate students' interest",
+    "pos": "v.",
+    "chinese": "激发学生的兴趣"
+  },
+  {
+    "english": "promote social and emotional well-being",
+    "pos": "v.",
+    "chinese": "促进社交和情感上快乐"
+  },
+  {
+    "english": "foster creativity and innovation",
+    "pos": "v.",
+    "chinese": "培养创造力和创新"
+  },
+  {
+    "english": "I would subscribe to...",
+    "pos": "句型",
+    "chinese": "我支持...."
+  },
+  {
+    "english": "in addition to",
+    "pos": "prep.",
+    "chinese": "除了"
+  },
+  {
+    "english": "lecture-style approach",
+    "pos": "n.",
+    "chinese": "讲授式教学法"
+  },
+  {
+    "english": "self-assurance",
+    "pos": "n.",
+    "chinese": "自信"
+  },
+  {
+    "english": "be intimidating and daunting",
+    "pos": "adj.",
+    "chinese": "令人生畏和畏缩"
+  },
+  {
+    "english": "engage in",
+    "pos": "v.",
+    "chinese": "参加"
+  },
+  {
+    "english": "empower high school students to do",
+    "pos": "v.",
+    "chinese": "让高中生去做"
+  },
+  {
+    "english": "take ownership of learning",
+    "pos": "v.",
+    "chinese": "掌握学习的主动权"
+  },
+  {
+    "english": "a sense of identity",
+    "pos": "n.",
+    "chinese": "认同感"
+  },
+  {
+    "english": "historical events",
+    "pos": "n.",
+    "chinese": "历史事件"
+  },
+  {
+    "english": "impact on",
+    "pos": "prep.",
+    "chinese": "在...方面的影响"
+  },
+  {
+    "english": "regardless of",
+    "pos": "prep.",
+    "chinese": "不管，不顾"
+  },
+  {
+    "english": "well-rounded education",
+    "pos": "n.",
+    "chinese": "全面的教育"
+  },
+  {
+    "english": "hold a different view",
+    "pos": "v.",
+    "chinese": "持有不同的观点"
+  },
+  {
+    "english": "provide valuable insights into the past",
+    "pos": "v.",
+    "chinese": "提供关于过去的有价值的见解"
+  },
+  {
+    "english": "ancient civilization",
+    "pos": "n.",
+    "chinese": "古文明"
+  },
+  {
+    "english": "force students to...",
+    "pos": "v.",
+    "chinese": "强迫学生去做..."
+  },
+  {
+    "english": "disinterest and lack of engagement",
+    "pos": "n.",
+    "chinese": "没有兴趣，缺乏参与度"
+  },
+  {
+    "english": "open up new perspectives",
+    "pos": "v.",
+    "chinese": "开拓新视野"
+  },
+  {
+    "english": "cultural heritage",
+    "pos": "n.",
+    "chinese": "文化遗产"
+  },
+  {
+    "english": "career opportunity",
+    "pos": "n.",
+    "chinese": "职业机会"
+  },
+  {
+    "english": "additional expenses",
+    "pos": "n.",
+    "chinese": "额外费用"
+  },
+  {
+    "english": "hands-on",
+    "pos": "adj.",
+    "chinese": "亲自动手的，实际操作的"
+  },
+  {
+    "english": "I would vote for...",
+    "pos": "句型",
+    "chinese": "我支持..."
+  },
+  {
+    "english": "technical disciplines",
+    "pos": "n.",
+    "chinese": "具体技术性学科"
+  },
+  {
+    "english": "an overwhelming majority of",
+    "pos": "prep.",
+    "chinese": "大多数..."
+  },
+  {
+    "english": "conduct research",
+    "pos": "v.",
+    "chinese": "进行研究"
+  },
+  {
+    "english": "historical figures",
+    "pos": "n.",
+    "chinese": "历史人物"
+  },
+  {
+    "english": "the persuasiveness of arguments",
+    "pos": "n.",
+    "chinese": "论点的说服力"
+  },
+  {
+    "english": "learning interest and motivation",
+    "pos": "n.",
+    "chinese": "学习兴趣和动力"
+  }
+]
