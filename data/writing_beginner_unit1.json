@@ -1,1 +1,477 @@
-[]
+[
+  {
+    "english": "enhance learning experience",
+    "pos": "v.",
+    "chinese": "增强学习体验"
+  },
+  {
+    "english": "exposure to new experiences",
+    "pos": "n.",
+    "chinese": "接触新的体验"
+  },
+  {
+    "english": "active engagement",
+    "pos": "n.",
+    "chinese": "积极的参与度"
+  },
+  {
+    "english": "practical knowledge",
+    "pos": "n.",
+    "chinese": "实际实用的知识"
+  },
+  {
+    "english": "social skills development",
+    "pos": "n.",
+    "chinese": "社交技能发展"
+  },
+  {
+    "english": "real-world problem solving",
+    "pos": "n.",
+    "chinese": "现实世界问题的解决"
+  },
+  {
+    "english": "inspiration and motivation",
+    "pos": "n.",
+    "chinese": "灵感和动力"
+  },
+  {
+    "english": "memory retention",
+    "pos": "n.",
+    "chinese": "记忆保持"
+  },
+  {
+    "english": "fun and relaxation",
+    "pos": "n.",
+    "chinese": "乐趣和放松"
+  },
+  {
+    "english": "cultural awareness",
+    "pos": "n.",
+    "chinese": "文化意识"
+  },
+  {
+    "english": "physical activity",
+    "pos": "n.",
+    "chinese": "体能运动/ 活动"
+  },
+  {
+    "english": "encourage curiosity",
+    "pos": "v.",
+    "chinese": "鼓励好奇心"
+  },
+  {
+    "english": "use what they have learned in real-life situations",
+    "pos": "v.",
+    "chinese": "把学习到的用于现实情况"
+  },
+  {
+    "english": "learn by doing and interacting",
+    "pos": "v.",
+    "chinese": "在实践和互动中学习"
+  },
+  {
+    "english": "see the world in a wider way",
+    "pos": "v.",
+    "chinese": "以更广阔的方式看世界"
+  },
+  {
+    "english": "structured learning",
+    "pos": "n.",
+    "chinese": "结构化学习"
+  },
+  {
+    "english": "consistent learning pace",
+    "pos": "n.",
+    "chinese": "均衡的学习进度"
+  },
+  {
+    "english": "continual assessment",
+    "pos": "n.",
+    "chinese": "持续评估"
+  },
+  {
+    "english": "in-depth learning",
+    "pos": "n.",
+    "chinese": "深入学习"
+  },
+  {
+    "english": "controlled environment",
+    "pos": "n.",
+    "chinese": "受控的环境"
+  },
+  {
+    "english": "regular interaction",
+    "pos": "n.",
+    "chinese": "定期互动"
+  },
+  {
+    "english": "cost-effective",
+    "pos": "adj.",
+    "chinese": "性价比高"
+  },
+  {
+    "english": "time management",
+    "pos": "n.",
+    "chinese": "时间管理"
+  },
+  {
+    "english": "availability of learning resources",
+    "pos": "n.",
+    "chinese": "学习资源的可用性"
+  },
+  {
+    "english": "curriculum alignment",
+    "pos": "n.",
+    "chinese": "课程对齐"
+  },
+  {
+    "english": "learn and work together better",
+    "pos": "v.",
+    "chinese": "更好的学习和合作"
+  },
+  {
+    "english": "keep things safe and under control",
+    "pos": "v.",
+    "chinese": "确保安全和可控"
+  },
+  {
+    "english": "attend a science camp",
+    "pos": "v.",
+    "chinese": "参加科学营"
+  },
+  {
+    "english": "field trips",
+    "pos": "n.",
+    "chinese": "实地考察，研学"
+  },
+  {
+    "english": "become more interested in the topic",
+    "pos": "v.",
+    "chinese": "对这个话题更感兴趣"
+  },
+  {
+    "english": "historical sites",
+    "pos": "n.",
+    "chinese": "历史遗址"
+  },
+  {
+    "english": "stick to...",
+    "pos": "v.",
+    "chinese": "坚持 (某事/ 某物）"
+  },
+  {
+    "english": "learn as much as possible",
+    "pos": "v.",
+    "chinese": "尽可能多地学习"
+  },
+  {
+    "english": "ways of thinking",
+    "pos": "n.",
+    "chinese": "思考方式"
+  },
+  {
+    "english": "nature reserve",
+    "pos": "n.",
+    "chinese": "自然保护区"
+  },
+  {
+    "english": "provide specific examples",
+    "pos": "v.",
+    "chinese": "提供具体的例子"
+  },
+  {
+    "english": "first hand",
+    "pos": "adv.",
+    "chinese": "亲身"
+  },
+  {
+    "english": "have a close contact with nature",
+    "pos": "v.",
+    "chinese": "与自然亲密接触"
+  },
+  {
+    "english": "broaden students' horizons",
+    "pos": "v.",
+    "chinese": "拓宽学生的视野"
+  },
+  {
+    "english": "time-efficient",
+    "pos": "adj.",
+    "chinese": "高效的"
+  },
+  {
+    "english": "a suitable learning environment",
+    "pos": "n.",
+    "chinese": "合适的学习环境"
+  },
+  {
+    "english": "increase students' interest in study",
+    "pos": "v.",
+    "chinese": "提高学生学习兴趣"
+  },
+  {
+    "english": "financial planning",
+    "pos": "n.",
+    "chinese": "财务规划"
+  },
+  {
+    "english": "equip students with critical skills",
+    "pos": "v.",
+    "chinese": "让学生掌握关键的技能"
+  },
+  {
+    "english": "apply in real-life situations",
+    "pos": "v.",
+    "chinese": "应用到现实情况"
+  },
+  {
+    "english": "attend",
+    "pos": "v.",
+    "chinese": "参加"
+  },
+  {
+    "english": "subject",
+    "pos": "n.",
+    "chinese": "科目"
+  },
+  {
+    "english": "semester",
+    "pos": "n.",
+    "chinese": "学期"
+  },
+  {
+    "english": "experience",
+    "pos": "n.",
+    "chinese": "经历，经验"
+  },
+  {
+    "english": "communicate",
+    "pos": "v.",
+    "chinese": "交流"
+  },
+  {
+    "english": "interact",
+    "pos": "v.",
+    "chinese": "互动"
+  },
+  {
+    "english": "control",
+    "pos": "v.",
+    "chinese": "控制"
+  },
+  {
+    "english": "specific",
+    "pos": "adj.",
+    "chinese": "具体的"
+  },
+  {
+    "english": "method",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "approach",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "chance",
+    "pos": "n.",
+    "chinese": "机会"
+  },
+  {
+    "english": "complex",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "concern",
+    "pos": "v.",
+    "chinese": "关注；涉及"
+  },
+  {
+    "english": "benefit",
+    "pos": "n.",
+    "chinese": "利益"
+  },
+  {
+    "english": "cause",
+    "pos": "v.",
+    "chinese": "引起"
+  },
+  {
+    "english": "secondary",
+    "pos": "adj.",
+    "chinese": "次要的；二级的"
+  },
+  {
+    "english": "compulsory",
+    "pos": "adj.",
+    "chinese": "必修的"
+  },
+  {
+    "english": "equation",
+    "pos": "n.",
+    "chinese": "方程式"
+  },
+  {
+    "english": "commonly",
+    "pos": "adv.",
+    "chinese": "通常地"
+  },
+  {
+    "english": "medication",
+    "pos": "n.",
+    "chinese": "药物"
+  },
+  {
+    "english": "safety",
+    "pos": "n.",
+    "chinese": "安全"
+  },
+  {
+    "english": "beneficial",
+    "pos": "adj.",
+    "chinese": "有益的"
+  },
+  {
+    "english": "gallery",
+    "pos": "n.",
+    "chinese": "画廊"
+  },
+  {
+    "english": "innovate",
+    "pos": "v.",
+    "chinese": "创新"
+  },
+  {
+    "english": "deep",
+    "pos": "adj.",
+    "chinese": "深的"
+  },
+  {
+    "english": "wide",
+    "pos": "adj.",
+    "chinese": "宽的"
+  },
+  {
+    "english": "arrange",
+    "pos": "v.",
+    "chinese": "安排"
+  },
+  {
+    "english": "instance",
+    "pos": "n.",
+    "chinese": "例子"
+  },
+  {
+    "english": "improve",
+    "pos": "v.",
+    "chinese": "提高"
+  },
+  {
+    "english": "stage",
+    "pos": "n.",
+    "chinese": "阶段"
+  },
+  {
+    "english": "cost",
+    "pos": "n.",
+    "chinese": "成本"
+  },
+  {
+    "english": "insurance",
+    "pos": "n.",
+    "chinese": "保险"
+  },
+  {
+    "english": "staff",
+    "pos": "n.",
+    "chinese": "员工"
+  },
+  {
+    "english": "sense",
+    "pos": "n.",
+    "chinese": "感觉"
+  },
+  {
+    "english": "devote",
+    "pos": "v.",
+    "chinese": "奉献"
+  },
+  {
+    "english": "efficient",
+    "pos": "adj.",
+    "chinese": "高效的"
+  },
+  {
+    "english": "direct",
+    "pos": "adj.",
+    "chinese": "直接的"
+  },
+  {
+    "english": "appreciate",
+    "pos": "v.",
+    "chinese": "喜欢，欣赏"
+  },
+  {
+    "english": "contact",
+    "pos": "v.",
+    "chinese": "联系"
+  },
+  {
+    "english": "curiosity",
+    "pos": "n.",
+    "chinese": "好奇心"
+  },
+  {
+    "english": "challenge",
+    "pos": "n.",
+    "chinese": "挑战"
+  },
+  {
+    "english": "botany",
+    "pos": "n.",
+    "chinese": "植物学"
+  },
+  {
+    "english": "memorable",
+    "pos": "adj.",
+    "chinese": "难忘的"
+  },
+  {
+    "english": "react",
+    "pos": "v.",
+    "chinese": "反应"
+  },
+  {
+    "english": "related",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "worth",
+    "pos": "adj.",
+    "chinese": "有...价值"
+  },
+  {
+    "english": "department",
+    "pos": "n.",
+    "chinese": "部门"
+  },
+  {
+    "english": "costly",
+    "pos": "adj.",
+    "chinese": "昂贵的"
+  },
+  {
+    "english": "maximize",
+    "pos": "v.",
+    "chinese": "最大化"
+  },
+  {
+    "english": "critical",
+    "pos": "adj.",
+    "chinese": "关键的"
+  }
+]
