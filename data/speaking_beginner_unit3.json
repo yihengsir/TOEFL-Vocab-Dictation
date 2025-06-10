@@ -1,42 +1,302 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "运动鞋",
+    "english": "sneaker",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "背包",
+    "english": "backpack",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "笔记本电脑",
+    "english": "laptop",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "独特的",
+    "english": "unique",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "忠诚的",
+    "english": "loyal",
+    "pos": "adj."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "感到安全",
+    "english": "feel safe",
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "期待",
+    "english": "expect",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "额外的服务",
+    "english": "extra services",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "推荐",
+    "english": "recommend",
+    "pos": "v."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "发现",
+    "english": "discover",
+    "pos": "v."
+  },
+  {
+    "chinese": "选项",
+    "english": "option",
+    "pos": "n."
+  },
+  {
+    "chinese": "潜在地",
+    "english": "potentially",
+    "pos": "adv."
+  },
+  {
+    "chinese": "额外的",
+    "english": "supplementary",
+    "pos": "adj."
+  },
+  {
+    "chinese": "满足",
+    "english": "satisfy",
+    "pos": "v."
+  },
+  {
+    "chinese": "深入想尽的",
+    "english": "in-depth",
+    "pos": "adj."
+  },
+  {
+    "chinese": "折扣",
+    "english": "discount",
+    "pos": "n."
+  },
+  {
+    "chinese": "热情好客的",
+    "english": "welcoming",
+    "pos": "adj."
+  },
+  {
+    "chinese": "不友好的，难以接近的",
+    "english": "unapproachable",
+    "pos": "adj."
+  },
+  {
+    "chinese": "过于昂贵的",
+    "english": "overpriced",
+    "pos": "adj."
+  },
+  {
+    "chinese": "例子",
+    "english": "example",
+    "pos": "n."
+  },
+  {
+    "chinese": "部门",
+    "english": "department",
+    "pos": "n."
+  },
+  {
+    "chinese": "产品",
+    "english": "product",
+    "pos": "n."
+  },
+  {
+    "chinese": "有限的",
+    "english": "limited",
+    "pos": "adj."
+  },
+  {
+    "chinese": "包括",
+    "english": "include",
+    "pos": "v."
+  },
+  {
+    "chinese": "观点",
+    "english": "opinion",
+    "pos": "n."
+  },
+  {
+    "chinese": "比较",
+    "english": "comparison",
+    "pos": "n."
+  },
+  {
+    "chinese": "超级的",
+    "english": "super",
+    "pos": "adj."
+  },
+  {
+    "chinese": "员工",
+    "english": "staff",
+    "pos": "n."
+  },
+  {
+    "chinese": "知识",
+    "english": "knowledge",
+    "pos": "n."
+  },
+  {
+    "chinese": "专业地",
+    "english": "professionally",
+    "pos": "adv."
+  },
+  {
+    "chinese": "更多地",
+    "english": "furthermore",
+    "pos": "adv."
+  },
+  {
+    "chinese": "更喜欢",
+    "english": "prefer",
+    "pos": "v."
+  },
+  {
+    "chinese": "对立面",
+    "english": "contrary",
+    "pos": "n."
+  },
+  {
+    "chinese": "预算",
+    "english": "budget",
+    "pos": "n."
+  },
+  {
+    "chinese": "合理的",
+    "english": "valid",
+    "pos": "adj."
+  },
+  {
+    "chinese": "结果",
+    "english": "result",
+    "pos": "n."
+  },
+  {
+    "chinese": "正面的；积极的",
+    "english": "positive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "顾客",
+    "english": "customer",
+    "pos": "n."
+  },
+  {
+    "chinese": "好处",
+    "english": "benefit",
+    "pos": "n."
+  },
+  {
+    "chinese": "品牌",
+    "english": "brand",
+    "pos": "n."
+  },
+  {
+    "chinese": "提供",
+    "english": "provide",
+    "pos": "v."
+  },
+  {
+    "chinese": "优势",
+    "english": "advantage",
+    "pos": "n."
+  },
+  {
+    "chinese": "贡献",
+    "english": "contribution",
+    "pos": "n."
+  },
+  {
+    "chinese": "讨论",
+    "english": "discussion",
+    "pos": "n."
+  },
+  {
+    "chinese": "切换",
+    "english": "switch",
+    "pos": "v."
+  },
+  {
+    "chinese": "购买",
+    "english": "purchase",
+    "pos": "v."
+  },
+  {
+    "chinese": "总体而言；总的来说",
+    "english": "overall",
+    "pos": "adv."
+  },
+  {
+    "chinese": "冒......风险",
+    "english": "run the risk of",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "低质量产品",
+    "english": "lower quality products",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "专业训练",
+    "english": "professionally trained",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "深入知识",
+    "english": "in-depth knowledge",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "补充的用品",
+    "english": "supplementary offerings",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "提供额外服务",
+    "english": "provide extra services",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "溢价商品",
+    "english": "overpriced products",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "在预算之内",
+    "english": "within budget",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "安全又舒服",
+    "english": "safe and comfortable",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "导致",
+    "english": "result in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "坚持",
+    "english": "stick to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "省钱",
+    "english": "save money",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "与...建立信任",
+    "english": "Build trust with",
+    "pos": "phrase"
   }
 ]
