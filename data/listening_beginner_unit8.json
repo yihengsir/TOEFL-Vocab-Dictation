@@ -1,0 +1,182 @@
+[
+  {
+    "english": "star",
+    "pos": "n.",
+    "chinese": "恒星"
+  },
+  {
+    "english": "planet",
+    "pos": "n.",
+    "chinese": "行星"
+  },
+  {
+    "english": "moon",
+    "pos": "n.",
+    "chinese": "卫星"
+  },
+  {
+    "english": "galaxy",
+    "pos": "n.",
+    "chinese": "星系，银河系"
+  },
+  {
+    "english": "terrestrial",
+    "pos": "n.",
+    "chinese": "地球的"
+  },
+  {
+    "english": "backup",
+    "pos": "n.",
+    "chinese": "备份；支援"
+  },
+  {
+    "english": "substance",
+    "pos": "n.",
+    "chinese": "物质"
+  },
+  {
+    "english": "disk",
+    "pos": "n.",
+    "chinese": "圆盘"
+  },
+  {
+    "english": "distribute",
+    "pos": "v.",
+    "chinese": "分布，分散"
+  },
+  {
+    "english": "clump",
+    "pos": "v./n.",
+    "chinese": "v.（使）聚成簇；n. 丛、簇"
+  },
+  {
+    "english": "spherical",
+    "pos": "adj.",
+    "chinese": "球状的，球形的"
+  },
+  {
+    "english": "mass",
+    "pos": "n.",
+    "chinese": "质量"
+  },
+  {
+    "english": "spectrum",
+    "pos": "n.",
+    "chinese": "光谱"
+  },
+  {
+    "english": "partially",
+    "pos": "adv.",
+    "chinese": "不完全地，部分的"
+  },
+  {
+    "english": "atmosphere",
+    "pos": "n.",
+    "chinese": "大气（层）"
+  },
+  {
+    "english": "stabilize",
+    "pos": "v.",
+    "chinese": "（使）稳固，（使）稳定"
+  },
+  {
+    "english": "liquid",
+    "pos": "n.&adj.",
+    "chinese": "n. 液体；adj. 液态的"
+  },
+  {
+    "english": "orbit",
+    "pos": "v./n.",
+    "chinese": "v. 沿轨道运行；n. 轨道"
+  },
+  {
+    "english": "Mercury",
+    "pos": "n.",
+    "chinese": "水星"
+  },
+  {
+    "english": "Venus",
+    "pos": "n.",
+    "chinese": "金星"
+  },
+  {
+    "english": "Earth",
+    "pos": "n.",
+    "chinese": "地球"
+  },
+  {
+    "english": "Mars",
+    "pos": "n.",
+    "chinese": "火星"
+  },
+  {
+    "english": "Jupiter",
+    "pos": "n.",
+    "chinese": "木星"
+  },
+  {
+    "english": "Saturn",
+    "pos": "n.",
+    "chinese": "土星"
+  },
+  {
+    "english": "Uranus",
+    "pos": "n.",
+    "chinese": "天王星"
+  },
+  {
+    "english": "Neptune",
+    "pos": "n.",
+    "chinese": "海王星"
+  },
+  {
+    "english": "enormous",
+    "pos": "adj.",
+    "chinese": "巨大的，庞大的"
+  },
+  {
+    "english": "famous",
+    "pos": "adj.",
+    "chinese": "出名的"
+  },
+  {
+    "english": "metal",
+    "pos": "n.",
+    "chinese": "金属"
+  },
+  {
+    "english": "solid",
+    "pos": "n./adj.",
+    "chinese": "n. 固体/ adj. 坚硬的"
+  },
+  {
+    "english": "surface",
+    "pos": "n.",
+    "chinese": "表面，外层"
+  },
+  {
+    "english": "valley",
+    "pos": "n.",
+    "chinese": "谷，溪谷，山谷"
+  },
+  {
+    "english": "iron",
+    "pos": "n.",
+    "chinese": "铁"
+  },
+  {
+    "english": "observation",
+    "pos": "n.",
+    "chinese": "观察"
+  },
+  {
+    "english": "region",
+    "pos": "n.",
+    "chinese": "地区，区域"
+  },
+  {
+    "english": "trace",
+    "pos": "v.",
+    "chinese": "追溯；探索…的发展"
+  }
+]

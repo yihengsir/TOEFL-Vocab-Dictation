@@ -1,0 +1,312 @@
+[
+  {
+    "english": "assignment",
+    "pos": "n.",
+    "chinese": "作业"
+  },
+  {
+    "english": "marketing strategy",
+    "pos": "n.",
+    "chinese": "营销策略"
+  },
+  {
+    "english": "genuine",
+    "pos": "adj.",
+    "chinese": "真正的"
+  },
+  {
+    "english": "innovative",
+    "pos": "adj.",
+    "chinese": "创新的"
+  },
+  {
+    "english": "downside",
+    "pos": "n.",
+    "chinese": "缺点"
+  },
+  {
+    "english": "promote",
+    "pos": "verb",
+    "chinese": "促进，推广"
+  },
+  {
+    "english": "recommendation",
+    "pos": "n.",
+    "chinese": "推荐"
+  },
+  {
+    "english": "application",
+    "pos": "n.",
+    "chinese": "应用"
+  },
+  {
+    "english": "tactic",
+    "pos": "adj.",
+    "chinese": "策略"
+  },
+  {
+    "english": "untrustworthy",
+    "pos": "adj.",
+    "chinese": "不可信的"
+  },
+  {
+    "english": "doubtful",
+    "pos": "adj.",
+    "chinese": "感到怀疑的"
+  },
+  {
+    "english": "social media",
+    "pos": "phrase",
+    "chinese": "社交媒体"
+  },
+  {
+    "english": "promotional emails",
+    "pos": "phrase",
+    "chinese": "电子邮件广告"
+  },
+  {
+    "english": "connect with",
+    "pos": "phrase",
+    "chinese": "和……联系"
+  },
+  {
+    "english": "brand loyalty",
+    "pos": "noun",
+    "chinese": "品牌忠诚度"
+  },
+  {
+    "english": "celebrity",
+    "pos": "noun",
+    "chinese": "名人"
+  },
+  {
+    "english": "reaction",
+    "pos": "noun",
+    "chinese": "反应"
+  },
+  {
+    "english": "accuracy",
+    "pos": "noun",
+    "chinese": "准确度"
+  },
+  {
+    "english": "high-quality products",
+    "pos": "phrase",
+    "chinese": "高质量产品"
+  },
+  {
+    "english": "celebrity",
+    "pos": "n.",
+    "chinese": "名人"
+  },
+  {
+    "english": "appealing",
+    "pos": "adj.",
+    "chinese": "吸引人的"
+  },
+  {
+    "english": "associate",
+    "pos": "v.",
+    "chinese": "联想"
+  },
+  {
+    "english": "content",
+    "pos": "n.",
+    "chinese": "内容"
+  },
+  {
+    "english": "distraction",
+    "pos": "n.",
+    "chinese": "干扰"
+  },
+  {
+    "english": "identify",
+    "pos": "v.",
+    "chinese": "识别"
+  },
+  {
+    "english": "image",
+    "pos": "n.",
+    "chinese": "图像"
+  },
+  {
+    "english": "rate",
+    "pos": "v.",
+    "chinese": "给……打分，评级"
+  },
+  {
+    "english": "identical",
+    "pos": "adj.",
+    "chinese": "相同的"
+  },
+  {
+    "english": "endorse",
+    "pos": "v.",
+    "chinese": "代言，给……做广告"
+  },
+  {
+    "english": "systematic",
+    "pos": "adj.",
+    "chinese": "系统的"
+  },
+  {
+    "english": "evaluate",
+    "pos": "v.",
+    "chinese": "评价"
+  },
+  {
+    "english": "package",
+    "pos": "v.",
+    "chinese": "包装"
+  },
+  {
+    "english": "overlook",
+    "pos": "v.",
+    "chinese": "眺望，俯视"
+  },
+  {
+    "english": "silverware",
+    "pos": "n.",
+    "chinese": "餐具"
+  },
+  {
+    "english": "participant",
+    "pos": "n.",
+    "chinese": "参与者"
+  },
+  {
+    "english": "long-term relationships",
+    "pos": "phrase",
+    "chinese": "长期关系"
+  },
+  {
+    "english": "customer service",
+    "pos": "phrase",
+    "chinese": "客户服务"
+  },
+  {
+    "english": "blank",
+    "pos": "adj.",
+    "chinese": "空白的"
+  },
+  {
+    "english": "brand",
+    "pos": "n.",
+    "chinese": "品牌"
+  },
+  {
+    "english": "effect",
+    "pos": "v.",
+    "chinese": "影响"
+  },
+  {
+    "english": "example",
+    "pos": "n.",
+    "chinese": "例子"
+  },
+  {
+    "english": "famous",
+    "pos": "adj.",
+    "chinese": "出名的"
+  },
+  {
+    "english": "improve",
+    "pos": "v.",
+    "chinese": "提高"
+  },
+  {
+    "english": "opinion",
+    "pos": "n.",
+    "chinese": "意见"
+  },
+  {
+    "english": "popular",
+    "pos": "adj.",
+    "chinese": "流行的"
+  },
+  {
+    "english": "positive",
+    "pos": "adj.",
+    "chinese": "积极的"
+  },
+  {
+    "english": "product",
+    "pos": "n.",
+    "chinese": "产品"
+  },
+  {
+    "english": "purpose",
+    "pos": "n.",
+    "chinese": "目的"
+  },
+  {
+    "english": "quality",
+    "pos": "n.",
+    "chinese": "质量"
+  },
+  {
+    "english": "regular",
+    "pos": "adj.",
+    "chinese": "普通的"
+  },
+  {
+    "english": "research",
+    "pos": "n.",
+    "chinese": "研究"
+  },
+  {
+    "english": "result",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "score",
+    "pos": "n.",
+    "chinese": "分数"
+  },
+  {
+    "english": "consumer",
+    "pos": "n.",
+    "chinese": "消费者"
+  },
+  {
+    "english": "define",
+    "pos": "v.",
+    "chinese": "定义"
+  },
+  {
+    "english": "experiment",
+    "pos": "n.",
+    "chinese": "实验"
+  },
+  {
+    "english": "focus",
+    "pos": "v.",
+    "chinese": "集中"
+  },
+  {
+    "english": "negative",
+    "pos": "adj.",
+    "chinese": "消极的"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "buzz",
+    "pos": "n.",
+    "chinese": "嗡嗡声"
+  },
+  {
+    "english": "soap",
+    "pos": "n.",
+    "chinese": "肥皂"
+  },
+  {
+    "english": "logo",
+    "pos": "n.",
+    "chinese": "标志"
+  }
+]

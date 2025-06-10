@@ -1,0 +1,237 @@
+[
+  {
+    "english": "layer",
+    "pos": "n",
+    "chinese": "层"
+  },
+  {
+    "english": "crack",
+    "pos": "n",
+    "chinese": "裂缝"
+  },
+  {
+    "english": "split",
+    "pos": "v",
+    "chinese": "分裂"
+  },
+  {
+    "english": "desert",
+    "pos": "n",
+    "chinese": "沙漠"
+  },
+  {
+    "english": "basin",
+    "pos": "n",
+    "chinese": "盆地"
+  },
+  {
+    "english": "crust",
+    "pos": "n",
+    "chinese": "地壳"
+  },
+  {
+    "english": "volcano",
+    "pos": "n",
+    "chinese": "火山"
+  },
+  {
+    "english": "planet",
+    "pos": "n",
+    "chinese": "行星"
+  },
+  {
+    "english": "rift",
+    "pos": "n",
+    "chinese": "裂缝"
+  },
+  {
+    "english": "satellite",
+    "pos": "n",
+    "chinese": "卫星"
+  },
+  {
+    "english": "magma",
+    "pos": "n",
+    "chinese": "岩浆"
+  },
+  {
+    "english": "landscape",
+    "pos": "n",
+    "chinese": "风景"
+  },
+  {
+    "english": "nutrient",
+    "pos": "n",
+    "chinese": "营养物质"
+  },
+  {
+    "english": "organism",
+    "pos": "n",
+    "chinese": "生物体"
+  },
+  {
+    "english": "photosynthesis",
+    "pos": "n",
+    "chinese": "光合作用"
+  },
+  {
+    "english": "primitive",
+    "pos": "adj",
+    "chinese": "原始的"
+  },
+  {
+    "english": "extraordinary",
+    "pos": "adj",
+    "chinese": "非凡的"
+  },
+  {
+    "english": "erode",
+    "pos": "v",
+    "chinese": "侵蚀"
+  },
+  {
+    "english": "harden",
+    "pos": "v",
+    "chinese": "变硬"
+  },
+  {
+    "english": "continent",
+    "pos": "n",
+    "chinese": "大陆"
+  },
+  {
+    "english": "canopy",
+    "pos": "n",
+    "chinese": "树冠"
+  },
+  {
+    "english": "tectonic plate",
+    "pos": "n",
+    "chinese": "大陆构造板块"
+  },
+  {
+    "english": "inorganic",
+    "pos": "adj",
+    "chinese": "无机的"
+  },
+  {
+    "english": "oxygen",
+    "pos": "n",
+    "chinese": "氧"
+  },
+  {
+    "english": "melt",
+    "pos": "v",
+    "chinese": "融化"
+  },
+  {
+    "english": "fissure",
+    "pos": "n",
+    "chinese": "裂口"
+  },
+  {
+    "english": "strip",
+    "pos": "n",
+    "chinese": "长条"
+  },
+  {
+    "english": "landslide",
+    "pos": "n",
+    "chinese": "塌方"
+  },
+  {
+    "english": "curve",
+    "pos": "n",
+    "chinese": "曲线"
+  },
+  {
+    "english": "worm",
+    "pos": "n",
+    "chinese": "蠕虫"
+  },
+  {
+    "english": "comprehend",
+    "pos": "v",
+    "chinese": "理解"
+  },
+  {
+    "english": "intense",
+    "pos": "adj",
+    "chinese": "强烈的"
+  },
+  {
+    "english": "pause",
+    "pos": "v",
+    "chinese": "暂停"
+  },
+  {
+    "english": "drift",
+    "pos": "v",
+    "chinese": "漂流"
+  },
+  {
+    "english": "shade",
+    "pos": "n",
+    "chinese": "阴影"
+  },
+  {
+    "english": "circle",
+    "pos": "n",
+    "chinese": "圆，圈"
+  },
+  {
+    "english": "soil",
+    "pos": "n",
+    "chinese": "土壤"
+  },
+  {
+    "english": "root",
+    "pos": "n",
+    "chinese": "根"
+  },
+  {
+    "english": "percent",
+    "pos": "n",
+    "chinese": "百分比"
+  },
+  {
+    "english": "brief",
+    "pos": "adj",
+    "chinese": "短暂的"
+  },
+  {
+    "english": "stable",
+    "pos": "adj",
+    "chinese": "稳定的"
+  },
+  {
+    "english": "carbon",
+    "pos": "n",
+    "chinese": "碳"
+  },
+  {
+    "english": "atmosphere",
+    "pos": "n",
+    "chinese": "大气"
+  },
+  {
+    "english": "geology",
+    "pos": "n",
+    "chinese": "地质学"
+  },
+  {
+    "english": "microbe",
+    "pos": "n",
+    "chinese": "微生物"
+  },
+  {
+    "english": "erosion",
+    "pos": "n",
+    "chinese": "侵蚀"
+  },
+  {
+    "english": "eventually",
+    "pos": "adv",
+    "chinese": "最终"
+  }
+]

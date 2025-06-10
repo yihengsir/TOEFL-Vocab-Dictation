@@ -1,0 +1,277 @@
+[
+  {
+    "english": "recall",
+    "pos": "v.",
+    "chinese": "回忆"
+  },
+  {
+    "english": "flu",
+    "pos": "n.",
+    "chinese": "流感"
+  },
+  {
+    "english": "apologize",
+    "pos": "v.",
+    "chinese": "道歉"
+  },
+  {
+    "english": "assist",
+    "pos": "v.",
+    "chinese": "协助"
+  },
+  {
+    "english": "catch up",
+    "pos": "phrase",
+    "chinese": "赶上"
+  },
+  {
+    "english": "fundamental",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "essentially",
+    "pos": "adv.",
+    "chinese": "基本上"
+  },
+  {
+    "english": "narrative",
+    "pos": "adj.",
+    "chinese": "叙述的"
+  },
+  {
+    "english": "structure",
+    "pos": "n.",
+    "chinese": "结构"
+  },
+  {
+    "english": "sequence",
+    "pos": "n.",
+    "chinese": "顺序"
+  },
+  {
+    "english": "unfold",
+    "pos": "v.",
+    "chinese": "发展，展开"
+  },
+  {
+    "english": "framework",
+    "pos": "n.",
+    "chinese": "框架"
+  },
+  {
+    "english": "roadmap",
+    "pos": "n.",
+    "chinese": "地图"
+  },
+  {
+    "english": "convey",
+    "pos": "v.",
+    "chinese": "表达"
+  },
+  {
+    "english": "clarify",
+    "pos": "v.",
+    "chinese": "澄清"
+  },
+  {
+    "english": "inquiry",
+    "pos": "n.",
+    "chinese": "询问"
+  },
+  {
+    "english": "intend",
+    "pos": "v.",
+    "chinese": "打算"
+  },
+  {
+    "english": "constitute",
+    "pos": "v.",
+    "chinese": "构成"
+  },
+  {
+    "english": "contemplate",
+    "pos": "v.",
+    "chinese": "思考"
+  },
+  {
+    "english": "derive from",
+    "pos": "phrase",
+    "chinese": "源于"
+  },
+  {
+    "english": "transformation",
+    "pos": "n.",
+    "chinese": "转变"
+  },
+  {
+    "english": "evolve",
+    "pos": "v.",
+    "chinese": "演化"
+  },
+  {
+    "english": "undergo",
+    "pos": "v.",
+    "chinese": "经历，承受"
+  },
+  {
+    "english": "initial",
+    "pos": "adj.",
+    "chinese": "初始的"
+  },
+  {
+    "english": "adapt",
+    "pos": "v.",
+    "chinese": "适应"
+  },
+  {
+    "english": "clarification",
+    "pos": "n.",
+    "chinese": "阐明，说明"
+  },
+  {
+    "english": "accessible",
+    "pos": "adj.",
+    "chinese": "易懂的，可以理解的"
+  },
+  {
+    "english": "reach out",
+    "pos": "phrase",
+    "chinese": "与某人沟通"
+  },
+  {
+    "english": "concrete",
+    "pos": "adj.",
+    "chinese": "具体的"
+  },
+  {
+    "english": "subtle",
+    "pos": "adj.",
+    "chinese": "微妙的"
+  },
+  {
+    "english": "anticipation",
+    "pos": "n.",
+    "chinese": "预期"
+  },
+  {
+    "english": "suspense",
+    "pos": "n.",
+    "chinese": "悬念，焦虑"
+  },
+  {
+    "english": "irony",
+    "pos": "n.",
+    "chinese": "讽刺"
+  },
+  {
+    "english": "contradictory",
+    "pos": "adj.",
+    "chinese": "矛盾的"
+  },
+  {
+    "english": "pattern",
+    "pos": "n.",
+    "chinese": "模式"
+  },
+  {
+    "english": "consist of",
+    "pos": "phrase",
+    "chinese": "由...构成"
+  },
+  {
+    "english": "trial",
+    "pos": "n.",
+    "chinese": "考验"
+  },
+  {
+    "english": "individual",
+    "pos": "n.",
+    "chinese": "个体"
+  },
+  {
+    "english": "celebrated",
+    "pos": "adj.",
+    "chinese": "著名的"
+  },
+  {
+    "english": "out of nowhere",
+    "pos": "phrase",
+    "chinese": "凭空出现"
+  },
+  {
+    "english": "reflection",
+    "pos": "n.",
+    "chinese": "反映"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "当代的"
+  },
+  {
+    "english": "destiny",
+    "pos": "n",
+    "chinese": "命运"
+  },
+  {
+    "english": "mythical",
+    "pos": "adj.",
+    "chinese": "神话的"
+  },
+  {
+    "english": "physical",
+    "pos": "adj.",
+    "chinese": "身体的"
+  },
+  {
+    "english": "obstacle",
+    "pos": "n.",
+    "chinese": "障碍"
+  },
+  {
+    "english": "strategic",
+    "pos": "adj.",
+    "chinese": "策略的"
+  },
+  {
+    "english": "external",
+    "pos": "adj.",
+    "chinese": "外部的"
+  },
+  {
+    "english": "internal",
+    "pos": "adj.",
+    "chinese": "内部的"
+  },
+  {
+    "english": "connect with",
+    "pos": "phrase",
+    "chinese": "连接"
+  },
+  {
+    "english": "universal",
+    "pos": "adj.",
+    "chinese": "普遍的"
+  },
+  {
+    "english": "mirror",
+    "pos": "v.",
+    "chinese": "反映"
+  },
+  {
+    "english": "regardless of",
+    "pos": "phrase",
+    "chinese": "不管"
+  },
+  {
+    "english": "endure",
+    "pos": "v",
+    "chinese": "忍受"
+  },
+  {
+    "english": "cherish",
+    "pos": "v",
+    "chinese": "珍惜"
+  }
+]

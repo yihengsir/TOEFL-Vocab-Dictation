@@ -1,0 +1,237 @@
+[
+  {
+    "english": "relevant",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "aspect",
+    "pos": "n.",
+    "chinese": "方面"
+  },
+  {
+    "english": "database",
+    "pos": "n.",
+    "chinese": "数据库"
+  },
+  {
+    "english": "journal",
+    "pos": "n.",
+    "chinese": "期刊"
+  },
+  {
+    "english": "recommend",
+    "pos": "v.",
+    "chinese": "推荐"
+  },
+  {
+    "english": "generate",
+    "pos": "v.",
+    "chinese": "生成"
+  },
+  {
+    "english": "synonym",
+    "pos": "n.",
+    "chinese": "同义词"
+  },
+  {
+    "english": "narrow down",
+    "pos": "phrase",
+    "chinese": "缩小范围"
+  },
+  {
+    "english": "filter",
+    "pos": "n.",
+    "chinese": "筛选"
+  },
+  {
+    "english": "sort",
+    "pos": "v.",
+    "chinese": "分类"
+  },
+  {
+    "english": "fascinating",
+    "pos": "adj.",
+    "chinese": "迷人的"
+  },
+  {
+    "english": "perspective",
+    "pos": "n.",
+    "chinese": "角度"
+  },
+  {
+    "english": "internship",
+    "pos": "n.",
+    "chinese": "实习"
+  },
+  {
+    "english": "participate",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "collaboratively",
+    "pos": "adv.",
+    "chinese": "合作地"
+  },
+  {
+    "english": "consistent",
+    "pos": "adj.",
+    "chinese": "一致的"
+  },
+  {
+    "english": "disruption",
+    "pos": "n.",
+    "chinese": "扰乱"
+  },
+  {
+    "english": "privately",
+    "pos": "adv.",
+    "chinese": "私下地"
+  },
+  {
+    "english": "specific",
+    "pos": "adj.",
+    "chinese": "特定的"
+  },
+  {
+    "english": "guidance",
+    "pos": "n.",
+    "chinese": "辅助"
+  },
+  {
+    "english": "article",
+    "pos": "n.",
+    "chinese": "文章"
+  },
+  {
+    "english": "access",
+    "pos": "v.",
+    "chinese": "获取权限"
+  },
+  {
+    "english": "keyword",
+    "pos": "n.",
+    "chinese": "关键词"
+  },
+  {
+    "english": "crucial",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "make sense",
+    "pos": "phrase",
+    "chinese": "有意义的"
+  },
+  {
+    "english": "refine",
+    "pos": "v.",
+    "chinese": "提炼"
+  },
+  {
+    "english": "reliable",
+    "pos": "adj.",
+    "chinese": "可靠的"
+  },
+  {
+    "english": "guest speaker",
+    "pos": "phrase",
+    "chinese": "客座讲师"
+  },
+  {
+    "english": "insight",
+    "pos": "n.",
+    "chinese": "洞察力"
+  },
+  {
+    "english": "stand out",
+    "pos": "phrase",
+    "chinese": "突出"
+  },
+  {
+    "english": "reward",
+    "pos": "n. / v.",
+    "chinese": "奖励"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "成立"
+  },
+  {
+    "english": "collaboration",
+    "pos": "n.",
+    "chinese": "合作"
+  },
+  {
+    "english": "disrupt",
+    "pos": "v.",
+    "chinese": "扰乱"
+  },
+  {
+    "english": "address",
+    "pos": "v.",
+    "chinese": "解决"
+  },
+  {
+    "english": "persist",
+    "pos": "v.",
+    "chinese": "坚持"
+  },
+  {
+    "english": "century",
+    "pos": "n.",
+    "chinese": "世纪"
+  },
+  {
+    "english": "provide",
+    "pos": "v.",
+    "chinese": "提供"
+  },
+  {
+    "english": "state",
+    "pos": "n.",
+    "chinese": "状态"
+  },
+  {
+    "english": "unite",
+    "pos": "v.",
+    "chinese": "团结"
+  },
+  {
+    "english": "method",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "grade",
+    "pos": "n.",
+    "chinese": "等级"
+  },
+  {
+    "english": "valuable",
+    "pos": "adj.",
+    "chinese": "有价值的"
+  },
+  {
+    "english": "various",
+    "pos": "adj.",
+    "chinese": "各种各样的"
+  },
+  {
+    "english": "advice",
+    "pos": "n.",
+    "chinese": "建议"
+  },
+  {
+    "english": "directly",
+    "pos": "adv.",
+    "chinese": "直接地"
+  },
+  {
+    "english": "encourage",
+    "pos": "v.",
+    "chinese": "鼓励"
+  }
+]

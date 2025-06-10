@@ -1,0 +1,302 @@
+[
+  {
+    "english": "agriculture",
+    "pos": "n",
+    "chinese": "农业"
+  },
+  {
+    "english": "pottery",
+    "pos": "n",
+    "chinese": "陶器"
+  },
+  {
+    "english": "site",
+    "pos": "n",
+    "chinese": "地点"
+  },
+  {
+    "english": "sediment",
+    "pos": "n",
+    "chinese": "沉淀物"
+  },
+  {
+    "english": "decay",
+    "pos": "v",
+    "chinese": "腐败"
+  },
+  {
+    "english": "decade",
+    "pos": "n",
+    "chinese": "十年"
+  },
+  {
+    "english": "debris",
+    "pos": "n",
+    "chinese": "残骸"
+  },
+  {
+    "english": "assume",
+    "pos": "v",
+    "chinese": "假定"
+  },
+  {
+    "english": "deposit",
+    "pos": "n",
+    "chinese": "存款"
+  },
+  {
+    "english": "trace",
+    "pos": "v",
+    "chinese": "追溯"
+  },
+  {
+    "english": "spear point",
+    "pos": "",
+    "chinese": "矛头"
+  },
+  {
+    "english": "archaeology",
+    "pos": "n",
+    "chinese": "考古学"
+  },
+  {
+    "english": "archaeologist",
+    "pos": "n",
+    "chinese": "考古学家"
+  },
+  {
+    "english": "introduce",
+    "pos": "v",
+    "chinese": "介绍"
+  },
+  {
+    "english": "seemingly",
+    "pos": "adv",
+    "chinese": "貌似"
+  },
+  {
+    "english": "extinction",
+    "pos": "n",
+    "chinese": "灭绝"
+  },
+  {
+    "english": "simulate",
+    "pos": "v",
+    "chinese": "模拟"
+  },
+  {
+    "english": "distribution",
+    "pos": "n",
+    "chinese": "分配"
+  },
+  {
+    "english": "distinct",
+    "pos": "adj",
+    "chinese": "不同的"
+  },
+  {
+    "english": "remains",
+    "pos": "n",
+    "chinese": "遗迹"
+  },
+  {
+    "english": "mammoth",
+    "pos": "n",
+    "chinese": "猛犸象"
+  },
+  {
+    "english": "affect",
+    "pos": "v",
+    "chinese": "影响"
+  },
+  {
+    "english": "argue",
+    "pos": "v",
+    "chinese": "主张"
+  },
+  {
+    "english": "article",
+    "pos": "n",
+    "chinese": "文章"
+  },
+  {
+    "english": "coal",
+    "pos": "n",
+    "chinese": "煤"
+  },
+  {
+    "english": "common",
+    "pos": "adj",
+    "chinese": "常见的"
+  },
+  {
+    "english": "community",
+    "pos": "n",
+    "chinese": "（动植物）群落"
+  },
+  {
+    "english": "contain",
+    "pos": "v",
+    "chinese": "容纳、包含"
+  },
+  {
+    "english": "container",
+    "pos": "n",
+    "chinese": "容器"
+  },
+  {
+    "english": "convincing",
+    "pos": "adj",
+    "chinese": "令人信服的"
+  },
+  {
+    "english": "crash",
+    "pos": "v",
+    "chinese": "撞"
+  },
+  {
+    "english": "determine",
+    "pos": "v",
+    "chinese": "查明"
+  },
+  {
+    "english": "developed",
+    "pos": "adj",
+    "chinese": "强大的"
+  },
+  {
+    "english": "disease",
+    "pos": "n",
+    "chinese": "疾病"
+  },
+  {
+    "english": "eventually",
+    "pos": "adv",
+    "chinese": "最终"
+  },
+  {
+    "english": "exchange",
+    "pos": "n",
+    "chinese": "交换"
+  },
+  {
+    "english": "exist",
+    "pos": "v",
+    "chinese": "存在"
+  },
+  {
+    "english": "existence",
+    "pos": "n",
+    "chinese": "存在"
+  },
+  {
+    "english": "exposure",
+    "pos": "n",
+    "chinese": "接触"
+  },
+  {
+    "english": "gather",
+    "pos": "v",
+    "chinese": "采集"
+  },
+  {
+    "english": "giant",
+    "pos": "adj",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "increasingly",
+    "pos": "adv",
+    "chinese": "越来越"
+  },
+  {
+    "english": "indication",
+    "pos": "n",
+    "chinese": "迹象"
+  },
+  {
+    "english": "last",
+    "pos": "v",
+    "chinese": "持续"
+  },
+  {
+    "english": "likely",
+    "pos": "adj",
+    "chinese": "可能的"
+  },
+  {
+    "english": "melt",
+    "pos": "v",
+    "chinese": "融合"
+  },
+  {
+    "english": "native",
+    "pos": "adj",
+    "chinese": "当地的"
+  },
+  {
+    "english": "object",
+    "pos": "n",
+    "chinese": "物品"
+  },
+  {
+    "english": "occur",
+    "pos": "v",
+    "chinese": "发生"
+  },
+  {
+    "english": "period",
+    "pos": "n",
+    "chinese": "时期"
+  },
+  {
+    "english": "pile",
+    "pos": "n",
+    "chinese": "堆"
+  },
+  {
+    "english": "prevent",
+    "pos": "v",
+    "chinese": "阻止"
+  },
+  {
+    "english": "rat",
+    "pos": "n",
+    "chinese": "老鼠"
+  },
+  {
+    "english": "resist",
+    "pos": "v",
+    "chinese": "抵抗"
+  },
+  {
+    "english": "rot",
+    "pos": "v",
+    "chinese": "腐烂"
+  },
+  {
+    "english": "previously",
+    "pos": "adv",
+    "chinese": "之前的"
+  },
+  {
+    "english": "propose",
+    "pos": "v",
+    "chinese": "提出"
+  },
+  {
+    "english": "repeatedly",
+    "pos": "adv",
+    "chinese": "不停地"
+  },
+  {
+    "english": "species",
+    "pos": "n",
+    "chinese": "种群"
+  },
+  {
+    "english": "subspecies",
+    "pos": "n",
+    "chinese": "亚种"
+  }
+]
