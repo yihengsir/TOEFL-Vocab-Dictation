@@ -1,252 +1,337 @@
 [
   {
-    "chinese": "学术的",
     "english": "academic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "学术的"
   },
   {
-    "chinese": "概念",
     "english": "concept",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "概念"
   },
   {
-    "chinese": "表达",
     "english": "convey",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "表达"
   },
   {
-    "chinese": "整合",
     "english": "integrate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "整合"
   },
   {
-    "chinese": "讲座",
     "english": "lecture",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "讲座"
   },
   {
-    "chinese": "章节",
     "english": "passage",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "章节"
   },
   {
-    "chinese": "不同种类，多样性",
     "english": "variety",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "不同种类，多样性"
   },
   {
-    "chinese": "说明；（用示例）解释",
     "english": "illustrate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "说明；（用示例）解释"
   },
   {
-    "chinese": "术语",
     "english": "term",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "术语"
   },
   {
-    "chinese": "牵引，拉（动）",
     "english": "draw",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "牵引，拉（动）"
   },
   {
-    "chinese": "表现",
     "english": "behave",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "表现"
   },
   {
-    "chinese": "行为",
     "english": "behavior",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "行为"
   },
   {
-    "chinese": "遇见",
     "english": "encounter",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "遇见"
   },
   {
-    "chinese": "模仿",
     "english": "imitate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "模仿"
   },
   {
-    "chinese": "评估",
     "english": "assessment",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "评估"
   },
   {
-    "chinese": "反驳；相反",
     "english": "contradict",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "反驳；相反"
   },
   {
-    "chinese": "印象",
     "english": "impression",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "印象"
   },
   {
-    "chinese": "起初的；初始的",
     "english": "initial",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "起初的；初始的"
   },
   {
-    "chinese": "首要；首要地位",
     "english": "primacy",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "首要；首要地位"
   },
   {
-    "chinese": "影响",
     "english": "impact",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "影响"
   },
   {
-    "chinese": "负面的",
     "english": "negative",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "负面的"
   },
   {
-    "chinese": "技巧；技术",
     "english": "technique",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "技巧；技术"
   },
   {
-    "chinese": "中止",
     "english": "discontinue",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "中止"
   },
   {
-    "chinese": "叙述的",
     "english": "narrative",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "叙述的"
   },
   {
-    "chinese": "元素",
     "english": "element",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "元素"
   },
   {
-    "chinese": "参考",
     "english": "reference",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "参考"
   },
   {
-    "chinese": "钦佩",
     "english": "admire",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "钦佩"
   },
   {
-    "chinese": "尊重",
     "english": "respect",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "尊重"
   },
   {
-    "chinese": "态度",
     "english": "attitude",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "态度"
   },
   {
-    "chinese": "情况",
     "english": "circumstance",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "情况"
   },
   {
-    "chinese": "休闲的",
     "english": "casual",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "休闲的"
   },
   {
-    "chinese": "运动鞋",
     "english": "sneaker",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "运动鞋"
   },
   {
-    "chinese": "令人钦佩的",
     "english": "impressive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "令人钦佩的"
   },
   {
-    "chinese": "时髦的",
     "english": "fashionable",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "时髦的"
   },
   {
-    "chinese": "时髦的",
     "english": "sharp",
-    "pos": "adj"
+    "pos": "adj",
+    "chinese": "时髦的"
   },
   {
-    "chinese": "首位",
     "english": "primacy",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "首位"
   },
   {
-    "chinese": "效应",
     "english": "effect",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "效应"
   },
   {
-    "chinese": "最初的",
     "english": "initial",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "最初的"
   },
   {
-    "chinese": "相矛盾",
     "english": "contradict",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "相矛盾"
   },
   {
-    "chinese": "迹象",
     "english": "evidence",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "迹象"
   },
   {
-    "chinese": "助手",
     "english": "assistant",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "助手"
   },
   {
-    "chinese": "实验",
     "english": "experiment",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "实验"
   },
   {
-    "chinese": "不可靠的",
     "english": "unreliable",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "不可靠的"
   },
   {
-    "chinese": "恢复",
     "english": "recover",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "恢复"
   },
   {
-    "chinese": "普通的",
     "english": "average",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "普通的"
   },
   {
-    "chinese": "实验室",
     "english": "laboratory",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "实验室"
   },
   {
-    "chinese": "出现",
     "english": "occur",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "出现"
   },
   {
-    "chinese": "判断",
     "english": "judgement",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "判断"
   },
   {
-    "chinese": "不称职的",
     "english": "incompetent",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "不称职的"
   },
   {
-    "chinese": "注意",
     "english": "notice",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "注意"
+  },
+  {
+    "english": "be known as",
+    "pos": "被称作",
+    "chinese": "Groups of people whom we admire and whose behavior and attitudes we tend to imitate are known as reference groups."
+  },
+  {
+    "english": "frame of reference",
+    "pos": "参照系",
+    "chinese": "Reference groups provide a model – a frame of reference – that can shape how we think and behave."
+  },
+  {
+    "english": "in other words",
+    "pos": "换句话说",
+    "chinese": "In other words, the opinions we have of people or situations tend to be based much more on the first information we learn about them than on information we learn later."
+  },
+  {
+    "english": "draw attention to",
+    "pos": "吸引注意",
+    "chinese": "By thus simply drawing attention to the effect of the student's behavior, the teacher can often lead the student to discontinue the behavior."
+  },
+  {
+    "english": "run an experiment",
+    "pos": "做实验",
+    "chinese": "Well, during my very first week on the job, I made a suggestion to my boss on how we could improve the way we were running an experiment."
+  },
+  {
+    "english": "change sb's mind",
+    "pos": "改主意",
+    "chinese": "My boss decided, perhaps without even realizing it…he decided I was a great research assistant, and he never changed his mind."
+  },
+  {
+    "english": "turn out",
+    "pos": "结果是、原来是",
+    "chinese": "But after that week, she turned out to be better than the professor."
+  },
+  {
+    "english": "based on",
+    "pos": "基于",
+    "chinese": "Primacy effect means that the opinions we have of people are based on the first information we learn about them."
+  },
+  {
+    "english": "even though",
+    "pos": "尽管",
+    "chinese": "And after his first week, even though he was only average, his boss always introduced him as the star."
+  },
+  {
+    "english": "dress up",
+    "pos": "穿着正式",
+    "chinese": "When these young people went out, they preferred to dress up."
+  },
+  {
+    "english": "be influenced by",
+    "pos": "被......影响",
+    "chinese": "We may be influenced by many different reference groups."
+  },
+  {
+    "english": "a bunch of",
+    "pos": "一群",
+    "chinese": "I became friends with a bunch of art students."
+  },
+  {
+    "english": "fit in",
+    "pos": "融入",
+    "chinese": "So that’s what I started wearing too and I fit right in and I felt really cool."
+  },
+  {
+    "english": "form opinions about",
+    "pos": "形成关于……的看法",
+    "chinese": "When people form opinions about a person or a situation, those opinions are likely to be based on first impressions."
+  },
+  {
+    "english": "make judgement",
+    "pos": "做出判断",
+    "chinese": "Researchers believe that the primacy effect occurs because after people have made an initial judgment, they tend to notice evidence that supports that judgment."
+  },
+  {
+    "english": "handle responsibility",
+    "pos": "承担责任",
+    "chinese": "I started working with some really bright young people who’d already been working at the company for a few years, who were already handling major responsibilities for the company."
+  },
+  {
+    "english": "thought of sb. as",
+    "pos": "认为某人是",
+    "chinese": "But our boss thought of her asunreliable ’cuz he only noticed her mistakes."
   }
 ]

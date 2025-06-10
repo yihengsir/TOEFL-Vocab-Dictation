@@ -1,208 +1,242 @@
 [
   {
-    "chinese": "费用",
-    "english": "fee",
-    "pos": "n."
+    "english": "anticipate",
+    "pos": "v.",
+    "chinese": "期待"
   },
   {
-    "chinese": "数量多的",
-    "english": "multiple",
-    "pos": "adj."
+    "english": "evaluate",
+    "pos": "v.",
+    "chinese": "评估"
   },
   {
-    "chinese": "一段时间",
-    "english": "session",
-    "pos": "n."
+    "english": "pace",
+    "pos": "n.",
+    "chinese": "节奏，步伐"
   },
   {
-    "chinese": "奖学金",
-    "english": "scholarship",
-    "pos": "n."
+    "english": "precisely",
+    "pos": "adv.",
+    "chinese": "精确地"
   },
   {
-    "chinese": "现今，目前",
-    "english": "nowadays",
-    "pos": "adv."
+    "english": "sufficient",
+    "pos": "adj.",
+    "chinese": "足够的"
   },
   {
-    "chinese": "容纳；适应",
-    "english": "accommodate",
-    "pos": "v."
+    "english": "thorough",
+    "pos": "adj.",
+    "chinese": "周到的"
   },
   {
-    "chinese": "扩张",
-    "english": "expand",
-    "pos": "v."
+    "english": "coherently",
+    "pos": "adv.",
+    "chinese": "连贯地"
   },
   {
-    "chinese": "设施",
-    "english": "facility",
-    "pos": "n."
+    "english": "allot",
+    "pos": "v.",
+    "chinese": "分配，配给"
   },
   {
-    "chinese": "过渡，转变",
-    "english": "transition",
-    "pos": "n."
+    "english": "receive",
+    "pos": "v.",
+    "chinese": "收到"
   },
   {
-    "chinese": "翻新",
-    "english": "renovate",
-    "pos": "v."
+    "english": "email",
+    "pos": "n.",
+    "chinese": "电子邮件"
   },
   {
-    "chinese": "院长；（大学）学院院长；系主任",
-    "english": "dean",
-    "pos": "n."
+    "english": "binder",
+    "pos": "n.",
+    "chinese": "活页夹"
   },
   {
-    "chinese": "宿舍",
-    "english": "dorm",
-    "pos": "n."
+    "english": "reflect",
+    "pos": "v.",
+    "chinese": "反射，反映"
   },
   {
-    "chinese": "学期",
-    "english": "semester",
-    "pos": "n."
+    "english": "pinpoint",
+    "pos": "v.",
+    "chinese": "明确指出"
   },
   {
-    "chinese": "使用权；通道",
-    "english": "access",
-    "pos": "n."
+    "english": "verbal",
+    "pos": "adj.",
+    "chinese": "口头的"
   },
   {
-    "chinese": "令人烦恼的",
-    "english": "annoying",
-    "pos": "adj."
+    "english": "grammar",
+    "pos": "n.",
+    "chinese": "语法"
   },
   {
-    "chinese": "砍",
-    "english": "chop",
-    "pos": "v."
+    "english": "criticize",
+    "pos": "v.",
+    "chinese": "批判"
   },
   {
-    "chinese": "评论",
-    "english": "comment",
-    "pos": "n./v."
+    "english": "genuinely",
+    "pos": "adv.",
+    "chinese": "真诚地"
   },
   {
-    "chinese": "总是，经常，不断地",
-    "english": "constantly",
-    "pos": "adv."
+    "english": "facial",
+    "pos": "adj.",
+    "chinese": "面部的"
   },
   {
-    "chinese": "详细的",
-    "english": "detailed",
-    "pos": "adj."
+    "english": "tone",
+    "pos": "n.",
+    "chinese": "语气"
   },
   {
-    "chinese": "环境",
-    "english": "environment",
-    "pos": "n."
+    "english": "accurate",
+    "pos": "adj.",
+    "chinese": "准确的"
   },
   {
-    "chinese": "最终",
-    "english": "eventually",
-    "pos": "adv."
+    "english": "resolve",
+    "pos": "v.",
+    "chinese": "解决"
   },
   {
-    "chinese": "翻转",
-    "english": "flip",
-    "pos": "v."
+    "english": "text",
+    "pos": "v.",
+    "chinese": "发短信"
   },
   {
-    "chinese": "外国的",
-    "english": "foreign",
-    "pos": "adj."
+    "english": "outline",
+    "pos": "n.",
+    "chinese": "轮廓，大纲"
   },
   {
-    "chinese": "等级；成绩",
-    "english": "grade",
-    "pos": "n."
+    "english": "yell",
+    "pos": "v.",
+    "chinese": "大喊"
   },
   {
-    "chinese": "数学的",
-    "english": "mathematic",
-    "pos": "adj."
+    "english": "communicate",
+    "pos": "v.",
+    "chinese": "交流"
   },
   {
-    "chinese": "信息",
-    "english": "message",
-    "pos": "n."
+    "english": "phrase",
+    "pos": "n.",
+    "chinese": "语句"
   },
   {
-    "chinese": "混合的",
-    "english": "mixed",
-    "pos": "adj."
+    "english": "misinterpret",
+    "pos": "v.",
+    "chinese": "误解，曲解"
   },
   {
-    "chinese": "物理的",
-    "english": "physical",
-    "pos": "adj."
+    "english": "conflict",
+    "pos": "n.",
+    "chinese": "冲突"
   },
   {
-    "chinese": "流行的",
-    "english": "popular",
-    "pos": "adj."
+    "english": "rapid",
+    "pos": "adj.",
+    "chinese": "迅速的，快捷的，瞬间的"
   },
   {
-    "chinese": "普及，流行",
-    "english": "popularity",
-    "pos": "n."
+    "english": "preference",
+    "pos": "n.",
+    "chinese": "偏好"
   },
   {
-    "chinese": "打印",
-    "english": "print",
-    "pos": "v."
+    "english": "describe",
+    "pos": "v.",
+    "chinese": "描述"
   },
   {
-    "chinese": "预算",
-    "english": "budget",
-    "pos": "n."
+    "english": "effective",
+    "pos": "adj.",
+    "chinese": "有效的"
   },
   {
-    "chinese": "生产",
-    "english": "produce",
-    "pos": "v."
+    "english": "withdraw",
+    "pos": "v.",
+    "chinese": "撤回"
   },
   {
-    "chinese": "提供",
-    "english": "provide",
-    "pos": "v."
+    "english": "encouraging",
+    "pos": "adj.",
+    "chinese": "鼓舞人心的"
   },
   {
-    "chinese": "光线，光束",
-    "english": "ray",
-    "pos": "n."
+    "english": "phrase",
+    "pos": "v.",
+    "chinese": "用......的方式表达"
   },
   {
-    "chinese": "参考，提及",
-    "english": "reference",
-    "pos": "n./v."
+    "english": "convey",
+    "pos": "v.",
+    "chinese": "表达"
   },
   {
-    "chinese": "放松",
-    "english": "relax",
-    "pos": "v."
+    "english": "interaction",
+    "pos": "n.",
+    "chinese": "互动"
   },
   {
-    "chinese": "替换",
-    "english": "replace",
-    "pos": "v."
+    "english": "rapport",
+    "pos": "n.",
+    "chinese": "融洽（关系）；和谐（关系）"
   },
   {
-    "chinese": "智力的",
-    "english": "intellectual",
-    "pos": "adj."
+    "english": "via",
+    "pos": "prep.",
+    "chinese": "通过，借助于"
   },
   {
-    "chinese": "锋利的",
-    "english": "sharp",
-    "pos": "adj."
+    "english": "ensure",
+    "pos": "v.",
+    "chinese": "确保"
   },
   {
-    "chinese": "架子",
-    "english": "shelf",
-    "pos": "n."
+    "english": "category",
+    "pos": "n.",
+    "chinese": "种类；范畴"
+  },
+  {
+    "english": "allot for",
+    "pos": "分配",
+    "chinese": "The time allotted for each speaking response is considered sufficient for you to give a complete answer."
+  },
+  {
+    "english": "take a lot of time",
+    "pos": "很费时",
+    "chinese": "I have to write a lot of feedback every day, which takes lots of time."
+  },
+  {
+    "english": "keep a record",
+    "pos": "保留记录",
+    "chinese": "Written feedback helps me to keep a record."
+  },
+  {
+    "english": "pinpoint areas",
+    "pos": "定位.......的地方",
+    "chinese": "Pinpoint areas that I still need to work on."
+  },
+  {
+    "english": "organize ideas",
+    "pos": "梳理想法",
+    "chinese": "I take time to organize my ideas."
+  },
+  {
+    "english": "in real-time",
+    "pos": "实时的",
+    "chinese": "Communicate in real-time."
+  },
+  {
+    "english": "resolve the issue",
+    "pos": "解决问题",
+    "chinese": "Quickly understand each other and resolve the issue."
   }
 ]
-

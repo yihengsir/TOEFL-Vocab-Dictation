@@ -1,135 +1,142 @@
 [
   {
-    "chinese": "仅仅",
     "english": "merely",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "仅仅"
   },
   {
-    "chinese": "阐明",
     "english": "clarify",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "阐明"
   },
   {
-    "chinese": "暴力",
     "english": "violence",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "暴力"
   },
   {
-    "chinese": "禁止",
     "english": "ban",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "禁止"
   },
   {
-    "chinese": "娱乐性",
     "english": "entertaining",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "娱乐性"
   },
   {
-    "chinese": "噩梦",
     "english": "nightmare",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "噩梦"
   },
   {
-    "chinese": "值得",
     "english": "deserve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "值得"
   },
   {
-    "chinese": "满意的",
     "english": "satisfied",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "满意的"
   },
   {
-    "chinese": "营救",
     "english": "rescue",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "营救"
   },
   {
-    "chinese": "勇敢的",
     "english": "bravery",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "勇敢的"
   },
   {
-    "chinese": "角色",
     "english": "character",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "角色"
   },
   {
-    "chinese": "闲暇；空余时间",
     "english": "leisure",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "闲暇；空余时间"
   },
   {
-    "chinese": "拳打",
     "english": "punch",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "拳打"
   },
   {
-    "chinese": "内容",
     "english": "content",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "内容"
   },
   {
-    "chinese": "好斗的",
     "english": "aggressive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "好斗的"
   },
   {
-    "chinese": "负面的",
     "english": "negative",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "负面的"
   },
   {
-    "chinese": "识字；读写能力",
     "english": "literacy",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "识字；读写能力"
   },
   {
-    "chinese": "旁听",
     "english": "audit",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "旁听"
   },
   {
-    "chinese": "证明",
     "english": "certificate",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "证明"
   },
   {
-    "chinese": "不同的；多样的",
     "english": "diverse",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "不同的；多样的"
   },
   {
-    "chinese": "应当被禁止",
-    "english": "should be banned"
+    "english": "should be banned",
+    "pos": "应当被禁止",
+    "chinese": "I think violence should be banned in TV programs or movies."
   },
   {
-    "chinese": "让人不安",
-    "english": "make people anxious"
+    "english": "make people anxious",
+    "pos": "让人不安",
+    "chinese": "This is because they make people anxious or even scared."
   },
   {
-    "chinese": "被跟踪",
-    "english": "being stalked"
+    "english": "being stalked",
+    "pos": "被跟踪",
+    "chinese": "Like some scenes show the character being stalked, beaten or even tortured."
   },
   {
-    "chinese": "感到满足",
-    "english": "feel satisfied"
+    "english": "feel satisfied",
+    "pos": "感到满足",
+    "chinese": "All those violent scenes when they are beaten down make me feel very satisfied."
   },
   {
-    "chinese": "对.......共情",
-    "english": "get emotonally attached to"
+    "english": "get emotonally attached to",
+    "pos": "对.......共情",
+    "chinese": "Whenever we watch a movie, we get emotionally attached to it."
   },
   {
-    "chinese": "打击",
-    "english": "fight against"
+    "english": "fight against",
+    "pos": "打击",
+    "chinese": "In the movie Django Unchained, the character had to use violence to fight against bad guys."
   },
   {
-    "chinese": "好榜样",
-    "english": "good role models for"
+    "english": "good role models for",
+    "pos": "好榜样",
+    "chinese": "We need to ban violent movies. They are not good role models for kids."
   },
   {
-    "chinese": "必要",
-    "english": "be necessary to"
+    "english": "be necessary to",
+    "pos": "必要",
+    "chinese": "This is necessary to protect children from exposure to harmful content."
   }
 ]
-

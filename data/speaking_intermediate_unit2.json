@@ -1,252 +1,332 @@
 [
   {
-    "chinese": "取消；终止",
     "english": "eliminate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "取消；终止"
   },
   {
-    "chinese": "国际的；国际化的",
     "english": "international",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "国际的；国际化的"
   },
   {
-    "chinese": "来源",
     "english": "source",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "来源"
   },
   {
-    "chinese": "日历",
     "english": "calendar",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "日历"
   },
   {
-    "chinese": "校园",
     "english": "campus",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "校园"
   },
   {
-    "chinese": "通知",
     "english": "announcement",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "通知"
   },
   {
-    "chinese": "提议",
     "english": "proposal",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "提议"
   },
   {
-    "chinese": "施工；建设",
     "english": "construction",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "施工；建设"
   },
   {
-    "chinese": "扰乱性的",
     "english": "disruptive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "扰乱性的"
   },
   {
-    "chinese": "一段时间",
     "english": "session",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "一段时间"
   },
   {
-    "chinese": "不便；麻烦",
     "english": "inconvenience",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "不便；麻烦"
   },
   {
-    "chinese": "真诚地",
     "english": "sincerely",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "真诚地"
   },
   {
-    "chinese": "有空的",
     "english": "available",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "有空的"
   },
   {
-    "chinese": "借",
     "english": "borrow",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "借"
   },
   {
-    "chinese": "项目；物品",
     "english": "item",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "项目；物品"
   },
   {
-    "chinese": "图书馆",
     "english": "library",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "图书馆"
   },
   {
-    "chinese": "员工",
     "english": "staff",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "员工"
   },
   {
-    "chinese": "标题",
     "english": "title",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "标题"
   },
   {
-    "chinese": "（综合性）大学",
     "english": "university",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "（综合性）大学"
   },
   {
-    "chinese": "（正式地）要求",
     "english": "request",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "（正式地）要求"
   },
   {
-    "chinese": "设施，设备",
     "english": "facility",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "设施，设备"
   },
   {
-    "chinese": "改善，提升",
     "english": "improve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "改善，提升"
   },
   {
-    "chinese": "公告",
     "english": "bulletin",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "公告"
   },
   {
-    "chinese": "表达，表露",
     "english": "express",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "表达，表露"
   },
   {
-    "chinese": "简短地，简要地",
     "english": "briefly",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "简短地，简要地"
   },
   {
-    "chinese": "状态，状况",
     "english": "state",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "状态，状况"
   },
   {
-    "chinese": "每日的，日常的",
     "english": "daily",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "每日的，日常的"
   },
   {
-    "chinese": "板块；部分",
     "english": "section",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "板块；部分"
   },
   {
-    "chinese": "包含最新信息的",
     "english": "up-to-date",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "包含最新信息的"
   },
   {
-    "chinese": "报道；覆盖范围",
     "english": "coverage",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "报道；覆盖范围"
   },
   {
-    "chinese": "项目；计划",
     "english": "project",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "项目；计划"
   },
   {
-    "chinese": "人行道",
     "english": "sidewalk",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "人行道"
   },
   {
-    "chinese": "计划（表）",
     "english": "schedule",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "计划（表）"
   },
   {
-    "chinese": "额外的",
     "english": "extra",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "额外的"
   },
   {
-    "chinese": "焦虑，压力",
     "english": "strain",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "焦虑，压力"
   },
   {
-    "chinese": "预算",
     "english": "budget",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "预算"
   },
   {
-    "chinese": "暴风雪",
     "english": "snowstorm",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "暴风雪"
   },
   {
-    "chinese": "收藏品",
     "english": "collection",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "收藏品"
   },
   {
-    "chinese": "特定的",
     "english": "certain",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "特定的"
   },
   {
-    "chinese": "修理，修补",
     "english": "repair",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "修理，修补"
   },
   {
-    "chinese": "报道；覆盖",
     "english": "cover",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "报道；覆盖"
   },
   {
-    "chinese": "海报",
     "english": "poster",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "海报"
   },
   {
-    "chinese": "现在地",
     "english": "currently",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "现在地"
   },
   {
-    "chinese": "权限；通道",
     "english": "access",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "权限；通道"
   },
   {
-    "chinese": "停车场",
     "english": "lot",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "停车场"
   },
   {
-    "chinese": "场所",
     "english": "spot",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "场所"
   },
   {
-    "chinese": "确切的",
     "english": "exact",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "确切的"
   },
   {
-    "chinese": "几乎不",
     "english": "hardly",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "几乎不"
   },
   {
-    "chinese": "东西，物品",
     "english": "stuff",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "东西，物品"
   },
   {
-    "chinese": "主要的",
     "english": "major",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "主要的"
+  },
+  {
+    "english": "cut out",
+    "pos": "剪出，裁剪",
+    "chinese": "Students can cut the calendar out from the paper, carrying it around and checking it anytime and anywhere."
+  },
+  {
+    "english": "transitional expression",
+    "pos": "过渡性表达",
+    "chinese": "transitional expressions, such as first, second, also…"
+  },
+  {
+    "english": "look through",
+    "pos": "浏览；查看",
+    "chinese": "Students can always look through the titles."
+  },
+  {
+    "english": "stick with",
+    "pos": "坚持使用；继续保持",
+    "chinese": "I think we should just stick with campus news and stuff."
+  },
+  {
+    "english": "get around to",
+    "pos": "抽出时间做；开始做",
+    "chinese": "Most people already know about them before they even get around to reading the campus paper."
+  },
+  {
+    "english": "carry around",
+    "pos": "随身携带",
+    "chinese": "Students can cut the calendar out from the paper, carrying it around and checking it anytime and anywhere."
+  },
+  {
+    "english": "first off",
+    "pos": "首先",
+    "chinese": "First off, these construction projects are disruptive."
+  },
+  {
+    "english": "put strain on",
+    "pos": "给...带来压力和负担",
+    "chinese": "So it is not going to put any strain on the budget."
+  },
+  {
+    "english": "in session",
+    "pos": "上课中",
+    "chinese": "I’ve noticed that small construction projects on campus often take place during the regular school year, when classes are in session."
+  },
+  {
+    "english": "parking lots",
+    "pos": "停车位",
+    "chinese": "Because the school repaired and closed some parking lots, students and professors had trouble finding lots."
+  },
+  {
+    "english": "circle around",
+    "pos": "绕圈",
+    "chinese": "I usually had to circle around looking for parking on one of the streets, and then walk from the street all the way to my classes."
+  },
+  {
+    "english": "a couple of",
+    "pos": "几个",
+    "chinese": "Not really...I mean, they only cover a couple of stories..."
+  },
+  {
+    "english": "keep track of",
+    "pos": "跟踪，追踪",
+    "chinese": "The information is everywhere, but it’s hard to keep track of it."
+  },
+  {
+    "english": "take place",
+    "pos": "发生",
+    "chinese": "I’ve noticed that small construction projects on campus often take place during the regular school year, when classes are in session."
+  },
+  {
+    "english": "be allowed to",
+    "pos": "被允许做...",
+    "chinese": "However, students aren’t allowed to go into the area where these items are kept."
+  },
+  {
+    "english": "all for it",
+    "pos": "非常赞成和支持某事",
+    "chinese": "I am all for it！"
   }
 ]

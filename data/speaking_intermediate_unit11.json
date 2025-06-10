@@ -1,208 +1,307 @@
 [
   {
-    "chinese": "费用",
     "english": "fee",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "费用"
   },
   {
-    "chinese": "数量多的",
     "english": "multiple",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "数量多的"
   },
   {
-    "chinese": "一段时间",
     "english": "session",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "一段时间"
   },
   {
-    "chinese": "奖学金",
     "english": "scholarship",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "奖学金"
   },
   {
-    "chinese": "现今，目前",
     "english": "nowadays",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "现今，目前"
   },
   {
-    "chinese": "容纳；适应",
     "english": "accommodate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "容纳；适应"
   },
   {
-    "chinese": "扩张",
     "english": "expand",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "扩张"
   },
   {
-    "chinese": "设施",
     "english": "facility",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "设施"
   },
   {
-    "chinese": "过渡，转变",
     "english": "transition",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "过渡，转变"
   },
   {
-    "chinese": "翻新",
     "english": "renovate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "翻新"
   },
   {
-    "chinese": "院长；（大学）学院院长；系主任",
     "english": "dean",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "院长；（大学）学院院长；系主任"
   },
   {
-    "chinese": "宿舍",
     "english": "dorm",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "宿舍"
   },
   {
-    "chinese": "学期",
     "english": "semester",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "学期"
   },
   {
-    "chinese": "使用权；通道",
     "english": "access",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "使用权；通道"
   },
   {
-    "chinese": "令人烦恼的",
     "english": "annoying",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "令人烦恼的"
   },
   {
-    "chinese": "砍",
     "english": "chop",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "砍"
   },
   {
-    "chinese": "评论",
     "english": "comment",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "评论"
   },
   {
-    "chinese": "总是，经常，不断地",
     "english": "constantly",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "总是，经常，不断地"
   },
   {
-    "chinese": "详细的",
     "english": "detailed",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "详细的"
   },
   {
-    "chinese": "环境",
     "english": "environment",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "环境"
   },
   {
-    "chinese": "最终",
     "english": "eventually",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "最终"
   },
   {
-    "chinese": "翻转",
     "english": "flip",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "翻转"
   },
   {
-    "chinese": "外国的",
     "english": "foreign",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "外国的"
   },
   {
-    "chinese": "等级；成绩",
     "english": "grade",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "等级；成绩"
   },
   {
-    "chinese": "数学的",
     "english": "mathematic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "数学的"
   },
   {
-    "chinese": "信息",
     "english": "message",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "信息"
   },
   {
-    "chinese": "混合的",
     "english": "mixed",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "混合的"
   },
   {
-    "chinese": "物理的",
     "english": "physical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "物理的"
   },
   {
-    "chinese": "流行的",
     "english": "popular",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "流行的"
   },
   {
-    "chinese": "普及，流行",
     "english": "popularity",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "普及，流行"
   },
   {
-    "chinese": "打印",
     "english": "print",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "打印"
   },
   {
-    "chinese": "预算",
     "english": "budget",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "预算"
   },
   {
-    "chinese": "生产",
     "english": "produce",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "生产"
   },
   {
-    "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "提供"
   },
   {
-    "chinese": "光线，光束",
     "english": "ray",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "光线，光束"
   },
   {
-    "chinese": "参考，提及",
     "english": "reference",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "参考，提及"
   },
   {
-    "chinese": "放松",
     "english": "relax",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "放松"
   },
   {
-    "chinese": "替换",
     "english": "replace",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "替换"
   },
   {
-    "chinese": "智力的",
     "english": "intellectual",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "智力的"
   },
   {
-    "chinese": "锋利的",
     "english": "sharp",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "锋利的"
   },
   {
-    "chinese": "架子",
     "english": "shelf",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "架子"
+  },
+  {
+    "english": "have mixed feelings about",
+    "pos": "对......有复杂的感受",
+    "chinese": "I have mixed feelings about this change."
+  },
+  {
+    "english": "major-related classes",
+    "pos": "专业相关的课程",
+    "chinese": "I don’t think offering more sessions of the major-related classes is necessary."
+  },
+  {
+    "english": "a handful of",
+    "pos": "少量的",
+    "chinese": "There are only a handful of students attending the Chemistry class."
+  },
+  {
+    "english": "be sky-high",
+    "pos": "高昂的",
+    "chinese": "Tuition fees are sky-high nowadays."
+  },
+  {
+    "english": "reduce stress",
+    "pos": "减轻......的压力",
+    "chinese": "Offering more scholarships can certainly reduce students’ stress."
+  },
+  {
+    "english": "free up",
+    "pos": "释放",
+    "chinese": "This change will free up a large number of classrooms."
+  },
+  {
+    "english": "busy schedules",
+    "pos": "忙碌的课表",
+    "chinese": "It can better suit students’ busy schedules."
+  },
+  {
+    "english": "all at once",
+    "pos": "一齐",
+    "chinese": "Online classes can accommodate all students at once."
+  },
+  {
+    "english": "be used for",
+    "pos": "对......有用",
+    "chinese": "The money saved will be used for more scholarships."
+  },
+  {
+    "english": "buy ... for",
+    "pos": "为.......购买",
+    "chinese": "We can also buy new equipment for the science labs."
+  },
+  {
+    "english": "go towards",
+    "pos": "用于支付",
+    "chinese": "The funding will go towards renovating student dorms."
+  },
+  {
+    "english": "academic success",
+    "pos": "学术成功",
+    "chinese": "At our university, academic success should always come first."
+  },
+  {
+    "english": "switch to",
+    "pos": "转向",
+    "chinese": "Switching to online classes can provide flexibility and access."
+  },
+  {
+    "english": "engagement with",
+    "pos": "和......的约会/约定",
+    "chinese": "I missed the direct engagement with my professors."
+  },
+  {
+    "english": "immediate feedback",
+    "pos": "即时反馈",
+    "chinese": "It was harder to get immediate feedback in online classes."
+  },
+  {
+    "english": "hands-on activities",
+    "pos": "实践活动",
+    "chinese": "The group projects just didn't work as well online; we need group projects and hands-on activities."
+  },
+  {
+    "english": "internet connection",
+    "pos": "网络连接",
+    "chinese": "My internet connection wasn’t reliable, which was frustrating."
+  },
+  {
+    "english": "in-person classes",
+    "pos": "真人课堂",
+    "chinese": "I think in-person classes provide a better learning environment."
+  },
+  {
+    "english": "environmentally friendly",
+    "pos": "环境友好的",
+    "chinese": "E-books are often cost-effective and environmentally friendly."
+  },
+  {
+    "english": "digital version",
+    "pos": "电子版本",
+    "chinese": "The practicality of digital versions makes them likely to take over."
   }
 ]
-

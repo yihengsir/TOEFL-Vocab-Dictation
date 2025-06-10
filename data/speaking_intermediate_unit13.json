@@ -1,137 +1,147 @@
 [
   {
-    "chinese": "取得",
     "english": "achieve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "取得"
   },
   {
-    "chinese": "参加",
     "english": "enroll",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "参加"
   },
   {
-    "chinese": "最终的",
     "english": "ultimate",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "最终的"
   },
   {
-    "chinese": "成功",
     "english": "succeed",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "成功"
   },
   {
-    "chinese": "促进",
     "english": "foster",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "促进"
   },
   {
-    "chinese": "动力",
     "english": "motivation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "动力"
   },
   {
-    "chinese": "完成",
     "english": "accomplish",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "完成"
   },
   {
-    "chinese": "独立；自主",
     "english": "independence",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "独立；自主"
   },
   {
-    "chinese": "合适的",
     "english": "appropriate",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "合适的"
   },
   {
-    "chinese": "使沮丧",
     "english": "frustrate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "使沮丧"
   },
   {
-    "chinese": "气馁",
     "english": "discourage",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "气馁"
   },
   {
-    "chinese": "个性",
     "english": "personality",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "个性"
   },
   {
-    "chinese": "平衡",
     "english": "balance",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "平衡"
   },
   {
-    "chinese": "了解；洞悉",
     "english": "insight",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "了解；洞悉"
   },
   {
-    "chinese": "节奏",
     "english": "rhythm",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "节奏"
   },
   {
-    "chinese": "热诚的",
     "english": "passionate",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "热诚的"
   },
   {
-    "chinese": "优势",
     "english": "strength",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "优势"
   },
   {
-    "chinese": "联系；人脉",
     "english": "connection",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "联系；人脉"
   },
   {
-    "chinese": "债务",
     "english": "debt",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "债务"
   },
   {
-    "chinese": "职业道路",
-    "english": "career path"
+    "english": "career path",
+    "pos": "职业道路",
+    "chinese": "Parents should choose the career path."
   },
   {
-    "chinese": "比......更了解",
-    "english": "know better than"
+    "english": "know better than",
+    "pos": "比......更了解",
+    "chinese": "Children know themselves better than anyone else, including their parents."
   },
   {
-    "chinese": "在不同领域工作",
-    "english": "work in different fields/industries"
+    "english": "work in different fields/industries",
+    "pos": "在不同领域工作",
+    "chinese": "They have worked most of their lives; they may have even worked in different fields or industries."
   },
   {
-    "chinese": "做正确的决定",
-    "english": "make the right decision"
+    "english": "make the right decision",
+    "pos": "做正确的决定",
+    "chinese": "They can help their child make the right decision."
   },
   {
-    "chinese": "更支持",
-    "english": "be more supportive of"
+    "english": "be more supportive of",
+    "pos": "更支持",
+    "chinese": "Parents will be more supportive of their child’s future."
   },
   {
-    "chinese": "感到有责任",
-    "english": "feel responsible for"
+    "english": "feel responsible for",
+    "pos": "感到有责任",
+    "chinese": "They will feel responsible for their decision and their child’s success."
   },
   {
-    "chinese": "对......感到恐惧",
-    "english": "be fearful of"
+    "english": "be fearful of",
+    "pos": "对......感到恐惧",
+    "chinese": "This is because children who are fearful of making a mistake tend to be more worried."
   },
   {
-    "chinese": "踏板",
-    "english": "stepping stones"
+    "english": "stepping stones",
+    "pos": "踏板",
+    "chinese": "They will never hide their mistakes and consider their mistakes as stepping stones to success."
   },
   {
-    "chinese": "增强韧性",
-    "english": "increase resiliency"
+    "english": "increase resiliency",
+    "pos": "增强韧性",
+    "chinese": "Making mistakes increases resiliency."
   },
   {
-    "chinese": "建立自信",
-    "english": "build confidence"
+    "english": "build confidence",
+    "pos": "建立自信",
+    "chinese": "It helps build confidence."
   }
 ]

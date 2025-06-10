@@ -1,287 +1,337 @@
 [
   {
-    "chinese": "侵略的，侵略性的",
     "english": "aggressive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "侵略的，侵略性的"
   },
   {
-    "chinese": "出现，发生，发展",
     "english": "arise",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "出现，发生，发展"
   },
   {
-    "chinese": "争斗的",
     "english": "agonistic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "争斗的"
   },
   {
-    "chinese": "冲突",
     "english": "conflict",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "冲突"
   },
   {
-    "chinese": "示范",
     "english": "demonstrate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "示范"
   },
   {
-    "chinese": "参与",
     "english": "participate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "参与"
   },
   {
-    "chinese": "解决",
     "english": "resolve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "解决"
   },
   {
-    "chinese": "资源",
     "english": "resource",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "资源"
   },
   {
-    "chinese": "领地",
     "english": "territory",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "领地"
   },
   {
-    "chinese": "投降",
     "english": "surrender",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "投降"
   },
   {
-    "chinese": "分散，散开",
     "english": "scatter",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "分散，散开"
   },
   {
-    "chinese": "散落",
     "english": "scatter",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "散落"
   },
   {
-    "chinese": "不像，与…不同",
     "english": "unlike",
-    "pos": "prep"
+    "pos": "prep",
+    "chinese": "不像，与…不同"
   },
   {
-    "chinese": "稀少的",
     "english": "scarce",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "稀少的"
   },
   {
-    "chinese": "几乎不",
     "english": "scarce",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "几乎不"
   },
   {
-    "chinese": "相互冲突的",
     "english": "competing",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "相互冲突的"
   },
   {
-    "chinese": "竞争，对抗 (compete的-ing形式)",
     "english": "competing",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "竞争，对抗 (compete的-ing形式)"
   },
   {
-    "chinese": "因素",
     "english": "factor",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "因素"
   },
   {
-    "chinese": "昆虫",
     "english": "insect",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "昆虫"
   },
   {
-    "chinese": "生物，微生物，有机体",
     "english": "organism",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "生物，微生物，有机体"
   },
   {
-    "chinese": "捕食者（动物）",
     "english": "predator",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "捕食者（动物）"
   },
   {
-    "chinese": "生物的",
     "english": "biotic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "生物的"
   },
   {
-    "chinese": "非生物的",
     "english": "abiotic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "非生物的"
   },
   {
-    "chinese": "无生命的",
     "english": "nonliving",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "无生命的"
   },
   {
-    "chinese": "生物学",
     "english": "biology",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "生物学"
   },
   {
-    "chinese": "观察",
     "english": "observe",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "观察"
   },
   {
-    "chinese": "蛇",
     "english": "snake",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "蛇"
   },
   {
-    "chinese": "目击",
     "english": "witness",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "目击"
   },
   {
-    "chinese": "格格作响",
     "english": "rattle",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "格格作响"
   },
   {
-    "chinese": "响尾蛇",
     "english": "rattlesnake",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "响尾蛇"
   },
   {
-    "chinese": "多样的",
     "english": "various",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "多样的"
   },
   {
-    "chinese": "洞穴",
     "english": "burrow",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "洞穴"
   },
   {
-    "chinese": "直立的",
     "english": "upright",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "直立的"
   },
   {
-    "chinese": "摔跤",
     "english": "wrestle",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "摔跤"
   },
   {
-    "chinese": "获得",
     "english": "gain",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "获得"
   },
   {
-    "chinese": "铲",
     "english": "shove",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "铲"
   },
   {
-    "chinese": "移动",
     "english": "maneuver",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "移动"
   },
   {
-    "chinese": "（两者）都不",
     "english": "neither",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "（两者）都不"
   },
   {
-    "chinese": "咬",
     "english": "bite",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "咬"
   },
   {
-    "chinese": "伤害",
     "english": "injure",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "伤害"
   },
   {
-    "chinese": "释放",
     "english": "release",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "释放"
   },
   {
-    "chinese": "例子",
     "english": "example",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "例子"
   },
   {
-    "chinese": "物种",
     "english": "species",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "物种"
   },
   {
-    "chinese": "松鼠",
     "english": "squirrel",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "松鼠"
   },
   {
-    "chinese": "主要的",
     "english": "primary",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "主要的"
   },
   {
-    "chinese": "保存",
+    "english": "nut",
+    "pos": "n.",
+    "chinese": "坚果"
+  },
+  {
     "english": "preserve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "保存"
   },
   {
-    "chinese": "埋",
     "english": "bury",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "埋"
   },
   {
-    "chinese": "存活",
     "english": "survive",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "存活"
   },
   {
-    "chinese": "猫头鹰",
     "english": "owl",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "猫头鹰"
   },
   {
-    "chinese": "老鼠（复数）",
     "english": "mice",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "老鼠（复数）"
   },
   {
-    "chinese": "繁殖",
     "english": "reproduce",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "繁殖"
   },
   {
-    "chinese": "持续",
     "english": "last",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "持续"
   },
   {
-    "chinese": "季节",
     "english": "season",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "季节"
   },
   {
-    "chinese": "生殖的",
     "english": "reproductive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "生殖的"
   },
   {
-    "chinese": "一窝幼崽",
     "english": "litter",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "一窝幼崽"
   },
   {
-    "chinese": "增加",
     "english": "increase",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "增加"
   },
   {
-    "chinese": "循环",
     "english": "cycle",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "循环"
+  },
+  {
+    "english": "divide sth up",
+    "pos": "分开",
+    "chinese": "instead, they scatter it—divide it up and hide it in many places."
+  },
+  {
+    "english": "hide sth in",
+    "pos": "隐藏",
+    "chinese": "Instead, they tend to divide the food up and hide it in many different places."
+  },
+  {
+    "english": "fall from",
+    "pos": "从某处掉落",
+    "chinese": "Because that’s when they fall from the trees, you know, they are everywhere."
+  },
+  {
+    "english": "put sth in",
+    "pos": "将某物放入",
+    "chinese": "The squirrels will actually dig hundreds of holes and just put one nut in each hole."
+  },
+  {
+    "english": "cause ... changes",
+    "pos": "造成某种影响",
+    "chinese": "Biotic and abiotic factors cause continual changes in the number of individuals that make up a population of organisms."
+  },
+  {
+    "english": "conflict over sth",
+    "pos": "关于某事物的冲突",
+    "chinese": "Within certain animal species, conflicts sometimes arise over resources such as territory or food."
+  },
+  {
+    "english": "resolve conflict",
+    "pos": "解决冲突",
+    "chinese": "To resolve these conflicts, two animals of the same species may engage in agonistic behavior."
+  },
+  {
+    "english": "for future use",
+    "pos": "在未来使用",
+    "chinese": "In such environments, some animals collect and prepare food when it is plentiful, then hoard it—store it—for future use."
+  },
+  {
+    "english": "Once sth is established",
+    "pos": "一旦某物出现",
+    "chinese": "Once the winner is established, that animal gains access to the desired resources, while the weaker animal surrenders and leaves the area."
   }
 ]

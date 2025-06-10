@@ -1,257 +1,302 @@
 [
   {
-    "chinese": "味道；滋味",
     "english": "flavor",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "味道；滋味"
   },
   {
-    "chinese": "零食",
     "english": "snack",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "零食"
   },
   {
-    "chinese": "社交",
     "english": "socialize",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "社交"
   },
   {
-    "chinese": "英格兰松饼",
     "english": "muffin",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "英格兰松饼"
   },
   {
-    "chinese": "翻修",
     "english": "renovation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "翻修"
   },
   {
-    "chinese": "反对",
     "english": "disagree",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "反对"
   },
   {
-    "chinese": "定金",
     "english": "deposit",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "定金"
   },
   {
-    "chinese": "单车",
     "english": "bicycle",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "单车"
   },
   {
-    "chinese": "方便的",
     "english": "convenient",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "方便的"
   },
   {
-    "chinese": "健身房",
     "english": "gym",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "健身房"
   },
   {
-    "chinese": "内容",
     "english": "content",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "内容"
   },
   {
-    "chinese": "设备",
     "english": "device",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "设备"
   },
   {
-    "chinese": "有效的",
     "english": "effective",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "有效的"
   },
   {
-    "chinese": "电子的",
     "english": "electronic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "电子的"
   },
   {
-    "chinese": "此外；而且；再者",
     "english": "furthermore",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "此外；而且；再者"
   },
   {
-    "chinese": "高光",
     "english": "highlighting",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "高光"
   },
   {
-    "chinese": "文本",
     "english": "text",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "文本"
   },
   {
-    "chinese": "管理人；经理",
     "english": "manager",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "管理人；经理"
   },
   {
-    "chinese": "最近地",
     "english": "recently",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "最近地"
   },
   {
-    "chinese": "改善，改进之处",
     "english": "improvement",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "改善，改进之处"
   },
   {
-    "chinese": "质量",
     "english": "quality",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "质量"
   },
   {
-    "chinese": "有利于健康的",
     "english": "healthful",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "有利于健康的"
   },
   {
-    "chinese": "一段时期",
     "english": "period",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "一段时期"
   },
   {
-    "chinese": "最大限度的",
     "english": "maximum",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "最大限度的"
   },
   {
-    "chinese": "辨认",
     "english": "identification",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "辨认"
   },
   {
-    "chinese": "建议",
     "english": "suggestion",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "建议"
   },
   {
-    "chinese": "基本上",
     "english": "basically",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "基本上"
   },
   {
-    "chinese": "夜间",
     "english": "nighttime",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "夜间"
   },
   {
-    "chinese": "切实可行的",
     "english": "practical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "切实可行的"
   },
   {
-    "chinese": "转换",
     "english": "switch",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "转换"
   },
   {
-    "chinese": "内容",
     "english": "content",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "内容"
   },
   {
-    "chinese": "屏幕",
     "english": "screen",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "屏幕"
   },
   {
-    "chinese": "材料",
     "english": "material",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "材料"
   },
   {
-    "chinese": "定期的，规律的",
     "english": "regular",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "定期的，规律的"
   },
   {
-    "chinese": "帮助，援助",
     "english": "aid",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "帮助，援助"
   },
   {
-    "chinese": "运转",
     "english": "operate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "运转"
   },
   {
-    "chinese": "特点",
     "english": "feature",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "特点"
   },
   {
-    "chinese": "笔记，随手记",
     "english": "note-taking",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "笔记，随手记"
   },
   {
-    "chinese": "务实的",
     "english": "realistic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "务实的"
   },
   {
-    "chinese": "华丽的",
     "english": "fancy",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "华丽的"
   },
   {
-    "chinese": "取代",
     "english": "replace",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "取代"
   },
   {
-    "chinese": "按键",
     "english": "keypad",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "按键"
   },
   {
-    "chinese": "按钮",
     "english": "button",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "按钮"
   },
   {
-    "chinese": "工作，运转",
     "english": "function",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "工作，运转"
   },
   {
-    "chinese": "在...划下划线",
     "english": "underlining",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "在...划下划线"
   },
   {
-    "chinese": "过时的",
     "english": "old-fashioned",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "过时的"
   },
   {
-    "chinese": "音节",
     "english": "syllable",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "音节"
   },
   {
-    "chinese": "无压力的",
     "english": "unstressed",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "无压力的"
   },
   {
-    "chinese": "隔离",
     "english": "isolation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "隔离"
   },
   {
-    "chinese": "语音的",
     "english": "phonetic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "语音的"
   },
   {
-    "chinese": "节奏，韵律",
     "english": "rhythm",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "节奏，韵律"
+  },
+  {
+    "english": "student identification card",
+    "pos": "学生证",
+    "chinese": "But I think students should be required to leave their student identification cards instead, so they don’t have to remember to bring cash."
+  },
+  {
+    "english": "for instance",
+    "pos": "例如",
+    "chinese": "For instance, my friends and I, on the weekends, sometimes we like to ride bikes to the state park outside of town and do some hiking there..."
+  },
+  {
+    "english": "traditional-bound textbook",
+    "pos": "传统书籍",
+    "chinese": "The university will begin switching from traditional-bound textbooks to electronic textbooks early next year."
+  },
+  {
+    "english": "one-time expense",
+    "pos": "一次性费用",
+    "chinese": "While the cost of the device is around $200, it is a one-time expense."
+  },
+  {
+    "english": "in the long run",
+    "pos": "长期来看",
+    "chinese": "Considering the rising cost of textbooks, students will save money in the long run."
+  },
+  {
+    "english": "cash deposit",
+    "pos": "押金",
+    "chinese": "Second, currently, students who borrow bikes have to leave a cash deposit."
+  },
+  {
+    "english": "a waste of space",
+    "pos": "浪费空间",
+    "chinese": "It’s just a waste of space that could be used for other things."
+  },
+  {
+    "english": "electronic book",
+    "pos": "电子书",
+    "chinese": "The university will begin switching from traditional-bound textbooks to electronic textbooks early next year."
+  },
+  {
+    "english": "study aid",
+    "pos": "学习辅助工具",
+    "chinese": "Furthermore, the university believes the device will be an effective study aid."
   }
 ]

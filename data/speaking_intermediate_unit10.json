@@ -1,232 +1,267 @@
 [
   {
-    "chinese": "集中，集中注意力",
     "english": "focus",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "集中，集中注意力"
   },
   {
-    "chinese": "正当的，合乎情理的",
     "english": "justified",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "正当的，合乎情理的"
   },
   {
-    "chinese": "任务",
     "english": "task",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "任务"
   },
   {
-    "chinese": "更可取的",
     "english": "preferable",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "更可取的"
   },
   {
-    "chinese": "通识课程",
-    "english": "general education courses",
-    "pos": "phrase"
-  },
-  {
-    "chinese": "化学",
     "english": "chemistry",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "化学"
   },
   {
-    "chinese": "方法，方法论",
     "english": "methodology",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "方法，方法论"
   },
   {
-    "chinese": "文学",
     "english": "literature",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "文学"
   },
   {
-    "chinese": "分析",
     "english": "analysis",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "分析"
   },
   {
-    "chinese": "核心",
     "english": "core",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "核心"
   },
   {
-    "chinese": "论文，散文",
     "english": "essay",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "论文，散文"
   },
   {
-    "chinese": "跳过",
     "english": "skip",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "跳过"
   },
   {
-    "chinese": "学费",
     "english": "tuition",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "学费"
   },
   {
-    "chinese": "省略",
     "english": "omit",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "省略"
   },
   {
-    "chinese": "毕业典礼",
     "english": "graduation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "毕业典礼"
   },
   {
-    "chinese": "出现，产生",
     "english": "arise",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "出现，产生"
   },
   {
-    "chinese": "专家",
     "english": "expert",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "专家"
   },
   {
-    "chinese": "应用，申请",
     "english": "apply",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "应用，申请"
   },
   {
-    "chinese": "方法/接近",
     "english": "approach",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "方法/接近"
   },
   {
-    "chinese": "参加，出席",
     "english": "attend",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "参加，出席"
   },
   {
-    "chinese": "职业",
     "english": "career",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "职业"
   },
   {
-    "chinese": "常见的，普通的",
     "english": "common",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "常见的，普通的"
   },
   {
-    "chinese": "发展，开发",
     "english": "develop",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "发展，开发"
   },
   {
-    "chinese": "讨论",
     "english": "discussion",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "讨论"
   },
   {
-    "chinese": "完全地，彻底地",
     "english": "entirely",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "完全地，彻底地"
   },
   {
-    "chinese": "改进，提高",
     "english": "improve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "改进，提高"
   },
   {
-    "chinese": "实例，情况",
     "english": "instance",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "实例，情况"
   },
   {
-    "chinese": "知识",
     "english": "knowledge",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "知识"
   },
   {
-    "chinese": "紧张的，焦虑的",
     "english": "nervous",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "紧张的，焦虑的"
   },
   {
-    "chinese": "意见，看法",
     "english": "opinion",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "意见，看法"
   },
   {
-    "chinese": "组织",
     "english": "organize",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "组织"
   },
   {
-    "chinese": "实际的，实用的",
     "english": "practical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "实际的，实用的"
   },
   {
-    "chinese": "多产的，富有成效的",
     "english": "productive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "多产的，富有成效的"
   },
   {
-    "chinese": "项目",
     "english": "project",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "项目"
   },
   {
-    "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "提供"
   },
   {
-    "chinese": "减少，降低",
     "english": "reduce",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "减少，降低"
   },
   {
-    "chinese": "研究/调查",
     "english": "research",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "研究/调查"
   },
   {
-    "chinese": "时间表/安排",
     "english": "schedule",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "时间表/安排"
   },
   {
-    "chinese": "使锋利，增强",
     "english": "sharpen",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "使锋利，增强"
   },
   {
-    "chinese": "技能，技巧",
     "english": "skill",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "技能，技巧"
   },
   {
-    "chinese": "具体的，特定的",
     "english": "specific",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "具体的，特定的"
   },
   {
-    "chinese": "压力/强调",
     "english": "stress",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "压力/强调"
   },
   {
-    "chinese": "斗争/奋斗",
     "english": "struggle",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "斗争/奋斗"
   },
   {
-    "chinese": "话题",
     "english": "topic",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "话题"
   },
   {
-    "chinese": "沮丧的",
     "english": "upset",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "沮丧的"
   },
   {
-    "chinese": "方法论",
     "english": "methodology",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "方法论"
+  },
+  {
+    "english": "learn from each other",
+    "pos": "互相学习",
+    "chinese": "I believe group activities are necessary during class. One reason is that students can learn from each other."
+  },
+  {
+    "english": "go off-topic",
+    "pos": "偏离主题",
+    "chinese": "it’s quite common for students to go off-topic."
+  },
+  {
+    "english": "result in",
+    "pos": "导致",
+    "chinese": "This results in the group work session being less effective and productive."
+  },
+  {
+    "english": "communicate with",
+    "pos": "与...沟通",
+    "chinese": "This is because they have to learn how to communicate with eachother, how to deal with disagreement, and how to compromise in order to reach a conclusion."
+  },
+  {
+    "english": "make sense",
+    "pos": "合乎情理",
+    "chinese": "Students may learn how to organize their knowledge and ideas to teach it to people in a way that makes sense."
+  },
+  {
+    "english": "as a result",
+    "pos": "因此",
+    "chinese": "As a result, they may withdraw themselves from groupwork and feel left out."
+  },
+  {
+    "english": "apply to",
+    "pos": "运用到",
+    "chinese": "They just need to realize how skills learned in one class can apply to an entirely different subject and situations."
+  },
+  {
+    "english": "attend to",
+    "pos": "出席",
+    "chinese": "The cost to attend college is already sky-high."
   }
 ]

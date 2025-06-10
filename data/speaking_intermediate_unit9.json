@@ -1,242 +1,327 @@
 [
   {
-    "chinese": "管弦乐队",
     "english": "orchestra",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "管弦乐队"
   },
   {
-    "chinese": "聪明的",
     "english": "intelligent",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "聪明的"
   },
   {
-    "chinese": "罕见，非常",
     "english": "exceptionally",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "罕见，非常"
   },
   {
-    "chinese": "音乐会",
     "english": "concert",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "音乐会"
   },
   {
-    "chinese": "古典的，经典的",
     "english": "classical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "古典的，经典的"
   },
   {
-    "chinese": "先前的，之前的",
     "english": "previous",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "先前的，之前的"
   },
   {
-    "chinese": "回忆，召回",
     "english": "recall",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "回忆，召回"
   },
   {
-    "chinese": "毁灭的，毁灭性的",
     "english": "destructive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "毁灭的，毁灭性的"
   },
   {
-    "chinese": "探索",
     "english": "explore",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "探索"
   },
   {
-    "chinese": "旁白者",
     "english": "narrator",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "旁白者"
   },
   {
-    "chinese": "观点，态度",
     "english": "perspective",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "观点，态度"
   },
   {
-    "chinese": "教授",
     "english": "professor",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "教授"
   },
   {
-    "chinese": "心理上的",
     "english": "psychological",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "心理上的"
   },
   {
-    "chinese": "心理学家",
     "english": "psychologist",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "心理学家"
   },
   {
-    "chinese": "心理学",
     "english": "psychology",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "心理学"
   },
   {
-    "chinese": "解决",
     "english": "solve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "解决"
   },
   {
-    "chinese": "理论",
     "english": "theory",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "理论"
   },
   {
-    "chinese": "冲动，欲望",
     "english": "urge",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "冲动，欲望"
   },
   {
-    "chinese": "依赖",
     "english": "dependency",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "依赖"
   },
   {
-    "chinese": "幻想",
     "english": "fantasy",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "幻想"
   },
   {
-    "chinese": "发明",
     "english": "invent",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "发明"
   },
   {
-    "chinese": "机制",
     "english": "mechanism",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "机制"
   },
   {
-    "chinese": "升华，纯化",
     "english": "sublimation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "升华，纯化"
   },
   {
-    "chinese": "无意识地",
     "english": "unconsciously",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "无意识地"
   },
   {
-    "chinese": "使改变方向",
     "english": "redirect",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "使改变方向"
   },
   {
-    "chinese": "防止",
     "english": "prevent",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "防止"
   },
   {
-    "chinese": "守卫，看护",
     "english": "guard",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "守卫，看护"
   },
   {
-    "chinese": "解决",
     "english": "solve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "解决"
   },
   {
-    "chinese": "通常地",
     "english": "typically",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "通常地"
   },
   {
-    "chinese": "行为",
     "english": "behavior",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "行为"
   },
   {
-    "chinese": "建造/构造",
     "english": "construct",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "建造/构造"
   },
   {
-    "chinese": "一致的，相符的",
     "english": "according",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "一致的，相符的"
   },
   {
-    "chinese": "成年人",
     "english": "adult",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "成年人"
   },
   {
-    "chinese": "焦虑的",
     "english": "anxious",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "焦虑的"
   },
   {
-    "chinese": "好处/有益于",
     "english": "benefit",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "好处/有益于"
   },
   {
-    "chinese": "块/阻碍",
     "english": "block",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "块/阻碍"
   },
   {
-    "chinese": "常见的",
     "english": "common",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "常见的"
   },
   {
-    "chinese": "恒定的/常数",
     "english": "constant",
-    "pos": "adj./n."
+    "pos": "adj./n.",
+    "chinese": "恒定的/常数"
   },
   {
-    "chinese": "贡献/捐献",
     "english": "contribute",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "贡献/捐献"
   },
   {
-    "chinese": "好奇的",
     "english": "curious",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "好奇的"
   },
   {
-    "chinese": "愿望/渴望",
     "english": "desire",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "愿望/渴望"
   },
   {
-    "chinese": "发展",
     "english": "development",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "发展"
   },
   {
-    "chinese": "情感上地",
     "english": "emotionally",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "情感上地"
   },
   {
-    "chinese": "塔",
     "english": "tower",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "塔"
   },
   {
-    "chinese": "伤害/损害",
     "english": "harm",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "伤害/损害"
   },
   {
-    "chinese": "代表/象征",
     "english": "represent",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "代表/象征"
   },
   {
-    "chinese": "粉碎/撞击",
     "english": "smash",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "粉碎/撞击"
   },
   {
-    "chinese": "不安的/不稳定的",
     "english": "uneasy",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "不安的/不稳定的"
+  },
+  {
+    "english": "have fun",
+    "pos": "玩的开心",
+    "chinese": "But there’s more to play than just having fun."
+  },
+  {
+    "english": "depend on",
+    "pos": "依赖于",
+    "chinese": "Well, some psychologists have suggested that small children often feel helpless--they have to depend on other people—adults--for everything."
+  },
+  {
+    "english": "be able to",
+    "pos": "能够",
+    "chinese": "But when kids play, they’re able to control their world of play--they decide...oh...which toy they’re gonna play with, and how they’re going to play with it."
+  },
+  {
+    "english": "according to",
+    "pos": "根据",
+    "chinese": "So, according to this theory, playing gives children a sense of being in control, and they don’t feel so helpless."
+  },
+  {
+    "english": "a sense of",
+    "pos": "...的感觉",
+    "chinese": "So, according to this theory, playing gives children a sense of being in control, and they don’t feel so helpless."
+  },
+  {
+    "english": "contribute to",
+    "pos": "有助于，促成",
+    "chinese": "And here’s another way play contributes to healthy psychological development."
+  },
+  {
+    "english": "act on",
+    "pos": "采取行动，对...有作用",
+    "chinese": "All kids have this urge, but if they try to act on it and start actually breaking things or messing things up around the house, their parents’ll get upset."
+  },
+  {
+    "english": "mess up",
+    "pos": "搞砸，弄乱",
+    "chinese": "All kids have this urge, but if they try to act on it and start actually breaking things or messing things up around the house, their parents’ll get upset."
+  },
+  {
+    "english": "be upset with",
+    "pos": "对...感到沮丧",
+    "chinese": "they want to explore what it’s like to be destructive but they don’t want their parents to be upset with them."
+  },
+  {
+    "english": "be allowed to do",
+    "pos": "被允许做",
+    "chinese": "‘Cause in play, they’re allowed to be destructive."
+  },
+  {
+    "english": "details of",
+    "pos": "...的细节",
+    "chinese": "If you don’t know anything about classical music before you go to the concert, you probably won’t remember many details of the concert later on."
+  },
+  {
+    "english": "on the other hand",
+    "pos": "另一方面",
+    "chinese": "On the other hand, if you already know a lot about classical music before you go to the concert"
+  },
+  {
+    "english": "let‘s say",
+    "pos": "比方说，让我们说",
+    "chinese": "For example, let’s say you’re in a class at a university—a big class, with over a hundred students in it."
+  },
+  {
+    "english": "be different from",
+    "pos": "与...不同",
+    "chinese": "The fact that these students were somehow different from the other students will make them easier to remember."
+  },
+  {
+    "english": "protect from",
+    "pos": "保护...免受",
+    "chinese": "So, what do they do? They unconsciously use strategies called defense mechanisms, to protect themselves psychologically from their painful emotions."
+  },
+  {
+    "english": "instead of",
+    "pos": "而不是",
+    "chinese": "So instead of just feeling helpless and sad about her lost dog, she invents a happy story in her mind."
+  },
+  {
+    "english": "keep...away",
+    "pos": "远离",
+    "chinese": "It’s a fantasy... it’s not real, but it keeps her pain away."
   }
 ]

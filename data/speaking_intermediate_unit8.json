@@ -1,247 +1,302 @@
 [
   {
-    "chinese": "特点；特征",
     "english": "characteristic",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "特点；特征"
   },
   {
-    "chinese": "地理上的",
     "english": "geographic",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "地理上的"
   },
   {
-    "chinese": "策略",
     "english": "strategy",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "策略"
   },
   {
-    "chinese": "目标",
     "english": "target",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "目标"
   },
   {
-    "chinese": "具体地；具体来说",
     "english": "specifically",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "具体地；具体来说"
   },
   {
-    "chinese": "使…多样化",
     "english": "diversify",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "使…多样化"
   },
   {
-    "chinese": "不同的；多种多样的",
     "english": "diverse",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "不同的；多种多样的"
   },
   {
-    "chinese": "满足",
     "english": "fulfill",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "满足"
   },
   {
-    "chinese": "显示器",
     "english": "monitor",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "显示器"
   },
   {
-    "chinese": "潜在的；可能的",
     "english": "potential",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "潜在的；可能的"
   },
   {
-    "chinese": "阻碍",
     "english": "obstacle",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "阻碍"
   },
   {
-    "chinese": "方面",
     "english": "aspect",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "方面"
   },
   {
-    "chinese": "部门",
     "english": "division",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "部门"
   },
   {
-    "chinese": "忠诚的",
     "english": "loyal",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "忠诚的"
   },
   {
-    "chinese": "确认的；公认的",
     "english": "established",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "确认的；公认的"
   },
   {
-    "chinese": "遭遇，遇见",
     "english": "encounter",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "遭遇，遇见"
   },
   {
-    "chinese": "自信的",
     "english": "confident",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "自信的"
   },
   {
-    "chinese": "有效地",
     "english": "effectively",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "有效地"
   },
   {
-    "chinese": "海洋",
     "english": "ocean",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "海洋"
   },
   {
-    "chinese": "回应/反应",
     "english": "response",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "回应/反应"
   },
   {
-    "chinese": "样本，抽样",
     "english": "sample",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "样本，抽样"
   },
   {
-    "chinese": "高效的",
     "english": "efficient",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "高效的"
   },
   {
-    "chinese": "资源",
     "english": "resource",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "资源"
   },
   {
-    "chinese": "增加/提高",
     "english": "increase",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "增加/提高"
   },
   {
-    "chinese": "优势",
     "english": "advantage",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "优势"
   },
   {
-    "chinese": "吸引力/呼吁",
     "english": "appeal",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "吸引力/呼吁"
   },
   {
-    "chinese": "顾客",
     "english": "customer",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "顾客"
   },
   {
-    "chinese": "分支，树枝",
     "english": "branch",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "分支，树枝"
   },
   {
-    "chinese": "发展/开发",
     "english": "develop",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "发展/开发"
   },
   {
-    "chinese": "现有的",
     "english": "existing",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "现有的"
   },
   {
-    "chinese": "讨论",
     "english": "discuss",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "讨论"
   },
   {
-    "chinese": "增加的",
     "english": "increasing",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "增加的"
   },
   {
-    "chinese": "夹克",
     "english": "jacket",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "夹克"
   },
   {
-    "chinese": "可能的/很可能地",
     "english": "likely",
-    "pos": "adj./adv."
+    "pos": "adj./adv.",
+    "chinese": "可能的/很可能地"
   },
   {
-    "chinese": "产品",
     "english": "product",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "产品"
   },
   {
-    "chinese": "位置/地点",
     "english": "location",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "位置/地点"
   },
   {
-    "chinese": "销售",
     "english": "sales",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "销售"
   },
   {
-    "chinese": "屏幕",
     "english": "screen",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "屏幕"
   },
   {
-    "chinese": "类似的",
     "english": "similar",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "类似的"
   },
   {
-    "chinese": "滑雪/滑雪板",
     "english": "ski",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "chinese": "滑雪/滑雪板"
   },
   {
-    "chinese": "滑雪运动",
     "english": "skiing",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "滑雪运动"
   },
   {
-    "chinese": "操作/经营",
     "english": "operate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "操作/经营"
   },
   {
-    "chinese": "技术的",
     "english": "technological",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "技术的"
   },
   {
-    "chinese": "技术",
     "english": "technology",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "技术"
   },
   {
-    "chinese": "过程/程序",
     "english": "process",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "过程/程序"
   },
   {
-    "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "提供"
   },
   {
-    "chinese": "质量",
     "english": "quality",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "质量"
   },
   {
-    "chinese": "餐馆",
     "english": "restaurant",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "餐馆"
   },
   {
-    "chinese": "成功",
     "english": "success",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "成功"
+  },
+  {
+    "english": "tend to",
+    "pos": "倾向于",
+    "chinese": "For example, a company that makes toy cars tend to advertise during children’s television shows to make sure their target customers, the kids, see the advertisement"
+  },
+  {
+    "english": "make sure",
+    "pos": "确保",
+    "chinese": "For example, a company that makes toy cars tend to advertise during children’s television shows to make sure their target customers, the kids, see the advertisement"
+  },
+  {
+    "english": "be more likely to",
+    "pos": "更有可能",
+    "chinese": "So, they’ll be more likely to buy the toy cars later"
+  },
+  {
+    "english": "in this way",
+    "pos": "这样，用这个方法",
+    "chinese": "Thus, they can sell more boats in this way"
+  },
+  {
+    "english": "new branch of",
+    "pos": "新分支",
+    "chinese": "For example, if you open a new branch of a pizza restaurant, the company will send someone to train you as well as the employees on every aspect of running the restaurant"
+  },
+  {
+    "english": "take... as an example",
+    "pos": "以...为例",
+    "chinese": "Still takes the pizza restaurant as an example."
+  },
+  {
+    "english": "well-known",
+    "pos": "知名的",
+    "chinese": "that’s when there’s already a well-known, established company"
+  },
+  {
+    "english": "a part of",
+    "pos": "一部分",
+    "chinese": "your new business will be a part of the larger, established company with the same name, and it’ll be run just like the other branches of that company."
+  },
+  {
+    "english": "come up with",
+    "pos": "想出，提出（计划）",
+    "chinese": "so you don’t have to do the training yourself, or come up with your own business plan"
+  },
+  {
+    "english": "be confident of",
+    "pos": "对...有信心",
+    "chinese": "So when you open a new division, people will want to come because they’ll be confident of its quality."
+  },
+  {
+    "english": "be going to be",
+    "pos": "将会是",
+    "chinese": "So when you open your own restaurant with the same name in a new location, people know your pizza’s going to be really good, too"
   }
 ]

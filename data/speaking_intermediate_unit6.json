@@ -1,252 +1,277 @@
 [
   {
-    "chinese": "认识，识别",
     "english": "recognition",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "认识，识别"
   },
   {
-    "chinese": "加盟连销权（加盟店）",
     "english": "franchising",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "加盟连销权（加盟店）"
   },
   {
-    "chinese": "消费者",
     "english": "consumer",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "消费者"
   },
   {
-    "chinese": "尽管，即使",
     "english": "despite",
-    "pos": "prep."
+    "pos": "prep.",
+    "chinese": "尽管，即使"
   },
   {
-    "chinese": "说服",
     "english": "persuade",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "说服"
   },
   {
-    "chinese": "缺点",
     "english": "drawback",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "缺点"
   },
   {
-    "chinese": "驳斥；批驳",
     "english": "refute",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "驳斥；批驳"
   },
   {
-    "chinese": "弱势",
     "english": "disadvantage",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "弱势"
   },
   {
-    "chinese": "限制",
     "english": "limitation",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "限制"
   },
   {
-    "chinese": "指示；表明；示意",
     "english": "indicate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "指示；表明；示意"
   },
   {
-    "chinese": "实现；（凭长期努力）达到（某目标）",
     "english": "achieve",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "实现；（凭长期努力）达到（某目标）"
   },
   {
-    "chinese": "联系；相关联；连接",
     "english": "link",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "联系；相关联；连接"
   },
   {
-    "chinese": "逻辑上；合乎逻辑地",
     "english": "logically",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "逻辑上；合乎逻辑地"
   },
   {
-    "chinese": "符号；象征；记号",
     "english": "symbol",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "符号；象征；记号"
   },
   {
-    "chinese": "视觉的",
     "english": "visual",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "视觉的"
   },
   {
-    "chinese": "竞争者",
     "english": "competitor",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "竞争者"
   },
   {
-    "chinese": "饼干",
     "english": "biscuit",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "饼干"
   },
   {
-    "chinese": "广告",
     "english": "commercial",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "广告"
   },
   {
-    "chinese": "娱乐的；有趣的",
     "english": "entertaining",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "娱乐的；有趣的"
   },
   {
-    "chinese": "形象；印象；画像",
     "english": "image",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "形象；印象；画像"
   },
   {
-    "chinese": "滑稽的; 可笑的; 有趣的",
     "english": "comical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "滑稽的; 可笑的; 有趣的"
   },
   {
-    "chinese": "活泼的; 令人兴奋的; 生气勃勃的",
     "english": "lively",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "活泼的; 令人兴奋的; 生气勃勃的"
   },
   {
-    "chinese": "连锁店",
     "english": "chain",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "连锁店"
   },
   {
-    "chinese": "受欢迎的",
     "english": "popular",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "受欢迎的"
   },
   {
-    "chinese": "饭店",
     "english": "restaurant",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "饭店"
   },
   {
-    "chinese": "要求",
     "english": "demand",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "要求"
   },
   {
-    "chinese": "披萨",
     "english": "pizza",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "披萨"
   },
   {
-    "chinese": "困难的",
     "english": "tough",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "困难的"
   },
   {
-    "chinese": "联系",
     "english": "contact",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "联系"
   },
   {
-    "chinese": "成功",
     "english": "success",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "成功"
   },
   {
-    "chinese": "交换",
     "english": "exchange",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "交换"
   },
   {
-    "chinese": "购买",
     "english": "purchase",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "购买"
   },
   {
-    "chinese": "平底锅",
     "english": "pan",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "平底锅"
   },
   {
-    "chinese": "专业的",
     "english": "professional",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "专业的"
   },
   {
-    "chinese": "观众；受众",
     "english": "audience",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "观众；受众"
   },
   {
-    "chinese": "厨具",
     "english": "cookware",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "厨具"
   },
   {
-    "chinese": "值得的",
     "english": "worthwhile",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "值得的"
   },
   {
-    "chinese": "担保",
     "english": "warranty",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "担保"
   },
   {
-    "chinese": "目标",
     "english": "goal",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "目标"
   },
   {
-    "chinese": "设计",
     "english": "design",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "设计"
   },
   {
-    "chinese": "典型的",
     "english": "typical",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "典型的"
   },
   {
-    "chinese": "积极的",
     "english": "positive",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "积极的"
   },
   {
-    "chinese": "未来",
     "english": "future",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "未来"
   },
   {
-    "chinese": "联系；联合；联想",
     "english": "associate",
-    "pos": "v."
+    "pos": "v.",
+    "chinese": "联系；联合；联想"
   },
   {
-    "chinese": "饼干；曲奇",
     "english": "cookie",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "饼干；曲奇"
   },
   {
-    "chinese": "角色",
     "english": "character",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "角色"
   },
   {
-    "chinese": "所以；因此",
     "english": "therefore",
-    "pos": "adv."
+    "pos": "adv.",
+    "chinese": "所以；因此"
   },
   {
-    "chinese": "独一无二的",
     "english": "one-of-a-kind",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "独一无二的"
   },
   {
-    "chinese": "锅",
     "english": "pot",
-    "pos": "n."
+    "pos": "n.",
+    "chinese": "锅"
   },
   {
-    "chinese": "众所周知的",
     "english": "well-known",
-    "pos": "adj."
+    "pos": "adj.",
+    "chinese": "众所周知的"
+  },
+  {
+    "english": "In exchange",
+    "pos": "作为交换",
+    "chinese": "作为交换"
+  },
+  {
+    "english": "TV commercial",
+    "pos": "电视广告",
+    "chinese": "电视广告"
+  },
+  {
+    "english": "made by",
+    "pos": "由……制造",
+    "chinese": "由……制造"
+  },
+  {
+    "english": "in-demand",
+    "pos": "有需求的",
+    "chinese": "有需求的"
+  },
+  {
+    "english": "name recognition",
+    "pos": "知名度",
+    "chinese": "知名度"
   }
 ]
