@@ -1,42 +1,312 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "冒险",
+    "english": "adventure",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "熟悉的",
+    "english": "familiar",
+    "pos": "adj."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "频率",
+    "english": "frequency",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "技巧",
+    "english": "technique",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "新颖；新奇",
+    "english": "novelty",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "改变",
+    "english": "vary",
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "心理学的",
+    "english": "psychological",
+    "pos": "adj."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "情绪上的",
+    "english": "emotional",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "周围的",
+    "english": "surrounding",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "激发；促进",
+    "english": "stimulate",
+    "pos": "v."
+  },
+  {
+    "chinese": "重复的",
+    "english": "repetitive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "路线",
+    "english": "route",
+    "pos": "n."
+  },
+  {
+    "chinese": "单调乏味的",
+    "english": "monotonous",
+    "pos": "adj."
+  },
+  {
+    "chinese": "不安的，焦虑的",
+    "english": "uneasy",
+    "pos": "adj."
+  },
+  {
+    "chinese": "焦虑",
+    "english": "anxiety",
+    "pos": "n."
+  },
+  {
+    "chinese": "快节奏的",
+    "english": "fast-paced",
+    "pos": "adj."
+  },
+  {
+    "chinese": "吸气；吸入",
+    "english": "inhale",
+    "pos": "v."
+  },
+  {
+    "chinese": "呼出",
+    "english": "exhale",
+    "pos": "v."
+  },
+  {
+    "chinese": "发泄方式；发泄途径",
+    "english": "outlet",
+    "pos": "n."
+  },
+  {
+    "chinese": "紧张；焦虑",
+    "english": "tension",
+    "pos": "n."
+  },
+  {
+    "chinese": "繁忙的",
+    "english": "hectic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "养育",
+    "english": "raise",
+    "pos": "v."
+  },
+  {
+    "chinese": "毫无疑问",
+    "english": "undoubtedly",
+    "pos": "adv."
+  },
+  {
+    "chinese": "连续发生的",
+    "english": "constant",
+    "pos": "adj."
+  },
+  {
+    "chinese": "照看（别人的）孩子",
+    "english": "babysit",
+    "pos": "v."
+  },
+  {
+    "chinese": "慢跑",
+    "english": "jog",
+    "pos": "v."
+  },
+  {
+    "chinese": "总体的",
+    "english": "overall",
+    "pos": "adj."
+  },
+  {
+    "chinese": "活动",
+    "english": "activity",
+    "pos": "n."
+  },
+  {
+    "chinese": "使不安/不安",
+    "english": "upset",
+    "pos": "v./n."
+  },
+  {
+    "chinese": "避免",
+    "english": "avoid",
+    "pos": "v."
+  },
+  {
+    "chinese": "奶油",
+    "english": "cream",
+    "pos": "n."
+  },
+  {
+    "chinese": "方向",
+    "english": "direction",
+    "pos": "n."
+  },
+  {
+    "chinese": "超级的，极好的",
+    "english": "super",
+    "pos": "adj."
+  },
+  {
+    "chinese": "环境",
+    "english": "environment",
+    "pos": "n."
+  },
+  {
+    "chinese": "例子",
+    "english": "example",
+    "pos": "n."
+  },
+  {
+    "chinese": "增加/增长",
+    "english": "increase",
+    "pos": "v./n."
+  },
+  {
+    "chinese": "位置",
+    "english": "location",
+    "pos": "n."
+  },
+  {
+    "chinese": "较低的",
+    "english": "lower",
+    "pos": "adj."
+  },
+  {
+    "chinese": "路径",
+    "english": "path",
+    "pos": "n."
+  },
+  {
+    "chinese": "执行",
+    "english": "perform",
+    "pos": "v."
+  },
+  {
+    "chinese": "接受",
+    "english": "receive",
+    "pos": "v."
+  },
+  {
+    "chinese": "预防，防止",
+    "english": "prevent",
+    "pos": "v."
+  },
+  {
+    "chinese": "艰难的",
+    "english": "tough",
+    "pos": "adj."
+  },
+  {
+    "chinese": "事业",
+    "english": "career",
+    "pos": "n."
+  },
+  {
+    "chinese": "愿望/渴望",
+    "english": "desire",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "精力充沛的",
+    "english": "energetic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "参与",
+    "english": "engage",
+    "pos": "v."
+  },
+  {
+    "chinese": "举例说明",
+    "english": "exemplify",
+    "pos": "v."
+  },
+  {
+    "chinese": "影响/影响力",
+    "english": "influence",
+    "pos": "v./n."
+  },
+  {
+    "chinese": "持久的",
+    "english": "lasting",
+    "pos": "adj."
+  },
+  {
+    "chinese": "快乐",
+    "english": "pleasure",
+    "pos": "n."
+  },
+  {
+    "chinese": "具体的",
+    "english": "specific",
+    "pos": "adj."
+  },
+  {
+    "chinese": "应对",
+    "english": "cope",
+    "pos": "v."
+  },
+  {
+    "chinese": "防御",
+    "english": "defense",
+    "pos": "n."
+  },
+  {
+    "chinese": "警惕的",
+    "english": "guarded",
+    "pos": "adj."
+  },
+  {
+    "chinese": "积极的",
+    "english": "positive",
+    "pos": "adj."
+  },
+  {
+    "chinese": "实际的",
+    "english": "practical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "焦虑的",
+    "english": "anxious",
+    "pos": "adj."
+  },
+  {
+    "chinese": "轻松",
+    "english": "at east",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "快节奏",
+    "english": "fast-pacing",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "去远足",
+    "english": "go hiking",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "深呼吸",
+    "english": "Deep breathing",
+    "pos": "phrase"
   }
 ]
