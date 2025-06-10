@@ -1,102 +1,137 @@
 [
   {
-    "english": "merely",
-    "pos": "adv.",
-    "chinese": "仅仅"
+    "chinese": "取得",
+    "english": "achieve",
+    "pos": "v."
   },
   {
-    "english": "clarify",
-    "pos": "v.",
-    "chinese": "阐明"
+    "chinese": "参加",
+    "english": "enroll",
+    "pos": "v."
   },
   {
-    "english": "violence",
-    "pos": "n.",
-    "chinese": "暴力"
+    "chinese": "最终的",
+    "english": "ultimate",
+    "pos": "adj."
   },
   {
-    "english": "ban",
-    "pos": "v.",
-    "chinese": "禁止"
+    "chinese": "成功",
+    "english": "succeed",
+    "pos": "v."
   },
   {
-    "english": "entertaining",
-    "pos": "adj.",
-    "chinese": "娱乐性"
+    "chinese": "促进",
+    "english": "foster",
+    "pos": "v."
   },
   {
-    "english": "nightmare",
-    "pos": "n.",
-    "chinese": "噩梦"
+    "chinese": "动力",
+    "english": "motivation",
+    "pos": "n."
   },
   {
-    "english": "deserve",
-    "pos": "v.",
-    "chinese": "值得"
+    "chinese": "完成",
+    "english": "accomplish",
+    "pos": "v."
   },
   {
-    "english": "satisfied",
-    "pos": "adj.",
-    "chinese": "满意的"
+    "chinese": "独立；自主",
+    "english": "independence",
+    "pos": "n."
   },
   {
-    "english": "rescue",
-    "pos": "v.",
-    "chinese": "营救"
+    "chinese": "合适的",
+    "english": "appropriate",
+    "pos": "adj."
   },
   {
-    "english": "bravery",
-    "pos": "adj.",
-    "chinese": "勇敢的"
+    "chinese": "使沮丧",
+    "english": "frustrate",
+    "pos": "v."
   },
   {
-    "english": "character",
-    "pos": "n.",
-    "chinese": "角色"
+    "chinese": "气馁",
+    "english": "discourage",
+    "pos": "n."
   },
   {
-    "english": "leisure",
-    "pos": "n.",
-    "chinese": "闲暇；空余时间"
+    "chinese": "个性",
+    "english": "personality",
+    "pos": "n."
   },
   {
-    "english": "punch",
-    "pos": "v.",
-    "chinese": "拳打"
+    "chinese": "平衡",
+    "english": "balance",
+    "pos": "n."
   },
   {
-    "english": "content",
-    "pos": "n.",
-    "chinese": "内容"
+    "chinese": "了解；洞悉",
+    "english": "insight",
+    "pos": "n."
   },
   {
-    "english": "aggressive",
-    "pos": "adj.",
-    "chinese": "好斗的"
+    "chinese": "节奏",
+    "english": "rhythm",
+    "pos": "n."
   },
   {
-    "english": "negative",
-    "pos": "adj.",
-    "chinese": "负面的"
+    "chinese": "热诚的",
+    "english": "passionate",
+    "pos": "adj."
   },
   {
-    "english": "literacy",
-    "pos": "n.",
-    "chinese": "识字；读写能力"
+    "chinese": "优势",
+    "english": "strength",
+    "pos": "n."
   },
   {
-    "english": "audit",
-    "pos": "v.",
-    "chinese": "旁听"
+    "chinese": "联系；人脉",
+    "english": "connection",
+    "pos": "n."
   },
   {
-    "english": "certificate",
-    "pos": "n.",
-    "chinese": "证明"
+    "chinese": "债务",
+    "english": "debt",
+    "pos": "n."
   },
   {
-    "english": "diverse",
-    "pos": "adj.",
-    "chinese": "不同的；多样的"
+    "chinese": "职业道路",
+    "english": "career path"
+  },
+  {
+    "chinese": "比......更了解",
+    "english": "know better than"
+  },
+  {
+    "chinese": "在不同领域工作",
+    "english": "work in different fields/industries"
+  },
+  {
+    "chinese": "做正确的决定",
+    "english": "make the right decision"
+  },
+  {
+    "chinese": "更支持",
+    "english": "be more supportive of"
+  },
+  {
+    "chinese": "感到有责任",
+    "english": "feel responsible for"
+  },
+  {
+    "chinese": "对......感到恐惧",
+    "english": "be fearful of"
+  },
+  {
+    "chinese": "踏板",
+    "english": "stepping stones"
+  },
+  {
+    "chinese": "增强韧性",
+    "english": "increase resiliency"
+  },
+  {
+    "chinese": "建立自信",
+    "english": "build confidence"
   }
 ]
