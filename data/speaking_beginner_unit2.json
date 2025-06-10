@@ -1,42 +1,332 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "抵抗",
+    "english": "resist",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "分散注意力的",
+    "english": "distracting",
+    "pos": "adj."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "故事情节",
+    "english": "storyline",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "沉浸",
+    "english": "immerse",
+    "pos": "v."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "不幸的",
+    "english": "unfortunate",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "观点",
+    "english": "viewpoint",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "烦扰",
+    "english": "bother",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "兴奋的",
+    "english": "thrilled",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "艺术的",
+    "english": "artistic",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "令人着迷的",
+    "english": "fascinating",
+    "pos": "adj."
+  },
+  {
+    "chinese": "多种多样的",
+    "english": "diverse",
+    "pos": "adj."
+  },
+  {
+    "chinese": "观点",
+    "english": "perspective",
+    "pos": "n."
+  },
+  {
+    "chinese": "干扰",
+    "english": "distraction",
+    "pos": "n."
+  },
+  {
+    "chinese": "令人满意的",
+    "english": "satisfying",
+    "pos": "adj."
+  },
+  {
+    "chinese": "装饰",
+    "english": "adorn",
+    "pos": "v."
+  },
+  {
+    "chinese": "难以禁首；使应接不暇；淹没的",
+    "english": "overwhelmed",
+    "pos": "adj."
+  },
+  {
+    "chinese": "感动的",
+    "english": "touched",
+    "pos": "adj."
+  },
+  {
+    "chinese": "感恩的",
+    "english": "grateful",
+    "pos": "adj."
+  },
+  {
+    "chinese": "难忘的",
+    "english": "memorable",
+    "pos": "adj."
+  },
+  {
+    "chinese": "人与人之间的，人际的",
+    "english": "interpersonal",
+    "pos": "adj."
+  },
+  {
+    "chinese": "关联，关系",
+    "english": "relationship",
+    "pos": "n."
+  },
+  {
+    "chinese": "效应，影响，作用",
+    "english": "effect",
+    "pos": "n."
+  },
+  {
+    "chinese": "闲谈，聊天",
+    "english": "chat",
+    "pos": "v./n."
+  },
+  {
+    "chinese": "笑，笑声",
+    "english": "laughter",
+    "pos": "n."
+  },
+  {
+    "chinese": "戏，剧",
+    "english": "drama",
+    "pos": "n."
+  },
+  {
+    "chinese": "历史学的",
+    "english": "historical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "视觉的",
+    "english": "visual",
+    "pos": "adj."
+  },
+  {
+    "chinese": "以后，后来",
+    "english": "afterward",
+    "pos": "adv."
+  },
+  {
+    "chinese": "审查，检查",
+    "english": "review",
+    "pos": "v."
+  },
+  {
+    "chinese": "生物学",
+    "english": "biology",
+    "pos": "n."
+  },
+  {
+    "chinese": "即将来临的",
+    "english": "upcoming",
+    "pos": "adj."
+  },
+  {
+    "chinese": "争论，争吵",
+    "english": "argument",
+    "pos": "n."
+  },
+  {
+    "chinese": "激烈的，激昂的",
+    "english": "heated",
+    "pos": "adj."
+  },
+  {
+    "chinese": "意见不一，争论",
+    "english": "disagreement",
+    "pos": "n."
+  },
+  {
+    "chinese": "遥远的；心不在焉的",
+    "english": "distant",
+    "pos": "adj."
+  },
+  {
+    "chinese": "道歉",
+    "english": "apology",
+    "pos": "n."
+  },
+  {
+    "chinese": "表示，表达，表露",
+    "english": "express",
+    "pos": "v."
+  },
+  {
+    "chinese": "详细的，细致的；精细的",
+    "english": "detailed",
+    "pos": "adj."
+  },
+  {
+    "chinese": "真诚的，诚挚的",
+    "english": "sincere",
+    "pos": "adj."
+  },
+  {
+    "chinese": "建议，提议",
+    "english": "suggest",
+    "pos": "v."
+  },
+  {
+    "chinese": "多事的",
+    "english": "eventful",
+    "pos": "adj."
+  },
+  {
+    "chinese": "对立的，对面的",
+    "english": "opposite",
+    "pos": "adj."
+  },
+  {
+    "chinese": "令人扫兴的",
+    "english": "disappointing",
+    "pos": "adj."
+  },
+  {
+    "chinese": "不可能的",
+    "english": "impossible",
+    "pos": "adj."
+  },
+  {
+    "chinese": "气球",
+    "english": "balloon",
+    "pos": "n."
+  },
+  {
+    "chinese": "情绪",
+    "english": "emotion",
+    "pos": "n."
+  },
+  {
+    "chinese": "样品",
+    "english": "sample",
+    "pos": "n."
+  },
+  {
+    "chinese": "安静地",
+    "english": "silently",
+    "pos": "adv."
+  },
+  {
+    "chinese": "震撼，震惊",
+    "english": "shocked",
+    "pos": "adj."
+  },
+  {
+    "chinese": "几乎，差不多",
+    "english": "nearly",
+    "pos": "adv."
+  },
+  {
+    "chinese": "全部的，整个的",
+    "english": "entire",
+    "pos": "adj."
+  },
+  {
+    "chinese": "视觉风格",
+    "english": "visual style",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "社交活动",
+    "english": "social activity",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "跟上，与他人保持相同的进度或水平",
+    "english": "keep up with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "使某人高兴起来",
+    "english": "cheer sb. up",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "由于，因为",
+    "english": "thank to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "感觉有点沮丧",
+    "english": "feel a little down",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "发表评论",
+    "english": "make comments",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "专注于",
+    "english": "focus on",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "与...重修于好；与...和解",
+    "english": "make up with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "互相学习",
+    "english": "learn from each other's perspective",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "对比，比较",
+    "english": "compare to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "沉浸于",
+    "english": "immerse in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "另一方面",
+    "english": "on the other hand",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "一方面",
+    "english": "on one hand",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "结果是，证明是",
+    "english": "turn out",
+    "pos": "phrase"
   }
 ]
