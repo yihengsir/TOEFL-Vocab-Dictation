@@ -256,47 +256,47 @@
   },
   {
     "english": "student identification card",
-    "pos": "学生证",
-    "chinese": "But I think students should be required to leave their student identification cards instead, so they don’t have to remember to bring cash."
+    "pos": "n.",
+    "chinese": "学生证"
   },
   {
     "english": "for instance",
-    "pos": "例如",
-    "chinese": "For instance, my friends and I, on the weekends, sometimes we like to ride bikes to the state park outside of town and do some hiking there..."
+    "pos": "phrase",
+    "chinese": "例如"
   },
   {
     "english": "traditional-bound textbook",
-    "pos": "传统书籍",
-    "chinese": "The university will begin switching from traditional-bound textbooks to electronic textbooks early next year."
+    "pos": "n.",
+    "chinese": "传统书籍"
   },
   {
     "english": "one-time expense",
-    "pos": "一次性费用",
-    "chinese": "While the cost of the device is around $200, it is a one-time expense."
+    "pos": "n.",
+    "chinese": "一次性费用"
   },
   {
     "english": "in the long run",
-    "pos": "长期来看",
-    "chinese": "Considering the rising cost of textbooks, students will save money in the long run."
+    "pos": "phrase",
+    "chinese": "长期来看"
   },
   {
     "english": "cash deposit",
-    "pos": "押金",
-    "chinese": "Second, currently, students who borrow bikes have to leave a cash deposit."
+    "pos": "n.",
+    "chinese": "押金"
   },
   {
     "english": "a waste of space",
-    "pos": "浪费空间",
-    "chinese": "It’s just a waste of space that could be used for other things."
+    "pos": "phrase",
+    "chinese": "浪费空间"
   },
   {
     "english": "electronic book",
-    "pos": "电子书",
-    "chinese": "The university will begin switching from traditional-bound textbooks to electronic textbooks early next year."
+    "pos": "n.",
+    "chinese": "电子书"
   },
   {
     "english": "study aid",
-    "pos": "学习辅助工具",
-    "chinese": "Furthermore, the university believes the device will be an effective study aid."
+    "pos": "n.",
+    "chinese": "学习辅助工具"
   }
 ]
