@@ -106,6 +106,12 @@
             outline: none;
             box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); /* focus:ring-4 focus:ring-blue-300 */
         }
+        .btn-primary:disabled { /* Style for disabled button */
+            background-color: #9ca3af; /* gray-400 */
+            cursor: not-allowed;
+            transform: scale(1);
+            box-shadow: none;
+        }
         @media (min-width: 768px) {
             .btn-primary {
                 width: 50%; /* md:w-1/2 */
@@ -418,19 +424,19 @@
                 </div>
 
                 <div class="flex flex-col md:flex-row gap-4 justify-center">
-                    <button id="get-example-btn" class="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-purple-300">
+                    <button id="get-example-btn" class="btn-primary bg-purple-600 hover:bg-purple-700 focus:ring-purple-300">
                         获取例句
                     </button>
-                    <button id="check-answer-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300">
+                    <button id="check-answer-btn" class="btn-primary bg-blue-600 hover:bg-blue-700 focus:ring-blue-300">
                         检查答案
                     </button>
-                    <button id="next-word-btn" class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-green-300 hidden">
+                    <button id="next-word-btn" class="btn-primary bg-green-600 hover:bg-green-700 focus:ring-green-300 hidden">
                         下一个
                     </button>
                 </div>
 
                 <div class="flex justify-center mt-4">
-                    <button id="end-test-btn" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-6 rounded-full shadow-lg transition duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-red-300">
+                    <button id="end-test-btn" class="btn-primary bg-red-500 hover:bg-red-600 focus:ring-red-300">
                         结束测试
                     </button>
                 </div>
@@ -448,7 +454,12 @@
             <div id="test-summary" class="text-left text-lg text-gray-800 mb-6">
                 <p><strong>姓名:</strong> <span id="summary-name"></span></p>
                 <p id="summary-class-row"><strong>班级:</strong> <span id="summary-class"></span></p>
+                <p><strong>测试科目:</strong> <span id="summary-category"></span></p> <!-- New -->
+                <p><strong>测试级别:</strong> <span id="summary-level"></span></p> <!-- New -->
+                <p><strong>内容类型:</strong> <span id="summary-content-type"></span></p> <!-- New -->
+                <p id="summary-unit-row" class="hidden"><strong>测试单元:</strong> <span id="summary-unit"></span></p> <!-- New -->
                 <p><strong>日期:</strong> <span id="summary-date"></span></p>
+                <p><strong>测试时长:</strong> <span id="summary-duration" class="font-bold"></span></p> <!-- New -->
                 <p><strong>正确率:</strong> <span id="summary-accuracy" class="font-bold"></span></p>
             </div>
             <h3 class="text-2xl font-bold text-gray-800 mb-4">
@@ -507,7 +518,13 @@
         const summaryName = document.getElementById('summary-name');
         const summaryClass = document.getElementById('summary-class');
         const summaryClassRow = document.getElementById('summary-class-row');
+        const summaryCategory = document.getElementById('summary-category'); // New
+        const summaryLevel = document.getElementById('summary-level');     // New
+        const summaryContentType = document.getElementById('summary-content-type'); // New
+        const summaryUnit = document.getElementById('summary-unit');       // New
+        const summaryUnitRow = document.getElementById('summary-unit-row'); // New
         const summaryDate = document.getElementById('summary-date');
+        const summaryDuration = document.getElementById('summary-duration'); // New
         const summaryAccuracy = document.getElementById('summary-accuracy');
         const incorrectCountSpan = document.getElementById('incorrect-count');
         const resultsList = document.getElementById('results-list');
@@ -534,6 +551,7 @@
             questionsAttempted: 0,
             incorrectAnswers: [], // Stores details of incorrectly answered questions
             testStartTime: null, // Records the start time of the test
+            testEndTime: null, // Records the end time of the test (NEW)
             userId: null, // Firebase Auth UID for the current user
         };
 
@@ -1010,6 +1028,19 @@
             appState.questionsAttempted = 0;
             appState.incorrectAnswers = [];
             appState.testStartTime = null;
+            appState.testEndTime = null; // Reset test end time (NEW)
+        }
+
+        /**
+         * Helper function to format duration.
+         * @param {number} totalSeconds - Total seconds of duration.
+         * @returns {string} Formatted duration string (e.g., "05m 30s").
+         */
+        function formatDuration(totalSeconds) {
+            const minutes = Math.floor(totalSeconds / 60);
+            const seconds = totalSeconds % 60;
+            const pad = (num) => num.toString().padStart(2, '0');
+            return `${pad(minutes)}m ${pad(seconds)}s`;
         }
 
         // --- Dictation Test Core Logic ---
@@ -1020,16 +1051,28 @@
             appState.correctAnswersCount = 0;
             appState.questionsAttempted = 0;
             appState.incorrectAnswers = [];
-            appState.testStartTime = new Date();
+            appState.testStartTime = Date.now(); // Record start time in milliseconds (NEW)
 
             // Ensure test view UI elements are correctly visible at the start of a new test
-            answerInput.classList.remove('hidden');
-            getExampleBtn.classList.remove('hidden');
-            checkAnswerBtn.classList.remove('hidden');
+            answerInput.value = ''; // Clear input field
+            answerInput.classList.remove('feedback-correct', 'feedback-incorrect', 'hidden'); // Remove feedback classes and unhide
+            answerInput.readOnly = false; // Ensure input is writable
+            answerInput.focus();
+
+            // Example button is disabled by default, only enabled after checkAnswerBtn is clicked
+            getExampleBtn.classList.remove('hidden'); // Ensure example button is visible
+            getExampleBtn.disabled = true; // Initially disable example button (NEW LOGIC)
+
+            checkAnswerBtn.classList.remove('hidden'); // Ensure check button is visible
             nextWordBtn.classList.add('hidden'); // Hide next button initially
+
             endTestBtn.classList.remove('hidden'); // Ensure end test button is always visible during test
-            feedbackMessage.classList.remove('hidden');
-            exampleSentenceDisplay.classList.remove('hidden');
+            feedbackMessage.textContent = ''; // Clear feedback message
+            feedbackMessage.classList.remove('text-green-600', 'text-red-600');
+            
+            exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文'; // Reset example sentence display
+            exampleSentenceDisplay.classList.remove('hidden'); // Ensure example display is visible
+            
             testProgressDisplay.classList.remove('hidden'); // Ensure progress display is visible
 
             loadQuestion();
@@ -1100,10 +1143,11 @@
             feedbackMessage.classList.remove('text-green-600', 'text-red-600');
             nextWordBtn.classList.add('hidden'); // Hide next button until answered
             checkAnswerBtn.classList.remove('hidden'); // Show check button
-            getExampleBtn.classList.remove('hidden'); // Ensure get example button is visible
+            
+            getExampleBtn.disabled = true; // Disable example button until checked (NEW LOGIC)
             exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文'; // Reset example sentence
             exampleSentenceDisplay.classList.remove('hidden'); // Ensure example display is visible
-            getExampleBtn.disabled = false;
+            
             console.log(`[loadQuestion] Displaying Chinese: "${currentPair.chinese}"`);
         }
 
@@ -1114,7 +1158,7 @@
             const correctEnglish = appState.shuffledTestVocabulary[appState.currentWordIndex].english.trim();
 
             answerInput.readOnly = true;
-            getExampleBtn.disabled = true;
+            getExampleBtn.disabled = false; // Enable example button after check (NEW LOGIC)
 
             if (typedAnswer.toLowerCase() === correctEnglish.toLowerCase()) {
                 feedbackMessage.textContent = '正确！👍';
@@ -1155,6 +1199,10 @@
         async function endTestSession() {
             console.log('[endTestSession] Ending test session and saving results...');
             
+            appState.testEndTime = Date.now(); // Record end time (NEW)
+            const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000); // Calculate duration in seconds
+            const formattedTestDuration = formatDuration(totalDurationSeconds); // Format duration (NEW)
+
             // Collect test results
             const testResult = {
                 studentName: appState.studentName,
@@ -1169,7 +1217,8 @@
                 accuracy: appState.questionsAttempted > 0 ? (appState.correctAnswersCount / appState.questionsAttempted) * 100 : 0,
                 incorrectAnswersDetails: JSON.stringify(appState.incorrectAnswers), // Store as string for Firestore
                 timestamp: serverTimestamp(), // Use Firestore's server timestamp
-                userId: appState.userId // Store Firebase User ID
+                userId: appState.userId, // Store Firebase User ID
+                testDuration: formattedTestDuration, // Store formatted duration (NEW)
             };
 
             // Save to Firestore
@@ -1215,7 +1264,24 @@
             } else {
                 summaryClassRow.classList.add('hidden');
             }
+            // Display new test details (NEW)
+            summaryCategory.textContent = categoryNames[appState.selectedCategory] || '未知';
+            summaryLevel.textContent = levelNames[appState.selectedLevel] || '未知';
+            summaryContentType.textContent = (appState.selectedContentType === 'unit' ? '按单元' : '按往期') || '未知';
+            
+            if (appState.selectedContentType === 'unit' && appState.selectedUnit) {
+                summaryUnitRow.classList.remove('hidden');
+                const unitNumberMatch = appState.selectedUnit.match(/unit(\d+)\.json/);
+                summaryUnit.textContent = unitNumberMatch ? `单元 ${unitNumberMatch[1]}` : appState.selectedUnit;
+            } else {
+                summaryUnitRow.classList.add('hidden');
+            }
+
             summaryDate.textContent = new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
+            
+            // Calculate and display test duration
+            const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000);
+            summaryDuration.textContent = formatDuration(totalDurationSeconds); // (NEW)
             
             let accuracy = 0;
             if (appState.questionsAttempted > 0) {
@@ -1266,7 +1332,9 @@
                 u: appState.selectedUnit,
                 ca: appState.correctAnswersCount,
                 tq: appState.questionsAttempted,
-                ia: appState.incorrectAnswers
+                ia: appState.incorrectAnswers,
+                ts: appState.testStartTime, // NEW: Include start time for duration calculation
+                te: appState.testEndTime // NEW: Include end time for duration calculation
             };
             // Use encodeURIComponent to handle non-Latin1 characters before btoa
             return btoa(encodeURIComponent(JSON.stringify(resultsToShare)));
@@ -1294,6 +1362,9 @@
                 appState.correctAnswersCount = decodedJson.ca || 0;
                 appState.questionsAttempted = decodedJson.tq || 0;
                 appState.incorrectAnswers = decodedJson.ia || [];
+                appState.testStartTime = decodedJson.ts || null; // NEW
+                appState.testEndTime = decodedJson.te || null;   // NEW
+
                 console.log('[Share] Decoded results:', decodedJson);
                 return true;
             } catch (error) {
@@ -1368,32 +1439,21 @@
 
         /**
          * Generates an example sentence using the Gemini API (gemini-2.0-flash).
+         * NEW LOGIC: Only callable when button is enabled (after answer check).
+         * Only retrieves ONE sentence, stripping preambles.
          */
         async function getExampleSentence() {
             console.log('[getExampleSentence] Attempting to get example sentence...');
             const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
             const englishWord = currentPair.english;
 
-            const isAnswerEmpty = answerInput.value.trim() === '';
-            const isAnswerChecked = answerInput.readOnly;
-            const isAnswerCorrect = answerInput.classList.contains('feedback-correct');
-
-            if (isAnswerEmpty && !isAnswerChecked) {
-                showModal('请输入英文词汇或短语后再获取例句。');
-                console.warn('[getExampleSentence] Answer input is empty, cannot get example.');
-                return;
-            } else if (isAnswerChecked && !isAnswerCorrect) {
-                 showModal('请检查您的答案（红色部分），并查看正确答案，再获取例句。');
-                 console.warn('[getExampleSentence] Answer incorrect and checked, guiding user to correct first.');
-                 return;
-            }
-
             exampleSentenceDisplay.innerHTML = '<div class="loading-spinner"></div>';
-            getExampleBtn.disabled = true;
+            getExampleBtn.disabled = true; // Disable while fetching
             console.log(`[getExampleSentence] Prompting LLM for example of: "${englishWord}"`);
 
             try {
-                const prompt = `请提供一个关于英文词汇或短语 "${englishWord}" 的例句。例句需适合中级英语学习者，且句子内容避免过于简单或过于复杂。`;
+                // Refined prompt to explicitly ask for just the sentence and no preamble
+                const prompt = `请提供一个关于英文词汇或短语 "${englishWord}" 的例句。例句需适合中级英语学习者，且句子内容避免过于简单或过于复杂。只给出例句本身，不要包含任何引导性的文字，例如“例句是：”或者“这是一个例句：”等。`;
                 let chatHistory = [];
                 chatHistory.push({ role: "user", parts: [{ text: prompt }] });
                 const payload = { contents: chatHistory };
@@ -1410,9 +1470,18 @@
                 if (result.candidates && result.candidates.length > 0 &&
                     result.candidates[0].content && result.candidates[0].content.parts &&
                     result.candidates[0].content.parts.length > 0) {
-                    const text = result.candidates[0].content.parts[0].text;
-                    exampleSentenceDisplay.textContent = `例句: "${text}"`;
-                    console.log(`[getExampleSentence] LLM example received: "${text}"`);
+                    let text = result.candidates[0].content.parts[0].text;
+                    // Aggressively remove common preambles and trailing quotation marks
+                    text = text.replace(/^(例句是|这是一个例句|例句|答案|Here's an example|Here's an example sentence|Example sentence is|Example|Sentence):?\s*["“]?/, '')
+                               .replace(/["”]?\s*$/, '') // Remove trailing quotes
+                               .trim();
+                    // Ensure it ends with punctuation if it's missing (simple check)
+                    if (!/[.!?]$/.test(text)) {
+                        text += '.';
+                    }
+
+                    exampleSentenceDisplay.textContent = `例句: ${text}`; // Keep "例句: " for display clarity
+                    console.log(`[getExampleSentence] LLM example received (processed): "${text}"`);
                 } else {
                     exampleSentenceDisplay.textContent = '无法生成例句。请稍后再试。';
                     console.error('[getExampleSentence] LLM response structure unexpected:', result);
@@ -1421,10 +1490,12 @@
                 exampleSentenceDisplay.textContent = '获取例句失败。请检查网络或稍后再试。';
                 console.error('Error calling LLM API:', error);
             } finally {
-                if (!answerInput.readOnly) {
+                // After fetching, re-enable the button if the current state allows it (answer checked)
+                // This ensures it stays clickable if a fetch error occurs.
+                // The main control for enable/disable is in checkCurrentAnswer/loadQuestion.
+                if (answerInput.readOnly) { // If answer is already checked (input is readOnly)
                     getExampleBtn.disabled = false;
                 }
-                console.log('[getExampleSentence] Example sentence request finished.');
             }
         }
 
@@ -1460,7 +1531,7 @@
                 <div id="custom-modal" class="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
                     <div class="bg-white p-8 rounded-lg shadow-xl max-w-sm w-full text-center">
                         <p class="text-lg font-semibold mb-6">${message}</p>
-                        <button id="modal-ok-btn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-200">确定</button>
+                        <button id="modal-ok-btn" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-200">确定</button>
                     </div>
                 </div>
             `;
