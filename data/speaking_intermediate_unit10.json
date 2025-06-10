@@ -1,207 +1,306 @@
 [
   {
-    "english": "fee",
-    "pos": "n.",
-    "chinese": "费用"
+    "chinese": "集中，集中注意力",
+    "english": "focus",
+    "pos": "v."
   },
   {
-    "english": "multiple",
-    "pos": "adj.",
-    "chinese": "数量多的"
+    "chinese": "正当的，合乎情理的",
+    "english": "justified",
+    "pos": "adj."
   },
   {
-    "english": "session",
-    "pos": "n.",
-    "chinese": "一段时间"
+    "chinese": "任务",
+    "english": "task",
+    "pos": "n."
   },
   {
-    "english": "scholarship",
-    "pos": "n.",
-    "chinese": "奖学金"
+    "chinese": "更可取的",
+    "english": "preferable",
+    "pos": "adj."
   },
   {
-    "english": "nowadays",
-    "pos": "adv.",
-    "chinese": "现今，目前"
+    "chinese": "通识课程",
+    "english": "general education courses"
   },
   {
-    "english": "accommodate",
-    "pos": "v.",
-    "chinese": "容纳；适应"
+    "chinese": "化学",
+    "english": "chemistry",
+    "pos": "n."
   },
   {
-    "english": "expand",
-    "pos": "v.",
-    "chinese": "扩张"
+    "chinese": "方法，方法论",
+    "english": "methodology",
+    "pos": "n."
   },
   {
-    "english": "facility",
-    "pos": "n.",
-    "chinese": "设施"
+    "chinese": "文学",
+    "english": "literature",
+    "pos": "n."
   },
   {
-    "english": "transition",
-    "pos": "n.",
-    "chinese": "过渡，转变"
+    "chinese": "分析",
+    "english": "analysis",
+    "pos": "n."
   },
   {
-    "english": "renovate",
-    "pos": "v.",
-    "chinese": "翻新"
+    "chinese": "核心",
+    "english": "core",
+    "pos": "n."
   },
   {
-    "english": "dean",
-    "pos": "n.",
-    "chinese": "院长；（大学）学院院长；系主任"
+    "chinese": "论文，散文",
+    "english": "essay",
+    "pos": "n."
   },
   {
-    "english": "dorm",
-    "pos": "n.",
-    "chinese": "宿舍"
+    "chinese": "跳过",
+    "english": "skip",
+    "pos": "v."
   },
   {
-    "english": "semester",
-    "pos": "n.",
-    "chinese": "学期"
+    "chinese": "学费",
+    "english": "tuition",
+    "pos": "n."
   },
   {
-    "english": "access",
-    "pos": "n.",
-    "chinese": "使用权；通道"
+    "chinese": "省略",
+    "english": "omit",
+    "pos": "v."
   },
   {
-    "english": "annoying",
-    "pos": "adj.",
-    "chinese": "令人烦恼的"
+    "chinese": "毕业典礼",
+    "english": "graduation",
+    "pos": "n."
   },
   {
-    "english": "chop",
-    "pos": "v.",
-    "chinese": "砍"
+    "chinese": "出现，产生",
+    "english": "arise",
+    "pos": "v."
   },
   {
-    "english": "comment",
-    "pos": "n.",
-    "chinese": "评论"
+    "chinese": "专家",
+    "english": "expert",
+    "pos": "n."
   },
   {
-    "english": "constantly",
-    "pos": "adv.",
-    "chinese": "总是，经常，不断地"
+    "chinese": "应用，申请",
+    "english": "apply",
+    "pos": "v."
   },
   {
-    "english": "detailed",
-    "pos": "adj.",
-    "chinese": "详细的"
+    "chinese": "方法/接近",
+    "english": "approach",
+    "pos": "n./v."
   },
   {
-    "english": "environment",
-    "pos": "n.",
-    "chinese": "环境"
+    "chinese": "参加，出席",
+    "english": "attend",
+    "pos": "v."
   },
   {
-    "english": "eventually",
-    "pos": "adv.",
-    "chinese": "最终"
+    "chinese": "职业",
+    "english": "career",
+    "pos": "n."
   },
   {
-    "english": "flip",
-    "pos": "v.",
-    "chinese": "翻转"
+    "chinese": "常见的，普通的",
+    "english": "common",
+    "pos": "adj."
   },
   {
-    "english": "foreign",
-    "pos": "adj.",
-    "chinese": "外国的"
+    "chinese": "发展，开发",
+    "english": "develop",
+    "pos": "v."
   },
   {
-    "english": "grade",
-    "pos": "n.",
-    "chinese": "等级；成绩"
+    "chinese": "讨论",
+    "english": "discussion",
+    "pos": "n."
   },
   {
-    "english": "mathematic",
-    "pos": "adj.",
-    "chinese": "数学的"
+    "chinese": "完全地，彻底地",
+    "english": "entirely",
+    "pos": "adv."
   },
   {
-    "english": "message",
-    "pos": "n.",
-    "chinese": "信息"
+    "chinese": "改进，提高",
+    "english": "improve",
+    "pos": "v."
   },
   {
-    "english": "mixed",
-    "pos": "adj.",
-    "chinese": "混合的"
+    "chinese": "实例，情况",
+    "english": "instance",
+    "pos": "n."
   },
   {
-    "english": "physical",
-    "pos": "adj.",
-    "chinese": "物理的"
+    "chinese": "知识",
+    "english": "knowledge",
+    "pos": "n."
   },
   {
-    "english": "popular",
-    "pos": "adj.",
-    "chinese": "流行的"
+    "chinese": "紧张的，焦虑的",
+    "english": "nervous",
+    "pos": "adj."
   },
   {
-    "english": "popularity",
-    "pos": "n.",
-    "chinese": "普及，流行"
+    "chinese": "意见，看法",
+    "english": "opinion",
+    "pos": "n."
   },
   {
-    "english": "print",
-    "pos": "v.",
-    "chinese": "打印"
+    "chinese": "组织",
+    "english": "organize",
+    "pos": "v."
   },
   {
-    "english": "budget",
-    "pos": "n.",
-    "chinese": "预算"
+    "chinese": "实际的，实用的",
+    "english": "practical",
+    "pos": "adj."
   },
   {
-    "english": "produce",
-    "pos": "v.",
-    "chinese": "生产"
+    "chinese": "多产的，富有成效的",
+    "english": "productive",
+    "pos": "adj."
   },
   {
+    "chinese": "项目",
+    "english": "project",
+    "pos": "n."
+  },
+  {
+    "chinese": "提供",
     "english": "provide",
-    "pos": "v.",
-    "chinese": "提供"
+    "pos": "v."
   },
   {
-    "english": "ray",
-    "pos": "n.",
-    "chinese": "光线，光束"
+    "chinese": "减少，降低",
+    "english": "reduce",
+    "pos": "v."
   },
   {
-    "english": "reference",
-    "pos": "n.",
-    "chinese": "参考，提及"
+    "chinese": "研究/调查",
+    "english": "research",
+    "pos": "n./v."
   },
   {
-    "english": "relax",
-    "pos": "v.",
-    "chinese": "放松"
+    "chinese": "时间表/安排",
+    "english": "schedule",
+    "pos": "n."
   },
   {
-    "english": "replace",
-    "pos": "v.",
-    "chinese": "替换"
+    "chinese": "使锋利，增强",
+    "english": "sharpen",
+    "pos": "v."
   },
   {
-    "english": "intellectual",
-    "pos": "adj.",
-    "chinese": "智力的"
+    "chinese": "技能，技巧",
+    "english": "skill",
+    "pos": "n."
   },
   {
-    "english": "sharp",
-    "pos": "adj.",
-    "chinese": "锋利的"
+    "chinese": "具体的，特定的",
+    "english": "specific",
+    "pos": "adj."
   },
   {
-    "english": "shelf",
-    "pos": "n.",
-    "chinese": "架子"
+    "chinese": "压力/强调",
+    "english": "stress",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "斗争/奋斗",
+    "english": "struggle",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "话题",
+    "english": "topic",
+    "pos": "n."
+  },
+  {
+    "chinese": "沮丧的",
+    "english": "upset",
+    "pos": "adj."
+  },
+  {
+    "chinese": "方法论",
+    "english": "methodology",
+    "pos": "n."
+  },
+  {
+    "chinese": "互相学习",
+    "english": "learn from each other",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "偏离主题",
+    "english": "go off-topic",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "导致",
+    "english": "result in",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "与...沟通",
+    "english": "communicate with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "解决",
+    "english": "deal with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "为了",
+    "english": "in order to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "得出结论",
+    "english": "reach a conclusion",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "努力",
+    "english": "struggle to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "共同，接受",
+    "english": "get on board with",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "合乎情理",
+    "english": "make sense",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "因此",
+    "english": "as a result",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "受冷落",
+    "english": "feel left out",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "运用到",
+    "english": "apply to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "出席",
+    "english": "attend to",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "对...感到沮丧",
+    "english": "be upset with",
+    "pos": "phrase"
   }
 ]
