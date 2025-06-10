@@ -1,42 +1,292 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "影响",
+    "english": "impact",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "转变",
+    "english": "transform",
+    "pos": "v."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "折扣",
+    "english": "discount",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "数字化的",
+    "english": "digital",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "负担得起的",
+    "english": "affordable",
+    "pos": "adj."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "传统主义者",
+    "english": "traditionalist",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "方便的",
+    "english": "handy",
+    "pos": "adj."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "参考",
+    "english": "reference",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "冗长的",
+    "english": "lengthy",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "舒适",
+    "english": "comfort",
+    "pos": "v."
+  },
+  {
+    "chinese": "东西",
+    "english": "stuff",
+    "pos": "n."
+  },
+  {
+    "chinese": "高手",
+    "english": "hack",
+    "pos": "n."
+  },
+  {
+    "chinese": "讽刺的",
+    "english": "ironic",
+    "pos": "adj."
+  },
+  {
+    "chinese": "恐慌",
+    "english": "panic",
+    "pos": "v."
+  },
+  {
+    "chinese": "互动",
+    "english": "interact",
+    "pos": "v."
+  },
+  {
+    "chinese": "参与",
+    "english": "engage",
+    "pos": "v."
+  },
+  {
+    "chinese": "详细阐述",
+    "english": "elaborate",
+    "pos": "v."
+  },
+  {
+    "chinese": "同龄人",
+    "english": "peer",
+    "pos": "n."
+  },
+  {
+    "chinese": "分散注意力的",
+    "english": "distracting",
+    "pos": "adj."
+  },
+  {
+    "chinese": "集中注意力",
+    "english": "concentrate",
+    "pos": "v."
+  },
+  {
+    "chinese": "重要的",
+    "english": "significant",
+    "pos": "adj."
+  },
+  {
+    "chinese": "消除",
+    "english": "eliminate",
+    "pos": "v."
+  },
+  {
+    "chinese": "多样的",
+    "english": "various",
+    "pos": "adj."
+  },
+  {
+    "chinese": "集中",
+    "english": "focus",
+    "pos": "v."
+  },
+  {
+    "chinese": "方面",
+    "english": "aspect",
+    "pos": "n."
+  },
+  {
+    "chinese": "科技；技术",
+    "english": "technology",
+    "pos": "n."
+  },
+  {
+    "chinese": "偏好",
+    "english": "preference",
+    "pos": "n."
+  },
+  {
+    "chinese": "（双方）对阵",
+    "english": "versus",
+    "pos": "prep."
+  },
+  {
+    "chinese": "传统的",
+    "english": "traditional",
+    "pos": "adj."
+  },
+  {
+    "chinese": "有规律的",
+    "english": "regular",
+    "pos": "adj."
+  },
+  {
+    "chinese": "版本",
+    "english": "version",
+    "pos": "n."
+  },
+  {
+    "chinese": "物理的",
+    "english": "physical",
+    "pos": "adj."
+  },
+  {
+    "chinese": "替代",
+    "english": "replace",
+    "pos": "v."
+  },
+  {
+    "chinese": "改善",
+    "english": "improve",
+    "pos": "v."
+  },
+  {
+    "chinese": "效率",
+    "english": "efficiency",
+    "pos": "n."
+  },
+  {
+    "chinese": "高光",
+    "english": "highlight",
+    "pos": "v."
+  },
+  {
+    "chinese": "下划线",
+    "english": "underline",
+    "pos": "v."
+  },
+  {
+    "chinese": "文本",
+    "english": "text",
+    "pos": "n."
+  },
+  {
+    "chinese": "概念",
+    "english": "concept",
+    "pos": "n."
+  },
+  {
+    "chinese": "点击",
+    "english": "click",
+    "pos": "v."
+  },
+  {
+    "chinese": "好处和坏处",
+    "english": "pros and cons",
+    "pos": "n."
+  },
+  {
+    "chinese": "发展；进步",
+    "english": "advancement",
+    "pos": "n."
+  },
+  {
+    "chinese": "笑声",
+    "english": "laughter",
+    "pos": "n."
+  },
+  {
+    "chinese": "聊天；闲聊",
+    "english": "chat",
+    "pos": "v."
+  },
+  {
+    "chinese": "连接",
+    "english": "connect",
+    "pos": "v."
+  },
+  {
+    "chinese": "强化",
+    "english": "enhance",
+    "pos": "v."
+  },
+  {
+    "chinese": "屏幕",
+    "english": "screen",
+    "pos": "n."
+  },
+  {
+    "chinese": "促进；推动",
+    "english": "promote",
+    "pos": "v."
+  },
+  {
+    "chinese": "按照自己节奏学习",
+    "english": "learn at their own pace",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "搜索工具",
+    "english": "search tool",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "电子版",
+    "english": "electronic version",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "点击几下",
+    "english": "with a few clicks",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "有预算/计划省钱",
+    "english": "on a budget",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "翻动",
+    "english": "flip through",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "尤其是",
+    "english": "especially for",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "更多的是",
+    "english": "what's more",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "特殊优惠",
+    "english": "special deal",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "对比之下",
+    "english": "in contrast",
+    "pos": "phrase"
   }
 ]
