@@ -1,0 +1,482 @@
+[
+  {
+    "english": "spray",
+    "pos": "v.",
+    "chinese": "喷洒"
+  },
+  {
+    "english": "precipitation",
+    "pos": "n.",
+    "chinese": "降水"
+  },
+  {
+    "english": "vapor",
+    "pos": "n.",
+    "chinese": "水蒸气"
+  },
+  {
+    "english": "hail",
+    "pos": "n.",
+    "chinese": "冰雹"
+  },
+  {
+    "english": "crop",
+    "pos": "n.",
+    "chinese": "农作物，庄稼"
+  },
+  {
+    "english": "decade",
+    "pos": "n.",
+    "chinese": "十年"
+  },
+  {
+    "english": "method",
+    "pos": "n.",
+    "chinese": "方式"
+  },
+  {
+    "english": "chemical",
+    "pos": "n.",
+    "chinese": "化学制品"
+  },
+  {
+    "english": "experiment",
+    "pos": "n.",
+    "chinese": "实验"
+  },
+  {
+    "english": "experimenter",
+    "pos": "n.",
+    "chinese": "实验者"
+  },
+  {
+    "english": "effectiveness",
+    "pos": "n.",
+    "chinese": "有效性"
+  },
+  {
+    "english": "urban",
+    "pos": "adj.",
+    "chinese": "城市的"
+  },
+  {
+    "english": "conduct",
+    "pos": "v.",
+    "chinese": "实施"
+  },
+  {
+    "english": "monitor",
+    "pos": "v.",
+    "chinese": "监测"
+  },
+  {
+    "english": "rural",
+    "pos": "adj.",
+    "chinese": "农村的"
+  },
+  {
+    "english": "ideal",
+    "pos": "adj.",
+    "chinese": "理想的"
+  },
+  {
+    "english": "conclude",
+    "pos": "v.",
+    "chinese": "得出结论"
+  },
+  {
+    "english": "seldom",
+    "pos": "adj.",
+    "chinese": "不常有的，很少的"
+  },
+  {
+    "english": "moreover",
+    "pos": "adv.",
+    "chinese": "此外，而且"
+  },
+  {
+    "english": "contrast",
+    "pos": "n.",
+    "chinese": "对比，对照"
+  },
+  {
+    "english": "contradict",
+    "pos": "v.",
+    "chinese": "反驳"
+  },
+  {
+    "english": "interact",
+    "pos": "v.",
+    "chinese": "互动"
+  },
+  {
+    "english": "reject",
+    "pos": "v.",
+    "chinese": "拒绝"
+  },
+  {
+    "english": "assert",
+    "pos": "v.",
+    "chinese": "断言，坚持自己的主张"
+  },
+  {
+    "english": "manufacturer",
+    "pos": "n.",
+    "chinese": "制造商"
+  },
+  {
+    "english": "eagerly",
+    "pos": "adv.",
+    "chinese": "急切地"
+  },
+  {
+    "english": "automobile",
+    "pos": "n.",
+    "chinese": "汽车"
+  },
+  {
+    "english": "alternative",
+    "pos": "adj.",
+    "chinese": "可供替代的"
+  },
+  {
+    "english": "fuel",
+    "pos": "n.",
+    "chinese": "燃料"
+  },
+  {
+    "english": "hydrogen",
+    "pos": "n.",
+    "chinese": "氢"
+  },
+  {
+    "english": "derive",
+    "pos": "v.",
+    "chinese": "得到，源于"
+  },
+  {
+    "english": "utilize",
+    "pos": "v.",
+    "chinese": "利用，使用"
+  },
+  {
+    "english": "competitive",
+    "pos": "adj.",
+    "chinese": "有竞争力的"
+  },
+  {
+    "english": "pellet",
+    "pos": "n.",
+    "chinese": "小球, 药丸"
+  },
+  {
+    "english": "sceptical",
+    "pos": "adj.",
+    "chinese": "怀疑的"
+  },
+  {
+    "english": "assumption",
+    "pos": "n.",
+    "chinese": "假设"
+  },
+  {
+    "english": "variation",
+    "pos": "n.",
+    "chinese": "变异, 变化"
+  },
+  {
+    "english": "opposition",
+    "pos": "n.",
+    "chinese": "反对, 对立"
+  },
+  {
+    "english": "drought",
+    "pos": "n.",
+    "chinese": "干旱"
+  },
+  {
+    "english": "yield",
+    "pos": "n.",
+    "chinese": "产出, 产量"
+  },
+  {
+    "english": "sub-point",
+    "pos": "n.",
+    "chinese": "子点"
+  },
+  {
+    "english": "substance",
+    "pos": "n.",
+    "chinese": "物质"
+  },
+  {
+    "english": "refute",
+    "pos": "v.",
+    "chinese": "驳斥"
+  },
+  {
+    "english": "internal-combustion",
+    "pos": "adj.",
+    "chinese": "内燃的"
+  },
+  {
+    "english": "diesel",
+    "pos": "n.",
+    "chinese": "柴油"
+  },
+  {
+    "english": "finite",
+    "pos": "adj.",
+    "chinese": "有限的"
+  },
+  {
+    "english": "deplete",
+    "pos": "v.",
+    "chinese": "耗尽"
+  },
+  {
+    "english": "unavoidable",
+    "pos": "adj.",
+    "chinese": "不可避免的"
+  },
+  {
+    "english": "by-product",
+    "pos": "n.",
+    "chinese": "副产品"
+  },
+  {
+    "english": "platinum",
+    "pos": "n.",
+    "chinese": "铂金"
+  },
+  {
+    "english": "destroy crops in the field",
+    "pos": "v.",
+    "chinese": "毁坏田里的庄稼"
+  },
+  {
+    "english": "water vapor",
+    "pos": "n.",
+    "chinese": "水蒸气"
+  },
+  {
+    "english": "crop monitoring",
+    "pos": "n.",
+    "chinese": "庄稼检测"
+  },
+  {
+    "english": "conduct a study",
+    "pos": "v.",
+    "chinese": "进行研究"
+  },
+  {
+    "english": "run the risk of",
+    "pos": "v.",
+    "chinese": "冒着……的风险"
+  },
+  {
+    "english": "cause a drought",
+    "pos": "v.",
+    "chinese": "引起干旱"
+  },
+  {
+    "english": "have a high level of pollution",
+    "pos": "v.",
+    "chinese": "污染程度很高"
+  },
+  {
+    "english": "interact with",
+    "pos": "v.",
+    "chinese": "和……互动"
+  },
+  {
+    "english": "favorable condition",
+    "pos": "n.",
+    "chinese": "有利的条件"
+  },
+  {
+    "english": "natural variation",
+    "pos": "n.",
+    "chinese": "自然变化"
+  },
+  {
+    "english": "have nothing to do with",
+    "pos": "v.",
+    "chinese": "和……无关"
+  },
+  {
+    "english": "cast doubt on",
+    "pos": "v.",
+    "chinese": "怀疑"
+  },
+  {
+    "english": "seek a replacement for",
+    "pos": "v.",
+    "chinese": "寻找…的替代品"
+  },
+  {
+    "english": "alternative source of energy",
+    "pos": "n.",
+    "chinese": "替代能源"
+  },
+  {
+    "english": "run out of",
+    "pos": "v.",
+    "chinese": "用完"
+  },
+  {
+    "english": "derive from",
+    "pos": "v.",
+    "chinese": "从……获得"
+  },
+  {
+    "english": "the by-product of",
+    "pos": "n.",
+    "chinese": "副产品"
+  },
+  {
+    "english": "refuse to do",
+    "pos": "v.",
+    "chinese": "拒绝做某事"
+  },
+  {
+    "english": "point out that",
+    "pos": "v.",
+    "chinese": "指出"
+  },
+  {
+    "english": "be restricted to",
+    "pos": "v.",
+    "chinese": "限于"
+  },
+  {
+    "english": "to be specific",
+    "pos": "adv.",
+    "chinese": "具体来说"
+  },
+  {
+    "english": "object to",
+    "pos": "v.",
+    "chinese": "反对"
+  },
+  {
+    "english": "rely on",
+    "pos": "v.",
+    "chinese": "依赖"
+  },
+  {
+    "english": "in the form of",
+    "pos": "prep.",
+    "chinese": "以...的形式"
+  },
+  {
+    "english": "on the other hand",
+    "pos": "adv.",
+    "chinese": "另一方面"
+  },
+  {
+    "english": "a finite source",
+    "pos": "n.",
+    "chinese": "一种有限的资源"
+  },
+  {
+    "english": "fall with great force",
+    "pos": "v.",
+    "chinese": "以巨大力量坠落"
+  },
+  {
+    "english": "be sprayed on",
+    "pos": "v.",
+    "chinese": "被喷洒在"
+  },
+  {
+    "english": "be effective in doing",
+    "pos": "v.",
+    "chinese": "在做某事方面有效"
+  },
+  {
+    "english": "the freezing point",
+    "pos": "n.",
+    "chinese": "冻结点"
+  },
+  {
+    "english": "add sth. to sth.",
+    "pos": "v.",
+    "chinese": "将某物添加到某物中"
+  },
+  {
+    "english": "support the value of",
+    "pos": "v.",
+    "chinese": "支持某事的价值"
+  },
+  {
+    "english": "raise problems",
+    "pos": "v.",
+    "chinese": "提出问题"
+  },
+  {
+    "english": "the effectiveness of",
+    "pos": "n.",
+    "chinese": "效能，效果"
+  },
+  {
+    "english": "be conducted by",
+    "pos": "v.",
+    "chinese": "由...进行"
+  },
+  {
+    "english": "tend to do",
+    "pos": "v.",
+    "chinese": "倾向于做某事"
+  },
+  {
+    "english": "reject the statement",
+    "pos": "v.",
+    "chinese": "拒绝该声明"
+  },
+  {
+    "english": "that is to say",
+    "pos": "phr.",
+    "chinese": "也就是说"
+  },
+  {
+    "english": "the natural variations",
+    "pos": "n.",
+    "chinese": "自然变异"
+  },
+  {
+    "english": "the formation of",
+    "pos": "n.",
+    "chinese": "...的形成"
+  },
+  {
+    "english": "crop yield",
+    "pos": "n.",
+    "chinese": "农作物产量"
+  },
+  {
+    "english": "in turn",
+    "pos": "phr.",
+    "chinese": "反过来"
+  },
+  {
+    "english": "have advantages over",
+    "pos": "v.",
+    "chinese": "在...方面具有优势"
+  },
+  {
+    "english": "an unavoidable by-product",
+    "pos": "n.",
+    "chinese": "不可避免的副产品"
+  },
+  {
+    "english": "economically competitive",
+    "pos": "adj.",
+    "chinese": "经济上具有竞争力"
+  },
+  {
+    "english": "be twice as efficient in doing",
+    "pos": "v.",
+    "chinese": "在做某事时效率是两倍的"
+  }
+]

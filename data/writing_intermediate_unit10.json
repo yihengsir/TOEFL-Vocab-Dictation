@@ -1,0 +1,462 @@
+[
+  {
+    "english": "beverage",
+    "pos": "n.",
+    "chinese": "饮料"
+  },
+  {
+    "english": "archaeological",
+    "pos": "adj.",
+    "chinese": "考古学的，考古的"
+  },
+  {
+    "english": "artifact",
+    "pos": "n.",
+    "chinese": "人工制品"
+  },
+  {
+    "english": "fermentation",
+    "pos": "n.",
+    "chinese": "发酵"
+  },
+  {
+    "english": "scatter",
+    "pos": "v.",
+    "chinese": "分散"
+  },
+  {
+    "english": "numerous",
+    "pos": "adj.",
+    "chinese": "很多的，数不清的"
+  },
+  {
+    "english": "container",
+    "pos": "n.",
+    "chinese": "容器"
+  },
+  {
+    "english": "undergo",
+    "pos": "v.",
+    "chinese": "经历"
+  },
+  {
+    "english": "seal",
+    "pos": "v.",
+    "chinese": "密封"
+  },
+  {
+    "english": "resident",
+    "pos": "n.",
+    "chinese": "居民"
+  },
+  {
+    "english": "victory",
+    "pos": "n.",
+    "chinese": "胜利"
+  },
+  {
+    "english": "ancient",
+    "pos": "adj.",
+    "chinese": "古代的"
+  },
+  {
+    "english": "burial",
+    "pos": "adj.",
+    "chinese": "埋葬的"
+  },
+  {
+    "english": "remian",
+    "pos": "n.",
+    "chinese": "遗体"
+  },
+  {
+    "english": "deposit",
+    "pos": "v.",
+    "chinese": "存放"
+  },
+  {
+    "english": "furthermore",
+    "pos": "adv.",
+    "chinese": "此外"
+  },
+  {
+    "english": "alongside",
+    "pos": "perp",
+    "chinese": "与……一起"
+  },
+  {
+    "english": "metal",
+    "pos": "n.",
+    "chinese": "金属"
+  },
+  {
+    "english": "jewelry",
+    "pos": "n.",
+    "chinese": "珠宝"
+  },
+  {
+    "english": "bead",
+    "pos": "n.",
+    "chinese": "珠子"
+  },
+  {
+    "english": "jar",
+    "pos": "n.",
+    "chinese": "罐子"
+  },
+  {
+    "english": "clay",
+    "pos": "n.",
+    "chinese": "黏土，泥土"
+  },
+  {
+    "english": "time- consuming",
+    "pos": "adj.",
+    "chinese": "浪费时间的"
+  },
+  {
+    "english": "stream",
+    "pos": "n.",
+    "chinese": "小溪"
+  },
+  {
+    "english": "expend",
+    "pos": "v.",
+    "chinese": "花费"
+  },
+  {
+    "english": "route",
+    "pos": "n.",
+    "chinese": "路线"
+  },
+  {
+    "english": "contrary",
+    "pos": "n.",
+    "chinese": "相反的事实"
+  },
+  {
+    "english": "universally",
+    "pos": "adv.",
+    "chinese": "普遍地；一般地"
+  },
+  {
+    "english": "residential",
+    "pos": "adj.",
+    "chinese": "住宅的"
+  },
+  {
+    "english": "interprete",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "architecture",
+    "pos": "n.",
+    "chinese": "建筑"
+  },
+  {
+    "english": "ceremonial",
+    "pos": "adj.",
+    "chinese": "礼仪的，正式的"
+  },
+  {
+    "english": "reveal",
+    "pos": "v.",
+    "chinese": "揭示，显露"
+  },
+  {
+    "english": "ceremony",
+    "pos": "n.",
+    "chinese": "仪式，典礼"
+  },
+  {
+    "english": "discard",
+    "pos": "v.",
+    "chinese": "丢弃，抛弃"
+  },
+  {
+    "english": "contend",
+    "pos": "v.",
+    "chinese": "主张，认为"
+  },
+  {
+    "english": "grain",
+    "pos": "n.",
+    "chinese": "谷物"
+  },
+  {
+    "english": "documente",
+    "pos": "v.",
+    "chinese": "记录，记载"
+  },
+  {
+    "english": "fireplace",
+    "pos": "n.",
+    "chinese": "壁炉"
+  },
+  {
+    "english": "plausible",
+    "pos": "adj.",
+    "chinese": "具有说服力的"
+  },
+  {
+    "english": "excavation",
+    "pos": "n.",
+    "chinese": "挖掘"
+  },
+  {
+    "english": "maize",
+    "pos": "n.",
+    "chinese": "玉米"
+  },
+  {
+    "english": "heap",
+    "pos": "n.",
+    "chinese": "堆"
+  },
+  {
+    "english": "trash",
+    "pos": "n.",
+    "chinese": "垃圾，废弃物"
+  },
+  {
+    "english": "leftover",
+    "pos": "n.",
+    "chinese": "残羹剩饭"
+  },
+  {
+    "english": "inaccuracy",
+    "pos": "n.",
+    "chinese": "不准确"
+  },
+  {
+    "english": "trace",
+    "pos": "n.",
+    "chinese": "痕迹"
+  },
+  {
+    "english": "sufficient",
+    "pos": "adj.",
+    "chinese": "足够的"
+  },
+  {
+    "english": "discard",
+    "pos": "v.",
+    "chinese": "丢弃"
+  },
+  {
+    "english": "identify their functions",
+    "pos": "v.",
+    "chinese": "确定他们的功能"
+  },
+  {
+    "english": "range from …… to",
+    "pos": "v.",
+    "chinese": "包含"
+  },
+  {
+    "english": "archaeological site",
+    "pos": "n.",
+    "chinese": "考古遗址"
+  },
+  {
+    "english": "scatter across",
+    "pos": "v.",
+    "chinese": "分散在各处"
+  },
+  {
+    "english": "undergo a chemical change",
+    "pos": "v.",
+    "chinese": "经历化学变化"
+  },
+  {
+    "english": "ferment a special beverage",
+    "pos": "v.",
+    "chinese": "发酵一种特殊的饮料"
+  },
+  {
+    "english": "be used for water storage",
+    "pos": "v.",
+    "chinese": "用来储水"
+  },
+  {
+    "english": "an ancient burial site",
+    "pos": "n .",
+    "chinese": "古代的埋葬地点"
+  },
+  {
+    "english": "a common practice",
+    "pos": "n .",
+    "chinese": "常规做法"
+  },
+  {
+    "english": "expended all this effort on",
+    "pos": "v.",
+    "chinese": "花费所有的努力做……"
+  },
+  {
+    "english": "serve the same purpose",
+    "pos": "v.",
+    "chinese": "用作同样的目的"
+  },
+  {
+    "english": "close to rivers and streams",
+    "pos": "adj.",
+    "chinese": "接近河流和小溪"
+  },
+  {
+    "english": "protect …… from……",
+    "pos": "v.",
+    "chinese": "保护……免受……的伤害"
+  },
+  {
+    "english": "be notable for",
+    "pos": "adj.",
+    "chinese": "以……闻名"
+  },
+  {
+    "english": "massive stone buildings",
+    "pos": "n.",
+    "chinese": "巨大的石头建筑"
+  },
+  {
+    "english": "purely residential",
+    "pos": "adj.",
+    "chinese": "纯粹的住宅"
+  },
+  {
+    "english": "house hundreds of people",
+    "pos": "v.",
+    "chinese": "容纳数百人"
+  },
+  {
+    "english": "as earlier versions",
+    "pos": "n.",
+    "chinese": "作为早期版本"
+  },
+  {
+    "english": "apartment buildings",
+    "pos": "n.",
+    "chinese": "公寓楼"
+  },
+  {
+    "english": "store food supplies",
+    "pos": "v.",
+    "chinese": "储存食物供应"
+  },
+  {
+    "english": "grain maize",
+    "pos": "n.",
+    "chinese": "粮食玉米"
+  },
+  {
+    "english": "serve as a long-lasting supply",
+    "pos": "v.",
+    "chinese": "作为长期供应"
+  },
+  {
+    "english": "ceremonial centers",
+    "pos": "n.",
+    "chinese": "仪式中心"
+  },
+  {
+    "english": "a pile of",
+    "pos": "adj.",
+    "chinese": "一堆"
+  },
+  {
+    "english": "discard the pots",
+    "pos": "v.",
+    "chinese": "丢掉这些锅"
+  },
+  {
+    "english": "documented for",
+    "pos": "v.",
+    "chinese": "记录"
+  },
+  {
+    "english": "cast serious doubt",
+    "pos": "v.",
+    "chinese": "引起严重怀疑"
+  },
+  {
+    "english": "do daily cooking",
+    "pos": "v.",
+    "chinese": "日常烹饪"
+  },
+  {
+    "english": "primary function",
+    "pos": "n.",
+    "chinese": "主要功能"
+  },
+  {
+    "english": "be unsupported by evidence",
+    "pos": "v.",
+    "chinese": "缺乏证据支持"
+  },
+  {
+    "english": "large quantities of",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "construction material",
+    "pos": "n.",
+    "chinese": "建筑材料"
+  },
+  {
+    "english": "proposed to be",
+    "pos": "v.",
+    "chinese": "被提议为"
+  },
+  {
+    "english": "in support of",
+    "pos": "prep.",
+    "chinese": "支持"
+  },
+  {
+    "english": "in contradiction with",
+    "pos": "prep.",
+    "chinese": "与...矛盾"
+  },
+  {
+    "english": "by contrast",
+    "pos": "prep.",
+    "chinese": "相比之下"
+  },
+  {
+    "english": "have traces of",
+    "pos": "v.",
+    "chinese": "有...的痕迹"
+  },
+  {
+    "english": "presence of……",
+    "pos": "n.",
+    "chinese": "...的存在"
+  },
+  {
+    "english": "offer sufficient proof",
+    "pos": "v.",
+    "chinese": "提供充分的证据"
+  },
+  {
+    "english": "ceremonial activities",
+    "pos": "n.",
+    "chinese": "仪式活动"
+  },
+  {
+    "english": "pieces of……",
+    "pos": "n.",
+    "chinese": "...的碎片"
+  },
+  {
+    "english": "upon the completion of",
+    "pos": "prep.",
+    "chinese": "在...完成时"
+  },
+  {
+    "english": "leftover from",
+    "pos": "n.",
+    "chinese": "剩余"
+  }
+]

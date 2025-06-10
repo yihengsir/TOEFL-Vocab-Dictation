@@ -1,0 +1,332 @@
+[
+  {
+    "english": "factor",
+    "pos": "n.",
+    "chinese": "因素"
+  },
+  {
+    "english": "weaken",
+    "pos": "v.",
+    "chinese": "减弱"
+  },
+  {
+    "english": "psychology",
+    "pos": "n.",
+    "chinese": "心理"
+  },
+  {
+    "english": "intimate",
+    "pos": "adj.",
+    "chinese": "亲密的"
+  },
+  {
+    "english": "brutally",
+    "pos": "adv.",
+    "chinese": "直接地"
+  },
+  {
+    "english": "intimacy",
+    "pos": "n.",
+    "chinese": "亲密"
+  },
+  {
+    "english": "mutual",
+    "pos": "adj.",
+    "chinese": "互相的"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相关地"
+  },
+  {
+    "english": "numerous",
+    "pos": "adj.",
+    "chinese": "数不清的"
+  },
+  {
+    "english": "sincerity",
+    "pos": "n.",
+    "chinese": "诚意，真诚"
+  },
+  {
+    "english": "interaction",
+    "pos": "n.",
+    "chinese": "互动"
+  },
+  {
+    "english": "encounter",
+    "pos": "v.",
+    "chinese": "邂逅，遇见"
+  },
+  {
+    "english": "initial",
+    "pos": "adj.",
+    "chinese": "最初的"
+  },
+  {
+    "english": "falsehood",
+    "pos": "n.",
+    "chinese": "谎言"
+  },
+  {
+    "english": "authority",
+    "pos": "n.",
+    "chinese": "权利"
+  },
+  {
+    "english": "personality",
+    "pos": "n.",
+    "chinese": "性格"
+  },
+  {
+    "english": "enable",
+    "pos": "v.",
+    "chinese": "使能够"
+  },
+  {
+    "english": "moreover",
+    "pos": "adv.",
+    "chinese": "此外，而且"
+  },
+  {
+    "english": "insight",
+    "pos": "n.",
+    "chinese": "了解，洞察力"
+  },
+  {
+    "english": "peer",
+    "pos": "n.",
+    "chinese": "同伴"
+  },
+  {
+    "english": "align",
+    "pos": "v.",
+    "chinese": "使一致"
+  },
+  {
+    "english": "noteworthy",
+    "pos": "adj.",
+    "chinese": "值得注意的；显著的；重要的"
+  },
+  {
+    "english": "specific",
+    "pos": "adj.",
+    "chinese": "明确的，具体的"
+  },
+  {
+    "english": "circumstance",
+    "pos": "n.",
+    "chinese": "环境，境况"
+  },
+  {
+    "english": "counterargument",
+    "pos": "n.",
+    "chinese": "相反的观点"
+  },
+  {
+    "english": "respectful",
+    "pos": "adj.",
+    "chinese": "尊敬的"
+  },
+  {
+    "english": "manner",
+    "pos": "n.",
+    "chinese": "方式"
+  },
+  {
+    "english": "solid",
+    "pos": "adj.",
+    "chinese": "可靠的"
+  },
+  {
+    "english": "well-intended",
+    "pos": "adj.",
+    "chinese": "善意的"
+  },
+  {
+    "english": "seemingly",
+    "pos": "adv.",
+    "chinese": "看似"
+  },
+  {
+    "english": "intensely",
+    "pos": "adv.",
+    "chinese": "强烈地"
+  },
+  {
+    "english": "invariably",
+    "pos": "adv.",
+    "chinese": "不变地"
+  },
+  {
+    "english": "compliment",
+    "pos": "v.",
+    "chinese": "称赞"
+  },
+  {
+    "english": "express",
+    "pos": "v.",
+    "chinese": "表达"
+  },
+  {
+    "english": "appreciation",
+    "pos": "n.",
+    "chinese": "感激"
+  },
+  {
+    "english": "maintain",
+    "pos": "v.",
+    "chinese": "保持，维持"
+  },
+  {
+    "english": "occasion",
+    "pos": "n.",
+    "chinese": "场合"
+  },
+  {
+    "english": "reaction",
+    "pos": "n.",
+    "chinese": "反应"
+  },
+  {
+    "english": "meaningful",
+    "pos": "adj.",
+    "chinese": "有意义的"
+  },
+  {
+    "english": "harmful",
+    "pos": "adj.",
+    "chinese": "有害的"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "建立"
+  },
+  {
+    "english": "introduce",
+    "pos": "v.",
+    "chinese": "介绍"
+  },
+  {
+    "english": "judge",
+    "pos": "v.",
+    "chinese": "判断"
+  },
+  {
+    "english": "skim",
+    "pos": "v.",
+    "chinese": "速读"
+  },
+  {
+    "english": "individual",
+    "pos": "adj.",
+    "chinese": "单独的"
+  },
+  {
+    "english": "guarantee",
+    "pos": "v.",
+    "chinese": "保证"
+  },
+  {
+    "english": "neutral",
+    "pos": "adj.",
+    "chinese": "中立的"
+  },
+  {
+    "english": "evaluate",
+    "pos": "v.",
+    "chinese": "评估"
+  },
+  {
+    "english": "vicious",
+    "pos": "adj.",
+    "chinese": "恶劣的"
+  },
+  {
+    "english": "unforeseen",
+    "pos": "adj.",
+    "chinese": "不可预见的"
+  },
+  {
+    "english": "harmless and well-intended white lies",
+    "pos": "n.",
+    "chinese": "无害且善意的善意谎言"
+  },
+  {
+    "english": "to compliment our friends",
+    "pos": "v.",
+    "chinese": "赞美我们的朋友"
+  },
+  {
+    "english": "establish mutual trust",
+    "pos": "v.",
+    "chinese": "建立相互信任"
+  },
+  {
+    "english": "encourage open communication",
+    "pos": "v.",
+    "chinese": "鼓励开放的交流"
+  },
+  {
+    "english": "build stronger relationships",
+    "pos": "v.",
+    "chinese": "建立更牢固的关系"
+  },
+  {
+    "english": "avoid misunderstandings and conflicts",
+    "pos": "v.",
+    "chinese": "避免误解和冲突"
+  },
+  {
+    "english": "show support and respect",
+    "pos": "v.",
+    "chinese": "表示支持和尊重"
+  },
+  {
+    "english": "protect their feelings",
+    "pos": "v.",
+    "chinese": "保护他们的感受"
+  },
+  {
+    "english": "have a condescending attitude",
+    "pos": "v.",
+    "chinese": "有一种居高临下的态度"
+  },
+  {
+    "english": "lead to a vicious circle",
+    "pos": "v.",
+    "chinese": "导致恶性循环"
+  },
+  {
+    "english": "another noteworthy aspect is that",
+    "pos": "句式",
+    "chinese": "另一个值得注意的方面是"
+  },
+  {
+    "english": "in a nutshell",
+    "pos": "prep",
+    "chinese": "简而言之"
+  },
+  {
+    "english": "a stepping stone to success",
+    "pos": "n.",
+    "chinese": "通往成功的垫脚石"
+  },
+  {
+    "english": "controversial topics",
+    "pos": "n.",
+    "chinese": "有争议的话题"
+  },
+  {
+    "english": "a wide range of",
+    "pos": "n.",
+    "chinese": "各种各样的"
+  },
+  {
+    "english": "align closely with our own situations",
+    "pos": "v.",
+    "chinese": "符合我们自己的情况"
+  }
+]

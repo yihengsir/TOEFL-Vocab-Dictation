@@ -1,0 +1,557 @@
+[
+  {
+    "english": "sled",
+    "pos": "n.",
+    "chinese": "雪橇"
+  },
+  {
+    "english": "compass",
+    "pos": "n.",
+    "chinese": "指南针；罗盘"
+  },
+  {
+    "english": "sizeable",
+    "pos": "adj.",
+    "chinese": "相当大的"
+  },
+  {
+    "english": "fuzzy",
+    "pos": "adj.",
+    "chinese": "模糊的"
+  },
+  {
+    "english": "trustworthy",
+    "pos": "adj.",
+    "chinese": "值得信赖的"
+  },
+  {
+    "english": "analogy",
+    "pos": "n.",
+    "chinese": "类比"
+  },
+  {
+    "english": "arctic",
+    "pos": "adj.",
+    "chinese": "极地的"
+  },
+  {
+    "english": "geographic",
+    "pos": "adj.",
+    "chinese": "地理的"
+  },
+  {
+    "english": "persuasive",
+    "pos": "adj.",
+    "chinese": "有说服力的"
+  },
+  {
+    "english": "airline",
+    "pos": "n.",
+    "chinese": "航空公司"
+  },
+  {
+    "english": "author",
+    "pos": "n.",
+    "chinese": "作者"
+  },
+  {
+    "english": "cite",
+    "pos": "v.",
+    "chinese": "引用"
+  },
+  {
+    "english": "declare",
+    "pos": "v.",
+    "chinese": "声明"
+  },
+  {
+    "english": "efficient",
+    "pos": "adj.",
+    "chinese": "有效的；效率高的"
+  },
+  {
+    "english": "explorer",
+    "pos": "n.",
+    "chinese": "探险家"
+  },
+  {
+    "english": "highway",
+    "pos": "n.",
+    "chinese": "公路"
+  },
+  {
+    "english": "passenger",
+    "pos": "n.",
+    "chinese": "乘客"
+  },
+  {
+    "english": "technique",
+    "pos": "n.",
+    "chinese": "技术"
+  },
+  {
+    "english": "transportation",
+    "pos": "n.",
+    "chinese": "运输；交通"
+  },
+  {
+    "english": "lecture",
+    "pos": "n.",
+    "chinese": "讲座；讲课"
+  },
+  {
+    "english": "lecturer",
+    "pos": "n.",
+    "chinese": "讲师"
+  },
+  {
+    "english": "moreover",
+    "pos": "adv.",
+    "chinese": "此外"
+  },
+  {
+    "english": "objective",
+    "pos": "adj.",
+    "chinese": "客观的"
+  },
+  {
+    "english": "passage",
+    "pos": "n.",
+    "chinese": "段落"
+  },
+  {
+    "english": "precise",
+    "pos": "adj.",
+    "chinese": "精确的"
+  },
+  {
+    "english": "rail",
+    "pos": "n.",
+    "chinese": "铁轨"
+  },
+  {
+    "english": "resource",
+    "pos": "n.",
+    "chinese": "资源"
+  },
+  {
+    "english": "analyze",
+    "pos": "v.",
+    "chinese": "分析"
+  },
+  {
+    "english": "conclude",
+    "pos": "v.",
+    "chinese": "得出结论"
+  },
+  {
+    "english": "conclusion",
+    "pos": "n.",
+    "chinese": "结论"
+  },
+  {
+    "english": "consistent",
+    "pos": "adj.",
+    "chinese": "一致的"
+  },
+  {
+    "english": "inaccurate",
+    "pos": "adj.",
+    "chinese": "不准确的"
+  },
+  {
+    "english": "ingredient",
+    "pos": "n.",
+    "chinese": "配料"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相对地"
+  },
+  {
+    "english": "unfocused",
+    "pos": "adj.",
+    "chinese": "未集中的"
+  },
+  {
+    "english": "unlike",
+    "pos": "prep.",
+    "chinese": "不像"
+  },
+  {
+    "english": "virtually",
+    "pos": "adv.",
+    "chinese": "几乎；事实上"
+  },
+  {
+    "english": "blurred",
+    "pos": "adj.",
+    "chinese": "模糊的"
+  },
+  {
+    "english": "chaos",
+    "pos": "n.",
+    "chinese": "混乱"
+  },
+  {
+    "english": "chef",
+    "pos": "n.",
+    "chinese": "厨师"
+  },
+  {
+    "english": "expedition",
+    "pos": "n.",
+    "chinese": "探险"
+  },
+  {
+    "english": "identical",
+    "pos": "adj.",
+    "chinese": "相同的"
+  },
+  {
+    "english": "primitive",
+    "pos": "adj.",
+    "chinese": "原始的；早期的"
+  },
+  {
+    "english": "skeptic",
+    "pos": "n.",
+    "chinese": "怀疑论者"
+  },
+  {
+    "english": "adventure",
+    "pos": "n.",
+    "chinese": "冒险"
+  },
+  {
+    "english": "breed",
+    "pos": "n.",
+    "chinese": "品种"
+  },
+  {
+    "english": "committee",
+    "pos": "n.",
+    "chinese": "委员会"
+  },
+  {
+    "english": "determine",
+    "pos": "v.",
+    "chinese": "决定；确定"
+  },
+  {
+    "english": "equipment",
+    "pos": "n.",
+    "chinese": "设备；装备"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "确立"
+  },
+  {
+    "english": "fund",
+    "pos": "v.",
+    "chinese": "资助"
+  },
+  {
+    "english": "insist",
+    "pos": "v.",
+    "chinese": "坚持"
+  },
+  {
+    "english": "measurement",
+    "pos": "n.",
+    "chinese": "测量"
+  },
+  {
+    "english": "otherwise",
+    "pos": "adv.",
+    "chinese": "否则"
+  },
+  {
+    "english": "unconvincing",
+    "pos": "adj.",
+    "chinese": "难以令人信服的"
+  },
+  {
+    "english": "academic essay",
+    "pos": "n.",
+    "chinese": "学术论文"
+  },
+  {
+    "english": "have an adventure",
+    "pos": "v.",
+    "chinese": "经历冒险"
+  },
+  {
+    "english": "the North Pole",
+    "pos": "n.",
+    "chinese": "北极"
+  },
+  {
+    "english": "well-known",
+    "pos": "adj.",
+    "chinese": "著名的"
+  },
+  {
+    "english": "set out to do",
+    "pos": "v.",
+    "chinese": "着手做某事"
+  },
+  {
+    "english": "international celebrity",
+    "pos": "n.",
+    "chinese": "国际名人"
+  },
+  {
+    "english": "provide strong support for",
+    "pos": "v.",
+    "chinese": "为...提供强有力的支持"
+  },
+  {
+    "english": "put together",
+    "pos": "v.",
+    "chinese": "组织了"
+  },
+  {
+    "english": "be instructed to do",
+    "pos": "v.",
+    "chinese": "被指示做某事"
+  },
+  {
+    "english": "conduct a thorough investigation on",
+    "pos": "v.",
+    "chinese": "对...进行彻底调查"
+  },
+  {
+    "english": "off the coast of",
+    "pos": "prep.",
+    "chinese": "在...海岸之外"
+  },
+  {
+    "english": "cover... distance",
+    "pos": "v.",
+    "chinese": "行驶...距离"
+  },
+  {
+    "english": "make a trek",
+    "pos": "v.",
+    "chinese": "进行长途跋涉"
+  },
+  {
+    "english": "take photographs",
+    "pos": "v.",
+    "chinese": "拍照"
+  },
+  {
+    "english": "make it possible to do",
+    "pos": "v.",
+    "chinese": "使做某事成为可能"
+  },
+  {
+    "english": "correspond to",
+    "pos": "v.",
+    "chinese": "与...相符"
+  },
+  {
+    "english": "This provide evidence that（clause）",
+    "pos": "句型",
+    "chinese": "这提供了证据表明..."
+  },
+  {
+    "english": "There's no solid evidence that（clause）",
+    "pos": "句型",
+    "chinese": "没有确凿的证据表明..."
+  },
+  {
+    "english": "The arguments are not convincing.",
+    "pos": "句型",
+    "chinese": "论据没有说服力。"
+  },
+  {
+    "english": "It is true that..., but ... .",
+    "pos": "句型",
+    "chinese": "虽然...是真的，但是..."
+  },
+  {
+    "english": "be composed of",
+    "pos": "v.",
+    "chinese": "由...组成"
+  },
+  {
+    "english": "contribute a large sums of money to",
+    "pos": "v.",
+    "chinese": "向...捐赠大笔资金"
+  },
+  {
+    "english": "be similar to",
+    "pos": "v.",
+    "chinese": "与...相似"
+  },
+  {
+    "english": "carry weight",
+    "pos": "v.",
+    "chinese": "负重"
+  },
+  {
+    "english": "encounter unfavorable/ favorable condition",
+    "pos": "v.",
+    "chinese": "遇到不利/有利的条件"
+  },
+  {
+    "english": "depend on doing",
+    "pos": "v.",
+    "chinese": "依赖于做某事"
+  },
+  {
+    "english": "measure precisely",
+    "pos": "v.",
+    "chinese": "精确测量"
+  },
+  {
+    "english": "become faded and worn over time",
+    "pos": "v.",
+    "chinese": "随时间变得褪色和磨损"
+  },
+  {
+    "english": "with great accuracy",
+    "pos": "adv.",
+    "chinese": "以极高的准确性"
+  },
+  {
+    "english": "be confident that（clause）",
+    "pos": "v.",
+    "chinese": "相信（从句）"
+  },
+  {
+    "english": "the authenticity of one’s claim",
+    "pos": "n.",
+    "chinese": "某人的主张的真实性"
+  },
+  {
+    "english": "in general",
+    "pos": "adv.",
+    "chinese": "一般来说"
+  },
+  {
+    "english": "refuse to believe for ... reasons",
+    "pos": "v.",
+    "chinese": "由于...原因拒绝相信"
+  },
+  {
+    "english": "prove one’s claim by investigating+n.",
+    "pos": "v.",
+    "chinese": "通过调查证明某人的主张"
+  },
+  {
+    "english": "cast doubt on",
+    "pos": "v.",
+    "chinese": "对...产生怀疑"
+  },
+  {
+    "english": "to be specific",
+    "pos": "adv.",
+    "chinese": "具体来说"
+  },
+  {
+    "english": "by contrast",
+    "pos": "adv.",
+    "chinese": "相比之下"
+  },
+  {
+    "english": "contradict the idea and argue that（clause）",
+    "pos": "v.",
+    "chinese": "反驳这个观点并认为（从句）"
+  },
+  {
+    "english": "transport sth by air",
+    "pos": "v.",
+    "chinese": "通过空运运输某物"
+  },
+  {
+    "english": "on the contrary",
+    "pos": "adv.",
+    "chinese": "相反"
+  },
+  {
+    "english": "rebut the statement by pointing out that（clause）",
+    "pos": "v.",
+    "chinese": "通过指出（从句）来反驳声明"
+  },
+  {
+    "english": "based on",
+    "pos": "prep.",
+    "chinese": "以...为基础"
+  },
+  {
+    "english": "in advance",
+    "pos": "adv.",
+    "chinese": "提前"
+  },
+  {
+    "english": "at ... stage",
+    "pos": "adv.",
+    "chinese": "在...阶段"
+  },
+  {
+    "english": "intercity train service",
+    "pos": "n.",
+    "chinese": "城际列车服务"
+  },
+  {
+    "english": "There are a number of critics who believe that （clause）",
+    "pos": "句型",
+    "chinese": "有许多评论家认为（从句）"
+  },
+  {
+    "english": "privately owned company",
+    "pos": "n.",
+    "chinese": "私营企业"
+  },
+  {
+    "english": "put forward",
+    "pos": "v.",
+    "chinese": "提出"
+  },
+  {
+    "english": "support one’s position",
+    "pos": "v.",
+    "chinese": "支持某人的立场"
+  },
+  {
+    "english": "in remote and less populated areas",
+    "pos": "adv.",
+    "chinese": "在偏远且人口稀少的地区"
+  },
+  {
+    "english": "add up to",
+    "pos": "v.",
+    "chinese": "总计"
+  },
+  {
+    "english": "cut unprofitable routes",
+    "pos": "v.",
+    "chinese": "削减无利可图的路线"
+  },
+  {
+    "english": "compete against sb.",
+    "pos": "v.",
+    "chinese": "与某人竞争"
+  },
+  {
+    "english": "a large majority of sth.",
+    "pos": "adj.",
+    "chinese": "大多数..."
+  },
+  {
+    "english": "means of transport",
+    "pos": "n.",
+    "chinese": "交通工具"
+  },
+  {
+    "english": "direct one’s fund at",
+    "pos": "v.",
+    "chinese": "将某人的资金用于"
+  }
+]

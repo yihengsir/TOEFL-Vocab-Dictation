@@ -1,0 +1,497 @@
+[
+  {
+    "english": "consider",
+    "pos": "v.",
+    "chinese": "考虑"
+  },
+  {
+    "english": "distraction",
+    "pos": "n.",
+    "chinese": "分心"
+  },
+  {
+    "english": "reward",
+    "pos": "n.",
+    "chinese": "奖励"
+  },
+  {
+    "english": "engage",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "passionate",
+    "pos": "adj.",
+    "chinese": "热情的"
+  },
+  {
+    "english": "guarantee",
+    "pos": "v.",
+    "chinese": "保证"
+  },
+  {
+    "english": "motivational",
+    "pos": "adj.",
+    "chinese": "动机的"
+  },
+  {
+    "english": "constantly",
+    "pos": "adv.",
+    "chinese": "持续不断地"
+  },
+  {
+    "english": "interrupt",
+    "pos": "v.",
+    "chinese": "打断"
+  },
+  {
+    "english": "accomplish",
+    "pos": "v.",
+    "chinese": "完成"
+  },
+  {
+    "english": "transfer",
+    "pos": "v.",
+    "chinese": "转移"
+  },
+  {
+    "english": "motivate",
+    "pos": "v.",
+    "chinese": "激励"
+  },
+  {
+    "english": "sensitive",
+    "pos": "adj.",
+    "chinese": "敏感的"
+  },
+  {
+    "english": "motivator",
+    "pos": "n.",
+    "chinese": "动机"
+  },
+  {
+    "english": "specialized",
+    "pos": "adj.",
+    "chinese": "专门的"
+  },
+  {
+    "english": "expertise",
+    "pos": "n.",
+    "chinese": "专业知识"
+  },
+  {
+    "english": "achieve",
+    "pos": "v.",
+    "chinese": "实现，取得"
+  },
+  {
+    "english": "circumstance",
+    "pos": "n.",
+    "chinese": "环境，境况"
+  },
+  {
+    "english": "divide",
+    "pos": "v.",
+    "chinese": "分开"
+  },
+  {
+    "english": "maintain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "preference",
+    "pos": "n.",
+    "chinese": "偏好"
+  },
+  {
+    "english": "delay",
+    "pos": "v.",
+    "chinese": "耽搁，延迟"
+  },
+  {
+    "english": "commonly",
+    "pos": "adv.",
+    "chinese": "通常地"
+  },
+  {
+    "english": "resume",
+    "pos": "n.",
+    "chinese": "简历"
+  },
+  {
+    "english": "hide",
+    "pos": "v.",
+    "chinese": "隐藏"
+  },
+  {
+    "english": "advertise",
+    "pos": "n.",
+    "chinese": "广告"
+  },
+  {
+    "english": "candidate",
+    "pos": "n.",
+    "chinese": "候选人"
+  },
+  {
+    "english": "filter",
+    "pos": "v.",
+    "chinese": "过滤"
+  },
+  {
+    "english": "narrow",
+    "pos": "adj.",
+    "chinese": "缩小"
+  },
+  {
+    "english": "option",
+    "pos": "n .",
+    "chinese": "选项"
+  },
+  {
+    "english": "rewarding",
+    "pos": "adj.",
+    "chinese": "报酬高的"
+  },
+  {
+    "english": "skyrocket",
+    "pos": "v.",
+    "chinese": "飞涨"
+  },
+  {
+    "english": "valid",
+    "pos": "adj.",
+    "chinese": "有效的"
+  },
+  {
+    "english": "crucial",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "generate",
+    "pos": "v.",
+    "chinese": "使形成"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "publicity",
+    "pos": "n.",
+    "chinese": "公众的注意"
+  },
+  {
+    "english": "budget",
+    "pos": "n.",
+    "chinese": "预算"
+  },
+  {
+    "english": "disagreement",
+    "pos": "n.",
+    "chinese": "分歧"
+  },
+  {
+    "english": "context",
+    "pos": "n.",
+    "chinese": "环境"
+  },
+  {
+    "english": "assign",
+    "pos": "v.",
+    "chinese": "分配"
+  },
+  {
+    "english": "contribute",
+    "pos": "v.",
+    "chinese": "起促成作用"
+  },
+  {
+    "english": "overall",
+    "pos": "adj.",
+    "chinese": "整体的"
+  },
+  {
+    "english": "unfamiliar",
+    "pos": "adj.",
+    "chinese": "不熟悉的"
+  },
+  {
+    "english": "delay",
+    "pos": "v.",
+    "chinese": "拖延"
+  },
+  {
+    "english": "fierce",
+    "pos": "adj.",
+    "chinese": "激烈的"
+  },
+  {
+    "english": "network",
+    "pos": "n.",
+    "chinese": "网络"
+  },
+  {
+    "english": "publicly",
+    "pos": "adv.",
+    "chinese": "公开地"
+  },
+  {
+    "english": "hidden",
+    "pos": "adj.",
+    "chinese": "难以发现的"
+  },
+  {
+    "english": "additionally",
+    "pos": "adv.",
+    "chinese": "此外"
+  },
+  {
+    "english": "job seeker",
+    "pos": "n.",
+    "chinese": "求职者"
+  },
+  {
+    "english": "be free of noise and distraction",
+    "pos": "adj.",
+    "chinese": "没有噪音和干扰"
+  },
+  {
+    "english": "achieve great success",
+    "pos": "v.",
+    "chinese": "取得巨大成功"
+  },
+  {
+    "english": "increase competitiveness",
+    "pos": "v.",
+    "chinese": "提高竞争力"
+  },
+  {
+    "english": "boost efficiency",
+    "pos": "v.",
+    "chinese": "提高效率"
+  },
+  {
+    "english": "white-collar worker(s)",
+    "pos": "n.",
+    "chinese": "白领工作者"
+  },
+  {
+    "english": "sound-sensitive",
+    "pos": "adj.",
+    "chinese": "对声音敏感的"
+  },
+  {
+    "english": "grab sb’s attention",
+    "pos": "v.",
+    "chinese": "夺走某人的注意力"
+  },
+  {
+    "english": "disrupt the flow of sb’s work",
+    "pos": "v.",
+    "chinese": "打乱某人的工作流程"
+  },
+  {
+    "english": "process files and data",
+    "pos": "v.",
+    "chinese": "处理文件和数据"
+  },
+  {
+    "english": "efficiency skyrocket(ed)",
+    "pos": "v.",
+    "chinese": "效率大幅度增长"
+  },
+  {
+    "english": "ahead of time",
+    "pos": "prep",
+    "chinese": "提前"
+  },
+  {
+    "english": "there is a critical fact that goes unnoticed: …",
+    "pos": "句式",
+    "chinese": "有一个被忽视的重要事实:…"
+  },
+  {
+    "english": "achieve/meet the required standard",
+    "pos": "v.",
+    "chinese": "达到/达到要求的标准"
+  },
+  {
+    "english": "the bonus system",
+    "pos": "n.",
+    "chinese": "奖励制度"
+  },
+  {
+    "english": "not necessarily",
+    "pos": "adv.",
+    "chinese": "不一定"
+  },
+  {
+    "english": "specialized field",
+    "pos": "n.",
+    "chinese": "专业领域"
+  },
+  {
+    "english": "expertise",
+    "pos": "n.",
+    "chinese": "专业知识"
+  },
+  {
+    "english": "go in the wrong direction",
+    "pos": "v.",
+    "chinese": "走错方向"
+  },
+  {
+    "english": "efficiency-booster",
+    "pos": "n.",
+    "chinese": "效率助推器"
+  },
+  {
+    "english": "leave a deep impression on",
+    "pos": "v.",
+    "chinese": "给…留下深刻印象"
+  },
+  {
+    "english": "small-scale companies",
+    "pos": "n.",
+    "chinese": "小规模公司"
+  },
+  {
+    "english": "generate extensive publicity",
+    "pos": "v.",
+    "chinese": "产生广泛的宣传"
+  },
+  {
+    "english": "budget",
+    "pos": "n.",
+    "chinese": "预算"
+  },
+  {
+    "english": "well-advertised",
+    "pos": "adj.",
+    "chinese": "广为宣传的"
+  },
+  {
+    "english": "user experience",
+    "pos": "n.",
+    "chinese": "用户体验"
+  },
+  {
+    "english": "a key factor in",
+    "pos": "n.",
+    "chinese": "关键因素"
+  },
+  {
+    "english": "assign tasks properly",
+    "pos": "v.",
+    "chinese": "合理分配任务"
+  },
+  {
+    "english": "play to sb.'s strengths",
+    "pos": "v.",
+    "chinese": "发挥某人的优势"
+  },
+  {
+    "english": "maximize overall efficiency",
+    "pos": "v.",
+    "chinese": "最大化整体效率"
+  },
+  {
+    "english": "race against time",
+    "pos": "v.",
+    "chinese": "和时间赛跑"
+  },
+  {
+    "english": "meet deadlines",
+    "pos": "v.",
+    "chinese": "赶任务"
+  },
+  {
+    "english": "the best-case/worst-case situation is that …",
+    "pos": "句式",
+    "chinese": "最好/最坏的情况"
+  },
+  {
+    "english": "at the root of sth. is …",
+    "pos": "prep",
+    "chinese": "某事的根源是…"
+  },
+  {
+    "english": "ease financial burden",
+    "pos": "v.",
+    "chinese": "减轻经济负担"
+  },
+  {
+    "english": "create a positive cycle",
+    "pos": "v.",
+    "chinese": "创造一个良性循环"
+  },
+  {
+    "english": "have inside information about ...",
+    "pos": "v.",
+    "chinese": "有关于……的内部消息"
+  },
+  {
+    "english": "present a positive image",
+    "pos": "v.",
+    "chinese": "展现正面形象"
+  },
+  {
+    "english": "face many strong competitors",
+    "pos": "v.",
+    "chinese": "有太多强劲的竞争对手"
+  },
+  {
+    "english": "increase umfamiliarity",
+    "pos": "v.",
+    "chinese": "提高不熟悉度"
+  },
+  {
+    "english": "lead to greater losses on both side",
+    "pos": "v.",
+    "chinese": "导致双方的重大损失"
+  },
+  {
+    "english": "fail to finish",
+    "pos": "v.",
+    "chinese": "不能完成"
+  },
+  {
+    "english": "let alone",
+    "pos": "prep",
+    "chinese": "更不用说"
+  },
+  {
+    "english": "ask friedns for job leads",
+    "pos": "v.",
+    "chinese": "向朋友寻求工作机会"
+  },
+  {
+    "english": "send a letter of introduction or resume",
+    "pos": "v.",
+    "chinese": "发送一封介绍信或简历"
+  },
+  {
+    "english": "so on and so forth",
+    "pos": "adv.",
+    "chinese": "等等"
+  },
+  {
+    "english": "reach out to",
+    "pos": "v.",
+    "chinese": "接触，联系"
+  },
+  {
+    "english": "tap into",
+    "pos": "v.",
+    "chinese": "利用，开发"
+  },
+  {
+    "english": "be advertised publicly",
+    "pos": "v.",
+    "chinese": "公开地打广告"
+  }
+]

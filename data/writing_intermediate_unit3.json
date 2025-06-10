@@ -1,0 +1,487 @@
+[
+  {
+    "english": "goods",
+    "pos": "n.",
+    "chinese": "商品"
+  },
+  {
+    "english": "ton",
+    "pos": "n.",
+    "chinese": "吨"
+  },
+  {
+    "english": "available",
+    "pos": "adj.",
+    "chinese": "可获得的"
+  },
+  {
+    "english": "status",
+    "pos": "n.",
+    "chinese": "状态"
+  },
+  {
+    "english": "gadget",
+    "pos": "n.",
+    "chinese": "小器具"
+  },
+  {
+    "english": "workout",
+    "pos": "n.",
+    "chinese": "锻炼"
+  },
+  {
+    "english": "sedentary",
+    "pos": "adj.",
+    "chinese": "久坐的"
+  },
+  {
+    "english": "nowadays",
+    "pos": "adv.",
+    "chinese": "如今"
+  },
+  {
+    "english": "abundant",
+    "pos": "adj.",
+    "chinese": "丰富的"
+  },
+  {
+    "english": "launch",
+    "pos": "v.",
+    "chinese": "发射；启动"
+  },
+  {
+    "english": "aspect",
+    "pos": "n.",
+    "chinese": "方面"
+  },
+  {
+    "english": "competitor",
+    "pos": "n.",
+    "chinese": "竞争者"
+  },
+  {
+    "english": "enable",
+    "pos": "v.",
+    "chinese": "使能够"
+  },
+  {
+    "english": "acre",
+    "pos": "n.",
+    "chinese": "英亩"
+  },
+  {
+    "english": "primary",
+    "pos": "adj.",
+    "chinese": "主要的"
+  },
+  {
+    "english": "anxiety",
+    "pos": "n.",
+    "chinese": "焦虑"
+  },
+  {
+    "english": "obesity",
+    "pos": "n.",
+    "chinese": "肥胖"
+  },
+  {
+    "english": "outweigh",
+    "pos": "v.",
+    "chinese": "比…更重要"
+  },
+  {
+    "english": "despite",
+    "pos": "prep.",
+    "chinese": "尽管"
+  },
+  {
+    "english": "professor",
+    "pos": "n.",
+    "chinese": "教授"
+  },
+  {
+    "english": "session",
+    "pos": "n.",
+    "chinese": "学期；一段时间"
+  },
+  {
+    "english": "resource",
+    "pos": "n.",
+    "chinese": "资源"
+  },
+  {
+    "english": "significance",
+    "pos": "n.",
+    "chinese": "重要性"
+  },
+  {
+    "english": "affluently",
+    "pos": "adv.",
+    "chinese": "富裕地"
+  },
+  {
+    "english": "depression",
+    "pos": "n.",
+    "chinese": "抑郁"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "建立"
+  },
+  {
+    "english": "identify",
+    "pos": "v.",
+    "chinese": "识别"
+  },
+  {
+    "english": "income",
+    "pos": "n.",
+    "chinese": "收入"
+  },
+  {
+    "english": "individual",
+    "pos": "n.",
+    "chinese": "个体"
+  },
+  {
+    "english": "intense",
+    "pos": "adj.",
+    "chinese": "强烈的"
+  },
+  {
+    "english": "medical",
+    "pos": "adj.",
+    "chinese": "医学的"
+  },
+  {
+    "english": "opportunity",
+    "pos": "n.",
+    "chinese": "机会"
+  },
+  {
+    "english": "previously",
+    "pos": "adv.",
+    "chinese": "先前"
+  },
+  {
+    "english": "prime",
+    "pos": "adj.",
+    "chinese": "最优的"
+  },
+  {
+    "english": "professional",
+    "pos": "adj.",
+    "chinese": "专业的"
+  },
+  {
+    "english": "progress",
+    "pos": "n.",
+    "chinese": "进步"
+  },
+  {
+    "english": "prevalently",
+    "pos": "adv.",
+    "chinese": "普遍地"
+  },
+  {
+    "english": "consequently",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "emit",
+    "pos": "v.",
+    "chinese": "发出"
+  },
+  {
+    "english": "obtain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "concern",
+    "pos": "n.",
+    "chinese": "关心；忧虑"
+  },
+  {
+    "english": "peer",
+    "pos": "n.",
+    "chinese": "同龄人"
+  },
+  {
+    "english": "maintain",
+    "pos": "v.",
+    "chinese": "维持"
+  },
+  {
+    "english": "fast-paced",
+    "pos": "adj.",
+    "chinese": "快节奏的"
+  },
+  {
+    "english": "preservation",
+    "pos": "n.",
+    "chinese": "保存"
+  },
+  {
+    "english": "disorder",
+    "pos": "n.",
+    "chinese": "失调"
+  },
+  {
+    "english": "identify health problems",
+    "pos": "v.",
+    "chinese": "识别健康问题"
+  },
+  {
+    "english": "with advances in..",
+    "pos": "prep.",
+    "chinese": "随着...的进步"
+  },
+  {
+    "english": "treatment options",
+    "pos": "n.",
+    "chinese": "治疗方案"
+  },
+  {
+    "english": "have a greater awareness of",
+    "pos": "v.",
+    "chinese": "对...有更高的认识"
+  },
+  {
+    "english": "exercise regularly",
+    "pos": "v.",
+    "chinese": "定期锻炼"
+  },
+  {
+    "english": "reduce stress",
+    "pos": "v.",
+    "chinese": "减轻压力"
+  },
+  {
+    "english": "adopt healthier behavior",
+    "pos": "v.",
+    "chinese": "养成更健康的行为"
+  },
+  {
+    "english": "significant emphasis on",
+    "pos": "n.",
+    "chinese": "对...的重视"
+  },
+  {
+    "english": "preventative care",
+    "pos": "n.",
+    "chinese": "预防保健"
+  },
+  {
+    "english": "a sedentary lifestyle",
+    "pos": "n.",
+    "chinese": "久坐的生活方式"
+  },
+  {
+    "english": "when it comes to",
+    "pos": "句式",
+    "chinese": "当谈到...时"
+  },
+  {
+    "english": "the bright sides of",
+    "pos": "n.",
+    "chinese": "...的积极面"
+  },
+  {
+    "english": "counteract the downsides",
+    "pos": "v.",
+    "chinese": "抵消不利因素"
+  },
+  {
+    "english": "lead a stressful and hectic life",
+    "pos": "v.",
+    "chinese": "过着紧张忙碌的生活"
+  },
+  {
+    "english": "food and nutrition",
+    "pos": "n.",
+    "chinese": "食物和营养"
+  },
+  {
+    "english": "work-life balance",
+    "pos": "n.",
+    "chinese": "工作与生活的平衡"
+  },
+  {
+    "english": "disposable incomes",
+    "pos": "n.",
+    "chinese": "可支配收入"
+  },
+  {
+    "english": "have ... at one's disposal",
+    "pos": "v.",
+    "chinese": "有...可供使用"
+  },
+  {
+    "english": "fitness facility",
+    "pos": "n.",
+    "chinese": "健身设施"
+  },
+  {
+    "english": "keep track of one's health conditions",
+    "pos": "v.",
+    "chinese": "跟踪自己的健康状况"
+  },
+  {
+    "english": "cellphone applications",
+    "pos": "n.",
+    "chinese": "手机应用"
+  },
+  {
+    "english": "be unheard of",
+    "pos": "句式",
+    "chinese": "前所未闻的"
+  },
+  {
+    "english": "deterioration in mental health",
+    "pos": "n.",
+    "chinese": "心理健康恶化"
+  },
+  {
+    "english": "have arisen",
+    "pos": "句式",
+    "chinese": "已经产生"
+  },
+  {
+    "english": "preserve the planet we live on",
+    "pos": "v.",
+    "chinese": "保护我们居住的地球"
+  },
+  {
+    "english": "come to realize",
+    "pos": "v.",
+    "chinese": "开始意识到"
+  },
+  {
+    "english": "play a part in doing",
+    "pos": "v.",
+    "chinese": "在做...中发挥作用"
+  },
+  {
+    "english": "survive and thrive",
+    "pos": "v.",
+    "chinese": "生存并繁荣"
+  },
+  {
+    "english": "at the cost of",
+    "pos": "prep",
+    "chinese": "以...为代价"
+  },
+  {
+    "english": "living standards",
+    "pos": "n.",
+    "chinese": "生活水平"
+  },
+  {
+    "english": "be switched to",
+    "pos": "v.",
+    "chinese": "被切换到"
+  },
+  {
+    "english": "emit waste water and gases",
+    "pos": "v.",
+    "chinese": "排放废水和废气"
+  },
+  {
+    "english": "on a daily basis",
+    "pos": "prep",
+    "chinese": "每天"
+  },
+  {
+    "english": "life expectancy",
+    "pos": "n.",
+    "chinese": "预期寿命"
+  },
+  {
+    "english": "have access to information",
+    "pos": "v.",
+    "chinese": "有获取信息的途径"
+  },
+  {
+    "english": "be marked by",
+    "pos": "v.",
+    "chinese": "以...为标志"
+  },
+  {
+    "english": "rely on",
+    "pos": "v.",
+    "chinese": "依赖"
+  },
+  {
+    "english": "relate to",
+    "pos": "v.",
+    "chinese": "与...相关"
+  },
+  {
+    "english": "mental health",
+    "pos": "n.",
+    "chinese": "心理健康"
+  },
+  {
+    "english": "take medication",
+    "pos": "v.",
+    "chinese": "服药"
+  },
+  {
+    "english": "suffer from",
+    "pos": "v.",
+    "chinese": "遭受"
+  },
+  {
+    "english": "stay ahead",
+    "pos": "v.",
+    "chinese": "保持领先"
+  },
+  {
+    "english": "gain competitive advantage",
+    "pos": "v.",
+    "chinese": "获得竞争优势"
+  },
+  {
+    "english": "under great pressure",
+    "pos": "adv.",
+    "chinese": "在巨大压力下"
+  },
+  {
+    "english": "be delighted",
+    "pos": "v.",
+    "chinese": "感到高兴"
+  },
+  {
+    "english": "in terms of",
+    "pos": "prep.",
+    "chinese": "在...方面"
+  },
+  {
+    "english": "some believe... while others do not think so.",
+    "pos": "句型",
+    "chinese": "一些人认为...，而另一些人则不这么认为。"
+  },
+  {
+    "english": "environmental protection",
+    "pos": "n.",
+    "chinese": "环境保护"
+  },
+  {
+    "english": "make contribution",
+    "pos": "v.",
+    "chinese": "做出贡献"
+  },
+  {
+    "english": "living essential",
+    "pos": "n.",
+    "chinese": "生活必需品"
+  },
+  {
+    "english": "a multitude of",
+    "pos": "adj.",
+    "chinese": "大量的"
+  }
+]

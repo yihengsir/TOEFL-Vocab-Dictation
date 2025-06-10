@@ -1,0 +1,547 @@
+[
+  {
+    "english": "dominant",
+    "pos": "adj.",
+    "chinese": "占优势的，统治的"
+  },
+  {
+    "english": "relatively",
+    "pos": "adv.",
+    "chinese": "相对地"
+  },
+  {
+    "english": "destruction",
+    "pos": "n.",
+    "chinese": "摧毁，毁灭"
+  },
+  {
+    "english": "extinction",
+    "pos": "n.",
+    "chinese": "灭绝"
+  },
+  {
+    "english": "devastate",
+    "pos": "v.",
+    "chinese": "摧毁"
+  },
+  {
+    "english": "crush",
+    "pos": "v.",
+    "chinese": "压碎"
+  },
+  {
+    "english": "atmospheric",
+    "pos": "adj.",
+    "chinese": "大气的"
+  },
+  {
+    "english": "theory",
+    "pos": "n.",
+    "chinese": "理论"
+  },
+  {
+    "english": "impact",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "shallow",
+    "pos": "n.",
+    "chinese": "浅滩，浅处"
+  },
+  {
+    "english": "gradual",
+    "pos": "adj.",
+    "chinese": "逐渐的"
+  },
+  {
+    "english": "asteroid",
+    "pos": "n.",
+    "chinese": "小行星"
+  },
+  {
+    "english": "massive",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "depression",
+    "pos": "n.",
+    "chinese": "下陷处"
+  },
+  {
+    "english": "crater",
+    "pos": "n.",
+    "chinese": "坑"
+  },
+  {
+    "english": "starve",
+    "pos": "v.",
+    "chinese": "饿死"
+  },
+  {
+    "english": "coastal",
+    "pos": "adj.",
+    "chinese": "沿海的，海岸的"
+  },
+  {
+    "english": "adapt",
+    "pos": "v.",
+    "chinese": "适应"
+  },
+  {
+    "english": "sensitive",
+    "pos": "adj.",
+    "chinese": "敏感的"
+  },
+  {
+    "english": "treatment",
+    "pos": "n.",
+    "chinese": "治疗"
+  },
+  {
+    "english": "drain",
+    "pos": "v.",
+    "chinese": "排水，放空"
+  },
+  {
+    "english": "contradict",
+    "pos": "v.",
+    "chinese": "反驳"
+  },
+  {
+    "english": "excess",
+    "pos": "n.",
+    "chinese": "超额"
+  },
+  {
+    "english": "volcanic",
+    "pos": "adj.",
+    "chinese": "火山的"
+  },
+  {
+    "english": "consequence",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "prohibit",
+    "pos": "v,",
+    "chinese": "禁止"
+  },
+  {
+    "english": "infection",
+    "pos": "n.",
+    "chinese": "传染，传染病"
+  },
+  {
+    "english": "infect",
+    "pos": "v.",
+    "chinese": "传染"
+  },
+  {
+    "english": "medication",
+    "pos": "n.",
+    "chinese": "药物"
+  },
+  {
+    "english": "gradually",
+    "pos": "adv.",
+    "chinese": "逐渐地"
+  },
+  {
+    "english": "sustainable",
+    "pos": "adj.",
+    "chinese": "可持续的"
+  },
+  {
+    "english": "decline",
+    "pos": "v.",
+    "chinese": "下降"
+  },
+  {
+    "english": "profound",
+    "pos": "adj.",
+    "chinese": "深刻的"
+  },
+  {
+    "english": "sudden",
+    "pos": "adj.",
+    "chinese": "突然的"
+  },
+  {
+    "english": "collision",
+    "pos": "n.",
+    "chinese": "碰撞"
+  },
+  {
+    "english": "deadly",
+    "pos": "adj.",
+    "chinese": "致命的"
+  },
+  {
+    "english": "dehydration",
+    "pos": "n.",
+    "chinese": "脱水"
+  },
+  {
+    "english": "excessive",
+    "pos": "adj.",
+    "chinese": "过多的"
+  },
+  {
+    "english": "global",
+    "pos": "adj.",
+    "chinese": "全球的"
+  },
+  {
+    "english": "displace",
+    "pos": "v.",
+    "chinese": "排出，挤出"
+  },
+  {
+    "english": "devastation",
+    "pos": "n.",
+    "chinese": "毁灭"
+  },
+  {
+    "english": "debris",
+    "pos": "n.",
+    "chinese": "碎片"
+  },
+  {
+    "english": "fluctuate",
+    "pos": "v.",
+    "chinese": "浮动"
+  },
+  {
+    "english": "solution",
+    "pos": "n.",
+    "chinese": "解决方案"
+  },
+  {
+    "english": "habitat",
+    "pos": "n.",
+    "chinese": "栖息地"
+  },
+  {
+    "english": "pesticide",
+    "pos": "n.",
+    "chinese": "杀虫剂"
+  },
+  {
+    "english": "recovery",
+    "pos": "n.",
+    "chinese": "恢复"
+  },
+  {
+    "english": "population",
+    "pos": "n.",
+    "chinese": "人口"
+  },
+  {
+    "english": "mass extinction",
+    "pos": "n.",
+    "chinese": "大规模灭绝"
+  },
+  {
+    "english": "dominant species",
+    "pos": "n.",
+    "chinese": "优势物种"
+  },
+  {
+    "english": "block out sunlight",
+    "pos": "v.",
+    "chinese": "遮挡阳光"
+  },
+  {
+    "english": "have a profound effect on",
+    "pos": "v.",
+    "chinese": "对……有深远的影响"
+  },
+  {
+    "english": "food chain",
+    "pos": "n.",
+    "chinese": "食物链"
+  },
+  {
+    "english": "be marked by",
+    "pos": "v.",
+    "chinese": "以……为标志"
+  },
+  {
+    "english": "asteroid strike",
+    "pos": "n.",
+    "chinese": "小行星撞击"
+  },
+  {
+    "english": "sulfur dioxide",
+    "pos": "n.",
+    "chinese": "二氧化硫"
+  },
+  {
+    "english": "have serious consequences for",
+    "pos": "v.",
+    "chinese": "对……有严重后果"
+  },
+  {
+    "english": "play a role in",
+    "pos": "v.",
+    "chinese": "扮演……的角色"
+  },
+  {
+    "english": "nervous system",
+    "pos": "n.",
+    "chinese": "神经系统"
+  },
+  {
+    "english": "prohibit sb. from doing",
+    "pos": "v.",
+    "chinese": "禁止某人做某事"
+  },
+  {
+    "english": "crushed rock",
+    "pos": "n.",
+    "chinese": "碎石"
+  },
+  {
+    "english": "often hit by asteroids",
+    "pos": "v.",
+    "chinese": "经常被小行星撞击"
+  },
+  {
+    "english": "not be without challenges",
+    "pos": "v.",
+    "chinese": "有挑战"
+  },
+  {
+    "english": "Set up a permanent station",
+    "pos": "v.",
+    "chinese": "设立一个永久的空间站"
+  },
+  {
+    "english": "float in……",
+    "pos": "v.",
+    "chinese": "漂浮"
+  },
+  {
+    "english": "stand in …… surface",
+    "pos": "v.",
+    "chinese": "立在……的表面"
+  },
+  {
+    "english": "maintain a permanent human presence",
+    "pos": "v.",
+    "chinese": "维持人类的永久存在"
+  },
+  {
+    "english": "conditions on Venus",
+    "pos": "n.",
+    "chinese": "金星的条件"
+  },
+  {
+    "english": "atmospheric pressure at Venus’ surface",
+    "pos": "n.",
+    "chinese": "金星表面的气压"
+  },
+  {
+    "english": "press down on",
+    "pos": "v.",
+    "chinese": "压在...上"
+  },
+  {
+    "english": "land on",
+    "pos": "v.",
+    "chinese": "降落"
+  },
+  {
+    "english": "pphysical fact",
+    "pos": "n.",
+    "chinese": "物理现象"
+  },
+  {
+    "english": "sulfuric acid",
+    "pos": "n.",
+    "chinese": "硫酸"
+  },
+  {
+    "english": "make up of",
+    "pos": "v.",
+    "chinese": "由……组成"
+  },
+  {
+    "english": "reservoirs of water",
+    "pos": "n.",
+    "chinese": "水库"
+  },
+  {
+    "english": "supply from ……",
+    "pos": "v.",
+    "chinese": "从……供应"
+  },
+  {
+    "english": "a regular supply of……",
+    "pos": "n.",
+    "chinese": "对……常规供应"
+  },
+  {
+    "english": "a feasible idea",
+    "pos": "n.",
+    "chinese": "一个可行的主意"
+  },
+  {
+    "english": "in the extreme",
+    "pos": "prep",
+    "chinese": "极其"
+  },
+  {
+    "english": "reach the planet's surface",
+    "pos": "v.",
+    "chinese": "到达表面"
+  },
+  {
+    "english": "hit the planet",
+    "pos": "v.",
+    "chinese": "照射到行星上"
+  },
+  {
+    "english": "reflect sunlight",
+    "pos": "v.",
+    "chinese": "反射光线"
+  },
+  {
+    "english": "get through the clouds",
+    "pos": "v.",
+    "chinese": "穿过云层"
+  },
+  {
+    "english": "prevent the use of ……",
+    "pos": "v.",
+    "chinese": "阻止……使用"
+  },
+  {
+    "english": "located high",
+    "pos": "v.",
+    "chinese": "处于比较高的位置"
+  },
+  {
+    "english": "be equal to",
+    "pos": "v.",
+    "chinese": "相等"
+  },
+  {
+    "english": "easily obtain from……",
+    "pos": "v.",
+    "chinese": "从……中轻易得到"
+  },
+  {
+    "english": "filter through",
+    "pos": "v.",
+    "chinese": "透过，滤过"
+  },
+  {
+    "english": "power the station",
+    "pos": "v.",
+    "chinese": "供能空间站"
+  },
+  {
+    "english": "respond to",
+    "pos": "v.",
+    "chinese": "回应"
+  },
+  {
+    "english": "a considerable amount of",
+    "pos": "adj.",
+    "chinese": "相当数量的"
+  },
+  {
+    "english": "harvest from……",
+    "pos": "v.",
+    "chinese": "从……收获"
+  },
+  {
+    "english": "large percentage of",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "be willing to",
+    "pos": "v.",
+    "chinese": "愿意做"
+  },
+  {
+    "english": "cover their past investment",
+    "pos": "v.",
+    "chinese": "覆盖他们过去的投资"
+  },
+  {
+    "english": "switch to",
+    "pos": "v.",
+    "chinese": "转向，切换到"
+  },
+  {
+    "english": "a variety of",
+    "pos": "n.",
+    "chinese": "各种各样的"
+  },
+  {
+    "english": "remain sustainable",
+    "pos": "v.",
+    "chinese": "保持可持续的"
+  },
+  {
+    "english": "put …… in place",
+    "pos": "v.",
+    "chinese": "落实到位"
+  },
+  {
+    "english": "identification codes",
+    "pos": "n.",
+    "chinese": "识别码"
+  },
+  {
+    "english": "face up to",
+    "pos": "v.",
+    "chinese": "直面"
+  },
+  {
+    "english": "substitute…… with",
+    "pos": "v.",
+    "chinese": "用……代替……"
+  },
+  {
+    "english": "in favor of",
+    "pos": "prep.",
+    "chinese": "喜欢"
+  },
+  {
+    "english": "This set of materials",
+    "pos": "n.",
+    "chinese": "这套材料"
+  },
+  {
+    "english": "proposes a quick fix",
+    "pos": "v.",
+    "chinese": "提出一个权宜之计"
+  },
+  {
+    "english": "be replaced by",
+    "pos": "v,",
+    "chinese": "被……所替代"
+  },
+  {
+    "english": "in accordance with",
+    "pos": "prep.",
+    "chinese": "根据"
+  },
+  {
+    "english": "dislike artificial ingredients",
+    "pos": "v.",
+    "chinese": "不喜欢人造成分"
+  },
+  {
+    "english": "encounter some difficulties",
+    "pos": "v.",
+    "chinese": "遇到一些困难"
+  }
+]

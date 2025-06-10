@@ -1,0 +1,467 @@
+[
+  {
+    "english": "album",
+    "pos": "n.",
+    "chinese": "专辑，相册"
+  },
+  {
+    "english": "digital",
+    "pos": "adj.",
+    "chinese": "数字的"
+  },
+  {
+    "english": "document",
+    "pos": "n.",
+    "chinese": "文件"
+  },
+  {
+    "english": "enable",
+    "pos": "v.",
+    "chinese": "使能够"
+  },
+  {
+    "english": "function",
+    "pos": "n .",
+    "chinese": "功能"
+  },
+  {
+    "english": "liberty",
+    "pos": "n.",
+    "chinese": "自由"
+  },
+  {
+    "english": "media",
+    "pos": "n.",
+    "chinese": "媒体"
+  },
+  {
+    "english": "networking",
+    "pos": "n.",
+    "chinese": "人际关系网"
+  },
+  {
+    "english": "perspective",
+    "pos": "n.",
+    "chinese": "观点"
+  },
+  {
+    "english": "relative",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "thereby",
+    "pos": "adv.",
+    "chinese": "由此，从而"
+  },
+  {
+    "english": "unique",
+    "pos": "adj.",
+    "chinese": "独一无二的"
+  },
+  {
+    "english": "update",
+    "pos": "v.",
+    "chinese": "更新"
+  },
+  {
+    "english": "stroll",
+    "pos": "v.",
+    "chinese": "散步"
+  },
+  {
+    "english": "cherish",
+    "pos": "v.",
+    "chinese": "珍惜，珍视"
+  },
+  {
+    "english": "honeymoon",
+    "pos": "n.",
+    "chinese": "蜜月"
+  },
+  {
+    "english": "anxiety",
+    "pos": "n.",
+    "chinese": "焦虑"
+  },
+  {
+    "english": "negative",
+    "pos": "adj.",
+    "chinese": "消极的"
+  },
+  {
+    "english": "overwhelming",
+    "pos": "adj.",
+    "chinese": "压倒性的"
+  },
+  {
+    "english": "distressing",
+    "pos": "adj.",
+    "chinese": "使人痛苦的"
+  },
+  {
+    "english": "evaluate",
+    "pos": "v.",
+    "chinese": "评价"
+  },
+  {
+    "english": "logical",
+    "pos": "adj.",
+    "chinese": "符合逻辑的"
+  },
+  {
+    "english": "relevant",
+    "pos": "adj.",
+    "chinese": "相关的"
+  },
+  {
+    "english": "variety",
+    "pos": "n.",
+    "chinese": "不同种类，多种样式"
+  },
+  {
+    "english": "hint",
+    "pos": "n.",
+    "chinese": "提示"
+  },
+  {
+    "english": "stroll",
+    "pos": "v.",
+    "chinese": "散步"
+  },
+  {
+    "english": "QR code",
+    "pos": "n.",
+    "chinese": "二维码"
+  },
+  {
+    "english": "recall",
+    "pos": "v.",
+    "chinese": "召回；回忆"
+  },
+  {
+    "english": "relive",
+    "pos": "v.",
+    "chinese": "重温"
+  },
+  {
+    "english": "status",
+    "pos": "n.",
+    "chinese": "状态"
+  },
+  {
+    "english": "fraud",
+    "pos": "n.",
+    "chinese": "诈骗"
+  },
+  {
+    "english": "organ",
+    "pos": "n.",
+    "chinese": "器官"
+  },
+  {
+    "english": "private sector",
+    "pos": "n.",
+    "chinese": "私营部门"
+  },
+  {
+    "english": "public sector",
+    "pos": "n.",
+    "chinese": "公共部门"
+  },
+  {
+    "english": "anecdote",
+    "pos": "n.",
+    "chinese": "轶事"
+  },
+  {
+    "english": "generalization",
+    "pos": "n.",
+    "chinese": "概括"
+  },
+  {
+    "english": "quotation",
+    "pos": "n.",
+    "chinese": "引用"
+  },
+  {
+    "english": "measurement",
+    "pos": "n.",
+    "chinese": "测量"
+  },
+  {
+    "english": "concrete",
+    "pos": "adj.",
+    "chinese": "具体的"
+  },
+  {
+    "english": "breach",
+    "pos": "n.",
+    "chinese": "违反；破裂"
+  },
+  {
+    "english": "enormous",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "overlook",
+    "pos": "v.",
+    "chinese": "忽视"
+  },
+  {
+    "english": "bombard",
+    "pos": "v.",
+    "chinese": "使应接不暇"
+  },
+  {
+    "english": "distressing",
+    "pos": "adj.",
+    "chinese": "令人痛苦的"
+  },
+  {
+    "english": "elaborate",
+    "pos": "v.",
+    "chinese": "详细阐述"
+  },
+  {
+    "english": "beautify",
+    "pos": "v.",
+    "chinese": "美化"
+  },
+  {
+    "english": "bond",
+    "pos": "n.",
+    "chinese": "联系"
+  },
+  {
+    "english": "cause jealousy among teenagers",
+    "pos": "v.",
+    "chinese": "引起青少年的嫉妒"
+  },
+  {
+    "english": "cyberbullying",
+    "pos": "n.",
+    "chinese": "网络暴力；网络霸凌"
+  },
+  {
+    "english": "lead to breaches of privacy",
+    "pos": "v.",
+    "chinese": "导致隐私泄露"
+  },
+  {
+    "english": "social networking sites",
+    "pos": "n.",
+    "chinese": "社交网站"
+  },
+  {
+    "english": "record important events in life",
+    "pos": "v.",
+    "chinese": "记录生活中的重要事件"
+  },
+  {
+    "english": "relive cherished memories",
+    "pos": "v.",
+    "chinese": "重温珍贵的记忆"
+  },
+  {
+    "english": "gain a new perspective on our lives",
+    "pos": "v.",
+    "chinese": "对我们的生活有新的看法"
+  },
+  {
+    "english": "browse through",
+    "pos": "v.",
+    "chinese": "浏览"
+  },
+  {
+    "english": "keep sb. posted/informed",
+    "pos": "v.",
+    "chinese": "让某人了解近况"
+  },
+  {
+    "english": "strengthen emotional ties",
+    "pos": "v.",
+    "chinese": "加强情感纽带"
+  },
+  {
+    "english": "require special skills",
+    "pos": "v.",
+    "chinese": "需要特殊技能"
+  },
+  {
+    "english": "serve as an example",
+    "pos": "v.",
+    "chinese": "作为一个例子"
+  },
+  {
+    "english": "in terms of",
+    "pos": "prep",
+    "chinese": "在……方面"
+  },
+  {
+    "english": "identity theft",
+    "pos": "n.",
+    "chinese": "身份盗窃"
+  },
+  {
+    "english": "stay informed about world events",
+    "pos": "v.",
+    "chinese": "了解世界大事"
+  },
+  {
+    "english": "be bombarded with news stories",
+    "pos": "v.",
+    "chinese": "被新闻不断轰炸"
+  },
+  {
+    "english": "stay up-to-date with the latest trends",
+    "pos": "v.",
+    "chinese": "紧跟最新趋势"
+  },
+  {
+    "english": "enrich one's life experience",
+    "pos": "v.",
+    "chinese": "丰富人生经历"
+  },
+  {
+    "english": "watch news for fun and entertainment",
+    "pos": "v.",
+    "chinese": "为了娱乐和消遣看新闻"
+  },
+  {
+    "english": "avoid distractions and stay focused",
+    "pos": "v.",
+    "chinese": "避免分心，保持专注"
+  },
+  {
+    "english": "improve one's work or academic performance",
+    "pos": "v.",
+    "chinese": "提高自己的工作或学习表现"
+  },
+  {
+    "english": "stabilize one's mood",
+    "pos": "v.",
+    "chinese": "稳定情绪"
+  },
+  {
+    "english": "regain the sense of inner peace",
+    "pos": "v.",
+    "chinese": "重获内心的平静"
+  },
+  {
+    "english": "keep sth. private",
+    "pos": "v.",
+    "chinese": "保持某事私密"
+  },
+  {
+    "english": "create a digital diary of sorts",
+    "pos": "v.",
+    "chinese": "创建一种数字日记"
+  },
+  {
+    "english": "allow sb. to do",
+    "pos": "v.",
+    "chinese": "允许某人做某事"
+  },
+  {
+    "english": "gain a new perspective on",
+    "pos": "v.",
+    "chinese": "获得新的视角"
+  },
+  {
+    "english": "hand in hand",
+    "pos": "adv.",
+    "chinese": "手牵手"
+  },
+  {
+    "english": "browse through",
+    "pos": "v.",
+    "chinese": "浏览"
+  },
+  {
+    "english": "release powerful feelings",
+    "pos": "v.",
+    "chinese": "释放强烈的情感"
+  },
+  {
+    "english": "be pent up",
+    "pos": "v.",
+    "chinese": "情感被压抑"
+  },
+  {
+    "english": "how time flies",
+    "pos": "expr.",
+    "chinese": "时间过得真快"
+  },
+  {
+    "english": "maintain a good relationship with",
+    "pos": "v.",
+    "chinese": "与…保持良好关系"
+  },
+  {
+    "english": "ranging from to",
+    "pos": "v.",
+    "chinese": "从…到…不等"
+  },
+  {
+    "english": "strengthen emotional ties",
+    "pos": "v.",
+    "chinese": "加强情感纽带"
+  },
+  {
+    "english": "keep sb. informed",
+    "pos": "v.",
+    "chinese": "让某人保持知情"
+  },
+  {
+    "english": "appeal to",
+    "pos": "v.",
+    "chinese": "吸引；诉诸于"
+  },
+  {
+    "english": "be available for",
+    "pos": "v.",
+    "chinese": "可供…使用"
+  },
+  {
+    "english": "a case in point",
+    "pos": "n.",
+    "chinese": "一个恰当的例子"
+  },
+  {
+    "english": "leak one's privacy",
+    "pos": "v.",
+    "chinese": "泄露个人隐私"
+  },
+  {
+    "english": "become victims of cybercrime",
+    "pos": "v.",
+    "chinese": "成为网络犯罪的受害者"
+  },
+  {
+    "english": "distract one's focus",
+    "pos": "v.",
+    "chinese": "分散某人的注意力"
+  },
+  {
+    "english": "connect the dots",
+    "pos": "v.",
+    "chinese": "理清关系"
+  },
+  {
+    "english": "update one's status",
+    "pos": "v.",
+    "chinese": "更新状态"
+  },
+  {
+    "english": "open door to",
+    "pos": "v.",
+    "chinese": "为…打开大门"
+  },
+  {
+    "english": "take a break away from",
+    "pos": "v.",
+    "chinese": "远离…休息"
+  }
+]

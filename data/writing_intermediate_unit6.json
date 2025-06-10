@@ -1,0 +1,362 @@
+[
+  {
+    "english": "historical",
+    "pos": "adj.",
+    "chinese": "历史的"
+  },
+  {
+    "english": "iconic",
+    "pos": "adj.",
+    "chinese": "标志性的"
+  },
+  {
+    "english": "destination",
+    "pos": "n.",
+    "chinese": "目的地"
+  },
+  {
+    "english": "immersive",
+    "pos": "adj.",
+    "chinese": "沉浸式虚拟现实的"
+  },
+  {
+    "english": "heritage",
+    "pos": "n.",
+    "chinese": "遗产"
+  },
+  {
+    "english": "glimpse",
+    "pos": "n.",
+    "chinese": "一瞥"
+  },
+  {
+    "english": "evolution",
+    "pos": "n.",
+    "chinese": "演变，进化"
+  },
+  {
+    "english": "vibrant",
+    "pos": "adj.",
+    "chinese": "生机勃勃的"
+  },
+  {
+    "english": "array",
+    "pos": "n.",
+    "chinese": "大量"
+  },
+  {
+    "english": "exposure",
+    "pos": "n.",
+    "chinese": "暴露，接触"
+  },
+  {
+    "english": "notable",
+    "pos": "adj.",
+    "chinese": "显著的，值得注意的"
+  },
+  {
+    "english": "appreciate",
+    "pos": "v.",
+    "chinese": "欣赏"
+  },
+  {
+    "english": "holistic",
+    "pos": "adj.",
+    "chinese": "整体的，全面的"
+  },
+  {
+    "english": "insight",
+    "pos": "n.",
+    "chinese": "洞察力，领悟"
+  },
+  {
+    "english": "indicate",
+    "pos": "v.",
+    "chinese": "表明"
+  },
+  {
+    "english": "visually",
+    "pos": "adv.",
+    "chinese": "视觉上，看得见地"
+  },
+  {
+    "english": "capture",
+    "pos": "v.",
+    "chinese": "抓捕"
+  },
+  {
+    "english": "entertain",
+    "pos": "v.",
+    "chinese": "娱乐"
+  },
+  {
+    "english": "tourism",
+    "pos": "n.",
+    "chinese": "旅游业"
+  },
+  {
+    "english": "appealing",
+    "pos": "adj.",
+    "chinese": "吸引人的"
+  },
+  {
+    "english": "boost",
+    "pos": "v.",
+    "chinese": "促进，使增长"
+  },
+  {
+    "english": "priority",
+    "pos": "n.",
+    "chinese": "优先"
+  },
+  {
+    "english": "construction",
+    "pos": "n.",
+    "chinese": "建设，建筑"
+  },
+  {
+    "english": "operation",
+    "pos": "n.",
+    "chinese": "操作，运转"
+  },
+  {
+    "english": "decade",
+    "pos": "n.",
+    "chinese": "十年"
+  },
+  {
+    "english": "ignorance",
+    "pos": "n.",
+    "chinese": "无知"
+  },
+  {
+    "english": "enriching",
+    "pos": "adj.",
+    "chinese": "丰富的"
+  },
+  {
+    "english": "struggle",
+    "pos": "n.",
+    "chinese": "奋斗"
+  },
+  {
+    "english": "achievement",
+    "pos": "n.",
+    "chinese": "成就"
+  },
+  {
+    "english": "civilization",
+    "pos": "n.",
+    "chinese": "文明"
+  },
+  {
+    "english": "vast",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "constrasting",
+    "pos": "adj.",
+    "chinese": "截然不同的"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样的"
+  },
+  {
+    "english": "undoubtedly",
+    "pos": "adv.",
+    "chinese": "毫无疑问地"
+  },
+  {
+    "english": "greatness",
+    "pos": "n.",
+    "chinese": "伟大，强盛"
+  },
+  {
+    "english": "comprehensive",
+    "pos": "adj.",
+    "chinese": "全面的"
+  },
+  {
+    "english": "sensorial",
+    "pos": "adj.",
+    "chinese": "知觉的，感觉的"
+  },
+  {
+    "english": "spectacular",
+    "pos": "adj.",
+    "chinese": "壮观的"
+  },
+  {
+    "english": "thrilling",
+    "pos": "adj.",
+    "chinese": "令人兴奋的"
+  },
+  {
+    "english": "landmark",
+    "pos": "n.",
+    "chinese": "标志物，地标"
+  },
+  {
+    "english": "renovation",
+    "pos": "n.",
+    "chinese": "翻修，翻新"
+  },
+  {
+    "english": "convenient",
+    "pos": "adj.",
+    "chinese": "方便的"
+  },
+  {
+    "english": "undeniably",
+    "pos": "adv.",
+    "chinese": "不可否认"
+  },
+  {
+    "english": "fulfilling",
+    "pos": "adj.",
+    "chinese": "充实的"
+  },
+  {
+    "english": "amenity",
+    "pos": "n.",
+    "chinese": "设施"
+  },
+  {
+    "english": "highlight",
+    "pos": "v.",
+    "chinese": "突出，强调"
+  },
+  {
+    "english": "considerable",
+    "pos": "adj.",
+    "chinese": "相当多的"
+  },
+  {
+    "english": "enthusiast",
+    "pos": "n.",
+    "chinese": "狂热分子"
+  },
+  {
+    "english": "accessibility",
+    "pos": "n.",
+    "chinese": "易用性"
+  },
+  {
+    "english": "modern iconic attractions",
+    "pos": "n.",
+    "chinese": "现代标志性景点"
+  },
+  {
+    "english": "become increasingly popular",
+    "pos": "v.",
+    "chinese": "越来越受欢迎"
+  },
+  {
+    "english": "an exciting and immersive experience",
+    "pos": "n.",
+    "chinese": "一次激动人心沉浸式的体验"
+  },
+  {
+    "english": "historical heritage",
+    "pos": "n.",
+    "chinese": "历史遗产"
+  },
+  {
+    "english": "contribute to ...",
+    "pos": "v.",
+    "chinese": "有助于..."
+  },
+  {
+    "english": "offer a glimpse into",
+    "pos": "v.",
+    "chinese": "提供对…的一瞥"
+  },
+  {
+    "english": "the evolution of society and human civilization",
+    "pos": "n.",
+    "chinese": "社会和人类文明的进化"
+  },
+  {
+    "english": "provide exposure to history and culture",
+    "pos": "v.",
+    "chinese": "提供接触历史和文化的机会"
+  },
+  {
+    "english": "witness the impact of historical events",
+    "pos": "v.",
+    "chinese": "见证历史事件的影响"
+  },
+  {
+    "english": "the current development of technology",
+    "pos": "n.",
+    "chinese": "当前的技术发展"
+  },
+  {
+    "english": "boost imagination and creativity",
+    "pos": "v.",
+    "chinese": "提升想象力和创造力"
+  },
+  {
+    "english": "it is essential to note that",
+    "pos": "句式",
+    "chinese": "有必要指出的是"
+  },
+  {
+    "english": "notable historical figures",
+    "pos": "n.",
+    "chinese": "著名的历史人物"
+  },
+  {
+    "english": "shape our understanding of the world",
+    "pos": "v.",
+    "chinese": "塑造我们对世界的理解"
+  },
+  {
+    "english": "contrary to the common belief",
+    "pos": "adj.",
+    "chinese": "与普遍的看法相反"
+  },
+  {
+    "english": "visually engaging and appealing",
+    "pos": "adj.",
+    "chinese": "视觉上很有吸引力"
+  },
+  {
+    "english": "see historical landmarks",
+    "pos": "v.",
+    "chinese": "参观历史地标"
+  },
+  {
+    "english": "offer a variety of amenities for tourists",
+    "pos": "v.",
+    "chinese": "为游客提供各种便利设施"
+  },
+  {
+    "english": "spur local economic growth",
+    "pos": "v.",
+    "chinese": "刺激当地经济增长"
+  },
+  {
+    "english": "promote cultural and historical tourism",
+    "pos": "v.",
+    "chinese": "促进文化和历史旅游"
+  },
+  {
+    "english": "a fulfilling experience",
+    "pos": "n.",
+    "chinese": "令人满足的经历"
+  },
+  {
+    "english": "tear down old buildings",
+    "pos": "v.",
+    "chinese": "拆除旧建筑"
+  },
+  {
+    "english": "the Forbidden City",
+    "pos": "n.",
+    "chinese": "故宫"
+  }
+]

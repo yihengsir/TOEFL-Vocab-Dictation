@@ -1,0 +1,437 @@
+[
+  {
+    "english": "sustainable",
+    "pos": "adj.",
+    "chinese": "可持续的"
+  },
+  {
+    "english": "preserve",
+    "pos": "v.",
+    "chinese": "保存，保护"
+  },
+  {
+    "english": "enforce",
+    "pos": "v.",
+    "chinese": "实施，执行"
+  },
+  {
+    "english": "impose",
+    "pos": "v.",
+    "chinese": "征税"
+  },
+  {
+    "english": "conservation",
+    "pos": "n.",
+    "chinese": "保护"
+  },
+  {
+    "english": "punishment",
+    "pos": "n.",
+    "chinese": "惩罚"
+  },
+  {
+    "english": "consequence",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "effective",
+    "pos": "adj.",
+    "chinese": "有效的"
+  },
+  {
+    "english": "penalty",
+    "pos": "n.",
+    "chinese": "处罚"
+  },
+  {
+    "english": "sustain",
+    "pos": "v.",
+    "chinese": "维持"
+  },
+  {
+    "english": "demand",
+    "pos": "n.",
+    "chinese": "需求"
+  },
+  {
+    "english": "disastrous",
+    "pos": "adj.",
+    "chinese": "糟糕的"
+  },
+  {
+    "english": "ultimately",
+    "pos": "adv.",
+    "chinese": "最终地"
+  },
+  {
+    "english": "priority",
+    "pos": "n.",
+    "chinese": "优先，优先事项"
+  },
+  {
+    "english": "validity",
+    "pos": "n.",
+    "chinese": "有效性，正确"
+  },
+  {
+    "english": "compensate",
+    "pos": "v.",
+    "chinese": "补偿"
+  },
+  {
+    "english": "competitiveness",
+    "pos": "n.",
+    "chinese": "竞争力"
+  },
+  {
+    "english": "innovation",
+    "pos": "n.",
+    "chinese": "创新"
+  },
+  {
+    "english": "accountable",
+    "pos": "adj.",
+    "chinese": "负有责任的"
+  },
+  {
+    "english": "accountability",
+    "pos": "n.",
+    "chinese": "责任"
+  },
+  {
+    "english": "incentive",
+    "pos": "n.",
+    "chinese": "动机，激励"
+  },
+  {
+    "english": "unethical",
+    "pos": "adj.",
+    "chinese": "不道德的"
+  },
+  {
+    "english": "allocate",
+    "pos": "v.",
+    "chinese": "分配"
+  },
+  {
+    "english": "significant",
+    "pos": "adj.",
+    "chinese": "重要的，意义重大的"
+  },
+  {
+    "english": "emission",
+    "pos": "n.",
+    "chinese": "排放，排放物"
+  },
+  {
+    "english": "fine",
+    "pos": "n.",
+    "chinese": "罚金"
+  },
+  {
+    "english": "reputation",
+    "pos": "n.",
+    "chinese": "名誉"
+  },
+  {
+    "english": "voluntary",
+    "pos": "adj.",
+    "chinese": "志愿的"
+  },
+  {
+    "english": "upgrade",
+    "pos": "v.",
+    "chinese": "提高，改善"
+  },
+  {
+    "english": "consumption",
+    "pos": "n.",
+    "chinese": "消耗"
+  },
+  {
+    "english": "revenue",
+    "pos": "n.",
+    "chinese": "收入"
+  },
+  {
+    "english": "initiative",
+    "pos": "n.",
+    "chinese": "倡议"
+  },
+  {
+    "english": "campaign",
+    "pos": "n.",
+    "chinese": "运动"
+  },
+  {
+    "english": "adopt",
+    "pos": "v.",
+    "chinese": "采用，采取"
+  },
+  {
+    "english": "deter",
+    "pos": "v.",
+    "chinese": "威慑，阻止"
+  },
+  {
+    "english": "contribute",
+    "pos": "n.",
+    "chinese": "贡献"
+  },
+  {
+    "english": "synonym",
+    "pos": "n.",
+    "chinese": "同义词"
+  },
+  {
+    "english": "hyponym",
+    "pos": "n.",
+    "chinese": "下义词"
+  },
+  {
+    "english": "agriculture",
+    "pos": "n.",
+    "chinese": "农业"
+  },
+  {
+    "english": "sustainability",
+    "pos": "n.",
+    "chinese": "可持续性"
+  },
+  {
+    "english": "measure",
+    "pos": "n.",
+    "chinese": "措施"
+  },
+  {
+    "english": "business-friendly",
+    "pos": "adj.",
+    "chinese": "有利于商业的"
+  },
+  {
+    "english": "unemployment",
+    "pos": "n.",
+    "chinese": "失业"
+  },
+  {
+    "english": "obesity",
+    "pos": "n.",
+    "chinese": "肥胖"
+  },
+  {
+    "english": "investment",
+    "pos": "n.",
+    "chinese": "投资"
+  },
+  {
+    "english": "regulation",
+    "pos": "n.",
+    "chinese": "规则，管理"
+  },
+  {
+    "english": "motivation",
+    "pos": "n.",
+    "chinese": "动机，动力"
+  },
+  {
+    "english": "pollution",
+    "pos": "n.",
+    "chinese": "污染"
+  },
+  {
+    "english": "develop sustainable energy sources",
+    "pos": "v.",
+    "chinese": "开发可持续能源"
+  },
+  {
+    "english": "solar and wind energy",
+    "pos": "n.",
+    "chinese": "太阳能和风能"
+  },
+  {
+    "english": "preserve natural places",
+    "pos": "v.",
+    "chinese": "保护自然环境"
+  },
+  {
+    "english": "heavily polluting companies",
+    "pos": "n.",
+    "chinese": "污染严重的公司"
+  },
+  {
+    "english": "encourage energy conservation",
+    "pos": "v.",
+    "chinese": "鼓励节约能源"
+  },
+  {
+    "english": "establish car-free zones",
+    "pos": "v.",
+    "chinese": "建立无车区"
+  },
+  {
+    "english": "educate the general public about the importance of",
+    "pos": "v.",
+    "chinese": "教育公众了解…的重要性"
+  },
+  {
+    "english": "cause/prevent environmental damage",
+    "pos": "v.",
+    "chinese": "造成/防止环境破坏"
+  },
+  {
+    "english": "impose penalties on",
+    "pos": "v.",
+    "chinese": "对...施加惩罚"
+  },
+  {
+    "english": "environmentally-friendly",
+    "pos": "adj.",
+    "chinese": "对环境友好的"
+  },
+  {
+    "english": "deter offenders from doing",
+    "pos": "v.",
+    "chinese": "阻止罪犯，让他们不去做……"
+  },
+  {
+    "english": "increase revenue for the government",
+    "pos": "v.",
+    "chinese": "增加政府收入"
+  },
+  {
+    "english": "have financial resources",
+    "pos": "v.",
+    "chinese": "有财力"
+  },
+  {
+    "english": "solve the problem at the root",
+    "pos": "v.",
+    "chinese": "从根本上解决问题"
+  },
+  {
+    "english": "have long-term effects on",
+    "pos": "v.",
+    "chinese": "有长期影响"
+  },
+  {
+    "english": "increase sb's environmental awareness",
+    "pos": "v.",
+    "chinese": "提高某人的环保意识"
+  },
+  {
+    "english": "hold sb accountable for their actions",
+    "pos": "v.",
+    "chinese": "让某人对自己的行为负责"
+  },
+  {
+    "english": "invest in sustainable practices",
+    "pos": "v.",
+    "chinese": "投资可持续发展的做法"
+  },
+  {
+    "english": "react to market demand",
+    "pos": "v.",
+    "chinese": "对市场需求做出反应"
+  },
+  {
+    "english": "a short-sighted policy",
+    "pos": "n.",
+    "chinese": "短视的政策"
+  },
+  {
+    "english": "record-breaking",
+    "pos": "adj.",
+    "chinese": "破纪录的，数额巨大的"
+  },
+  {
+    "english": "compensate for the loss of profits",
+    "pos": "v.",
+    "chinese": "补偿利润损失"
+  },
+  {
+    "english": "take cost-cutting measures",
+    "pos": "v.",
+    "chinese": "采取削减成本的措施"
+  },
+  {
+    "english": "adversely affect sth.",
+    "pos": "v.",
+    "chinese": "消极地影响……"
+  },
+  {
+    "english": "illegal or unethical practices",
+    "pos": "n.",
+    "chinese": "非法或不道德的行为"
+  },
+  {
+    "english": "well-established companies",
+    "pos": "n.",
+    "chinese": "声誉卓著的公司"
+  },
+  {
+    "english": "soften the negative impact of",
+    "pos": "v.",
+    "chinese": "减轻…的负面影响"
+  },
+  {
+    "english": "have a ripple effect on the economy",
+    "pos": "v.",
+    "chinese": "对经济产生连锁反应"
+  },
+  {
+    "english": "upgrade their production processes",
+    "pos": "v.",
+    "chinese": "升级他们的生产流程"
+  },
+  {
+    "english": "side effect",
+    "pos": "n.",
+    "chinese": "副作用"
+  },
+  {
+    "english": "create new job opportunities",
+    "pos": "v.",
+    "chinese": "创造新的就业机会"
+  },
+  {
+    "english": "cover their daily expenses",
+    "pos": "v.",
+    "chinese": "支付他们的日常开支"
+  },
+  {
+    "english": "make ends meet",
+    "pos": "v.",
+    "chinese": "收支平衡"
+  },
+  {
+    "english": "open the door to economic growth",
+    "pos": "v.",
+    "chinese": "打开经济增长的大门"
+  },
+  {
+    "english": "raise public awareness",
+    "pos": "v.",
+    "chinese": "提高公众意识"
+  },
+  {
+    "english": "manufacturing sector",
+    "pos": "n.",
+    "chinese": "制造业"
+  },
+  {
+    "english": "pro-business environment",
+    "pos": "n.",
+    "chinese": "鼓励商业的环境"
+  },
+  {
+    "english": "place a lot of emphasis on",
+    "pos": "v.",
+    "chinese": "非常强调"
+  },
+  {
+    "english": "fossil fuels",
+    "pos": "n.",
+    "chinese": "化石燃料"
+  }
+]

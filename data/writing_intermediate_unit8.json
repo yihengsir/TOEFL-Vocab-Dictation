@@ -1,0 +1,507 @@
+[
+  {
+    "english": "agile",
+    "pos": "adj.",
+    "chinese": "敏捷的"
+  },
+  {
+    "english": "skim",
+    "pos": "v.",
+    "chinese": "略读"
+  },
+  {
+    "english": "pivot",
+    "pos": "v.",
+    "chinese": "以…为中心"
+  },
+  {
+    "english": "deadline",
+    "pos": "n.",
+    "chinese": "截止日期"
+  },
+  {
+    "english": "distraction",
+    "pos": "n.",
+    "chinese": "分心，干扰"
+  },
+  {
+    "english": "data literacy",
+    "pos": "n.",
+    "chinese": "数据素养"
+  },
+  {
+    "english": "refine",
+    "pos": "v.",
+    "chinese": "精炼；改进"
+  },
+  {
+    "english": "analyze",
+    "pos": "v.",
+    "chinese": "分析"
+  },
+  {
+    "english": "achievable",
+    "pos": "adj.",
+    "chinese": "可实现的"
+  },
+  {
+    "english": "component",
+    "pos": "n.",
+    "chinese": "组成部分"
+  },
+  {
+    "english": "conclude",
+    "pos": "v.",
+    "chinese": "得出结论"
+  },
+  {
+    "english": "content",
+    "pos": "n.",
+    "chinese": "内容"
+  },
+  {
+    "english": "communicate",
+    "pos": "v.",
+    "chinese": "沟通"
+  },
+  {
+    "english": "cooperate",
+    "pos": "v.",
+    "chinese": "合作"
+  },
+  {
+    "english": "factor",
+    "pos": "n.",
+    "chinese": "因素"
+  },
+  {
+    "english": "ensure",
+    "pos": "v.",
+    "chinese": "确保"
+  },
+  {
+    "english": "launch",
+    "pos": "v.",
+    "chinese": "推出"
+  },
+  {
+    "english": "participation",
+    "pos": "n.",
+    "chinese": "参与"
+  },
+  {
+    "english": "resident",
+    "pos": "n.",
+    "chinese": "居民"
+  },
+  {
+    "english": "flexible",
+    "pos": "adj.",
+    "chinese": "灵活的"
+  },
+  {
+    "english": "efficiently",
+    "pos": "adv.",
+    "chinese": "高效地"
+  },
+  {
+    "english": "efficiency",
+    "pos": "n.",
+    "chinese": "效率"
+  },
+  {
+    "english": "effective",
+    "pos": "adj.",
+    "chinese": "有效的"
+  },
+  {
+    "english": "valid",
+    "pos": "adj.",
+    "chinese": "合理的"
+  },
+  {
+    "english": "adjust",
+    "pos": "v.",
+    "chinese": "调整"
+  },
+  {
+    "english": "motivation",
+    "pos": "n.",
+    "chinese": "动力"
+  },
+  {
+    "english": "distinct",
+    "pos": "adj.",
+    "chinese": "明显的"
+  },
+  {
+    "english": "structure",
+    "pos": "n.",
+    "chinese": "结构"
+  },
+  {
+    "english": "critically thinking",
+    "pos": "n.",
+    "chinese": "批判性思维"
+  },
+  {
+    "english": "compromise",
+    "pos": "v.",
+    "chinese": "妥协"
+  },
+  {
+    "english": "consequently",
+    "pos": "adv.",
+    "chinese": "因此，所以"
+  },
+  {
+    "english": "context",
+    "pos": "n.",
+    "chinese": "上下文，背景"
+  },
+  {
+    "english": "diverse",
+    "pos": "adj.",
+    "chinese": "多样化的"
+  },
+  {
+    "english": "passionate",
+    "pos": "adj.",
+    "chinese": "热情的"
+  },
+  {
+    "english": "complex",
+    "pos": "adj.",
+    "chinese": "复杂的"
+  },
+  {
+    "english": "innovative",
+    "pos": "adj.",
+    "chinese": "创新的"
+  },
+  {
+    "english": "explosion",
+    "pos": "n.",
+    "chinese": "爆炸"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "render",
+    "pos": "v.",
+    "chinese": "给予"
+  },
+  {
+    "english": "transformation",
+    "pos": "n.",
+    "chinese": "转变"
+  },
+  {
+    "english": "thoroughly",
+    "pos": "adv.",
+    "chinese": "彻底地"
+  },
+  {
+    "english": "rigid",
+    "pos": "adj.",
+    "chinese": "不灵活的"
+  },
+  {
+    "english": "excessive",
+    "pos": "adj.",
+    "chinese": "过度的"
+  },
+  {
+    "english": "significant",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "thoroughly",
+    "pos": "adv.",
+    "chinese": "彻底地"
+  },
+  {
+    "english": "transformation",
+    "pos": "n.",
+    "chinese": "转变；变革"
+  },
+  {
+    "english": "confront challenges in life",
+    "pos": "v.",
+    "chinese": "面对生活中挑战"
+  },
+  {
+    "english": "master useful skills",
+    "pos": "v.",
+    "chinese": "掌握有用的技能"
+  },
+  {
+    "english": "planning and organizing skills",
+    "pos": "n.",
+    "chinese": "计划和组织能力"
+  },
+  {
+    "english": "communication skills",
+    "pos": "n.",
+    "chinese": "沟通能力"
+  },
+  {
+    "english": "be essential for",
+    "pos": "v.",
+    "chinese": "对...至关重要"
+  },
+  {
+    "english": "compete for our attention",
+    "pos": "v.",
+    "chinese": "争夺我们的注意力"
+  },
+  {
+    "english": "get off track",
+    "pos": "v.",
+    "chinese": "偏离轨道"
+  },
+  {
+    "english": "lose sight of",
+    "pos": "v.",
+    "chinese": "忽略"
+  },
+  {
+    "english": "success in the workplace",
+    "pos": "n.",
+    "chinese": "职场上的成功"
+  },
+  {
+    "english": "personal development and growth",
+    "pos": "n.",
+    "chinese": "个人发展和成长"
+  },
+  {
+    "english": "put sth in context",
+    "pos": "v.",
+    "chinese": "把...放在背景中"
+  },
+  {
+    "english": "derive ... from...",
+    "pos": "v.",
+    "chinese": "从...得出"
+  },
+  {
+    "english": "time management",
+    "pos": "n.",
+    "chinese": "时间管理"
+  },
+  {
+    "english": "digital world",
+    "pos": "v.",
+    "chinese": "数字世界"
+  },
+  {
+    "english": "have impact on sth",
+    "pos": "v.",
+    "chinese": "对...有影响"
+  },
+  {
+    "english": "personal preferences",
+    "pos": "n.",
+    "chinese": "个人偏好"
+  },
+  {
+    "english": "values and beliefs",
+    "pos": "n.",
+    "chinese": "价值观和信仰"
+  },
+  {
+    "english": "cultural intelligence",
+    "pos": "n.",
+    "chinese": "文化智商"
+  },
+  {
+    "english": "refer to",
+    "pos": "v.",
+    "chinese": "提及，参考"
+  },
+  {
+    "english": "stay sharp",
+    "pos": "v.",
+    "chinese": "保持敏锐"
+  },
+  {
+    "english": "keep up with",
+    "pos": "v.",
+    "chinese": "跟上"
+  },
+  {
+    "english": "take place",
+    "pos": "v.",
+    "chinese": "发生"
+  },
+  {
+    "english": "while I agree that ..., I believe that",
+    "pos": "句型",
+    "chinese": "虽然我同意...，但我相信..."
+  },
+  {
+    "english": "open up opportunities",
+    "pos": "v.",
+    "chinese": "开创机会"
+  },
+  {
+    "english": "for instance",
+    "pos": "adv.",
+    "chinese": "例如"
+  },
+  {
+    "english": "a startup company",
+    "pos": "n.",
+    "chinese": "一家初创公司"
+  },
+  {
+    "english": "consider the case of sth",
+    "pos": "v.",
+    "chinese": "考虑...的例子"
+  },
+  {
+    "english": "face issues",
+    "pos": "v.",
+    "chinese": "面对问题"
+  },
+  {
+    "english": "be inflexible with sth",
+    "pos": "v.",
+    "chinese": "对...不灵活"
+  },
+  {
+    "english": "hesitate doing",
+    "pos": "v.",
+    "chinese": "犹豫做..."
+  },
+  {
+    "english": "take actions",
+    "pos": "v.",
+    "chinese": "采取行动"
+  },
+  {
+    "english": "adapt to market circumstances",
+    "pos": "v.",
+    "chinese": "适应市场环境"
+  },
+  {
+    "english": "accommodate to the rapidly changing conditions",
+    "pos": "v.",
+    "chinese": "适应迅速变化的环境"
+  },
+  {
+    "english": "pursue a career path",
+    "pos": "v.",
+    "chinese": "追求职业道路"
+  },
+  {
+    "english": "find passion for sth",
+    "pos": "v.",
+    "chinese": "找到对...的热情"
+  },
+  {
+    "english": "overall quality of life",
+    "pos": "n.",
+    "chinese": "生活质量"
+  },
+  {
+    "english": "technological invention",
+    "pos": "n.",
+    "chinese": "技术发明"
+  },
+  {
+    "english": "Another important reason why ... is that ...",
+    "pos": "句型",
+    "chinese": "另一个重要的原因是..."
+  },
+  {
+    "english": "innovation and creativity",
+    "pos": "n.",
+    "chinese": "创新和创造力"
+  },
+  {
+    "english": "as a whole",
+    "pos": "adv.",
+    "chinese": "作为整体"
+  },
+  {
+    "english": "be better positioned for",
+    "pos": "v.",
+    "chinese": "更有利于"
+  },
+  {
+    "english": "on a team",
+    "pos": "adv.",
+    "chinese": "在团队中"
+  },
+  {
+    "english": "share ideas and perspectives",
+    "pos": "v.",
+    "chinese": "分享想法和观点"
+  },
+  {
+    "english": "build on sbs strength",
+    "pos": "v",
+    "chinese": "利用某人的优势上"
+  },
+  {
+    "english": "skill sets",
+    "pos": "n.",
+    "chinese": "技能套装"
+  },
+  {
+    "english": "generate solutions to problems",
+    "pos": "v.",
+    "chinese": "产生解决问题的方案"
+  },
+  {
+    "english": "leverage sb's perspectives and experiences",
+    "pos": "v.",
+    "chinese": "利用某人的观点和经验"
+  },
+  {
+    "english": "be ascribed to",
+    "pos": "v.",
+    "chinese": "归结于"
+  },
+  {
+    "english": "主句，thereby doing",
+    "pos": "adv.",
+    "chinese": "因此做..."
+  },
+  {
+    "english": "carry out",
+    "pos": "v.",
+    "chinese": "执行"
+  },
+  {
+    "english": "fall behind",
+    "pos": "v.",
+    "chinese": "落后"
+  },
+  {
+    "english": "be available to sb",
+    "pos": "v.",
+    "chinese": "对...可用"
+  },
+  {
+    "english": "on a daily basis",
+    "pos": "adv.",
+    "chinese": "每天"
+  },
+  {
+    "english": "juggle multiple tasks and responsibilities",
+    "pos": "v.",
+    "chinese": "兼顾多项任务和责任"
+  },
+  {
+    "english": "adaptability and flexibility",
+    "pos": "n.",
+    "chinese": "适应能力和灵活性"
+  }
+]
