@@ -1,42 +1,337 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "chinese": "事件",
+    "english": "event",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "chinese": "参与",
+    "english": "participate",
+    "pos": "v."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "chinese": "古典的",
+    "english": "classical",
+    "pos": "adj."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "chinese": "设备",
+    "english": "device",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "chinese": "参加",
+    "english": "attend",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "chinese": "收藏",
+    "english": "collection",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "chinese": "不便",
+    "english": "inconvenience",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "chinese": "公告",
+    "english": "announcement",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "chinese": "出席",
+    "english": "attendance",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "chinese": "网页",
+    "english": "website",
+    "pos": "n."
+  },
+  {
+    "chinese": "自助餐厅",
+    "english": "cafeteria",
+    "pos": "n."
+  },
+  {
+    "chinese": "反对",
+    "english": "against",
+    "pos": "prep."
+  },
+  {
+    "chinese": "学期",
+    "english": "semester",
+    "pos": "n."
+  },
+  {
+    "chinese": "取消",
+    "english": "cancel",
+    "pos": "v."
+  },
+  {
+    "chinese": "传单",
+    "english": "flyer",
+    "pos": "n."
+  },
+  {
+    "chinese": "建议",
+    "english": "suggest",
+    "pos": "v."
+  },
+  {
+    "chinese": "行政",
+    "english": "administration",
+    "pos": "n."
+  },
+  {
+    "chinese": "录音",
+    "english": "recording",
+    "pos": "n."
+  },
+  {
+    "chinese": "乐器",
+    "english": "instrument",
+    "pos": "n."
+  },
+  {
+    "chinese": "体育场",
+    "english": "stadium",
+    "pos": "n."
+  },
+  {
+    "chinese": "胃",
+    "english": "stomach",
+    "pos": "n."
+  },
+  {
+    "chinese": "借用",
+    "english": "borrow",
+    "pos": "v."
+  },
+  {
+    "chinese": "创建",
+    "english": "create",
+    "pos": "v."
+  },
+  {
+    "chinese": "决定",
+    "english": "decision",
+    "pos": "n."
+  },
+  {
+    "chinese": "地点",
+    "english": "site",
+    "pos": "n."
+  },
+  {
+    "chinese": "心烦的",
+    "english": "upset",
+    "pos": "adj."
+  },
+  {
+    "chinese": "注意力",
+    "english": "attention",
+    "pos": "n."
+  },
+  {
+    "chinese": "好处，受益",
+    "english": "benefit",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "社区",
+    "english": "community",
+    "pos": "n."
+  },
+  {
+    "chinese": "距离",
+    "english": "distance",
+    "pos": "n."
+  },
+  {
+    "chinese": "戏剧",
+    "english": "drama",
+    "pos": "n."
+  },
+  {
+    "chinese": "诗歌",
+    "english": "poetry",
+    "pos": "n."
+  },
+  {
+    "chinese": "相似的",
+    "english": "similar",
+    "pos": "adj."
+  },
+  {
+    "chinese": "传统的",
+    "english": "traditional",
+    "pos": "adj."
+  },
+  {
+    "chinese": "节日",
+    "english": "festival",
+    "pos": "n."
+  },
+  {
+    "chinese": "国际的",
+    "english": "international",
+    "pos": "adj."
+  },
+  {
+    "chinese": "解决",
+    "english": "solve",
+    "pos": "v."
+  },
+  {
+    "chinese": "独特的",
+    "english": "unique",
+    "pos": "adj."
+  },
+  {
+    "chinese": "重新考虑",
+    "english": "reconsider",
+    "pos": "v."
+  },
+  {
+    "chinese": "文章",
+    "english": "article",
+    "pos": "n."
+  },
+  {
+    "chinese": "公告，通知",
+    "english": "announcement",
+    "pos": "n."
+  },
+  {
+    "chinese": "角色",
+    "english": "character",
+    "pos": "n."
+  },
+  {
+    "chinese": "堂兄弟姐妹",
+    "english": "cousin",
+    "pos": "n."
+  },
+  {
+    "chinese": "发展",
+    "english": "development",
+    "pos": "n."
+  },
+  {
+    "chinese": "直接地",
+    "english": "directly",
+    "pos": "adv."
+  },
+  {
+    "chinese": "鼓励",
+    "english": "encourage",
+    "pos": "v."
+  },
+  {
+    "chinese": "搜索",
+    "english": "search",
+    "pos": "n./v."
+  },
+  {
+    "chinese": "剧院",
+    "english": "theatre",
+    "pos": "n."
+  },
+  {
+    "chinese": "分析",
+    "english": "analyze",
+    "pos": "v."
+  },
+  {
+    "chinese": "作业",
+    "english": "assignment",
+    "pos": "n."
+  },
+  {
+    "chinese": "散文",
+    "english": "essay",
+    "pos": "n."
+  },
+  {
+    "chinese": "情节",
+    "english": "plot",
+    "pos": "n."
+  },
+  {
+    "chinese": "展览",
+    "english": "exhitbition",
+    "pos": "n."
+  },
+  {
+    "chinese": "服装",
+    "english": "costume",
+    "pos": "n."
+  },
+  {
+    "chinese": "举办",
+    "english": "hold",
+    "pos": "v."
+  },
+  {
+    "chinese": "展示",
+    "english": "showcase",
+    "pos": "v."
+  },
+  {
+    "chinese": "中止，中断",
+    "english": "discountinue",
+    "pos": "v."
+  },
+  {
+    "chinese": "转移",
+    "english": "transfer",
+    "pos": "v."
+  },
+  {
+    "chinese": "学分",
+    "english": "credit",
+    "pos": "n."
+  },
+  {
+    "chinese": "课程",
+    "english": "course",
+    "pos": "n."
+  },
+  {
+    "chinese": "报名参加",
+    "english": "enroll",
+    "pos": "v."
+  },
+  {
+    "chinese": "在校内",
+    "english": "on campus",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "提醒",
+    "english": "remind sb. of",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "三思",
+    "english": "think twice",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "眼神接触",
+    "english": "eye contact",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "通知某人某事",
+    "english": "inform ... of",
+    "pos": "phrase"
+  },
+  {
+    "chinese": "小吃店",
+    "english": "snack bar",
+    "pos": "phrase"
   }
 ]
