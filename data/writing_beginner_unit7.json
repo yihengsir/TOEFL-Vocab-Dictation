@@ -1,0 +1,477 @@
+[
+  {
+    "english": "crew",
+    "pos": "n.",
+    "chinese": "船员"
+  },
+  {
+    "english": "release",
+    "pos": "v.",
+    "chinese": "释放"
+  },
+  {
+    "english": "leak",
+    "pos": "v.",
+    "chinese": "泄露"
+  },
+  {
+    "english": "sink",
+    "pos": "v.",
+    "chinese": "下沉"
+  },
+  {
+    "english": "pirate",
+    "pos": "n.",
+    "chinese": "海盗"
+  },
+  {
+    "english": "barrel",
+    "pos": "n.",
+    "chinese": "桶"
+  },
+  {
+    "english": "explode",
+    "pos": "v.",
+    "chinese": "爆炸"
+  },
+  {
+    "english": "capture",
+    "pos": "v.",
+    "chinese": "抓捕"
+  },
+  {
+    "english": "skeptical",
+    "pos": "adj.",
+    "chinese": "怀疑的"
+  },
+  {
+    "english": "disprove",
+    "pos": "v.",
+    "chinese": "证明......是虚假的"
+  },
+  {
+    "english": "adopt",
+    "pos": "v.",
+    "chinese": "领养"
+  },
+  {
+    "english": "religious",
+    "pos": "adj.",
+    "chinese": "宗教的"
+  },
+  {
+    "english": "decorate",
+    "pos": "v.",
+    "chinese": "装饰"
+  },
+  {
+    "english": "strategy",
+    "pos": "n.",
+    "chinese": "战略"
+  },
+  {
+    "english": "empire",
+    "pos": "n.",
+    "chinese": "帝国"
+  },
+  {
+    "english": "impose",
+    "pos": "v.",
+    "chinese": "强制实行"
+  },
+  {
+    "english": "conquer",
+    "pos": "v.",
+    "chinese": "占领"
+  },
+  {
+    "english": "export",
+    "pos": "v.",
+    "chinese": "出口"
+  },
+  {
+    "english": "unconvincing",
+    "pos": "adj.",
+    "chinese": "不可信的"
+  },
+  {
+    "english": "taste",
+    "pos": "n.",
+    "chinese": "个人品味"
+  },
+  {
+    "english": "ancient",
+    "pos": "adj.",
+    "chinese": "古老的"
+  },
+  {
+    "english": "tradition",
+    "pos": "n.",
+    "chinese": "传统"
+  },
+  {
+    "english": "expert",
+    "pos": "n.",
+    "chinese": "专家"
+  },
+  {
+    "english": "result",
+    "pos": "n.",
+    "chinese": "结果"
+  },
+  {
+    "english": "spread",
+    "pos": "v.",
+    "chinese": "传播"
+  },
+  {
+    "english": "language",
+    "pos": "n.",
+    "chinese": "语言"
+  },
+  {
+    "english": "failure",
+    "pos": "n.",
+    "chinese": "失败"
+  },
+  {
+    "english": "including",
+    "pos": "prep.",
+    "chinese": "包括"
+  },
+  {
+    "english": "captain",
+    "pos": "n.",
+    "chinese": "船长"
+  },
+  {
+    "english": "attack",
+    "pos": "v.",
+    "chinese": "攻击"
+  },
+  {
+    "english": "accident",
+    "pos": "n.",
+    "chinese": "事故"
+  },
+  {
+    "english": "valuable",
+    "pos": "adj.",
+    "chinese": "有价值的"
+  },
+  {
+    "english": "unlikely",
+    "pos": "adj.",
+    "chinese": "不太可能的"
+  },
+  {
+    "english": "last",
+    "pos": "v.",
+    "chinese": "持续了"
+  },
+  {
+    "english": "float",
+    "pos": "v.",
+    "chinese": "漂浮"
+  },
+  {
+    "english": "lecture",
+    "pos": "n.",
+    "chinese": "演讲、讲课"
+  },
+  {
+    "english": "passage",
+    "pos": "n.",
+    "chinese": "文章"
+  },
+  {
+    "english": "professor",
+    "pos": "n.",
+    "chinese": "教授"
+  },
+  {
+    "english": "propose",
+    "pos": "v.",
+    "chinese": "提议"
+  },
+  {
+    "english": "oppose",
+    "pos": "v.",
+    "chinese": "反对"
+  },
+  {
+    "english": "state",
+    "pos": "v.",
+    "chinese": "陈述"
+  },
+  {
+    "english": "invent",
+    "pos": "v.",
+    "chinese": "发明"
+  },
+  {
+    "english": "scholar",
+    "pos": "n.",
+    "chinese": "学者"
+  },
+  {
+    "english": "image",
+    "pos": "n.",
+    "chinese": "图像、形象"
+  },
+  {
+    "english": "symbol",
+    "pos": "n.",
+    "chinese": "符号、标志"
+  },
+  {
+    "english": "represent",
+    "pos": "v.",
+    "chinese": "代表了"
+  },
+  {
+    "english": "mythology",
+    "pos": "n.",
+    "chinese": "神话"
+  },
+  {
+    "english": "participant",
+    "pos": "n.",
+    "chinese": "参加者"
+  },
+  {
+    "english": "unlike",
+    "pos": "prep.",
+    "chinese": "介词"
+  },
+  {
+    "english": "including",
+    "pos": "prep.",
+    "chinese": "包括"
+  },
+  {
+    "english": "give freedom to",
+    "pos": "v.",
+    "chinese": "给...自由"
+  },
+  {
+    "english": "escape from",
+    "pos": "v.",
+    "chinese": "逃离"
+  },
+  {
+    "english": "be known for",
+    "pos": "v.",
+    "chinese": "为人所知"
+  },
+  {
+    "english": "trade ship",
+    "pos": "n.",
+    "chinese": "商船"
+  },
+  {
+    "english": "ask for",
+    "pos": "v.",
+    "chinese": "要求"
+  },
+  {
+    "english": "during the journey",
+    "pos": "adv.",
+    "chinese": "在路途中"
+  },
+  {
+    "english": "dangerous liquid",
+    "pos": "n.",
+    "chinese": "危险液体"
+  },
+  {
+    "english": "be supported by",
+    "pos": "v.",
+    "chinese": "被...支持"
+  },
+  {
+    "english": "water pump",
+    "pos": "n.",
+    "chinese": "水泵"
+  },
+  {
+    "english": "instead of",
+    "pos": "prep.",
+    "chinese": "与其"
+  },
+  {
+    "english": "risk of explosion",
+    "pos": "n.",
+    "chinese": "爆炸的风险"
+  },
+  {
+    "english": "in fact",
+    "pos": "adv.",
+    "chinese": "实际上"
+  },
+  {
+    "english": "even though",
+    "pos": "conj.",
+    "chinese": "尽管"
+  },
+  {
+    "english": "stay on",
+    "pos": "v.",
+    "chinese": "留在"
+  },
+  {
+    "english": "be taken by",
+    "pos": "v.",
+    "chinese": "被...带走"
+  },
+  {
+    "english": "on the contrary",
+    "pos": "adv.",
+    "chinese": "与此相反"
+  },
+  {
+    "english": "point out",
+    "pos": "v.",
+    "chinese": "指出"
+  },
+  {
+    "english": "outside of",
+    "pos": "prep.",
+    "chinese": "...以外"
+  },
+  {
+    "english": "be adopted by",
+    "pos": "v.",
+    "chinese": "被...采用"
+  },
+  {
+    "english": "as evidence",
+    "pos": "adv.",
+    "chinese": "作为证据"
+  },
+  {
+    "english": "meditate on religious themes",
+    "pos": "v.",
+    "chinese": "深思宗教主题"
+  },
+  {
+    "english": "closely related to",
+    "pos": "adj.",
+    "chinese": "与...紧密相关"
+  },
+  {
+    "english": "be meaingless to",
+    "pos": "v.",
+    "chinese": "对...没意义"
+  },
+  {
+    "english": "culture with differen religion",
+    "pos": "n.",
+    "chinese": "拥有不同宗教的文明"
+  },
+  {
+    "english": "game design",
+    "pos": "n.",
+    "chinese": "游戏设计"
+  },
+  {
+    "english": "rely on",
+    "pos": "v.",
+    "chinese": "依赖于"
+  },
+  {
+    "english": "luck and chance",
+    "pos": "n.",
+    "chinese": "运气和偶然因素"
+  },
+  {
+    "english": "rather than",
+    "pos": "prep.",
+    "chinese": "而不是"
+  },
+  {
+    "english": "hold someone's interest",
+    "pos": "v.",
+    "chinese": "对...有兴趣"
+  },
+  {
+    "english": "move across the board",
+    "pos": "v.",
+    "chinese": "穿过游戏板"
+  },
+  {
+    "english": "according to",
+    "pos": "prep.",
+    "chinese": "根据"
+  },
+  {
+    "english": "the result of",
+    "pos": "n.",
+    "chinese": "...的结果"
+  },
+  {
+    "english": "keep doing",
+    "pos": "v.",
+    "chinese": "一直做"
+  },
+  {
+    "english": "by tradition",
+    "pos": "adv.",
+    "chinese": "出于传统"
+  },
+  {
+    "english": "for thousands of years",
+    "pos": "adv.",
+    "chinese": "上千年"
+  },
+  {
+    "english": "the lack of",
+    "pos": "n.",
+    "chinese": "缺乏"
+  },
+  {
+    "english": "strategic skill",
+    "pos": "n.",
+    "chinese": "战略技巧"
+  },
+  {
+    "english": "prevent ... from ...",
+    "pos": "v.",
+    "chinese": "阻止"
+  },
+  {
+    "english": "cultural attitude",
+    "pos": "n.",
+    "chinese": "文化态度"
+  },
+  {
+    "english": "a possible explanation",
+    "pos": "n.",
+    "chinese": "一种可能的解释"
+  },
+  {
+    "english": "lie in",
+    "pos": "v.",
+    "chinese": "在于"
+  },
+  {
+    "english": "run the empire",
+    "pos": "v.",
+    "chinese": "运行帝国"
+  },
+  {
+    "english": "great power",
+    "pos": "n.",
+    "chinese": "强大的势力"
+  },
+  {
+    "english": "due to",
+    "pos": "prep.",
+    "chinese": "由于"
+  },
+  {
+    "english": "board game",
+    "pos": "n.",
+    "chinese": "桌游"
+  }
+]

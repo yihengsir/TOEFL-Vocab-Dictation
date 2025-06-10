@@ -1,0 +1,497 @@
+[
+  {
+    "english": "spin",
+    "pos": "v.",
+    "chinese": "使快速旋转"
+  },
+  {
+    "english": "renewable",
+    "pos": "adj.",
+    "chinese": "可再生的"
+  },
+  {
+    "english": "blade",
+    "pos": "n.",
+    "chinese": "刀片"
+  },
+  {
+    "english": "interfere with",
+    "pos": "v.",
+    "chinese": "干扰"
+  },
+  {
+    "english": "propose",
+    "pos": "v.",
+    "chinese": "提议"
+  },
+  {
+    "english": "switch off",
+    "pos": "v.",
+    "chinese": "关掉"
+  },
+  {
+    "english": "emit",
+    "pos": "v.",
+    "chinese": "排放"
+  },
+  {
+    "english": "ecosystem",
+    "pos": "n.",
+    "chinese": "生态系统"
+  },
+  {
+    "english": "endangered",
+    "pos": "adj.",
+    "chinese": "濒危的"
+  },
+  {
+    "english": "migration",
+    "pos": "n.",
+    "chinese": "迁徙"
+  },
+  {
+    "english": "filter",
+    "pos": "v.",
+    "chinese": "过滤"
+  },
+  {
+    "english": "pollutant",
+    "pos": "n.",
+    "chinese": "污染物"
+  },
+  {
+    "english": "drastically",
+    "pos": "adv.",
+    "chinese": "剧烈地"
+  },
+  {
+    "english": "particle",
+    "pos": "n.",
+    "chinese": "颗粒"
+  },
+  {
+    "english": "nutrient",
+    "pos": "n.",
+    "chinese": "营养物"
+  },
+  {
+    "english": "fertilizer",
+    "pos": "n.",
+    "chinese": "肥料"
+  },
+  {
+    "english": "excessive",
+    "pos": "adj.",
+    "chinese": "超过的"
+  },
+  {
+    "english": "threat",
+    "pos": "n.",
+    "chinese": "威胁"
+  },
+  {
+    "english": "conservation",
+    "pos": "n.",
+    "chinese": "保护"
+  },
+  {
+    "english": "address",
+    "pos": "v.",
+    "chinese": "处理"
+  },
+  {
+    "english": "farmland",
+    "pos": "v.",
+    "chinese": "农场/耕作"
+  },
+  {
+    "english": "state",
+    "pos": "n..",
+    "chinese": "状态"
+  },
+  {
+    "english": "current",
+    "pos": "n.",
+    "chinese": "当前/电流"
+  },
+  {
+    "english": "entirely",
+    "pos": "adv.",
+    "chinese": "完全地"
+  },
+  {
+    "english": "flight",
+    "pos": "n.",
+    "chinese": "飞行"
+  },
+  {
+    "english": "harm",
+    "pos": "v.",
+    "chinese": "伤害"
+  },
+  {
+    "english": "increase",
+    "pos": "v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "maintain",
+    "pos": "v.",
+    "chinese": "维持"
+  },
+  {
+    "english": "path",
+    "pos": "n.",
+    "chinese": "路径"
+  },
+  {
+    "english": "pattern",
+    "pos": "n.",
+    "chinese": "模式"
+  },
+  {
+    "english": "population",
+    "pos": "n.",
+    "chinese": "人口；生物，族群"
+  },
+  {
+    "english": "research",
+    "pos": "n.",
+    "chinese": "研究"
+  },
+  {
+    "english": "researchers",
+    "pos": "n.",
+    "chinese": "研究人员"
+  },
+  {
+    "english": "stream",
+    "pos": "n.",
+    "chinese": "溪流"
+  },
+  {
+    "english": "annual",
+    "pos": "adj.",
+    "chinese": "年度的"
+  },
+  {
+    "english": "decline",
+    "pos": "n.",
+    "chinese": "下降"
+  },
+  {
+    "english": "disrupt",
+    "pos": "v.",
+    "chinese": "扰乱"
+  },
+  {
+    "english": "excess",
+    "pos": "n.",
+    "chinese": "过量"
+  },
+  {
+    "english": "fertilize",
+    "pos": "v.",
+    "chinese": "施肥"
+  },
+  {
+    "english": "marine",
+    "pos": "adj.",
+    "chinese": "海洋的"
+  },
+  {
+    "english": "method",
+    "pos": "n.",
+    "chinese": "方法"
+  },
+  {
+    "english": "migrate",
+    "pos": "v.",
+    "chinese": "迁移"
+  },
+  {
+    "english": "ocean",
+    "pos": "n.",
+    "chinese": "海洋"
+  },
+  {
+    "english": "restore",
+    "pos": "v.",
+    "chinese": "恢复"
+  },
+  {
+    "english": "route",
+    "pos": "n.",
+    "chinese": "路线"
+  },
+  {
+    "english": "source",
+    "pos": "n.",
+    "chinese": "来源"
+  },
+  {
+    "english": "strategy",
+    "pos": "n.",
+    "chinese": "策略"
+  },
+  {
+    "english": "vital",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "collision",
+    "pos": "n.",
+    "chinese": "碰撞"
+  },
+  {
+    "english": "crab",
+    "pos": "n.",
+    "chinese": "螃蟹"
+  },
+  {
+    "english": "algae",
+    "pos": "n.",
+    "chinese": "藻类"
+  },
+  {
+    "english": "aquatic",
+    "pos": "adj.",
+    "chinese": "水生的"
+  },
+  {
+    "english": "oyster",
+    "pos": "n.",
+    "chinese": "牡蛎"
+  },
+  {
+    "english": "turbine",
+    "pos": "n.",
+    "chinese": "涡轮机"
+  },
+  {
+    "english": "livelihood",
+    "pos": "n.",
+    "chinese": "生计"
+  },
+  {
+    "english": "refute",
+    "pos": "v.",
+    "chinese": "反驳"
+  },
+  {
+    "english": "pathogen",
+    "pos": "n.",
+    "chinese": "病原体"
+  },
+  {
+    "english": "purifier",
+    "pos": "n.",
+    "chinese": "净化器"
+  },
+  {
+    "english": "participate in",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "use up",
+    "pos": "v.",
+    "chinese": "用尽"
+  },
+  {
+    "english": "without the risk of doing",
+    "pos": "prep.",
+    "chinese": "不存在做…的风险"
+  },
+  {
+    "english": "turn off",
+    "pos": "v.",
+    "chinese": "关闭"
+  },
+  {
+    "english": "send out",
+    "pos": "v.",
+    "chinese": "发出"
+  },
+  {
+    "english": "come with",
+    "pos": "v.",
+    "chinese": "随…而来"
+  },
+  {
+    "english": "take action to do",
+    "pos": "v.",
+    "chinese": "采取行动去做"
+  },
+  {
+    "english": "lead to",
+    "pos": "v.",
+    "chinese": "导致"
+  },
+  {
+    "english": "an increase in",
+    "pos": "n.",
+    "chinese": "…的增加"
+  },
+  {
+    "english": "be topped with",
+    "pos": "v.",
+    "chinese": "被…覆盖"
+  },
+  {
+    "english": "have an unintended consequence",
+    "pos": "v.",
+    "chinese": "产生意想不到的后果"
+  },
+  {
+    "english": "collision with",
+    "pos": "n.",
+    "chinese": "与…的碰撞"
+  },
+  {
+    "english": "propose solutions to do",
+    "pos": "v.",
+    "chinese": "提出解决方案去做"
+  },
+  {
+    "english": "prevent sth. from being harmed",
+    "pos": "v.",
+    "chinese": "防止某物受到伤害"
+  },
+  {
+    "english": "follow the path",
+    "pos": "v.",
+    "chinese": "沿着道路走"
+  },
+  {
+    "english": "shut down",
+    "pos": "v.",
+    "chinese": "关闭"
+  },
+  {
+    "english": "locate in",
+    "pos": "v.",
+    "chinese": "位于"
+  },
+  {
+    "english": "be most likely to do",
+    "pos": "v.",
+    "chinese": "最有可能做…"
+  },
+  {
+    "english": "due to",
+    "pos": "prep.",
+    "chinese": "由于"
+  },
+  {
+    "english": "reproductive system",
+    "pos": "n.",
+    "chinese": "生殖系统"
+  },
+  {
+    "english": "be exposed to",
+    "pos": "v.",
+    "chinese": "暴露于…"
+  },
+  {
+    "english": "be in decline",
+    "pos": "v.",
+    "chinese": "处于衰退中"
+  },
+  {
+    "english": "protect and restore ecosystems",
+    "pos": "v.",
+    "chinese": "保护和恢复生态系统"
+  },
+  {
+    "english": "to the point where",
+    "pos": "prep.",
+    "chinese": "到…的程度"
+  },
+  {
+    "english": "allow the population to recover",
+    "pos": "v.",
+    "chinese": "允许人口恢复"
+  },
+  {
+    "english": "add to",
+    "pos": "v.",
+    "chinese": "增加"
+  },
+  {
+    "english": "filter out",
+    "pos": "v.",
+    "chinese": "筛除"
+  },
+  {
+    "english": "absorb pollution",
+    "pos": "v.",
+    "chinese": "吸收污染"
+  },
+  {
+    "english": "a threat to",
+    "pos": "n.",
+    "chinese": "对…的威胁"
+  },
+  {
+    "english": "wash into",
+    "pos": "v.",
+    "chinese": "冲入"
+  },
+  {
+    "english": "set forth",
+    "pos": "v.",
+    "chinese": "提出"
+  },
+  {
+    "english": "point out",
+    "pos": "v.",
+    "chinese": "指出"
+  },
+  {
+    "english": "to begin with",
+    "pos": "adv.",
+    "chinese": "首先"
+  },
+  {
+    "english": "ban sb. from doing",
+    "pos": "v.",
+    "chinese": "禁止某人做…"
+  },
+  {
+    "english": "be negatively influenced",
+    "pos": "v.",
+    "chinese": "受到负面影响"
+  },
+  {
+    "english": "it is unlikely that",
+    "pos": "v.",
+    "chinese": "不太可能…"
+  },
+  {
+    "english": "carry diseases with them",
+    "pos": "v.",
+    "chinese": "带有疾病"
+  },
+  {
+    "english": "do harm to",
+    "pos": "v.",
+    "chinese": "造成伤害"
+  },
+  {
+    "english": "unexpected consequences may follow",
+    "pos": "v.",
+    "chinese": "可能会产生意想不到的后果"
+  },
+  {
+    "english": "cause imbalance to",
+    "pos": "v.",
+    "chinese": "造成…的不平衡"
+  },
+  {
+    "english": "may work on a small scale",
+    "pos": "v.",
+    "chinese": "可能在小范围内有效"
+  }
+]

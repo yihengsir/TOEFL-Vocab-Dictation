@@ -1,0 +1,502 @@
+[
+  {
+    "english": "词汇",
+    "pos": "词性",
+    "chinese": "含义"
+  },
+  {
+    "english": "data",
+    "pos": "n.",
+    "chinese": "数据"
+  },
+  {
+    "english": "note",
+    "pos": "v.",
+    "chinese": "笔记/注意"
+  },
+  {
+    "english": "break",
+    "pos": "v.",
+    "chinese": "休息/打破"
+  },
+  {
+    "english": "force",
+    "pos": "n.",
+    "chinese": "力量/强迫"
+  },
+  {
+    "english": "error",
+    "pos": "n.",
+    "chinese": "错误"
+  },
+  {
+    "english": "remain",
+    "pos": "v.",
+    "chinese": "保持"
+  },
+  {
+    "english": "factor",
+    "pos": "n.",
+    "chinese": "因素"
+  },
+  {
+    "english": "replace",
+    "pos": "v.",
+    "chinese": "替换"
+  },
+  {
+    "english": "identify",
+    "pos": "v.",
+    "chinese": "识别"
+  },
+  {
+    "english": "potential",
+    "pos": "n.",
+    "chinese": "潜力"
+  },
+  {
+    "english": "sector",
+    "pos": "n.",
+    "chinese": "部门"
+  },
+  {
+    "english": "enhance",
+    "pos": "v.",
+    "chinese": "增强"
+  },
+  {
+    "english": "setup",
+    "pos": "n.",
+    "chinese": "设置"
+  },
+  {
+    "english": "manage",
+    "pos": "v.",
+    "chinese": "管理"
+  },
+  {
+    "english": "simplify",
+    "pos": "v.",
+    "chinese": "简化"
+  },
+  {
+    "english": "initial",
+    "pos": "adj.",
+    "chinese": "初始的"
+  },
+  {
+    "english": "numerous",
+    "pos": "adj.",
+    "chinese": "许多的"
+  },
+  {
+    "english": "accurate",
+    "pos": "adj.",
+    "chinese": "准确的"
+  },
+  {
+    "english": "accuracy",
+    "pos": "n.",
+    "chinese": "准确性"
+  },
+  {
+    "english": "multitask",
+    "pos": "v.",
+    "chinese": "多任务处理"
+  },
+  {
+    "english": "enormous",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "continuous",
+    "pos": "adj.",
+    "chinese": "连续的"
+  },
+  {
+    "english": "pattern",
+    "pos": "n.",
+    "chinese": "模式"
+  },
+  {
+    "english": "entertainment",
+    "pos": "n.",
+    "chinese": "娱乐"
+  },
+  {
+    "english": "data set",
+    "pos": "n.",
+    "chinese": "数据集"
+  },
+  {
+    "english": "precision",
+    "pos": "n.",
+    "chinese": "精度"
+  },
+  {
+    "english": "healthcare",
+    "pos": "n.",
+    "chinese": "医疗保健"
+  },
+  {
+    "english": "sudden",
+    "pos": "adj.",
+    "chinese": "突然的"
+  },
+  {
+    "english": "significant",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "labor",
+    "pos": "n.",
+    "chinese": "劳动"
+  },
+  {
+    "english": "guarantee",
+    "pos": "v.",
+    "chinese": "保证"
+  },
+  {
+    "english": "calculation",
+    "pos": "n.",
+    "chinese": "计算"
+  },
+  {
+    "english": "limitation",
+    "pos": "n.",
+    "chinese": "限制"
+  },
+  {
+    "english": "drawback",
+    "pos": "n.",
+    "chinese": "缺点"
+  },
+  {
+    "english": "rational",
+    "pos": "adj.",
+    "chinese": "理性的"
+  },
+  {
+    "english": "practical",
+    "pos": "adj.",
+    "chinese": "实际的"
+  },
+  {
+    "english": "advancement",
+    "pos": "n.",
+    "chinese": "进步"
+  },
+  {
+    "english": "device",
+    "pos": "n.",
+    "chinese": "设备"
+  },
+  {
+    "english": "constant",
+    "pos": "adj.",
+    "chinese": "不变的"
+  },
+  {
+    "english": "objective",
+    "pos": "adj.",
+    "chinese": "客观的"
+  },
+  {
+    "english": "utilize",
+    "pos": "v.",
+    "chinese": "利用"
+  },
+  {
+    "english": "game-changer",
+    "pos": "n.",
+    "chinese": "改变游戏规则者"
+  },
+  {
+    "english": "automation",
+    "pos": "n.",
+    "chinese": "自动化"
+  },
+  {
+    "english": "unemployment",
+    "pos": "n.",
+    "chinese": "失业"
+  },
+  {
+    "english": "outdated",
+    "pos": "adj.",
+    "chinese": "过时的"
+  },
+  {
+    "english": "flawed",
+    "pos": "adj.",
+    "chinese": "有缺陷的"
+  },
+  {
+    "english": "algorithm",
+    "pos": "n.",
+    "chinese": "算法"
+  },
+  {
+    "english": "decision-making",
+    "pos": "n.",
+    "chinese": "决策"
+  },
+  {
+    "english": "machine learning",
+    "pos": "n.",
+    "chinese": "机器学习"
+  },
+  {
+    "english": "daunting",
+    "pos": "adj.",
+    "chinese": "令人生畏的"
+  },
+  {
+    "english": "identify problems",
+    "pos": "v.",
+    "chinese": "识别问题"
+  },
+  {
+    "english": "utilize resources",
+    "pos": "v.",
+    "chinese": "利用资源"
+  },
+  {
+    "english": "improve operations",
+    "pos": "v.",
+    "chinese": "改善运营"
+  },
+  {
+    "english": "increase work output",
+    "pos": "v.",
+    "chinese": "增加工作产出"
+  },
+  {
+    "english": "work around the clock",
+    "pos": "v.",
+    "chinese": "全天候工作"
+  },
+  {
+    "english": "create new job opportunities",
+    "pos": "v.",
+    "chinese": "创造新工作机会"
+  },
+  {
+    "english": "provide personalized information",
+    "pos": "v.",
+    "chinese": "提供个性化信息"
+  },
+  {
+    "english": "replace human jobs",
+    "pos": "v.",
+    "chinese": "取代人类工作"
+  },
+  {
+    "english": "create financial stress",
+    "pos": "v.",
+    "chinese": "造成经济压力"
+  },
+  {
+    "english": "cause the misuse of personal health data",
+    "pos": "v.",
+    "chinese": "导致个人健康数据的滥用"
+  },
+  {
+    "english": "develop biases",
+    "pos": "v.",
+    "chinese": "产生偏见"
+  },
+  {
+    "english": "lack emotional understanding",
+    "pos": "v.",
+    "chinese": "缺少情感理解"
+  },
+  {
+    "english": "lead to privacy issues",
+    "pos": "v.",
+    "chinese": "导致隐私问题"
+  },
+  {
+    "english": "increase dependency on technology",
+    "pos": "v.",
+    "chinese": "增加对技术的依赖性"
+  },
+  {
+    "english": "perform tasks more swiftly and accurately",
+    "pos": "v.",
+    "chinese": "更快、更准确地完成任务"
+  },
+  {
+    "english": "a cost-effective soltion",
+    "pos": "n.",
+    "chinese": "一个节省成本的方法"
+  },
+  {
+    "english": "require a significant investment",
+    "pos": "v.",
+    "chinese": "需要大量投资"
+  },
+  {
+    "english": "have difficulty dealing with unexpected situations",
+    "pos": "v.",
+    "chinese": "无法应对意外情况"
+  },
+  {
+    "english": "process information",
+    "pos": "v.",
+    "chinese": "处理信息"
+  },
+  {
+    "english": "adapt to change",
+    "pos": "v.",
+    "chinese": "适应改变"
+  },
+  {
+    "english": "bring about negative difference",
+    "pos": "v.",
+    "chinese": "造成负面差异"
+  },
+  {
+    "english": "take the place of",
+    "pos": "v.",
+    "chinese": "代替"
+  },
+  {
+    "english": "use something in an effective way",
+    "pos": "v.",
+    "chinese": "有效地使用某物"
+  },
+  {
+    "english": "refer to",
+    "pos": "v.",
+    "chinese": "指代"
+  },
+  {
+    "english": "enhance user experiences",
+    "pos": "v.",
+    "chinese": "提升用户体验"
+  },
+  {
+    "english": "in the early stages",
+    "pos": "prep.",
+    "chinese": "在早期阶段"
+  },
+  {
+    "english": "a positive shift",
+    "pos": "n.",
+    "chinese": "积极转变"
+  },
+  {
+    "english": "carry out task",
+    "pos": "v.",
+    "chinese": "执行任务"
+  },
+  {
+    "english": "remove human bias",
+    "pos": "v.",
+    "chinese": "消除人类偏见"
+  },
+  {
+    "english": "reduce the need for human labor",
+    "pos": "v.",
+    "chinese": "减少对人类劳动的需求"
+  },
+  {
+    "english": "in spite of",
+    "pos": "prep.",
+    "chinese": "尽管"
+  },
+  {
+    "english": "improve human contact",
+    "pos": "v.",
+    "chinese": "改善人际接触"
+  },
+  {
+    "english": "it is important to note that",
+    "pos": "v.",
+    "chinese": "重要的是要注意"
+  },
+  {
+    "english": "despite the fact that",
+    "pos": "prep.",
+    "chinese": "尽管事实是"
+  },
+  {
+    "english": "be immune to",
+    "pos": "v.",
+    "chinese": "对...免疫"
+  },
+  {
+    "english": "factor emotion in decisions",
+    "pos": "v.",
+    "chinese": "将情感纳入决策"
+  },
+  {
+    "english": "develop bonds with",
+    "pos": "v.",
+    "chinese": "与...建立联系"
+  },
+  {
+    "english": "based on",
+    "pos": "prep.",
+    "chinese": "基于"
+  },
+  {
+    "english": "be meant to",
+    "pos": "v.",
+    "chinese": "被设计为"
+  },
+  {
+    "english": "add complexity to our lifes",
+    "pos": "v.",
+    "chinese": "给我们的生活增添复杂性"
+  },
+  {
+    "english": "become accustomed to",
+    "pos": "v.",
+    "chinese": "习惯于"
+  },
+  {
+    "english": "eliminate the need to",
+    "pos": "v.",
+    "chinese": "消除对...的需求"
+  },
+  {
+    "english": "wait in long queues for",
+    "pos": "v.",
+    "chinese": "排队等待"
+  },
+  {
+    "english": "a layer of",
+    "pos": "n.",
+    "chinese": "一层"
+  },
+  {
+    "english": "update our skills and knowledge",
+    "pos": "v.",
+    "chinese": "更新我们的技能和知识"
+  },
+  {
+    "english": "keep up with the rapid pace of",
+    "pos": "v.",
+    "chinese": "跟上快速发展的步伐"
+  },
+  {
+    "english": "secure our digital identities",
+    "pos": "v.",
+    "chinese": "保护我们的数字身份"
+  },
+  {
+    "english": "reduce the likelihood of",
+    "pos": "v.",
+    "chinese": "降低...的可能性"
+  },
+  {
+    "english": "scale up",
+    "pos": "v.",
+    "chinese": "扩大"
+  }
+]

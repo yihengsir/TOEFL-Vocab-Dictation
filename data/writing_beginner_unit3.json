@@ -1,0 +1,257 @@
+[
+  {
+    "english": "词汇",
+    "pos": "词性",
+    "chinese": "含义"
+  },
+  {
+    "english": "architectural",
+    "pos": "adj.",
+    "chinese": "建筑的"
+  },
+  {
+    "english": "Renaissance",
+    "pos": "n.",
+    "chinese": "文艺复兴"
+  },
+  {
+    "english": "participate",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "poetry",
+    "pos": "n.",
+    "chinese": "诗歌"
+  },
+  {
+    "english": "mythology",
+    "pos": "n.",
+    "chinese": "神话学"
+  },
+  {
+    "english": "appreciate",
+    "pos": "v.",
+    "chinese": "欣赏"
+  },
+  {
+    "english": "classical",
+    "pos": "adj.",
+    "chinese": "古典的"
+  },
+  {
+    "english": "analyze",
+    "pos": "v.",
+    "chinese": "分析"
+  },
+  {
+    "english": "painting",
+    "pos": "n.",
+    "chinese": "绘画"
+  },
+  {
+    "english": "theater",
+    "pos": "n.",
+    "chinese": "剧院"
+  },
+  {
+    "english": "reflect",
+    "pos": "v.",
+    "chinese": "反映"
+  },
+  {
+    "english": "value",
+    "pos": "n.",
+    "chinese": "价值"
+  },
+  {
+    "english": "creative",
+    "pos": "adj.",
+    "chinese": "有创造性的"
+  },
+  {
+    "english": "emotional",
+    "pos": "adj.",
+    "chinese": "情感的"
+  },
+  {
+    "english": "expression",
+    "pos": "n.",
+    "chinese": "表达"
+  },
+  {
+    "english": "convey",
+    "pos": "v.",
+    "chinese": "传达"
+  },
+  {
+    "english": "awareness",
+    "pos": "n.",
+    "chinese": "意识"
+  },
+  {
+    "english": "various",
+    "pos": "adj.",
+    "chinese": "各种各样的"
+  },
+  {
+    "english": "play",
+    "pos": "n.",
+    "chinese": "戏剧"
+  },
+  {
+    "english": "boost",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "self-esteem",
+    "pos": "n.",
+    "chinese": "自尊心"
+  },
+  {
+    "english": "sculpture",
+    "pos": "n.",
+    "chinese": "雕塑"
+  },
+  {
+    "english": "develop",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "undervaluation",
+    "pos": "n.",
+    "chinese": "低估"
+  },
+  {
+    "english": "curriculum",
+    "pos": "n.",
+    "chinese": "课程"
+  },
+  {
+    "english": "decline",
+    "pos": "n.",
+    "chinese": "下降"
+  },
+  {
+    "english": "subject",
+    "pos": "n.",
+    "chinese": "主题"
+  },
+  {
+    "english": "crisis",
+    "pos": "n.",
+    "chinese": "危机"
+  },
+  {
+    "english": "inspection",
+    "pos": "n.",
+    "chinese": "检查，视察"
+  },
+  {
+    "english": "indicator",
+    "pos": "n.",
+    "chinese": "指示，迹象"
+  },
+  {
+    "english": "sideline",
+    "pos": "v.",
+    "chinese": "把…排除在核心之外"
+  },
+  {
+    "english": "steady",
+    "pos": "adj.",
+    "chinese": "稳定的"
+  },
+  {
+    "english": "excellent",
+    "pos": "adj.",
+    "chinese": "极好的"
+  },
+  {
+    "english": "column",
+    "pos": "n.",
+    "chinese": "列"
+  },
+  {
+    "english": "affirmative",
+    "pos": "adj.",
+    "chinese": "肯定的"
+  },
+  {
+    "english": "negative",
+    "pos": "adj.",
+    "chinese": "否定的"
+  },
+  {
+    "english": "enhance",
+    "pos": "v.",
+    "chinese": "提高"
+  },
+  {
+    "english": "creativity",
+    "pos": "n.",
+    "chinese": "创造力"
+  },
+  {
+    "english": "instrument",
+    "pos": "n.",
+    "chinese": "乐器"
+  },
+  {
+    "english": "exotic",
+    "pos": "adj.",
+    "chinese": "异国情调的"
+  },
+  {
+    "english": "pattern",
+    "pos": "n.",
+    "chinese": "模式，方式"
+  },
+  {
+    "english": "contest",
+    "pos": "n.",
+    "chinese": "竞赛"
+  },
+  {
+    "english": "festival",
+    "pos": "n.",
+    "chinese": "节日"
+  },
+  {
+    "english": "society",
+    "pos": "n.",
+    "chinese": "社会"
+  },
+  {
+    "english": "showcase",
+    "pos": "v.",
+    "chinese": "展现"
+  },
+  {
+    "english": "beautify",
+    "pos": "v.",
+    "chinese": "美化"
+  },
+  {
+    "english": "cater",
+    "pos": "v.",
+    "chinese": "迎合"
+  },
+  {
+    "english": "apply",
+    "pos": "v.",
+    "chinese": "应用"
+  },
+  {
+    "english": "sculptor",
+    "pos": "n.",
+    "chinese": "雕塑家"
+  },
+  {
+    "english": "musician",
+    "pos": "n.",
+    "chinese": "音乐家"
+  }
+]

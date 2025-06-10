@@ -1,0 +1,527 @@
+[
+  {
+    "english": "adapt",
+    "pos": "v.",
+    "chinese": "适应"
+  },
+  {
+    "english": "vital",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "expert",
+    "pos": "n.",
+    "chinese": "专家"
+  },
+  {
+    "english": "component",
+    "pos": "n.",
+    "chinese": "组成部分"
+  },
+  {
+    "english": "impact",
+    "pos": "n.",
+    "chinese": "影响"
+  },
+  {
+    "english": "passionate",
+    "pos": "adj.",
+    "chinese": "狂热的"
+  },
+  {
+    "english": "preserve",
+    "pos": "v.",
+    "chinese": "保护"
+  },
+  {
+    "english": "temperate",
+    "pos": "adj.",
+    "chinese": "温带的"
+  },
+  {
+    "english": "desertification",
+    "pos": "n.",
+    "chinese": "沙漠化"
+  },
+  {
+    "english": "habitat",
+    "pos": "n.",
+    "chinese": "栖息地"
+  },
+  {
+    "english": "reverse",
+    "pos": "v.",
+    "chinese": "逆转、相反"
+  },
+  {
+    "english": "extensive",
+    "pos": "adj.",
+    "chinese": "广阔的"
+  },
+  {
+    "english": "radioactive",
+    "pos": "adj.",
+    "chinese": "放射性的"
+  },
+  {
+    "english": "warning",
+    "pos": "n.",
+    "chinese": "警告"
+  },
+  {
+    "english": "exposure",
+    "pos": "n.",
+    "chinese": "暴露"
+  },
+  {
+    "english": "climate change",
+    "pos": "n.",
+    "chinese": "气候变化"
+  },
+  {
+    "english": "paraphrase",
+    "pos": "v.",
+    "chinese": "解释"
+  },
+  {
+    "english": "desert",
+    "pos": "n.",
+    "chinese": "沙漠"
+  },
+  {
+    "english": "windstorm",
+    "pos": "n.",
+    "chinese": "风暴"
+  },
+  {
+    "english": "erode",
+    "pos": "v.",
+    "chinese": "侵蚀"
+  },
+  {
+    "english": "boost",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "absorb",
+    "pos": "v.",
+    "chinese": "吸收"
+  },
+  {
+    "english": "progressively",
+    "pos": "adv.",
+    "chinese": "逐步地"
+  },
+  {
+    "english": "primarily",
+    "pos": "adv.",
+    "chinese": "主要地"
+  },
+  {
+    "english": "potentially",
+    "pos": "adv.",
+    "chinese": "潜在地"
+  },
+  {
+    "english": "preservation",
+    "pos": "n.",
+    "chinese": "保存"
+  },
+  {
+    "english": "introduction",
+    "pos": "n.",
+    "chinese": "引入"
+  },
+  {
+    "english": "underground",
+    "pos": "adj.",
+    "chinese": "地下的"
+  },
+  {
+    "english": "researcher",
+    "pos": "n.",
+    "chinese": "研究人员"
+  },
+  {
+    "english": "establish",
+    "pos": "v.",
+    "chinese": "建立"
+  },
+  {
+    "english": "environment",
+    "pos": "n.",
+    "chinese": "环境"
+  },
+  {
+    "english": "surrounding",
+    "pos": "n.",
+    "chinese": "周边"
+  },
+  {
+    "english": "safeguard",
+    "pos": "v.",
+    "chinese": "保护"
+  },
+  {
+    "english": "concrete",
+    "pos": "n.",
+    "chinese": "混泥土"
+  },
+  {
+    "english": "engineer",
+    "pos": "n.",
+    "chinese": "工程师"
+  },
+  {
+    "english": "surface",
+    "pos": "n.",
+    "chinese": "表面"
+  },
+  {
+    "english": "radiation",
+    "pos": "n.",
+    "chinese": "辐射"
+  },
+  {
+    "english": "material",
+    "pos": "n.",
+    "chinese": "材料"
+  },
+  {
+    "english": "attention",
+    "pos": "n.",
+    "chinese": "注意"
+  },
+  {
+    "english": "destroy",
+    "pos": "v.",
+    "chinese": "破坏"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "fertile",
+    "pos": "adj.",
+    "chinese": "肥沃的"
+  },
+  {
+    "english": "topsoil",
+    "pos": "n.",
+    "chinese": "表土"
+  },
+  {
+    "english": "block",
+    "pos": "v.",
+    "chinese": "阻隔"
+  },
+  {
+    "english": "spread",
+    "pos": "v.",
+    "chinese": "传播"
+  },
+  {
+    "english": "article",
+    "pos": "n.",
+    "chinese": "文章"
+  },
+  {
+    "english": "lecture",
+    "pos": "n.",
+    "chinese": "讲座"
+  },
+  {
+    "english": "claim",
+    "pos": "v.",
+    "chinese": "声称"
+  },
+  {
+    "english": "drawback",
+    "pos": "n.",
+    "chinese": "缺点"
+  },
+  {
+    "english": "limited",
+    "pos": "adj.",
+    "chinese": "有限的"
+  },
+  {
+    "english": "rapidly",
+    "pos": "adv.",
+    "chinese": "迅速地"
+  },
+  {
+    "english": "region",
+    "pos": "n.",
+    "chinese": "地区"
+  },
+  {
+    "english": "therefore",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "thus",
+    "pos": "adv.",
+    "chinese": "因此"
+  },
+  {
+    "english": "container",
+    "pos": "n.",
+    "chinese": "容器"
+  },
+  {
+    "english": "harmful",
+    "pos": "adj.",
+    "chinese": "有害的"
+  },
+  {
+    "english": "escape",
+    "pos": "v.",
+    "chinese": "逃离"
+  },
+  {
+    "english": "melt",
+    "pos": "v.",
+    "chinese": "融化"
+  },
+  {
+    "english": "solid",
+    "pos": "adj.",
+    "chinese": "坚固的"
+  },
+  {
+    "english": "sample",
+    "pos": "n.",
+    "chinese": "样本"
+  },
+  {
+    "english": "vital issues",
+    "pos": "n.",
+    "chinese": "关键的问题"
+  },
+  {
+    "english": "environmental expert",
+    "pos": "n.",
+    "chinese": "环境专家"
+  },
+  {
+    "english": "spend time",
+    "pos": "v.",
+    "chinese": "花时间"
+  },
+  {
+    "english": "perfect fit for",
+    "pos": "n.",
+    "chinese": "完美契合"
+  },
+  {
+    "english": "global concern",
+    "pos": "n.",
+    "chinese": "全球关注"
+  },
+  {
+    "english": "be directed towards",
+    "pos": "n.",
+    "chinese": "被指向"
+  },
+  {
+    "english": "shelter forest",
+    "pos": "n.",
+    "chinese": "防护林"
+  },
+  {
+    "english": "agricultural land",
+    "pos": "n.",
+    "chinese": "农田用地"
+  },
+  {
+    "english": "bring about",
+    "pos": "v.",
+    "chinese": "带来"
+  },
+  {
+    "english": "blow away",
+    "pos": "v.",
+    "chinese": "吹走"
+  },
+  {
+    "english": "millions of acres of farmland",
+    "pos": "n.",
+    "chinese": "数百万英亩地农田"
+  },
+  {
+    "english": "on plains",
+    "pos": "n.",
+    "chinese": "在平原上"
+  },
+  {
+    "english": "boost animal diversity",
+    "pos": "v.",
+    "chinese": "增加动物多样性"
+  },
+  {
+    "english": "with the rise in...",
+    "pos": "adv.",
+    "chinese": "随着...上升"
+  },
+  {
+    "english": "global warming",
+    "pos": "n.",
+    "chinese": "全球变暖"
+  },
+  {
+    "english": "carbon dioxide emissions",
+    "pos": "n.",
+    "chinese": "二氧化碳排放"
+  },
+  {
+    "english": "atmospheric carbon dioxide levels",
+    "pos": "n.",
+    "chinese": "大气二氧化碳水平"
+  },
+  {
+    "english": "stop ...from doing",
+    "pos": "v.",
+    "chinese": "阻止...做"
+  },
+  {
+    "english": "wash away",
+    "pos": "v.",
+    "chinese": "冲走"
+  },
+  {
+    "english": "take up",
+    "pos": "v.",
+    "chinese": "占有"
+  },
+  {
+    "english": "be meant to",
+    "pos": "v.",
+    "chinese": "旨在"
+  },
+  {
+    "english": "different from",
+    "pos": "adj.",
+    "chinese": "不同于"
+  },
+  {
+    "english": "in some cases",
+    "pos": "adv.",
+    "chinese": "有时候"
+  },
+  {
+    "english": "offer benefits for",
+    "pos": "v.",
+    "chinese": "为...提供好处"
+  },
+  {
+    "english": "refute the ideas",
+    "pos": "v.",
+    "chinese": "反驳观点"
+  },
+  {
+    "english": "according to",
+    "pos": "prep.",
+    "chinese": "根据"
+  },
+  {
+    "english": "be good for",
+    "pos": "v.",
+    "chinese": "对...有好处"
+  },
+  {
+    "english": "use up",
+    "pos": "v.",
+    "chinese": "耗尽"
+  },
+  {
+    "english": "considerable amounts of",
+    "pos": "adj.",
+    "chinese": "大量的"
+  },
+  {
+    "english": "water supply",
+    "pos": "n.",
+    "chinese": "供水"
+  },
+  {
+    "english": "crop irrigation",
+    "pos": "n.",
+    "chinese": "农作物灌溉"
+  },
+  {
+    "english": "make electricity",
+    "pos": "v.",
+    "chinese": "发电"
+  },
+  {
+    "english": "nuclear power plant",
+    "pos": "n.",
+    "chinese": "核电站"
+  },
+  {
+    "english": "create waste",
+    "pos": "v.",
+    "chinese": "产生废物"
+  },
+  {
+    "english": "be stored in",
+    "pos": "v.",
+    "chinese": "被储存在"
+  },
+  {
+    "english": "stays adj. for a very long time",
+    "pos": "v.",
+    "chinese": "长时间保持..."
+  },
+  {
+    "english": "give off",
+    "pos": "v.",
+    "chinese": "释放"
+  },
+  {
+    "english": "make sure",
+    "pos": "v.",
+    "chinese": "确保"
+  },
+  {
+    "english": "in good condition",
+    "pos": "adj.",
+    "chinese": "状况良好"
+  },
+  {
+    "english": "cause harm",
+    "pos": "v.",
+    "chinese": "造成伤害"
+  },
+  {
+    "english": "be filled with",
+    "pos": "v.",
+    "chinese": "充满"
+  },
+  {
+    "english": "have a lot of practice doing",
+    "pos": "v.",
+    "chinese": "做大量...的实践"
+  },
+  {
+    "english": "ice sheet",
+    "pos": "n.",
+    "chinese": "冰盖"
+  },
+  {
+    "english": "let ... sink down",
+    "pos": "v.",
+    "chinese": "使...下沉"
+  },
+  {
+    "english": "close off",
+    "pos": "v.",
+    "chinese": "封闭"
+  }
+]

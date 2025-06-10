@@ -1,0 +1,297 @@
+[
+  {
+    "english": "词汇",
+    "pos": "词性",
+    "chinese": "含义"
+  },
+  {
+    "english": "permit",
+    "pos": "n.",
+    "chinese": "许可证"
+  },
+  {
+    "english": "loans",
+    "pos": "n.",
+    "chinese": "贷款"
+  },
+  {
+    "english": "staff",
+    "pos": "n.",
+    "chinese": "员工"
+  },
+  {
+    "english": "budget",
+    "pos": "n.",
+    "chinese": "预算"
+  },
+  {
+    "english": "secure",
+    "pos": "v.",
+    "chinese": "确保"
+  },
+  {
+    "english": "debt",
+    "pos": "n.",
+    "chinese": "债务"
+  },
+  {
+    "english": "support",
+    "pos": "n.",
+    "chinese": "支持"
+  },
+  {
+    "english": "local",
+    "pos": "adj.",
+    "chinese": "当地的"
+  },
+  {
+    "english": "fund",
+    "pos": "v.",
+    "chinese": "资助"
+  },
+  {
+    "english": "officer",
+    "pos": "n.",
+    "chinese": "官员"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "促进"
+  },
+  {
+    "english": "encourage",
+    "pos": "v.",
+    "chinese": "鼓励"
+  },
+  {
+    "english": "announce",
+    "pos": "v.",
+    "chinese": "宣布"
+  },
+  {
+    "english": "expand",
+    "pos": "v.",
+    "chinese": "扩大"
+  },
+  {
+    "english": "tackle",
+    "pos": "v.",
+    "chinese": "解决"
+  },
+  {
+    "english": "pursue",
+    "pos": "v.",
+    "chinese": "追求"
+  },
+  {
+    "english": "spending",
+    "pos": "n.",
+    "chinese": "花费"
+  },
+  {
+    "english": "economy",
+    "pos": "n.",
+    "chinese": "经济"
+  },
+  {
+    "english": "economic",
+    "pos": "adj.",
+    "chinese": "经济的"
+  },
+  {
+    "english": "luxury",
+    "pos": "adj.",
+    "chinese": "奢华的"
+  },
+  {
+    "english": "obtain",
+    "pos": "v.",
+    "chinese": "获得"
+  },
+  {
+    "english": "attend",
+    "pos": "v.",
+    "chinese": "参与"
+  },
+  {
+    "english": "employ",
+    "pos": "v.",
+    "chinese": "雇佣"
+  },
+  {
+    "english": "healthcare",
+    "pos": "n.",
+    "chinese": "医疗保健"
+  },
+  {
+    "english": "hospitality",
+    "pos": "n.",
+    "chinese": "好客"
+  },
+  {
+    "english": "leadership",
+    "pos": "n.",
+    "chinese": "领导力"
+  },
+  {
+    "english": "sequence",
+    "pos": "n.",
+    "chinese": "顺序"
+  },
+  {
+    "english": "illustrate",
+    "pos": "v.",
+    "chinese": "阐明"
+  },
+  {
+    "english": "cousin",
+    "pos": "n.",
+    "chinese": "堂（表）兄弟姐妹"
+  },
+  {
+    "english": "excess",
+    "pos": "adj.",
+    "chinese": "过量的"
+  },
+  {
+    "english": "workforce",
+    "pos": "n.",
+    "chinese": "劳动力"
+  },
+  {
+    "english": "grant",
+    "pos": "n.",
+    "chinese": "拨款"
+  },
+  {
+    "english": "license",
+    "pos": "n.",
+    "chinese": "许可证"
+  },
+  {
+    "english": "initiative",
+    "pos": "n.",
+    "chinese": "倡议"
+  },
+  {
+    "english": "strategic",
+    "pos": "adj.",
+    "chinese": "战略的"
+  },
+  {
+    "english": "tourism",
+    "pos": "n.",
+    "chinese": "旅游业"
+  },
+  {
+    "english": "entertainement",
+    "pos": "n.",
+    "chinese": "娱乐"
+  },
+  {
+    "english": "essential",
+    "pos": "adj.",
+    "chinese": "必要的，基础的"
+  },
+  {
+    "english": "prosperity",
+    "pos": "n.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "amenity",
+    "pos": "n.",
+    "chinese": "设施"
+  },
+  {
+    "english": "downturn",
+    "pos": "n.",
+    "chinese": "衰退"
+  },
+  {
+    "english": "expansion",
+    "pos": "n.",
+    "chinese": "扩张"
+  },
+  {
+    "english": "administration",
+    "pos": "n.",
+    "chinese": "管理"
+  },
+  {
+    "english": "infrastructure",
+    "pos": "n.",
+    "chinese": "基础设施"
+  },
+  {
+    "english": "recreation",
+    "pos": "n.",
+    "chinese": "娱乐，消遣"
+  },
+  {
+    "english": "streamline",
+    "pos": "v.",
+    "chinese": "使简化，使效率更高"
+  },
+  {
+    "english": "investment",
+    "pos": "n.",
+    "chinese": "投资"
+  },
+  {
+    "english": "dramatically",
+    "pos": "adv.",
+    "chinese": "戏剧性地"
+  },
+  {
+    "english": "recession",
+    "pos": "n.",
+    "chinese": "经济萧条"
+  },
+  {
+    "english": "summative",
+    "pos": "adj.",
+    "chinese": "总结性的，概括的"
+  },
+  {
+    "english": "employment",
+    "pos": "n.",
+    "chinese": "雇用，就业"
+  },
+  {
+    "english": "authority",
+    "pos": "n.",
+    "chinese": "权力"
+  },
+  {
+    "english": "hurdle",
+    "pos": "n.",
+    "chinese": "障碍"
+  },
+  {
+    "english": "contribute",
+    "pos": "v.",
+    "chinese": "贡献"
+  },
+  {
+    "english": "engineering",
+    "pos": "n.",
+    "chinese": "工程学"
+  },
+  {
+    "english": "legislator",
+    "pos": "n.",
+    "chinese": "立法者，议员"
+  },
+  {
+    "english": "scholarship",
+    "pos": "n.",
+    "chinese": "奖学金"
+  },
+  {
+    "english": "anecdote",
+    "pos": "n.",
+    "chinese": "趣闻，轶事"
+  }
+]

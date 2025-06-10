@@ -1,0 +1,402 @@
+[
+  {
+    "english": "词汇",
+    "pos": "词性",
+    "chinese": "含义"
+  },
+  {
+    "english": "business",
+    "pos": "n.",
+    "chinese": "商业"
+  },
+  {
+    "english": "psychology",
+    "pos": "n.",
+    "chinese": "心理学"
+  },
+  {
+    "english": "require",
+    "pos": "v.",
+    "chinese": "需要"
+  },
+  {
+    "english": "hire",
+    "pos": "v.",
+    "chinese": "雇用"
+  },
+  {
+    "english": "employee",
+    "pos": "n.",
+    "chinese": "员工"
+  },
+  {
+    "english": "morale",
+    "pos": "n.",
+    "chinese": "士气"
+  },
+  {
+    "english": "reward",
+    "pos": "n.",
+    "chinese": "奖励"
+  },
+  {
+    "english": "bonus",
+    "pos": "n.",
+    "chinese": "奖金"
+  },
+  {
+    "english": "turnover",
+    "pos": "n.",
+    "chinese": "流动率"
+  },
+  {
+    "english": "compensate",
+    "pos": "v.",
+    "chinese": "补偿"
+  },
+  {
+    "english": "compensation",
+    "pos": "n.",
+    "chinese": "补偿金"
+  },
+  {
+    "english": "foster",
+    "pos": "v.",
+    "chinese": "培养"
+  },
+  {
+    "english": "productive",
+    "pos": "adj.",
+    "chinese": "生产力高的"
+  },
+  {
+    "english": "positive",
+    "pos": "adj.",
+    "chinese": "积极的"
+  },
+  {
+    "english": "loyalty",
+    "pos": "n.",
+    "chinese": "忠诚"
+  },
+  {
+    "english": "overall",
+    "pos": "adj.",
+    "chinese": "总体的"
+  },
+  {
+    "english": "satisfaction",
+    "pos": "n.",
+    "chinese": "满意度"
+  },
+  {
+    "english": "supportive",
+    "pos": "adj.",
+    "chinese": "支持性的"
+  },
+  {
+    "english": "invest",
+    "pos": "v.",
+    "chinese": "投资"
+  },
+  {
+    "english": "workforce",
+    "pos": "n.",
+    "chinese": "劳动力"
+  },
+  {
+    "english": "exchange",
+    "pos": "v.",
+    "chinese": "交换"
+  },
+  {
+    "english": "payment",
+    "pos": "n.",
+    "chinese": "支付"
+  },
+  {
+    "english": "income",
+    "pos": "n.",
+    "chinese": "收入"
+  },
+  {
+    "english": "fair",
+    "pos": "adj.",
+    "chinese": "公平的"
+  },
+  {
+    "english": "receive",
+    "pos": "v.",
+    "chinese": "收到"
+  },
+  {
+    "english": "replace",
+    "pos": "v.",
+    "chinese": "收到"
+  },
+  {
+    "english": "value",
+    "pos": "v.",
+    "chinese": "重视"
+  },
+  {
+    "english": "drop",
+    "pos": "v.",
+    "chinese": "下降"
+  },
+  {
+    "english": "extra",
+    "pos": "adj.",
+    "chinese": "额外的"
+  },
+  {
+    "english": "gain",
+    "pos": "n.",
+    "chinese": "收益"
+  },
+  {
+    "english": "wage",
+    "pos": "n.",
+    "chinese": "工资"
+  },
+  {
+    "english": "profit",
+    "pos": "n.",
+    "chinese": "利益"
+  },
+  {
+    "english": "efficiency",
+    "pos": "n.",
+    "chinese": "效率"
+  },
+  {
+    "english": "profitability",
+    "pos": "n.",
+    "chinese": "盈利能力"
+  },
+  {
+    "english": "responsibility",
+    "pos": "n.",
+    "chinese": "责任"
+  },
+  {
+    "english": "flexibility",
+    "pos": "n.",
+    "chinese": "灵活性"
+  },
+  {
+    "english": "motivate",
+    "pos": "v.",
+    "chinese": "激励"
+  },
+  {
+    "english": "dedication",
+    "pos": "n.",
+    "chinese": "奉献"
+  },
+  {
+    "english": "achievement",
+    "pos": "n.",
+    "chinese": "成就"
+  },
+  {
+    "english": "adjust",
+    "pos": "v.",
+    "chinese": "调整"
+  },
+  {
+    "english": "optimize",
+    "pos": "v.",
+    "chinese": "优化"
+  },
+  {
+    "english": "competition",
+    "pos": "n.",
+    "chinese": "竞争"
+  },
+  {
+    "english": "advertising",
+    "pos": "n.",
+    "chinese": "广告"
+  },
+  {
+    "english": "strategy",
+    "pos": "n.",
+    "chinese": "战略"
+  },
+  {
+    "english": "promote",
+    "pos": "v.",
+    "chinese": "推销"
+  },
+  {
+    "english": "figure",
+    "pos": "n.",
+    "chinese": "人物"
+  },
+  {
+    "english": "celebrity",
+    "pos": "n.",
+    "chinese": "名人"
+  },
+  {
+    "english": "ordinary",
+    "pos": "adj.",
+    "chinese": "普通的"
+  },
+  {
+    "english": "appear",
+    "pos": "v.",
+    "chinese": "出现"
+  },
+  {
+    "english": "impressive",
+    "pos": "adj.",
+    "chinese": "令人印象深刻的"
+  },
+  {
+    "english": "meet set targets",
+    "pos": "v.",
+    "chinese": "达成目标"
+  },
+  {
+    "english": "annual bonuses",
+    "pos": "n.",
+    "chinese": "年终奖"
+  },
+  {
+    "english": "demonstrate teamwork",
+    "pos": "v.",
+    "chinese": "彰显团队精神"
+  },
+  {
+    "english": "provide exceptional service",
+    "pos": "v.",
+    "chinese": "提供卓越的服务"
+  },
+  {
+    "english": "display positive attitudes",
+    "pos": "v.",
+    "chinese": "展示积极的态度"
+  },
+  {
+    "english": "take initiative",
+    "pos": "v.",
+    "chinese": "积极，主动"
+  },
+  {
+    "english": "deliver high-quality work",
+    "pos": "v.",
+    "chinese": "交付高质量工作"
+  },
+  {
+    "english": "in addition",
+    "pos": "adv.",
+    "chinese": "而且，此外"
+  },
+  {
+    "english": "in addition to",
+    "pos": "prep.",
+    "chinese": "除了"
+  },
+  {
+    "english": "regular income",
+    "pos": "n.",
+    "chinese": "固定收入"
+  },
+  {
+    "english": "contribute to",
+    "pos": "v.",
+    "chinese": "有助于"
+  },
+  {
+    "english": "mutual respect",
+    "pos": "n.",
+    "chinese": "互相尊重"
+  },
+  {
+    "english": "the number of hours worked",
+    "pos": "n.",
+    "chinese": "工作时长"
+  },
+  {
+    "english": "stay with the company for a long time",
+    "pos": "v.",
+    "chinese": "长时间留在公司"
+  },
+  {
+    "english": "link A to B",
+    "pos": "v.",
+    "chinese": "把A和B联系起来"
+  },
+  {
+    "english": "take ownership of",
+    "pos": "v.",
+    "chinese": "掌控"
+  },
+  {
+    "english": "hard work and dedication",
+    "pos": "n.",
+    "chinese": "勤奋和奉献"
+  },
+  {
+    "english": "depend on",
+    "pos": "v.",
+    "chinese": "取决于"
+  },
+  {
+    "english": "be likely to",
+    "pos": "v.",
+    "chinese": "可能"
+  },
+  {
+    "english": "by contrast",
+    "pos": "adv.",
+    "chinese": "相反"
+  },
+  {
+    "english": "pay more attention to",
+    "pos": "v.",
+    "chinese": "更关注于"
+  },
+  {
+    "english": "open new branches",
+    "pos": "v.",
+    "chinese": "开新的分公司"
+  },
+  {
+    "english": "budget cuts",
+    "pos": "n.",
+    "chinese": "预算削减"
+  },
+  {
+    "english": "regardless of",
+    "pos": "prep.",
+    "chinese": "不管"
+  },
+  {
+    "english": "conflict resolution",
+    "pos": "n.",
+    "chinese": "矛盾解决"
+  },
+  {
+    "english": "leadership skills",
+    "pos": "n.",
+    "chinese": "领导能力"
+  },
+  {
+    "english": "advertising strategy",
+    "pos": "n.",
+    "chinese": "广告策略"
+  },
+  {
+    "english": "sport figures",
+    "pos": "n.",
+    "chinese": "体育明星"
+  },
+  {
+    "english": "ordinary people",
+    "pos": "n.",
+    "chinese": "普通人"
+  }
+]
