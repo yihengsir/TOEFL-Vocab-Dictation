@@ -328,7 +328,7 @@
         }
         .feedback-incorrect {
             background-color: #fee2e2; /* bg-red-100 */
-            border-color: #ef4444; /* border-red-500 */
+            border-color: #ef4444; /* Red border */
             color: #991b1b; /* text-red-800 */
         }
         .loading-spinner {
@@ -413,11 +413,11 @@
             <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
             <div class="flex flex-col gap-6 w-full">
                 <div id="test-progress-display" class="text-gray-600 text-base font-semibold mb-2"></div>
-                <div id="question-display" class="quiz-question-display">
+                <div id="question-display" class="bg-blue-100 text-blue-900 text-3xl font-bold py-6 px-4 rounded-lg shadow-inner">
                     加载词汇...
                 </div>
 
-                <input type="text" id="answer-input" class="quiz-input-field" placeholder="在此输入英文词汇或短语..." autofocus>
+                <input type="text" id="answer-input" class="input-field" placeholder="在此输入英文词汇或短语..." autofocus>
 
                 <div id="example-sentence-display" class="bg-gray-50 p-4 rounded-lg shadow-inner text-gray-700 text-sm italic min-h-[60px] flex items-center justify-center">
                     点击 "获取例句" 查看上下文
@@ -454,12 +454,12 @@
             <div id="test-summary" class="text-left text-lg text-gray-800 mb-6">
                 <p><strong>姓名:</strong> <span id="summary-name"></span></p>
                 <p id="summary-class-row"><strong>班级:</strong> <span id="summary-class"></span></p>
-                <p><strong>测试科目:</strong> <span id="summary-category"></span></p> <!-- New -->
-                <p><strong>测试级别:</strong> <span id="summary-level"></span></p> <!-- New -->
-                <p><strong>内容类型:</strong> <span id="summary-content-type"></span></p> <!-- New -->
-                <p id="summary-unit-row" class="hidden"><strong>测试单元:</strong> <span id="summary-unit"></span></p> <!-- New -->
+                <p><strong>测试科目:</strong> <span id="summary-category"></span></p>
+                <p><strong>测试级别:</strong> <span id="summary-level"></span></p>
+                <p><strong>内容类型:</strong> <span id="summary-content-type"></span></p>
+                <p id="summary-unit-row" class="hidden"><strong>测试单元:</strong> <span id="summary-unit"></span></p>
                 <p><strong>日期:</strong> <span id="summary-date"></span></p>
-                <p><strong>测试时长:</strong> <span id="summary-duration" class="font-bold"></span></p> <!-- New -->
+                <p><strong>测试时长:</strong> <span id="summary-duration" class="font-bold"></span></p>
                 <p><strong>正确率:</strong> <span id="summary-accuracy" class="font-bold"></span></p>
             </div>
             <h3 class="text-2xl font-bold text-gray-800 mb-4">
@@ -537,8 +537,8 @@
         const appState = {
             currentView: 'welcome-view', // ID of the currently displayed view
             userRole: '', // 'vip' or 'class'
-            selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing'
-            selectedLevel: '',    // 'beginner', 'intermediate', 'advanced'
+            selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing', 'foundation'
+            selectedLevel: '',    // 'beginner', 'intermediate', 'advanced', 'listening_speaking', 'reading_writing'
             selectedContentType: '',  // 'unit' or 'past'
             selectedUnit: '',     // e.g., 'unit1' to 'unit14'
             studentName: '',
@@ -614,11 +614,16 @@
         }
 
 
-        // Helper function to create an array of unit file names dynamically
-        function createUnitArray(category, level, count) {
+        /**
+         * Helper function to create an array of unit file names dynamically.
+         * @param {string} baseName - The base name for the unit files (e.g., 'reading_beginner', 'foundation_listening_speaking').
+         * @param {number} count - The number of units.
+         * @returns {string[]} An array of unit file names.
+         */
+        function createUnitArray(baseName, count) {
             const units = [];
             for (let i = 1; i <= count; i++) {
-                units.push(`${category}_${level}_unit${i}.json`);
+                units.push(`${baseName}_unit${i}.json`);
             }
             return units;
         }
@@ -627,37 +632,48 @@
         const vocabStructure = {
             reading: {
                 beginner: {
-                    unit: createUnitArray('reading', 'beginner', 14), // Increased to 14 units
+                    unit: createUnitArray('reading_beginner', 14), // Increased to 14 units
                     past: 'expressions.json' // VIP student test
                 },
                 intermediate: {
-                    unit: createUnitArray('reading', 'intermediate', 14), // Increased to 14 units
+                    unit: createUnitArray('reading_intermediate', 14), // Increased to 14 units
                     past: null // No past content file here
                 },
                 advanced: {
-                    unit: createUnitArray('reading', 'advanced', 14), // Increased to 14 units
+                    unit: createUnitArray('reading_advanced', 14), // Increased to 14 units
                     past: null // No past content file here
                 }
             },
             listening: {
-                beginner: { unit: createUnitArray('listening', 'beginner', 14), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('listening', 'intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('listening', 'advanced', 14), past: null } // Increased to 14 units
+                beginner: { unit: createUnitArray('listening_beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('listening_intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('listening_advanced', 14), past: null } // Increased to 14 units
             },
             speaking: {
-                beginner: { unit: createUnitArray('speaking', 'beginner', 14), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('speaking', 'intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('speaking', 'advanced', 14), past: null } // Increased to 14 units
+                beginner: { unit: createUnitArray('speaking_beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('speaking_intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('speaking_advanced', 14), past: null } // Increased to 14 units
             },
             writing: {
-                beginner: { unit: createUnitArray('writing', 'beginner', 14), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('writing', 'intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('writing', 'advanced', 14), past: null } // Increased to 14 units
+                beginner: { unit: createUnitArray('writing_beginner', 14), past: null }, // Increased to 14 units
+                intermediate: { unit: createUnitArray('writing_intermediate', 14), past: null }, // Increased to 14 units
+                advanced: { unit: createUnitArray('writing_advanced', 14), past: null } // Increased to 14 units
+            },
+            // NEW FOUNDATION CATEGORY AND LEVELS
+            foundation: {
+                listening_speaking: {
+                    unit: createUnitArray('foundation_listening_speaking', 12),
+                    past: null
+                },
+                reading_writing: {
+                    unit: createUnitArray('foundation_reading_writing', 12),
+                    past: null
+                }
             }
         };
 
         // LLM API Key (leave empty, Canvas runtime will automatically populate)
-        const geminiApiKey = "AIzaSyD7Tb_4ttDNI__kLiLgVyuZgCt-fcoQLCA"; // This will be automatically populated by Canvas runtime
+        const geminiApiKey = ""; // This will be automatically populated by Canvas runtime
 
         let speechSynth = window.speechSynthesis;
         let voicesLoaded = false;
@@ -804,7 +820,7 @@
 
         // --- Rendering Functions for Vocabulary Selection Views ---
         /**
-         * Renders the primary categories (Reading, Listening, Speaking, Writing).
+         * Renders the primary categories (Reading, Listening, Speaking, Writing, Foundation).
          */
         function renderCategorySelection() {
             console.log('[renderCategorySelection] Starting to render category selection buttons.');
@@ -841,17 +857,21 @@
         }
 
         /**
-         * Renders the secondary levels (Beginner, Intermediate, Advanced).
+         * Renders the secondary levels (Beginner, Intermediate, Advanced, Listening & Speaking, Reading & Writing).
          * @param {string} category - The selected primary category.
          */
         function renderLevelSelection(category) {
             console.log(`[renderLevelSelection] Starting to render level selection buttons for category: ${category}.`);
             selectionTitle.textContent = `选择 ${categoryNames[category]} 难度`;
             selectionContent.innerHTML = '';
-            selectionContent.classList.add('grid-col-2-md-3');
-
+            // Adjust grid layout based on number of levels (e.g., 2 for foundation, 3 for others)
             const levels = Object.keys(vocabStructure[category]);
-            
+            if (levels.length === 2) { // For Foundation: 听口, 阅写
+                selectionContent.classList.add('grid-col-1-md-2');
+            } else { // For other categories: Beginner, Intermediate, Advanced
+                selectionContent.classList.add('grid-col-2-md-3');
+            }
+
             levels.forEach(level => {
                 const button = document.createElement('button');
                 button.classList.add('btn-selection-item');
@@ -861,7 +881,7 @@
                 // New structure: Chinese text on top, English below, centered, no parentheses
                 button.innerHTML = `
                     <p class="chinese-text">${levelNames[level]}</p>
-                    <p class="english-text">${capitalizeFirstLetter(level)}</p>
+                    <p class="english-text">${capitalizeFirstLetter(level).replace(/_/g, ' & ')}</p> <!-- Handle 'listening_speaking' -->
                 `;
                 button.dataset.level = level;
                 button.addEventListener('click', (event) => {
@@ -869,7 +889,14 @@
                     appState.selectedLevel = level;
                     appState.selectedContentType = ''; // Reset next levels down
                     appState.selectedUnit = '';
-                    showView('selection-view'); // Re-render selection-view to next level
+                    // For "Foundation" category, directly proceed to unit selection as there's no "past content" option.
+                    // For other categories, proceed to content type selection (unit/past).
+                    if (category === 'foundation') {
+                        appState.selectedContentType = 'unit'; // Force 'unit' selection for foundation
+                        handleFinalSelection(); // Directly load vocabulary and proceed to info page
+                    } else {
+                        showView('selection-view'); // Re-render selection-view to next level (content type)
+                    }
                 });
                 selectionContent.appendChild(button);
                 console.log(`[renderLevelSelection] Appended button for level ${level}.`);
@@ -879,6 +906,7 @@
 
         /**
          * Renders the third-level content type selection (By Unit, By Past Content).
+         * This function is skipped for the 'foundation' category.
          * @param {string} category - The selected primary category.
          * @param {string} level - The selected secondary level.
          */
@@ -1502,10 +1530,13 @@
 
         // --- Helper Mapping Objects (for display) ---
         const categoryNames = {
-            reading: '阅读', listening: '听力', speaking: '口语', writing: '写作'
+            reading: '阅读', listening: '听力', speaking: '口语', writing: '写作',
+            foundation: '基础' // NEW
         };
         const levelNames = {
-            beginner: '初级', intermediate: '中级', advanced: '高级'
+            beginner: '初级', intermediate: '中级', advanced: '高级',
+            listening_speaking: '听口', // NEW
+            reading_writing: '阅写'    // NEW
         };
         function capitalizeFirstLetter(string) {
             if (!string) return '';
