@@ -1,0 +1,502 @@
+[
+  {
+    "english": "apprenticeship",
+    "pos": "n.",
+    "chinese": "学徒"
+  },
+  {
+    "english": "autonomy",
+    "pos": "n.",
+    "chinese": "自治"
+  },
+  {
+    "english": "backdrop",
+    "pos": "n.",
+    "chinese": "背景"
+  },
+  {
+    "english": "brainchild",
+    "pos": "n.",
+    "chinese": "智慧结晶"
+  },
+  {
+    "english": "breadth",
+    "pos": "n.",
+    "chinese": "宽度，幅度"
+  },
+  {
+    "english": "ceramic",
+    "pos": "n.",
+    "chinese": "陶瓷制品"
+  },
+  {
+    "english": "cereal",
+    "pos": "n.",
+    "chinese": "谷物"
+  },
+  {
+    "english": "coinage",
+    "pos": "n.",
+    "chinese": "货币"
+  },
+  {
+    "english": "commodity",
+    "pos": "n.",
+    "chinese": "货品"
+  },
+  {
+    "english": "constitution",
+    "pos": "n.",
+    "chinese": "宪法"
+  },
+  {
+    "english": "course",
+    "pos": "n.",
+    "chinese": "河道"
+  },
+  {
+    "english": "courtier",
+    "pos": "n.",
+    "chinese": "追随者，侍臣"
+  },
+  {
+    "english": "craftsperson",
+    "pos": "n.",
+    "chinese": "手艺人"
+  },
+  {
+    "english": "deficit",
+    "pos": "n.",
+    "chinese": "赤字，亏损"
+  },
+  {
+    "english": "deposit",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "dike",
+    "pos": "n.",
+    "chinese": "堤坝"
+  },
+  {
+    "english": "dwelling",
+    "pos": "n.",
+    "chinese": "住所"
+  },
+  {
+    "english": "estate",
+    "pos": "n.",
+    "chinese": "财产，庄园"
+  },
+  {
+    "english": "forage",
+    "pos": "n.",
+    "chinese": "饲料"
+  },
+  {
+    "english": "freight",
+    "pos": "n.",
+    "chinese": "货运"
+  },
+  {
+    "english": "havoc",
+    "pos": "n.",
+    "chinese": "灾难"
+  },
+  {
+    "english": "inflation",
+    "pos": "n.",
+    "chinese": "膨胀"
+  },
+  {
+    "english": "inundation",
+    "pos": "n.",
+    "chinese": "洪水"
+  },
+  {
+    "english": "kin",
+    "pos": "n.",
+    "chinese": "家属"
+  },
+  {
+    "english": "landholding",
+    "pos": "n.",
+    "chinese": "拥有土地"
+  },
+  {
+    "english": "livestock",
+    "pos": "n.",
+    "chinese": "牲畜"
+  },
+  {
+    "english": "locomotive",
+    "pos": "n.",
+    "chinese": "机车"
+  },
+  {
+    "english": "loess",
+    "pos": "n.",
+    "chinese": "黄土"
+  },
+  {
+    "english": "manufacture",
+    "pos": "n.",
+    "chinese": "制造"
+  },
+  {
+    "english": "monarchy",
+    "pos": "n.",
+    "chinese": "帝制"
+  },
+  {
+    "english": "monopoly",
+    "pos": "n.",
+    "chinese": "霸权"
+  },
+  {
+    "english": "pastoralism",
+    "pos": "n.",
+    "chinese": "游牧"
+  },
+  {
+    "english": "pasture",
+    "pos": "n.",
+    "chinese": "牧场"
+  },
+  {
+    "english": "phase",
+    "pos": "n.",
+    "chinese": "阶段"
+  },
+  {
+    "english": "pledge",
+    "pos": "n.",
+    "chinese": "誓约"
+  },
+  {
+    "english": "presage",
+    "pos": "n.",
+    "chinese": "预示"
+  },
+  {
+    "english": "prestige",
+    "pos": "n.",
+    "chinese": "威望，地位"
+  },
+  {
+    "english": "prosperity",
+    "pos": "n.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "recruit",
+    "pos": "n.",
+    "chinese": "招募"
+  },
+  {
+    "english": "rendition",
+    "pos": "n.",
+    "chinese": "表演"
+  },
+  {
+    "english": "restoration",
+    "pos": "n.",
+    "chinese": "复辟"
+  },
+  {
+    "english": "resurgence",
+    "pos": "n.",
+    "chinese": "复兴"
+  },
+  {
+    "english": "smallpox",
+    "pos": "n.",
+    "chinese": "天花"
+  },
+  {
+    "english": "steppe",
+    "pos": "n.",
+    "chinese": "大草原"
+  },
+  {
+    "english": "strata",
+    "pos": "n.",
+    "chinese": "地层"
+  },
+  {
+    "english": "surplus",
+    "pos": "n.",
+    "chinese": "盈余"
+  },
+  {
+    "english": "surveyor",
+    "pos": "n.",
+    "chinese": "检验员"
+  },
+  {
+    "english": "textile",
+    "pos": "n.",
+    "chinese": "纺织物"
+  },
+  {
+    "english": "texture",
+    "pos": "n.",
+    "chinese": "纹理"
+  },
+  {
+    "english": "warfare",
+    "pos": "n.",
+    "chinese": "战争"
+  },
+  {
+    "english": "awkward",
+    "pos": "adj.",
+    "chinese": "尴尬的"
+  },
+  {
+    "english": "burgeoning",
+    "pos": "adj.",
+    "chinese": "迅速生长的"
+  },
+  {
+    "english": "communal",
+    "pos": "adj.",
+    "chinese": "共有的"
+  },
+  {
+    "english": "conservative",
+    "pos": "adj.",
+    "chinese": "保守的"
+  },
+  {
+    "english": "constant",
+    "pos": "adj.",
+    "chinese": "不断的"
+  },
+  {
+    "english": "distinctive",
+    "pos": "adj.",
+    "chinese": "独特的; 有特色的"
+  },
+  {
+    "english": "domestic",
+    "pos": "adj.",
+    "chinese": "家用的"
+  },
+  {
+    "english": "dual",
+    "pos": "adj.",
+    "chinese": "双重的"
+  },
+  {
+    "english": "faithful",
+    "pos": "adj.",
+    "chinese": "忠实的"
+  },
+  {
+    "english": "hygienic",
+    "pos": "adj.",
+    "chinese": "卫生的"
+  },
+  {
+    "english": "inhospitable",
+    "pos": "adj.",
+    "chinese": "不适宜居住的"
+  },
+  {
+    "english": "invariably",
+    "pos": "adj.",
+    "chinese": "始终如一的"
+  },
+  {
+    "english": "liberal",
+    "pos": "adj.",
+    "chinese": "自由的"
+  },
+  {
+    "english": "meticulously",
+    "pos": "adj.",
+    "chinese": "一丝不苟地"
+  },
+  {
+    "english": "militaristic",
+    "pos": "adj.",
+    "chinese": "军国主义的"
+  },
+  {
+    "english": "profound",
+    "pos": "adj.",
+    "chinese": "深远的"
+  },
+  {
+    "english": "reactionary",
+    "pos": "adj.",
+    "chinese": "反动的，反对政变的"
+  },
+  {
+    "english": "timid",
+    "pos": "adj.",
+    "chinese": "胆怯的"
+  },
+  {
+    "english": "traumatic",
+    "pos": "adj.",
+    "chinese": "痛苦的，压力大的"
+  },
+  {
+    "english": "uncultivated",
+    "pos": "adj.",
+    "chinese": "未经耕作的"
+  },
+  {
+    "english": "dramatically",
+    "pos": "adv.",
+    "chinese": "剧烈地"
+  },
+  {
+    "english": "primarily",
+    "pos": "adv.",
+    "chinese": "主要地"
+  },
+  {
+    "english": "abandon",
+    "pos": "v.",
+    "chinese": "抛弃"
+  },
+  {
+    "english": "accustom",
+    "pos": "v.",
+    "chinese": "习惯于"
+  },
+  {
+    "english": "aggregate",
+    "pos": "v.",
+    "chinese": "聚集"
+  },
+  {
+    "english": "assume",
+    "pos": "v.",
+    "chinese": "承担"
+  },
+  {
+    "english": "carve",
+    "pos": "v.",
+    "chinese": "开垦"
+  },
+  {
+    "english": "clog",
+    "pos": "v.",
+    "chinese": "阻挡"
+  },
+  {
+    "english": "decline",
+    "pos": "v.",
+    "chinese": "下降"
+  },
+  {
+    "english": "devalue",
+    "pos": "v.",
+    "chinese": "贬值"
+  },
+  {
+    "english": "devise",
+    "pos": "v.",
+    "chinese": "设计，创造"
+  },
+  {
+    "english": "divert",
+    "pos": "v.",
+    "chinese": "转移，分散"
+  },
+  {
+    "english": "dominate",
+    "pos": "v.",
+    "chinese": "支配，重要特色"
+  },
+  {
+    "english": "exchange",
+    "pos": "v.",
+    "chinese": "交换"
+  },
+  {
+    "english": "execute",
+    "pos": "v.",
+    "chinese": "制作，实行"
+  },
+  {
+    "english": "exploit",
+    "pos": "v.",
+    "chinese": "利用"
+  },
+  {
+    "english": "favor",
+    "pos": "v.",
+    "chinese": "有利于"
+  },
+  {
+    "english": "frame",
+    "pos": "v.",
+    "chinese": "制订，拟订"
+  },
+  {
+    "english": "haul",
+    "pos": "v.",
+    "chinese": "拖，拉"
+  },
+  {
+    "english": "hinder",
+    "pos": "v.",
+    "chinese": "阻碍"
+  },
+  {
+    "english": "mine",
+    "pos": "v.",
+    "chinese": "开矿"
+  },
+  {
+    "english": "plow",
+    "pos": "v.",
+    "chinese": "耕，犁"
+  },
+  {
+    "english": "precipitate",
+    "pos": "v.",
+    "chinese": "加速，促进"
+  },
+  {
+    "english": "propel",
+    "pos": "v.",
+    "chinese": "推动，驱动"
+  },
+  {
+    "english": "recounting",
+    "pos": "n.",
+    "chinese": "叙述"
+  },
+  {
+    "english": "sponsor",
+    "pos": "v.",
+    "chinese": "资助，支持"
+  },
+  {
+    "english": "supersede",
+    "pos": "v.",
+    "chinese": "取代，替代"
+  },
+  {
+    "english": "transform",
+    "pos": "v.",
+    "chinese": "转变"
+  },
+  {
+    "english": "unearth",
+    "pos": "v.",
+    "chinese": "挖掘"
+  },
+  {
+    "english": "workforce",
+    "pos": "n.",
+    "chinese": "劳动力"
+  }
+]
