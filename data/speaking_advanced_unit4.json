@@ -1,42 +1,82 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "downside",
+    "chinese": "缺点",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "downtown",
+    "chinese": "市中心",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "whereas",
+    "chinese": "然而",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "dial",
+    "chinese": "拨号",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "unexpectedly",
+    "chinese": "意想不到地",
+    "pos": "adv."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "narrow down",
+    "chinese": "缩小范围",
+    "pos": "phrase"
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "on one’s mind",
+    "chinese": "挂在心上",
+    "pos": "phrase"
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "know one’s way around",
+    "chinese": "熟悉某地",
+    "pos": "phrase"
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "have no idea",
+    "chinese": "不知道",
+    "pos": "phrase"
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "look something up",
+    "chinese": "查阅某事",
+    "pos": "phrase"
+  },
+  {
+    "english": "point to",
+    "chinese": "指向",
+    "pos": "phrase"
+  },
+  {
+    "english": "work on something",
+    "chinese": "（努力）做某事",
+    "pos": "phrase"
+  },
+  {
+    "english": "be likely to do something",
+    "chinese": "可能做某事",
+    "pos": "phrase"
+  },
+  {
+    "english": "a big reader",
+    "chinese": "读书迷",
+    "pos": "phrase"
+  },
+  {
+    "english": "have no trouble doing something",
+    "chinese": "做某事毫不费力",
+    "pos": "phrase"
+  },
+  {
+    "english": "run into someone",
+    "chinese": "偶遇某人",
+    "pos": "phrase"
   }
 ]

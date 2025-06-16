@@ -1,0 +1,132 @@
+[
+  {
+    "english": "physiologically",
+    "chinese": "生理上地",
+    "pos": "adv."
+  },
+  {
+    "english": "attachment",
+    "chinese": "依附，联系",
+    "pos": "n."
+  },
+  {
+    "english": "nourishment",
+    "chinese": "滋养，营养",
+    "pos": "n."
+  },
+  {
+    "english": "curious",
+    "chinese": "好奇的",
+    "pos": "adj."
+  },
+  {
+    "english": "internal",
+    "chinese": "内部的",
+    "pos": "adj."
+  },
+  {
+    "english": "unique",
+    "chinese": "独特的",
+    "pos": "n."
+  },
+  {
+    "english": "adaptation",
+    "chinese": "适应，改编",
+    "pos": "n."
+  },
+  {
+    "english": "substance",
+    "chinese": "物质，实质",
+    "pos": "n."
+  },
+  {
+    "english": "vulnerable",
+    "chinese": "脆弱的，易受伤害的",
+    "pos": "adj."
+  },
+  {
+    "english": "reinforce",
+    "chinese": "加强，巩固",
+    "pos": "n."
+  },
+  {
+    "english": "supportive",
+    "chinese": "支持的",
+    "pos": "adj."
+  },
+  {
+    "english": "prompt",
+    "chinese": "迅速的，及时的",
+    "pos": "n."
+  },
+  {
+    "english": "bond",
+    "chinese": "纽带，联系",
+    "pos": "n."
+  },
+  {
+    "english": "contraption",
+    "chinese": "奇怪的装置",
+    "pos": "n."
+  },
+  {
+    "english": "mental abilities",
+    "chinese": "心智能力",
+    "pos": "phrase"
+  },
+  {
+    "english": "in particular",
+    "chinese": "尤其，特别",
+    "pos": "phrase"
+  },
+  {
+    "english": "care for",
+    "chinese": "照顾，关心",
+    "pos": "phrase"
+  },
+  {
+    "english": "find … way through",
+    "chinese": "找到通过…的方法",
+    "pos": "phrase"
+  },
+  {
+    "english": "be vulnerable to",
+    "chinese": "易受…影响",
+    "pos": "phrase"
+  },
+  {
+    "english": "maintain a … attitude towards …",
+    "chinese": "对…保持某种态度",
+    "pos": "phrase"
+  },
+  {
+    "english": "build confidence",
+    "chinese": "建立信心",
+    "pos": "phrase"
+  },
+  {
+    "english": "clear up misunderstanding",
+    "chinese": "消除误解",
+    "pos": "phrase"
+  },
+  {
+    "english": "end up with …",
+    "chinese": "以…告终",
+    "pos": "phrase"
+  },
+  {
+    "english": "perform … function",
+    "chinese": "执行…功能",
+    "pos": "phrase"
+  },
+  {
+    "english": "become attached to …",
+    "chinese": "对…产生依恋",
+    "pos": "phrase"
+  },
+  {
+    "english": "form/create a bond",
+    "chinese": "形成/建立纽带",
+    "pos": "phrase"
+  }
+]

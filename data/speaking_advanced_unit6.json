@@ -1,42 +1,197 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "generate",
+    "chinese": "产生",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "demand",
+    "chinese": "需求",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "crucial",
+    "chinese": "关键的",
+    "pos": "adj."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "strategy",
+    "chinese": "策略",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "primary",
+    "chinese": "主要的",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "stimulation",
+    "chinese": "刺激",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "category",
+    "chinese": "类别",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "emphasize",
+    "chinese": "强调",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "speciality",
+    "chinese": "专长",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "promote",
+    "chinese": "促销",
+    "pos": "n."
+  },
+  {
+    "english": "exceptional",
+    "chinese": "杰出的",
+    "pos": "adj."
+  },
+  {
+    "english": "appeal",
+    "chinese": "吸引力",
+    "pos": "adj."
+  },
+  {
+    "english": "nostalgia",
+    "chinese": "怀旧",
+    "pos": "n."
+  },
+  {
+    "english": "sentimental",
+    "chinese": "情感的",
+    "pos": "adj."
+  },
+  {
+    "english": "beverage",
+    "chinese": "饮料",
+    "pos": "n."
+  },
+  {
+    "english": "broad",
+    "chinese": "广泛的",
+    "pos": "n."
+  },
+  {
+    "english": "sway",
+    "chinese": "影响",
+    "pos": "n."
+  },
+  {
+    "english": "incentive",
+    "chinese": "激励",
+    "pos": "adj."
+  },
+  {
+    "english": "backfire",
+    "chinese": "适得其反",
+    "pos": "n."
+  },
+  {
+    "english": "persuade",
+    "chinese": "说服",
+    "pos": "n."
+  },
+  {
+    "english": "testimonial",
+    "chinese": "证明",
+    "pos": "adj."
+  },
+  {
+    "english": "merit",
+    "chinese": "优点",
+    "pos": "n."
+  },
+  {
+    "english": "approach",
+    "chinese": "方法",
+    "pos": "n."
+  },
+  {
+    "english": "release",
+    "chinese": "发布",
+    "pos": "n."
+  },
+  {
+    "english": "image",
+    "chinese": "形象",
+    "pos": "n."
+  },
+  {
+    "english": "uniqueness",
+    "chinese": "独特性",
+    "pos": "n."
+  },
+  {
+    "english": "longing",
+    "chinese": "渴望",
+    "pos": "v."
+  },
+  {
+    "english": "conflict with …",
+    "chinese": "与……冲突",
+    "pos": "phrase"
+  },
+  {
+    "english": "brand-new",
+    "chinese": "全新的",
+    "pos": "n."
+  },
+  {
+    "english": "make fun of …",
+    "chinese": "取笑……",
+    "pos": "phrase"
+  },
+  {
+    "english": "marketing strategy",
+    "chinese": "营销策略",
+    "pos": "phrase"
+  },
+  {
+    "english": "generate demand",
+    "chinese": "产生需求",
+    "pos": "phrase"
+  },
+  {
+    "english": "at high speeds",
+    "chinese": "以高速",
+    "pos": "phrase"
+  },
+  {
+    "english": "browse the Internet",
+    "chinese": "浏览互联网",
+    "pos": "phrase"
+  },
+  {
+    "english": "appeal to …",
+    "chinese": "吸引……",
+    "pos": "phrase"
+  },
+  {
+    "english": "reflect on the past",
+    "chinese": "回顾过去",
+    "pos": "phrase"
+  },
+  {
+    "english": "extra incentive",
+    "chinese": "额外激励",
+    "pos": "phrase"
+  },
+  {
+    "english": "past customer",
+    "chinese": "过去的客户",
+    "pos": "phrase"
+  },
+  {
+    "english": "old-fashioned",
+    "chinese": "老式的",
+    "pos": "v."
   }
 ]

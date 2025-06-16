@@ -1,42 +1,202 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "vine",
+    "chinese": "藤蔓",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "root",
+    "chinese": "根",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "maize",
+    "chinese": "玉米",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "shadow",
+    "chinese": "阴影",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "conserve",
+    "chinese": "保存",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "moisture",
+    "chinese": "水分",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "sideways",
+    "chinese": "向侧面地",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "shed",
+    "chinese": "脱落",
+    "pos": "v."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "maple",
+    "chinese": "枫树",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "avocado",
+    "chinese": "牛油果",
+    "pos": "n."
+  },
+  {
+    "english": "nutrient",
+    "chinese": "营养物质",
+    "pos": "n."
+  },
+  {
+    "english": "remain",
+    "chinese": "保留",
+    "pos": "n."
+  },
+  {
+    "english": "nourish",
+    "chinese": "滋养",
+    "pos": "n."
+  },
+  {
+    "english": "aerial",
+    "chinese": "空中的",
+    "pos": "adj."
+  },
+  {
+    "english": "absorb",
+    "chinese": "吸收",
+    "pos": "n."
+  },
+  {
+    "english": "swamp",
+    "chinese": "沼泽",
+    "pos": "n."
+  },
+  {
+    "english": "survival",
+    "chinese": "生存",
+    "pos": "adj."
+  },
+  {
+    "english": "function",
+    "chinese": "功能",
+    "pos": "n."
+  },
+  {
+    "english": "mature",
+    "chinese": "成熟的",
+    "pos": "n."
+  },
+  {
+    "english": "phenomenon",
+    "chinese": "现象",
+    "pos": "n."
+  },
+  {
+    "english": "stem",
+    "chinese": "茎",
+    "pos": "n."
+  },
+  {
+    "english": "adequately",
+    "chinese": "充分地",
+    "pos": "adv."
+  },
+  {
+    "english": "fibrous",
+    "chinese": "纤维状的",
+    "pos": "adj."
+  },
+  {
+    "english": "shallow",
+    "chinese": "浅的",
+    "pos": "n."
+  },
+  {
+    "english": "segment",
+    "chinese": "部分",
+    "pos": "n."
+  },
+  {
+    "english": "marsh",
+    "chinese": "沼泽地",
+    "pos": "n."
+  },
+  {
+    "english": "attach",
+    "chinese": "附着",
+    "pos": "n."
+  },
+  {
+    "english": "expose",
+    "chinese": "暴露",
+    "pos": "n."
+  },
+  {
+    "english": "retain",
+    "chinese": "保持",
+    "pos": "n."
+  },
+  {
+    "english": "edge",
+    "chinese": "边缘",
+    "pos": "n."
+  },
+  {
+    "english": "dry out",
+    "chinese": "干燥",
+    "pos": "phrase"
+  },
+  {
+    "english": "prevent damage",
+    "chinese": "防止损害",
+    "pos": "phrase"
+  },
+  {
+    "english": "conserve moisture",
+    "chinese": "保存水分",
+    "pos": "phrase"
+  },
+  {
+    "english": "conserve nutrients",
+    "chinese": "保存养分",
+    "pos": "phrase"
+  },
+  {
+    "english": "get blown away",
+    "chinese": "被吹走",
+    "pos": "phrase"
+  },
+  {
+    "english": "at the approach of …",
+    "chinese": "在……接近时",
+    "pos": "phrase"
+  },
+  {
+    "english": "build up",
+    "chinese": "积累",
+    "pos": "phrase"
+  },
+  {
+    "english": "develop into maturity",
+    "chinese": "发育成熟",
+    "pos": "phrase"
+  },
+  {
+    "english": "compensate for",
+    "chinese": "弥补",
+    "pos": "phrase"
+  },
+  {
+    "english": "cling to",
+    "chinese": "紧紧附着",
+    "pos": "phrase"
   }
 ]

@@ -1,42 +1,262 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "time-consuming",
+    "chinese": "耗时的",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "be busy with",
+    "chinese": "忙于……",
+    "pos": "phrase"
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "a fitness test",
+    "chinese": "健身测试",
+    "pos": "phrase"
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "benefit … academically",
+    "chinese": "在学业上受益",
+    "pos": "phrase"
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "perform better",
+    "chinese": "表现得更好",
+    "pos": "phrase"
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "be a fan of …",
+    "chinese": "是……的粉丝",
+    "pos": "phrase"
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "a waste of money",
+    "chinese": "浪费钱",
+    "pos": "phrase"
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "invest in …",
+    "chinese": "投资于……",
+    "pos": "phrase"
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "hire additional staff",
+    "chinese": "雇用额外的员工",
+    "pos": "phrase"
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "maintain sports facilities",
+    "chinese": "维护体育设施",
+    "pos": "phrase"
+  },
+  {
+    "english": "create negative feelings",
+    "chinese": "产生负面情绪",
+    "pos": "phrase"
+  },
+  {
+    "english": "be inspired to do …",
+    "chinese": "被激励去做……",
+    "pos": "phrase"
+  },
+  {
+    "english": "affect my learning efficiency",
+    "chinese": "影响我的学习效率",
+    "pos": "phrase"
+  },
+  {
+    "english": "a demanding workload",
+    "chinese": "要求很高的工作量",
+    "pos": "phrase"
+  },
+  {
+    "english": "affect my grades",
+    "chinese": "影响我的成绩",
+    "pos": "phrase"
+  },
+  {
+    "english": "hire a tutor",
+    "chinese": "雇请家教",
+    "pos": "phrase"
+  },
+  {
+    "english": "community service",
+    "chinese": "社区服务",
+    "pos": "phrase"
+  },
+  {
+    "english": "under a lot of pressure",
+    "chinese": "承受很大压力",
+    "pos": "phrase"
+  },
+  {
+    "english": "a tight schedule",
+    "chinese": "时间安排紧张",
+    "pos": "phrase"
+  },
+  {
+    "english": "public transportation",
+    "chinese": "公共交通",
+    "pos": "phrase"
+  },
+  {
+    "english": "participate in …",
+    "chinese": "参与……",
+    "pos": "phrase"
+  },
+  {
+    "english": "be required to do …",
+    "chinese": "被要求做……",
+    "pos": "phrase"
+  },
+  {
+    "english": "than intended",
+    "chinese": "比预期的多/久",
+    "pos": "phrase"
+  },
+  {
+    "english": "token",
+    "chinese": "代币",
+    "pos": "n."
+  },
+  {
+    "english": "dice",
+    "chinese": "骰子",
+    "pos": "n."
+  },
+  {
+    "english": "stare",
+    "chinese": "凝视",
+    "pos": "n."
+  },
+  {
+    "english": "bond",
+    "chinese": "建立联系；增进感情",
+    "pos": "n."
+  },
+  {
+    "english": "fast-paced",
+    "chinese": "快节奏的",
+    "pos": "v."
+  },
+  {
+    "english": "post",
+    "chinese": "帖子，职位",
+    "pos": "n."
+  },
+  {
+    "english": "distracting",
+    "chinese": "分散注意力的",
+    "pos": "v."
+  },
+  {
+    "english": "flash light",
+    "chinese": "闪光灯",
+    "pos": "phrase"
+  },
+  {
+    "english": "bother",
+    "chinese": "打扰，烦扰",
+    "pos": "n."
+  },
+  {
+    "english": "artwork",
+    "chinese": "艺术品",
+    "pos": "n."
+  },
+  {
+    "english": "appreciate",
+    "chinese": "欣赏",
+    "pos": "n."
+  },
+  {
+    "english": "exhibition",
+    "chinese": "展览",
+    "pos": "n."
+  },
+  {
+    "english": "immerse",
+    "chinese": "沉浸",
+    "pos": "n."
+  },
+  {
+    "english": "entertaining",
+    "chinese": "有趣的",
+    "pos": "v."
+  },
+  {
+    "english": "complicated",
+    "chinese": "复杂的",
+    "pos": "v."
+  },
+  {
+    "english": "sore",
+    "chinese": "疼痛的",
+    "pos": "n."
+  },
+  {
+    "english": "comedy",
+    "chinese": "喜剧",
+    "pos": "n."
+  },
+  {
+    "english": "video game",
+    "chinese": "电子游戏",
+    "pos": "phrase"
+  },
+  {
+    "english": "board game",
+    "chinese": "桌面游戏",
+    "pos": "phrase"
+  },
+  {
+    "english": "board game place",
+    "chinese": "桌游店",
+    "pos": "phrase"
+  },
+  {
+    "english": "online mode",
+    "chinese": "在线模式",
+    "pos": "phrase"
+  },
+  {
+    "english": "catch up",
+    "chinese": "赶上，跟上",
+    "pos": "phrase"
+  },
+  {
+    "english": "electronic product",
+    "chinese": "电子产品",
+    "pos": "phrase"
+  },
+  {
+    "english": "concentrate on",
+    "chinese": "专注于",
+    "pos": "phrase"
+  },
+  {
+    "english": "light-hearted comedy",
+    "chinese": "轻松的喜剧",
+    "pos": "phrase"
+  },
+  {
+    "english": "get a good laugh",
+    "chinese": "捧腹大笑",
+    "pos": "phrase"
+  },
+  {
+    "english": "go through a lot of trouble",
+    "chinese": "费很大劲",
+    "pos": "phrase"
+  },
+  {
+    "english": "get attention",
+    "chinese": "获得关注",
+    "pos": "phrase"
+  },
+  {
+    "english": "hard to follow",
+    "chinese": "难以理解",
+    "pos": "phrase"
   }
 ]

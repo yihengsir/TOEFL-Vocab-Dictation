@@ -1,42 +1,127 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "introductory",
+    "chinese": "入门的，基础（课程）的",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "determine",
+    "chinese": "决定",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "overwhelming",
+    "chinese": "难以承受的",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "analysis (pl. analyses)",
+    "chinese": "分析",
+    "pos": "phrase"
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "consume",
+    "chinese": "消费，消耗",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "accommodation",
+    "chinese": "住宿",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "interact",
+    "chinese": "互动",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "overhead",
+    "chinese": "经费",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "initiative",
+    "chinese": "倡议，动议",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "installation",
+    "chinese": "安装，安置",
+    "pos": "n."
+  },
+  {
+    "english": "dramatically",
+    "chinese": "戏剧性地，引人注目地",
+    "pos": "adv."
+  },
+  {
+    "english": "guidance",
+    "chinese": "指导，引导",
+    "pos": "n."
+  },
+  {
+    "english": "inevitable",
+    "chinese": "无法避免的",
+    "pos": "adj."
+  },
+  {
+    "english": "time consuming",
+    "chinese": "费时的",
+    "pos": "phrase"
+  },
+  {
+    "english": "ahead of schedule",
+    "chinese": "比计划提前",
+    "pos": "phrase"
+  },
+  {
+    "english": "absolute quiet",
+    "chinese": "绝对安静",
+    "pos": "phrase"
+  },
+  {
+    "english": "get in the zone",
+    "chinese": "进入状态",
+    "pos": "phrase"
+  },
+  {
+    "english": "go in a different direction",
+    "chinese": "改变方向",
+    "pos": "phrase"
+  },
+  {
+    "english": "halfway through",
+    "chinese": "中途，半途",
+    "pos": "phrase"
+  },
+  {
+    "english": "provide for ...",
+    "chinese": "提供",
+    "pos": "phrase"
+  },
+  {
+    "english": "up there",
+    "chinese": "在那里",
+    "pos": "phrase"
+  },
+  {
+    "english": "spend a fortune on …",
+    "chinese": "在…上花钱",
+    "pos": "phrase"
+  },
+  {
+    "english": "make sense",
+    "chinese": "有道理，讲得通",
+    "pos": "phrase"
+  },
+  {
+    "english": "introductory course",
+    "chinese": "基础课，入门课",
+    "pos": "phrase"
+  },
+  {
+    "english": "electricity bill",
+    "chinese": "电费账单",
+    "pos": "phrase"
   }
 ]

@@ -1,42 +1,177 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "required",
+    "chinese": "必须的，规定的",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "conduct",
+    "chinese": "实施，进行",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "employer",
+    "chinese": "雇主",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "session",
+    "chinese": "一段时间，时段",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "realistic",
+    "chinese": "现实的",
+    "pos": "adj."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "relaxed",
+    "chinese": "放松的",
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "timing",
+    "chinese": "时机",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "stressful",
+    "chinese": "有压力的",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "option",
+    "chinese": "选择",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "assignment",
+    "chinese": "作业",
+    "pos": "n."
+  },
+  {
+    "english": "gym",
+    "chinese": "健身房",
+    "pos": "n."
+  },
+  {
+    "english": "practice interviews",
+    "chinese": "模拟面试",
+    "pos": "phrase"
+  },
+  {
+    "english": "career-services center",
+    "chinese": "职业服务中心",
+    "pos": "phrase"
+  },
+  {
+    "english": "job interviews",
+    "chinese": "求职面试",
+    "pos": "phrase"
+  },
+  {
+    "english": "improve the chances of getting a job",
+    "chinese": "提高找工作的机会",
+    "pos": "phrase"
+  },
+  {
+    "english": "student volunteers",
+    "chinese": "学生志愿者",
+    "pos": "phrase"
+  },
+  {
+    "english": "final semester",
+    "chinese": "最后一个学期",
+    "pos": "phrase"
+  },
+  {
+    "english": "look for jobs",
+    "chinese": "找工作",
+    "pos": "phrase"
+  },
+  {
+    "english": "take it seriously",
+    "chinese": "认真对待",
+    "pos": "phrase"
+  },
+  {
+    "english": "work on",
+    "chinese": "做，处理",
+    "pos": "phrase"
+  },
+  {
+    "english": "research paper",
+    "chinese": "研究论文",
+    "pos": "phrase"
+  },
+  {
+    "english": "take final exams",
+    "chinese": "参加期末考试",
+    "pos": "phrase"
+  },
+  {
+    "english": "work a part-time job",
+    "chinese": "做兼职",
+    "pos": "phrase"
+  },
+  {
+    "english": "keep track of",
+    "chinese": "跟踪",
+    "pos": "phrase"
+  },
+  {
+    "english": "fit into the very full schedules",
+    "chinese": "融入紧张的日程安排",
+    "pos": "phrase"
+  },
+  {
+    "english": "free of charge",
+    "chinese": "免费",
+    "pos": "phrase"
+  },
+  {
+    "english": "reduce car traffic",
+    "chinese": "减少汽车交通",
+    "pos": "phrase"
+  },
+  {
+    "english": "on campus",
+    "chinese": "在校园内",
+    "pos": "phrase"
+  },
+  {
+    "english": "get more exercise",
+    "chinese": "多锻炼",
+    "pos": "phrase"
+  },
+  {
+    "english": "academic buildings",
+    "chinese": "教学楼",
+    "pos": "phrase"
+  },
+  {
+    "english": "get around",
+    "chinese": "四处走动",
+    "pos": "phrase"
+  },
+  {
+    "english": "the roads get really busy",
+    "chinese": "道路变得非常繁忙",
+    "pos": "phrase"
+  },
+  {
+    "english": "way better",
+    "chinese": "好得多",
+    "pos": "phrase"
+  },
+  {
+    "english": "go jogging",
+    "chinese": "去慢跑",
+    "pos": "phrase"
+  },
+  {
+    "english": "set aside extra time",
+    "chinese": "额外留出时间",
+    "pos": "phrase"
   }
 ]

@@ -1,42 +1,67 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "feature",
+    "chinese": "以...为特色",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "personalized",
+    "chinese": "个性化的",
+    "pos": "v."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "taste",
+    "chinese": "品味",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "well-organized",
+    "chinese": "井然有序的",
+    "pos": "v."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "summer break",
+    "chinese": "暑假",
+    "pos": "phrase"
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "have access to",
+    "chinese": "有权进入...，能获取...",
+    "pos": "phrase"
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "local customs",
+    "chinese": "当地习俗",
+    "pos": "phrase"
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "sense of humor",
+    "chinese": "幽默感",
+    "pos": "phrase"
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "academic performance",
+    "chinese": "学术表现",
+    "pos": "phrase"
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "home-cooked food",
+    "chinese": "自制食物",
+    "pos": "phrase"
+  },
+  {
+    "english": "guest speaker",
+    "chinese": "客座教授",
+    "pos": "phrase"
+  },
+  {
+    "english": "controversial opinions",
+    "chinese": "有争议的观点",
+    "pos": "phrase"
+  },
+  {
+    "english": "regardless of",
+    "chinese": "不论，不管...",
+    "pos": "phrase"
   }
 ]

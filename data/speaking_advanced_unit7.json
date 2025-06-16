@@ -1,42 +1,97 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "assignment",
+    "chinese": "作业，任务",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "academically",
+    "chinese": "学术上",
+    "pos": "adv."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "perform",
+    "chinese": "表现，执行",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "invest",
+    "chinese": "投资",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "equipment",
+    "chinese": "设备，器材",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "staff",
+    "chinese": "员工，职员",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "maintain",
+    "chinese": "维护，保养",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "facility",
+    "chinese": "设施，设备",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "fund",
+    "chinese": "资金，基金",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "expand",
+    "chinese": "扩展，扩大",
+    "pos": "n."
+  },
+  {
+    "english": "resentful",
+    "chinese": "感到怨恨的",
+    "pos": "adj."
+  },
+  {
+    "english": "genuinely",
+    "chinese": "真诚地，真正地",
+    "pos": "adv."
+  },
+  {
+    "english": "inspire",
+    "chinese": "激励，启发",
+    "pos": "n."
+  },
+  {
+    "english": "mandatory",
+    "chinese": "强制的，必须的",
+    "pos": "n."
+  },
+  {
+    "english": "eliminate",
+    "chinese": "消除，淘汰",
+    "pos": "n."
+  },
+  {
+    "english": "irrelevant",
+    "chinese": "无关的，不相关的",
+    "pos": "n."
+  },
+  {
+    "english": "distract",
+    "chinese": "分散注意力",
+    "pos": "n."
+  },
+  {
+    "english": "unpleasant",
+    "chinese": "令人不愉快的",
+    "pos": "n."
+  },
+  {
+    "english": "additional",
+    "chinese": "额外的，附加的",
+    "pos": "adj."
   }
 ]

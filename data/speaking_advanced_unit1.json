@@ -1,42 +1,232 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "library",
+    "chinese": "图书馆",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "cafeteria",
+    "chinese": "食堂",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "dormitory",
+    "chinese": "宿舍",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "gallery",
+    "chinese": "美术馆，画廊",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "way",
+    "chinese": "远远地，大地",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "editor",
+    "chinese": "编辑",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "aerobics",
+    "chinese": "健美操",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "internship",
+    "chinese": "实习",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "funding",
+    "chinese": "资助",
+    "pos": "v."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "automatically",
+    "chinese": "自动地",
+    "pos": "adv."
+  },
+  {
+    "english": "gymnasium",
+    "chinese": "体育馆",
+    "pos": "n."
+  },
+  {
+    "english": "bare",
+    "chinese": "光秃秃的",
+    "pos": "n."
+  },
+  {
+    "english": "laundry",
+    "chinese": "洗衣房",
+    "pos": "n."
+  },
+  {
+    "english": "bulletin",
+    "chinese": "公告栏",
+    "pos": "n."
+  },
+  {
+    "english": "eliminate",
+    "chinese": "去除，消除",
+    "pos": "n."
+  },
+  {
+    "english": "residency",
+    "chinese": "居住，住所",
+    "pos": "n."
+  },
+  {
+    "english": "ensure",
+    "chinese": "保证，确保",
+    "pos": "n."
+  },
+  {
+    "english": "install",
+    "chinese": "安装",
+    "pos": "n."
+  },
+  {
+    "english": "renovate",
+    "chinese": "翻新，修复",
+    "pos": "n."
+  },
+  {
+    "english": "freshman",
+    "chinese": "新生",
+    "pos": "n."
+  },
+  {
+    "english": "upperclassman",
+    "chinese": "高年级学生",
+    "pos": "n."
+  },
+  {
+    "english": "admission director",
+    "chinese": "招生官",
+    "pos": "phrase"
+  },
+  {
+    "english": "explore potential careers",
+    "chinese": "探索职业路径",
+    "pos": "phrase"
+  },
+  {
+    "english": "on the edge of...",
+    "chinese": "几乎..., 在...的边缘",
+    "pos": "phrase"
+  },
+  {
+    "english": "registration fee",
+    "chinese": "注册费，报名费",
+    "pos": "phrase"
+  },
+  {
+    "english": "interaction and networking with...",
+    "chinese": "和...互动、社交",
+    "pos": "phrase"
+  },
+  {
+    "english": "come in handy",
+    "chinese": "派上用场",
+    "pos": "phrase"
+  },
+  {
+    "english": "mock interview",
+    "chinese": "模拟面试",
+    "pos": "phrase"
+  },
+  {
+    "english": "parking lot",
+    "chinese": "停车场",
+    "pos": "phrase"
+  },
+  {
+    "english": "go to and from classes",
+    "chinese": "上学、放学",
+    "pos": "phrase"
+  },
+  {
+    "english": "free of charge",
+    "chinese": "免费",
+    "pos": "phrase"
+  },
+  {
+    "english": "computer lab",
+    "chinese": "机房，电脑室",
+    "pos": "phrase"
+  },
+  {
+    "english": "career center",
+    "chinese": "职业发展中心",
+    "pos": "phrase"
+  },
+  {
+    "english": "make a difference",
+    "chinese": "有影响，起作用",
+    "pos": "phrase"
+  },
+  {
+    "english": "increase the appeal of...",
+    "chinese": "提升...的吸引力",
+    "pos": "phrase"
+  },
+  {
+    "english": "postpone enrollment",
+    "chinese": "延迟入学",
+    "pos": "phrase"
+  },
+  {
+    "english": "printing center",
+    "chinese": "打印中心",
+    "pos": "phrase"
+  },
+  {
+    "english": "gap year",
+    "chinese": "间隔年",
+    "pos": "phrase"
+  },
+  {
+    "english": "financial support",
+    "chinese": "经济支持",
+    "pos": "phrase"
+  },
+  {
+    "english": "prospective new students",
+    "chinese": "准新生",
+    "pos": "phrase"
+  },
+  {
+    "english": "set aside...",
+    "chinese": "把...放在一边",
+    "pos": "phrase"
+  },
+  {
+    "english": "in advance",
+    "chinese": "提前",
+    "pos": "phrase"
+  },
+  {
+    "english": "scenic spots",
+    "chinese": "景点",
+    "pos": "phrase"
+  },
+  {
+    "english": "overhead lights",
+    "chinese": "顶灯",
+    "pos": "phrase"
+  },
+  {
+    "english": "air-conditioning",
+    "chinese": "空调",
+    "pos": "v."
+  },
+  {
+    "english": "default settings",
+    "chinese": "默认设置",
+    "pos": "phrase"
   }
 ]

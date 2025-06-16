@@ -1,42 +1,247 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "seagoing",
+    "chinese": "远洋的",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "exhibit",
+    "chinese": "展示，展览",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "mature",
+    "chinese": "成熟的",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "salmon",
+    "chinese": "三文鱼",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "breed",
+    "chinese": "繁殖",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "hatch",
+    "chinese": "孵化",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "dart",
+    "chinese": "飞奔，急驰",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "spawn",
+    "chinese": "产卵",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "obtain",
+    "chinese": "获得",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "baboon",
+    "chinese": "狒狒",
+    "pos": "n."
+  },
+  {
+    "english": "predator",
+    "chinese": "捕食者",
+    "pos": "n."
+  },
+  {
+    "english": "alert",
+    "chinese": "警告",
+    "pos": "n."
+  },
+  {
+    "english": "spread",
+    "chinese": "散布，传播",
+    "pos": "n."
+  },
+  {
+    "english": "forage",
+    "chinese": "觅食",
+    "pos": "n."
+  },
+  {
+    "english": "feed",
+    "chinese": "喂养",
+    "pos": "v."
+  },
+  {
+    "english": "groom",
+    "chinese": "打理（毛发）",
+    "pos": "n."
+  },
+  {
+    "english": "migrate",
+    "chinese": "迁徙",
+    "pos": "n."
+  },
+  {
+    "english": "freshwater",
+    "chinese": "淡水",
+    "pos": "n."
+  },
+  {
+    "english": "survival",
+    "chinese": "生存",
+    "pos": "adj."
+  },
+  {
+    "english": "temporarily",
+    "chinese": "暂时地",
+    "pos": "adv."
+  },
+  {
+    "english": "capacity",
+    "chinese": "容量",
+    "pos": "n."
+  },
+  {
+    "english": "allocation",
+    "chinese": "分配",
+    "pos": "n."
+  },
+  {
+    "english": "reproduce",
+    "chinese": "繁殖",
+    "pos": "n."
+  },
+  {
+    "english": "fulfill",
+    "chinese": "满足",
+    "pos": "n."
+  },
+  {
+    "english": "disrupt",
+    "chinese": "扰乱",
+    "pos": "n."
+  },
+  {
+    "english": "distinct",
+    "chinese": "独特的，明显不同的",
+    "pos": "n."
+  },
+  {
+    "english": "coloring",
+    "chinese": "颜色，外观",
+    "pos": "v."
+  },
+  {
+    "english": "employ",
+    "chinese": "使用",
+    "pos": "n."
+  },
+  {
+    "english": "prey",
+    "chinese": "猎物",
+    "pos": "n."
+  },
+  {
+    "english": "pollen",
+    "chinese": "花粉",
+    "pos": "n."
+  },
+  {
+    "english": "nectar",
+    "chinese": "花蜜",
+    "pos": "n."
+  },
+  {
+    "english": "species",
+    "chinese": "物种",
+    "pos": "n."
+  },
+  {
+    "english": "vulnerable",
+    "chinese": "脆弱的，易受伤害的",
+    "pos": "adj."
+  },
+  {
+    "english": "salt water",
+    "chinese": "盐水",
+    "pos": "phrase"
+  },
+  {
+    "english": "a certain age",
+    "chinese": "某个年龄",
+    "pos": "phrase"
+  },
+  {
+    "english": "survival needs",
+    "chinese": "生存需求",
+    "pos": "phrase"
+  },
+  {
+    "english": "in response to",
+    "chinese": "响应",
+    "pos": "phrase"
+  },
+  {
+    "english": "engage in",
+    "chinese": "从事",
+    "pos": "phrase"
+  },
+  {
+    "english": "attempts to",
+    "chinese": "尝试",
+    "pos": "phrase"
+  },
+  {
+    "english": "physical features",
+    "chinese": "身体特征",
+    "pos": "phrase"
+  },
+  {
+    "english": "defense mechanism",
+    "chinese": "防御机制",
+    "pos": "phrase"
+  },
+  {
+    "english": "transfer pollen",
+    "chinese": "传播花粉",
+    "pos": "phrase"
+  },
+  {
+    "english": "a limited number of",
+    "chinese": "有限的数量",
+    "pos": "phrase"
+  },
+  {
+    "english": "spread far apart",
+    "chinese": "散布得很远",
+    "pos": "phrase"
+  },
+  {
+    "english": "spread out",
+    "chinese": "扩散开",
+    "pos": "phrase"
+  },
+  {
+    "english": "search for food",
+    "chinese": "觅食",
+    "pos": "phrase"
+  },
+  {
+    "english": "grow to full size",
+    "chinese": "长到完全大小",
+    "pos": "phrase"
+  },
+  {
+    "english": "dart back down into safety",
+    "chinese": "迅速回到安全处",
+    "pos": "phrase"
+  },
+  {
+    "english": "sea creatures",
+    "chinese": "海洋生物",
+    "pos": "phrase"
   }
 ]
