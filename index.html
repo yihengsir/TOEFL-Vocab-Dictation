@@ -1221,7 +1221,7 @@
         function nextWord() {
   console.log('[nextWord] Moving to next word...');
 
-  // 播放当前词的正确英文单词
+  // 播放当前词汇的正确英文
   if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
     const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
     const correctEnglish = currentPair.english.trim();
@@ -1232,15 +1232,15 @@
   loadQuestion();
 }
 
-        async function endTestSession() {
-            console.log('[endTestSession] Ending test session and saving results...');
-            
-            appState.testEndTime = Date.now(); // Record end time (NEW)
-            const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000); // Calculate duration in seconds
-            const formattedTestDuration = formatDuration(totalDurationSeconds); // Format duration (NEW)
+async function endTestSession() {
+  console.log('[endTestSession] Ending test session and saving results...');
 
-            // Collect test results
-            const testResult = {
+  appState.testEndTime = Date.now();
+  const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000);
+  const formattedTestDuration = formatDuration(totalDurationSeconds);
+
+  // 后面继续写你的结果收集逻辑...// Collect test results
+  const testResult = {
                 studentName: appState.studentName,
                 studentClass: appState.studentClass,
                 userRole: appState.userRole,
