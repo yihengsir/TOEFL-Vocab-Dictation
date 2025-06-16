@@ -1220,6 +1220,14 @@
 
         function nextWord() {
     console.log('[nextWord] Moving to next word...');
+
+    // 播放当前词的正确英文单词
+    if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
+        const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
+        const correctEnglish = currentPair.english.trim();
+        playPronunciation(correctEnglish);
+    }
+
     appState.currentWordIndex++;
     loadQuestion();
 }
