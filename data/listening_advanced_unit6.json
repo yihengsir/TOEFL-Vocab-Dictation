@@ -1,42 +1,547 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "stencil",
+    "chinese": "图案",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "shelter",
+    "chinese": "遮蔽处",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "spray",
+    "chinese": "喷洒",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "predominant",
+    "chinese": "占主导地位的",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "dramatic",
+    "chinese": "巨大的，令人吃惊的",
+    "pos": "adj."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "temperate",
+    "chinese": "气候温和的",
+    "pos": "adj."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "retreat",
+    "chinese": "（冰域、水域）缩小",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "subtle",
+    "chinese": "细微的，微妙的",
+    "pos": "adj."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "momentous",
+    "chinese": "重大的",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "sparse",
+    "chinese": "稀疏的",
+    "pos": "adj."
+  },
+  {
+    "english": "forager",
+    "chinese": "搜寻食物的人",
+    "pos": "n."
+  },
+  {
+    "english": "intellectual",
+    "chinese": "高智力的",
+    "pos": "adj."
+  },
+  {
+    "english": "elite",
+    "chinese": "精英人士",
+    "pos": "n."
+  },
+  {
+    "english": "caste",
+    "chinese": "特权阶层",
+    "pos": "n."
+  },
+  {
+    "english": "token",
+    "chinese": "标记，符号",
+    "pos": "n."
+  },
+  {
+    "english": "transaction",
+    "chinese": "交易",
+    "pos": "n."
+  },
+  {
+    "english": "testify",
+    "chinese": "证明",
+    "pos": "v."
+  },
+  {
+    "english": "modest",
+    "chinese": "不高的",
+    "pos": "adj."
+  },
+  {
+    "english": "contest",
+    "chinese": "质疑，反驳",
+    "pos": "v."
+  },
+  {
+    "english": "reiterate",
+    "chinese": "重申",
+    "pos": "v."
+  },
+  {
+    "english": "utilitarian",
+    "chinese": "实用的",
+    "pos": "adj."
+  },
+  {
+    "english": "thrill",
+    "chinese": "兴奋，刺激",
+    "pos": "n."
+  },
+  {
+    "english": "prestige",
+    "chinese": "威望",
+    "pos": "n."
+  },
+  {
+    "english": "readily",
+    "chinese": "便利地，轻而易举地",
+    "pos": "adv."
+  },
+  {
+    "english": "ample",
+    "chinese": "足够的",
+    "pos": "adj."
+  },
+  {
+    "english": "sustenance",
+    "chinese": "食物，营养",
+    "pos": "n."
+  },
+  {
+    "english": "fuse",
+    "chinese": "融合",
+    "pos": "v."
+  },
+  {
+    "english": "corridor",
+    "chinese": "走廊，地带",
+    "pos": "n."
+  },
+  {
+    "english": "myth",
+    "chinese": "误解，错误观念",
+    "pos": "n."
+  },
+  {
+    "english": "inhospitable",
+    "chinese": "荒凉的，不适于居住的",
+    "pos": "adj."
+  },
+  {
+    "english": "incentive",
+    "chinese": "动机，诱因",
+    "pos": "n."
+  },
+  {
+    "english": "hieroglyph",
+    "chinese": "象形文字",
+    "pos": "n."
+  },
+  {
+    "english": "dampen",
+    "chinese": "使…潮湿",
+    "pos": "v."
+  },
+  {
+    "english": "tablet",
+    "chinese": "刻写板",
+    "pos": "n."
+  },
+  {
+    "english": "tamper",
+    "chinese": "破坏",
+    "pos": "v."
+  },
+  {
+    "english": "archive",
+    "chinese": "档案",
+    "pos": "n."
+  },
+  {
+    "english": "carve",
+    "chinese": "刻写",
+    "pos": "v."
+  },
+  {
+    "english": "residue",
+    "chinese": "残留物",
+    "pos": "n."
+  },
+  {
+    "english": "alternative",
+    "chinese": "另外的",
+    "pos": "adj."
+  },
+  {
+    "english": "vessel",
+    "chinese": "容器",
+    "pos": "n."
+  },
+  {
+    "english": "refine",
+    "chinese": "改进",
+    "pos": "v."
+  },
+  {
+    "english": "novel",
+    "chinese": "新颖的，珍奇的",
+    "pos": "adj."
+  },
+  {
+    "english": "striking",
+    "chinese": "引人注目的",
+    "pos": "adj."
+  },
+  {
+    "english": "smash",
+    "chinese": "打碎",
+    "pos": "v."
+  },
+  {
+    "english": "ostentatious",
+    "chinese": "炫耀的",
+    "pos": "adj."
+  },
+  {
+    "english": "take over",
+    "chinese": "接管",
+    "pos": "v."
+  },
+  {
+    "english": "treasure",
+    "chinese": "珍视",
+    "pos": "v."
+  },
+  {
+    "english": "cease",
+    "chinese": "停止",
+    "pos": "v."
+  },
+  {
+    "english": "scribe",
+    "chinese": "抄写员",
+    "pos": "n."
+  },
+  {
+    "english": "demanding",
+    "chinese": "（工作）费力的，难度高的",
+    "pos": "adj."
+  },
+  {
+    "english": "circumscribe",
+    "chinese": "限制",
+    "pos": "v."
+  },
+  {
+    "english": "division",
+    "chinese": "分隔",
+    "pos": "n."
+  },
+  {
+    "english": "arable",
+    "chinese": "可耕的",
+    "pos": "adj."
+  },
+  {
+    "english": "correspond",
+    "chinese": "相符",
+    "pos": "v."
+  },
+  {
+    "english": "secure",
+    "chinese": "取得，实现",
+    "pos": "v."
+  },
+  {
+    "english": "complex",
+    "chinese": "建筑群",
+    "pos": "n."
+  },
+  {
+    "english": "edifice",
+    "chinese": "大厦",
+    "pos": "n."
+  },
+  {
+    "english": "grid",
+    "chinese": "网格",
+    "pos": "n."
+  },
+  {
+    "english": "metropolis",
+    "chinese": "大城市",
+    "pos": "n."
+  },
+  {
+    "english": "facilitate",
+    "chinese": "使…容易",
+    "pos": "v."
+  },
+  {
+    "english": "innumerable",
+    "chinese": "无数的",
+    "pos": "adj."
+  },
+  {
+    "english": "thoroughly",
+    "chinese": "彻底地，完全地",
+    "pos": "adv."
+  },
+  {
+    "english": "encounter",
+    "chinese": "偶然遇到",
+    "pos": "v."
+  },
+  {
+    "english": "drawback",
+    "chinese": "缺点",
+    "pos": "n."
+  },
+  {
+    "english": "chronology",
+    "chinese": "年表",
+    "pos": "n."
+  },
+  {
+    "english": "sequentially",
+    "chinese": "循序地",
+    "pos": "adv."
+  },
+  {
+    "english": "deem",
+    "chinese": "认为",
+    "pos": "v."
+  },
+  {
+    "english": "bias",
+    "chinese": "偏见",
+    "pos": "n."
+  },
+  {
+    "english": "inadvertently",
+    "chinese": "无意地，不经意地",
+    "pos": "adv."
+  },
+  {
+    "english": "slash-and-burn",
+    "chinese": "刀耕火种的",
+    "pos": "adj."
+  },
+  {
+    "english": "tap",
+    "chinese": "利用，开发",
+    "pos": "v."
+  },
+  {
+    "english": "artery",
+    "chinese": "干线",
+    "pos": "n."
+  },
+  {
+    "english": "antiquity",
+    "chinese": "古代",
+    "pos": "n."
+  },
+  {
+    "english": "raid",
+    "chinese": "劫掠",
+    "pos": "n."
+  },
+  {
+    "english": "subsist",
+    "chinese": "生存，糊口",
+    "pos": "v."
+  },
+  {
+    "english": "sedentary",
+    "chinese": "定居的",
+    "pos": "adj."
+  },
+  {
+    "english": "weather",
+    "chinese": "风化，受侵蚀",
+    "pos": "v."
+  },
+  {
+    "english": "discard",
+    "chinese": "丢弃",
+    "pos": "v."
+  },
+  {
+    "english": "quarry",
+    "chinese": "采石场",
+    "pos": "n."
+  },
+  {
+    "english": "implication",
+    "chinese": "可能的后果",
+    "pos": "n."
+  },
+  {
+    "english": "strain",
+    "chinese": "压力，重负",
+    "pos": "n."
+  },
+  {
+    "english": "proportion",
+    "chinese": "比例",
+    "pos": "n."
+  },
+  {
+    "english": "substantial",
+    "chinese": "大量的",
+    "pos": "adj."
+  },
+  {
+    "english": "attest",
+    "chinese": "证明",
+    "pos": "v."
+  },
+  {
+    "english": "intensification",
+    "chinese": "加剧",
+    "pos": "n."
+  },
+  {
+    "english": "ornament",
+    "chinese": "饰品",
+    "pos": "n."
+  },
+  {
+    "english": "attire",
+    "chinese": "服装",
+    "pos": "n."
+  },
+  {
+    "english": "opulently",
+    "chinese": "富裕地",
+    "pos": "adv."
+  },
+  {
+    "english": "outfit",
+    "chinese": "装备",
+    "pos": "v."
+  },
+  {
+    "english": "bracelet",
+    "chinese": "手镯",
+    "pos": "n."
+  },
+  {
+    "english": "wear",
+    "chinese": "磨损",
+    "pos": "n."
+  },
+  {
+    "english": "fashion",
+    "chinese": "制作",
+    "pos": "v."
+  },
+  {
+    "english": "instill",
+    "chinese": "逐渐灌输",
+    "pos": "v."
+  },
+  {
+    "english": "revere",
+    "chinese": "尊敬",
+    "pos": "v."
+  },
+  {
+    "english": "intriguing",
+    "chinese": "非常有趣的",
+    "pos": "adj."
+  },
+  {
+    "english": "deliberately",
+    "chinese": "故意地",
+    "pos": "adv."
+  },
+  {
+    "english": "slip",
+    "chinese": "滑落",
+    "pos": "v."
+  },
+  {
+    "english": "fragment",
+    "chinese": "破碎",
+    "pos": "v."
+  },
+  {
+    "english": "ceremonially",
+    "chinese": "仪式上地",
+    "pos": "adv."
+  },
+  {
+    "english": "decease",
+    "chinese": "已故的",
+    "pos": "adj."
+  },
+  {
+    "english": "mourn",
+    "chinese": "哀悼",
+    "pos": "v."
+  },
+  {
+    "english": "indelible",
+    "chinese": "不可磨灭的，无法忘记的",
+    "pos": "adj."
+  },
+  {
+    "english": "reunite",
+    "chinese": "重逢",
+    "pos": "v."
+  },
+  {
+    "english": "figurine",
+    "chinese": "小雕像",
+    "pos": "n."
+  },
+  {
+    "english": "ankle",
+    "chinese": "踝",
+    "pos": "n."
+  },
+  {
+    "english": "feast",
+    "chinese": "宴请",
+    "pos": "v."
+  },
+  {
+    "english": "paradoxically",
+    "chinese": "出乎意料地",
+    "pos": "adv."
+  },
+  {
+    "english": "underlie",
+    "chinese": "位于…之下",
+    "pos": "v."
+  },
+  {
+    "english": "elevation",
+    "chinese": "高度，海拔",
+    "pos": "n."
   }
 ]

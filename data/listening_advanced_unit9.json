@@ -1,42 +1,402 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "hunter-gatherer",
+    "chinese": "狩猎采集者",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "alternative",
+    "chinese": "可供替代的",
+    "pos": "adj."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "emerge",
+    "chinese": "出现",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "unpredictable",
+    "chinese": "不可预测的",
+    "pos": "adj."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "practice",
+    "chinese": "实施",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "succumb to",
+    "chinese": "屈从于",
+    "pos": "v."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "elevation",
+    "chinese": "海拔",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "phase",
+    "chinese": "阶段",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "insufficient",
+    "chinese": "不充足的",
+    "pos": "adj."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "entail",
+    "chinese": "涉及",
+    "pos": "v."
+  },
+  {
+    "english": "ditch",
+    "chinese": "水沟",
+    "pos": "n."
+  },
+  {
+    "english": "canal",
+    "chinese": "灌溉渠",
+    "pos": "n."
+  },
+  {
+    "english": "runoff",
+    "chinese": "径流",
+    "pos": "n."
+  },
+  {
+    "english": "carve",
+    "chinese": "雕刻",
+    "pos": "v."
+  },
+  {
+    "english": "irrigation",
+    "chinese": "灌溉",
+    "pos": "n."
+  },
+  {
+    "english": "pump",
+    "chinese": "泵",
+    "pos": "n."
+  },
+  {
+    "english": "conservative",
+    "chinese": "保守的",
+    "pos": "adj."
+  },
+  {
+    "english": "initially",
+    "chinese": "一开始地",
+    "pos": "adv."
+  },
+  {
+    "english": "adopt",
+    "chinese": "采取",
+    "pos": "v."
+  },
+  {
+    "english": "tempting",
+    "chinese": "诱人的",
+    "pos": "adj."
+  },
+  {
+    "english": "multiply",
+    "chinese": "变多",
+    "pos": "v."
+  },
+  {
+    "english": "marginal",
+    "chinese": "边缘的",
+    "pos": "adj."
+  },
+  {
+    "english": "befall",
+    "chinese": "发生在某人身上",
+    "pos": "v."
+  },
+  {
+    "english": "floodplain",
+    "chinese": "河漫滩",
+    "pos": "n."
+  },
+  {
+    "english": "adjacent",
+    "chinese": "附近的",
+    "pos": "adj."
+  },
+  {
+    "english": "exceed",
+    "chinese": "超过",
+    "pos": "v."
+  },
+  {
+    "english": "capacity",
+    "chinese": "容量",
+    "pos": "n."
+  },
+  {
+    "english": "gamble",
+    "chinese": "赌博",
+    "pos": "n."
+  },
+  {
+    "english": "collapse",
+    "chinese": "崩溃",
+    "pos": "v."
+  },
+  {
+    "english": "exhaust",
+    "chinese": "枯竭的",
+    "pos": "v."
+  },
+  {
+    "english": "sufficiently",
+    "chinese": "充分地",
+    "pos": "adv."
+  },
+  {
+    "english": "shift",
+    "chinese": "转换",
+    "pos": "v."
+  },
+  {
+    "english": "redistribute",
+    "chinese": "重新分配",
+    "pos": "v."
+  },
+  {
+    "english": "self-sufficient",
+    "chinese": "自给自足的",
+    "pos": "adj."
+  },
+  {
+    "english": "descendent",
+    "chinese": "后代",
+    "pos": "n."
+  },
+  {
+    "english": "pest",
+    "chinese": "害虫",
+    "pos": "n."
+  },
+  {
+    "english": "species",
+    "chinese": "物种",
+    "pos": "n."
+  },
+  {
+    "english": "ground mole",
+    "chinese": "鼹鼠",
+    "pos": "n."
+  },
+  {
+    "english": "predator",
+    "chinese": "捕食者",
+    "pos": "n."
+  },
+  {
+    "english": "parasite",
+    "chinese": "寄生生物",
+    "pos": "n."
+  },
+  {
+    "english": "nonindigenous",
+    "chinese": "非本土的",
+    "pos": "adj."
+  },
+  {
+    "english": "eradicate",
+    "chinese": "根除",
+    "pos": "v."
+  },
+  {
+    "english": "measure",
+    "chinese": "措施",
+    "pos": "n."
+  },
+  {
+    "english": "sulfur",
+    "chinese": "硫",
+    "pos": "n."
+  },
+  {
+    "english": "arsenic",
+    "chinese": "砷",
+    "pos": "n."
+  },
+  {
+    "english": "fungal",
+    "chinese": "真菌的",
+    "pos": "adj."
+  },
+  {
+    "english": "intend",
+    "chinese": "无意的",
+    "pos": "v."
+  },
+  {
+    "english": "target",
+    "chinese": "目标",
+    "pos": "n."
+  },
+  {
+    "english": "eliminate",
+    "chinese": "消除",
+    "pos": "v."
+  },
+  {
+    "english": "suppression",
+    "chinese": "抑制",
+    "pos": "n."
+  },
+  {
+    "english": "rebound",
+    "chinese": "回弹",
+    "pos": "v."
+  },
+  {
+    "english": "insidious",
+    "chinese": "危险的；潜伏的",
+    "pos": "adj."
+  },
+  {
+    "english": "pesticide",
+    "chinese": "杀虫剂",
+    "pos": "n."
+  },
+  {
+    "english": "resistance",
+    "chinese": "抵抗力",
+    "pos": "n."
+  },
+  {
+    "english": "acquire",
+    "chinese": "获得",
+    "pos": "v."
+  },
+  {
+    "english": "overcome",
+    "chinese": "克服",
+    "pos": "v."
+  },
+  {
+    "english": "evolve",
+    "chinese": "进化",
+    "pos": "v."
+  },
+  {
+    "english": "outbreak",
+    "chinese": "爆发",
+    "pos": "n."
+  },
+  {
+    "english": "citrus",
+    "chinese": "柑橘类果实",
+    "pos": "n."
+  },
+  {
+    "english": "orchard",
+    "chinese": "果园",
+    "pos": "n."
+  },
+  {
+    "english": "caterpillar",
+    "chinese": "毛毛虫",
+    "pos": "n."
+  },
+  {
+    "english": "array of",
+    "chinese": "大批",
+    "pos": "n."
+  },
+  {
+    "english": "habitat",
+    "chinese": "栖息地",
+    "pos": "n."
+  },
+  {
+    "english": "cactus",
+    "chinese": "仙人掌",
+    "pos": "n."
+  },
+  {
+    "english": "moth",
+    "chinese": "蛾子",
+    "pos": "n."
+  },
+  {
+    "english": "prickly pear",
+    "chinese": "仙人果",
+    "pos": "n."
+  },
+  {
+    "english": "backfire",
+    "chinese": "适得其反",
+    "pos": "v."
+  },
+  {
+    "english": "possess",
+    "chinese": "拥有",
+    "pos": "v."
+  },
+  {
+    "english": "inherent",
+    "chinese": "固有的",
+    "pos": "adj."
+  },
+  {
+    "english": "assess",
+    "chinese": "评估",
+    "pos": "v."
+  },
+  {
+    "english": "alien",
+    "chinese": "外来的",
+    "pos": "adj."
+  },
+  {
+    "english": "invader",
+    "chinese": "入侵者",
+    "pos": "n."
+  },
+  {
+    "english": "entomologist",
+    "chinese": "昆虫学家",
+    "pos": "n."
+  },
+  {
+    "english": "holistic",
+    "chinese": "整体的",
+    "pos": "adj."
+  },
+  {
+    "english": "integrate",
+    "chinese": "整合",
+    "pos": "v."
+  },
+  {
+    "english": "aesthetic",
+    "chinese": "美学的",
+    "pos": "adj."
+  },
+  {
+    "english": "mortality",
+    "chinese": "死亡率",
+    "pos": "n."
+  },
+  {
+    "english": "intensity",
+    "chinese": "强度",
+    "pos": "n."
+  },
+  {
+    "english": "tolerate",
+    "chinese": "忍受",
+    "pos": "v."
+  },
+  {
+    "english": "derive",
+    "chinese": "获得",
+    "pos": "v."
   }
 ]

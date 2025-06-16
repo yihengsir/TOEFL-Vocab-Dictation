@@ -1,42 +1,487 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "scenario",
+    "chinese": "方案；情景",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "current",
+    "chinese": "水流",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "mine",
+    "chinese": "矿",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "skeleton",
+    "chinese": "骨架",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "pond",
+    "chinese": "池塘",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "fluctuation",
+    "chinese": "波动",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "content",
+    "chinese": "含量",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "runoff",
+    "chinese": "径流",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "episode",
+    "chinese": "片段",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "fraction",
+    "chinese": "部分",
+    "pos": "n."
+  },
+  {
+    "english": "spell",
+    "chinese": "一段时间",
+    "pos": "n."
+  },
+  {
+    "english": "larva",
+    "chinese": "幼虫",
+    "pos": "n."
+  },
+  {
+    "english": "blood vessel",
+    "chinese": "血管",
+    "pos": "n."
+  },
+  {
+    "english": "flipper",
+    "chinese": "鳍足",
+    "pos": "n."
+  },
+  {
+    "english": "turtle",
+    "chinese": "龟",
+    "pos": "n."
+  },
+  {
+    "english": "juvenile",
+    "chinese": "少年",
+    "pos": "n."
+  },
+  {
+    "english": "demise",
+    "chinese": "死亡",
+    "pos": "n."
+  },
+  {
+    "english": "vulnerability",
+    "chinese": "脆弱",
+    "pos": "n."
+  },
+  {
+    "english": "invertebrate",
+    "chinese": "无脊椎动物",
+    "pos": "n."
+  },
+  {
+    "english": "deposit",
+    "chinese": "沉淀",
+    "pos": "n."
+  },
+  {
+    "english": "resident",
+    "chinese": "居民",
+    "pos": "n."
+  },
+  {
+    "english": "particle",
+    "chinese": "颗粒",
+    "pos": "n."
+  },
+  {
+    "english": "debris",
+    "chinese": "残骸",
+    "pos": "n."
+  },
+  {
+    "english": "detrital",
+    "chinese": "碎屑的",
+    "pos": "adj."
+  },
+  {
+    "english": "latitude",
+    "chinese": "纬度",
+    "pos": "n."
+  },
+  {
+    "english": "tropic",
+    "chinese": "热带",
+    "pos": "n."
+  },
+  {
+    "english": "projection",
+    "chinese": "推断",
+    "pos": "n."
+  },
+  {
+    "english": "side effect",
+    "chinese": "副作用",
+    "pos": "n."
+  },
+  {
+    "english": "distortion",
+    "chinese": "歪曲",
+    "pos": "n."
+  },
+  {
+    "english": "specimen",
+    "chinese": "样本",
+    "pos": "n."
+  },
+  {
+    "english": "proportion",
+    "chinese": "比例",
+    "pos": "n."
+  },
+  {
+    "english": "pesticide",
+    "chinese": "杀虫剂",
+    "pos": "n."
+  },
+  {
+    "english": "particulate",
+    "chinese": "颗粒的",
+    "pos": "adj."
+  },
+  {
+    "english": "landscape",
+    "chinese": "景观",
+    "pos": "n."
+  },
+  {
+    "english": "thread",
+    "chinese": "细线",
+    "pos": "n."
+  },
+  {
+    "english": "offspring",
+    "chinese": "后代",
+    "pos": "n."
+  },
+  {
+    "english": "pollinator",
+    "chinese": "传粉者",
+    "pos": "n."
+  },
+  {
+    "english": "aggression",
+    "chinese": "攻击",
+    "pos": "n."
+  },
+  {
+    "english": "give-and-take",
+    "chinese": "妥协",
+    "pos": "n."
+  },
+  {
+    "english": "planktonic",
+    "chinese": "浮游的",
+    "pos": "adj."
+  },
+  {
+    "english": "nutritional",
+    "chinese": "营养的",
+    "pos": "adj."
+  },
+  {
+    "english": "evident",
+    "chinese": "明显的",
+    "pos": "adj."
+  },
+  {
+    "english": "curved",
+    "chinese": "弯曲的",
+    "pos": "adj."
+  },
+  {
+    "english": "relevant",
+    "chinese": "相关的",
+    "pos": "adj."
+  },
+  {
+    "english": "vegetative",
+    "chinese": "植物的",
+    "pos": "adj."
+  },
+  {
+    "english": "immense",
+    "chinese": "巨大的",
+    "pos": "adj."
+  },
+  {
+    "english": "physical",
+    "chinese": "现实的",
+    "pos": "adj."
+  },
+  {
+    "english": "universal",
+    "chinese": "普遍的",
+    "pos": "adj."
+  },
+  {
+    "english": "appropriate",
+    "chinese": "合适的",
+    "pos": "adj."
+  },
+  {
+    "english": "means",
+    "chinese": "方式",
+    "pos": "n."
+  },
+  {
+    "english": "mechanism",
+    "chinese": "方法",
+    "pos": "n."
+  },
+  {
+    "english": "check",
+    "chinese": "控制",
+    "pos": "n."
+  },
+  {
+    "english": "amphibian",
+    "chinese": "两栖动物",
+    "pos": "n."
+  },
+  {
+    "english": "flora",
+    "chinese": "植物群",
+    "pos": "n."
+  },
+  {
+    "english": "fauna",
+    "chinese": "动物群",
+    "pos": "n."
+  },
+  {
+    "english": "fungus",
+    "chinese": "真菌",
+    "pos": "n."
+  },
+  {
+    "english": "photosynthesis",
+    "chinese": "光合作用",
+    "pos": "n."
+  },
+  {
+    "english": "molecule",
+    "chinese": "分子",
+    "pos": "n."
+  },
+  {
+    "english": "moisture",
+    "chinese": "水分",
+    "pos": "n."
+  },
+  {
+    "english": "spine",
+    "chinese": "刺",
+    "pos": "n."
+  },
+  {
+    "english": "sensation",
+    "chinese": "感觉",
+    "pos": "n."
+  },
+  {
+    "english": "reef",
+    "chinese": "礁",
+    "pos": "n."
+  },
+  {
+    "english": "eliminate",
+    "chinese": "消除",
+    "pos": "v."
+  },
+  {
+    "english": "strive",
+    "chinese": "努力",
+    "pos": "v."
+  },
+  {
+    "english": "appear",
+    "chinese": "似乎",
+    "pos": "v."
+  },
+  {
+    "english": "devastate",
+    "chinese": "摧毁",
+    "pos": "v."
+  },
+  {
+    "english": "boost",
+    "chinese": "使增长",
+    "pos": "v."
+  },
+  {
+    "english": "exaggerate",
+    "chinese": "夸张",
+    "pos": "v."
+  },
+  {
+    "english": "regard",
+    "chinese": "把……视为",
+    "pos": "v."
+  },
+  {
+    "english": "attribute",
+    "chinese": "把……归因于",
+    "pos": "v."
+  },
+  {
+    "english": "account for",
+    "chinese": "占比",
+    "pos": "v."
+  },
+  {
+    "english": "benefit",
+    "chinese": "使受益",
+    "pos": "v."
+  },
+  {
+    "english": "trap",
+    "chinese": "吸收",
+    "pos": "v."
+  },
+  {
+    "english": "devour",
+    "chinese": "吞食",
+    "pos": "v."
+  },
+  {
+    "english": "alter",
+    "chinese": "改变",
+    "pos": "v."
+  },
+  {
+    "english": "disperse",
+    "chinese": "传播",
+    "pos": "v."
+  },
+  {
+    "english": "secrete",
+    "chinese": "分泌",
+    "pos": "v."
+  },
+  {
+    "english": "expend",
+    "chinese": "花费",
+    "pos": "v."
+  },
+  {
+    "english": "flush",
+    "chinese": "冲走",
+    "pos": "v."
+  },
+  {
+    "english": "dominate",
+    "chinese": "主导",
+    "pos": "v."
+  },
+  {
+    "english": "contaminate",
+    "chinese": "污染",
+    "pos": "v."
+  },
+  {
+    "english": "filter",
+    "chinese": "过滤",
+    "pos": "v."
+  },
+  {
+    "english": "induce",
+    "chinese": "引起",
+    "pos": "v."
+  },
+  {
+    "english": "recur",
+    "chinese": "反复发生",
+    "pos": "v."
+  },
+  {
+    "english": "sporadically",
+    "chinese": "零星地",
+    "pos": "adv."
+  },
+  {
+    "english": "demanding",
+    "chinese": "要求高的",
+    "pos": "adj."
+  },
+  {
+    "english": "prolonged",
+    "chinese": "延长的",
+    "pos": "adj."
+  },
+  {
+    "english": "be at the mercy of",
+    "chinese": "受制于",
+    "pos": "v."
+  },
+  {
+    "english": "stinging",
+    "chinese": "刺人的",
+    "pos": "adj."
+  },
+  {
+    "english": "ambient",
+    "chinese": "周围的",
+    "pos": "adj."
+  },
+  {
+    "english": "temporarily",
+    "chinese": "临时地",
+    "pos": "adv."
+  },
+  {
+    "english": "alternatively",
+    "chinese": "或者",
+    "pos": "adv."
+  },
+  {
+    "english": "periodically",
+    "chinese": "周期性地",
+    "pos": "adv."
+  },
+  {
+    "english": "commercially",
+    "chinese": "商业地",
+    "pos": "adv."
+  },
+  {
+    "english": "inherently",
+    "chinese": "内在地",
+    "pos": "adj."
+  },
+  {
+    "english": "controversially",
+    "chinese": "有争议地",
+    "pos": "adv."
+  },
+  {
+    "english": "transparent",
+    "chinese": "透明的",
+    "pos": "adj."
   }
 ]

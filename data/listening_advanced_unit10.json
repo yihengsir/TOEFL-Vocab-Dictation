@@ -1,42 +1,302 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "evolutionary",
+    "chinese": "进化的",
+    "pos": "adj."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "orb",
+    "chinese": "球体",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "weave",
+    "chinese": "编制",
+    "pos": "v."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "incorporate",
+    "chinese": "加入",
+    "pos": "v."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "zigzag",
+    "chinese": "Z 字形的",
+    "pos": "adj."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "ultraviolet",
+    "chinese": "紫外线",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "alert",
+    "chinese": "使警惕",
+    "pos": "v."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "reflect",
+    "chinese": "反射",
+    "pos": "v."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "specialize",
+    "chinese": "专门从事",
+    "pos": "v."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "nectar",
+    "chinese": "花蜜",
+    "pos": "n."
+  },
+  {
+    "english": "constitute",
+    "chinese": "组成",
+    "pos": "v."
+  },
+  {
+    "english": "ornamental",
+    "chinese": "装饰性的",
+    "pos": "adj."
+  },
+  {
+    "english": "correlation",
+    "chinese": "相关性",
+    "pos": "n."
+  },
+  {
+    "english": "rate",
+    "chinese": "率",
+    "pos": "n."
+  },
+  {
+    "english": "capture",
+    "chinese": "捕捉",
+    "pos": "v."
+  },
+  {
+    "english": "deprive",
+    "chinese": "剥夺",
+    "pos": "v."
+  },
+  {
+    "english": "forage",
+    "chinese": "觅食",
+    "pos": "v."
+  },
+  {
+    "english": "counterbalance",
+    "chinese": "抗衡",
+    "pos": "v."
+  },
+  {
+    "english": "swerve",
+    "chinese": "转向",
+    "pos": "v."
+  },
+  {
+    "english": "collide",
+    "chinese": "碰撞",
+    "pos": "v."
+  },
+  {
+    "english": "camouflage",
+    "chinese": "掩盖",
+    "pos": "v."
+  },
+  {
+    "english": "sac",
+    "chinese": "囊",
+    "pos": "n."
+  },
+  {
+    "english": "debris",
+    "chinese": "碎片",
+    "pos": "n."
+  },
+  {
+    "english": "perch",
+    "chinese": "栖息",
+    "pos": "v."
+  },
+  {
+    "english": "concealment",
+    "chinese": "隐藏",
+    "pos": "n."
+  },
+  {
+    "english": "enclosed",
+    "chinese": "密闭的",
+    "pos": "adj."
+  },
+  {
+    "english": "offspring",
+    "chinese": "后代",
+    "pos": "n."
+  },
+  {
+    "english": "severe",
+    "chinese": "严重的",
+    "pos": "adj."
+  },
+  {
+    "english": "conservation",
+    "chinese": "保护",
+    "pos": "n."
+  },
+  {
+    "english": "radically",
+    "chinese": "彻底地",
+    "pos": "adv."
+  },
+  {
+    "english": "rebound",
+    "chinese": "恢复",
+    "pos": "v."
+  },
+  {
+    "english": "prohibit",
+    "chinese": "禁止",
+    "pos": "v."
+  },
+  {
+    "english": "bottleneck",
+    "chinese": "瓶颈期",
+    "pos": "n."
+  },
+  {
+    "english": "inbreeding",
+    "chinese": "近亲繁殖",
+    "pos": "n."
+  },
+  {
+    "english": "enhance",
+    "chinese": "加强",
+    "pos": "v."
+  },
+  {
+    "english": "proliferation",
+    "chinese": "扩散",
+    "pos": "n."
+  },
+  {
+    "english": "detrimental",
+    "chinese": "毁灭性的",
+    "pos": "adj."
+  },
+  {
+    "english": "selectively",
+    "chinese": "有选择地",
+    "pos": "adv."
+  },
+  {
+    "english": "captive",
+    "chinese": "被圈养的",
+    "pos": "adj."
+  },
+  {
+    "english": "interbreeding",
+    "chinese": "杂交繁殖",
+    "pos": "n."
+  },
+  {
+    "english": "crossover",
+    "chinese": "转变的",
+    "pos": "adj."
+  },
+  {
+    "english": "occurrence",
+    "chinese": "发生的事件",
+    "pos": "n."
+  },
+  {
+    "english": "persecution",
+    "chinese": "迫害",
+    "pos": "n."
+  },
+  {
+    "english": "elimination",
+    "chinese": "消除",
+    "pos": "n."
+  },
+  {
+    "english": "carcass",
+    "chinese": "尸体",
+    "pos": "n."
+  },
+  {
+    "english": "culpability",
+    "chinese": "罪过",
+    "pos": "n."
+  },
+  {
+    "english": "alpine",
+    "chinese": "高山的",
+    "pos": "adj."
+  },
+  {
+    "english": "entrails",
+    "chinese": "内脏（复数）",
+    "pos": "n."
+  },
+  {
+    "english": "sufficient",
+    "chinese": "充足的",
+    "pos": "adj."
+  },
+  {
+    "english": "canine",
+    "chinese": "犬的",
+    "pos": "adj."
+  },
+  {
+    "english": "carnivore",
+    "chinese": "肉食动物",
+    "pos": "n."
+  },
+  {
+    "english": "ferocious",
+    "chinese": "凶猛的",
+    "pos": "adj."
+  },
+  {
+    "english": "repertoire",
+    "chinese": "一系列",
+    "pos": "n."
+  },
+  {
+    "english": "instinct",
+    "chinese": "天性",
+    "pos": "n."
+  },
+  {
+    "english": "niche",
+    "chinese": "生态位",
+    "pos": "n."
+  },
+  {
+    "english": "tundra",
+    "chinese": "冻原",
+    "pos": "n."
+  },
+  {
+    "english": "hemisphere",
+    "chinese": "半球",
+    "pos": "n."
+  },
+  {
+    "english": "encroach",
+    "chinese": "侵占",
+    "pos": "v."
+  },
+  {
+    "english": "sighting",
+    "chinese": "目睹",
+    "pos": "n."
+  },
+  {
+    "english": "permanent",
+    "chinese": "永久的",
+    "pos": "adj."
   }
 ]

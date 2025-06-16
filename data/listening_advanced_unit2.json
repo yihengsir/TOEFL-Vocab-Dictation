@@ -1,42 +1,562 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "impact",
+    "chinese": "撞击",
+    "pos": "v."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "crater",
+    "chinese": "坑",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "equator",
+    "chinese": "赤道",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "diameter",
+    "chinese": "直径",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "hinder",
+    "chinese": "阻碍",
+    "pos": "v."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "gravitational",
+    "chinese": "引力的",
+    "pos": "adj."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "ejecta",
+    "chinese": "喷出物",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "engulf",
+    "chinese": "吞没",
+    "pos": "v."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "meteor",
+    "chinese": "流星",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "meteorite",
+    "chinese": "陨石",
+    "pos": "n."
+  },
+  {
+    "english": "circular",
+    "chinese": "圆形的",
+    "pos": "adj."
+  },
+  {
+    "english": "unwillingness",
+    "chinese": "不情愿",
+    "pos": "n."
+  },
+  {
+    "english": "controversial",
+    "chinese": "有争议的",
+    "pos": "adj."
+  },
+  {
+    "english": "proponent",
+    "chinese": "支持者",
+    "pos": "n."
+  },
+  {
+    "english": "detractor",
+    "chinese": "批评者",
+    "pos": "n."
+  },
+  {
+    "english": "maintain",
+    "chinese": "坚持（意见）",
+    "pos": "v."
+  },
+  {
+    "english": "terrace",
+    "chinese": "梯田阶地",
+    "pos": "n."
+  },
+  {
+    "english": "recede",
+    "chinese": "逐渐远离",
+    "pos": "v."
+  },
+  {
+    "english": "depress",
+    "chinese": "按，压",
+    "pos": "v."
+  },
+  {
+    "english": "component",
+    "chinese": "成分",
+    "pos": "n."
+  },
+  {
+    "english": "constituent",
+    "chinese": "成分",
+    "pos": "n."
+  },
+  {
+    "english": "debris",
+    "chinese": "残骸",
+    "pos": "n."
+  },
+  {
+    "english": "crust",
+    "chinese": "硬表面",
+    "pos": "n."
+  },
+  {
+    "english": "terrestrial",
+    "chinese": "地球的",
+    "pos": "adj."
+  },
+  {
+    "english": "lunar",
+    "chinese": "月亮的",
+    "pos": "adj."
+  },
+  {
+    "english": "core",
+    "chinese": "核心",
+    "pos": "n."
+  },
+  {
+    "english": "nucleus",
+    "chinese": "核心",
+    "pos": "n."
+  },
+  {
+    "english": "dissenting",
+    "chinese": "不同意的",
+    "pos": "adj."
+  },
+  {
+    "english": "appear",
+    "chinese": "似乎",
+    "pos": "v."
+  },
+  {
+    "english": "contract",
+    "chinese": "收缩",
+    "pos": "v."
+  },
+  {
+    "english": "collapse",
+    "chinese": "崩塌",
+    "pos": "v."
+  },
+  {
+    "english": "minutely",
+    "chinese": "详细地",
+    "pos": "adv."
+  },
+  {
+    "english": "stellar",
+    "chinese": "星星的",
+    "pos": "adj."
+  },
+  {
+    "english": "disk",
+    "chinese": "盘状物",
+    "pos": "n."
+  },
+  {
+    "english": "bulge",
+    "chinese": "凸起",
+    "pos": "n."
+  },
+  {
+    "english": "galactic",
+    "chinese": "银河的",
+    "pos": "adj."
+  },
+  {
+    "english": "precipitation",
+    "chinese": "降水",
+    "pos": "n."
+  },
+  {
+    "english": "halo",
+    "chinese": "光环",
+    "pos": "n."
+  },
+  {
+    "english": "sensitive",
+    "chinese": "敏感的",
+    "pos": "adj."
+  },
+  {
+    "english": "trap",
+    "chinese": "吸收",
+    "pos": "v."
+  },
+  {
+    "english": "tricky",
+    "chinese": "难办的",
+    "pos": "adj."
+  },
+  {
+    "english": "valid",
+    "chinese": "有效的",
+    "pos": "adj."
+  },
+  {
+    "english": "tributary",
+    "chinese": "支流",
+    "pos": "n."
+  },
+  {
+    "english": "intensify",
+    "chinese": "增强",
+    "pos": "v."
+  },
+  {
+    "english": "undergo",
+    "chinese": "经历",
+    "pos": "v."
+  },
+  {
+    "english": "receptacle",
+    "chinese": "容器",
+    "pos": "n."
+  },
+  {
+    "english": "manifest",
+    "chinese": "显现",
+    "pos": "v."
+  },
+  {
+    "english": "property",
+    "chinese": "性质",
+    "pos": "n."
+  },
+  {
+    "english": "account for",
+    "chinese": "解释",
+    "pos": "v."
+  },
+  {
+    "english": "combustion",
+    "chinese": "燃烧",
+    "pos": "n."
+  },
+  {
+    "english": "respiration",
+    "chinese": "呼吸",
+    "pos": "n."
+  },
+  {
+    "english": "adjustment",
+    "chinese": "调整",
+    "pos": "n."
+  },
+  {
+    "english": "unanimously",
+    "chinese": "全体一致地",
+    "pos": "adv."
+  },
+  {
+    "english": "phase",
+    "chinese": "阶段",
+    "pos": "n."
+  },
+  {
+    "english": "attribute…to…",
+    "chinese": "把……归因于",
+    "pos": "v."
+  },
+  {
+    "english": "interior",
+    "chinese": "内部（的）",
+    "pos": "n. adj."
+  },
+  {
+    "english": "tear",
+    "chinese": "撕裂",
+    "pos": "v."
+  },
+  {
+    "english": "lava",
+    "chinese": "岩浆",
+    "pos": "n."
+  },
+  {
+    "english": "mechanism",
+    "chinese": "机制方法",
+    "pos": "n."
+  },
+  {
+    "english": "rebound",
+    "chinese": "反弹",
+    "pos": "v."
+  },
+  {
+    "english": "sway",
+    "chinese": "摇摆",
+    "pos": "v."
+  },
+  {
+    "english": "faint",
+    "chinese": "微弱的",
+    "pos": "adj."
+  },
+  {
+    "english": "ripple",
+    "chinese": "涟漪",
+    "pos": "n."
+  },
+  {
+    "english": "giant",
+    "chinese": "巨大的",
+    "pos": "adj."
+  },
+  {
+    "english": "gigantic",
+    "chinese": "巨大的",
+    "pos": "adj."
+  },
+  {
+    "english": "shrink",
+    "chinese": "缩小",
+    "pos": "v."
+  },
+  {
+    "english": "luminosity",
+    "chinese": "亮度",
+    "pos": "n."
+  },
+  {
+    "english": "envelope",
+    "chinese": "封皮",
+    "pos": "n."
+  },
+  {
+    "english": "magnetic field",
+    "chinese": "磁场",
+    "pos": "n."
+  },
+  {
+    "english": "rotate",
+    "chinese": "旋转",
+    "pos": "v."
+  },
+  {
+    "english": "revolve",
+    "chinese": "旋转",
+    "pos": "v."
+  },
+  {
+    "english": "paradox",
+    "chinese": "矛盾的情况",
+    "pos": "n."
+  },
+  {
+    "english": "catastrophic",
+    "chinese": "灾难性的",
+    "pos": "adj."
+  },
+  {
+    "english": "radiate",
+    "chinese": "辐射",
+    "pos": "v."
+  },
+  {
+    "english": "pulse",
+    "chinese": "脉冲",
+    "pos": "n."
+  },
+  {
+    "english": "nebula",
+    "chinese": "星云",
+    "pos": "n."
+  },
+  {
+    "english": "remnant",
+    "chinese": "残余部分",
+    "pos": "n."
+  },
+  {
+    "english": "ratio",
+    "chinese": "比例",
+    "pos": "n."
+  },
+  {
+    "english": "immense",
+    "chinese": "巨大的",
+    "pos": "adj."
+  },
+  {
+    "english": "postulate",
+    "chinese": "假设",
+    "pos": "v."
+  },
+  {
+    "english": "sweep",
+    "chinese": "清扫",
+    "pos": "v."
+  },
+  {
+    "english": "insulating",
+    "chinese": "起隔绝作用的",
+    "pos": "adj."
+  },
+  {
+    "english": "annihilate",
+    "chinese": "毁灭",
+    "pos": "v."
+  },
+  {
+    "english": "identical",
+    "chinese": "完全相同的",
+    "pos": "adj."
+  },
+  {
+    "english": "endow",
+    "chinese": "天生赋有",
+    "pos": "v."
+  },
+  {
+    "english": "primitive",
+    "chinese": "原始的",
+    "pos": "adj."
+  },
+  {
+    "english": "bombard",
+    "chinese": "撞击",
+    "pos": "v."
+  },
+  {
+    "english": "ultraviolet",
+    "chinese": "紫外线的",
+    "pos": "adj."
+  },
+  {
+    "english": "molecule",
+    "chinese": "分子",
+    "pos": "n."
+  },
+  {
+    "english": "atom",
+    "chinese": "原子",
+    "pos": "n."
+  },
+  {
+    "english": "ion",
+    "chinese": "离子",
+    "pos": "n."
+  },
+  {
+    "english": "delta",
+    "chinese": "三角洲",
+    "pos": "n."
+  },
+  {
+    "english": "vent",
+    "chinese": "发泄",
+    "pos": "v."
+  },
+  {
+    "english": "weather",
+    "chinese": "风化",
+    "pos": "v."
+  },
+  {
+    "english": "satellite",
+    "chinese": "卫星",
+    "pos": "n."
+  },
+  {
+    "english": "orbit",
+    "chinese": "沿轨道运行",
+    "pos": "v."
+  },
+  {
+    "english": "decay",
+    "chinese": "衰退",
+    "pos": "v."
+  },
+  {
+    "english": "hydrological",
+    "chinese": "水文的",
+    "pos": "adj."
+  },
+  {
+    "english": "delicate",
+    "chinese": "精密的",
+    "pos": "adj."
+  },
+  {
+    "english": "scour",
+    "chinese": "冲刷",
+    "pos": "v."
+  },
+  {
+    "english": "fine",
+    "chinese": "精细的",
+    "pos": "adj."
+  },
+  {
+    "english": "grain",
+    "chinese": "颗粒",
+    "pos": "n."
+  },
+  {
+    "english": "topography",
+    "chinese": "地形",
+    "pos": "n."
+  },
+  {
+    "english": "lubricant",
+    "chinese": "润滑油",
+    "pos": "n."
+  },
+  {
+    "english": "modify",
+    "chinese": "调整",
+    "pos": "v."
+  },
+  {
+    "english": "moderate",
+    "chinese": "温和的",
+    "pos": "adj."
+  },
+  {
+    "english": "comet",
+    "chinese": "彗星",
+    "pos": "n."
+  },
+  {
+    "english": "embed",
+    "chinese": "镶嵌",
+    "pos": "v."
+  },
+  {
+    "english": "radioactivity",
+    "chinese": "放射现象",
+    "pos": "n."
+  },
+  {
+    "english": "greenhouse effect",
+    "chinese": "温室效应",
+    "pos": "n."
+  },
+  {
+    "english": "blanket",
+    "chinese": "以厚层覆盖",
+    "pos": "n./ v."
+  },
+  {
+    "english": "exterior",
+    "chinese": "外部（的）",
+    "pos": "n./adj."
   }
 ]

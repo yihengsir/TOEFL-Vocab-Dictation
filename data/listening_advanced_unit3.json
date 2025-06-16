@@ -1,42 +1,542 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "counterpart",
+    "chinese": "对应事物",
+    "pos": "n."
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "tenet",
+    "chinese": "原则",
+    "pos": "n."
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "decomposition",
+    "chinese": "分解",
+    "pos": "n."
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "capacity",
+    "chinese": "容量",
+    "pos": "n."
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "fertilizer",
+    "chinese": "肥料",
+    "pos": "n."
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "aeration",
+    "chinese": "通风",
+    "pos": "n."
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "drainage",
+    "chinese": "排水",
+    "pos": "n."
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "microbe",
+    "chinese": "微生物",
+    "pos": "n."
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "compound",
+    "chinese": "混合物",
+    "pos": "n."
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "scourge",
+    "chinese": "祸害",
+    "pos": "n."
+  },
+  {
+    "english": "roughness",
+    "chinese": "粗糙度",
+    "pos": "n."
+  },
+  {
+    "english": "moisture",
+    "chinese": "水分",
+    "pos": "n."
+  },
+  {
+    "english": "emission",
+    "chinese": "排放",
+    "pos": "n."
+  },
+  {
+    "english": "capitalism",
+    "chinese": "资本主义",
+    "pos": "n."
+  },
+  {
+    "english": "radiation",
+    "chinese": "辐射",
+    "pos": "n."
+  },
+  {
+    "english": "ritual",
+    "chinese": "仪式",
+    "pos": "n."
+  },
+  {
+    "english": "grazer",
+    "chinese": "食草动物",
+    "pos": "n."
+  },
+  {
+    "english": "carnivore",
+    "chinese": "食肉动物",
+    "pos": "n."
+  },
+  {
+    "english": "garden",
+    "chinese": "果园",
+    "pos": "n."
+  },
+  {
+    "english": "humidity",
+    "chinese": "湿度",
+    "pos": "n."
+  },
+  {
+    "english": "canopy",
+    "chinese": "树冠层",
+    "pos": "n."
+  },
+  {
+    "english": "epidemic",
+    "chinese": "流行病",
+    "pos": "n."
+  },
+  {
+    "english": "latitude",
+    "chinese": "纬度",
+    "pos": "n."
+  },
+  {
+    "english": "game",
+    "chinese": "猎物",
+    "pos": "n."
+  },
+  {
+    "english": "layer",
+    "chinese": "层次",
+    "pos": "n."
+  },
+  {
+    "english": "tissue",
+    "chinese": "组织",
+    "pos": "n."
+  },
+  {
+    "english": "layout",
+    "chinese": "布局",
+    "pos": "n."
+  },
+  {
+    "english": "woodlot",
+    "chinese": "林地",
+    "pos": "n."
+  },
+  {
+    "english": "checkerboard",
+    "chinese": "棋盘状",
+    "pos": "n."
+  },
+  {
+    "english": "discharge",
+    "chinese": "释放",
+    "pos": "n."
+  },
+  {
+    "english": "fraction",
+    "chinese": "小部分",
+    "pos": "n."
+  },
+  {
+    "english": "dweller",
+    "chinese": "居民",
+    "pos": "n."
+  },
+  {
+    "english": "runoff",
+    "chinese": "径流",
+    "pos": "n."
+  },
+  {
+    "english": "branch",
+    "chinese": "树枝",
+    "pos": "n."
+  },
+  {
+    "english": "trunk",
+    "chinese": "树干",
+    "pos": "n."
+  },
+  {
+    "english": "collision",
+    "chinese": "撞击",
+    "pos": "n."
+  },
+  {
+    "english": "succession",
+    "chinese": "交替",
+    "pos": "n."
+  },
+  {
+    "english": "prairie",
+    "chinese": "大草原",
+    "pos": "n."
+  },
+  {
+    "english": "upwelling",
+    "chinese": "上涌",
+    "pos": "n."
+  },
+  {
+    "english": "standstill",
+    "chinese": "停滞",
+    "pos": "n."
+  },
+  {
+    "english": "gradient",
+    "chinese": "变化率",
+    "pos": "n."
+  },
+  {
+    "english": "asphalt",
+    "chinese": "沥青",
+    "pos": "n."
+  },
+  {
+    "english": "equator",
+    "chinese": "赤道",
+    "pos": "n."
+  },
+  {
+    "english": "concrete",
+    "chinese": "混凝土",
+    "pos": "n."
+  },
+  {
+    "english": "swing",
+    "chinese": "突然转向",
+    "pos": "v."
+  },
+  {
+    "english": "trap",
+    "chinese": "吸收；捕获；吸收",
+    "pos": "v."
+  },
+  {
+    "english": "constitute",
+    "chinese": "组成",
+    "pos": "v."
+  },
+  {
+    "english": "enhance",
+    "chinese": "增强",
+    "pos": "v."
+  },
+  {
+    "english": "reason",
+    "chinese": "推论",
+    "pos": "v."
+  },
+  {
+    "english": "rescue",
+    "chinese": "拯救",
+    "pos": "v."
+  },
+  {
+    "english": "exploit",
+    "chinese": "剥削利用",
+    "pos": "v."
+  },
+  {
+    "english": "ravage",
+    "chinese": "毁坏",
+    "pos": "v."
+  },
+  {
+    "english": "convert",
+    "chinese": "转化",
+    "pos": "v."
+  },
+  {
+    "english": "thin",
+    "chinese": "变稀疏",
+    "pos": "v."
+  },
+  {
+    "english": "stunted",
+    "chinese": "发育不足的",
+    "pos": "adj."
+  },
+  {
+    "english": "compact",
+    "chinese": "坚实的",
+    "pos": "adj."
+  },
+  {
+    "english": "deleterious",
+    "chinese": "有害的",
+    "pos": "adj."
+  },
+  {
+    "english": "involved",
+    "chinese": "复杂的",
+    "pos": "adj."
+  },
+  {
+    "english": "domestic",
+    "chinese": "国内的",
+    "pos": "adj."
+  },
+  {
+    "english": "impermeable",
+    "chinese": "不可渗透的",
+    "pos": "adj."
+  },
+  {
+    "english": "unhindered",
+    "chinese": "不受阻挡的",
+    "pos": "adj."
+  },
+  {
+    "english": "glaciated",
+    "chinese": "冻结成冰的",
+    "pos": "adj."
+  },
+  {
+    "english": "sparse",
+    "chinese": "稀疏的",
+    "pos": "adj."
+  },
+  {
+    "english": "forbidding",
+    "chinese": "令人生畏的",
+    "pos": "adj."
+  },
+  {
+    "english": "spatial",
+    "chinese": "空间的",
+    "pos": "adj."
+  },
+  {
+    "english": "uniform",
+    "chinese": "统一的",
+    "pos": "adj."
+  },
+  {
+    "english": "ample",
+    "chinese": "充足的",
+    "pos": "adj."
+  },
+  {
+    "english": "spaced",
+    "chinese": "间隔排列的",
+    "pos": "adj."
+  },
+  {
+    "english": "stratified",
+    "chinese": "分层的",
+    "pos": "adj."
+  },
+  {
+    "english": "charged",
+    "chinese": "带电的",
+    "pos": "adj."
+  },
+  {
+    "english": "hydrological",
+    "chinese": "水文学的",
+    "pos": "adj."
+  },
+  {
+    "english": "cumulative",
+    "chinese": "累积的",
+    "pos": "adj."
+  },
+  {
+    "english": "vague",
+    "chinese": "模糊的",
+    "pos": "adj."
+  },
+  {
+    "english": "uneven",
+    "chinese": "不均衡的",
+    "pos": "adj."
+  },
+  {
+    "english": "flammable",
+    "chinese": "易燃的",
+    "pos": "adj."
+  },
+  {
+    "english": "artificial",
+    "chinese": "人造的",
+    "pos": "adj."
+  },
+  {
+    "english": "straightforward",
+    "chinese": "简单易懂的",
+    "pos": "adj."
+  },
+  {
+    "english": "prone",
+    "chinese": "易于遭受……的",
+    "pos": "adj."
+  },
+  {
+    "english": "sterile",
+    "chinese": "贫瘠的",
+    "pos": "adj."
+  },
+  {
+    "english": "critical",
+    "chinese": "重要的",
+    "pos": "adj."
+  },
+  {
+    "english": "mighty",
+    "chinese": "强大的",
+    "pos": "adj."
+  },
+  {
+    "english": "vigorous",
+    "chinese": "有活力的",
+    "pos": "adj."
+  },
+  {
+    "english": "tend",
+    "chinese": "照料",
+    "pos": "v."
+  },
+  {
+    "english": "set aside",
+    "chinese": "搁置",
+    "pos": "v."
+  },
+  {
+    "english": "log",
+    "chinese": "伐木",
+    "pos": "v."
+  },
+  {
+    "english": "assemble",
+    "chinese": "聚合",
+    "pos": "v."
+  },
+  {
+    "english": "spring",
+    "chinese": "突然出现",
+    "pos": "v."
+  },
+  {
+    "english": "nonetheless",
+    "chinese": "然而",
+    "pos": "adv."
+  },
+  {
+    "english": "flexibly",
+    "chinese": "灵活地",
+    "pos": "adv."
+  },
+  {
+    "english": "exceptionally",
+    "chinese": "非常",
+    "pos": "adv."
+  },
+  {
+    "english": "horizontally",
+    "chinese": "水平地",
+    "pos": "adv."
+  },
+  {
+    "english": "vertically",
+    "chinese": "垂直地",
+    "pos": "adv."
+  },
+  {
+    "english": "hasten",
+    "chinese": "促进",
+    "pos": "v."
+  },
+  {
+    "english": "ingest",
+    "chinese": "摄入",
+    "pos": "v."
+  },
+  {
+    "english": "excrete",
+    "chinese": "分泌",
+    "pos": "v."
+  },
+  {
+    "english": "loosen",
+    "chinese": "松动",
+    "pos": "v."
+  },
+  {
+    "english": "penetrate",
+    "chinese": "渗透",
+    "pos": "v."
+  },
+  {
+    "english": "bind",
+    "chinese": "粘合",
+    "pos": "v."
+  },
+  {
+    "english": "strike",
+    "chinese": "撞击",
+    "pos": "v."
+  },
+  {
+    "english": "concentrate",
+    "chinese": "集中",
+    "pos": "v."
+  },
+  {
+    "english": "give off",
+    "chinese": "释放",
+    "pos": "v."
+  },
+  {
+    "english": "retard",
+    "chinese": "减缓",
+    "pos": "v."
+  },
+  {
+    "english": "ripen",
+    "chinese": "成熟",
+    "pos": "v."
+  },
+  {
+    "english": "suppress",
+    "chinese": "压制",
+    "pos": "v."
+  },
+  {
+    "english": "vanish",
+    "chinese": "消失",
+    "pos": "v."
+  },
+  {
+    "english": "devastate",
+    "chinese": "摧毁",
+    "pos": "v."
+  },
+  {
+    "english": "conduct",
+    "chinese": "传导",
+    "pos": "v."
+  },
+  {
+    "english": "glorify",
+    "chinese": "赞美",
+    "pos": "v."
   }
 ]
