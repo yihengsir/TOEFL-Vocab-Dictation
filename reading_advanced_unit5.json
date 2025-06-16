@@ -1,0 +1,497 @@
+[
+  {
+    "english": "myriad",
+    "pos": "n.",
+    "chinese": "无数，大量"
+  },
+  {
+    "english": "descend",
+    "pos": "v.",
+    "chinese": "下降"
+  },
+  {
+    "english": "encounter",
+    "pos": "v.",
+    "chinese": "遭遇，遇到"
+  },
+  {
+    "english": "deposit",
+    "pos": "v.",
+    "chinese": "沉积，沉淀"
+  },
+  {
+    "english": "ice cap",
+    "pos": "n.",
+    "chinese": "（北极和南极的）冰冠"
+  },
+  {
+    "english": "temperate",
+    "pos": "adj.",
+    "chinese": "气候温和的"
+  },
+  {
+    "english": "drift",
+    "pos": "n.",
+    "chinese": "吹聚物"
+  },
+  {
+    "english": "sediment",
+    "pos": "n.",
+    "chinese": "沉积物"
+  },
+  {
+    "english": "enormous",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "terminal",
+    "pos": "adj.",
+    "chinese": "末端的"
+  },
+  {
+    "english": "eruption",
+    "pos": "n.",
+    "chinese": "爆发，喷发"
+  },
+  {
+    "english": "magma",
+    "pos": "n.",
+    "chinese": "（地壳中的）岩浆"
+  },
+  {
+    "english": "tremendous",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "dissolve",
+    "pos": "v.",
+    "chinese": "溶解"
+  },
+  {
+    "english": "foam",
+    "pos": "v.",
+    "chinese": "起泡沫"
+  },
+  {
+    "english": "vent",
+    "pos": "n.",
+    "chinese": "孔，口"
+  },
+  {
+    "english": "spray",
+    "pos": "v.",
+    "chinese": "喷，喷洒"
+  },
+  {
+    "english": "lava",
+    "pos": "n.",
+    "chinese": "（火山喷出的）熔岩"
+  },
+  {
+    "english": "threshold",
+    "pos": "n.",
+    "chinese": "临界值，阈值"
+  },
+  {
+    "english": "disruptive",
+    "pos": "adj.",
+    "chinese": "破坏性的"
+  },
+  {
+    "english": "subtly",
+    "pos": "adv.",
+    "chinese": "不明显地，不易察觉地"
+  },
+  {
+    "english": "shift",
+    "pos": "v.",
+    "chinese": "转变"
+  },
+  {
+    "english": "adjustment",
+    "pos": "n.",
+    "chinese": "调节"
+  },
+  {
+    "english": "means",
+    "pos": "n.",
+    "chinese": "方法，途径"
+  },
+  {
+    "english": "constantly",
+    "pos": "adv.",
+    "chinese": "始终，一直"
+  },
+  {
+    "english": "molecule",
+    "pos": "n.",
+    "chinese": "分子"
+  },
+  {
+    "english": "backwater",
+    "pos": "n.",
+    "chinese": "（河流的）滞水，死水"
+  },
+  {
+    "english": "indefinitely",
+    "pos": "adv.",
+    "chinese": "无限期地"
+  },
+  {
+    "english": "arctic",
+    "pos": "adj.",
+    "chinese": "北极地区的"
+  },
+  {
+    "english": "arouse",
+    "pos": "v.",
+    "chinese": "引起"
+  },
+  {
+    "english": "conceivable",
+    "pos": "adj.",
+    "chinese": "可想象的，可理解的"
+  },
+  {
+    "english": "mechanism",
+    "pos": "n.",
+    "chinese": "方法，机制"
+  },
+  {
+    "english": "account",
+    "pos": "n.",
+    "chinese": "描述，报告"
+  },
+  {
+    "english": "phenomenal",
+    "pos": "adj.",
+    "chinese": "显著的，惊人的，不寻常的"
+  },
+  {
+    "english": "water table",
+    "pos": "n.",
+    "chinese": "地下水位"
+  },
+  {
+    "english": "topography",
+    "pos": "n.",
+    "chinese": "地形"
+  },
+  {
+    "english": "downhill",
+    "pos": "adv.",
+    "chinese": "向下"
+  },
+  {
+    "english": "intersect",
+    "pos": "v.",
+    "chinese": "横断，切断"
+  },
+  {
+    "english": "drainage",
+    "pos": "n.",
+    "chinese": "排水道"
+  },
+  {
+    "english": "arid",
+    "pos": "adj.",
+    "chinese": "干旱的"
+  },
+  {
+    "english": "stretch",
+    "pos": "n.",
+    "chinese": "（陆地或水域）连绵的一片"
+  },
+  {
+    "english": "diagnostic",
+    "pos": "adj.",
+    "chinese": "判断的"
+  },
+  {
+    "english": "property",
+    "pos": "n.",
+    "chinese": "性质"
+  },
+  {
+    "english": "abrasion",
+    "pos": "n.",
+    "chinese": "刮擦，磨损"
+  },
+  {
+    "english": "scratch",
+    "pos": "v.",
+    "chinese": "划损，刮擦"
+  },
+  {
+    "english": "rub",
+    "pos": "v.",
+    "chinese": "使（两物）摩擦"
+  },
+  {
+    "english": "paleontologist",
+    "pos": "n.",
+    "chinese": "古生物学家"
+  },
+  {
+    "english": "impact",
+    "pos": "n.",
+    "chinese": "撞击"
+  },
+  {
+    "english": "disastrous",
+    "pos": "adj.",
+    "chinese": "灾难性的"
+  },
+  {
+    "english": "propel",
+    "pos": "v.",
+    "chinese": "推进，推动"
+  },
+  {
+    "english": "devastating",
+    "pos": "adj.",
+    "chinese": "毁灭性的"
+  },
+  {
+    "english": "asteroid",
+    "pos": "n.",
+    "chinese": "小行星"
+  },
+  {
+    "english": "vaporization",
+    "pos": "n.",
+    "chinese": "蒸发"
+  },
+  {
+    "english": "droplet",
+    "pos": "n.",
+    "chinese": "小滴"
+  },
+  {
+    "english": "intense",
+    "pos": "adj.",
+    "chinese": "剧烈的"
+  },
+  {
+    "english": "blast",
+    "pos": "n.",
+    "chinese": "爆炸"
+  },
+  {
+    "english": "planktonic",
+    "pos": "adj.",
+    "chinese": "浮游生物的"
+  },
+  {
+    "english": "vulnerable",
+    "pos": "adj.",
+    "chinese": "易受伤害的"
+  },
+  {
+    "english": "reservoir",
+    "pos": "n.",
+    "chinese": "储备，储藏"
+  },
+  {
+    "english": "residential",
+    "pos": "adj.",
+    "chinese": "住宅的"
+  },
+  {
+    "english": "fault",
+    "pos": "n.",
+    "chinese": "（地壳岩层的）断层"
+  },
+  {
+    "english": "molten",
+    "pos": "adj.",
+    "chinese": "熔化的"
+  },
+  {
+    "english": "shrinkage",
+    "pos": "n.",
+    "chinese": "收缩，缩小"
+  },
+  {
+    "english": "equator",
+    "pos": "n.",
+    "chinese": "赤道"
+  },
+  {
+    "english": "isotope",
+    "pos": "n.",
+    "chinese": "同位素"
+  },
+  {
+    "english": "ratio",
+    "pos": "n.",
+    "chinese": "比例"
+  },
+  {
+    "english": "withdraw",
+    "pos": "v.",
+    "chinese": "收回，撤回"
+  },
+  {
+    "english": "precipitate",
+    "pos": "v.",
+    "chinese": "使（水滴）沉降"
+  },
+  {
+    "english": "deglaciation",
+    "pos": "n.",
+    "chinese": "冰川退缩"
+  },
+  {
+    "english": "magnitude",
+    "pos": "n.",
+    "chinese": "规模，大小"
+  },
+  {
+    "english": "uneven",
+    "pos": "adj.",
+    "chinese": "不规则的，不稳定的"
+  },
+  {
+    "english": "flora",
+    "pos": "n.",
+    "chinese": "植物群"
+  },
+  {
+    "english": "fauna",
+    "pos": "n.",
+    "chinese": "动物群"
+  },
+  {
+    "english": "radically",
+    "pos": "adv.",
+    "chinese": "根本地，彻底地"
+  },
+  {
+    "english": "irreversibly",
+    "pos": "adv.",
+    "chinese": "不可逆地"
+  },
+  {
+    "english": "crucial",
+    "pos": "adj.",
+    "chinese": "重要的"
+  },
+  {
+    "english": "orbit",
+    "pos": "n.",
+    "chinese": "（天体运行的）轨道"
+  },
+  {
+    "english": "periodically",
+    "pos": "adv.",
+    "chinese": "周期性地"
+  },
+  {
+    "english": "solar radiation",
+    "pos": "n.",
+    "chinese": "太阳辐射"
+  },
+  {
+    "english": "elaborate",
+    "pos": "v.",
+    "chinese": "详尽阐述"
+  },
+  {
+    "english": "convincingly",
+    "pos": "adv.",
+    "chinese": "令人信服地"
+  },
+  {
+    "english": "variation",
+    "pos": "n.",
+    "chinese": "变化"
+  },
+  {
+    "english": "eccentricity",
+    "pos": "n.",
+    "chinese": "偏心率"
+  },
+  {
+    "english": "ellipse",
+    "pos": "n.",
+    "chinese": "椭圆"
+  },
+  {
+    "english": "tilt",
+    "pos": "n.",
+    "chinese": "倾斜"
+  },
+  {
+    "english": "axis",
+    "pos": "n.",
+    "chinese": "轴"
+  },
+  {
+    "english": "wobble",
+    "pos": "v.",
+    "chinese": "摇晃"
+  },
+  {
+    "english": "spin",
+    "pos": "v.",
+    "chinese": "旋转"
+  },
+  {
+    "english": "mild",
+    "pos": "adj.",
+    "chinese": "温和的，和煦的"
+  },
+  {
+    "english": "chronology",
+    "pos": "n.",
+    "chinese": "年表"
+  },
+  {
+    "english": "correspondence",
+    "pos": "n.",
+    "chinese": "相关，相似"
+  },
+  {
+    "english": "fluctuation",
+    "pos": "n.",
+    "chinese": "波动"
+  },
+  {
+    "english": "drill",
+    "pos": "v.",
+    "chinese": "钻孔"
+  },
+  {
+    "english": "arise",
+    "pos": "v.",
+    "chinese": "产生"
+  },
+  {
+    "english": "luminosity",
+    "pos": "n.",
+    "chinese": "（天文）光度"
+  },
+  {
+    "english": "shield",
+    "pos": "v.",
+    "chinese": "保护…免遭危险"
+  },
+  {
+    "english": "correlation",
+    "pos": "n.",
+    "chinese": "关联"
+  },
+  {
+    "english": "trap",
+    "pos": "v.",
+    "chinese": "吸收，收集"
+  },
+  {
+    "english": "preserve",
+    "pos": "v.",
+    "chinese": "保存"
+  }
+]

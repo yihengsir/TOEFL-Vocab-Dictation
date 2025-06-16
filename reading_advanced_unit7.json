@@ -1,0 +1,587 @@
+[
+  {
+    "english": "nomadic",
+    "pos": "adj.",
+    "chinese": "游牧的"
+  },
+  {
+    "english": "sedentary",
+    "pos": "adj.",
+    "chinese": "定居的"
+  },
+  {
+    "english": "sufficient",
+    "pos": "adj.",
+    "chinese": "充足的"
+  },
+  {
+    "english": "forager",
+    "pos": "n.",
+    "chinese": "搜寻食物的人"
+  },
+  {
+    "english": "bound",
+    "pos": "adj.",
+    "chinese": "一定会"
+  },
+  {
+    "english": "outcompete",
+    "pos": "v.",
+    "chinese": "胜过"
+  },
+  {
+    "english": "inevitability",
+    "pos": "n.",
+    "chinese": "必然性"
+  },
+  {
+    "english": "yield",
+    "pos": "v.",
+    "chinese": "产出（农作物）"
+  },
+  {
+    "english": "refuse",
+    "pos": "n.",
+    "chinese": "废弃物，垃圾"
+  },
+  {
+    "english": "discard",
+    "pos": "v.",
+    "chinese": "丢弃"
+  },
+  {
+    "english": "defecate",
+    "pos": "v.",
+    "chinese": "排便"
+  },
+  {
+    "english": "sprout",
+    "pos": "v.",
+    "chinese": "发芽"
+  },
+  {
+    "english": "coincidentally",
+    "pos": "adv.",
+    "chinese": "同时地"
+  },
+  {
+    "english": "aridity",
+    "pos": "n.",
+    "chinese": "干旱"
+  },
+  {
+    "english": "retard",
+    "pos": "v.",
+    "chinese": "阻碍，减缓"
+  },
+  {
+    "english": "adjacent",
+    "pos": "adj.",
+    "chinese": "邻近的"
+  },
+  {
+    "english": "oasis",
+    "pos": "n.",
+    "chinese": "绿洲"
+  },
+  {
+    "english": "canal",
+    "pos": "n.",
+    "chinese": "灌溉渠"
+  },
+  {
+    "english": "basin",
+    "pos": "n.",
+    "chinese": "凹地"
+  },
+  {
+    "english": "seep",
+    "pos": "v.",
+    "chinese": "渗透"
+  },
+  {
+    "english": "shaft",
+    "pos": "n.",
+    "chinese": "通风井"
+  },
+  {
+    "english": "maintenance",
+    "pos": "n.",
+    "chinese": "养护，维护"
+  },
+  {
+    "english": "scatter",
+    "pos": "n.",
+    "chinese": "零星散落的东西"
+  },
+  {
+    "english": "mechanics",
+    "pos": "n.",
+    "chinese": "操作方法"
+  },
+  {
+    "english": "radical",
+    "pos": "adj.",
+    "chinese": "彻底的，根本的"
+  },
+  {
+    "english": "sweltering",
+    "pos": "adj.",
+    "chinese": "酷热难耐的"
+  },
+  {
+    "english": "intensively",
+    "pos": "adv.",
+    "chinese": "集约地"
+  },
+  {
+    "english": "edible",
+    "pos": "adj.",
+    "chinese": "可食用的"
+  },
+  {
+    "english": "proximity",
+    "pos": "n.",
+    "chinese": "靠近"
+  },
+  {
+    "english": "domestication",
+    "pos": "n.",
+    "chinese": "驯化"
+  },
+  {
+    "english": "gradual",
+    "pos": "adj.",
+    "chinese": "渐进的"
+  },
+  {
+    "english": "crisis",
+    "pos": "n.",
+    "chinese": "危机"
+  },
+  {
+    "english": "scarce",
+    "pos": "adj.",
+    "chinese": "缺乏的"
+  },
+  {
+    "english": "contemporary",
+    "pos": "adj.",
+    "chinese": "同时期的"
+  },
+  {
+    "english": "drill",
+    "pos": "v.",
+    "chinese": "钻孔，钻井"
+  },
+  {
+    "english": "ensue",
+    "pos": "v.",
+    "chinese": "接着发生"
+  },
+  {
+    "english": "tap",
+    "pos": "v.",
+    "chinese": "开发"
+  },
+  {
+    "english": "spray",
+    "pos": "v.",
+    "chinese": "喷洒"
+  },
+  {
+    "english": "plot",
+    "pos": "n.",
+    "chinese": "小块土地"
+  },
+  {
+    "english": "fertility",
+    "pos": "n.",
+    "chinese": "肥沃"
+  },
+  {
+    "english": "adequate",
+    "pos": "adj.",
+    "chinese": "足够的"
+  },
+  {
+    "english": "attribute",
+    "pos": "v.",
+    "chinese": "归因于"
+  },
+  {
+    "english": "floodplain",
+    "pos": "n.",
+    "chinese": "泛滥平原"
+  },
+  {
+    "english": "leach",
+    "pos": "v.",
+    "chinese": "沥滤"
+  },
+  {
+    "english": "silt",
+    "pos": "n.",
+    "chinese": "淤泥"
+  },
+  {
+    "english": "algae",
+    "pos": "n.",
+    "chinese": "藻"
+  },
+  {
+    "english": "maturation",
+    "pos": "n.",
+    "chinese": "成熟"
+  },
+  {
+    "english": "delta",
+    "pos": "n.",
+    "chinese": "三角洲"
+  },
+  {
+    "english": "embankment",
+    "pos": "n.",
+    "chinese": "堤岸"
+  },
+  {
+    "english": "scoop up",
+    "pos": "v.",
+    "chinese": "用铲子铲"
+  },
+  {
+    "english": "till",
+    "pos": "v.",
+    "chinese": "耕作"
+  },
+  {
+    "english": "sow",
+    "pos": "v.",
+    "chinese": "播种"
+  },
+  {
+    "english": "impose",
+    "pos": "v.",
+    "chinese": "（强制）实行"
+  },
+  {
+    "english": "implication",
+    "pos": "n.",
+    "chinese": "可能的影响"
+  },
+  {
+    "english": "favor",
+    "pos": "v.",
+    "chinese": "有利于"
+  },
+  {
+    "english": "harness",
+    "pos": "n.",
+    "chinese": "马具"
+  },
+  {
+    "english": "exclusively",
+    "pos": "adv.",
+    "chinese": "仅仅，只有"
+  },
+  {
+    "english": "hay",
+    "pos": "n.",
+    "chinese": "干草"
+  },
+  {
+    "english": "nourishment",
+    "pos": "n.",
+    "chinese": "食物，养分"
+  },
+  {
+    "english": "herd",
+    "pos": "v.",
+    "chinese": "放牧"
+  },
+  {
+    "english": "subsist",
+    "pos": "v.",
+    "chinese": "维持生活，度日"
+  },
+  {
+    "english": "weed",
+    "pos": "v.",
+    "chinese": "除去杂草"
+  },
+  {
+    "english": "tend",
+    "pos": "v.",
+    "chinese": "照料"
+  },
+  {
+    "english": "split off",
+    "pos": "v.",
+    "chinese": "分离出来"
+  },
+  {
+    "english": "colonize",
+    "pos": "v.",
+    "chinese": "开拓（地区）据为己用"
+  },
+  {
+    "english": "extract",
+    "pos": "v.",
+    "chinese": "得到，取出"
+  },
+  {
+    "english": "agrarian",
+    "pos": "adj.",
+    "chinese": "农业的，土地的"
+  },
+  {
+    "english": "slope",
+    "pos": "n.",
+    "chinese": "斜坡"
+  },
+  {
+    "english": "valley",
+    "pos": "n.",
+    "chinese": "山谷"
+  },
+  {
+    "english": "soak",
+    "pos": "v.",
+    "chinese": "浸湿"
+  },
+  {
+    "english": "provided",
+    "pos": "conj.",
+    "chinese": "如果，假如"
+  },
+  {
+    "english": "runoff",
+    "pos": "n.",
+    "chinese": "径流"
+  },
+  {
+    "english": "concentrate",
+    "pos": "v.",
+    "chinese": "集中"
+  },
+  {
+    "english": "moisture",
+    "pos": "n.",
+    "chinese": "水分"
+  },
+  {
+    "english": "contour",
+    "pos": "n.",
+    "chinese": "轮廓，围线"
+  },
+  {
+    "english": "perpendicular",
+    "pos": "adj.",
+    "chinese": "垂直的"
+  },
+  {
+    "english": "dam",
+    "pos": "n.",
+    "chinese": "水坝"
+  },
+  {
+    "english": "infiltrate",
+    "pos": "v.",
+    "chinese": "渗透"
+  },
+  {
+    "english": "retention",
+    "pos": "n.",
+    "chinese": "保持，阻滞"
+  },
+  {
+    "english": "bark",
+    "pos": "n.",
+    "chinese": "树皮"
+  },
+  {
+    "english": "canopy",
+    "pos": "n.",
+    "chinese": "树冠"
+  },
+  {
+    "english": "unhindered",
+    "pos": "adj.",
+    "chinese": "不受阻碍的"
+  },
+  {
+    "english": "undergrowth",
+    "pos": "n.",
+    "chinese": "下层灌木丛"
+  },
+  {
+    "english": "facilitate",
+    "pos": "v.",
+    "chinese": "使…便利"
+  },
+  {
+    "english": "game",
+    "pos": "n.",
+    "chinese": "猎物，野味"
+  },
+  {
+    "english": "hierarchy",
+    "pos": "n.",
+    "chinese": "等级制度"
+  },
+  {
+    "english": "prestige",
+    "pos": "n.",
+    "chinese": "威望，声望"
+  },
+  {
+    "english": "disreputable",
+    "pos": "adj.",
+    "chinese": "名声不好的"
+  },
+  {
+    "english": "discrimination",
+    "pos": "n.",
+    "chinese": "歧视"
+  },
+  {
+    "english": "prohibition",
+    "pos": "n.",
+    "chinese": "禁止"
+  },
+  {
+    "english": "venture",
+    "pos": "n.",
+    "chinese": "经营项目"
+  },
+  {
+    "english": "landlordism",
+    "pos": "n.",
+    "chinese": "地主所有制"
+  },
+  {
+    "english": "preoccupation",
+    "pos": "n.",
+    "chinese": "盘算，思虑"
+  },
+  {
+    "english": "monopolize",
+    "pos": "v.",
+    "chinese": "独占，垄断"
+  },
+  {
+    "english": "unification",
+    "pos": "n.",
+    "chinese": "统一"
+  },
+  {
+    "english": "junction",
+    "pos": "n.",
+    "chinese": "交汇处"
+  },
+  {
+    "english": "pasturage",
+    "pos": "n.",
+    "chinese": "牧场"
+  },
+  {
+    "english": "arable",
+    "pos": "adj.",
+    "chinese": "适于耕种的"
+  },
+  {
+    "english": "prosperity",
+    "pos": "n.",
+    "chinese": "繁荣"
+  },
+  {
+    "english": "specialization",
+    "pos": "n.",
+    "chinese": "专业做，专攻"
+  },
+  {
+    "english": "collective",
+    "pos": "adj.",
+    "chinese": "集体的，共同的"
+  },
+  {
+    "english": "aristocracy",
+    "pos": "n.",
+    "chinese": "贵族"
+  },
+  {
+    "english": "elite",
+    "pos": "n.",
+    "chinese": "精英人士"
+  },
+  {
+    "english": "render",
+    "pos": "v.",
+    "chinese": "提供（服务）"
+  },
+  {
+    "english": "stagnation",
+    "pos": "n.",
+    "chinese": "停滞，不景气"
+  },
+  {
+    "english": "plow",
+    "pos": "n.",
+    "chinese": "犁"
+  },
+  {
+    "english": "blade",
+    "pos": "n.",
+    "chinese": "刀片，刀刃"
+  },
+  {
+    "english": "furrow",
+    "pos": "n.",
+    "chinese": "犁沟"
+  },
+  {
+    "english": "mild",
+    "pos": "adj.",
+    "chinese": "温和的"
+  },
+  {
+    "english": "rigid",
+    "pos": "adj.",
+    "chinese": "坚硬的"
+  },
+  {
+    "english": "sturdy",
+    "pos": "adj.",
+    "chinese": "强壮的"
+  },
+  {
+    "english": "stamina",
+    "pos": "n.",
+    "chinese": "耐力"
+  },
+  {
+    "english": "swift",
+    "pos": "adj.",
+    "chinese": "迅速的"
+  },
+  {
+    "english": "propel",
+    "pos": "v.",
+    "chinese": "推动"
+  },
+  {
+    "english": "compelling",
+    "pos": "adj.",
+    "chinese": "引人注目的"
+  },
+  {
+    "english": "overstate",
+    "pos": "v.",
+    "chinese": "夸大"
+  },
+  {
+    "english": "utility",
+    "pos": "n.",
+    "chinese": "效用"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "english": "comprise",
+    "pos": "v.",
+    "chinese": "包含"
+  },
+  {
+    "english": "layer",
+    "pos": "n.",
+    "chinese": "层"
+  },
+  {
+    "english": "glacial",
+    "pos": "adj.",
+    "chinese": "冰川的"
+  },
+  {
+    "english": "deposit",
+    "pos": "n.",
+    "chinese": "沉积层"
+  },
+  {
+    "english": "aforementioned",
+    "pos": "adj.",
+    "chinese": "上述的"
+  },
+  {
+    "english": "landmass",
+    "pos": "n.",
+    "chinese": "陆块"
+  },
+  {
+    "english": "pamphlet",
+    "pos": "n.",
+    "chinese": "小册子"
+  },
+  {
+    "english": "drift",
+    "pos": "n.",
+    "chinese": "漂移"
+  },
+  {
+    "english": "lateral",
+    "pos": "adj.",
+    "chinese": "侧面的"
+  },
+  {
+    "english": "envision",
+    "pos": "v.",
+    "chinese": "想象"
+  },
+  {
+    "english": "equator",
+    "pos": "n.",
+    "chinese": "赤道"
+  },
+  {
+    "english": "rotation",
+    "pos": "v.",
+    "chinese": "旋转"
+  },
+  {
+    "english": "supposedly",
+    "pos": "adv.",
+    "chinese": "据说"
+  },
+  {
+    "english": "gigantic",
+    "pos": "adj.",
+    "chinese": "巨大的"
+  },
+  {
+    "english": "tidal",
+    "pos": "adj.",
+    "chinese": "潮汐的"
+  },
+  {
+    "english": "meteorologist",
+    "pos": "n.",
+    "chinese": "气象学家"
+  },
+  {
+    "english": "portray",
+    "pos": "v.",
+    "chinese": "描绘"
+  },
+  {
+    "english": "grand",
+    "pos": "adj.",
+    "chinese": "宏大的"
+  },
+  {
+    "english": "series",
+    "pos": "n.",
+    "chinese": "系列"
+  },
+  {
+    "english": "sequence",
+    "pos": "n.",
+    "chinese": "序列"
+  },
+  {
+    "english": "identical",
+    "pos": "adj.",
+    "chinese": "一样的"
+  },
+  {
+    "english": "proximity",
+    "pos": "n.",
+    "chinese": "接近"
+  },
+  {
+    "english": "ardent",
+    "pos": "n.",
+    "chinese": "热忱的"
+  },
+  {
+    "english": "reptile",
+    "pos": "n.",
+    "chinese": "爬行动物"
+  },
+  {
+    "english": "physiology",
+    "pos": "n.",
+    "chinese": "生理"
+  },
+  {
+    "english": "adjacent",
+    "pos": "adj.",
+    "chinese": "邻近的"
+  },
+  {
+    "english": "entertain",
+    "pos": "v.",
+    "chinese": "对…抱有希望"
+  },
+  {
+    "english": "intensive",
+    "pos": "adj.",
+    "chinese": "密集的"
+  },
+  {
+    "english": "forecast",
+    "pos": "v.",
+    "chinese": "预报"
+  },
+  {
+    "english": "interval",
+    "pos": "n.",
+    "chinese": "间隔"
+  },
+  {
+    "english": "seismic",
+    "pos": "adj.",
+    "chinese": "地震的"
+  },
+  {
+    "english": "fault",
+    "pos": "n.",
+    "chinese": "断层"
+  },
+  {
+    "english": "segment",
+    "pos": "n.",
+    "chinese": "部分"
+  },
+  {
+    "english": "plot",
+    "pos": "v.",
+    "chinese": "绘制（图表，曲线）"
+  },
+  {
+    "english": "magnitude",
+    "pos": "n.",
+    "chinese": "震级"
+  },
+  {
+    "english": "diagram",
+    "pos": "n.",
+    "chinese": "图表"
+  },
+  {
+    "english": "recurrence",
+    "pos": "n.",
+    "chinese": "复发"
+  },
+  {
+    "english": "precursor",
+    "pos": "n.",
+    "chinese": "前兆"
+  },
+  {
+    "english": "prior to",
+    "pos": "prep.",
+    "chinese": "在…之前"
+  },
+  {
+    "english": "velocity",
+    "pos": "n.",
+    "chinese": "速率"
+  },
+  {
+    "english": "resistance",
+    "pos": "n.",
+    "chinese": "阻力"
+  },
+  {
+    "english": "preliminary",
+    "pos": "adj.",
+    "chinese": "初步的"
+  },
+  {
+    "english": "deformation",
+    "pos": "n.",
+    "chinese": "变形"
+  },
+  {
+    "english": "dilatancy",
+    "pos": "n.",
+    "chinese": "膨胀"
+  },
+  {
+    "english": "hypothesis",
+    "pos": "n.",
+    "chinese": "假说"
+  },
+  {
+    "english": "swell",
+    "pos": "v.",
+    "chinese": "膨胀"
+  },
+  {
+    "english": "transmit",
+    "pos": "v.",
+    "chinese": "传递"
+  },
+  {
+    "english": "rupture",
+    "pos": "n.",
+    "chinese": "破裂"
+  },
+  {
+    "english": "elevation",
+    "pos": "n.",
+    "chinese": "升高"
+  },
+  {
+    "english": "indicator",
+    "pos": "n.",
+    "chinese": "迹象"
+  },
+  {
+    "english": "composition",
+    "pos": "n.",
+    "chinese": "组成"
+  },
+  {
+    "english": "radon",
+    "pos": "n.",
+    "chinese": "氡"
+  },
+  {
+    "english": "vicinity",
+    "pos": "n.",
+    "chinese": "附近"
+  },
+  {
+    "english": "imminent",
+    "pos": "adj.",
+    "chinese": "即将发生的"
+  },
+  {
+    "english": "correlated",
+    "pos": "adj.",
+    "chinese": "与…有关"
+  },
+  {
+    "english": "influx",
+    "pos": "n.",
+    "chinese": "流入"
+  },
+  {
+    "english": "aftermath",
+    "pos": "n.",
+    "chinese": "后果"
+  },
+  {
+    "english": "substantially",
+    "pos": "adv.",
+    "chinese": "非常"
+  },
+  {
+    "english": "advisory",
+    "pos": "n.",
+    "chinese": "警报"
+  },
+  {
+    "english": "refinement",
+    "pos": "n.",
+    "chinese": "改进"
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "english": "mass consumption",
+    "pos": "n.",
+    "chinese": "大众消费"
+  },
+  {
+    "english": "format",
+    "pos": "n.",
+    "chinese": "形式"
+  },
+  {
+    "english": "parlor",
+    "pos": "n.",
+    "chinese": "店堂"
+  },
+  {
+    "english": "projector",
+    "pos": "n.",
+    "chinese": "放映机，投影仪"
+  },
+  {
+    "english": "purchase",
+    "pos": "v.",
+    "chinese": "购买"
+  },
+  {
+    "english": "admission",
+    "pos": "n.",
+    "chinese": "入场费"
+  },
+  {
+    "english": "ultimate",
+    "pos": "adj.",
+    "chinese": "最终的"
+  },
+  {
+    "english": "spectator",
+    "pos": "n.",
+    "chinese": "观众"
+  },
+  {
+    "english": "assemble",
+    "pos": "v.",
+    "chinese": "汇编，组装"
+  },
+  {
+    "english": "substance",
+    "pos": "n.",
+    "chinese": "本质，实质"
+  },
+  {
+    "english": "marvel",
+    "pos": "n.",
+    "chinese": "奇迹，成就"
+  },
+  {
+    "english": "manipulation",
+    "pos": "n.",
+    "chinese": "操作，使用"
+  },
+  {
+    "english": "celluloid",
+    "pos": "n.",
+    "chinese": "（旧时摄影用的）胶片，赛璐珞片"
+  },
+  {
+    "english": "dimension",
+    "pos": "n.",
+    "chinese": "尺寸"
+  },
+  {
+    "english": "ballad",
+    "pos": "n.",
+    "chinese": "民谣，叙事诗歌"
+  },
+  {
+    "english": "minority",
+    "pos": "n.",
+    "chinese": "少数"
+  },
+  {
+    "english": "amount to",
+    "pos": "v.",
+    "chinese": "等同于"
+  },
+  {
+    "english": "treasured",
+    "pos": "adj.",
+    "chinese": "珍藏的"
+  },
+  {
+    "english": "intensive reading",
+    "pos": "n.",
+    "chinese": "精读"
+  },
+  {
+    "english": "devotion",
+    "pos": "n.",
+    "chinese": "宗教敬拜"
+  },
+  {
+    "english": "slash",
+    "pos": "v.",
+    "chinese": "大大降低"
+  },
+  {
+    "english": "accelerate",
+    "pos": "v.",
+    "chinese": "加快"
+  },
+  {
+    "english": "cable",
+    "pos": "n.",
+    "chinese": "电缆"
+  },
+  {
+    "english": "inaugurate",
+    "pos": "v.",
+    "chinese": "开创"
+  },
+  {
+    "english": "radical",
+    "pos": "adj.",
+    "chinese": "彻底的"
+  },
+  {
+    "english": "subject",
+    "pos": "adj.",
+    "chinese": "易遭受…的"
+  },
+  {
+    "english": "proliferate",
+    "pos": "v.",
+    "chinese": "激增"
+  },
+  {
+    "english": "erroneous",
+    "pos": "adj.",
+    "chinese": "错误的"
+  },
+  {
+    "english": "grid",
+    "pos": "n.",
+    "chinese": "方格"
+  },
+  {
+    "english": "longitude",
+    "pos": "n.",
+    "chinese": "经度"
+  },
+  {
+    "english": "compile",
+    "pos": "v.",
+    "chinese": "汇编，编写"
+  },
+  {
+    "english": "trait",
+    "pos": "n.",
+    "chinese": "特点"
+  },
+  {
+    "english": "retain",
+    "pos": "v.",
+    "chinese": "保留"
+  },
+  {
+    "english": "hemisphere",
+    "pos": "n.",
+    "chinese": "半球"
+  },
+  {
+    "english": "overthrow",
+    "pos": "v.",
+    "chinese": "推翻"
+  },
+  {
+    "english": "predecessor",
+    "pos": "n.",
+    "chinese": "前一代，前辈"
+  },
+  {
+    "english": "context",
+    "pos": "n.",
+    "chinese": "背景"
+  },
+  {
+    "english": "undermine",
+    "pos": "v.",
+    "chinese": "逐渐削弱"
+  },
+  {
+    "english": "stimulus",
+    "pos": "n.",
+    "chinese": "刺激物"
+  },
+  {
+    "english": "doctrine",
+    "pos": "n.",
+    "chinese": "学说，信条"
+  },
+  {
+    "english": "scribe",
+    "pos": "n.",
+    "chinese": "抄写员"
+  },
+  {
+    "english": "monopoly",
+    "pos": "n.",
+    "chinese": "垄断"
+  },
+  {
+    "english": "renowned",
+    "pos": "adj.",
+    "chinese": "有名的"
+  },
+  {
+    "english": "edition",
+    "pos": "n.",
+    "chinese": "版本"
+  },
+  {
+    "english": "obscure",
+    "pos": "adj.",
+    "chinese": "未被发现的"
+  },
+  {
+    "english": "secular",
+    "pos": "adj.",
+    "chinese": "世俗的"
+  },
+  {
+    "english": "patronage",
+    "pos": "n.",
+    "chinese": "赞助"
+  },
+  {
+    "english": "inclined",
+    "pos": "adj.",
+    "chinese": "倾向于"
+  },
+  {
+    "english": "uncover",
+    "pos": "v.",
+    "chinese": "发现"
+  },
+  {
+    "english": "anatomy",
+    "pos": "n.",
+    "chinese": "身体结构"
+  },
+  {
+    "english": "acumen",
+    "pos": "n.",
+    "chinese": "聪明，敏锐"
+  },
+  {
+    "english": "ascendance",
+    "pos": "n.",
+    "chinese": "优势地位"
+  },
+  {
+    "english": "dye",
+    "pos": "n.",
+    "chinese": "染料"
+  },
+  {
+    "english": "impose",
+    "pos": "v.",
+    "chinese": "强制执行"
+  },
+  {
+    "english": "prevail",
+    "pos": "v.",
+    "chinese": "盛行"
+  },
+  {
+    "english": "counterpart",
+    "pos": "n.",
+    "chinese": "对应的事物"
+  },
+  {
+    "english": "project",
+    "pos": "v.",
+    "chinese": "投影，放映"
+  },
+  {
+    "english": "device",
+    "pos": "n.",
+    "chinese": "设备"
+  },
+  {
+    "english": "successive",
+    "pos": "adj.",
+    "chinese": "连续的"
+  },
+  {
+    "english": "exhibitor",
+    "pos": "n.",
+    "chinese": "放映商"
+  },
+  {
+    "english": "readily",
+    "pos": "adv.",
+    "chinese": "快捷便利地"
+  },
+  {
+    "english": "advent",
+    "pos": "n.",
+    "chinese": "出现，到来"
+  },
+  {
+    "english": "spectacle",
+    "pos": "n.",
+    "chinese": "精彩的表演"
+  },
+  {
+    "english": "ceremony",
+    "pos": "n.",
+    "chinese": "庆典，仪式"
+  },
+  {
+    "english": "accompany",
+    "pos": "v.",
+    "chinese": "附加，兼带"
+  },
+  {
+    "english": "reproduce",
+    "pos": "v.",
+    "chinese": "再现"
+  },
+  {
+    "english": "commonplace",
+    "pos": "adj.",
+    "chinese": "平凡普通的"
+  },
+  {
+    "english": "strip",
+    "pos": "n.",
+    "chinese": "条，带"
+  },
+  {
+    "english": "minuscule",
+    "pos": "adj.",
+    "chinese": "微小的"
+  },
+  {
+    "english": "unprecedented",
+    "pos": "adj.",
+    "chinese": "前所未有的"
+  },
+  {
+    "english": "circulate",
+    "pos": "v.",
+    "chinese": "流通"
+  },
+  {
+    "english": "literacy",
+    "pos": "n.",
+    "chinese": "识字，有读写能力"
+  },
+  {
+    "english": "watershed",
+    "pos": "n.",
+    "chinese": "分水岭"
+  },
+  {
+    "english": "discard",
+    "pos": "v.",
+    "chinese": "丢弃"
+  },
+  {
+    "english": "diversion",
+    "pos": "n.",
+    "chinese": "消遣，娱乐"
+  },
+  {
+    "english": "spark",
+    "pos": "v.",
+    "chinese": "引发"
+  },
+  {
+    "english": "diffusion",
+    "pos": "n.",
+    "chinese": "传播，扩散"
+  },
+  {
+    "english": "track",
+    "pos": "n.",
+    "chinese": "轨道"
+  },
+  {
+    "english": "mileage",
+    "pos": "n.",
+    "chinese": "里程，英里数"
+  },
+  {
+    "english": "culminate",
+    "pos": "v.",
+    "chinese": "以…告终"
+  },
+  {
+    "english": "refine",
+    "pos": "v.",
+    "chinese": "提炼"
+  },
+  {
+    "english": "manufacturer",
+    "pos": "n.",
+    "chinese": "生产商"
+  },
+  {
+    "english": "cautiously",
+    "pos": "adv.",
+    "chinese": "慎重地"
+  },
+  {
+    "english": "circumference",
+    "pos": "n.",
+    "chinese": "圆周长"
+  },
+  {
+    "english": "latitude",
+    "pos": "n.",
+    "chinese": "纬度"
+  },
+  {
+    "english": "atlas",
+    "pos": "n.",
+    "chinese": "地图册"
+  },
+  {
+    "english": "accumulate",
+    "pos": "v.",
+    "chinese": "累积"
+  },
+  {
+    "english": "accuracy",
+    "pos": "n.",
+    "chinese": "准确性"
+  },
+  {
+    "english": "counterbalance",
+    "pos": "v.",
+    "chinese": "抵消，起平衡作用"
+  },
+  {
+    "english": "symmetry",
+    "pos": "n.",
+    "chinese": "对称"
+  },
+  {
+    "english": "intellectual",
+    "pos": "adj.",
+    "chinese": "知识的，脑力的"
+  },
+  {
+    "english": "undergo",
+    "pos": "v.",
+    "chinese": "经历"
+  },
+  {
+    "english": "dramatic",
+    "pos": "adj.",
+    "chinese": "突出的，显著的"
+  },
+  {
+    "english": "cosmos",
+    "pos": "n.",
+    "chinese": "宇宙"
+  },
+  {
+    "english": "exemplary",
+    "pos": "adj.",
+    "chinese": "典范的"
+  },
+  {
+    "english": "movable type",
+    "pos": "n.",
+    "chinese": "活字印刷术"
+  },
+  {
+    "english": "obsolete",
+    "pos": "adj.",
+    "chinese": "过时的，淘汰的"
+  },
+  {
+    "english": "collaborate",
+    "pos": "v.",
+    "chinese": "合作"
+  },
+  {
+    "english": "conceivable",
+    "pos": "adj.",
+    "chinese": "可理解的"
+  },
+  {
+    "english": "disseminate",
+    "pos": "v.",
+    "chinese": "散布，传播"
+  },
+  {
+    "english": "revival",
+    "pos": "n.",
+    "chinese": "复兴"
+  },
+  {
+    "english": "align",
+    "pos": "v.",
+    "chinese": "与…一致"
+  },
+  {
+    "english": "render",
+    "pos": "v.",
+    "chinese": "使…成为"
+  },
+  {
+    "english": "forefront",
+    "pos": "n.",
+    "chinese": "最重要的位置"
+  },
+  {
+    "english": "rendition",
+    "pos": "n.",
+    "chinese": "视觉形象"
+  },
+  {
+    "english": "attribute",
+    "pos": "v.",
+    "chinese": "把…归因于"
+  },
+  {
+    "english": "novice",
+    "pos": "n.",
+    "chinese": "新手，初学者"
+  },
+  {
+    "english": "rinse",
+    "pos": "v.",
+    "chinese": "漂洗"
+  },
+  {
+    "english": "repressive",
+    "pos": "adj.",
+    "chinese": "压制的，专制的"
+  },
+  {
+    "english": "disperse",
+    "pos": "v.",
+    "chinese": "分散"
+  },
+  {
+    "english": "greed",
+    "pos": "n.",
+    "chinese": "贪欲"
+  },
+  {
+    "english": "decentralize",
+    "pos": "v.",
+    "chinese": "分散"
+  }
+]
