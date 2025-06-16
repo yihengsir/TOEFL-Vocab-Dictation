@@ -1220,18 +1220,9 @@
 
         function nextWord() {
   console.log('[nextWord] Moving to next word...');
-
-  // 播放当前词汇的正确英文
-  if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
-    const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
-    const correctEnglish = currentPair.english.trim();
-    playPronunciation(correctEnglish);
-  }
-
   appState.currentWordIndex++;
   loadQuestion();
 }
-
 async function endTestSession() {
   console.log('[endTestSession] Ending test session and saving results...');
 
