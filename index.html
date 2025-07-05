@@ -4,871 +4,1214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOEFL 词汇测试 - 完整版</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome for speaker icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* Custom styles for background and font */
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #4338ca;
+            --secondary: #64748b;
+            --secondary-dark: #475569;
+            --success: #10b981;
+            --error: #ef4444;
+            --warning: #f59e0b;
+            --text-dark: #1e293b;
+            --text-medium: #475569;
+            --text-light: #f8fafc;
+            --bg-light: #eef2f6;
+            --bg-card: #ffffff;
+            --chinese-bg: #dbeafe;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #eef2f6; /* Light blue-gray background */
+            background-color: var(--bg-light);
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 1.5rem; /* Increase overall padding */
+            padding: 1.5rem;
             overflow-y: auto;
         }
 
         .main-container {
-            background-color: #ffffff;
-            border-radius: 1.5rem; /* Larger rounded corners */
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
-            padding: 2.5rem 3rem; /* Increased padding */
-            padding-top: 4rem; /* Increased top padding to avoid back button overlap */
+            background-color: var(--bg-card);
+            border-radius: 1.5rem;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            padding: 2.5rem 3rem;
+            padding-top: 4rem;
             width: 100%;
-            max-width: 800px; /* Adjusted max width */
+            max-width: 800px;
             display: flex;
             flex-direction: column;
-            gap: 2rem; /* Increased spacing between modules */
+            gap: 2rem;
             text-align: center;
-            position: relative; /* For absolute positioning of back button */
-            pointer-events: auto !important; /* Ensure click events are passed */
-            z-index: 1; /* Ensure it's above default layer and receives events */
+            position: relative;
+            pointer-events: auto !important;
+            z-index: 1;
         }
 
-        /* Styles for all views */
         .view {
             width: 100%;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 1.5rem; /* Spacing between elements inside a view */
-            position: relative; /* Ensure z-index works */
-            z-index: 2; /* Ensure view is above main-container */
-            pointer-events: auto; /* Ensure this element and its children are interactive */
-        }
-
-        /* Title styles */
-        .view-title {
-            font-size: 2.25rem; /* text-3xl */
-            line-height: 2.5rem; /* leading-9 */
-            font-weight: 800; /* font-extrabold */
-            color: #1f2937; /* text-gray-800 */
-            margin-top: 0.5rem; /* Adjusted margin-top for title */
-            margin-bottom: 1.5rem; /* mb-6 */
-            white-space: normal; /* Allow wrapping by default */
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        /* Responsive adjustments for title */
-        @media (max-width: 767px) { /* Adjust for mobile specifically */
-            .view-title {
-                font-size: 1.75rem; /* Smaller text on mobile */
-                line-height: 1.2; /* Tighter line height */
-                white-space: normal; /* Allow wrapping on small screens */
-                margin-top: 0.25rem; /* Further adjustment for small screens */
-            }
-        }
-        @media (min-width: 768px) {
-            .view-title {
-                font-size: 2.5rem; /* md:text-4xl */
-                line-height: 1; /* md:leading-10 */
-                white-space: normal; /* Allow wrapping on larger screens */
-            }
-        }
-
-        /* Primary button styles */
-        .btn-primary {
-            background-color: #2563eb; /* bg-blue-600 */
-            color: #ffffff; /* text-white */
-            font-weight: 700; /* font-bold */
-            padding: 0.75rem 2rem; /* py-3 px-8 */
-            border-radius: 9999px; /* rounded-full */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
-            transition-property: all;
-            transition-duration: 300ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); /* transition-all */
-            transform: scale(1); /* hover:scale-105 base */
-            width: 66.666667%; /* w-2/3 */
-            margin-left: auto;
-            margin-right: auto;
-            letter-spacing: 0.05em; /* Increase letter spacing */
-            pointer-events: auto; /* Explicitly set to interactive */
-            z-index: 3; /* Ensure button layer is above its container */
-        }
-        .btn-primary:hover {
-            background-color: #1d4ed8; /* hover:bg-blue-700 */
-            transform: scale(1.05); /* hover:scale-105 */
-        }
-        .btn-primary:focus {
-            outline: none;
-            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.5); /* focus:ring-4 focus:ring-blue-300 */
-        }
-        .btn-primary:disabled { /* Style for disabled button */
-            background-color: #9ca3af; /* gray-400 */
-            cursor: not-allowed;
-            transform: scale(1);
-            box-shadow: none;
-        }
-        @media (min-width: 768px) {
-            .btn-primary {
-                width: 50%; /* md:w-1/2 */
-            }
-        }
-
-        /* Secondary button/selection item styles (card-like) */
-        .btn-selection-item {
-            background-color: #ffffff; /* bg-white */
-            border: 1px solid #e5e7eb; /* border border-gray-200 */
-            color: #1f2937; /* text-gray-800 */
-            font-weight: 600; /* font-semibold */
-            padding: 1rem 1.5rem; /* py-4 px-6 */
-            border-radius: 0.75rem; /* rounded-xl */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
-            cursor: pointer;
-            transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s; /* Combined transitions */
+            gap: 1.5rem;
             text-align: center;
-            min-height: 80px; /* Ensure sufficient height */
-            display: flex; /* Use flexbox for vertical centering */
-            flex-direction: column; /* Stack content vertically */
+            align-items: center;
+            padding: 1rem;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 4rem;
+            height: 100%;
+            overflow-y: auto;
+            justify-content: flex-start;
+        }
+
+        .view.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: auto;
+            position: relative;
+        }
+
+        .grid-selection {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        @media (min-width: 768px) {
+            .grid-col-1-md-2 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .grid-col-2-md-3 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .btn-selection-item {
+            background-color: #f0f4f8;
+            color: var(--text-dark);
+            padding: 1rem 1.5rem;
+            border-radius: 0.75rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            border: 2px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            pointer-events: auto; /* Explicitly set to interactive */
-            z-index: 3; /* Ensure button layer is above its container */
+            min-height: 80px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
         }
+
         .btn-selection-item:hover {
-            background-color: #f9fafb; /* hover:bg-gray-50 */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* hover:shadow-lg */
-            transform: translateY(-2px); /* Slight lift on hover */
-        }
-        .btn-selection-item:focus {
-            outline: none;
-            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus:ring-2 focus:ring-blue-400 */
+            background-color: #e2e8f0;
+            border-color: #94a3b8;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
         }
 
         .btn-selection-item-selected {
-            background-color: #3b82f6; /* bg-blue-500 */
-            color: #ffffff; /* text-white */
-            border-color: #3b82f6; /* border-blue-500 */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-xl */
-            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* ring-2 ring-blue-300 */
+            background-color: #dbeafe;
+            color: var(--text-dark);
+            border-color: var(--primary);
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.2);
+            transform: translateY(-1px);
         }
+
         .btn-selection-item-selected:hover {
-             background-color: #2563eb; /* bg-blue-600 */
+            background-color: #d0e1ff;
+            border-color: var(--primary);
         }
-        /* Styles for inner text elements (chinese/english) in selection items */
-        .btn-selection-item .chinese-text {
-            font-size: 1.125rem; /* text-lg */
+
+        .chinese-text {
+            font-size: 1.25rem;
             font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: 0.25rem; /* Small space between Chinese and English */
+            margin-bottom: 0.25rem;
+            color: var(--text-dark);
         }
-        .btn-selection-item .english-text {
-            font-size: 0.875rem; /* text-sm */
+
+        .english-text {
+            font-size: 0.95rem;
             font-weight: 500;
-            color: #6b7280; /* gray-500 */
-            line-height: 1.2;
+            color: var(--text-medium);
         }
+
         .btn-selection-item-selected .english-text {
-            color: #e0e7ff; /* Lighter color for English text when selected */
-        }
-        @media (max-width: 767px) {
-            .btn-selection-item .chinese-text {
-                font-size: 1rem; /* Smaller Chinese text on mobile */
-            }
-            .btn-selection-item .english-text {
-                font-size: 0.75rem; /* Smaller English text on mobile */
-            }
+            color: var(--text-medium);
         }
 
-
-        /* Back button styles */
-        .btn-back {
-            background-color: #e5e7eb; /* bg-gray-200 */
-            color: #374151; /* text-gray-700 */
-            font-weight: 700; /* font-bold */
-            padding: 0.5rem 1rem; /* py-2 px-4 */
-            border-radius: 9999px; /* rounded-full */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* shadow-md */
-            transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1); /* Combined transition */
-            transform: scale(1); /* hover:scale-105 base */
-            position: absolute;
-            top: 1rem; /* Adjusted for left-top empty space */
-            left: 1rem; /* Adjusted for left-top empty space */
-            z-index: 10;
-            pointer-events: auto; /* Explicitly set to interactive */
-        }
-        .btn-back:hover {
-            background-color: #d1d5db; /* hover:bg-gray-300 */
-            transform: scale(1.05); /* hover:scale-105 */
-        }
-        .btn-back:focus {
-            outline: none;
-            box-shadow: 0 0 0 4px rgba(209, 213, 219, 0.5); /* focus:ring-4 focus:ring-gray-200 */
-        }
-        @media (max-width: 767px) { /* Mobile specific adjustment for back button */
-            .btn-back {
-                top: 0.75rem; /* Smaller top padding on very small screens */
-                left: 0.75rem; /* Smaller left padding */
-                padding: 0.4rem 0.8rem; /* Slightly smaller padding */
-                font-size: 0.8rem; /* Smaller font size for the button text */
-            }
-        }
-
-        /* Hidden utility class */
-        .hidden {
-            display: none !important;
-        }
-
-        /* Different selection grid layouts */
-        .grid-layout {
-            display: grid;
-            gap: 1rem; /* gap-4 */
-            width: 100%; /* w-full */
-            pointer-events: auto; /* Ensure grid container is interactive */
-            z-index: 2; /* Ensure grid container is above view */
-        }
-        .grid-col-1-md-2 {
-            grid-template-columns: repeat(1, minmax(0, 1fr)); /* grid-cols-1 */
-        }
-        @media (min-width: 768px) {
-            .grid-col-1-md-2 {
-                grid-template-columns: repeat(2, minmax(0, 1fr)); /* md:grid-cols-2 */
-            }
-        }
-
-        .grid-col-2-md-3 {
-            grid-template-columns: repeat(2, minmax(0, 1fr)); /* grid-cols-2 */
-        }
-        @media (min-width: 768px) {
-            .grid-col-2-md-3 {
-                grid-template-columns: repeat(3, minmax(0, 1fr)); /* md:grid-cols-3 */
-            }
-        }
-
-        .grid-col-3-md-5 {
-            grid-template-columns: repeat(3, minmax(0, 1fr)); /* grid-cols-3 */
-        }
-        @media (min-width: 768px) {
-            .grid-col-3-md-5 {
-                grid-template-columns: repeat(5, minmax(0, 1fr)); /* md:grid-cols-5 */
-            }
-        }
-
-        /* Input field generic styles */
-        .input-field {
-            display: block;
+        .word-display {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+            background-color: var(--chinese-bg);
             width: 100%;
-            padding: 0.75rem 1rem; /* px-4 py-3 */
-            border: 1px solid #d1d5db; /* border border-gray-300 */
-            border-radius: 0.5rem; /* rounded-lg */
-            box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05); /* shadow-sm */
-            font-size: 1.125rem; /* text-lg */
-            color: #1f2937; /* text-gray-800 */
-            background-color: #ffffff; /* bg-white */
-            transition-property: all;
-            transition-duration: 200ms;
+            max-width: 400px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        .input-field::placeholder {
-            color: #9ca3af; /* placeholder-gray-400 */
+
+        .answer-input {
+            padding: 0.75rem 1.25rem;
+            padding-left: 1.5rem;
+            border-radius: 0.5rem;
+            border: 2px solid #cbd5e0;
+            width: 100%;
+            max-width: 400px;
+            font-size: 1.25rem;
+            text-align: left;
+            transition: all 0.2s;
         }
-        .input-field:focus {
+
+        .answer-input:focus {
             outline: none;
-            border-color: #3b82f6; /* focus:border-blue-500 */
-            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5); /* focus:ring-2 focus:ring-blue-500 */
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
         }
 
+        .control-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px;
+        }
 
-        /* Dictation test specific styles */
-        .quiz-question-display {
-            background-color: #dbeafe; /* bg-blue-100 */
-            color: #1e40af; /* text-blue-900 */
-            font-size: 3rem; /* text-4xl */
-            line-height: 1.3; /* Adjusted line-height */
-            font-weight: 800; /* font-extrabold */
-            padding: 2rem 1.5rem; /* py-8 px-6 */
-            border-radius: 1rem; /* rounded-2xl */
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
-            min-height: 120px; /* Ensure sufficient height */
+        .action-button {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 0.75rem 2rem;
+            border-radius: 0.5rem;
+            font-size: 1.125rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: none;
+            flex-grow: 1;
+            min-width: 120px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .action-button:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .action-button:disabled {
+            background-color: #a7a7a7;
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+
+        .action-button.secondary {
+            background-color: var(--secondary);
+        }
+
+        .action-button.secondary:hover {
+            background-color: var(--secondary-dark);
+        }
+
+        .action-button.success {
+            background-color: var(--success);
+        }
+
+        .action-button.success:hover {
+            background-color: #059669;
+        }
+
+        .action-button.warning {
+            background-color: var(--warning);
+        }
+
+        .action-button.warning:hover {
+            background-color: #d97706;
+        }
+
+        .progress-container {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .progress-bar-container {
+            width: 100%;
+            background-color: #e2e8f0;
+            border-radius: 0.5rem;
+            height: 1rem;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background-color: var(--primary);
+            border-radius: 0.5rem;
+            transition: width 0.3s ease-out;
+        }
+
+        .test-info {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+            color: var(--text-medium);
+            font-weight: 500;
+            gap: 1.5rem;
+        }
+
+        .results-summary {
+            background-color: #f0f4f8;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            border: 1px solid #e2e8f0;
+        }
+
+        .results-summary p {
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .results-summary span {
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .incorrect-words-list {
+            width: 100%;
+            max-height: 300px;
+            overflow-y: auto;
+            border: 1px solid #cbd5e0;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            background-color: var(--bg-card);
+            text-align: left;
+        }
+
+        .incorrect-words-list h3 {
+            font-size: 1.5rem;
+            color: var(--error);
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .incorrect-words-list ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .incorrect-words-list li {
+            padding: 0.75rem;
+            border-bottom: 1px dashed #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .incorrect-words-list li:last-child {
+            border-bottom: none;
+        }
+
+        .incorrect-words-list .word-pair {
+            flex-grow: 1;
+        }
+
+        .incorrect-words-list .word-pair span {
+            font-weight: 600;
+        }
+
+        .incorrect-words-list .word-pair .english {
+            color: var(--text-dark);
+        }
+
+        .incorrect-words-list .word-pair .your-answer {
+            color: var(--error);
+            font-weight: 700;
+        }
+
+        .incorrect-words-list .word-pair .correct-answer {
+            color: var(--success);
+            font-weight: 700;
+        }
+
+        .incorrect-words-list .speaker-icon {
+            font-size: 1.2rem;
+            color: var(--primary);
+            cursor: pointer;
+            background: #f0f4ff;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.2s;
         }
-        @media (min-width: 768px) {
-            .quiz-question-display {
-                font-size: 3.75rem; /* md:text-5xl */
+
+        .incorrect-words-list .speaker-icon:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 1.5rem;
+            left: 1.5rem;
+            background: #f0f4ff;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 1.25rem;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all 0.2s;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .back-button:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease-out, visibility 0.3s ease-out;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background-color: var(--bg-card);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 90%;
+            width: 400px;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease-out;
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+
+        .modal-content h3 {
+            font-size: 1.75rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+
+        .modal-content p {
+            font-size: 1.125rem;
+            color: var(--text-medium);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .modal-content button {
+            background-color: var(--primary);
+            color: var(--text-light);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border: none;
+            min-width: 100px;
+        }
+
+        .modal-content button:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .main-container.animate-in {
+            animation: fadeInScale 0.5s ease-out forwards;
+        }
+
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
             }
         }
 
-        .quiz-input-field {
-            border: 2px solid #d1d5db; /* border-2 border-gray-300 */
-            background-color: #ffffff; /* bg-white */
-            border-radius: 0.75rem; /* rounded-xl */
-            padding: 1rem; /* p-4 */
-            font-size: 1.25rem; /* text-xl */
-            color: #1f2937; /* text-gray-800 */
-            width: 100%; /* w-full */
-            text-align: center;
-            box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06); /* shadow-inner */
-            transition-property: all;
-            transition-duration: 200ms;
+        .view.fade-out {
+            opacity: 0;
+            transform: translateY(-20px);
         }
-        .quiz-input-field:focus {
-            outline: none;
-            border-color: #3b82f6; /* focus:border-blue-500 */
-            box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.5); /* focus:ring-2 focus:ring-blue-200 */
+        
+        .correct-answer-hint {
+            margin-top: 0.5rem;
+            font-size: 1rem;
+            color: var(--error);
+            min-height: 1.5rem;
+            font-weight: 600;
+            width: 100%;
+            max-width: 400px;
         }
 
-        .feedback-correct {
-            background-color: #d1fae5; /* bg-green-100 */
-            border-color: #22c55e; /* border-green-500 */
-            color: #166534; /* text-green-800 */
+        .border-success {
+            border-color: var(--success) !important;
         }
-        .feedback-incorrect {
-            background-color: #fee2e2; /* bg-red-100 */
-            border-color: #ef4444; /* Red border */
-            color: #991b1b; /* text-red-800 */
+
+        .border-error {
+            border-color: var(--error) !important;
         }
-        .loading-spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #3b82f6;
-            border-radius: 50%;
-            width: 24px;
-            height: 24px;
-            animation: spin 1s linear infinite;
-            margin: 0 auto;
+        
+        .password-container {
+            margin-bottom: 1.5rem;
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 1.5rem;
         }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-        .play-button {
-            background: none;
-            border: none;
-            color: #3b82f6;
-            cursor: pointer;
+        
+        .password-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-weight: 500;
+            color: var(--text-medium);
             font-size: 1.2rem;
-            margin-left: 0.5rem;
-            padding: 0;
-            vertical-align: middle;
-            transition: color 0.2s;
-        }
-        .play-button:hover {
-            color: #2563eb;
         }
     </style>
 </head>
-<body>
-    <div id="app-container" class="main-container">
-        <!-- Welcome/Role Selection View -->
+<body class="selection-view">
+    <div class="main-container animate-in">
+        <button id="backButton" class="back-button hidden" aria-label="Back">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+
+        <div id="access-view" class="view active">
+            <h1 class="text-3xl font-bold text-gray-800 mb-8">TOEFL 词汇测试（from锋锋老师）</h1>
+            <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
+                <div class="password-container">
+                    <label class="password-label">请输入测验码</label>
+                    <input type="password" id="accessCode" class="answer-input" placeholder="请输入测验码">
+                </div>
+            </div>
+            <button id="accessSubmitBtn" class="action-button">进入测试</button>
+        </div>
+
         <div id="welcome-view" class="view">
-            <h1 class="view-title">
-                TOEFL 词汇练习
-            </h1>
-            <p class="text-xl text-gray-700 mb-8">请选择您的身份：</p>
-            <button id="vip-student-btn" class="btn-primary">我是 VIP 学生</button>
-            <button id="class-student-btn" class="btn-primary">我是班课学生</button>
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">TOEFL 词汇测试</h1>
+            <p class="text-xl text-gray-600 mb-8">开始您的词汇学习之旅</p>
+            <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
+                <div>
+                    <label class="password-label">您的姓名</label>
+                    <input type="text" id="studentName" class="answer-input" placeholder="请输入您的姓名" required>
+                </div>
+                <input type="text" id="studentClass" class="answer-input" placeholder="您的班级 (选填)">
+            </div>
+            <button id="startSelectionBtn" class="action-button">开始选择</button>
         </div>
 
-        <!-- Role Confirmation View -->
-        <div id="confirm-role-view" class="view hidden">
-            <button id="confirm-back-btn" class="btn-back">返回</button>
-            <h2 class="view-title">
-                确认您的身份
-            </h2>
-            <p id="confirm-role-text" class="text-xl text-purple-700 font-semibold mb-8">
-                您已选择：<span id="confirmed-role"></span>
-            </p>
-            <button id="confirm-role-continue-btn" class="btn-primary bg-purple-600 hover:bg-purple-700 focus:ring-purple-300">继续</button>
+        <div id="selection-view" class="view">
+            <h2 id="selectionTitle" class="text-2xl font-bold text-gray-800 mb-6">选择类别</h2>
+            <div id="selectionContent" class="grid-selection">
+                </div>
+            <button id="startTestBtn" class="action-button mt-auto hidden">开始测试</button>
         </div>
 
-        <!-- Vocabulary Selection View -->
-        <div id="selection-view" class="view hidden">
-            <button id="selection-back-btn" class="btn-back">返回</button>
-            <h2 id="selection-title" class="view-title">
-                请选择分类
-            </h2>
-            <div id="selection-content" class="grid-layout grid-col-1-md-2">
-                <!-- Dynamic content will be populated here -->
+        <div id="test-view" class="view">
+            <div class="test-info">
+                <span id="questionCount"></span>
+                <span id="timer">00:00</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar-container">
+                    <div id="progressBar" class="progress-bar"></div>
+                </div>
+            </div>
+
+            <p id="wordDisplay" class="word-display mb-4"></p>
+            <input type="text" id="answerInput" class="answer-input mb-4" placeholder="输入英文词汇（首字母提示）">
+            <div id="correctAnswerHint" class="correct-answer-hint"></div>
+            <div class="control-buttons">
+                <button id="checkAnswerBtn" class="action-button">检查答案</button>
+                <button id="nextWordBtn" class="action-button secondary hidden">下一个</button>
+                <button id="showAnswerBtn" class="action-button secondary">显示答案</button>
+                <button id="finishTestBtn" class="action-button warning">结束测试</button>
             </div>
         </div>
 
-        <!-- Student Information Input View -->
-        <div id="info-view" class="view hidden">
-            <button id="info-back-btn" class="btn-back">返回</button>
-            <h2 class="view-title">
-                填写学生信息
-            </h2>
-            <input type="text" id="student-name-input" class="input-field mb-4" placeholder="请输入您的姓名" />
-            <input type="text" id="student-class-input" class="input-field mb-6 hidden" placeholder="请输入您的班级 (班课学生)" />
-            <button id="start-test-btn" class="btn-primary">开始测试</button>
-        </div>
-
-        <!-- Dictation Test View -->
-        <div id="test-view" class="view hidden">
-            <button id="test-back-btn" class="btn-back">返回</button>
-            <!-- Top title, consistent with image -->
-            <h2 class="view-title">TOEFL 词汇听写测试 (from锋锋老师)</h2>
-            <div class="flex flex-col gap-6 w-full">
-                <div id="test-progress-display" class="text-gray-600 text-base font-semibold mb-2"></div>
-                <div id="question-display" class="bg-blue-100 text-blue-900 text-3xl font-bold py-6 px-4 rounded-lg shadow-inner">
-                    加载词汇...
-                </div>
-
-                <input type="text" id="answer-input" class="input-field" placeholder="在此输入英文词汇或短语..." autofocus>
-
-                <div id="example-sentence-display" class="bg-gray-50 p-4 rounded-lg shadow-inner text-gray-700 text-sm italic min-h-[60px] flex items-center justify-center">
-                    点击 "获取例句" 查看上下文
-                </div>
-
-                <div class="flex flex-col md:flex-row gap-4 justify-center">
-                    <button id="get-example-btn" class="btn-primary bg-purple-600 hover:bg-purple-700 focus:ring-purple-300">
-                        获取例句
-                    </button>
-                    <button id="check-answer-btn" class="btn-primary bg-blue-600 hover:bg-blue-700 focus:ring-blue-300">
-                        检查答案
-                    </button>
-                    <button id="next-word-btn" class="btn-primary bg-green-600 hover:bg-green-700 focus:ring-green-300 hidden">
-                        下一个
-                    </button>
-                </div>
-
-                <div class="flex justify-center mt-4">
-                    <button id="end-test-btn" class="btn-primary bg-red-500 hover:bg-red-600 focus:ring-red-300">
-                        结束测试
-                    </button>
-                </div>
-
-                <div id="feedback-message" class="text-lg font-semibold min-h-[30px]"></div>
+        <div id="results-view" class="view">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">测试结果</h2>
+            <div class="results-summary">
+                <p>姓名: <span id="resultsStudentName">N/A</span></p>
+                <p>班级: <span id="resultsStudentClass">N/A</span></p>
+                <p>检测单词数: <span id="attemptedCount">0</span></p>
+                <p>正确数量: <span id="correctCount">0</span>/<span id="totalQuestions">0</span></p>
+                <p>正确率: <span id="accuracyRate">0%</span></p>
+                <p>耗时: <span id="timeTaken">00:00</span></p>
             </div>
-        </div>
-
-        <!-- Test Results View -->
-        <div id="results-view" class="view hidden">
-            <button id="results-back-btn" class="btn-back">返回</button>
-            <h2 class="view-title">
-                测试结果
-            </h2>
-            <div id="test-summary" class="text-left text-lg text-gray-800 mb-6">
-                <p><strong>姓名:</strong> <span id="summary-name"></span></p>
-                <p id="summary-class-row"><strong>班级:</strong> <span id="summary-class"></span></p>
-                <p><strong>测试科目:</strong> <span id="summary-category"></span></p>
-                <p><strong>测试级别:</strong> <span id="summary-level"></span></p>
-                <p><strong>内容类型:</strong> <span id="summary-content-type"></span></p>
-                <p id="summary-unit-row" class="hidden"><strong>测试单元:</strong> <span id="summary-unit"></span></p>
-                <p><strong>日期:</strong> <span id="summary-date"></span></p>
-                <p><strong>测试时长:</strong> <span id="summary-duration" class="font-bold"></span></p>
-                <p><strong>正确率:</strong> <span id="summary-accuracy" class="font-bold"></span></p>
+            <div id="incorrectWordsList" class="incorrect-words-list mb-6">
+                </div>
+            <div class="control-buttons">
+                <button id="retakeTestBtn" class="action-button">重新测试</button>
+                <button id="shareResultsBtn" class="action-button secondary">分享结果</button>
+                <button id="newTestBtn" class="action-button success">新测试</button>
             </div>
-            <h3 class="text-2xl font-bold text-gray-800 mb-4">
-                答错题目列表 (<span id="incorrect-count">0</span> 题)
-            </h3>
-            <div id="results-list" class="text-left bg-gray-50 p-4 rounded-lg shadow-inner w-full max-h-96 overflow-y-auto"></div>
-            <button id="results-restart-btn" class="btn-primary mt-8">重新开始练习</button>
-            <button id="share-results-btn" class="btn-primary bg-yellow-500 hover:bg-yellow-600 focus:ring-yellow-300 mt-4">分享结果</button>
         </div>
     </div>
 
-    <script type="module">
-        // Firebase module imports
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-        import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+    <div id="modalOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <h3 id="modalTitle"></h3>
+            <p id="modalMessage"></p>
+            <button id="modalCloseBtn">确定</button>
+        </div>
+    </div>
 
-        // --- DOM element references ---
-        const appContainer = document.getElementById('app-container');
-        const welcomeView = document.getElementById('welcome-view');
-        const confirmRoleView = document.getElementById('confirm-role-view');
-        const selectionView = document.getElementById('selection-view');
-        const infoView = document.getElementById('info-view');
-        const testView = document.getElementById('test-view');
-        const resultsView = document.getElementById('results-view');
-
-        const vipStudentBtn = document.getElementById('vip-student-btn');
-        const classStudentBtn = document.getElementById('class-student-btn');
-
-        const confirmBackBtn = document.getElementById('confirm-back-btn');
-        const confirmedRoleSpan = document.getElementById('confirmed-role');
-        const confirmRoleContinueBtn = document.getElementById('confirm-role-continue-btn');
-
-        const selectionBackBtn = document.getElementById('selection-back-btn');
-        const selectionTitle = document.getElementById('selection-title');
-        const selectionContent = document.getElementById('selection-content');
-
-        const studentNameInput = document.getElementById('student-name-input');
-        const studentClassInput = document.getElementById('student-class-input');
-        const startTestBtn = document.getElementById('start-test-btn');
-        const infoBackBtn = document.getElementById('info-back-btn');
-
-        // Test View specific elements
-        const testProgressDisplay = document.getElementById('test-progress-display'); // New element for progress
-        const questionDisplay = document.getElementById('question-display');
-        const answerInput = document.getElementById('answer-input');
-        const getExampleBtn = document.getElementById('get-example-btn');
-        const checkAnswerBtn = document.getElementById('check-answer-btn');
-        const nextWordBtn = document.getElementById('next-word-btn');
-        const endTestBtn = document.getElementById('end-test-btn');
-        const feedbackMessage = document.getElementById('feedback-message');
-        const exampleSentenceDisplay = document.getElementById('example-sentence-display');
-        const testBackBtn = document.getElementById('test-back-btn');
-
-        // Results View specific elements
-        const summaryName = document.getElementById('summary-name');
-        const summaryClass = document.getElementById('summary-class');
-        const summaryClassRow = document.getElementById('summary-class-row');
-        const summaryCategory = document.getElementById('summary-category'); // New
-        const summaryLevel = document.getElementById('summary-level');     // New
-        const summaryContentType = document.getElementById('summary-content-type'); // New
-        const summaryUnit = document.getElementById('summary-unit');       // New
-        const summaryUnitRow = document.getElementById('summary-unit-row'); // New
-        const summaryDate = document.getElementById('summary-date');
-        const summaryDuration = document.getElementById('summary-duration'); // New
-        const summaryAccuracy = document.getElementById('summary-accuracy');
-        const incorrectCountSpan = document.getElementById('incorrect-count');
-        const resultsList = document.getElementById('results-list');
-        const resultsRestartBtn = document.getElementById('results-restart-btn');
-        const shareResultsBtn = document.getElementById('share-results-btn'); // New share button
-        const resultsBackBtn = document.getElementById('results-back-btn');
-
-
-        // --- Global Application State ---
+    <script>
+        // --- Application State Management ---
         const appState = {
-            currentView: 'welcome-view', // ID of the currently displayed view
-            userRole: '', // 'vip' or 'class'
-            selectedCategory: '', // 'reading', 'listening', 'speaking', 'writing', 'foundation'
-            selectedLevel: '',    // 'beginner', 'intermediate', 'advanced', 'listening_speaking', 'reading_writing'
-            selectedContentType: '',  // 'unit' or 'past'
-            selectedUnit: '',     // e.g., 'unit1' to 'unit14'
-            studentName: '',
-            studentClass: '',
-            viewHistory: [], // Stack to track view history for back navigation
-            currentTestVocabulary: [], // Stores the vocabulary data for the current test
-            shuffledTestVocabulary: [], // Shuffled list of words for the current test session
+            currentView: 'access-view',
+            selectedCategory: '',
+            selectedLevel: '',
+            selectedContentType: '',
+            selectedUnit: '',
+            currentTestVocabulary: [],
+            shuffledTestVocabulary: [],
             currentWordIndex: 0,
             correctAnswersCount: 0,
             questionsAttempted: 0,
-            incorrectAnswers: [], // Stores details of incorrectly answered questions
-            testStartTime: null, // Records the start time of the test
-            testEndTime: null, // Records the end time of the test (NEW)
-            userId: null, // Firebase Auth UID for the current user
+            incorrectAnswers: [],
+            testStartTime: null,
+            studentName: '',
+            studentClass: ''
         };
 
-        // --- Firebase Initialization ---
-        let db;
-        let auth;
-        let authReady = false; // Flag to indicate Firebase Auth is ready
+        // --- DOM Elements ---
+        const views = {
+            access: document.getElementById('access-view'),
+            welcome: document.getElementById('welcome-view'),
+            selection: document.getElementById('selection-view'),
+            test: document.getElementById('test-view'),
+            results: document.getElementById('results-view')
+        };
+        const backButton = document.getElementById('backButton');
+        const accessSubmitBtn = document.getElementById('accessSubmitBtn');
+        const startSelectionBtn = document.getElementById('startSelectionBtn');
+        const selectionTitle = document.getElementById('selectionTitle');
+        const selectionContent = document.getElementById('selectionContent');
+        const startTestBtn = document.getElementById('startTestBtn');
 
-        // Global variables provided by Canvas (MUST BE USED)
-        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
-        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
-        const initialAuthToken = typeof __initial_auth_token !== 'undefined' ? __initial_auth_token : null;
+        const wordDisplay = document.getElementById('wordDisplay');
+        const answerInput = document.getElementById('answerInput');
+        const correctAnswerHint = document.getElementById('correctAnswerHint');
+        const checkAnswerBtn = document.getElementById('checkAnswerBtn');
+        const nextWordBtn = document.getElementById('nextWordBtn');
+        const showAnswerBtn = document.getElementById('showAnswerBtn');
+        const finishTestBtn = document.getElementById('finishTestBtn');
+        const questionCountSpan = document.getElementById('questionCount');
+        const timerSpan = document.getElementById('timer');
+        const progressBar = document.getElementById('progressBar');
 
-        // Initialize Firebase
-        if (Object.keys(firebaseConfig).length > 0) {
-            const app = initializeApp(firebaseConfig);
-            db = getFirestore(app);
-            auth = getAuth(app);
+        const resultsStudentName = document.getElementById('resultsStudentName');
+        const resultsStudentClass = document.getElementById('resultsStudentClass');
+        const correctCountSpan = document.getElementById('correctCount');
+        const totalQuestionsSpan = document.getElementById('totalQuestions');
+        const accuracyRateSpan = document.getElementById('accuracyRate');
+        const timeTakenSpan = document.getElementById('timeTaken');
+        const attemptedCountSpan = document.getElementById('attemptedCount');
+        const incorrectWordsListDiv = document.getElementById('incorrectWordsList');
+        const retakeTestBtn = document.getElementById('retakeTestBtn');
+        const shareResultsBtn = document.getElementById('shareResultsBtn');
+        const newTestBtn = document.getElementById('newTestBtn');
 
-            // Listen for auth state changes
-            onAuthStateChanged(auth, async (user) => {
-                if (user) {
-                    appState.userId = user.uid;
-                    console.log("[Firebase] User is signed in:", user.uid);
-                } else {
-                    appState.userId = null;
-                    console.log("[Firebase] No user is signed in. Attempting anonymous sign-in...");
-                    try {
-                        // If no initial auth token, sign in anonymously
-                        if (!initialAuthToken) {
-                            await signInAnonymously(auth);
-                            console.log("[Firebase] Signed in anonymously.");
-                        }
-                    } catch (error) {
-                        console.error("[Firebase] Anonymous sign-in failed:", error);
-                    }
-                }
-                authReady = true; // Mark auth as ready after initial check
-                console.log("[Firebase] Auth state changed. authReady:", authReady);
-            });
+        const studentNameInput = document.getElementById('studentName');
+        const studentClassInput = document.getElementById('studentClass');
+        const accessCodeInput = document.getElementById('accessCode');
 
-            // Sign in with custom token if available, otherwise anonymously
-            (async () => {
-                try {
-                    if (initialAuthToken) {
-                        await signInWithCustomToken(auth, initialAuthToken);
-                        console.log("[Firebase] Signed in with custom token.");
-                    } else {
-                        // onAuthStateChanged will handle anonymous sign-in if no token
-                        console.log("[Firebase] No custom token provided. Waiting for onAuthStateChanged to handle auth.");
-                    }
-                } catch (error) {
-                    console.error("[Firebase] Initial auth failed:", error);
-                    // Fallback to anonymous sign-in if custom token fails (onAuthStateChanged handles this)
-                }
-            })();
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalMessage = document.getElementById('modalMessage');
+        const modalCloseBtn = document.getElementById('modalCloseBtn');
 
-        } else {
-            console.error("[Firebase] Firebase config is missing. Firestore features will not work.");
-        }
-
-
-        /**
-         * Helper function to create an array of unit file names dynamically.
-         * @param {string} baseName - The base name for the unit files (e.g., 'reading_beginner', 'foundation_listening_speaking').
-         * @param {number} count - The number of units.
-         * @returns {string[]} An array of unit file names.
-         */
-        function createUnitArray(baseName, count) {
-            const units = [];
-            for (let i = 1; i <= count; i++) {
-                units.push(`${baseName}_unit${i}.json`);
-            }
-            return units;
-        }
-
-        // --- Vocabulary Structure Mapping (points to actual JSON file paths) ---
+        // --- Vocabulary Structure ---
         const vocabStructure = {
-            reading: {
-                beginner: {
-                    unit: createUnitArray('reading_beginner', 14), // Increased to 14 units
-                    past: 'expressions.json' // VIP student test
-                },
-                intermediate: {
-                    unit: createUnitArray('reading_intermediate', 14), // Increased to 14 units
-                    past: null // No past content file here
-                },
-                advanced: {
-                    unit: createUnitArray('reading_advanced', 14), // Increased to 14 units
-                    past: null // No past content file here
-                }
-            },
-            listening: {
-                beginner: { unit: createUnitArray('listening_beginner', 8), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('listening_intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('listening_advanced', 14), past: null } // Increased to 14 units
-            },
-            speaking: {
-                beginner: { unit: createUnitArray('speaking_beginner', 8), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('speaking_intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('speaking_advanced', 14), past: null } // Increased to 14 units
-            },
-            writing: {
-                beginner: { unit: createUnitArray('writing_beginner', 14), past: null }, // Increased to 14 units
-                intermediate: { unit: createUnitArray('writing_intermediate', 14), past: null }, // Increased to 14 units
-                advanced: { unit: createUnitArray('writing_advanced', 14), past: null } // Increased to 14 units
-            },
-            // NEW FOUNDATION CATEGORY AND LEVELS
             foundation: {
                 listening_speaking: {
-                    unit: createUnitArray('foundation_listening_speaking', 12),
-                    past: null
+                    unit: Array.from({length: 12}, (_, i) => `data/foundation_listening_speaking_unit${i+1}.json`),
+                    past: true
                 },
                 reading_writing: {
-                    unit: createUnitArray('foundation_reading_writing', 12),
-                    past: null
+                    unit: Array.from({length: 12}, (_, i) => `data/foundation_reading_writing_unit${i+1}.json`),
+                    past: true
+                }
+            },
+            beginner: {
+                listening: {
+                    unit: Array.from({length: 8}, (_, i) => `data/listening_beginner_unit${i+1}.json`),
+                    past: true
+                },
+                speaking: {
+                    unit: Array.from({length: 8}, (_, i) => `data/speaking_beginner_unit${i+1}.json`),
+                    past: true
+                },
+                reading: {
+                    unit: Array.from({length: 8}, (_, i) => `data/reading_beginner_unit${i+1}.json`),
+                    past: true
+                },
+                writing: {
+                    unit: Array.from({length: 8}, (_, i) => `data/writing_beginner_unit${i+1}.json`),
+                    past: true
+                }
+            },
+            intermediate: {
+                listening: {
+                    unit: Array.from({length: 14}, (_, i) => `data/listening_intermediate_unit${i+1}.json`),
+                    past: true
+                },
+                speaking: {
+                    unit: Array.from({length: 14}, (_, i) => `data/speaking_intermediate_unit${i+1}.json`),
+                    past: true
+                },
+                reading: {
+                    unit: Array.from({length: 14}, (_, i) => `data/reading_intermediate_unit${i+1}.json`),
+                    past: true
+                },
+                writing: {
+                    unit: Array.from({length: 14}, (_, i) => `data/writing_intermediate_unit${i+1}.json`),
+                    past: true
+                }
+            },
+            advanced: {
+                listening: {
+                    unit: Array.from({length: 12}, (_, i) => `data/listening_advanced_unit${i+1}.json`),
+                    past: true
+                },
+                speaking: {
+                    unit: Array.from({length: 12}, (_, i) => `data/speaking_advanced_unit${i+1}.json`),
+                    past: true
+                },
+                reading: {
+                    unit: Array.from({length: 12}, (_, i) => `data/reading_advanced_unit${i+1}.json`),
+                    past: true
+                },
+                writing: {
+                    unit: Array.from({length: 12}, (_, i) => `data/writing_advanced_unit${i+1}.json`),
+                    past: true
                 }
             }
         };
 
-        // LLM API Key (leave empty, Canvas runtime will automatically populate)
-        const geminiApiKey = "AIzaSyC2qQa9BydSy7m3EUedz1wei5Hv1f4mLZY"; // This will be automatically populated by Canvas runtime
+        const categoryNames = {
+            foundation: '基础',
+            beginner: '初级',
+            intermediate: '中级',
+            advanced: '高级'
+        };
 
-        let speechSynth = window.speechSynthesis;
-        let voicesLoaded = false;
+        const levelNames = {
+            listening_speaking: '听力 & 口语',
+            reading_writing: '阅读 & 写作',
+            listening: '听力',
+            speaking: '口语',
+            reading: '阅读',
+            writing: '写作'
+        };
 
-
-        // --- Core View Management Functions ---
-        /**
-         * Switches to the specified view and updates view history.
-         * @param {string} viewId - The ID of the view to display.
-         * @param {boolean} [pushToHistory=true] - Whether to push the current view to the history stack.
-         */
-        function showView(viewId, pushToHistory = true) {
-            console.log(`[showView] Attempting to show view: ${viewId}. Current appState.currentView: ${appState.currentView}`);
-            // Hide all views
-            document.querySelectorAll('.view').forEach(view => {
-                view.classList.add('hidden');
+        // --- Utility Functions ---
+        function showView(viewName, pushState = true) {
+            Object.values(views).forEach(view => {
+                if (view.id === `${viewName}`) {
+                    view.classList.add('active');
+                } else {
+                    view.classList.remove('active');
+                    view.classList.add('fade-out');
+                }
             });
 
-            // Show the target view
-            document.getElementById(viewId).classList.remove('hidden');
+            setTimeout(() => {
+                Object.values(views).forEach(view => {
+                    if (view.id === `${viewName}`) {
+                        view.classList.remove('fade-out');
+                    }
+                });
+            }, 500);
 
-            // Update history
-            if (pushToHistory && appState.currentView !== viewId) { // Avoid adding current view repeatedly
-                appState.viewHistory.push(appState.currentView);
-                console.log(`[showView] Added ${appState.currentView} to history. History:`, appState.viewHistory);
+            appState.currentView = viewName;
+            updateBackButtonVisibility();
+
+            if (pushState) {
+                const url = new URL(window.location);
+                url.hash = viewName;
+                history.pushState(appState, '', url.toString());
             }
-            appState.currentView = viewId;
-
-            // Render content based on the view
-            renderViewContent(viewId);
-            console.log(`[showView] Finished showing view: ${viewId}`);
         }
 
-        /**
-         * Renders the content of a specific view.
-         * @param {string} viewId - The ID of the current view.
-         */
-        function renderViewContent(viewId) {
-            console.log(`[renderViewContent] Rendering content for view: ${viewId}`);
-            // Clear classes from selectionContent, reset on each render
-            if (selectionContent) { // Check if selectionContent exists before manipulating
-                selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
+        function updateBackButtonVisibility() {
+            if (appState.currentView === 'access-view') {
+                backButton.classList.add('hidden');
+            } else {
+                backButton.classList.remove('hidden');
             }
+        }
 
-
-            switch (viewId) {
-                case 'welcome-view':
-                    appState.viewHistory = [];
+        function goBack() {
+            if (appState.currentView === 'welcome-view') {
+                showView('access-view', false);
+            } else if (appState.currentView === 'selection-view') {
+                if (appState.selectedLevel) {
+                    appState.selectedLevel = '';
+                    renderCategorySelection();
+                    showView('selection-view', false);
+                } else if (appState.selectedCategory) {
+                    appState.selectedCategory = '';
+                    showView('welcome-view', false);
+                } else {
+                    showView('welcome-view', false);
+                }
+            } else if (appState.currentView === 'test-view') {
+                showModal("提示", "当前测试进度将不会被保存，确定返回吗？", () => {
                     resetTestState();
-                    console.log('[renderViewContent] Resetting appState and history.');
-                    break;
-                case 'confirm-role-view':
-                    confirmedRoleSpan.textContent = appState.userRole === 'vip' ? 'VIP 学生' : '班课学生';
-                    console.log(`[renderViewContent] Confirmed role: ${appState.userRole}`);
-                    break;
-                case 'selection-view':
-                    // Logic to determine which selection stage to render (category, level, content type, unit)
-                    if (appState.selectedCategory && appState.selectedLevel && appState.selectedContentType === 'unit') {
-                        // If category, level, and content type (unit) are selected, render unit selection
-                        console.log('[renderViewContent] Selection view: Rendering unit selection.');
+                    if (appState.selectedContentType === 'unit' && appState.selectedCategory === 'foundation') {
+                        renderLevelSelection(appState.selectedCategory);
+                    } else if (appState.selectedLevel) {
                         renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
-                    } else if (appState.selectedCategory && appState.selectedLevel) {
-                        // If category and level are selected, but content type is not, render content type selection
-                        console.log('[renderViewContent] Selection view: Rendering content type selection.');
-                        renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
                     } else if (appState.selectedCategory) {
-                        // If only category is selected, render level selection
-                        console.log('[renderViewContent] Selection view: Rendering level selection.');
                         renderLevelSelection(appState.selectedCategory);
                     } else {
-                        // Otherwise (initial entry to selection view or returning from further back), render category selection
-                        console.log('[renderViewContent] Selection view: Initial render, rendering category selection.');
                         renderCategorySelection();
                     }
-                    break;
-                case 'info-view':
-                    studentNameInput.value = '';
-                    if (appState.userRole === 'class') {
-                        studentClassInput.classList.remove('hidden');
-                        studentClassInput.value = '';
-                    } else {
-                        studentClassInput.classList.add('hidden');
-                        studentClassInput.value = '';
-                    }
-                    studentNameInput.focus();
-                    console.log('[renderViewContent] Info view: Ready for student info.');
-                    break;
-                case 'test-view':
-                    console.log('[renderViewContent] Test view: Initializing test logic.');
-                    initializeTestLogic();
-                    break;
-                case 'results-view':
-                    console.log('[renderViewContent] Results view: Rendering final results.');
-                    renderFinalResults();
-                    break;
-            }
-        }
-
-        /**
-         * Navigates back to the previous view in history.
-         */
-        function goBack() {
-            console.log(`[goBack] Current view: ${appState.currentView}, History:`, appState.viewHistory);
-            if (appState.viewHistory.length > 0) {
-                const prevViewId = appState.viewHistory.pop();
-                console.log(`[goBack] Popped ${prevViewId} from history.`);
-
-                // Reset relevant state based on the current view we are leaving
-                if (appState.currentView === 'selection-view') {
-                    // When returning from selection view, clear subsequent selections based on the level returning to
-                    if (appState.selectedUnit || appState.selectedContentType === 'past') { // Returning from unit/past to content type selection
-                         appState.selectedUnit = '';
-                         appState.selectedContentType = '';
-                         console.log('[goBack] Resetting selectedUnit and selectedContentType.');
-                    } else if (appState.selectedLevel) { // Returning from content type selection to level selection
-                        appState.selectedLevel = '';
-                        console.log('[goBack] Resetting selectedLevel.');
-                    } else if (appState.selectedCategory) { // Returning from level selection to category selection
-                        appState.selectedCategory = '';
-                        console.log('[goBack] Resetting selectedCategory.');
-                    }
-                } else if (appState.currentView === 'info-view') {
-                    appState.studentName = '';
-                    appState.studentClass = '';
-                    console.log('[goBack] Resetting student info.');
-                } else if (appState.currentView === 'confirm-role-view') {
-                    appState.userRole = '';
-                    console.log('[goBack] Resetting user role.');
-                } else if (appState.currentView === 'test-view') {
-                    resetTestState();
-                    console.log('[goBack] Resetting test state from test view.');
-                } else if (appState.currentView === 'results-view') {
-                    resetTestState();
-                    console.log('[goBack] Resetting test state from results view.');
+                    showView('selection-view', false);
+                });
+            } else if (appState.currentView === 'results-view') {
+                resetTestState();
+                if (appState.selectedContentType === 'unit' && appState.selectedCategory === 'foundation') {
+                    renderLevelSelection(appState.selectedCategory);
+                } else if (appState.selectedLevel) {
+                    renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
+                } else if (appState.selectedCategory) {
+                    renderLevelSelection(appState.selectedCategory);
+                } else {
+                    renderCategorySelection();
                 }
-
-                showView(prevViewId, false); // Do not push to history again as it was just popped
-                console.log(`[goBack] Navigated to previous view: ${prevViewId}`);
+                showView('selection-view', false);
+            } else if (appState.currentView === 'access-view') {
+                backButton.classList.add('hidden');
             } else {
-                console.log('[goBack] History is empty, cannot go back.');
+                history.back();
             }
         }
 
-
-        // --- Rendering Functions for Vocabulary Selection Views ---
-        /**
-         * Renders the primary categories (Reading, Listening, Speaking, Writing, Foundation).
-         */
-        function renderCategorySelection() {
-            console.log('[renderCategorySelection] Starting to render category selection buttons.');
-            selectionTitle.textContent = '请选择分类';
-            selectionContent.innerHTML = ''; // Clear previous content
-            selectionContent.classList.add('grid-col-1-md-2');
-
-            const categories = Object.keys(vocabStructure);
-            
-            categories.forEach(category => {
-                const button = document.createElement('button');
-                button.classList.add('btn-selection-item'); // Apply base styles
-                if (appState.selectedCategory === category) {
-                    button.classList.add('btn-selection-item-selected'); // Mark as selected
+        function showModal(title, message, onCloseCallback = null) {
+            modalTitle.textContent = title;
+            modalMessage.textContent = message;
+            modalOverlay.classList.add('active');
+            modalCloseBtn.onclick = () => {
+                modalOverlay.classList.remove('active');
+                if (onCloseCallback) {
+                    onCloseCallback();
                 }
-                // New structure: Chinese text on top, English below, centered
+            };
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        function resetTestState() {
+            appState.currentTestVocabulary = [];
+            appState.shuffledTestVocabulary = [];
+            appState.currentWordIndex = 0;
+            appState.correctAnswersCount = 0;
+            appState.questionsAttempted = 0;
+            appState.incorrectAnswers = [];
+            appState.testStartTime = null;
+            answerInput.value = '';
+            checkAnswerBtn.classList.remove('hidden');
+            nextWordBtn.classList.add('hidden');
+            answerInput.classList.remove('border-success', 'border-error');
+            answerInput.disabled = false;
+            correctAnswerHint.textContent = '';
+        }
+
+        // Timer variables
+        let timerInterval;
+
+        function startTimer() {
+            appState.testStartTime = Date.now();
+            timerInterval = setInterval(updateTimer, 1000);
+        }
+
+        function updateTimer() {
+            const elapsedTime = Date.now() - appState.testStartTime;
+            const minutes = Math.floor(elapsedTime / 60000);
+            const seconds = Math.floor((elapsedTime % 60000) / 1000);
+            timerSpan.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+        }
+
+        function stopTimer() {
+            clearInterval(timerInterval);
+        }
+
+        function displayNextQuestion() {
+            answerInput.value = '';
+            answerInput.disabled = false;
+            answerInput.classList.remove('border-success', 'border-error');
+            checkAnswerBtn.classList.remove('hidden');
+            nextWordBtn.classList.add('hidden');
+            showAnswerBtn.classList.remove('hidden');
+            correctAnswerHint.textContent = '';
+
+            if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
+                const currentWord = appState.shuffledTestVocabulary[appState.currentWordIndex];
+                
+                const posHint = currentWord.pos ? ` (${currentWord.pos})` : '';
+                wordDisplay.textContent = currentWord.chinese + posHint;
+                
+                const englishWord = currentWord.english;
+                if (englishWord.includes(' ')) {
+                    const words = englishWord.split(' ');
+                    const hint = words.map(word => word.charAt(0) + '_'.repeat(word.length - 1)).join(' ');
+                    answerInput.placeholder = hint;
+                } else {
+                    answerInput.placeholder = englishWord.charAt(0) + '_'.repeat(englishWord.length - 1);
+                }
+                
+                // 更新进度显示格式
+                const remaining = appState.shuffledTestVocabulary.length - appState.currentWordIndex - 1;
+                questionCountSpan.textContent = `当前：第 ${appState.currentWordIndex + 1} / ${appState.shuffledTestVocabulary.length} 词 (还剩 ${remaining} 词)`;
+                
+                updateProgressBar();
+                answerInput.focus();
+            } else {
+                stopTimer();
+                showResults();
+            }
+        }
+
+        function updateProgressBar() {
+            const progress = (appState.currentWordIndex / appState.shuffledTestVocabulary.length) * 100;
+            progressBar.style.width = `${progress}%`;
+        }
+
+        // 新增：自动朗读单词
+        function speakWord(word) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(word);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9; // 稍慢的语速
+                window.speechSynthesis.speak(utterance);
+            } else {
+                console.log('您的浏览器不支持语音合成');
+            }
+        }
+
+        function checkCurrentAnswer() {
+            appState.questionsAttempted++;
+            const currentWord = appState.shuffledTestVocabulary[appState.currentWordIndex];
+            const userAnswer = answerInput.value.trim();
+
+            const correctAnswers = currentWord.english.split('/').map(ans => ans.trim());
+
+            const isCorrect = correctAnswers.some(correct => userAnswer.toLowerCase() === correct.toLowerCase());
+
+            if (isCorrect) {
+                appState.correctAnswersCount++;
+                answerInput.classList.remove('border-error');
+                answerInput.classList.add('border-success');
+            } else {
+                answerInput.classList.remove('border-success');
+                answerInput.classList.add('border-error');
+                appState.incorrectAnswers.push({
+                    word: currentWord.english,
+                    correctTranslation: currentWord.chinese,
+                    yourAnswer: userAnswer
+                });
+                correctAnswerHint.textContent = `正确答案: ${currentWord.english}`;
+            }
+
+            answerInput.disabled = true;
+            checkAnswerBtn.classList.add('hidden');
+            nextWordBtn.classList.remove('hidden');
+            showAnswerBtn.classList.add('hidden');
+
+            // 无论对错，都朗读正确单词
+            speakWord(currentWord.english);
+        }
+
+        function nextWord() {
+            appState.currentWordIndex++;
+            displayNextQuestion();
+        }
+
+        function showAnswer() {
+            const currentWord = appState.shuffledTestVocabulary[appState.currentWordIndex];
+            answerInput.value = currentWord.english;
+            answerInput.disabled = true;
+            answerInput.classList.remove('border-success', 'border-error');
+            checkAnswerBtn.classList.add('hidden');
+            nextWordBtn.classList.remove('hidden');
+            showAnswerBtn.classList.add('hidden');
+            appState.incorrectAnswers.push({
+                word: currentWord.english,
+                correctTranslation: currentWord.chinese,
+                yourAnswer: '（未作答/查看答案）'
+            });
+            appState.questionsAttempted++;
+            correctAnswerHint.textContent = `正确答案: ${currentWord.english}`;
+
+            // 朗读正确单词
+            speakWord(currentWord.english);
+        }
+
+        function showResults() {
+            showView('results-view');
+            resultsStudentName.textContent = appState.studentName || 'N/A';
+            resultsStudentClass.textContent = appState.studentClass || 'N/A';
+            correctCountSpan.textContent = appState.correctAnswersCount;
+            totalQuestionsSpan.textContent = appState.shuffledTestVocabulary.length;
+            attemptedCountSpan.textContent = appState.questionsAttempted;
+            
+            const accuracy = appState.questionsAttempted > 0 ? 
+                (appState.correctAnswersCount / appState.questionsAttempted) * 100 : 0;
+            accuracyRateSpan.textContent = accuracy.toFixed(1) + '%';
+
+            const finalElapsedTime = Date.now() - appState.testStartTime;
+            const minutes = Math.floor(finalElapsedTime / 60000);
+            const seconds = Math.floor((finalElapsedTime % 60000) / 1000);
+            timeTakenSpan.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            renderIncorrectWords();
+        }
+
+        function renderIncorrectWords() {
+            incorrectWordsListDiv.innerHTML = '<h3>错题回顾</h3><ul></ul>';
+            const ul = incorrectWordsListDiv.querySelector('ul');
+
+            if (appState.incorrectAnswers.length === 0) {
+                incorrectWordsListDiv.innerHTML = '<h3 class="text-green-600">恭喜！全部正确！</h3>';
+                return;
+            }
+
+            appState.incorrectAnswers.forEach(item => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <div class="word-pair">
+                        <div>${item.correctTranslation}</div>
+                        <div>
+                            <span class="your-answer">你的答案: ${item.yourAnswer}</span><br>
+                            <span class="correct-answer">正确答案: ${item.word}</span>
+                        </div>
+                    </div>
+                    <button class="speaker-icon" data-word="${item.word}" aria-label="Listen to word"><i class="fas fa-volume-up"></i></button>
+                `;
+                ul.appendChild(li);
+            });
+
+            ul.querySelectorAll('.speaker-icon').forEach(button => {
+                button.addEventListener('click', (event) => {
+                    const wordToSpeak = event.currentTarget.dataset.word;
+                    speakWord(wordToSpeak);
+                });
+            });
+        }
+
+        function handleShareResults() {
+            const resultsData = {
+                studentName: appState.studentName,
+                studentClass: appState.studentClass,
+                correctAnswersCount: appState.correctAnswersCount,
+                totalQuestions: appState.shuffledTestVocabulary.length,
+                timeTaken: timerSpan.textContent,
+                incorrectAnswers: appState.incorrectAnswers.map(item => ({
+                    word: item.word,
+                    correctTranslation: item.correctTranslation,
+                    yourAnswer: item.yourAnswer
+                }))
+            };
+
+            const encodedResults = btoa(encodeURIComponent(JSON.stringify(resultsData)));
+            const shareUrl = `${window.location.origin}${window.location.pathname}#results=${encodedResults}`;
+
+            navigator.clipboard.writeText(shareUrl).then(() => {
+                showModal('分享链接已复制', '您可以将链接分享给您的朋友！');
+            }).catch(err => {
+                console.error('复制分享链接失败:', err);
+                alert('复制分享链接失败，请手动复制：\n' + shareUrl);
+            });
+        }
+
+        function decodeAndPopulateResults(encodedResults) {
+            try {
+                const decodedJsonString = decodeURIComponent(atob(encodedResults));
+                const results = JSON.parse(decodedJsonString);
+
+                appState.studentName = results.studentName || 'N/A';
+                appState.studentClass = results.studentClass || 'N/A';
+                appState.correctAnswersCount = results.correctAnswersCount || 0;
+                appState.shuffledTestVocabulary = new Array(results.totalQuestions || 0).fill({});
+                appState.incorrectAnswers = results.incorrectAnswers || [];
+                timerSpan.textContent = results.timeTaken || '00:00';
+                timeTakenSpan.textContent = results.timeTaken || '00:00';
+
+                return true;
+            } catch (e) {
+                console.error('Error decoding shared results:', e);
+                return false;
+            }
+        }
+
+        // --- Event Listeners ---
+        accessSubmitBtn.addEventListener('click', () => {
+            if (accessCodeInput.value.trim() !== "1314") {
+                showModal('提示', '测验码不正确，请重新输入');
+                return;
+            }
+            showView('welcome-view');
+        });
+
+        startSelectionBtn.addEventListener('click', () => {
+            if (!studentNameInput.value.trim()) {
+                showModal('提示', '请输入您的姓名');
+                return;
+            }
+            
+            appState.studentName = studentNameInput.value;
+            appState.studentClass = studentClassInput.value;
+            renderCategorySelection();
+            showView('selection-view');
+        });
+
+        backButton.addEventListener('click', goBack);
+        modalCloseBtn.addEventListener('click', () => modalOverlay.classList.remove('active'));
+
+        checkAnswerBtn.addEventListener('click', checkCurrentAnswer);
+        nextWordBtn.addEventListener('click', nextWord);
+        showAnswerBtn.addEventListener('click', showAnswer);
+        finishTestBtn.addEventListener('click', () => showModal("结束测试", "确定要结束当前测试吗？", () => {
+            stopTimer();
+            showResults();
+        }));
+        retakeTestBtn.addEventListener('click', () => {
+            resetTestState();
+            startTest();
+        });
+        newTestBtn.addEventListener('click', () => {
+            resetTestState();
+            renderCategorySelection();
+            showView('selection-view');
+        });
+        shareResultsBtn.addEventListener('click', handleShareResults);
+
+        // 全局回车键支持
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                // 测验码页面
+                if (appState.currentView === 'access-view') {
+                    accessSubmitBtn.click();
+                }
+                // 欢迎页面
+                else if (appState.currentView === 'welcome-view') {
+                    startSelectionBtn.click();
+                }
+                // 测试页面
+                else if (appState.currentView === 'test-view') {
+                    if (!checkAnswerBtn.classList.contains('hidden')) {
+                        checkAnswerBtn.click();
+                    } else if (!nextWordBtn.classList.contains('hidden')) {
+                        nextWordBtn.click();
+                    }
+                }
+            }
+        });
+
+        // --- Render Functions for Selections ---
+        function renderCategorySelection() {
+            selectionTitle.textContent = '选择类别';
+            selectionContent.innerHTML = '';
+            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3');
+            selectionContent.classList.add('grid-col-2-md-3');
+
+            Object.keys(vocabStructure).forEach(category => {
+                const button = document.createElement('button');
+                button.classList.add('btn-selection-item');
+                if (appState.selectedCategory === category) {
+                    button.classList.add('btn-selection-item-selected');
+                }
                 button.innerHTML = `
                     <p class="chinese-text">${categoryNames[category]}</p>
-                    <p class="english-text">${capitalizeFirstLetter(category)}</p>
+                    <p class="english-text">${category.charAt(0).toUpperCase() + category.slice(1)}</p>
                 `;
                 button.dataset.category = category;
-                button.addEventListener('click', (event) => {
-                    console.log(`[Click] Category button "${category}" clicked! Event target:`, event.target);
+                button.addEventListener('click', () => {
                     appState.selectedCategory = category;
-                    appState.selectedLevel = ''; // Reset next levels down
+                    appState.selectedLevel = '';
                     appState.selectedContentType = '';
                     appState.selectedUnit = '';
-                    showView('selection-view'); // Re-render selection-view to next level
+                    renderLevelSelection(category);
                 });
                 selectionContent.appendChild(button);
-                console.log(`[renderCategorySelection] Appended button for ${category}.`);
             });
-            console.log('[renderCategorySelection] Finished rendering category selection buttons.');
+            startTestBtn.classList.add('hidden');
         }
 
-        /**
-         * Renders the secondary levels (Beginner, Intermediate, Advanced, Listening & Speaking, Reading & Writing).
-         * @param {string} category - The selected primary category.
-         */
         function renderLevelSelection(category) {
-            console.log(`[renderLevelSelection] Starting to render level selection buttons for category: ${category}.`);
             selectionTitle.textContent = `选择 ${categoryNames[category]} 难度`;
             selectionContent.innerHTML = '';
-            // Adjust grid layout based on number of levels (e.g., 2 for foundation, 3 for others)
+
             const levels = Object.keys(vocabStructure[category]);
-            if (levels.length === 2) { // For Foundation: 听口, 阅写
+            if (levels.length === 2) {
                 selectionContent.classList.add('grid-col-1-md-2');
-            } else { // For other categories: Beginner, Intermediate, Advanced
+            } else {
                 selectionContent.classList.add('grid-col-2-md-3');
             }
 
@@ -878,811 +1221,188 @@
                 if (appState.selectedLevel === level) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                // New structure: Chinese text on top, English below, centered, no parentheses
+
                 button.innerHTML = `
                     <p class="chinese-text">${levelNames[level]}</p>
-                    <p class="english-text">${capitalizeFirstLetter(level).replace(/_/g, ' & ')}</p> <!-- Handle 'listening_speaking' -->
+                    <p class="english-text">${level.replace(/_/g, ' & ')}</p>
                 `;
+
                 button.dataset.level = level;
                 button.addEventListener('click', (event) => {
-                    console.log(`[Click] Level button "${level}" clicked! Event target:`, event.target);
                     appState.selectedLevel = level;
-                    appState.selectedContentType = ''; // Reset next levels down
+                    appState.selectedContentType = '';
                     appState.selectedUnit = '';
-                    // For "Foundation" category, directly proceed to unit selection as there's no "past content" option.
-                    // For other categories, proceed to content type selection (unit/past).
+
                     if (category === 'foundation') {
-                        appState.selectedContentType = 'unit'; // Force 'unit' selection for foundation
-                        handleFinalSelection(); // Directly load vocabulary and proceed to info page
+                        appState.selectedContentType = 'unit';
+                        renderUnitSelection(appState.selectedCategory, appState.selectedLevel);
                     } else {
-                        showView('selection-view'); // Re-render selection-view to next level (content type)
+                        renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
                     }
                 });
+
                 selectionContent.appendChild(button);
-                console.log(`[renderLevelSelection] Appended button for level ${level}.`);
             });
-            console.log('[renderLevelSelection] Finished rendering level selection buttons.');
+            startTestBtn.classList.add('hidden');
         }
 
-        /**
-         * Renders the third-level content type selection (By Unit, By Past Content).
-         * This function is skipped for the 'foundation' category.
-         * @param {string} category - The selected primary category.
-         * @param {string} level - The selected secondary level.
-         */
         function renderContentTypeSelection(category, level) {
-            console.log(`[renderContentTypeSelection] Starting to render content type selection buttons for ${category}-${level}.`);
-            selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 内容类型`;
+            selectionTitle.textContent = `选择 ${levelNames[level]} 内容类型`;
             selectionContent.innerHTML = '';
+            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3');
             selectionContent.classList.add('grid-col-1-md-2');
 
-            // Always display 'By Unit' button
             const unitButton = document.createElement('button');
             unitButton.classList.add('btn-selection-item');
             if (appState.selectedContentType === 'unit') {
                 unitButton.classList.add('btn-selection-item-selected');
             }
-            unitButton.innerHTML = `<span>按照授课单元</span>`; // Keep it simple for now, can be split if needed
-            unitButton.dataset.contentType = 'unit';
-            unitButton.addEventListener('click', (event) => {
-                console.log(`[Click] Content type button "unit" clicked! Event target:`, event.target);
+            unitButton.innerHTML = `<p class="chinese-text">按单元</p><p class="english-text">By Unit</p>`;
+            unitButton.addEventListener('click', () => {
                 appState.selectedContentType = 'unit';
-                appState.selectedUnit = '';
-                showView('selection-view'); // Re-render selection-view to unit selection
+                renderUnitSelection(category, level);
             });
             selectionContent.appendChild(unitButton);
-            console.log('[renderContentTypeSelection] Appended button for content type unit.');
 
-
-            // Only display 'By Past Content' button if user is VIP and a past content file is defined for this category/level
-            const pastFileName = vocabStructure[category]?.[level]?.past;
-            if (appState.userRole === 'vip' && pastFileName) {
+            if (vocabStructure[category][level].past) {
                 const pastButton = document.createElement('button');
                 pastButton.classList.add('btn-selection-item');
                 if (appState.selectedContentType === 'past') {
                     pastButton.classList.add('btn-selection-item-selected');
                 }
-                pastButton.innerHTML = `<span>按照往期内容</span>`; // Keep it simple for now
-                pastButton.dataset.contentType = 'past';
-                pastButton.addEventListener('click', (event) => {
-                    console.log(`[Click] Content type button "past" clicked! Event target:`, event.target);
+                pastButton.innerHTML = `<p class="chinese-text">往期内容</p><p class="english-text">Past Content (All Units)</p>`;
+                pastButton.addEventListener('click', () => {
                     appState.selectedContentType = 'past';
-                    appState.selectedUnit = ''; // Reset unit when switching content type
-                    handleFinalSelection(); // Load vocabulary and proceed to info page
+                    appState.selectedUnit = 'all';
+                    startTestBtn.classList.remove('hidden');
+                    selectionContent.querySelectorAll('.btn-selection-item').forEach(btn => btn.classList.remove('btn-selection-item-selected'));
+                    pastButton.classList.add('btn-selection-item-selected');
                 });
                 selectionContent.appendChild(pastButton);
-                console.log('[renderContentTypeSelection] Appended button for content type past (VIP only).');
-            } else if (appState.userRole === 'class') {
-                console.log('[renderContentTypeSelection] Hiding "past" option for class student as per requirement.');
-            } else if (!pastFileName) {
-                console.log('[renderContentTypeSelection] Hiding "past" option, no past file defined for this selection in vocabStructure.');
             }
 
-            console.log('[renderContentTypeSelection] Finished rendering content type selection buttons.');
+            if (!appState.selectedContentType || appState.selectedContentType === 'unit') {
+                startTestBtn.classList.add('hidden');
+            }
         }
 
-        /**
-         * Renders the unit selection (based on units configured in vocabStructure).
-         * @param {string} category - The selected primary category.
-         * @param {string} level - The selected secondary level.
-         */
         function renderUnitSelection(category, level) {
-            console.log(`[renderUnitSelection] Starting to render unit selection buttons for ${category}-${level}.`);
-            selectionTitle.textContent = `选择 ${categoryNames[category]} ${levelNames[level]} 授课单元`;
+            selectionTitle.textContent = `选择 ${levelNames[level]} 单元`;
             selectionContent.innerHTML = '';
-            selectionContent.classList.add('grid-col-3-md-5');
+            selectionContent.classList.remove('grid-col-1-md-2');
+            selectionContent.classList.add('grid-col-2-md-3');
 
-            const unitsAvailable = vocabStructure[category]?.[level]?.unit;
-            if (!unitsAvailable || unitsAvailable.length === 0) {
-                selectionContent.innerHTML = '<p class="text-gray-600">当前难度暂无单元词库。</p>';
-                console.log('[renderUnitSelection] No units available for this selection.');
-                return;
-            }
-
-            unitsAvailable.forEach(unitFileName => {
-                const unitNumberMatch = unitFileName.match(/unit(\d+)\.json/);
-                const unitNumber = unitNumberMatch ? unitNumberMatch[1] : unitFileName;
-
+            const units = vocabStructure[category][level].unit;
+            units.forEach((unitPath, index) => {
+                const unitNumber = index + 1;
                 const button = document.createElement('button');
                 button.classList.add('btn-selection-item');
-                 if (appState.selectedUnit === unitFileName) {
+                if (appState.selectedUnit === `Unit${unitNumber}`) {
                     button.classList.add('btn-selection-item-selected');
                 }
-                button.innerHTML = `<span>单元 ${unitNumber}</span>`; // Keep it simple for now
-                button.dataset.unit = unitFileName;
-                button.addEventListener('click', (event) => {
-                    console.log(`[Click] Unit button "${unitFileName}" clicked! Event target:`, event.target);
-                    appState.selectedUnit = unitFileName;
-                    handleFinalSelection(); // Load vocabulary and proceed to info page
+                button.innerHTML = `
+                    <p class="chinese-text">单元 ${unitNumber}</p>
+                    <p class="english-text">Unit ${unitNumber}</p>
+                `;
+                button.dataset.unit = `Unit${unitNumber}`;
+                button.addEventListener('click', () => {
+                    appState.selectedUnit = `Unit${unitNumber}`;
+                    appState.selectedContentType = 'unit';
+                    startTestBtn.classList.remove('hidden');
+                    selectionContent.querySelectorAll('.btn-selection-item').forEach(btn => btn.classList.remove('btn-selection-item-selected'));
+                    button.classList.add('btn-selection-item-selected');
                 });
                 selectionContent.appendChild(button);
-                console.log(`[renderUnitSelection] Appended button for unit ${unitNumber}.`);
             });
-            console.log('[renderUnitSelection] Finished rendering unit selection buttons.');
+             if (appState.selectedUnit || appState.selectedContentType === 'past') {
+                startTestBtn.classList.remove('hidden');
+            } else {
+                startTestBtn.classList.add('hidden');
+            }
         }
 
-        /**
-         * Handles the final selection and loads vocabulary data.
-         */
+        // --- Final Selection Handler ---
+        startTestBtn.addEventListener('click', handleFinalSelection);
+
         async function handleFinalSelection() {
-            console.log('[handleFinalSelection] Starting vocabulary loading...');
-            let jsonFileName = '';
-            if (appState.selectedContentType === 'unit') {
-                jsonFileName = appState.selectedUnit;
-            } else { // 'past'
-                jsonFileName = vocabStructure[appState.selectedCategory][appState.selectedLevel].past;
-            }
-            const jsonPath = `data/${jsonFileName}`;
-            console.log(`[handleFinalSelection] Attempting to load JSON from: ${jsonPath}`);
-
             selectionContent.innerHTML = '<p class="text-xl text-gray-600 animate-pulse">加载词汇中，请稍候...</p>';
-            selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3', 'grid-col-3-md-5');
-            selectionContent.classList.add('flex', 'justify-center', 'items-center', 'py-10');
-
 
             try {
-                const response = await fetch(jsonPath);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status} from ${jsonPath}`);
+                if (appState.selectedContentType === 'unit') {
+                    const unitIndex = parseInt(appState.selectedUnit.replace('Unit', '')) - 1;
+                    const jsonFilePath = vocabStructure[appState.selectedCategory][appState.selectedLevel].unit[unitIndex];
+                    
+                    const response = await fetch(jsonFilePath);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    appState.currentTestVocabulary = await response.json();
+                } else if (appState.selectedContentType === 'past') {
+                    const unitFiles = vocabStructure[appState.selectedCategory][appState.selectedLevel].unit;
+                    
+                    const promises = unitFiles.map(file => 
+                        fetch(file)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error(`Failed to load ${file}: ${response.status}`);
+                                }
+                                return response.json();
+                            })
+                    );
+                    
+                    const results = await Promise.all(promises);
+                    appState.currentTestVocabulary = results.flat();
+                } else {
+                    throw new Error('无效的内容类型: ' + appState.selectedContentType);
                 }
-                appState.currentTestVocabulary = await response.json();
 
                 if (!appState.currentTestVocabulary || appState.currentTestVocabulary.length === 0) {
-                    console.warn('[handleFinalSelection] Loaded vocabulary is empty.');
-                    showModal('所选词库为空，请选择其他词库或联系老师添加词汇。');
-                    goBack();
-                    return;
+                    throw new Error('加载的词汇为空，请检查文件内容');
                 }
-
-                console.log('[handleFinalSelection] Loaded vocabulary for test:', appState.currentTestVocabulary);
-                showView('info-view'); // Proceed to student info view
-
-            } catch (error) {
-                console.error('[handleFinalSelection] Vocabulary loading error:', error);
-                showModal(`加载词库失败: ${error.message}。请检查以下文件是否存在且格式正确: ${jsonPath}。`);
-                goBack();
-            }
-        }
-
-        /**
-         * Resets all test-related state data.
-         */
-        function resetTestState() {
-            console.log('[resetTestState] Resetting all test-related state.');
-            appState.currentTestVocabulary = [];
-            appState.shuffledTestVocabulary = [];
-            appState.currentWordIndex = 0;
-            appState.correctAnswersCount = 0;
-            appState.questionsAttempted = 0;
-            appState.incorrectAnswers = [];
-            appState.testStartTime = null;
-            appState.testEndTime = null; // Reset test end time (NEW)
-        }
-
-        /**
-         * Helper function to format duration.
-         * @param {number} totalSeconds - Total seconds of duration.
-         * @returns {string} Formatted duration string (e.g., "05m 30s").
-         */
-        function formatDuration(totalSeconds) {
-            const minutes = Math.floor(totalSeconds / 60);
-            const seconds = totalSeconds % 60;
-            const pad = (num) => num.toString().padStart(2, '0');
-            return `${pad(minutes)}m ${pad(seconds)}s`;
-        }
-
-        // --- Dictation Test Core Logic ---
-        function initializeTestLogic() {
-            console.log('[initializeTestLogic] Initializing test logic...');
-            appState.shuffledTestVocabulary = shuffleArray([...appState.currentTestVocabulary]);
-            appState.currentWordIndex = 0;
-            appState.correctAnswersCount = 0;
-            appState.questionsAttempted = 0;
-            appState.incorrectAnswers = [];
-            appState.testStartTime = Date.now(); // Record start time in milliseconds (NEW)
-
-            // Ensure test view UI elements are correctly visible at the start of a new test
-            answerInput.value = ''; // Clear input field
-            answerInput.classList.remove('feedback-correct', 'feedback-incorrect', 'hidden'); // Remove feedback classes and unhide
-            answerInput.readOnly = false; // Ensure input is writable
-            answerInput.focus();
-
-            // Example button is disabled by default, only enabled after checkAnswerBtn is clicked
-            getExampleBtn.classList.remove('hidden'); // Ensure example button is visible
-            getExampleBtn.disabled = true; // Initially disable example button (NEW LOGIC)
-
-            checkAnswerBtn.classList.remove('hidden'); // Ensure check button is visible
-            nextWordBtn.classList.add('hidden'); // Hide next button initially
-
-            endTestBtn.classList.remove('hidden'); // Ensure end test button is always visible during test
-            feedbackMessage.textContent = ''; // Clear feedback message
-            feedbackMessage.classList.remove('text-green-600', 'text-red-600');
-            
-            exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文'; // Reset example sentence display
-            exampleSentenceDisplay.classList.remove('hidden'); // Ensure example display is visible
-            
-            testProgressDisplay.classList.remove('hidden'); // Ensure progress display is visible
-
-            loadQuestion();
-            console.log('[initializeTestLogic] Test initialized and first question loaded.');
-        }
-
-        function loadQuestion() {
-            console.log(`[loadQuestion] Loading question ${appState.currentWordIndex + 1} / ${appState.shuffledTestVocabulary.length}...`);
-
-            // Check if all unique words in the shuffled list have been presented
-            if (appState.currentWordIndex >= appState.shuffledTestVocabulary.length) {
-                // All words completed for this shuffled session
-                questionDisplay.textContent = '已完成全部词汇测验！';
-                testProgressDisplay.textContent = ''; // Clear progress display
-                answerInput.value = ''; // Clear input
-                answerInput.classList.add('hidden'); // Hide input
-                answerInput.readOnly = true; // Make sure it's read-only
-                feedbackMessage.textContent = '请点击 "结束测试" 查看结果。';
-                feedbackMessage.classList.remove('text-green-600', 'text-red-600');
-                exampleSentenceDisplay.textContent = ''; // Clear example
-                exampleSentenceDisplay.classList.add('hidden'); // Hide example display
-                getExampleBtn.classList.add('hidden'); // Hide example button
-                checkAnswerBtn.classList.add('hidden'); // Hide check button
-                nextWordBtn.classList.add('hidden'); // Hide next button
-                // endTestBtn is already visible in initializeTestLogic and should remain so
-
-                console.log('[loadQuestion] All vocabulary completed. Prompting user to end test.');
-                return; // Stop loading new questions
-            }
-
-            // Update progress display
-            const totalWords = appState.shuffledTestVocabulary.length;
-            const wordsRemaining = totalWords - appState.currentWordIndex - 1;
-            testProgressDisplay.textContent = `当前：第 ${appState.currentWordIndex + 1} / ${totalWords} 词 (还剩 ${wordsRemaining} 词)`;
-
-
-            // Normal loading of a question
-            const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
-            
-            // --- Part of Speech (POS) hint ---
-            let chineseDisplay = currentPair.chinese;
-            if (currentPair.pos) { // Check if 'pos' field exists in the vocabulary item
-                chineseDisplay += ` (${currentPair.pos})`;
-            }
-            questionDisplay.textContent = chineseDisplay;
-
-            // --- First-letter hint for phrases and single words ---
-            let placeholderText = "在此输入英文词汇或短语...";
-            const englishWordForHint = currentPair.english.trim();
-            if (englishWordForHint.includes(' ')) { // It's a phrase if it contains spaces
-                placeholderText = englishWordForHint.split(' ').map(word => {
-                    if (word.length > 0) {
-                        return word[0] + '_'.repeat(word.length - 1);
-                    }
-                    return '';
-                }).join(' ');
-            } else if (englishWordForHint.length > 0) { // Single word hint
-                 placeholderText = englishWordForHint[0] + '_'.repeat(englishWordForHint.length - 1);
-            }
-            answerInput.placeholder = placeholderText;
-
-            answerInput.value = '';
-            // Ensure input is visible and active for new question
-            answerInput.classList.remove('feedback-correct', 'feedback-incorrect', 'hidden');
-            answerInput.readOnly = false;
-            answerInput.focus();
-            feedbackMessage.textContent = '';
-            feedbackMessage.classList.remove('text-green-600', 'text-red-600');
-            nextWordBtn.classList.add('hidden'); // Hide next button until answered
-            checkAnswerBtn.classList.remove('hidden'); // Show check button
-            
-            getExampleBtn.disabled = true; // Disable example button until checked (NEW LOGIC)
-            exampleSentenceDisplay.textContent = '点击 "获取例句" 查看上下文'; // Reset example sentence
-            exampleSentenceDisplay.classList.remove('hidden'); // Ensure example display is visible
-            
-            console.log(`[loadQuestion] Displaying Chinese: "${currentPair.chinese}"`);
-        }
-
-        function checkCurrentAnswer() {
-            console.log('[checkCurrentAnswer] Checking answer...');
-            appState.questionsAttempted++;
-            const typedAnswer = answerInput.value.trim();
-            const correctEnglish = appState.shuffledTestVocabulary[appState.currentWordIndex].english.trim();
-
-            answerInput.readOnly = true;
-            getExampleBtn.disabled = false; // Enable example button after check (NEW LOGIC)
-
-            if (typedAnswer.toLowerCase() === correctEnglish.toLowerCase()) {
-                feedbackMessage.textContent = '正确！👍';
-                feedbackMessage.classList.remove('text-red-600');
-                feedbackMessage.classList.add('text-green-600');
-                answerInput.classList.add('feedback-correct');
-                appState.correctAnswersCount++;
-                playPronunciation(correctEnglish);
-                console.log('[checkCurrentAnswer] Answer correct.');
-            } else {
-                feedbackMessage.innerHTML = `错误！正确答案是: "${correctEnglish}"`;
-                feedbackMessage.appendChild(createPlayButton(correctEnglish));
-                feedbackMessage.classList.remove('text-green-600');
-                feedbackMessage.classList.add('text-red-600');
-                answerInput.classList.add('feedback-incorrect');
-                appState.incorrectAnswers.push({
-                    chinese: appState.shuffledTestVocabulary[appState.currentWordIndex].chinese,
-                    typed: typedAnswer,
-                    correct: correctEnglish
-                });
-                console.log(`[checkCurrentAnswer] Answer incorrect. Correct: "${correctEnglish}", Typed: "${typedAnswer}"`);
-            }
-
-            checkAnswerBtn.classList.add('hidden'); // Hide check button
-            // Only show next word button if not all words are completed
-            if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
-                nextWordBtn.classList.remove('hidden');
-            }
-            console.log('[checkCurrentAnswer] Answer checked. Ready for next word or end test.');
-        }
-
-        function nextWord() {
-  console.log('[nextWord] Moving to next word...');
-  appState.currentWordIndex++;
-  loadQuestion();
-}
-async function endTestSession() {
-  console.log('[endTestSession] Ending test session and saving results...');
-
-  appState.testEndTime = Date.now();
-  const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000);
-  const formattedTestDuration = formatDuration(totalDurationSeconds);
-
-  // 后面继续写你的结果收集逻辑...// Collect test results
-  const testResult = {
-                studentName: appState.studentName,
-                studentClass: appState.studentClass,
-                userRole: appState.userRole,
-                category: appState.selectedCategory,
-                level: appState.selectedLevel,
-                contentType: appState.selectedContentType,
-                unit: appState.selectedUnit,
-                correctAnswers: appState.correctAnswersCount,
-                totalQuestions: appState.questionsAttempted,
-                accuracy: appState.questionsAttempted > 0 ? (appState.correctAnswersCount / appState.questionsAttempted) * 100 : 0,
-                incorrectAnswersDetails: JSON.stringify(appState.incorrectAnswers), // Store as string for Firestore
-                timestamp: serverTimestamp(), // Use Firestore's server timestamp
-                userId: appState.userId, // Store Firebase User ID
-                testDuration: formattedTestDuration, // Store formatted duration (NEW)
-            };
-
-            // Save to Firestore
-            if (db && authReady) { // Ensure Firestore and Auth are ready
-                try {
-                    // Store in public collection for broader access if needed, or specific user's private collection
-                    // For now, let's use a public collection that you can read from as the teacher
-                    const collectionPath = `artifacts/${appId}/public/data/studentReports`;
-                    const docRef = await addDoc(collection(db, collectionPath), testResult);
-                    console.log("[Firestore] Document written with ID: ", docRef.id);
-                    // Optionally, show a success message to the student
-                    // showModal('测试报告已成功保存！');
-                } catch (e) {
-                    console.error("[Firestore] Error adding document: ", e);
-                    // showModal('保存测试报告失败，请检查网络或联系老师。');
-                }
-            } else {
-                console.warn("[Firestore] Firestore not initialized or Auth not ready. Test results will not be saved.");
-                // showModal('报告无法保存，请检查网络或稍后再试。');
-            }
-
-            showView('results-view');
-        }
-
-        function renderFinalResults() {
-            console.log('[renderFinalResults] Rendering final results...');
-            // Hide all interactive elements from the test view
-            answerInput.classList.add('hidden');
-            getExampleBtn.classList.add('hidden');
-            checkAnswerBtn.classList.add('hidden');
-            nextWordBtn.classList.add('hidden');
-            endTestBtn.classList.add('hidden');
-            feedbackMessage.classList.add('hidden');
-            exampleSentenceDisplay.classList.add('hidden');
-            testProgressDisplay.classList.add('hidden'); // Hide progress display on results page
-
-
-            // Populate results summary
-            summaryName.textContent = appState.studentName || '未填写';
-            if (appState.userRole === 'class') {
-                summaryClassRow.classList.remove('hidden');
-                summaryClass.textContent = appState.studentClass || '未填写';
-            } else {
-                summaryClassRow.classList.add('hidden');
-            }
-            // Display new test details (NEW)
-            summaryCategory.textContent = categoryNames[appState.selectedCategory] || '未知';
-            summaryLevel.textContent = levelNames[appState.selectedLevel] || '未知';
-            summaryContentType.textContent = (appState.selectedContentType === 'unit' ? '按单元' : '按往期') || '未知';
-            
-            if (appState.selectedContentType === 'unit' && appState.selectedUnit) {
-                summaryUnitRow.classList.remove('hidden');
-                const unitNumberMatch = appState.selectedUnit.match(/unit(\d+)\.json/);
-                summaryUnit.textContent = unitNumberMatch ? `单元 ${unitNumberMatch[1]}` : appState.selectedUnit;
-            } else {
-                summaryUnitRow.classList.add('hidden');
-            }
-
-            summaryDate.textContent = new Date().toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' });
-            
-            // Calculate and display test duration
-            const totalDurationSeconds = Math.floor((appState.testEndTime - appState.testStartTime) / 1000);
-            summaryDuration.textContent = formatDuration(totalDurationSeconds); // (NEW)
-            
-            let accuracy = 0;
-            if (appState.questionsAttempted > 0) {
-                accuracy = (appState.correctAnswersCount / appState.questionsAttempted) * 100;
-            }
-            summaryAccuracy.textContent = `${accuracy.toFixed(2)}% (${appState.correctAnswersCount} / ${appState.questionsAttempted})`;
-            
-            incorrectCountSpan.textContent = appState.incorrectAnswers.length;
-
-            // Populate list of incorrect answers
-            resultsList.innerHTML = '';
-            if (appState.incorrectAnswers.length === 0) {
-                resultsList.innerHTML = '<p class="text-green-700 font-semibold">太棒了！所有题目都正确！</p>';
-                console.log('[renderFinalResults] All answers correct!');
-            } else {
-                appState.incorrectAnswers.forEach(item => {
-                    const li = document.createElement('li');
-                    li.classList.add('mb-2', 'pb-2', 'border-b', 'border-gray-200', 'flex', 'flex-col');
-                    li.innerHTML = `
-                        <p><strong>中文:</strong> ${item.chinese}</p>
-                        <p class="flex items-center"><strong>您输入:</strong> <span class="text-red-600">${item.typed || '[未输入]'}</span></p>
-                        <p class="flex items-center"><strong>正确答案:</strong> <span class="text-green-600">${item.correct}</span></p>
-                    `;
-                    const correctSpan = li.querySelector('.text-green-600');
-                    if (correctSpan) {
-                        correctSpan.parentNode.appendChild(createPlayButton(item.correct));
-                    }
-                    resultsList.appendChild(li);
-                });
-                console.log(`[renderFinalResults] Displaying ${appState.incorrectAnswers.length} incorrect answers.`);
-            }
-            console.log('[renderFinalResults] Results rendering complete.');
-        }
-
-        /**
-         * Encodes test results into a Base64 string for URL sharing.
-         * Handles non-Latin1 characters.
-         * @returns {string} Base64 encoded JSON string of results.
-         */
-        function encodeResultsForShare() {
-            const resultsToShare = {
-                n: appState.studentName,
-                c: appState.studentClass,
-                r: appState.userRole,
-                cat: appState.selectedCategory,
-                lvl: appState.selectedLevel,
-                ct: appState.selectedContentType,
-                u: appState.selectedUnit,
-                ca: appState.correctAnswersCount,
-                tq: appState.questionsAttempted,
-                ia: appState.incorrectAnswers,
-                ts: appState.testStartTime, // NEW: Include start time for duration calculation
-                te: appState.testEndTime // NEW: Include end time for duration calculation
-            };
-            // Use encodeURIComponent to handle non-Latin1 characters before btoa
-            return btoa(encodeURIComponent(JSON.stringify(resultsToShare)));
-        }
-
-        /**
-         * Decodes shared results from a Base64 string and populates appState.
-         * Handles non-Latin1 characters.
-         * @param {string} encodedString - Base64 encoded string from URL.
-         * @returns {boolean} True if successful, false otherwise.
-         */
-        function decodeAndPopulateResults(encodedString) {
-            try {
-                // Decode from Base64, then decode URI components
-                const decodedJsonString = decodeURIComponent(atob(encodedString));
-                const decodedJson = JSON.parse(decodedJsonString);
                 
-                appState.studentName = decodedJson.n || '';
-                appState.studentClass = decodedJson.c || '';
-                appState.userRole = decodedJson.r || '';
-                appState.selectedCategory = decodedJson.cat || '';
-                appState.selectedLevel = decodedJson.lvl || '';
-                appState.selectedContentType = decodedJson.ct || '';
-                appState.selectedUnit = decodedJson.u || '';
-                appState.correctAnswersCount = decodedJson.ca || 0;
-                appState.questionsAttempted = decodedJson.tq || 0;
-                appState.incorrectAnswers = decodedJson.ia || [];
-                appState.testStartTime = decodedJson.ts || null; // NEW
-                appState.testEndTime = decodedJson.te || null;   // NEW
+                startTest();
 
-                console.log('[Share] Decoded results:', decodedJson);
-                return true;
             } catch (error) {
-                console.error('[Share] Failed to decode shared results:', error);
-                return false;
-            }
-        }
-
-        /**
-         * Handles sharing the test results.
-         */
-        async function handleShareResults() {
-            const encodedResults = encodeResultsForShare();
-            const shareUrl = `${window.location.origin}${window.location.pathname}#results=${encodedResults}`;
-
-            // Use document.execCommand('copy') for better iframe compatibility
-            const dummyInput = document.createElement('textarea');
-            document.body.appendChild(dummyInput);
-            dummyInput.value = shareUrl;
-            dummyInput.select();
-            try {
-                document.execCommand('copy');
-                showModal('分享链接已复制到剪贴板！');
-            } catch (err) {
-                console.error('Failed to copy text: ', err);
-                showModal('复制链接失败，请手动复制：' + shareUrl);
-            }
-            document.body.removeChild(dummyInput);
-        }
-
-        // --- Speech Synthesis and LLM Example Sentence Functions ---
-
-        /**
-         * Plays the pronunciation of a given word.
-         * @param {string} word - The word to pronounce.
-         */
-        function playPronunciation(word) {
-            console.log(`[playPronunciation] Attempting to play: "${word}"`);
-            if (!speechSynth || !voicesLoaded) {
-                console.warn('SpeechSynthesis API not ready or supported in this browser. Pronunciation will not work.');
-                return;
-            }
-            if (speechSynth.speaking) {
-                speechSynth.cancel();
-                console.log('[playPronunciation] Cancelling previous speech.');
-            }
-            const utterance = new SpeechSynthesisUtterance(word);
-            utterance.lang = 'en-US';
-            utterance.volume = 1;
-            utterance.rate = 1;
-            utterance.pitch = 1;
-            speechSynth.speak(utterance);
-            console.log(`[playPronunciation] Spoke: "${word}"`);
-        }
-
-        /**
-         * Creates and returns a play button element.
-         * @param {string} wordToSpeak - The word to be spoken when the button is clicked.
-         * @returns {HTMLButtonElement} The play button element.
-         */
-        function createPlayButton(wordToSpeak) {
-            const button = document.createElement('button');
-            button.classList.add('play-button');
-            button.innerHTML = '<i class="fas fa-volume-up"></i>';
-            button.title = `播放 "${wordToSpeak}" 的发音`;
-            button.addEventListener('click', (e) => {
-                e.stopPropagation();
-                playPronunciation(wordToSpeak);
-            });
-            return button;
-        }
-
-        /**
-         * Generates an example sentence using the Gemini API (gemini-2.0-flash).
-         * NEW LOGIC: Only callable when button is enabled (after answer check).
-         * Only retrieves ONE sentence, stripping preambles.
-         */
-        async function getExampleSentence() {
-            console.log('[getExampleSentence] Attempting to get example sentence...');
-            const currentPair = appState.shuffledTestVocabulary[appState.currentWordIndex];
-            const englishWord = currentPair.english;
-
-            exampleSentenceDisplay.innerHTML = '<div class="loading-spinner"></div>';
-            getExampleBtn.disabled = true; // Disable while fetching
-            console.log(`[getExampleSentence] Prompting LLM for example of: "${englishWord}"`);
-
-            try {
-                // Refined prompt to explicitly ask for just the sentence and no preamble
-                const prompt = `请提供一个关于英文词汇或短语 "${englishWord}" 的例句。例句需适合中级英语学习者，且句子内容避免过于简单或过于复杂。只给出例句本身，不要包含任何引导性的文字，例如“例句是：”或者“这是一个例句：”等。`;
-                let chatHistory = [];
-                chatHistory.push({ role: "user", parts: [{ text: prompt }] });
-                const payload = { contents: chatHistory };
-
-                const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${geminiApiKey}`;
-                const response = await fetch(apiUrl, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-
-                const result = await response.json();
-
-                if (result.candidates && result.candidates.length > 0 &&
-                    result.candidates[0].content && result.candidates[0].content.parts &&
-                    result.candidates[0].content.parts.length > 0) {
-                    let text = result.candidates[0].content.parts[0].text;
-                    // Aggressively remove common preambles and trailing quotation marks
-                    text = text.replace(/^(例句是|这是一个例句|例句|答案|Here's an example|Here's an example sentence|Example sentence is|Example|Sentence):?\s*["“]?/, '')
-                               .replace(/["”]?\s*$/, '') // Remove trailing quotes
-                               .trim();
-                    // Ensure it ends with punctuation if it's missing (simple check)
-                    if (!/[.!?]$/.test(text)) {
-                        text += '.';
-                    }
-
-                    exampleSentenceDisplay.textContent = `例句: ${text}`; // Keep "例句: " for display clarity
-                    console.log(`[getExampleSentence] LLM example received (processed): "${text}"`);
+                console.error('[handleFinalSelection] 文件加载失败:', error);
+                showModal('错误', `词汇加载失败: ${error.message}`);
+                
+                if (appState.selectedCategory === 'foundation') {
+                    renderLevelSelection(appState.selectedCategory);
                 } else {
-                    exampleSentenceDisplay.textContent = '无法生成例句。请稍后再试。';
-                    console.error('[getExampleSentence] LLM response structure unexpected:', result);
-                }
-            } catch (error) {
-                exampleSentenceDisplay.textContent = '获取例句失败。请检查网络或稍后再试。';
-                console.error('Error calling LLM API:', error);
-            } finally {
-                // After fetching, re-enable the button if the current state allows it (answer checked)
-                // This ensures it stays clickable if a fetch error occurs.
-                // The main control for enable/disable is in checkCurrentAnswer/loadQuestion.
-                if (answerInput.readOnly) { // If answer is already checked (input is readOnly)
-                    getExampleBtn.disabled = false;
+                    renderContentTypeSelection(appState.selectedCategory, appState.selectedLevel);
                 }
             }
         }
 
-
-        // --- Helper Mapping Objects (for display) ---
-        const categoryNames = {
-            reading: '阅读', listening: '听力', speaking: '口语', writing: '写作',
-            foundation: '基础' // NEW
-        };
-        const levelNames = {
-            beginner: '初级', intermediate: '中级', advanced: '高级',
-            listening_speaking: '听口', // NEW
-            reading_writing: '阅写'    // NEW
-        };
-        function capitalizeFirstLetter(string) {
-            if (!string) return '';
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
-
-        /**
-         * Utility function to shuffle an array.
-         * @param {Array} array
-         * @returns {Array}
-         */
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
-            }
-            return array;
-        }
-
-        // --- Custom Modal Function (replaces alert/confirm) ---
-        function showModal(message) {
-            const modalHtml = `
-                <div id="custom-modal" class="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
-                    <div class="bg-white p-8 rounded-lg shadow-xl max-w-sm w-full text-center">
-                        <p class="text-lg font-semibold mb-6">${message}</p>
-                        <button id="modal-ok-btn" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full transition duration-200">确定</button>
-                    </div>
-                </div>
-            `;
-            document.body.insertAdjacentHTML('beforeend', modalHtml);
-            document.getElementById('modal-ok-btn').addEventListener('click', () => {
-                document.getElementById('custom-modal').remove();
-            });
-        }
-
-
-        // --- Speech Synthesis Initialization ---
-        if (speechSynth) {
-            speechSynth.onvoiceschanged = () => {
-                voicesLoaded = true;
-                console.log('[SpeechSynthesis] Voices loaded.');
-            };
-            if (speechSynth.getVoices().length > 0) {
-                voicesLoaded = true;
-                console.log('[SpeechSynthesis] Voices already available.');
-            }
-        } else {
-            console.warn('[SpeechSynthesis] 浏览器不支持 SpeechSynthesis API。发音功能将不可用。');
-        }
-
-
-        // --- Event Listeners ---
-        vipStudentBtn.addEventListener('click', () => {
-            console.log('[Event] VIP Student button clicked.');
-            appState.userRole = 'vip';
-            showView('confirm-role-view');
-        });
-
-        classStudentBtn.addEventListener('click', () => {
-            console.log('[Event] Class Student button clicked.');
-            appState.userRole = 'class';
-            showView('confirm-role-view');
-        });
-
-        confirmBackBtn.addEventListener('click', goBack);
-
-        confirmRoleContinueBtn.addEventListener('click', () => {
-            console.log('[Event] Confirm Role Continue button clicked.');
-            appState.viewHistory = []; // From confirm-role-view, always start a fresh history for selection
-            showView('selection-view');
-        });
-
-        selectionBackBtn.addEventListener('click', goBack);
-
-        // Start Test button on student info page
-        startTestBtn.addEventListener('click', () => {
-            console.log('[Event] Start Test button clicked.');
-            appState.studentName = studentNameInput.value.trim();
-            if (appState.userRole === 'class') {
-                appState.studentClass = studentClassInput.value.trim();
-            } else {
-                appState.studentClass = ''; // VIP students don't have a class
-            }
-
-            if (!appState.studentName) {
-                showModal('请输入您的姓名才能开始测试！');
-                console.warn('[Event] Student name not entered.');
+        function startTest() {
+            if (appState.currentTestVocabulary.length === 0) {
+                showModal('错误', '词汇表未加载。请返回重新选择。', () => goBack());
                 return;
             }
-            showView('test-view'); // Navigate to the test view
-        });
-        infoBackBtn.addEventListener('click', goBack);
 
-        // Buttons for the dictation test view
-        checkAnswerBtn.addEventListener('click', checkCurrentAnswer);
-        nextWordBtn.addEventListener('click', nextWord);
-        endTestBtn.addEventListener('click', endTestSession); // Call function to end test session
-        getExampleBtn.addEventListener('click', getExampleSentence);
-        testBackBtn.addEventListener('click', goBack); // Back button for test view
+            appState.shuffledTestVocabulary = shuffleArray(appState.currentTestVocabulary);
+            appState.currentWordIndex = 0;
+            appState.correctAnswersCount = 0;
+            appState.questionsAttempted = 0;
+            appState.incorrectAnswers = [];
+            appState.testStartTime = Date.now();
 
-        // Restart button for the results view
-        resultsRestartBtn.addEventListener('click', () => {
-            console.log('[Event] Restart Test button clicked.');
-            // Clear all selections and go back to the welcome screen to restart the entire flow
-            appState.userRole = '';
-            appState.selectedCategory = '';
-            appState.selectedLevel = '';
-            appState.selectedContentType = '';
-            appState.selectedUnit = '';
-            appState.studentName = '';
-            appState.studentClass = '';
-            resetTestState(); // Completely reset test-related state
-            showView('welcome-view');
-        });
-        resultsBackBtn.addEventListener('click', goBack); // Back button for results view
-        shareResultsBtn.addEventListener('click', handleShareResults); // New share button event listener
-
-
-        // Allow pressing Enter key to check answer or move to next
-        answerInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                console.log('[Event] Enter key pressed on answer input.');
-                if (!checkAnswerBtn.classList.contains('hidden')) {
-                    checkCurrentAnswer();
-                } else if (!nextWordBtn.classList.contains('hidden')) {
-                    nextWord();
-                }
-            }
-        });
-
+            startTimer();
+            showView('test-view');
+            displayNextQuestion();
+        }
 
         // --- Application Startup ---
         document.addEventListener('DOMContentLoaded', () => {
-            console.log('[App Startup] DOMContentLoaded fired. Initializing view.');
-
-            // Check for shared results in URL hash
             const hash = window.location.hash;
             if (hash.startsWith('#results=')) {
                 const encodedResults = hash.substring('#results='.length);
                 if (decodeAndPopulateResults(encodedResults)) {
-                    showView('results-view', false); // Show results view directly, no history push
-                    return; // Stop normal startup flow
-                } else {
-                    console.warn('Invalid share link detected. Proceeding to normal startup.');
+                    showView('results-view', false);
+                    return;
                 }
             }
-            showView('welcome-view', false); // Display welcome view by default, do not push to history
+            showView('access-view', false);
         });
     </script>
 </body>
