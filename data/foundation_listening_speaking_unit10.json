@@ -1,0 +1,287 @@
+[
+    {
+        "chinese": "全谷物",
+        "english": "whole grain",
+        "pos": "n."
+    },
+    {
+        "chinese": "应该",
+        "english": "ought to",
+        "pos": "v."
+    },
+    {
+        "chinese": "糙米",
+        "english": "brown rice",
+        "pos": "n."
+    },
+    {
+        "chinese": "能够/可以",
+        "english": "can/could",
+        "pos": "v."
+    },
+    {
+        "chinese": "炸薯条",
+        "english": "French fries",
+        "pos": "n."
+    },
+    {
+        "chinese": "将/会",
+        "english": "will/would",
+        "pos": "v."
+    },
+    {
+        "chinese": "脂肪",
+        "english": "fat",
+        "pos": "n."
+    },
+    {
+        "chinese": "可能/也许",
+        "english": "may/might",
+        "pos": "v."
+    },
+    {
+        "chinese": "纤维",
+        "english": "fiber",
+        "pos": "n."
+    },
+    {
+        "chinese": "破坏/变质",
+        "english": "spoil",
+        "pos": "v."
+    },
+    {
+        "chinese": "矿物质",
+        "english": "mineral",
+        "pos": "n."
+    },
+    {
+        "chinese": "禁止",
+        "english": "ban",
+        "pos": "v."
+    },
+    {
+        "chinese": "卡路里",
+        "english": "calorie",
+        "pos": "n."
+    },
+    {
+        "chinese": "打折",
+        "english": "discount",
+        "pos": "v."
+    },
+    {
+        "chinese": "拳击",
+        "english": "boxing",
+        "pos": "n."
+    },
+    {
+        "chinese": "增重",
+        "english": "gain weight",
+        "pos": "v."
+    },
+    {
+        "chinese": "有氧运动",
+        "english": "cardio",
+        "pos": "n."
+    },
+    {
+        "chinese": "减肥",
+        "english": "lose weight",
+        "pos": "v."
+    },
+    {
+        "chinese": "车道/跑道",
+        "english": "lane",
+        "pos": "n."
+    },
+    {
+        "chinese": "订购/命令",
+        "english": "order",
+        "pos": "v."
+    },
+    {
+        "chinese": "储物柜",
+        "english": "locker",
+        "pos": "n."
+    },
+    {
+        "chinese": "高档的",
+        "english": "classy",
+        "pos": "adj."
+    },
+    {
+        "chinese": "自助餐厅",
+        "english": "cafeteria",
+        "pos": "n."
+    },
+    {
+        "chinese": "相当好的/得体的",
+        "english": "decent",
+        "pos": "adj."
+    },
+    {
+        "chinese": "外卖",
+        "english": "take-out",
+        "pos": "n."
+    },
+    {
+        "chinese": "典型的",
+        "english": "typical",
+        "pos": "adj."
+    },
+    {
+        "chinese": "小贩",
+        "english": "vendor",
+        "pos": "n."
+    },
+    {
+        "chinese": "油腻的",
+        "english": "greasy",
+        "pos": "adj."
+    },
+    {
+        "chinese": "组合/套餐",
+        "english": "combo",
+        "pos": "n."
+    },
+    {
+        "chinese": "状态良好",
+        "english": "in good shape",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "工作场所",
+        "english": "workplace",
+        "pos": "n."
+    },
+    {
+        "chinese": "更喜欢…而不是…",
+        "english": "prefer … to",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "意大利面",
+        "english": "pasta",
+        "pos": "n."
+    },
+    {
+        "chinese": "…是我的偏好",
+        "english": "… is my preference",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "维生素",
+        "english": "vitamin",
+        "pos": "n."
+    },
+    {
+        "chinese": "更愿意做…",
+        "english": "would prefer to do…",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "蛋白质",
+        "english": "protein",
+        "pos": "n."
+    },
+    {
+        "chinese": "比…更喜欢…",
+        "english": "like… more than",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "营养",
+        "english": "nutrition",
+        "pos": "n."
+    },
+    {
+        "chinese": "健康计划",
+        "english": "health plans",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "素食主义者",
+        "english": "vegan",
+        "pos": "n."
+    },
+    {
+        "chinese": "鼓励健康的饮食习惯",
+        "english": "encourage healthy eating habits",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "碳水化合物/碳水",
+        "english": "carbohydrate/carb",
+        "pos": "n."
+    },
+    {
+        "chinese": "均衡饮食组合",
+        "english": "balance food combination",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "训练营",
+        "english": "bootcamp",
+        "pos": "n."
+    },
+    {
+        "chinese": "减肥",
+        "english": "knock off pounds",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "预制食品",
+        "english": "prepared food",
+        "pos": "n."
+    },
+    {
+        "chinese": "增重",
+        "english": "put on weight",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "超重",
+        "english": "overweight",
+        "pos": "n."
+    },
+    {
+        "chinese": "提神",
+        "english": "refresh mind",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "举重",
+        "english": "lift weight",
+        "pos": "v."
+    },
+    {
+        "chinese": "去健身房",
+        "english": "hit a gym",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "应该",
+        "english": "should",
+        "pos": "v."
+    },
+    {
+        "chinese": "保持健康饮食",
+        "english": "keep healthy diet",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "最好",
+        "english": "had better",
+        "pos": "v."
+    },
+    {
+        "chinese": "减肥",
+        "english": "lose weight",
+        "pos": "expressions"
+    },
+    {
+        "chinese": "连续",
+        "english": "in a row",
+        "pos": "expressions"
+    }
+]
