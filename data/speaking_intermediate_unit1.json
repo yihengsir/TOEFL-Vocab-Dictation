@@ -1,42 +1,492 @@
 [
   {
-    "chinese": "壁画",
-    "english": "wall painting"
+    "english": "make a decision",
+    "pos": "v.",
+    "chinese": "做决定"
   },
   {
-    "chinese": "电视剧",
-    "english": "TV drama"
+    "english": "spend time doing something",
+    "pos": "v.",
+    "chinese": "花时间做某事"
   },
   {
-    "chinese": "真人秀",
-    "english": "reality show"
+    "english": "a waste of time",
+    "pos": "n.",
+    "chinese": "浪费时间"
   },
   {
-    "chinese": "新闻",
-    "english": "news"
+    "english": "have a good relationship with",
+    "pos": "v.",
+    "chinese": "与……关系好"
   },
   {
-    "chinese": "（新闻）主持人",
-    "english": "anchor"
+    "english": "learn from mistakes",
+    "pos": "v.",
+    "chinese": "从错误中学习"
   },
   {
-    "chinese": "日本动画",
-    "english": "Japanese animation"
+    "english": "improve communication skills",
+    "pos": "v.",
+    "chinese": "提高沟通能力"
   },
   {
-    "chinese": "平均的",
-    "english": "average"
+    "english": "stay focused",
+    "pos": "v.",
+    "chinese": "保持专注"
   },
   {
-    "chinese": "频道",
-    "english": "channel"
+    "english": "be responsible for",
+    "pos": "v.",
+    "chinese": "对……负责"
   },
   {
-    "chinese": "换台（电视）",
-    "english": "surf (TV)"
+    "english": "deal with pressure",
+    "pos": "v.",
+    "chinese": "应对压力"
   },
   {
-    "chinese": "沙发",
-    "english": "couch"
+    "english": "get along well with",
+    "pos": "v.",
+    "chinese": "与……相处融洽"
+  },
+  {
+    "english": "develop a habit",
+    "pos": "v.",
+    "chinese": "养成习惯"
+  },
+  {
+    "english": "save money",
+    "pos": "v.",
+    "chinese": "省钱"
+  },
+  {
+    "english": "spend money on",
+    "pos": "v.",
+    "chinese": "在……上花钱"
+  },
+  {
+    "english": "make new friends",
+    "pos": "v.",
+    "chinese": "结交新朋友"
+  },
+  {
+    "english": "face challenges",
+    "pos": "v.",
+    "chinese": "面对挑战"
+  },
+  {
+    "english": "set a goal",
+    "pos": "v.",
+    "chinese": "设定目标"
+  },
+  {
+    "english": "achieve success",
+    "pos": "v.",
+    "chinese": "取得成功"
+  },
+  {
+    "english": "gain experience",
+    "pos": "v.",
+    "chinese": "获得经验"
+  },
+  {
+    "english": "learn something new",
+    "pos": "v.",
+    "chinese": "学到新东西"
+  },
+  {
+    "english": "take a break",
+    "pos": "v.",
+    "chinese": "休息一下"
+  },
+  {
+    "english": "focus on study",
+    "pos": "v.",
+    "chinese": "专注学习"
+  },
+  {
+    "english": "concentrate on work",
+    "pos": "v.",
+    "chinese": "专心工作"
+  },
+  {
+    "english": "join a club",
+    "pos": "v.",
+    "chinese": "加入社团"
+  },
+  {
+    "english": "participate in an activity",
+    "pos": "v.",
+    "chinese": "参加活动"
+  },
+  {
+    "english": "balance study and life",
+    "pos": "v.",
+    "chinese": "平衡学习和生活"
+  },
+  {
+    "english": "reduce stress",
+    "pos": "v.",
+    "chinese": "减压"
+  },
+  {
+    "english": "increase productivity",
+    "pos": "v.",
+    "chinese": "提高效率"
+  },
+  {
+    "english": "have more freedom",
+    "pos": "v.",
+    "chinese": "更自由"
+  },
+  {
+    "english": "feel relaxed",
+    "pos": "v.",
+    "chinese": "感到放松"
+  },
+  {
+    "english": "improve self-confidence",
+    "pos": "v.",
+    "chinese": "提升自信"
+  },
+  {
+    "english": "express opinions",
+    "pos": "v.",
+    "chinese": "表达观点"
+  },
+  {
+    "english": "work efficiently",
+    "pos": "v.",
+    "chinese": "高效工作"
+  },
+  {
+    "english": "stay organized",
+    "pos": "v.",
+    "chinese": "保持有条理"
+  },
+  {
+    "english": "plan ahead",
+    "pos": "v.",
+    "chinese": "提前计划"
+  },
+  {
+    "english": "meet deadlines",
+    "pos": "v.",
+    "chinese": "按时完成任务"
+  },
+  {
+    "english": "finish tasks on time",
+    "pos": "v.",
+    "chinese": "按时完成任务"
+  },
+  {
+    "english": "learn from others",
+    "pos": "v.",
+    "chinese": "向他人学习"
+  },
+  {
+    "english": "enjoy the process",
+    "pos": "v.",
+    "chinese": "享受过程"
+  },
+  {
+    "english": "spend time with family",
+    "pos": "v.",
+    "chinese": "与家人共度时光"
+  },
+  {
+    "english": "get some exercise",
+    "pos": "v.",
+    "chinese": "做些运动"
+  },
+  {
+    "english": "go for a walk",
+    "pos": "v.",
+    "chinese": "去散步"
+  },
+  {
+    "english": "keep a healthy lifestyle",
+    "pos": "v.",
+    "chinese": "保持健康的生活方式"
+  },
+  {
+    "english": "eat healthy food",
+    "pos": "v.",
+    "chinese": "吃健康的食物"
+  },
+  {
+    "english": "get enough sleep",
+    "pos": "v.",
+    "chinese": "睡眠充足"
+  },
+  {
+    "english": "do part-time jobs",
+    "pos": "v.",
+    "chinese": "做兼职工作"
+  },
+  {
+    "english": "take online courses",
+    "pos": "v.",
+    "chinese": "上网课"
+  },
+  {
+    "english": "study at home",
+    "pos": "v.",
+    "chinese": "在家学习"
+  },
+  {
+    "english": "live on campus",
+    "pos": "v.",
+    "chinese": "住在校园里"
+  },
+  {
+    "english": "live off campus",
+    "pos": "v.",
+    "chinese": "住在校外"
+  },
+  {
+    "english": "spend quality time",
+    "pos": "v.",
+    "chinese": "共度美好时光"
+  },
+  {
+    "english": "make a schedule",
+    "pos": "v.",
+    "chinese": "制定计划"
+  },
+  {
+    "english": "develop time-management skills",
+    "pos": "v.",
+    "chinese": "培养时间管理能力"
+  },
+  {
+    "english": "prefer A to B",
+    "pos": "v.",
+    "chinese": "比起B更喜欢A"
+  },
+  {
+    "english": "have access to",
+    "pos": "v.",
+    "chinese": "有机会接触"
+  },
+  {
+    "english": "make progress",
+    "pos": "v.",
+    "chinese": "取得进步"
+  },
+  {
+    "english": "overcome difficulties",
+    "pos": "v.",
+    "chinese": "克服困难"
+  },
+  {
+    "english": "avoid distractions",
+    "pos": "v.",
+    "chinese": "避免干扰"
+  },
+  {
+    "english": "get distracted easily",
+    "pos": "v.",
+    "chinese": "容易分心"
+  },
+  {
+    "english": "work in a team",
+    "pos": "v.",
+    "chinese": "团队合作"
+  },
+  {
+    "english": "collaborate with others",
+    "pos": "v.",
+    "chinese": "与他人合作"
+  },
+  {
+    "english": "share ideas",
+    "pos": "v.",
+    "chinese": "分享观点"
+  },
+  {
+    "english": "have different opinions",
+    "pos": "v.",
+    "chinese": "意见不同"
+  },
+  {
+    "english": "respect each other",
+    "pos": "v.",
+    "chinese": "彼此尊重"
+  },
+  {
+    "english": "enjoy doing something",
+    "pos": "v.",
+    "chinese": "喜欢做某事"
+  },
+  {
+    "english": "be passionate about",
+    "pos": "v.",
+    "chinese": "对……充满热情"
+  },
+  {
+    "english": "take responsibility",
+    "pos": "v.",
+    "chinese": "承担责任"
+  },
+  {
+    "english": "follow the rules",
+    "pos": "v.",
+    "chinese": "遵守规则"
+  },
+  {
+    "english": "make a good impression",
+    "pos": "v.",
+    "chinese": "留下好印象"
+  },
+  {
+    "english": "get inspired by",
+    "pos": "v.",
+    "chinese": "受到……的启发"
+  },
+  {
+    "english": "develop critical thinking",
+    "pos": "v.",
+    "chinese": "培养批判性思维"
+  },
+  {
+    "english": "analyze problems",
+    "pos": "v.",
+    "chinese": "分析问题"
+  },
+  {
+    "english": "solve problems",
+    "pos": "v.",
+    "chinese": "解决问题"
+  },
+  {
+    "english": "come up with ideas",
+    "pos": "v.",
+    "chinese": "提出想法"
+  },
+  {
+    "english": "feel proud of",
+    "pos": "v.",
+    "chinese": "为……感到自豪"
+  },
+  {
+    "english": "make the most of",
+    "pos": "v.",
+    "chinese": "充分利用"
+  },
+  {
+    "english": "take advantage of",
+    "pos": "v.",
+    "chinese": "利用……的优势"
+  },
+  {
+    "english": "be interested in",
+    "pos": "v.",
+    "chinese": "对……感兴趣"
+  },
+  {
+    "english": "be good at",
+    "pos": "v.",
+    "chinese": "擅长……"
+  },
+  {
+    "english": "struggle with",
+    "pos": "v.",
+    "chinese": "在……方面挣扎"
+  },
+  {
+    "english": "enjoy the moment",
+    "pos": "v.",
+    "chinese": "享受当下"
+  },
+  {
+    "english": "gain knowledge",
+    "pos": "v.",
+    "chinese": "获得知识"
+  },
+  {
+    "english": "form a good habit",
+    "pos": "v.",
+    "chinese": "养成好习惯"
+  },
+  {
+    "english": "break bad habits",
+    "pos": "v.",
+    "chinese": "改掉坏习惯"
+  },
+  {
+    "english": "have a clear goal",
+    "pos": "v.",
+    "chinese": "有明确的目标"
+  },
+  {
+    "english": "make a big difference",
+    "pos": "v.",
+    "chinese": "带来巨大变化"
+  },
+  {
+    "english": "have a positive attitude",
+    "pos": "v.",
+    "chinese": "保持积极态度"
+  },
+  {
+    "english": "be open-minded",
+    "pos": "adj.",
+    "chinese": "思想开明"
+  },
+  {
+    "english": "deal with stress",
+    "pos": "v.",
+    "chinese": "应对压力"
+  },
+  {
+    "english": "handle conflict",
+    "pos": "v.",
+    "chinese": "处理冲突"
+  },
+  {
+    "english": "trust others",
+    "pos": "v.",
+    "chinese": "信任他人"
+  },
+  {
+    "english": "feel comfortable",
+    "pos": "v.",
+    "chinese": "感到舒服"
+  },
+  {
+    "english": "be self-disciplined",
+    "pos": "adj.",
+    "chinese": "有自律性"
+  },
+  {
+    "english": "stick to a routine",
+    "pos": "v.",
+    "chinese": "坚持规律生活"
+  },
+  {
+    "english": "be motivated",
+    "pos": "adj.",
+    "chinese": "有动力"
+  },
+  {
+    "english": "keep improving",
+    "pos": "v.",
+    "chinese": "不断进步"
+  },
+  {
+    "english": "appreciate small things",
+    "pos": "v.",
+    "chinese": "欣赏小事"
+  },
+  {
+    "english": "stay positive",
+    "pos": "v.",
+    "chinese": "保持积极"
+  },
+  {
+    "english": "believe in myself",
+    "pos": "v.",
+    "chinese": "相信自己"
   }
 ]
