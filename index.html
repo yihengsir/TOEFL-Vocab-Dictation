@@ -397,6 +397,7 @@
             justify-content: center;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
+        
 
         .back-button:hover {
             background: var(--primary);
@@ -601,9 +602,132 @@
             color: var(--primary);
             font-size: 1.5rem;
         }
+
+        /* 新增搜索功能样式 */
+        .global-search-container {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 500px;
+            display: flex;
+            z-index: 1000;
+            background: white;
+            border-radius: 999px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+            border: 2px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .global-search-container input {
+            flex: 1;
+            padding: 12px 20px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: transparent;
+        }
+
+        .global-search-container button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 0 20px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .global-search-container button:hover {
+            background: var(--primary-dark);
+        }
+
+        .search-results-container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .search-result-item {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .search-result-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .search-result-item h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .search-result-item p {
+            color: var(--text-medium);
+            margin: 3px 0;
+        }
+
+        .search-result-sentence {
+            background: #f0f9ff;
+            border-left: 3px solid var(--primary);
+            padding: 8px 12px;
+            margin-top: 8px;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .search-result-item .speaker-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: #f0f4ff;
+            border-radius: 50%;
+            margin-left: 8px;
+            color: var(--primary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .search-result-item .speaker-icon:hover {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .practice-unit-btn {
+            background: var(--success);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 6px 12px;
+            margin-top: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .practice-unit-btn:hover {
+            background: #0da271;
+        }
     </style>
 </head>
 <body class="selection-view">
+    <!-- 全局搜索框 -->
+    <div id="global-search-container" class="global-search-container hidden">
+        <input type="text" id="globalSearchInput" placeholder="搜索单词 (中英文)">
+        <button id="globalSearchButton"><i class="fas fa-search"></i></button>
+    </div>
+
     <div class="main-container animate-in">
         <button id="backButton" class="back-button hidden" aria-label="Back">
             <i class="fas fa-arrow-left"></i>
@@ -619,6 +743,7 @@
                 <p>2. 支持词性提示和首字母提示</p>
                 <p>3. 自动朗读单词发音</p>
                 <p>4. 错题回顾与成绩分析</p>
+                <p>5. 全局单词搜索功能</p>
             </div>
             
             <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
@@ -694,6 +819,12 @@
                 <button id="newTestBtn" class="action-button success">新测试</button>
             </div>
         </div>
+
+        <!-- 新增搜索视图 -->
+        <div id="search-view" class="view">
+            <h2 class="header-title">搜索结果</h2>
+            <div id="searchResults" class="search-results-container"></div>
+        </div>
     </div>
 
     <div id="modalOverlay" class="modal-overlay">
@@ -721,7 +852,13 @@
             testStartTime: null,
             studentName: '',
             studentClass: '',
-            currentWordHasSentence: false
+            currentWordHasSentence: false,
+            // 存储所有词汇数据
+            allVocabulary: [],
+            // 记录搜索前的视图
+            previousView: null,
+            // 记录搜索结果
+            searchResults: []
         };
 
         // --- DOM Elements ---
@@ -730,7 +867,8 @@
             welcome: document.getElementById('welcome-view'),
             selection: document.getElementById('selection-view'),
             test: document.getElementById('test-view'),
-            results: document.getElementById('results-view')
+            results: document.getElementById('results-view'),
+            search: document.getElementById('search-view')
         };
         const backButton = document.getElementById('backButton');
         const accessSubmitBtn = document.getElementById('accessSubmitBtn');
@@ -772,6 +910,12 @@
         const modalTitle = document.getElementById('modalTitle');
         const modalMessage = document.getElementById('modalMessage');
         const modalCloseBtn = document.getElementById('modalCloseBtn');
+
+        // 搜索相关元素
+        const globalSearchContainer = document.getElementById('global-search-container');
+        const globalSearchInput = document.getElementById('globalSearchInput');
+        const globalSearchButton = document.getElementById('globalSearchButton');
+        const searchResultsDiv = document.getElementById('searchResults');
 
         // --- Vocabulary Structure ---
         const vocabStructure = {
@@ -878,6 +1022,7 @@
 
             appState.currentView = viewName;
             updateBackButtonVisibility();
+            updateGlobalSearchVisibility();
 
             if (pushState) {
                 const url = new URL(window.location);
@@ -891,6 +1036,15 @@
                 backButton.classList.add('hidden');
             } else {
                 backButton.classList.remove('hidden');
+            }
+        }
+        
+        function updateGlobalSearchVisibility() {
+            if (appState.currentView === 'access-view' || 
+                appState.currentView === 'results-view') {
+                globalSearchContainer.classList.add('hidden');
+            } else {
+                globalSearchContainer.classList.remove('hidden');
             }
         }
 
@@ -936,6 +1090,13 @@
                 showView('selection-view', false);
             } else if (appState.currentView === 'access-view') {
                 backButton.classList.add('hidden');
+            } else if (appState.currentView === 'search-view') {
+                // 返回之前的视图
+                if (appState.previousView) {
+                    showView(appState.previousView);
+                } else {
+                    showView('welcome-view');
+                }
             } else {
                 history.back();
             }
@@ -1254,69 +1415,185 @@
             }
         }
 
-        // --- Event Listeners ---
-        accessSubmitBtn.addEventListener('click', () => {
-            if (accessCodeInput.value.trim() !== "1314") {
-                showModal('提示', '测验码不正确，请重新输入');
-                return;
+        // --- 搜索功能实现 ---
+        async function loadAllVocabulary() {
+            try {
+                // 显示加载提示
+                showModal('加载词汇', '正在加载所有词汇数据，请稍候...');
+                
+                // 收集所有词汇文件路径
+                const allFiles = [];
+                
+                // 遍历所有类别和级别
+                for (const category in vocabStructure) {
+                    for (const level in vocabStructure[category]) {
+                        const levelData = vocabStructure[category][level];
+                        
+                        // 添加单元文件
+                        if (levelData.unit && Array.isArray(levelData.unit)) {
+                            levelData.unit.forEach(file => {
+                                allFiles.push({
+                                    filePath: file,
+                                    category,
+                                    level,
+                                    type: 'unit'
+                                });
+                            });
+                        }
+                    }
+                }
+                
+                // 并行加载所有文件
+                const promises = allFiles.map(item => 
+                    fetch(item.filePath)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`Failed to load ${item.filePath}: ${response.status}`);
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            // 为每个单词添加元数据
+                            return data.map(word => ({
+                                ...word,
+                                category: item.category,
+                                level: item.level,
+                                unit: parseInt(item.filePath.match(/unit(\d+)/i)[1])
+                            }));
+                        })
+                );
+                
+                // 等待所有文件加载完成
+                const results = await Promise.all(promises);
+                
+                // 合并所有词汇
+                appState.allVocabulary = results.flat();
+                
+                // 关闭加载提示
+                setTimeout(() => {
+                    modalOverlay.classList.remove('active');
+                    console.log('所有词汇数据加载完成，共加载', appState.allVocabulary.length, '个单词');
+                }, 500);
+                
+            } catch (error) {
+                console.error('加载所有词汇数据失败:', error);
+                showModal('错误', `词汇加载失败: ${error.message}`);
             }
-            showView('welcome-view');
-        });
-
-        startSelectionBtn.addEventListener('click', () => {
-            if (!studentNameInput.value.trim()) {
-                showModal('提示', '请输入您的姓名');
+        }
+        
+        function performSearch(query) {
+            if (!query.trim()) {
                 return;
             }
             
-            appState.studentName = studentNameInput.value;
-            appState.studentClass = studentClassInput.value;
-            renderCategorySelection();
-            showView('selection-view');
-        });
-
-        backButton.addEventListener('click', goBack);
-        modalCloseBtn.addEventListener('click', () => modalOverlay.classList.remove('active'));
-
-        checkAnswerBtn.addEventListener('click', checkCurrentAnswer);
-        nextWordBtn.addEventListener('click', nextWord);
-        showAnswerBtn.addEventListener('click', showAnswer);
-        finishTestBtn.addEventListener('click', () => showModal("结束测试", "确定要结束当前测试吗？", () => {
-            stopTimer();
-            showResults();
-        }));
-        retakeTestBtn.addEventListener('click', () => {
-            resetTestState();
-            startTest();
-        });
-        newTestBtn.addEventListener('click', () => {
-            resetTestState();
-            renderCategorySelection();
-            showView('selection-view');
-        });
-        shareResultsBtn.addEventListener('click', handleShareResults);
-
-        // 全局回车键支持
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-                // 测验码页面
-                if (appState.currentView === 'access-view') {
-                    accessSubmitBtn.click();
+            // 保存当前视图以便返回
+            appState.previousView = appState.currentView;
+            
+            // 转换查询为小写以进行不区分大小写的搜索
+            const lowerQuery = query.toLowerCase();
+            
+            // 搜索匹配的单词
+            const results = appState.allVocabulary.filter(word => {
+                // 检查英文单词是否匹配
+                if (word.english.toLowerCase().includes(lowerQuery)) {
+                    return true;
                 }
-                // 欢迎页面
-                else if (appState.currentView === 'welcome-view') {
-                    startSelectionBtn.click();
+                
+                // 检查中文翻译是否匹配
+                if (word.chinese.toLowerCase().includes(lowerQuery)) {
+                    return true;
                 }
-                // 测试页面
-                else if (appState.currentView === 'test-view') {
-                    if (!checkAnswerBtn.classList.contains('hidden')) {
-                        checkAnswerBtn.click();
-                    } else if (!nextWordBtn.classList.contains('hidden')) {
-                        nextWordBtn.click();
-                    }
-                }
+                
+                return false;
+            });
+            
+            // 保存搜索结果
+            appState.searchResults = results;
+            
+            // 显示搜索结果视图
+            showView('search-view');
+            
+            // 渲染搜索结果
+            renderSearchResults(results);
+        }
+        
+        function renderSearchResults(results) {
+            searchResultsDiv.innerHTML = '';
+            
+            if (results.length === 0) {
+                searchResultsDiv.innerHTML = '<p class="text-gray-500 text-center">没有找到匹配的单词</p>';
+                return;
             }
-        });
+            
+            const fragment = document.createDocumentFragment();
+            
+            results.forEach(word => {
+                const resultItem = document.createElement('div');
+                resultItem.className = 'search-result-item';
+                
+                // 基本信息
+                resultItem.innerHTML = `
+                    <div>
+                        <h3>
+                            ${word.english}
+                            <span class="speaker-icon" data-word="${word.english}">
+                                <i class="fas fa-volume-up"></i>
+                            </span>
+                        </h3>
+                        <p><strong>中文:</strong> ${word.chinese}</p>
+                        <p><strong>词性:</strong> ${word.pos || '无'}</p>
+                        <p><strong>来源:</strong> ${categoryNames[word.category]} - ${levelNames[word.level]} - 单元 ${word.unit}</p>
+                `;
+                
+                // 如果有例句，添加例句
+                if (word.sentence) {
+                    resultItem.innerHTML += `
+                        <div class="search-result-sentence">
+                            <p><strong>例句:</strong> ${word.sentence}</p>
+                            <p><strong>翻译:</strong> ${word.sentence_translation}</p>
+                        </div>
+                    `;
+                }
+                
+                // 添加练习按钮
+                resultItem.innerHTML += `
+                    <button class="practice-unit-btn" data-category="${word.category}" data-level="${word.level}" data-unit="${word.unit}">
+                        练习该单元
+                    </button>
+                `;
+                
+                resultItem.innerHTML += `</div>`;
+                
+                // 添加发音按钮事件
+                const speakerIcon = resultItem.querySelector('.speaker-icon');
+                speakerIcon.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    speakWord(word.english);
+                });
+                
+                // 添加练习按钮事件
+                const practiceBtn = resultItem.querySelector('.practice-unit-btn');
+                practiceBtn.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const category = practiceBtn.dataset.category;
+                    const level = practiceBtn.dataset.level;
+                    const unit = parseInt(practiceBtn.dataset.unit);
+                    
+                    // 设置选中的单元
+                    appState.selectedCategory = category;
+                    appState.selectedLevel = level;
+                    appState.selectedContentType = 'unit';
+                    appState.selectedUnit = `Unit${unit}`;
+                    
+                    // 开始加载真实数据
+                    handleFinalSelection();
+                });
+                
+                fragment.appendChild(resultItem);
+            });
+            
+            searchResultsDiv.appendChild(fragment);
+        }
 
         // --- Render Functions for Selections ---
         function renderCategorySelection() {
@@ -1547,6 +1824,91 @@
                 }
             }
             showView('access-view', false);
+            
+            // 添加搜索事件监听器
+            globalSearchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    performSearch(globalSearchInput.value);
+                }
+            });
+            
+            globalSearchButton.addEventListener('click', () => {
+                performSearch(globalSearchInput.value);
+            });
+        });
+
+        // 当进入欢迎视图时加载所有词汇
+        startSelectionBtn.addEventListener('click', () => {
+            if (!studentNameInput.value.trim()) {
+                showModal('提示', '请输入您的姓名');
+                return;
+            }
+            
+            appState.studentName = studentNameInput.value;
+            appState.studentClass = studentClassInput.value;
+            renderCategorySelection();
+            showView('selection-view');
+            
+            // 加载所有词汇数据（仅在第一次时）
+            if (appState.allVocabulary.length === 0) {
+                loadAllVocabulary();
+            }
+        });
+        
+        // 事件监听器
+        accessSubmitBtn.addEventListener('click', () => {
+            if (accessCodeInput.value.trim() !== "1314") {
+                showModal('提示', '测验码不正确，请重新输入');
+                return;
+            }
+            showView('welcome-view');
+        });
+
+        backButton.addEventListener('click', goBack);
+        modalCloseBtn.addEventListener('click', () => modalOverlay.classList.remove('active'));
+
+        checkAnswerBtn.addEventListener('click', checkCurrentAnswer);
+        nextWordBtn.addEventListener('click', nextWord);
+        showAnswerBtn.addEventListener('click', showAnswer);
+        finishTestBtn.addEventListener('click', () => showModal("结束测试", "确定要结束当前测试吗？", () => {
+            stopTimer();
+            showResults();
+        }));
+        retakeTestBtn.addEventListener('click', () => {
+            resetTestState();
+            startTest();
+        });
+        newTestBtn.addEventListener('click', () => {
+            resetTestState();
+            renderCategorySelection();
+            showView('selection-view');
+        });
+        shareResultsBtn.addEventListener('click', handleShareResults);
+
+        // 全局回车键支持
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                // 测验码页面
+                if (appState.currentView === 'access-view') {
+                    accessSubmitBtn.click();
+                }
+                // 欢迎页面
+                else if (appState.currentView === 'welcome-view') {
+                    startSelectionBtn.click();
+                }
+                // 测试页面
+                else if (appState.currentView === 'test-view') {
+                    if (!checkAnswerBtn.classList.contains('hidden')) {
+                        checkAnswerBtn.click();
+                    } else if (!nextWordBtn.classList.contains('hidden')) {
+                        nextWordBtn.click();
+                    }
+                }
+                // 搜索框
+                else if (globalSearchInput === document.activeElement) {
+                    performSearch(globalSearchInput.value);
+                }
+            }
         });
     </script>
 </body>
