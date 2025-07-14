@@ -1090,7 +1090,15 @@
                 showView('selection-view', false);
             } else if (appState.currentView === 'access-view') {
                 backButton.classList.add('hidden');
-            } else if (appState.currentView === 'search-view') {
+            }
+    else if (appState.currentView === 'search-view') {
+        // 返回之前的视图
+        if (appState.previousView) {
+            showView(appState.previousView);
+        } else {
+            showView('welcome-view');
+        }
+    } else if (appState.currentView === 'search-view') {
                 // 返回之前的视图
                 if (appState.previousView) {
                     showView(appState.previousView);
@@ -1418,6 +1426,11 @@
         // --- 搜索功能实现 ---
         async function loadAllVocabulary() {
             try {
+        // 获取仓库基础路径
+        const repoBasePath = window.location.hostname === 'yihengsir.github.io'
+            ? 'https://yihengsir.github.io/TOEFL-Vocab-Dictation/'
+            : './';
+    
                 // 显示加载提示
                 showModal('加载词汇', '正在加载所有词汇数据，请稍候...');
                 
@@ -1433,7 +1446,7 @@
                         if (levelData.unit && Array.isArray(levelData.unit)) {
                             levelData.unit.forEach(file => {
                                 allFiles.push({
-                                    filePath: file,
+                                    filePath: repoBasePath + file,
                                     category,
                                     level,
                                     type: 'unit'
