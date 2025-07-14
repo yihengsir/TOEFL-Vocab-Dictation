@@ -1,287 +1,226 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "卡通；动画片",
+    "english": "cartoon",
+    "pos": "n.",
+    "sentence": "The children are watching a funny ______ on TV.",
+    "sentence_translation": "孩子们正在电视上看一部有趣的卡通片。"
+  },
+  {
+    "chinese": "写书籍评论",
+    "english": "write book reviews",
+    "pos": "expressions",
+    "sentence": "She likes to ______ ______ ______ for the school newspaper.",
+    "sentence_translation": "她喜欢为校报写书籍评论。"
+  },
+  {
+    "chinese": "新闻；消息",
+    "english": "news",
+    "pos": "n.",
+    "sentence": "Breaking ______ is usually reported first on TV.",
+    "sentence_translation": "突发新闻通常首先在电视上报道。"
+  },
+  {
+    "chinese": "给……差评",
+    "english": "give…a bad review",
+    "pos": "expressions",
+    "sentence": "The harsh critic ______ the new movie ______ ______ ______.",
+    "sentence_translation": "苛刻的评论家给这部新电影差评。"
+  },
+  {
+    "chinese": "体育运动；体育节目",
+    "english": "sports",
+    "pos": "n.",
+    "sentence": "He watches ______ on TV every weekend.",
+    "sentence_translation": "他每个周末都看电视上的体育节目。"
+  },
+  {
+    "chinese": "根据真实故事改编",
+    "english": "based on a true story",
+    "pos": "expressions",
+    "sentence": "This film is ______ ______ ______ ______ ______ of courage and friendship.",
+    "sentence_translation": "这部电影根据一个关于勇气和友谊的真实故事改编。"
+  },
+  {
+    "chinese": "脱口秀；访谈节目",
+    "english": "talk show",
+    "pos": "expressions",
+    "sentence": "The famous actor appeared on a ______ ______ to promote his new book.",
+    "sentence_translation": "这位著名演员出现在脱口秀节目中宣传他的新书。"
+  },
+  {
+    "chinese": "捕捉；拍摄；刻画",
+    "english": "capture",
+    "pos": "v.",
+    "sentence": "The photographer managed to ______ the beauty of the sunset.",
+    "sentence_translation": "摄影师成功捕捉到了日落的美景。"
+  },
+  {
+    "chinese": "真人秀",
+    "english": "reality show",
+    "pos": "expressions",
+    "sentence": "This ______ ______ follows the daily lives of five young artists.",
+    "sentence_translation": "这部真人秀记录了五位年轻艺术家的日常生活。"
+  },
+  {
+    "chinese": "涉及一个话题；处理一个主题",
+    "english": "deal with a topic",
+    "pos": "expressions",
+    "sentence": "The documentary ______ ______ ______ ______ of environmental protection.",
+    "sentence_translation": "这部纪录片涉及环境保护的主题。"
+  },
+  {
+    "chinese": "电视剧",
+    "english": "TV series",
+    "pos": "expressions",
+    "sentence": "The new ______ ______ has become very popular among young people.",
+    "sentence_translation": "这部新电视剧在年轻人中很受欢迎。"
+  },
+  {
+    "chinese": "开场",
+    "english": "opening scene",
+    "pos": "expressions",
+    "sentence": "The ______ ______ of the film is set in a small village.",
+    "sentence_translation": "这部电影的开场场景设定在一个小村庄。"
+  },
+  {
+    "chinese": "平均的；普通的；一般的",
+    "english": "average",
+    "pos": "adj.",
+    "sentence": "The ______ viewer watches about three hours of TV daily.",
+    "sentence_translation": "普通观众每天大约看三小时电视。"
+  },
+  {
+    "chinese": "开篇章节",
+    "english": "opening chapters",
+    "pos": "expressions",
+    "sentence": "The ______ ______ of the novel introduce the main characters.",
+    "sentence_translation": "小说的开篇章节介绍了主要人物。"
+  },
+  {
+    "chinese": "换台；频繁切换电视频道",
+    "english": "channel surf",
+    "pos": "expressions",
+    "sentence": "He likes to ______ ______ when he can't find an interesting program.",
+    "sentence_translation": "当找不到有趣的节目时，他喜欢换台。"
+  },
+  {
+    "chinese": "一部电影的开头和结尾",
+    "english": "beginning and end of a film",
+    "pos": "expressions",
+    "sentence": "The ______ ______ ______ ______ ______ ______ are closely connected.",
+    "sentence_translation": "这部电影的开头和结尾联系紧密。"
+  },
+  {
+    "chinese": "商业广告",
+    "english": "commercial",
+    "pos": "n.",
+    "sentence": "We had to sit through several ______ before the program started.",
+    "sentence_translation": "节目开始前，我们不得不看完几个商业广告。"
+  },
+  {
+    "chinese": "核心人物；主要角色",
+    "english": "central characters",
+    "pos": "expressions",
+    "sentence": "The ______ ______ in the story face many challenges together.",
+    "sentence_translation": "故事中的核心人物一起面对许多挑战。"
+  },
+  {
+    "chinese": "电视迷；老泡在电视机前的人",
+    "english": "couch potato",
+    "pos": "expressions",
+    "sentence": "He's become a ______ ______ since he lost his job.",
+    "sentence_translation": "失业后，他成了一个电视迷。"
+  },
+  {
+    "chinese": "有一个圆满的结局",
+    "english": "have a happy ending",
+    "pos": "expressions",
+    "sentence": "Most children's stories ______ ______ ______ ______.",
+    "sentence_translation": "大多数儿童故事都有一个圆满的结局。"
+  },
+  {
+    "chinese": "遥控器",
+    "english": "remote control",
+    "pos": "expressions",
+    "sentence": "She picked up the ______ ______ to change the channel.",
+    "sentence_translation": "她拿起遥控器换台。"
+  },
+  {
+    "chinese": "推荐一本书",
+    "english": "recommend a book",
+    "pos": "expressions",
+    "sentence": "Can you ______ ______ ______ ______ for this weekend?",
+    "sentence_translation": "你能推荐一部适合这个周末看的好电影吗？"
+  },
+  {
+    "chinese": "调低音量",
+    "english": "turn down the volume",
+    "pos": "expressions",
+    "sentence": "Please ______ ______ ______ ______ of the TV; the baby is sleeping.",
+    "sentence_translation": "请调低电视音量，宝宝在睡觉。"
+  },
+  {
+    "chinese": "强烈推荐",
+    "english": "highly recommended",
+    "pos": "expressions",
+    "sentence": "This book is ______ ______ by many literature teachers.",
+    "sentence_translation": "这本书被许多文学老师强烈推荐。"
+  },
+  {
+    "chinese": "鼓舞人心的；激励人的",
+    "english": "inspiring",
+    "pos": "adj.",
+    "sentence": "The ______ story of her success touched many people.",
+    "sentence_translation": "她成功的鼓舞人心的故事感动了许多人。"
+  },
+  {
+    "chinese": "出版；发行；上映",
+    "english": "come out",
+    "pos": "expressions",
+    "sentence": "Her new novel will ______ ______ next month.",
+    "sentence_translation": "她的新小说将于下个月出版。"
+  },
+  {
+    "chinese": "采访；访谈；面试",
+    "english": "interview",
+    "pos": "n.",
+    "sentence": "The actor gave an ______ about his latest film.",
+    "sentence_translation": "这位演员接受了关于他最新电影的采访。"
+  },
+  {
+    "chinese": "评论这部电影",
+    "english": "review the film",
+    "pos": "expressions",
+    "sentence": "He wrote an article to ______ ______ ______ he watched yesterday.",
+    "sentence_translation": "他写了一篇文章评论他昨天看的电影。"
+  },
+  {
+    "chinese": "有深刻见解的；富有洞察力的",
+    "english": "insightful",
+    "pos": "adj.",
+    "sentence": "Her ______ review of the book was published in the magazine.",
+    "sentence_translation": "她对这本书的富有洞察力的评论发表在了杂志上。"
+  },
+  {
+    "chinese": "歌词",
+    "english": "lyrics",
+    "pos": "n.",
+    "sentence": "The ______ of this song express deep love and sadness.",
+    "sentence_translation": "这首歌的歌词表达了深沉的爱与悲伤。"
+  },
+  {
+    "chinese": "书评家",
+    "english": "book reviewers",
+    "pos": "expressions",
+    "sentence": "______ ______ often share their opinions on new publications.",
+    "sentence_translation": "书评家经常分享他们对新出版物的看法。"
+  },
+  {
+    "chinese": "影评人",
+    "english": "film critics",
+    "pos": "expressions",
+    "sentence": "______ ______ have different opinions on the director's latest work.",
+    "sentence_translation": "影评人对这位导演的最新作品有不同的看法。"
+  }
 ]

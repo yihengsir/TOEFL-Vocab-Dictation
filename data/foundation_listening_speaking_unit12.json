@@ -1,287 +1,408 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "身高；高度",
+    "english": "height",
+    "pos": "n.",
+    "sentence": "His ______ makes him stand out in the crowd.",
+    "sentence_translation": "他的身高使他在人群中很显眼。"
+  },
+  {
+    "chinese": "减少；降低",
+    "english": "decrease",
+    "pos": "v.",
+    "sentence": "We need to ______ the amount of plastic we use daily.",
+    "sentence_translation": "我们需要减少每天使用的塑料量。"
+  },
+  {
+    "chinese": "治疗；疗法",
+    "english": "treatment",
+    "pos": "n.",
+    "sentence": "The new ______ helped her recover quickly from the illness.",
+    "sentence_translation": "这种新疗法帮助她从疾病中快速康复。"
+  },
+  {
+    "chinese": "增加；提高",
+    "english": "increase",
+    "pos": "v.",
+    "sentence": "Regular exercise can ______ your physical strength.",
+    "sentence_translation": "定期锻炼能提高你的体力。"
+  },
+  {
+    "chinese": "药物；药品",
+    "english": "medicine",
+    "pos": "n.",
+    "sentence": "The doctor prescribed some ______ for his headache.",
+    "sentence_translation": "医生为他的头痛开了一些药。"
+  },
+  {
+    "chinese": "测试；检验",
+    "english": "test",
+    "pos": "v.",
+    "sentence": "Scientists will ______ the new material to check its quality.",
+    "sentence_translation": "科学家将测试这种新材料以检查其质量。"
+  },
+  {
+    "chinese": "疗法；治疗",
+    "english": "therapy",
+    "pos": "n.",
+    "sentence": "Music ______ is helpful for people with anxiety.",
+    "sentence_translation": "音乐疗法对焦虑症患者有帮助。"
+  },
+  {
+    "chinese": "提高；举起",
+    "english": "raise",
+    "pos": "v.",
+    "sentence": "Please ______ your voice so everyone can hear you.",
+    "sentence_translation": "请提高你的声音，让每个人都能听到。"
+  },
+  {
+    "chinese": "幸福；快乐",
+    "english": "happiness",
+    "pos": "n.",
+    "sentence": "Spending time with family brings her great ______.",
+    "sentence_translation": "和家人在一起给她带来极大的幸福。"
+  },
+  {
+    "chinese": "触摸；接触",
+    "english": "touch",
+    "pos": "v.",
+    "sentence": "Be careful not to ______ the wet paint on the wall.",
+    "sentence_translation": "小心不要碰到墙上未干的油漆。"
+  },
+  {
+    "chinese": "悲伤；难过",
+    "english": "sadness",
+    "pos": "n.",
+    "sentence": "Her eyes were filled with ______ when she heard the bad news.",
+    "sentence_translation": "听到坏消息时，她的眼里充满了悲伤。"
+  },
+  {
+    "chinese": "跳动；击打",
+    "english": "beat",
+    "pos": "v.",
+    "sentence": "His heart ______ rapidly when he ran the final lap.",
+    "sentence_translation": "跑最后一圈时，他的心跳得很快。"
+  },
+  {
+    "chinese": "愤怒；怒火",
+    "english": "anger",
+    "pos": "n.",
+    "sentence": "He couldn't hide his ______ when he saw the broken window.",
+    "sentence_translation": "看到破碎的窗户时，他掩饰不住自己的愤怒。"
+  },
+  {
+    "chinese": "摇晃；颤抖",
+    "english": "shake",
+    "pos": "v.",
+    "sentence": "The cold wind made her ______ all over.",
+    "sentence_translation": "寒风使她浑身发抖。"
+  },
+  {
+    "chinese": "厌恶；憎恶",
+    "english": "disgust",
+    "pos": "n.",
+    "sentence": "She felt a sense of ______ at the sight of the dirty room.",
+    "sentence_translation": "看到脏乱的房间，她感到一阵厌恶。"
+  },
+  {
+    "chinese": "处理；应对",
+    "english": "handle",
+    "pos": "v.",
+    "sentence": "He is good at ______ difficult customers with patience.",
+    "sentence_translation": "他善于耐心应对难缠的顾客。"
+  },
+  {
+    "chinese": "惊讶；惊喜",
+    "english": "surprise",
+    "pos": "n.",
+    "sentence": "To my ______, she remembered my birthday after all these years.",
+    "sentence_translation": "令我惊讶的是，这么多年后她还记得我的生日。"
+  },
+  {
+    "chinese": "经历；体验",
+    "english": "experience",
+    "pos": "v.",
+    "sentence": "Traveling to foreign countries allows you to ______ different cultures.",
+    "sentence_translation": "去国外旅行能让你体验不同的文化。"
+  },
+  {
+    "chinese": "展示；报告",
+    "english": "presentation",
+    "pos": "n.",
+    "sentence": "She will give a ______ on climate change at the conference.",
+    "sentence_translation": "她将在会议上做一个关于气候变化的报告。"
+  },
+  {
+    "chinese": "快乐的；幸福的",
+    "english": "happy",
+    "pos": "adj.",
+    "sentence": "The children looked ______ while playing in the park.",
+    "sentence_translation": "孩子们在公园里玩耍时看起来很快乐。"
+  },
+  {
+    "chinese": "汗水；出汗",
+    "english": "sweat",
+    "pos": "n./v.",
+    "sentence": "He wiped the ______ from his forehead after working out.",
+    "sentence_translation": "锻炼后，他擦去了额头上的汗水。"
+  },
+  {
+    "chinese": "悲伤的；难过的",
+    "english": "sad",
+    "pos": "adj.",
+    "sentence": "She was ______ when her favorite pet passed away.",
+    "sentence_translation": "她最喜欢的宠物去世时，她很悲伤。"
+  },
+  {
+    "chinese": "身体动作",
+    "english": "body movement",
+    "pos": "n.",
+    "sentence": "______ ______ can often reveal a person's true feelings.",
+    "sentence_translation": "身体动作往往能揭示一个人的真实感受。"
+  },
+  {
+    "chinese": "生气的；愤怒的",
+    "english": "angry",
+    "pos": "adj.",
+    "sentence": "The teacher was ______ because some students didn't finish their homework.",
+    "sentence_translation": "老师很生气，因为有些学生没完成作业。"
+  },
+  {
+    "chinese": "手势；姿态",
+    "english": "gesture",
+    "pos": "n.",
+    "sentence": "Waving is a common ______ to say goodbye in many cultures.",
+    "sentence_translation": "挥手是许多文化中常见的告别手势。"
+  },
+  {
+    "chinese": "害怕的；恐惧的",
+    "english": "fearful",
+    "pos": "adj.",
+    "sentence": "The ______ child clung to his mother in the dark.",
+    "sentence_translation": "在黑暗中，那个害怕的孩子紧紧抓住妈妈。"
+  },
+  {
+    "chinese": "摩擦；揉搓",
+    "english": "rubbing",
+    "pos": "n.",
+    "sentence": "His ______ of his hands showed he was nervous before the interview.",
+    "sentence_translation": "面试前，他揉搓双手的动作表明他很紧张。"
+  },
+  {
+    "chinese": "厌恶的；憎恶的",
+    "english": "disgusted",
+    "pos": "adj.",
+    "sentence": "She looked ______ when she smelled the spoiled food.",
+    "sentence_translation": "闻到变质食物的味道时，她露出了厌恶的表情。"
+  },
+  {
+    "chinese": "挺直的背部",
+    "english": "straightened back",
+    "pos": "n.",
+    "sentence": "A ______ ______ is often a sign of confidence.",
+    "sentence_translation": "挺直的背部往往是自信的标志。"
+  },
+  {
+    "chinese": "苍白的；浅色的",
+    "english": "pale",
+    "pos": "adj.",
+    "sentence": "Her face turned ______ when she heard the shocking news.",
+    "sentence_translation": "听到这个令人震惊的消息时，她的脸变得苍白。"
+  },
+  {
+    "chinese": "交叉的手臂",
+    "english": "crossed arms",
+    "pos": "n.",
+    "sentence": "______ ______ can sometimes indicate that a person is defensive.",
+    "sentence_translation": "交叉的手臂有时表明一个人处于防御状态。"
+  },
+  {
+    "chinese": "相反的；对立的",
+    "english": "opposite",
+    "pos": "adj.",
+    "sentence": "Hot and cold are ______ temperatures.",
+    "sentence_translation": "热和冷是相反的温度。"
+  },
+  {
+    "chinese": "V形手势",
+    "english": "V sign",
+    "pos": "n.",
+    "sentence": "He made a ______ ______ to celebrate his success.",
+    "sentence_translation": "他做了一个V形手势庆祝自己的成功。"
+  },
+  {
+    "chinese": "积极的；正面的",
+    "english": "positive",
+    "pos": "adj.",
+    "sentence": "Maintaining a ______ attitude helps you overcome difficulties.",
+    "sentence_translation": "保持积极的态度能帮助你克服困难。"
+  },
+  {
+    "chinese": "挑战；难题",
+    "english": "challenge",
+    "pos": "n.",
+    "sentence": "Climbing this mountain will be a great ______ for us.",
+    "sentence_translation": "攀登这座山对我们来说将是一个巨大的挑战。"
+  },
+  {
+    "chinese": "消极的；负面的",
+    "english": "negative",
+    "pos": "adj.",
+    "sentence": "Too many ______ thoughts can affect your mental health.",
+    "sentence_translation": "太多消极想法会影响你的心理健康。"
+  },
+  {
+    "chinese": "精力；能量",
+    "english": "energy",
+    "pos": "n.",
+    "sentence": "Eating healthy food gives you more ______ to work and study.",
+    "sentence_translation": "吃健康的食物能给你更多工作和学习的精力。"
+  },
+  {
+    "chinese": "身体的；物理的",
+    "english": "physical",
+    "pos": "adj.",
+    "sentence": "Regular ______ exercise is important for keeping fit.",
+    "sentence_translation": "定期的体育锻炼对保持健康很重要。"
+  },
+  {
+    "chinese": "氧气",
+    "english": "oxygen",
+    "pos": "n.",
+    "sentence": "Plants produce ______ which is essential for human life.",
+    "sentence_translation": "植物产生人类生命所必需的氧气。"
+  },
+  {
+    "chinese": "自信的",
+    "english": "confident",
+    "pos": "adj.",
+    "sentence": "She is ______ that she will pass the exam with good grades.",
+    "sentence_translation": "她有信心能以好成绩通过考试。"
+  },
+  {
+    "chinese": "姿势；姿态",
+    "english": "pose",
+    "pos": "n.",
+    "sentence": "The model struck a beautiful ______ for the camera.",
+    "sentence_translation": "模特为相机摆出了一个优美的姿势。"
+  },
+  {
+    "chinese": "放松的；自在的",
+    "english": "relaxed",
+    "pos": "adj.",
+    "sentence": "She looked ______ after spending a week on vacation.",
+    "sentence_translation": "度过一周假期后，她看起来很放松。"
+  },
+  {
+    "chinese": "反应；回应",
+    "english": "response",
+    "pos": "n.",
+    "sentence": "We are still waiting for their ______ to our proposal.",
+    "sentence_translation": "我们仍在等待他们对我们提案的回应。"
+  },
+  {
+    "chinese": "害怕的；恐惧的",
+    "english": "scared",
+    "pos": "adj.",
+    "sentence": "The little boy was ______ of the barking dog.",
+    "sentence_translation": "这个小男孩害怕那只狂吠的狗。"
+  },
+  {
+    "chinese": "压力；紧张",
+    "english": "stress",
+    "pos": "n.",
+    "sentence": "Too much work ______ can lead to health problems.",
+    "sentence_translation": "过多的工作压力会导致健康问题。"
+  },
+  {
+    "chinese": "受惊的；害怕的",
+    "english": "frightened",
+    "pos": "adj.",
+    "sentence": "The ______ cat hid under the bed during the thunderstorm.",
+    "sentence_translation": "雷暴期间，那只受惊的猫躲在床底下。"
+  },
+  {
+    "chinese": "姿势；体态",
+    "english": "posture",
+    "pos": "n.",
+    "sentence": "Good ______ while sitting can prevent back pain.",
+    "sentence_translation": "坐着时良好的姿势能预防背痛。"
+  },
+  {
+    "chinese": "颤抖的；摇晃的",
+    "english": "shaking",
+    "pos": "adj.",
+    "sentence": "His ______ voice showed how nervous he was during the speech.",
+    "sentence_translation": "他颤抖的声音表明他演讲时有多紧张。"
+  },
+  {
+    "chinese": "触摸；触碰",
+    "english": "touching",
+    "pos": "n.",
+    "sentence": "Gentle ______ can comfort a crying child.",
+    "sentence_translation": "轻柔的触摸能安慰哭泣的孩子。"
+  },
+  {
+    "chinese": "与……无关",
+    "english": "has nothing to do …",
+    "pos": "expression",
+    "sentence": "This incident ______ ______ ______ ______ our team.",
+    "sentence_translation": "这件事与我们团队无关。"
+  },
+  {
+    "chinese": "抓挠",
+    "english": "scratching",
+    "pos": "n.",
+    "sentence": "Constant ______ of the skin may cause irritation.",
+    "sentence_translation": "不停地抓挠皮肤可能会引起刺激。"
+  },
+  {
+    "chinese": "应对；处理",
+    "english": "cope with",
+    "pos": "expression",
+    "sentence": "It's important to learn how to ______ ______ stress in daily life.",
+    "sentence_translation": "学会在日常生活中应对压力很重要。"
+  },
+  {
+    "chinese": "双手背后",
+    "english": "hands behind back",
+    "pos": "n.",
+    "sentence": "He stood with ______ ______ ______ while watching the children play.",
+    "sentence_translation": "他双手背后站着，看着孩子们玩耍。"
+  },
+  {
+    "chinese": "克服恐惧",
+    "english": "manage fear",
+    "pos": "expression",
+    "sentence": "Deep breathing can help you ______ ______ in dangerous situations.",
+    "sentence_translation": "深呼吸能帮助你在危险情况下克服恐惧。"
+  },
+  {
+    "chinese": "竖起大拇指手势",
+    "english": "thumbs up sign",
+    "pos": "n.",
+    "sentence": "He gave a ______ ______ ______ to show his approval.",
+    "sentence_translation": "他竖起大拇指表示赞同。"
+  },
+  {
+    "chinese": "战胜恐惧",
+    "english": "overcome fear",
+    "pos": "expression",
+    "sentence": "She tried hard to ______ ______ of speaking in public.",
+    "sentence_translation": "她努力战胜在公众面前讲话的恐惧。"
+  },
+  {
+    "chinese": "OK手势",
+    "english": "OK sign",
+    "pos": "n.",
+    "sentence": "He made an ______ ______ to indicate that everything was fine.",
+    "sentence_translation": "他做了一个OK手势表示一切顺利。"
+  },
+  {
+    "chinese": "害怕；恐惧",
+    "english": "fear",
+    "pos": "v./n.",
+    "sentence": "Many people ______ spiders even though most are harmless.",
+    "sentence_translation": "许多人害怕蜘蛛，尽管大多数蜘蛛是无害的。"
+  }
 ]

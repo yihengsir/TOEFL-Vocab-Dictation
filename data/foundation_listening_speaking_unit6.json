@@ -1,287 +1,156 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "银行",
+    "english": "bank",
+    "pos": "n.",
+    "sentence": "I need to go to the ______ to deposit this check.",
+    "sentence_translation": "我需要去银行存这张支票。"
+  },
+  {
+    "chinese": "建造；构造",
+    "english": "construct",
+    "pos": "v.",
+    "sentence": "Engineers plan to ______ a new skyscraper in the city center.",
+    "sentence_translation": "工程师们计划在市中心建造一座新的摩天大楼。"
+  },
+  {
+    "chinese": "干洗店",
+    "english": "cleaner’s",
+    "pos": "n.",
+    "sentence": "She picked up her dry cleaning from the ______ this morning.",
+    "sentence_translation": "她今天早上从干洗店取回了她的干洗衣物。"
+  },
+  {
+    "chinese": "跨越；持续",
+    "english": "span",
+    "pos": "v.",
+    "sentence": "The ancient bridge ______ the river for over 200 years.",
+    "sentence_translation": "这座古桥跨越这条河已有200多年了。"
+  },
+  {
+    "chinese": "法院大楼",
+    "english": "courthouse",
+    "pos": "n.",
+    "sentence": "The trial will be held at the ______ next Monday.",
+    "sentence_translation": "审判将于下周一在法院大楼举行。"
+  },
+  {
+    "chinese": "连接；联系",
+    "english": "connect",
+    "pos": "v.",
+    "sentence": "This highway will ______ the two towns more efficiently.",
+    "sentence_translation": "这条高速公路将更高效地连接这两个城镇。"
+  },
+  {
+    "chinese": "超市",
+    "english": "supermarket",
+    "pos": "n.",
+    "sentence": "We buy fresh vegetables and fruits at the ______ every weekend.",
+    "sentence_translation": "我们每周在超市购买新鲜的蔬菜和水果。"
+  },
+  {
+    "chinese": "植物园",
+    "english": "botanical garden",
+    "pos": "expressions",
+    "sentence": "We visited the ______ ______ to see rare tropical plants.",
+    "sentence_translation": "我们参观了植物园，去看稀有的热带植物。"
+  },
+  {
+    "chinese": "电脑维修店",
+    "english": "computer repair shop",
+    "pos": "expressions",
+    "sentence": "My laptop crashed, so I took it to the ______ ______ ______.",
+    "sentence_translation": "我的笔记本电脑死机了，所以我把它送到了电脑维修店。"
+  },
+  {
+    "chinese": "机动车管理部门；车管所",
+    "english": "department of motor vehicle",
+    "pos": "expressions",
+    "sentence": "You need to go to the ______ ______ ______ ______ to get a new driver’s license.",
+    "sentence_translation": "你需要去车管所办理新的驾照。"
+  },
+  {
+    "chinese": "乱穿马路；闯红灯",
+    "english": "jaywalk",
+    "pos": "v.",
+    "sentence": "It’s dangerous to ______ across busy streets without looking.",
+    "sentence_translation": "不看路就乱穿繁忙的街道是很危险的。"
+  },
+  {
+    "chinese": "喷泉",
+    "english": "fountain",
+    "pos": "n.",
+    "sentence": "Children are playing around the ______ in the park.",
+    "sentence_translation": "孩子们在公园的喷泉周围玩耍。"
+  },
+  {
+    "chinese": "让某人下车",
+    "english": "drop sb. off",
+    "pos": "expressions",
+    "sentence": "Can you ______ me ______ at the library on your way to work?",
+    "sentence_translation": "你上班路上能让我在图书馆下车吗？"
+  },
+  {
+    "chinese": "纪念碑；纪念馆",
+    "english": "monument",
+    "pos": "n.",
+    "sentence": "The ______ was built to remember the soldiers who died in the war.",
+    "sentence_translation": "这座纪念碑是为了纪念在战争中牺牲的士兵而建的。"
+  },
+  {
+    "chinese": "交交通罚单",
+    "english": "pay a traffic ticket",
+    "pos": "expressions",
+    "sentence": "He forgot to ______ ______ ______ ______ and got a late fee.",
+    "sentence_translation": "他忘了交交通罚单，产生了滞纳金。"
+  },
+  {
+    "chinese": "宫殿",
+    "english": "palace",
+    "pos": "n.",
+    "sentence": "The ancient ______ is now open to the public as a museum.",
+    "sentence_translation": "这座古老的宫殿现在作为博物馆向公众开放。"
+  },
+  {
+    "chinese": "让某人搭便车",
+    "english": "give sb. a ride",
+    "pos": "expressions",
+    "sentence": "She ______ me ______ ______ to the station when my car broke down.",
+    "sentence_translation": "我的车坏了的时候，她让我搭便车去车站。"
+  },
+  {
+    "chinese": "广场",
+    "english": "square",
+    "pos": "n.",
+    "sentence": "A large crowd gathered in the ______ to watch the parade.",
+    "sentence_translation": "一大群人聚集在广场上观看游行。"
+  },
+  {
+    "chinese": "接（人）；捡起",
+    "english": "pick up",
+    "pos": "expressions",
+    "sentence": "I’ll ______ ______ my little sister from school at 4 p.m.",
+    "sentence_translation": "我下午4点去学校接我妹妹。"
+  },
+  {
+    "chinese": "雕像；塑像",
+    "english": "statue",
+    "pos": "n.",
+    "sentence": "There is a ______ of the famous scientist in front of the university.",
+    "sentence_translation": "大学门前有一座这位著名科学家的雕像。"
+  },
+  {
+    "chinese": "办些杂事",
+    "english": "run some errands",
+    "pos": "expressions",
+    "sentence": "I need to ______ ______ ______ after work—buy milk and mail a package.",
+    "sentence_translation": "我下班后需要办些杂事——买牛奶和寄包裹。"
+  },
+  {
+    "chinese": "洗衣物；洗衣店",
+    "english": "laundry",
+    "pos": "n.",
+    "sentence": "She spent the morning doing the ______ and folding clothes.",
+    "sentence_translation": "她花了一上午洗衣服和叠衣服。"
+  }
 ]

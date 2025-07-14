@@ -1,287 +1,254 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "商品；货物",
+    "english": "goods",
+    "pos": "noun",
+    "sentence": "Ships carry ______ between different countries.",
+    "sentence_translation": "船只在不同国家之间运送商品。"
+  },
+  {
+    "chinese": "瓜；甜瓜",
+    "english": "melon",
+    "pos": "noun",
+    "sentence": "We bought a sweet ______ from the market.",
+    "sentence_translation": "我们从市场买了一个甜甜瓜。"
+  },
+  {
+    "chinese": "骆驼",
+    "english": "camel",
+    "pos": "noun",
+    "sentence": "A ______ can travel long distances in the desert without water.",
+    "sentence_translation": "骆驼可以在沙漠中不喝水长途跋涉。"
+  },
+  {
+    "chinese": "椰枣",
+    "english": "date",
+    "pos": "noun",
+    "sentence": "______ are a common food in desert regions.",
+    "sentence_translation": "椰枣是沙漠地区的常见食物。"
+  },
+  {
+    "chinese": "贸易；交易",
+    "english": "trade",
+    "pos": "verb/noun",
+    "sentence": "Countries ______ with each other to get needed resources.",
+    "sentence_translation": "各国相互贸易以获取所需资源。"
+  },
+  {
+    "chinese": "乐器",
+    "english": "musical instrument",
+    "pos": "noun",
+    "sentence": "She can play several ______ ______ like the piano and guitar.",
+    "sentence_translation": "她会演奏多种乐器，比如钢琴和吉他。"
+  },
+  {
+    "chinese": "路线；路径",
+    "english": "route",
+    "pos": "noun",
+    "sentence": "The ancient ______ was used for transporting silk and spices.",
+    "sentence_translation": "这条古老的路线用于运输丝绸和香料。"
+  },
+  {
+    "chinese": "玉；翡翠",
+    "english": "jade",
+    "pos": "noun",
+    "sentence": "The necklace is made of valuable ______.",
+    "sentence_translation": "这条项链由珍贵的玉制成。"
+  },
+  {
+    "chinese": "出口；输出",
+    "english": "export",
+    "pos": "verb",
+    "sentence": "This country ______ tea and cotton to many parts of the world.",
+    "sentence_translation": "这个国家向世界许多地区出口茶叶和棉花。"
+  },
+  {
+    "chinese": "移民；定居者",
+    "english": "settler",
+    "pos": "noun",
+    "sentence": "The ______ built houses and farms in the new land.",
+    "sentence_translation": "移民在这片新土地上建造房屋和农场。"
+  },
+  {
+    "chinese": "商人；批发商",
+    "english": "merchant",
+    "pos": "noun",
+    "sentence": "The ______ traveled along the Silk Road to sell his goods.",
+    "sentence_translation": "这位商人沿着丝绸之路旅行售卖商品。"
+  },
+  {
+    "chinese": "美洲原住民",
+    "english": "Native American",
+    "pos": "noun",
+    "sentence": "______ ______ have a rich cultural heritage.",
+    "sentence_translation": "美洲原住民拥有丰富的文化遗产。"
+  },
+  {
+    "chinese": "朝代；王朝",
+    "english": "dynasty",
+    "pos": "noun",
+    "sentence": "The Tang ______ was a period of great prosperity in China.",
+    "sentence_translation": "唐朝是中国的一个繁荣时期。"
+  },
+  {
+    "chinese": "部落；部族",
+    "english": "tribe",
+    "pos": "noun",
+    "sentence": "The ______ has lived in this valley for centuries.",
+    "sentence_translation": "这个部落在这个山谷生活了几个世纪。"
+  },
+  {
+    "chinese": "丝绸",
+    "english": "silk",
+    "pos": "noun",
+    "sentence": "Chinese ______ was highly valued in ancient trade.",
+    "sentence_translation": "中国丝绸在古代贸易中价值很高。"
+  },
+  {
+    "chinese": "宗教迫害",
+    "english": "religious persecution",
+    "pos": "noun",
+    "sentence": "Many people fled their homeland to avoid ______ ______.",
+    "sentence_translation": "许多人逃离家乡以躲避宗教迫害。"
+  },
+  {
+    "chinese": "火药",
+    "english": "gunpowder",
+    "pos": "noun",
+    "sentence": "______ was one of the important inventions in ancient China.",
+    "sentence_translation": "火药是中国古代的重要发明之一。"
+  },
+  {
+    "chinese": "盛宴；宴会",
+    "english": "feast",
+    "pos": "noun",
+    "sentence": "They held a ______ to celebrate the harvest.",
+    "sentence_translation": "他们举办盛宴庆祝丰收。"
+  },
+  {
+    "chinese": "香料；调味品",
+    "english": "spice",
+    "pos": "noun",
+    "sentence": "Traders brought ______ like pepper and cinnamon from the East.",
+    "sentence_translation": "商人从东方带来胡椒和肉桂等香料。"
+  },
+  {
+    "chinese": "殖民地",
+    "english": "colony",
+    "pos": "noun",
+    "sentence": "The country once had a ______ in the Caribbean.",
+    "sentence_translation": "这个国家曾经在加勒比海有一个殖民地。"
+  },
+  {
+    "chinese": "葡萄干",
+    "english": "raisin",
+    "pos": "noun",
+    "sentence": "She added ______ to the cake batter for sweetness.",
+    "sentence_translation": "她在蛋糕面糊中加入葡萄干增加甜味。"
+  },
+  {
+    "chinese": "独立；自主",
+    "english": "independence",
+    "pos": "noun",
+    "sentence": "The country gained ______ in 1960 after a long struggle.",
+    "sentence_translation": "经过长期斗争，这个国家于1960年获得独立。"
+  },
+  {
+    "chinese": "地毯",
+    "english": "carpet",
+    "pos": "noun",
+    "sentence": "The ______ in the living room is hand-woven.",
+    "sentence_translation": "客厅里的地毯是手工编织的。"
+  },
+  {
+    "chinese": "宣布；声明",
+    "english": "declare",
+    "pos": "verb",
+    "sentence": "The government will ______ new policies next week.",
+    "sentence_translation": "政府下周将宣布新政策。"
+  },
+  {
+    "chinese": "保险箱；保险柜",
+    "english": "safe",
+    "pos": "noun",
+    "sentence": "He keeps his valuable documents in a ______.",
+    "sentence_translation": "他把贵重文件放在保险箱里。"
+  },
+  {
+    "chinese": "逮捕；拘留",
+    "english": "arrest",
+    "pos": "verb",
+    "sentence": "The police will ______ the suspect for theft.",
+    "sentence_translation": "警方将因盗窃逮捕嫌疑人。"
+  },
+  {
+    "chinese": "全体船员；全体工作人员",
+    "english": "crew",
+    "pos": "noun",
+    "sentence": "The ship's ______ worked hard to navigate through the storm.",
+    "sentence_translation": "船上的全体船员努力在风暴中航行。"
+  },
+  {
+    "chinese": "继续前进；进展",
+    "english": "move on",
+    "pos": "phrases",
+    "sentence": "After finishing the project, we need to ______ ______ to the next task.",
+    "sentence_translation": "完成这个项目后，我们需要继续前进到下一个任务。"
+  },
+  {
+    "chinese": "救生艇",
+    "english": "lifeboat",
+    "pos": "noun",
+    "sentence": "The passengers boarded the ______ when the ship started sinking.",
+    "sentence_translation": "船开始下沉时，乘客们登上了救生艇。"
+  },
+  {
+    "chinese": "与……和解",
+    "english": "make peace with",
+    "pos": "phrases",
+    "sentence": "After years of conflict, the two tribes decided to ______ ______ ______ each other.",
+    "sentence_translation": "经过多年冲突，两个部落决定彼此和解。"
+  },
+  {
+    "chinese": "项链",
+    "english": "necklace",
+    "pos": "noun",
+    "sentence": "Her grandmother gave her a gold ______ as a gift.",
+    "sentence_translation": "她的祖母送给她一条金项链作为礼物。"
+  },
+  {
+    "chinese": "最初；本来",
+    "english": "originally",
+    "pos": "adverb",
+    "sentence": "This house ______ belonged to a famous writer.",
+    "sentence_translation": "这所房子最初属于一位著名作家。"
+  },
+  {
+    "chinese": "钻石；金刚石",
+    "english": "diamond",
+    "pos": "noun",
+    "sentence": "The ring has a large ______ in the center.",
+    "sentence_translation": "这枚戒指中间有一颗大钻石。"
+  },
+  {
+    "chinese": "顺利地；平稳地",
+    "english": "smoothly",
+    "pos": "adverb",
+    "sentence": "The event went ______ thanks to careful planning.",
+    "sentence_translation": "由于精心策划，活动顺利进行。"
+  },
+  {
+    "chinese": "平淡无奇的；无特别事件的",
+    "english": "uneventful",
+    "pos": "adjective",
+    "sentence": "The journey was ______ with no delays or problems.",
+    "sentence_translation": "这次旅行平淡无奇，没有延误或问题。"
+  },
+  {
+    "chinese": "虚构的；小说的",
+    "english": "fictional",
+    "pos": "adjective",
+    "sentence": "The story is based on a ______ character, not a real person.",
+    "sentence_translation": "这个故事基于一个虚构的人物，不是真实的人。"
+  }
 ]

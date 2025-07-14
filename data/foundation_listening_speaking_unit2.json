@@ -1,287 +1,212 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "雕塑；雕刻品",
+    "english": "sculpture",
+    "pos": "noun",
+    "sentence": "The artist created a beautiful ______ for the park.",
+    "sentence_translation": "这位艺术家为公园创作了一件漂亮的雕塑。"
+  },
+  {
+    "chinese": "令人舒缓的；使人平静的",
+    "english": "soothing",
+    "pos": "adjective",
+    "sentence": "The ______ sound of rain helps me fall asleep.",
+    "sentence_translation": "舒缓的雨声帮助我入睡。"
+  },
+  {
+    "chinese": "双层床",
+    "english": "bunk bed",
+    "pos": "noun",
+    "sentence": "The kids share a ______ in their bedroom to save space.",
+    "sentence_translation": "孩子们在卧室里共用一张双层床以节省空间。"
+  },
+  {
+    "chinese": "宽敞的",
+    "english": "spacious",
+    "pos": "adjective",
+    "sentence": "The ______ kitchen has enough room for two people to cook.",
+    "sentence_translation": "这个宽敞的厨房有足够空间供两个人做饭。"
+  },
+  {
+    "chinese": "盐灯",
+    "english": "salt lamp",
+    "pos": "noun",
+    "sentence": "A ______ emits a soft orange light that relaxes the room.",
+    "sentence_translation": "盐灯发出柔和的橙色光线，使房间氛围变得放松。"
+  },
+  {
+    "chinese": "极小的；微小的",
+    "english": "tiny",
+    "pos": "adjective",
+    "sentence": "A ______ butterfly landed on the flower in the garden.",
+    "sentence_translation": "一只小蝴蝶落在了花园的花朵上。"
+  },
+  {
+    "chinese": "梳妆台；衣柜",
+    "english": "dresser",
+    "pos": "noun",
+    "sentence": "She folded her clothes neatly in the ______ drawer.",
+    "sentence_translation": "她把衣服整齐地叠放在梳妆台的抽屉里。"
+  },
+  {
+    "chinese": "温暖舒适的",
+    "english": "cozy",
+    "pos": "adjective",
+    "sentence": "We sat by the fire in the ______ cabin on a cold night.",
+    "sentence_translation": "寒冷的夜晚，我们坐在温暖舒适的小屋里的炉火旁。"
+  },
+  {
+    "chinese": "壁橱；衣柜",
+    "english": "closet",
+    "pos": "noun",
+    "sentence": "He hung his coat in the ______ before entering the room.",
+    "sentence_translation": "他进房间前把外套挂在了衣柜里。"
+  },
+  {
+    "chinese": "偏远的；遥远的",
+    "english": "remote",
+    "pos": "adjective",
+    "sentence": "They live in a ______ village with no internet access.",
+    "sentence_translation": "他们住在一个没有互联网的偏远村庄。"
+  },
+  {
+    "chinese": "梳妆台",
+    "english": "dressing table",
+    "pos": "noun",
+    "sentence": "Her perfume and makeup are placed on the ______.",
+    "sentence_translation": "她的香水和化妆品放在梳妆台上。"
+  },
+  {
+    "chinese": "当代的；现代的",
+    "english": "contemporary",
+    "pos": "adjective",
+    "sentence": "The museum exhibits ______ artworks from young artists.",
+    "sentence_translation": "这家博物馆展出年轻艺术家的当代艺术品。"
+  },
+  {
+    "chinese": "扶手椅",
+    "english": "armchair",
+    "pos": "noun",
+    "sentence": "Grandpa likes to read newspapers in his favorite ______.",
+    "sentence_translation": "爷爷喜欢坐在他最喜欢的扶手椅上看报纸。"
+  },
+  {
+    "chinese": "狭窄的；拥挤的",
+    "english": "cramped",
+    "pos": "adjective",
+    "sentence": "The ______ subway is full of people during rush hour.",
+    "sentence_translation": "高峰时段，拥挤的地铁里挤满了人。"
+  },
+  {
+    "chinese": "书架",
+    "english": "bookcase",
+    "pos": "noun",
+    "sentence": "The ______ in the study is filled with history and science books.",
+    "sentence_translation": "书房的书架上摆满了历史和科学书籍。"
+  },
+  {
+    "chinese": "平静的；安宁的",
+    "english": "peaceful",
+    "pos": "adjective",
+    "sentence": "The ______ countryside is a perfect place to escape the city noise.",
+    "sentence_translation": "宁静的乡村是逃离城市喧嚣的绝佳去处。"
+  },
+  {
+    "chinese": "床头柜",
+    "english": "nightstand",
+    "pos": "noun",
+    "sentence": "A glass of water and a lamp are placed on the ______.",
+    "sentence_translation": "床头柜上放着一杯水和一盏灯。"
+  },
+  {
+    "chinese": "枕头",
+    "english": "pillow",
+    "pos": "noun",
+    "sentence": "She fluffed the ______ before lying down on the bed.",
+    "sentence_translation": "她躺下前把枕头拍松了。"
+  },
+  {
+    "chinese": "毯子；毛毯",
+    "english": "blanket",
+    "pos": "noun",
+    "sentence": "The baby was wrapped in a soft ______ to keep warm.",
+    "sentence_translation": "婴儿被裹在柔软的毯子里保暖。"
+  },
+  {
+    "chinese": "船屋",
+    "english": "houseboat",
+    "pos": "noun",
+    "sentence": "They spent their summer vacation living on a ______ by the lake.",
+    "sentence_translation": "他们暑假住在湖边的船屋里。"
+  },
+  {
+    "chinese": "联排别墅",
+    "english": "terraced house",
+    "pos": "noun",
+    "sentence": "The ______ has a small yard and shares walls with neighboring houses.",
+    "sentence_translation": "这栋联排别墅有一个小院子，与邻居的房子共用墙壁。"
+  },
+  {
+    "chinese": "公寓",
+    "english": "flat",
+    "pos": "noun",
+    "sentence": "She rented a ______ on the third floor of the building.",
+    "sentence_translation": "她租了这栋楼三楼的一套公寓。"
+  },
+  {
+    "chinese": "平房",
+    "english": "bungalow",
+    "pos": "noun",
+    "sentence": "The ______ with a red roof is surrounded by green lawns.",
+    "sentence_translation": "这栋红顶平房被绿色草坪环绕。"
+  },
+  {
+    "chinese": "农舍",
+    "english": "farmhouse",
+    "pos": "noun",
+    "sentence": "The old ______ has been renovated into a cozy bed and breakfast.",
+    "sentence_translation": "这栋旧农舍被改造成了一个温馨的民宿。"
+  },
+  {
+    "chinese": "豪宅；大厦",
+    "english": "mansion",
+    "pos": "noun",
+    "sentence": "The wealthy businessman owns a ______ with a large garden and a swimming pool.",
+    "sentence_translation": "这位富商拥有一座带大花园和游泳池的豪宅。"
+  },
+  {
+    "chinese": "潮湿的",
+    "english": "humid",
+    "pos": "adjective",
+    "sentence": "The ______ weather in the rainforest makes clothes dry slowly.",
+    "sentence_translation": "雨林里潮湿的天气使衣服干得很慢。"
+  },
+  {
+    "chinese": "极冷的；冰冻的",
+    "english": "freezing",
+    "pos": "adjective",
+    "sentence": "We wore thick coats to keep warm in the ______ winter wind.",
+    "sentence_translation": "在刺骨的寒风中，我们穿着厚外套保暖。"
+  },
+  {
+    "chinese": "酥脆的；脆的",
+    "english": "crispy",
+    "pos": "adjective",
+    "sentence": "The ______ fried chicken is a popular dish in this restaurant.",
+    "sentence_translation": "酥脆的炸鸡是这家餐厅的热门菜品。"
+  },
+  {
+    "chinese": "最喜欢的",
+    "english": "favorite",
+    "pos": "adjective",
+    "sentence": "Her ______ hobby is painting landscapes in her free time.",
+    "sentence_translation": "她最喜欢的爱好是在空闲时间画风景画。"
+  },
+  {
+    "chinese": "肯定地；当然",
+    "english": "definitely",
+    "pos": "adverb",
+    "sentence": "I will ______ join you for the hiking trip next weekend.",
+    "sentence_translation": "下周末我肯定会和你一起去徒步旅行。"
+  }
 ]

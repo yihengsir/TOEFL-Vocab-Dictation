@@ -1,287 +1,240 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "令人放松的",
+    "english": "relaxing",
+    "pos": "adj.",
+    "sentence": "Listening to classical music is a ______ way to unwind.",
+    "sentence_translation": "听古典音乐是一种令人放松的放松方式。"
+  },
+  {
+    "chinese": "处理；应对",
+    "english": "deal with",
+    "pos": "expressions",
+    "sentence": "It's important to learn how to ______ ______ difficult situations calmly.",
+    "sentence_translation": "学会冷静处理困难情况很重要。"
+  },
+  {
+    "chinese": "职业；事业",
+    "english": "career",
+    "pos": "noun",
+    "sentence": "She has dedicated her ______ to helping vulnerable communities.",
+    "sentence_translation": "她将自己的职业生涯致力于帮助弱势群体。"
+  },
+  {
+    "chinese": "对……负责",
+    "english": "be responsible for",
+    "pos": "expressions",
+    "sentence": "Managers ______ ______ ______ the performance of their teams.",
+    "sentence_translation": "经理们对自己团队的表现负责。"
+  },
+  {
+    "chinese": "放弃；辞职",
+    "english": "quit",
+    "pos": "verb",
+    "sentence": "He plans to ______ his current job and travel around the world.",
+    "sentence_translation": "他计划辞去现在的工作，环游世界。"
+  },
+  {
+    "chinese": "与……合作",
+    "english": "work with",
+    "pos": "expressions",
+    "sentence": "Scientists often ______ ______ researchers from other countries on global projects.",
+    "sentence_translation": "科学家们经常与其他国家的研究人员合作开展全球性项目。"
+  },
+  {
+    "chinese": "累人的；令人疲倦的",
+    "english": "tiring",
+    "pos": "adj.",
+    "sentence": "Standing for hours at work is really ______ for shop assistants.",
+    "sentence_translation": "对店员来说，工作时站几个小时真的很累人。"
+  },
+  {
+    "chinese": "全职工作",
+    "english": "a full-time job",
+    "pos": "expressions",
+    "sentence": "After graduation, she found ______ ______ ______ at a local hospital.",
+    "sentence_translation": "毕业后，她在当地一家医院找到了一份全职工作。"
+  },
+  {
+    "chinese": "有压力的",
+    "english": "stressful",
+    "pos": "adj.",
+    "sentence": "Meeting tight deadlines can be very ______ for employees.",
+    "sentence_translation": "赶紧迫的截止日期对员工来说可能压力很大。"
+  },
+  {
+    "chinese": "兼职工作",
+    "english": "a part-time job",
+    "pos": "expressions",
+    "sentence": "Many students take ______ ______ ______ to earn extra money while studying.",
+    "sentence_translation": "许多学生在学习期间做兼职工作来赚外快。"
+  },
+  {
+    "chinese": "薪水；工资",
+    "english": "salary",
+    "pos": "noun",
+    "sentence": "The company offers a competitive ______ and good benefits.",
+    "sentence_translation": "这家公司提供有竞争力的薪水和良好的福利。"
+  },
+  {
+    "chinese": "全职工作",
+    "english": "work full-time",
+    "pos": "expressions",
+    "sentence": "She decided to ______ ______ after her children started school.",
+    "sentence_translation": "她的孩子们上学后，她决定全职工作。"
+  },
+  {
+    "chinese": "辅导员；顾问",
+    "english": "counselor",
+    "pos": "noun",
+    "sentence": "The school ______ provides guidance to students on career choices.",
+    "sentence_translation": "学校辅导员为学生提供职业选择指导。"
+  },
+  {
+    "chinese": "兼职工作",
+    "english": "work part-time",
+    "pos": "expressions",
+    "sentence": "He ______ ______ at a café on weekends to gain work experience.",
+    "sentence_translation": "他周末在咖啡馆兼职以获取工作经验。"
+  },
+  {
+    "chinese": "热情的；热诚的",
+    "english": "passionate",
+    "pos": "adj.",
+    "sentence": "She is ______ about animal rights and volunteers at a shelter.",
+    "sentence_translation": "她热衷于动物权利，在一家收容所做志愿者。"
+  },
+  {
+    "chinese": "固定工作；长期工作",
+    "english": "a permanent job",
+    "pos": "expressions",
+    "sentence": "After several temporary roles, he finally got ______ ______ ______ in an office.",
+    "sentence_translation": "经过几个临时职位后，他终于在一家办公室找到了一份固定工作。"
+  },
+  {
+    "chinese": "雇主；老板",
+    "english": "employer",
+    "pos": "noun",
+    "sentence": "A good ______ values and respects their employees.",
+    "sentence_translation": "一个好的雇主重视并尊重员工。"
+  },
+  {
+    "chinese": "临时工作",
+    "english": "a temporary job",
+    "pos": "expressions",
+    "sentence": "She took ______ ______ ______ during the holiday season at a shopping mall.",
+    "sentence_translation": "假期期间，她在一家购物中心做临时工作。"
+  },
+  {
+    "chinese": "捐赠；捐献",
+    "english": "donate",
+    "pos": "verb",
+    "sentence": "People are encouraged to ______ clothes and food to those affected by the disaster.",
+    "sentence_translation": "人们被鼓励向受灾者捐赠衣物和食物。"
+  },
+  {
+    "chinese": "导致",
+    "english": "result in",
+    "pos": "expressions",
+    "sentence": "Poor time management can ______ ______ missed opportunities.",
+    "sentence_translation": "时间管理不善会导致错失机会。"
+  },
+  {
+    "chinese": "慈善；慈善机构",
+    "english": "charity",
+    "pos": "noun",
+    "sentence": "The ______ organizes events to raise money for medical research.",
+    "sentence_translation": "这个慈善机构组织活动为医学研究筹集资金。"
+  },
+  {
+    "chinese": "由……引起",
+    "english": "result from",
+    "pos": "expressions",
+    "sentence": "Most accidents ______ ______ human error rather than mechanical failure.",
+    "sentence_translation": "大多数事故由人为失误而非机械故障引起。"
+  },
+  {
+    "chinese": "经营；管理；跑步",
+    "english": "run",
+    "pos": "verb",
+    "sentence": "They ______ a small family business that has been around for 30 years.",
+    "sentence_translation": "他们经营着一家有30年历史的小型家族企业。"
+  },
+  {
+    "chinese": "导致",
+    "english": "lead to",
+    "pos": "expressions",
+    "sentence": "Regular exercise can ______ ______ better physical and mental health.",
+    "sentence_translation": "定期锻炼能带来更好的身心健康。"
+  },
+  {
+    "chinese": "责任；职责",
+    "english": "responsibility",
+    "pos": "noun",
+    "sentence": "Teaching children about honesty is an important ______ for parents.",
+    "sentence_translation": "教孩子诚实是父母的一项重要责任。"
+  },
+  {
+    "chinese": "结果",
+    "english": "as a result",
+    "pos": "expressions",
+    "sentence": "He practiced daily; ______ ______ ______, he won the competition.",
+    "sentence_translation": "他每天练习，结果赢得了比赛。"
+  },
+  {
+    "chinese": "管理；设法做到",
+    "english": "manage",
+    "pos": "verb",
+    "sentence": "Despite the challenges, she ______ to complete the project on time.",
+    "sentence_translation": "尽管面临挑战，她还是设法按时完成了项目。"
+  },
+  {
+    "chinese": "由于这个原因",
+    "english": "for this reason",
+    "pos": "expressions",
+    "sentence": "The road is closed; ______ ______ ______, we need to find an alternative route.",
+    "sentence_translation": "道路封闭了，由于这个原因，我们需要找一条替代路线。"
+  },
+  {
+    "chinese": "为……工作",
+    "english": "work for",
+    "pos": "expressions",
+    "sentence": "She ______ ______ a non-profit organization that helps homeless people.",
+    "sentence_translation": "她为一家帮助无家可归者的非营利组织工作。"
+  },
+  {
+    "chinese": "因为；由于",
+    "english": "because of",
+    "pos": "expressions",
+    "sentence": "The outdoor event was canceled ______ ______ the heavy rain.",
+    "sentence_translation": "由于大雨，户外活动取消了。"
+  },
+  {
+    "chinese": "从事；致力于",
+    "english": "work on",
+    "pos": "expressions",
+    "sentence": "Researchers are ______ ______ a breakthrough in renewable energy technology.",
+    "sentence_translation": "研究人员正致力于可再生能源技术的突破。"
+  },
+  {
+    "chinese": "由于",
+    "english": "due to",
+    "pos": "expressions",
+    "sentence": "The train was delayed ______ ______ technical problems.",
+    "sentence_translation": "火车由于技术问题延误了。"
+  },
+  {
+    "chinese": "在……手下工作；在……管理下",
+    "english": "work under",
+    "pos": "expressions",
+    "sentence": "Young employees often ______ ______ experienced leaders to learn practical skills.",
+    "sentence_translation": "年轻员工经常在有经验的领导手下工作，学习实用技能。"
+  },
+  {
+    "chinese": "负责；掌管",
+    "english": "in charge of",
+    "pos": "expressions",
+    "sentence": "The supervisor is ______ ______ ______ ensuring safety standards are met.",
+    "sentence_translation": "主管负责确保安全标准得到满足。"
+  }
 ]

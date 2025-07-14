@@ -1,287 +1,198 @@
 [
     {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
+        "chinese": "机器人",
+        "english": "robot",
+        "pos": "n.",
+        "sentence": "______ can help people do many difficult jobs.",
+        "sentence_translation": "机器人可以帮助人们做很多困难的工作。"
     },
     {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
+        "chinese": "应用程序（应用）",
+        "english": "application (app)",
+        "pos": "n.",
+        "sentence": "We often use this ______ to learn English.",
+        "sentence_translation": "我们经常用这个应用程序学习英语。"
     },
     {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
+        "chinese": "家用电器",
+        "english": "domestic appliance",
+        "pos": "n.",
+        "sentence": "Many ______ ______ make our life easier.",
+        "sentence_translation": "许多家用电器使我们的生活更轻松。"
     },
     {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
+        "chinese": "电子设备",
+        "english": "electronic device",
+        "pos": "n.",
+        "sentence": "This store sells various ______ ______.",
+        "sentence_translation": "这家商店出售各种电子设备。"
     },
     {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
+        "chinese": "数码相机",
+        "english": "digital camera",
+        "pos": "n.",
+        "sentence": "She used a ______ ______ to take photos of the scenery.",
+        "sentence_translation": "她用数码相机拍摄风景照片。"
     },
     {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
+        "chinese": "智能手机",
+        "english": "smartphone",
+        "pos": "n.",
+        "sentence": "Almost everyone has a ______ now.",
+        "sentence_translation": "现在几乎每个人都有一部智能手机。"
     },
     {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
+        "chinese": "平板电脑",
+        "english": "tablet",
+        "pos": "n.",
+        "sentence": "He likes reading e-books on his ______.",
+        "sentence_translation": "他喜欢在他的平板电脑上读电子书。"
     },
     {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
+        "chinese": "智能手表",
+        "english": "smartwatch",
+        "pos": "n.",
+        "sentence": "My ______ can track my daily steps.",
+        "sentence_translation": "我的智能手表可以记录我每天的步数。"
     },
     {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
+        "chinese": "计算器",
+        "english": "calculator",
+        "pos": "n.",
+        "sentence": "Students often use a ______ in math class.",
+        "sentence_translation": "学生们在数学课上经常用计算器。"
     },
     {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
+        "chinese": "笔记本电脑",
+        "english": "laptop",
+        "pos": "n.",
+        "sentence": "She takes her ______ to the coffee shop to work.",
+        "sentence_translation": "她带笔记本电脑去咖啡店工作。"
     },
     {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
+        "chinese": "办公软件/应用",
+        "english": "office software/ app",
+        "pos": "n.",
+        "sentence": "We need to master some ______ ______ to finish the report.",
+        "sentence_translation": "我们需要掌握一些办公软件来完成报告。"
     },
     {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
+        "chinese": "音乐应用",
+        "english": "music app",
+        "pos": "n.",
+        "sentence": "I often listen to songs on this ______ ______.",
+        "sentence_translation": "我经常在这个音乐应用上听歌。"
     },
     {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
+        "chinese": "云存储",
+        "english": "cloud storage",
+        "pos": "n.",
+        "sentence": "You can save your files in ______ ______ for safety.",
+        "sentence_translation": "为了安全，你可以把文件存在云存储里。"
     },
     {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
+        "chinese": "编程网站/应用",
+        "english": "programming website/ app",
+        "pos": "n.",
+        "sentence": "He learns coding through a ______ ______.",
+        "sentence_translation": "他通过一个编程网站学习编程。"
     },
     {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
+        "chinese": "搜索引擎",
+        "english": "search engine",
+        "pos": "n.",
+        "sentence": "We usually use a ______ ______ to find information online.",
+        "sentence_translation": "我们通常用搜索引擎在网上查找信息。"
     },
     {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
+        "chinese": "电脑游戏",
+        "english": "computer game",
+        "pos": "n.",
+        "sentence": "Playing ______ ______ for a long time is bad for eyes.",
+        "sentence_translation": "长时间玩电脑游戏对眼睛不好。"
     },
     {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
+        "chinese": "耳机",
+        "english": "headset",
+        "pos": "n.",
+        "sentence": "He wears a ______ to listen to music quietly.",
+        "sentence_translation": "他戴耳机安静地听音乐。"
     },
     {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
+        "chinese": "沉浸；沉浸感",
+        "english": "immersion",
+        "pos": "n.",
+        "sentence": "The game gives players a strong sense of ______.",
+        "sentence_translation": "这款游戏给玩家很强的沉浸感。"
     },
     {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
+        "chinese": "使沉浸；使专心于",
+        "english": "immerse",
+        "pos": "v.",
+        "sentence": "She ______ herself in reading all day.",
+        "sentence_translation": "她一整天都沉浸在阅读中。"
     },
     {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
+        "chinese": "虚拟的",
+        "english": "virtual",
+        "pos": "adj.",
+        "sentence": "They held a ______ meeting yesterday.",
+        "sentence_translation": "他们昨天开了一场虚拟会议。"
     },
     {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
+        "chinese": "发出哔哔声",
+        "english": "beep",
+        "pos": "v.",
+        "sentence": "The microwave will ______ when the food is ready.",
+        "sentence_translation": "食物做好时，微波炉会发出哔哔声。"
     },
     {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
+        "chinese": "可获得的；可使用的",
+        "english": "available",
+        "pos": "adj.",
+        "sentence": "Is this product ______ in your store?",
+        "sentence_translation": "这种产品在你们店里有货吗？"
     },
     {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
+        "chinese": "轻敲；点击",
+        "english": "tap",
+        "pos": "v.",
+        "sentence": "Please ______ the screen to open the app.",
+        "sentence_translation": "请点击屏幕打开应用程序。"
     },
     {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
+        "chinese": "立即的；即时的",
+        "english": "instant",
+        "pos": "adj.",
+        "sentence": "We can get ______ news from the Internet.",
+        "sentence_translation": "我们可以从互联网上获得即时新闻。"
     },
     {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
+        "chinese": "购买",
+        "english": "purchase",
+        "pos": "v.",
+        "sentence": "They plan to ______ a new car next month.",
+        "sentence_translation": "他们计划下个月买一辆新车。"
     },
     {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
+        "chinese": "触觉的；有触感的",
+        "english": "tactile",
+        "pos": "adj.",
+        "sentence": "This fabric has a ______ texture.",
+        "sentence_translation": "这种面料有一种触觉质感。"
     },
     {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
+        "chinese": "从长远来看",
+        "english": "in the long run",
+        "pos": "expressions",
+        "sentence": "Exercising regularly is good for health ______ ______ ______ ______.",
+        "sentence_translation": "经常锻炼从长远来看对健康有益。"
     },
     {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
+        "chinese": "与……保持联系",
+        "english": "stay in touch with",
+        "pos": "expressions",
+        "sentence": "We should ______ ______ ______ ______ our old friends.",
+        "sentence_translation": "我们应该和老朋友保持联系。"
     }
 ]

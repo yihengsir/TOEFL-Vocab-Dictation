@@ -1,287 +1,261 @@
 [
-    {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
-    },
-    {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
-    },
-    {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
-    },
-    {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
-    },
-    {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
-    },
-    {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
-    },
-    {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
-    },
-    {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
-    },
-    {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
-    },
-    {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
-    },
-    {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
-    },
-    {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
-    },
-    {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
-    },
-    {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
-    },
-    {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
-    },
-    {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
-    },
-    {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
-    },
-    {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
-    },
-    {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
-    },
-    {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
-    },
-    {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
-    },
-    {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
-    },
-    {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
-    },
-    {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
-    },
-    {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
-    },
-    {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
-    },
-    {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
-    }
+  {
+    "chinese": "印象",
+    "english": "impression",
+    "pos": "n.",
+    "sentence": "She left a deep ______ on everyone at the meeting.",
+    "sentence_translation": "她在会议上给每个人留下了深刻的印象。"
+  },
+  {
+    "chinese": "乐队；带子",
+    "english": "band",
+    "pos": "n.",
+    "sentence": "The rock ______ will perform at the stadium next weekend.",
+    "sentence_translation": "这个摇滚乐队下周末将在体育场表演。"
+  },
+  {
+    "chinese": "异国的；外来的",
+    "english": "exotic",
+    "pos": "adj.",
+    "sentence": "We tried ______ fruits like durian and rambutan on the trip.",
+    "sentence_translation": "我们在旅途中尝试了榴莲、红毛丹等异国水果。"
+  },
+  {
+    "chinese": "难以置信的；极好的",
+    "english": "incredible",
+    "pos": "adj.",
+    "sentence": "The ______ scenery of the waterfall attracted thousands of visitors.",
+    "sentence_translation": "瀑布那令人难以置信的景色吸引了成千上万的游客。"
+  },
+  {
+    "chinese": "受欢迎的；流行的",
+    "english": "popular",
+    "pos": "adj.",
+    "sentence": "This song has become ______ on social media recently.",
+    "sentence_translation": "这首歌最近在社交媒体上很受欢迎。"
+  },
+  {
+    "chinese": "停车",
+    "english": "park",
+    "pos": "v.",
+    "sentence": "You can ______ your car in the parking lot across the street.",
+    "sentence_translation": "你可以把车停在街对面的停车场。"
+  },
+  {
+    "chinese": "合法的",
+    "english": "legal",
+    "pos": "adj.",
+    "sentence": "It's ______ to marry at 18 in most countries.",
+    "sentence_translation": "在大多数国家，18岁结婚是合法的。"
+  },
+  {
+    "chinese": "地点；斑点",
+    "english": "spot",
+    "pos": "n.",
+    "sentence": "We found a quiet ______ by the lake to set up our tent.",
+    "sentence_translation": "我们在湖边找到一个安静的地点搭帐篷。"
+  },
+  {
+    "chinese": "仪式；典礼",
+    "english": "ceremony",
+    "pos": "n.",
+    "sentence": "The opening ______ of the sports meeting will be held tomorrow.",
+    "sentence_translation": "运动会的开幕式将于明天举行。"
+  },
+  {
+    "chinese": "音乐会",
+    "english": "concert",
+    "pos": "n.",
+    "sentence": "I bought two tickets for the piano ______ next Friday.",
+    "sentence_translation": "我买了两张下周五钢琴音乐会的票。"
+  },
+  {
+    "chinese": "传统的",
+    "english": "traditional",
+    "pos": "adj.",
+    "sentence": "We eat ______ food like dumplings during the Spring Festival.",
+    "sentence_translation": "春节期间我们吃饺子等传统食物。"
+  },
+  {
+    "chinese": "表演者；演员",
+    "english": "performer",
+    "pos": "n.",
+    "sentence": "The ______ received a warm welcome from the audience.",
+    "sentence_translation": "这位表演者受到了观众的热烈欢迎。"
+  },
+  {
+    "chinese": "成年时期",
+    "english": "adulthood",
+    "pos": "n.",
+    "sentence": "______ is a time when people take on more responsibilities.",
+    "sentence_translation": "成年时期是人们承担更多责任的阶段。"
+  },
+  {
+    "chinese": "遗憾；怜悯",
+    "english": "pity",
+    "pos": "n.",
+    "sentence": "It's a ______ that you missed such a wonderful show.",
+    "sentence_translation": "你错过了这么精彩的演出，真是遗憾。"
+  },
+  {
+    "chinese": "观点；景色",
+    "english": "view",
+    "pos": "n.",
+    "sentence": "From the top of the mountain, we enjoyed a beautiful ______ of the valley.",
+    "sentence_translation": "在山顶，我们欣赏到了山谷的美丽景色。"
+  },
+  {
+    "chinese": "经历；体验",
+    "english": "experience",
+    "pos": "n.",
+    "sentence": "Traveling to different countries is a valuable ______ for children.",
+    "sentence_translation": "去不同的国家旅行对孩子们来说是宝贵的经历。"
+  },
+  {
+    "chinese": "回忆起；召回",
+    "english": "recall",
+    "pos": "v.",
+    "sentence": "I can't ______ what I did on my 10th birthday.",
+    "sentence_translation": "我想不起自己10岁生日那天做了什么。"
+  },
+  {
+    "chinese": "服装；戏服",
+    "english": "costume",
+    "pos": "n.",
+    "sentence": "The actors wore colorful ______ in the traditional play.",
+    "sentence_translation": "演员们在这部传统戏剧中穿着色彩鲜艳的戏服。"
+  },
+  {
+    "chinese": "记忆；回忆",
+    "english": "memory",
+    "pos": "n.",
+    "sentence": "Childhood ______ always make me feel warm.",
+    "sentence_translation": "童年回忆总让我感到温暖。"
+  },
+  {
+    "chinese": "公司；陪伴",
+    "english": "company",
+    "pos": "n.",
+    "sentence": "She enjoys the ______ of her pet dog when she's alone at home.",
+    "sentence_translation": "独自在家时，她喜欢宠物狗的陪伴。"
+  },
+  {
+    "chinese": "爱冒险的；大胆的",
+    "english": "adventurous",
+    "pos": "adj.",
+    "sentence": "He is an ______ traveler who likes to explore unknown places.",
+    "sentence_translation": "他是个爱冒险的旅行者，喜欢探索未知的地方。"
+  },
+  {
+    "chinese": "情感；感受",
+    "english": "feelings",
+    "pos": "n.",
+    "sentence": "Her ______ were hurt by his rude words.",
+    "sentence_translation": "他粗鲁的话语伤害了她的情感。"
+  },
+  {
+    "chinese": "游行；阅兵",
+    "english": "parade",
+    "pos": "n.",
+    "sentence": "We watched the National Day ______ on TV with our family.",
+    "sentence_translation": "我们和家人一起在电视上看了国庆阅兵。"
+  },
+  {
+    "chinese": "旅行计划",
+    "english": "traveling plan",
+    "pos": "expressions",
+    "sentence": "They are discussing their ______ ______ for the summer holiday.",
+    "sentence_translation": "他们正在讨论暑假的旅行计划。"
+  },
+  {
+    "chinese": "沿途；一路上",
+    "english": "along the way",
+    "pos": "expressions",
+    "sentence": "We took many photos of beautiful scenery ______ ______ ______.",
+    "sentence_translation": "我们沿途拍了很多美丽景色的照片。"
+  },
+  {
+    "chinese": "烟花表演",
+    "english": "firework display",
+    "pos": "expressions",
+    "sentence": "There will be a wonderful ______ ______ on New Year's Eve.",
+    "sentence_translation": "除夕将有一场精彩的烟花表演。"
+  },
+  {
+    "chinese": "习惯于",
+    "english": "be used to",
+    "pos": "expressions",
+    "sentence": "She ______ ______ ______ getting up early for work.",
+    "sentence_translation": "她习惯于早起上班。"
+  },
+  {
+    "chinese": "空调",
+    "english": "air conditioning",
+    "pos": "expressions",
+    "sentence": "The hotel room has good ______ ______ to keep cool in summer.",
+    "sentence_translation": "酒店房间的空调很好，夏天能保持凉爽。"
+  },
+  {
+    "chinese": "爱吃甜食",
+    "english": "have a sweet tooth",
+    "pos": "expressions",
+    "sentence": "My little brother ______ ______ ______ ______ and loves cakes.",
+    "sentence_translation": "我弟弟爱吃甜食，喜欢蛋糕。"
+  },
+  {
+    "chinese": "取决于；依赖",
+    "english": "depend on",
+    "pos": "expressions",
+    "sentence": "The success of the project ______ ______ everyone's hard work.",
+    "sentence_translation": "这个项目的成功取决于每个人的努力。"
+  },
+  {
+    "chinese": "点头附和",
+    "english": "nod along",
+    "pos": "expressions",
+    "sentence": "He ______ ______ while listening to the teacher's explanation.",
+    "sentence_translation": "听老师讲解时，他点头附和。"
+  },
+  {
+    "chinese": "期待",
+    "english": "look forward to",
+    "pos": "expressions",
+    "sentence": "We ______ ______ ______ meeting you again soon.",
+    "sentence_translation": "我们期待很快再次见到你。"
+  },
+  {
+    "chinese": "达成共识",
+    "english": "reach common ground",
+    "pos": "expressions",
+    "sentence": "After a long discussion, they finally ______ ______ ______ ______.",
+    "sentence_translation": "经过长时间的讨论，他们最终达成共识。"
+  },
+  {
+    "chinese": "旅游景点",
+    "english": "tourist attractions",
+    "pos": "expressions",
+    "sentence": "The city is famous for its historical ______ ______.",
+    "sentence_translation": "这座城市以其历史旅游景点而闻名。"
+  },
+  {
+    "chinese": "护照",
+    "english": "passport",
+    "pos": "n.",
+    "sentence": "You must carry your ______ when traveling to another country.",
+    "sentence_translation": "去其他国家旅行时，你必须携带护照。"
+  },
+  {
+    "chinese": "使恢复精力；刷新",
+    "english": "refresh",
+    "pos": "v.",
+    "sentence": "A short walk in the park can ______ your mind after work.",
+    "sentence_translation": "下班后在公园散会儿步能让你恢复精力。"
+  },
+  {
+    "chinese": "更新；续期",
+    "english": "renew",
+    "pos": "v.",
+    "sentence": "He needs to ______ his library card before it expires next month.",
+    "sentence_translation": "他需要在下个月图书馆借书证到期前续期。"
+  }
 ]

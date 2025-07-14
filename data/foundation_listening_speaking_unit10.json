@@ -1,287 +1,240 @@
 [
     {
-        "chinese": "全谷物",
-        "english": "whole grain",
-        "pos": "n."
+        "chinese": "耳朵",
+        "english": "ear",
+        "pos": "noun",
+        "sentence": "The little girl covered her ______ when the music was too loud.",
+        "sentence_translation": "音乐太大声时，小女孩捂住了耳朵。"
     },
     {
-        "chinese": "应该",
-        "english": "ought to",
-        "pos": "v."
+        "chinese": "腿",
+        "english": "leg",
+        "pos": "noun",
+        "sentence": "He hurt his ______ while playing basketball yesterday.",
+        "sentence_translation": "他昨天打篮球时伤到了腿。"
     },
     {
-        "chinese": "糙米",
-        "english": "brown rice",
-        "pos": "n."
+        "chinese": "象鼻；树干",
+        "english": "trunk",
+        "pos": "noun",
+        "sentence": "The elephant used its ______ to pick up the banana.",
+        "sentence_translation": "大象用象鼻捡起了香蕉。"
     },
     {
-        "chinese": "能够/可以",
-        "english": "can/could",
-        "pos": "v."
+        "chinese": "象牙",
+        "english": "tusk",
+        "pos": "noun",
+        "sentence": "Poachers often hunt elephants for their ______.",
+        "sentence_translation": "偷猎者经常为了象牙而猎杀大象。"
     },
     {
-        "chinese": "炸薯条",
-        "english": "French fries",
-        "pos": "n."
+        "chinese": "眼睛",
+        "english": "eye",
+        "pos": "noun",
+        "sentence": "She has a beautiful pair of blue ______.",
+        "sentence_translation": "她有一双漂亮的蓝眼睛。"
     },
     {
-        "chinese": "将/会",
-        "english": "will/would",
-        "pos": "v."
+        "chinese": "下巴；颌",
+        "english": "jaw",
+        "pos": "noun",
+        "sentence": "He dropped his ______ in surprise when he heard the news.",
+        "sentence_translation": "听到这个消息，他惊讶得张大了下巴。"
     },
     {
-        "chinese": "脂肪",
-        "english": "fat",
-        "pos": "n."
+        "chinese": "分类；类别",
+        "english": "classification",
+        "pos": "noun",
+        "sentence": "The ______ of animals helps us understand their characteristics better.",
+        "sentence_translation": "动物的分类帮助我们更好地了解它们的特征。"
     },
     {
-        "chinese": "可能/也许",
-        "english": "may/might",
-        "pos": "v."
+        "chinese": "栖息地",
+        "english": "habitat",
+        "pos": "noun",
+        "sentence": "Protecting the ______ of pandas is crucial for their survival.",
+        "sentence_translation": "保护熊猫的栖息地对它们的生存至关重要。"
     },
     {
-        "chinese": "纤维",
-        "english": "fiber",
-        "pos": "n."
+        "chinese": "饮食；食谱",
+        "english": "diet",
+        "pos": "noun",
+        "sentence": "A healthy ______ should include more vegetables and less meat.",
+        "sentence_translation": "健康的饮食应该包含更多蔬菜和更少肉类。"
     },
     {
-        "chinese": "破坏/变质",
-        "english": "spoil",
-        "pos": "v."
+        "chinese": "特征；特点",
+        "english": "characteristic",
+        "pos": "noun",
+        "sentence": "One important ______ of this plant is its ability to survive in dry conditions.",
+        "sentence_translation": "这种植物的一个重要特征是能在干旱环境中生存。"
     },
     {
-        "chinese": "矿物质",
-        "english": "mineral",
-        "pos": "n."
+        "chinese": "威胁",
+        "english": "threat",
+        "pos": "noun",
+        "sentence": "Pollution poses a serious ______ to marine life.",
+        "sentence_translation": "污染对海洋生物构成严重威胁。"
     },
     {
-        "chinese": "禁止",
-        "english": "ban",
-        "pos": "v."
+        "chinese": "可再生能源",
+        "english": "renewable energy source",
+        "pos": "noun",
+        "sentence": "Solar energy is a common ______ ______ ______.",
+        "sentence_translation": "太阳能是一种常见的可再生能源。"
     },
     {
-        "chinese": "卡路里",
-        "english": "calorie",
-        "pos": "n."
+        "chinese": "太阳能",
+        "english": "solar power (energy)",
+        "pos": "noun",
+        "sentence": "Many houses now use ______ ______ to generate electricity.",
+        "sentence_translation": "现在许多房屋使用太阳能发电。"
     },
     {
-        "chinese": "打折",
-        "english": "discount",
-        "pos": "v."
+        "chinese": "不可再生能源",
+        "english": "non-renewable energy source",
+        "pos": "noun",
+        "sentence": "Coal is a typical ______ ______ ______ that will eventually run out.",
+        "sentence_translation": "煤炭是一种典型的不可再生能源，最终会耗尽。"
     },
     {
-        "chinese": "拳击",
-        "english": "boxing",
-        "pos": "n."
+        "chinese": "风能",
+        "english": "wind power (energy)",
+        "pos": "noun",
+        "sentence": "______ ______ is becoming more popular in coastal areas.",
+        "sentence_translation": "风能在沿海地区越来越受欢迎。"
     },
     {
-        "chinese": "增重",
-        "english": "gain weight",
-        "pos": "v."
+        "chinese": "化石燃料",
+        "english": "fossil fuel",
+        "pos": "noun",
+        "sentence": "Burning ______ ______ releases a lot of carbon dioxide.",
+        "sentence_translation": "燃烧化石燃料会释放大量二氧化碳。"
     },
     {
-        "chinese": "有氧运动",
-        "english": "cardio",
-        "pos": "n."
+        "chinese": "波浪能",
+        "english": "wave power (energy)",
+        "pos": "noun",
+        "sentence": "Scientists are studying how to use ______ ______ efficiently.",
+        "sentence_translation": "科学家们正在研究如何高效利用波浪能。"
     },
     {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "v."
+        "chinese": "天然气",
+        "english": "natural gas",
+        "pos": "noun",
+        "sentence": "______ ______ is often used for cooking and heating.",
+        "sentence_translation": "天然气常被用于烹饪和供暖。"
     },
     {
-        "chinese": "车道/跑道",
-        "english": "lane",
-        "pos": "n."
+        "chinese": "核能",
+        "english": "nuclear power (energy)",
+        "pos": "noun",
+        "sentence": "Some countries rely heavily on ______ ______ for electricity.",
+        "sentence_translation": "一些国家严重依赖核能发电。"
     },
     {
-        "chinese": "订购/命令",
-        "english": "order",
-        "pos": "v."
+        "chinese": "石油",
+        "english": "oil",
+        "pos": "noun",
+        "sentence": "______ is an important resource for the transportation industry.",
+        "sentence_translation": "石油是交通运输业的重要资源。"
     },
     {
-        "chinese": "储物柜",
-        "english": "locker",
-        "pos": "n."
+        "chinese": "碳排放",
+        "english": "carbon emission",
+        "pos": "noun",
+        "sentence": "Reducing ______ ______ is key to fighting climate change.",
+        "sentence_translation": "减少碳排放是应对气候变化的关键。"
     },
     {
-        "chinese": "高档的",
-        "english": "classy",
-        "pos": "adj."
+        "chinese": "生产力；效率",
+        "english": "productivity",
+        "pos": "noun",
+        "sentence": "New technology has greatly improved work ______ in the factory.",
+        "sentence_translation": "新技术极大地提高了工厂的工作效率。"
     },
     {
-        "chinese": "自助餐厅",
-        "english": "cafeteria",
-        "pos": "n."
+        "chinese": "核废料",
+        "english": "nuclear waste",
+        "pos": "noun",
+        "sentence": "Proper disposal of ______ ______ is a major environmental challenge.",
+        "sentence_translation": "核废料的妥善处理是一项重大环境挑战。"
     },
     {
-        "chinese": "相当好的/得体的",
-        "english": "decent",
-        "pos": "adj."
+        "chinese": "核事故",
+        "english": "nuclear accident",
+        "pos": "noun",
+        "sentence": "The ______ ______ caused great damage to the surrounding area.",
+        "sentence_translation": "这场核事故对周边地区造成了巨大破坏。"
     },
     {
-        "chinese": "外卖",
-        "english": "take-out",
-        "pos": "n."
+        "chinese": "建造昂贵",
+        "english": "expensive to build",
+        "pos": "expressions",
+        "sentence": "Nuclear power plants are ______ ______ ______ but efficient to operate.",
+        "sentence_translation": "核电站建造昂贵但运行高效。"
     },
     {
-        "chinese": "典型的",
-        "english": "typical",
-        "pos": "adj."
+        "chinese": "运行成本低",
+        "english": "cheaper to run",
+        "pos": "expressions",
+        "sentence": "Solar-powered homes are ______ ______ ______ than those using fossil fuels.",
+        "sentence_translation": "太阳能家庭比使用化石燃料的家庭运行成本低。"
     },
     {
-        "chinese": "小贩",
-        "english": "vendor",
-        "pos": "n."
+        "chinese": "虾",
+        "english": "shrimps",
+        "pos": "noun",
+        "sentence": "We had grilled ______ for dinner last night.",
+        "sentence_translation": "我们昨晚晚餐吃了烤虾。"
     },
     {
-        "chinese": "油腻的",
-        "english": "greasy",
-        "pos": "adj."
+        "chinese": "蛤蜊",
+        "english": "clams",
+        "pos": "noun",
+        "sentence": "The fishermen caught a lot of ______ in the bay.",
+        "sentence_translation": "渔民们在海湾捕到了很多蛤蜊。"
     },
     {
-        "chinese": "组合/套餐",
-        "english": "combo",
-        "pos": "n."
+        "chinese": "水母",
+        "english": "jelly fish",
+        "pos": "noun",
+        "sentence": "We saw a beautiful ______ ______ while swimming in the ocean.",
+        "sentence_translation": "我们在海里游泳时看到了一只漂亮的水母。"
     },
     {
-        "chinese": "状态良好",
-        "english": "in good shape",
-        "pos": "expressions"
+        "chinese": "贻贝",
+        "english": "mussels",
+        "pos": "noun",
+        "sentence": "______ are often served with garlic and white wine in restaurants.",
+        "sentence_translation": "餐厅里的贻贝通常搭配大蒜和白葡萄酒食用。"
     },
     {
-        "chinese": "工作场所",
-        "english": "workplace",
-        "pos": "n."
+        "chinese": "牙刷",
+        "english": "toothbrushes",
+        "pos": "noun",
+        "sentence": "We should replace our ______ every three months.",
+        "sentence_translation": "我们应该每三个月更换一次牙刷。"
     },
     {
-        "chinese": "更喜欢…而不是…",
-        "english": "prefer … to",
-        "pos": "expressions"
+        "chinese": "勺子",
+        "english": "spoons",
+        "pos": "noun",
+        "sentence": "She used two ______ to serve the soup into bowls.",
+        "sentence_translation": "她用两个勺子把汤盛到碗里。"
     },
     {
-        "chinese": "意大利面",
-        "english": "pasta",
-        "pos": "n."
+        "chinese": "螃蟹",
+        "english": "crabs",
+        "pos": "noun",
+        "sentence": "Children enjoy catching small ______ on the beach during summer.",
+        "sentence_translation": "夏天，孩子们喜欢在海滩上捉小螃蟹。"
     },
     {
-        "chinese": "…是我的偏好",
-        "english": "… is my preference",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "维生素",
-        "english": "vitamin",
-        "pos": "n."
-    },
-    {
-        "chinese": "更愿意做…",
-        "english": "would prefer to do…",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "蛋白质",
-        "english": "protein",
-        "pos": "n."
-    },
-    {
-        "chinese": "比…更喜欢…",
-        "english": "like… more than",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "营养",
-        "english": "nutrition",
-        "pos": "n."
-    },
-    {
-        "chinese": "健康计划",
-        "english": "health plans",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "素食主义者",
-        "english": "vegan",
-        "pos": "n."
-    },
-    {
-        "chinese": "鼓励健康的饮食习惯",
-        "english": "encourage healthy eating habits",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "碳水化合物/碳水",
-        "english": "carbohydrate/carb",
-        "pos": "n."
-    },
-    {
-        "chinese": "均衡饮食组合",
-        "english": "balance food combination",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "训练营",
-        "english": "bootcamp",
-        "pos": "n."
-    },
-    {
-        "chinese": "减肥",
-        "english": "knock off pounds",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "预制食品",
-        "english": "prepared food",
-        "pos": "n."
-    },
-    {
-        "chinese": "增重",
-        "english": "put on weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "超重",
-        "english": "overweight",
-        "pos": "n."
-    },
-    {
-        "chinese": "提神",
-        "english": "refresh mind",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "举重",
-        "english": "lift weight",
-        "pos": "v."
-    },
-    {
-        "chinese": "去健身房",
-        "english": "hit a gym",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "应该",
-        "english": "should",
-        "pos": "v."
-    },
-    {
-        "chinese": "保持健康饮食",
-        "english": "keep healthy diet",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "最好",
-        "english": "had better",
-        "pos": "v."
-    },
-    {
-        "chinese": "减肥",
-        "english": "lose weight",
-        "pos": "expressions"
-    },
-    {
-        "chinese": "连续",
-        "english": "in a row",
-        "pos": "expressions"
+        "chinese": "垃圾；废物",
+        "english": "trash",
+        "pos": "noun",
+        "sentence": "Please put the ______ in the bin to keep the park clean.",
+        "sentence_translation": "请把垃圾放进垃圾桶，保持公园干净。"
     }
 ]
