@@ -232,7 +232,7 @@
   },
   {
     "chinese": "……是我的偏好",
-    "english": "… is my preference",
+    "english": "is my preference",
     "pos": "expressions",
     "sentence": "Choosing home-cooked meals ______ ______ ______ ______.",
     "sentence_translation": "选择家常菜是我的偏好。"
@@ -260,7 +260,7 @@
   },
   {
     "chinese": "比起……更喜欢……",
-    "english": "like… more than",
+    "english": "like more than",
     "pos": "expressions",
     "sentence": "He ______ running ______ ______ cycling for exercise.",
     "sentence_translation": "锻炼时，他比起骑自行车更喜欢跑步。"
