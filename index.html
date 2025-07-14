@@ -25,7 +25,7 @@
 
         body {
             font-family: 'Inter', sans-serif;
-            background-color: var(--bg-light);
+            background: linear-gradient(135deg, #f0f4ff, #e6f7ff);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -37,7 +37,7 @@
         .main-container {
             background-color: var(--bg-card);
             border-radius: 1.5rem;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
             padding: 2.5rem 3rem;
             padding-top: 4rem;
             width: 100%;
@@ -524,6 +524,83 @@
             color: var(--text-medium);
             font-size: 1.2rem;
         }
+        
+        /* 新增样式 */
+        .sentence-container {
+            background-color: #f0f9ff;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .sentence-en {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .sentence-cn {
+            font-size: 1.2rem;
+            color: var(--text-medium);
+            font-style: italic;
+            line-height: 1.6;
+        }
+        
+        .blank-word {
+            display: inline-block;
+            min-width: 100px;
+            border-bottom: 3px solid var(--primary);
+            margin: 0 0.3rem;
+            text-align: center;
+            padding: 0 0.5rem;
+            font-weight: bold;
+            color: #1e293b;
+        }
+        
+        .header-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #4f46e5, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .header-subtitle {
+            font-size: 1.2rem;
+            color: var(--secondary);
+            margin-bottom: 2rem;
+            font-weight: 500;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            text-align: left;
+            margin-bottom: 1rem;
+        }
+        
+        .feature-card h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .feature-card i {
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
     </style>
 </head>
 <body class="selection-view">
@@ -533,7 +610,17 @@
         </button>
 
         <div id="access-view" class="view active">
-            <h1 class="text-3xl font-bold text-gray-800 mb-8">TOEFL 词汇测试（from锋锋老师）</h1>
+            <h1 class="header-title">词汇听写测试</h1>
+            <p class="header-subtitle">锋锋老师 · TOEFL词汇训练系统</p>
+            
+            <div class="feature-card">
+                <h3><i class="fas fa-star"></i> 系统功能</h3>
+                <p>1. 支持例句模式测试（带填空的句子）</p>
+                <p>2. 支持词性提示和首字母提示</p>
+                <p>3. 自动朗读单词发音</p>
+                <p>4. 错题回顾与成绩分析</p>
+            </div>
+            
             <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
                 <div class="password-container">
                     <label class="password-label">请输入测验码</label>
@@ -544,8 +631,9 @@
         </div>
 
         <div id="welcome-view" class="view">
-            <h1 class="text-3xl font-bold text-gray-800 mb-6">TOEFL 词汇测试</h1>
-            <p class="text-xl text-gray-600 mb-8">开始您的词汇学习之旅</p>
+            <h1 class="header-title">TOEFL 词汇测试</h1>
+            <p class="header-subtitle">开始您的词汇学习之旅</p>
+            
             <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
                 <div>
                     <label class="password-label">您的姓名</label>
@@ -574,7 +662,8 @@
                 </div>
             </div>
 
-            <p id="wordDisplay" class="word-display mb-4"></p>
+            <div id="wordDisplayContainer"></div>
+            
             <input type="text" id="answerInput" class="answer-input mb-4" placeholder="输入英文词汇（首字母提示）">
             <div id="correctAnswerHint" class="correct-answer-hint"></div>
             <div class="control-buttons">
@@ -586,8 +675,10 @@
         </div>
 
         <div id="results-view" class="view">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6">测试结果</h2>
+            <h2 class="header-title">测试结果</h2>
             <div class="results-summary">
+                <p>科目: <span id="resultsSubject">N/A</span></p>
+                <p>单元: <span id="resultsUnit">N/A</span></p>
                 <p>姓名: <span id="resultsStudentName">N/A</span></p>
                 <p>班级: <span id="resultsStudentClass">N/A</span></p>
                 <p>检测单词数: <span id="attemptedCount">0</span></p>
@@ -629,7 +720,8 @@
             incorrectAnswers: [],
             testStartTime: null,
             studentName: '',
-            studentClass: ''
+            studentClass: '',
+            currentWordHasSentence: false
         };
 
         // --- DOM Elements ---
@@ -647,7 +739,7 @@
         const selectionContent = document.getElementById('selectionContent');
         const startTestBtn = document.getElementById('startTestBtn');
 
-        const wordDisplay = document.getElementById('wordDisplay');
+        const wordDisplayContainer = document.getElementById('wordDisplayContainer');
         const answerInput = document.getElementById('answerInput');
         const correctAnswerHint = document.getElementById('correctAnswerHint');
         const checkAnswerBtn = document.getElementById('checkAnswerBtn');
@@ -660,6 +752,8 @@
 
         const resultsStudentName = document.getElementById('resultsStudentName');
         const resultsStudentClass = document.getElementById('resultsStudentClass');
+        const resultsSubject = document.getElementById('resultsSubject');
+        const resultsUnit = document.getElementById('resultsUnit');
         const correctCountSpan = document.getElementById('correctCount');
         const totalQuestionsSpan = document.getElementById('totalQuestions');
         const accuracyRateSpan = document.getElementById('accuracyRate');
@@ -910,12 +1004,53 @@
             nextWordBtn.classList.add('hidden');
             showAnswerBtn.classList.remove('hidden');
             correctAnswerHint.textContent = '';
+            wordDisplayContainer.innerHTML = '';
 
             if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
                 const currentWord = appState.shuffledTestVocabulary[appState.currentWordIndex];
+                appState.currentWordHasSentence = false;
                 
-                const posHint = currentWord.pos ? ` (${currentWord.pos})` : '';
-                wordDisplay.textContent = currentWord.chinese + posHint;
+                // 检查单词是否有例句
+                if (currentWord.sentence && currentWord.sentence_translation) {
+                    appState.currentWordHasSentence = true;
+                    
+                    // 创建包含例句的容器
+                    const sentenceContainer = document.createElement('div');
+                    sentenceContainer.className = 'sentence-container';
+                    
+                    // 创建英文句子元素（带填空）
+                    const sentenceEn = document.createElement('div');
+                    sentenceEn.className = 'sentence-en';
+                    
+                    // 创建中文翻译元素
+                    const sentenceCn = document.createElement('div');
+                    sentenceCn.className = 'sentence-cn';
+                    sentenceCn.textContent = currentWord.sentence_translation;
+                    
+                    // 创建带下划线的填空区域
+                    const blankSpan = document.createElement('span');
+                    blankSpan.className = 'blank-word';
+                    blankSpan.textContent = '________';
+                    
+                    // 替换句子中的单词为填空
+                    const sentenceText = currentWord.sentence.replace(currentWord.english, blankSpan.outerHTML);
+                    sentenceEn.innerHTML = sentenceText;
+                    
+                    // 添加到容器
+                    sentenceContainer.appendChild(sentenceEn);
+                    sentenceContainer.appendChild(sentenceCn);
+                    
+                    // 添加到显示区域
+                    wordDisplayContainer.appendChild(sentenceContainer);
+                } else {
+                    // 没有例句，显示原始的中文提示
+                    const wordDisplay = document.createElement('p');
+                    wordDisplay.className = 'word-display mb-4';
+                    
+                    const posHint = currentWord.pos ? ` (${currentWord.pos})` : '';
+                    wordDisplay.textContent = currentWord.chinese + posHint;
+                    wordDisplayContainer.appendChild(wordDisplay);
+                }
                 
                 const englishWord = currentWord.english;
                 if (englishWord.includes(' ')) {
@@ -943,7 +1078,6 @@
             progressBar.style.width = `${progress}%`;
         }
 
-        // 新增：自动朗读单词
         function speakWord(word) {
             if ('speechSynthesis' in window) {
                 const utterance = new SpeechSynthesisUtterance(word);
@@ -1017,6 +1151,16 @@
             showView('results-view');
             resultsStudentName.textContent = appState.studentName || 'N/A';
             resultsStudentClass.textContent = appState.studentClass || 'N/A';
+            
+            // 新增：设置科目和单元
+            resultsSubject.textContent = `${categoryNames[appState.selectedCategory]} - ${levelNames[appState.selectedLevel]}`;
+            
+            if (appState.selectedContentType === 'unit') {
+                resultsUnit.textContent = appState.selectedUnit.replace('Unit', '单元 ');
+            } else {
+                resultsUnit.textContent = '所有单元';
+            }
+            
             correctCountSpan.textContent = appState.correctAnswersCount;
             totalQuestionsSpan.textContent = appState.shuffledTestVocabulary.length;
             attemptedCountSpan.textContent = appState.questionsAttempted;
