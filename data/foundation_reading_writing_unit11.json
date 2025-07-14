@@ -1,0 +1,401 @@
+[
+  {
+    "chinese": "全谷物",
+    "english": "whole grain",
+    "pos": "noun",
+    "sentence": "Eating ______ is good for your digestive system.",
+    "sentence_translation": "吃全谷物对消化系统有益。"
+  },
+  {
+    "chinese": "应该，应当",
+    "english": "ought to",
+    "pos": "verb",
+    "sentence": "You ______ eat more vegetables to stay healthy.",
+    "sentence_translation": "你应该多吃蔬菜以保持健康。"
+  },
+  {
+    "chinese": "糙米",
+    "english": "brown rice",
+    "pos": "noun",
+    "sentence": "______ contains more fiber than white rice.",
+    "sentence_translation": "糙米比白米含有更多纤维。"
+  },
+  {
+    "chinese": "能，会；可以",
+    "english": "can/could",
+    "pos": "verb",
+    "sentence": "She ______ cook delicious healthy meals in 30 minutes.",
+    "sentence_translation": "她能在30分钟内做出美味的健康餐。"
+  },
+  {
+    "chinese": "炸薯条",
+    "english": "French fries",
+    "pos": "noun",
+    "sentence": "______ are high in fat and calories.",
+    "sentence_translation": "炸薯条脂肪和卡路里含量高。"
+  },
+  {
+    "chinese": "将，会；愿意",
+    "english": "will/would",
+    "pos": "verb",
+    "sentence": "I ______ choose a salad instead of fried food for lunch.",
+    "sentence_translation": "我午餐会选择沙拉而不是油炸食品。"
+  },
+  {
+    "chinese": "脂肪",
+    "english": "fat",
+    "pos": "noun",
+    "sentence": "Too much ______ in the diet can cause health problems.",
+    "sentence_translation": "饮食中脂肪过多会导致健康问题。"
+  },
+  {
+    "chinese": "可能，也许",
+    "english": "may/might",
+    "pos": "verb",
+    "sentence": "You ______ feel tired if you don't eat enough protein.",
+    "sentence_translation": "如果你蛋白质摄入不足，可能会感到疲倦。"
+  },
+  {
+    "chinese": "纤维",
+    "english": "fiber",
+    "pos": "noun",
+    "sentence": "Fruits and vegetables are rich in ______.",
+    "sentence_translation": "水果和蔬菜富含纤维。"
+  },
+  {
+    "chinese": "损坏；变质",
+    "english": "spoil",
+    "pos": "verb",
+    "sentence": "Fresh food will ______ quickly if not refrigerated.",
+    "sentence_translation": "新鲜食物如果不冷藏会很快变质。"
+  },
+  {
+    "chinese": "矿物质",
+    "english": "mineral",
+    "pos": "noun",
+    "sentence": "Milk is a good source of ______ like calcium.",
+    "sentence_translation": "牛奶是钙等矿物质的良好来源。"
+  },
+  {
+    "chinese": "禁止",
+    "english": "ban",
+    "pos": "verb",
+    "sentence": "Some schools ______ junk food in their cafeterias.",
+    "sentence_translation": "一些学校禁止在自助餐厅出售垃圾食品。"
+  },
+  {
+    "chinese": "卡路里（热量单位）",
+    "english": "calorie",
+    "pos": "noun",
+    "sentence": "A balanced diet should control daily ______ intake.",
+    "sentence_translation": "均衡饮食应控制每日卡路里摄入量。"
+  },
+  {
+    "chinese": "打折，降价",
+    "english": "discount",
+    "pos": "verb",
+    "sentence": "The store will ______ healthy snacks this weekend.",
+    "sentence_translation": "这家商店本周末将对健康零食打折。"
+  },
+  {
+    "chinese": "拳击（运动）",
+    "english": "boxing",
+    "pos": "noun",
+    "sentence": "______ is a good cardio exercise to burn calories.",
+    "sentence_translation": "拳击是燃烧卡路里的良好有氧运动。"
+  },
+  {
+    "chinese": "增重",
+    "english": "gain weight",
+    "pos": "verb",
+    "sentence": "Eating too much without exercise will make you ______.",
+    "sentence_translation": "吃得太多而不运动将会使你增重。"
+  },
+  {
+    "chinese": "有氧运动",
+    "english": "cardio",
+    "pos": "noun",
+    "sentence": "Running and swimming are popular ______ activities.",
+    "sentence_translation": "跑步和游泳是受欢迎的有氧运动。"
+  },
+  {
+    "chinese": "减重",
+    "english": "lose weight",
+    "pos": "verb",
+    "sentence": "She wants to ______ by exercising regularly and eating well.",
+    "sentence_translation": "她想通过定期锻炼和健康饮食来减重。"
+  },
+  {
+    "chinese": "（跑道、泳道等的）道；小巷",
+    "english": "lane",
+    "pos": "noun",
+    "sentence": "He swims in the third ______ of the swimming pool.",
+    "sentence_translation": "他在游泳池的第三泳道游泳。"
+  },
+  {
+    "chinese": "点（餐）；订购；命令",
+    "english": "order",
+    "pos": "verb",
+    "sentence": "We can ______ a healthy combo from the restaurant.",
+    "sentence_translation": "我们可以从这家餐厅点一份健康套餐。"
+  },
+  {
+    "chinese": "储物柜",
+    "english": "locker",
+    "pos": "noun",
+    "sentence": "He put his gym bag in the ______ before starting exercise.",
+    "sentence_translation": "他在开始锻炼前把健身包放进了储物柜。"
+  },
+  {
+    "chinese": "时髦的，优雅的",
+    "english": "classy",
+    "pos": "adjective",
+    "sentence": "The new healthy café has a ______ and comfortable environment.",
+    "sentence_translation": "这家新开的健康咖啡馆环境时髦又舒适。"
+  },
+  {
+    "chinese": "自助餐厅",
+    "english": "cafeteria",
+    "pos": "noun",
+    "sentence": "The school ______ offers a variety of healthy food options.",
+    "sentence_translation": "学校自助餐厅提供多种健康食品选择。"
+  },
+  {
+    "chinese": "得体的；不错的",
+    "english": "decent",
+    "pos": "adjective",
+    "sentence": "We had a ______ meal with plenty of vegetables and protein.",
+    "sentence_translation": "我们吃了一顿不错的饭，有很多蔬菜和蛋白质。"
+  },
+  {
+    "chinese": "外卖食品",
+    "english": "take-out",
+    "pos": "noun",
+    "sentence": "Too much ______ is often high in salt and fat.",
+    "sentence_translation": "太多外卖食品通常含盐和脂肪量高。"
+  },
+  {
+    "chinese": "典型的，有代表性的",
+    "english": "typical",
+    "pos": "adjective",
+    "sentence": "A ______ healthy breakfast includes eggs, milk and fruit.",
+    "sentence_translation": "典型的健康早餐包括鸡蛋、牛奶和水果。"
+  },
+  {
+    "chinese": "小贩；供应商",
+    "english": "vendor",
+    "pos": "noun",
+    "sentence": "The street ______ sells fresh fruit and vegetable juices.",
+    "sentence_translation": "街头小贩售卖新鲜的果蔬汁。"
+  },
+  {
+    "chinese": "油腻的",
+    "english": "greasy",
+    "pos": "adjective",
+    "sentence": "______ food can make you feel uncomfortable after eating.",
+    "sentence_translation": "油腻的食物会让你吃完后感到不舒服。"
+  },
+  {
+    "chinese": "套餐；组合",
+    "english": "combo",
+    "pos": "noun",
+    "sentence": "I ordered a ______ of grilled chicken and salad.",
+    "sentence_translation": "我点了一份烤鸡和沙拉的套餐。"
+  },
+  {
+    "chinese": "身体状况良好",
+    "english": "in good shape",
+    "pos": "expressions",
+    "sentence": "Regular exercise helps him stay ______ ______ ______.",
+    "sentence_translation": "定期锻炼帮助他保持身体状况良好。"
+  },
+  {
+    "chinese": "工作场所",
+    "english": "workplace",
+    "pos": "noun",
+    "sentence": "Many companies provide healthy snacks in the ______.",
+    "sentence_translation": "许多公司在工作场所提供健康零食。"
+  },
+  {
+    "chinese": "比起……更喜欢……",
+    "english": "prefer … to",
+    "pos": "expressions",
+    "sentence": "She ______ fresh fruit ______ candy as a snack.",
+    "sentence_translation": "她比起糖果更喜欢新鲜水果作为零食。"
+  },
+  {
+    "chinese": "意大利面",
+    "english": "pasta",
+    "pos": "noun",
+    "sentence": "Whole wheat ______ is a good source of carbohydrates.",
+    "sentence_translation": "全麦意大利面是碳水化合物的良好来源。"
+  },
+  {
+    "chinese": "……是我的偏好",
+    "english": "… is my preference",
+    "pos": "expressions",
+    "sentence": "Choosing home-cooked meals ______ ______ ______ ______.",
+    "sentence_translation": "选择家常菜是我的偏好。"
+  },
+  {
+    "chinese": "维生素",
+    "english": "vitamin",
+    "pos": "noun",
+    "sentence": "Oranges are rich in ______ C.",
+    "sentence_translation": "橙子富含维生素C。"
+  },
+  {
+    "chinese": "更愿意做……",
+    "english": "would prefer to do…",
+    "pos": "expressions",
+    "sentence": "I ______ ______ ______ ______ yoga than lift weights.",
+    "sentence_translation": "比起举重，我更愿意做瑜伽。"
+  },
+  {
+    "chinese": "蛋白质",
+    "english": "protein",
+    "pos": "noun",
+    "sentence": "Chicken, fish and beans are good sources of ______.",
+    "sentence_translation": "鸡肉、鱼和豆类是蛋白质的良好来源。"
+  },
+  {
+    "chinese": "比起……更喜欢……",
+    "english": "like… more than",
+    "pos": "expressions",
+    "sentence": "He ______ running ______ ______ cycling for exercise.",
+    "sentence_translation": "锻炼时，他比起骑自行车更喜欢跑步。"
+  },
+  {
+    "chinese": "营养",
+    "english": "nutrition",
+    "pos": "noun",
+    "sentence": "Understanding ______ is important for making healthy food choices.",
+    "sentence_translation": "了解营养对做出健康的食物选择很重要。"
+  },
+  {
+    "chinese": "健康计划",
+    "english": "health plans",
+    "pos": "expressions",
+    "sentence": "Many people make ______ ______ at the beginning of a new year.",
+    "sentence_translation": "许多人在新年伊始制定健康计划。"
+  },
+  {
+    "chinese": "严格素食者",
+    "english": "vegan",
+    "pos": "noun",
+    "sentence": "A ______ does not eat any animal products, including meat and dairy.",
+    "sentence_translation": "严格素食者不吃任何动物制品，包括肉类和乳制品。"
+  },
+  {
+    "chinese": "鼓励健康饮食习惯",
+    "english": "encourage healthy eating habits",
+    "pos": "expressions",
+    "sentence": "Schools should ______ ______ ______ ______ among students.",
+    "sentence_translation": "学校应该鼓励学生养成健康饮食习惯。"
+  },
+  {
+    "chinese": "碳水化合物",
+    "english": "carbohydrate/carb",
+    "pos": "noun",
+    "sentence": "______ provide energy for daily activities.",
+    "sentence_translation": "碳水化合物为日常活动提供能量。"
+  },
+  {
+    "chinese": "均衡的食物搭配",
+    "english": "balance food combination",
+    "pos": "expressions",
+    "sentence": "A ______ ______ ______ is key to a healthy diet.",
+    "sentence_translation": "均衡的食物搭配是健康饮食的关键。"
+  },
+  {
+    "chinese": "健身训练营",
+    "english": "bootcamp",
+    "pos": "noun",
+    "sentence": "She joined a ______ to improve her fitness level.",
+    "sentence_translation": "她参加了健身训练营以提高体能水平。"
+  },
+  {
+    "chinese": "减重",
+    "english": "knock off pounds",
+    "pos": "expressions",
+    "sentence": "Regular exercise and a healthy diet can help you ______ ______ ______.",
+    "sentence_translation": "定期锻炼和健康饮食能帮助你减重。"
+  },
+  {
+    "chinese": "预制食品，加工食品",
+    "english": "prepared food",
+    "pos": "noun",
+    "sentence": "______ ______ often contains preservatives and additives.",
+    "sentence_translation": "预制食品通常含有防腐剂和添加剂。"
+  },
+  {
+    "chinese": "增重",
+    "english": "put on weight",
+    "pos": "expressions",
+    "sentence": "Eating late at night may cause you to ______ ______ ______.",
+    "sentence_translation": "深夜进食可能会使你增重。"
+  },
+  {
+    "chinese": "超重（的人）",
+    "english": "overweight",
+    "pos": "noun",
+    "sentence": "Losing weight can improve health for those who are ______.",
+    "sentence_translation": "减重可以改善超重人群的健康状况。"
+  },
+  {
+    "chinese": "提神，醒脑",
+    "english": "refresh mind",
+    "pos": "expressions",
+    "sentence": "A short walk after lunch can ______ ______ and improve focus.",
+    "sentence_translation": "午饭后短距离散步可以提神醒脑，提高专注力。"
+  },
+  {
+    "chinese": "举重",
+    "english": "lift weight",
+    "pos": "verb",
+    "sentence": "He goes to the gym three times a week to ______ ______.",
+    "sentence_translation": "他每周去健身房三次举重。"
+  },
+  {
+    "chinese": "去健身房",
+    "english": "hit a gym",
+    "pos": "expressions",
+    "sentence": "Many people ______ ______ ______ after work to relax and exercise.",
+    "sentence_translation": "许多人下班后去健身房放松和锻炼。"
+  },
+  {
+    "chinese": "应该",
+    "english": "should",
+    "pos": "verb",
+    "sentence": "You ______ drink enough water every day to stay hydrated.",
+    "sentence_translation": "你应该每天喝足够的水以保持水分。"
+  },
+  {
+    "chinese": "保持健康饮食",
+    "english": "keep healthy diet",
+    "pos": "expressions",
+    "sentence": "It's important to ______ ______ ______ to prevent diseases.",
+    "sentence_translation": "保持健康饮食对预防疾病很重要。"
+  },
+  {
+    "chinese": "最好",
+    "english": "had better",
+    "pos": "verb",
+    "sentence": "You ______ ______ start your health plan as soon as possible.",
+    "sentence_translation": "你最好尽快开始你的健康计划。"
+  },
+  {
+    "chinese": "减重",
+    "english": "lose weight",
+    "pos": "expressions",
+    "sentence": "Changing bad eating habits is necessary to ______ ______.",
+    "sentence_translation": "改变不良饮食习惯对减重很有必要。"
+  },
+  {
+    "chinese": "连续地",
+    "english": "in a row",
+    "pos": "expressions",
+    "sentence": "He has exercised for five days ______ ______ ______.",
+    "sentence_translation": "他已经连续锻炼了五天。"
+  }
+]
