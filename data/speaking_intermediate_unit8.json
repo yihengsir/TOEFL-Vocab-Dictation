@@ -2,301 +2,421 @@
   {
     "chinese": "特点；特征",
     "english": "characteristic",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "One important ______ of this plant is its ability to grow in dry soil.",
+    "sentence_translation": "这种植物的一个重要特点是它能在干燥的土壤中生长。"
   },
   {
     "chinese": "地理上的",
     "english": "geographic",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ distribution of animals is closely related to climate.",
+    "sentence_translation": "动物的地理分布与气候密切相关。"
   },
   {
     "chinese": "策略",
     "english": "strategy",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We need to develop a new ______ to increase sales this year.",
+    "sentence_translation": "我们需要制定新策略来提高今年的销售额。"
   },
   {
     "chinese": "目标",
     "english": "target",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Our main ______ is to finish the project before the end of the month.",
+    "sentence_translation": "我们的主要目标是在月底前完成这个项目。"
   },
   {
     "chinese": "具体地；具体来说",
     "english": "specifically",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "The course covers many topics, ______ history and culture of the region.",
+    "sentence_translation": "这门课程涵盖多个主题，具体来说包括该地区的历史和文化。"
   },
   {
     "chinese": "使…多样化",
     "english": "diversify",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The company plans to ______ its products to attract more customers.",
+    "sentence_translation": "公司计划使产品多样化以吸引更多顾客。"
   },
   {
     "chinese": "不同的；多种多样的",
     "english": "diverse",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The city has a ______ population with people from many countries.",
+    "sentence_translation": "这座城市人口多样化，有来自许多国家的人。"
   },
   {
     "chinese": "满足",
     "english": "fulfill",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Hard work can help you ______ your dreams and goals.",
+    "sentence_translation": "努力工作能帮助你实现梦想和目标。"
   },
   {
     "chinese": "显示器",
     "english": "monitor",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The computer ______ shows clear images and videos.",
+    "sentence_translation": "这台电脑显示器显示的图像和视频很清晰。"
   },
   {
     "chinese": "潜在的；可能的",
     "english": "potential",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This area has ______ for development in the tourism industry.",
+    "sentence_translation": "这个地区在旅游业方面有发展潜力。"
   },
   {
     "chinese": "阻碍",
     "english": "obstacle",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Lack of funding is the main ______ to completing the project.",
+    "sentence_translation": "资金短缺是完成这个项目的主要阻碍。"
   },
   {
     "chinese": "方面",
     "english": "aspect",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We need to consider every ______ of the problem before making a decision.",
+    "sentence_translation": "我们需要考虑问题的每个方面后再做决定。"
   },
   {
     "chinese": "部门",
     "english": "division",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The marketing ______ is responsible for promoting new products.",
+    "sentence_translation": "市场部门负责推广新产品。"
   },
   {
     "chinese": "忠诚的",
     "english": "loyal",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ customers often support the brand even when prices rise.",
+    "sentence_translation": "即使价格上涨，忠诚的顾客也常常支持这个品牌。"
   },
   {
     "chinese": "确认的；公认的",
     "english": "established",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This is an ______ company with a history of over 50 years.",
+    "sentence_translation": "这是一家公认的公司，有50多年的历史。"
   },
   {
     "chinese": "遭遇，遇见",
     "english": "encounter",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "She had an unexpected ______ with her old teacher in the supermarket.",
+    "sentence_translation": "她在超市意外遇见了她的老教师。"
   },
   {
     "chinese": "自信的",
     "english": "confident",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "He is ______ that he will pass the exam with good preparation.",
+    "sentence_translation": "他有信心，只要做好准备就能通过考试。"
   },
   {
     "chinese": "有效地",
     "english": "effectively",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "Regular exercise can ______ improve your physical health.",
+    "sentence_translation": "有规律的锻炼能有效改善你的身体健康。"
   },
   {
     "chinese": "海洋",
     "english": "ocean",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Many kinds of fish live in the deep ______ far from the shore.",
+    "sentence_translation": "许多种鱼生活在远离海岸的深海中。"
   },
   {
     "chinese": "回应/反应",
     "english": "response",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The company's ______ to the customer's complaint was prompt and helpful.",
+    "sentence_translation": "公司对顾客投诉的回应迅速且有帮助。"
   },
   {
     "chinese": "样本，抽样",
     "english": "sample",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "The researcher took a ______ of water from the river to test its quality.",
+    "sentence_translation": "研究人员从河里取了水样来测试其质量。"
   },
   {
     "chinese": "高效的",
     "english": "efficient",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "An ______ worker can finish more tasks in less time.",
+    "sentence_translation": "高效的工人能在更少的时间内完成更多任务。"
   },
   {
     "chinese": "资源",
     "english": "resource",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Water is a valuable natural ______ that we should not waste.",
+    "sentence_translation": "水是宝贵的自然资源，我们不应该浪费。"
   },
   {
     "chinese": "增加/提高",
     "english": "increase",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "There has been a significant ______ in the number of students this year.",
+    "sentence_translation": "今年学生的数量有了显著增加。"
   },
   {
     "chinese": "优势",
     "english": "advantage",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "One ______ of living in the city is easy access to public transport.",
+    "sentence_translation": "住在城市的一个优势是公共交通便利。"
   },
   {
     "chinese": "吸引力/呼吁",
     "english": "appeal",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "The new park has great ______ for families with children.",
+    "sentence_translation": "这个新公园对有孩子的家庭有很大吸引力。"
   },
   {
     "chinese": "顾客",
     "english": "customer",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The shop assistant was very polite to every ______ who came in.",
+    "sentence_translation": "店员对每个进店的顾客都很有礼貌。"
   },
   {
     "chinese": "分支，树枝",
     "english": "branch",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "A small bird built its nest on a ______ of the big tree.",
+    "sentence_translation": "一只小鸟在大树的一根树枝上筑了巢。"
   },
   {
     "chinese": "发展/开发",
     "english": "develop",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Scientists are working to ______ new medicines for treating diseases.",
+    "sentence_translation": "科学家们正在努力研发治疗疾病的新药。"
   },
   {
     "chinese": "现有的",
     "english": "existing",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "We need to improve the ______ system rather than build a new one.",
+    "sentence_translation": "我们需要改进现有的系统，而不是建新的。"
   },
   {
     "chinese": "讨论",
     "english": "discuss",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The team will ______ the plan in detail at tomorrow's meeting.",
+    "sentence_translation": "团队将在明天的会议上详细讨论这个计划。"
   },
   {
     "chinese": "增加的",
     "english": "increasing",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "There is an ______ number of people choosing to work from home.",
+    "sentence_translation": "越来越多的人选择居家办公。"
   },
   {
     "chinese": "夹克",
     "english": "jacket",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He wore a warm ______ to protect himself from the cold wind.",
+    "sentence_translation": "他穿了一件暖和的夹克来抵御寒风。"
   },
   {
     "chinese": "可能的/很可能地",
     "english": "likely",
-    "pos": "adj./adv."
+    "pos": "adj./adv.",
+    "sentence": "It is ______ to rain tomorrow, so we should take umbrellas.",
+    "sentence_translation": "明天可能会下雨，所以我们应该带伞。"
   },
   {
     "chinese": "产品",
     "english": "product",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The company's new ______ has received positive reviews from users.",
+    "sentence_translation": "公司的新产品得到了用户的好评。"
   },
   {
     "chinese": "位置/地点",
     "english": "location",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The hotel's ______ near the airport makes it convenient for travelers.",
+    "sentence_translation": "这家酒店位于机场附近，对旅行者来说很方便。"
   },
   {
     "chinese": "销售",
     "english": "sales",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The store achieved record ______ during the holiday season.",
+    "sentence_translation": "这家商店在节日期间创下了销售纪录。"
   },
   {
     "chinese": "屏幕",
     "english": "screen",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "Please clean the ______ of the TV to make the picture clearer.",
+    "sentence_translation": "请擦拭电视屏幕，让画面更清晰。"
   },
   {
     "chinese": "类似的",
     "english": "similar",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The two brothers have ______ personalities and interests.",
+    "sentence_translation": "这两兄弟有着相似的性格和兴趣。"
   },
   {
     "chinese": "滑雪/滑雪板",
     "english": "ski",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "They plan to ______ in the mountains during the winter vacation.",
+    "sentence_translation": "他们计划寒假去山里滑雪。"
   },
   {
     "chinese": "滑雪运动",
     "english": "skiing",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "______ is a popular winter sport in cold regions around the world.",
+    "sentence_translation": "滑雪是全球寒冷地区流行的冬季运动。"
   },
   {
     "chinese": "操作/经营",
     "english": "operate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It takes training to ______ this machine safely and correctly.",
+    "sentence_translation": "操作这台机器需要接受培训，以确保安全和正确。"
   },
   {
     "chinese": "技术的",
     "english": "technological",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ advances have changed the way we live and work.",
+    "sentence_translation": "技术进步改变了我们的生活和工作方式。"
   },
   {
     "chinese": "技术",
     "english": "technology",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "New ______ is being developed to reduce environmental pollution.",
+    "sentence_translation": "正在研发新技术以减少环境污染。"
   },
   {
     "chinese": "过程/程序",
     "english": "process",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of applying for a visa can be complicated and time-consuming.",
+    "sentence_translation": "申请签证的过程可能复杂且耗时。"
   },
   {
     "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The hotel will ______ free breakfast for all its guests.",
+    "sentence_translation": "这家酒店将为所有客人提供免费早餐。"
   },
   {
     "chinese": "质量",
     "english": "quality",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We always prioritize ______ over quantity when producing our goods.",
+    "sentence_translation": "我们生产产品时总是优先考虑质量而非数量。"
   },
   {
     "chinese": "餐馆",
     "english": "restaurant",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We decided to eat at a small ______ with good reviews near the park.",
+    "sentence_translation": "我们决定去公园附近一家评价不错的小餐馆吃饭。"
   },
   {
     "chinese": "成功",
     "english": "success",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Her hard work and determination led to her ______ in the competition.",
+    "sentence_translation": "她的努力和决心使她在比赛中取得了成功。"
   },
   {
     "chinese": "倾向于",
     "english": "tend to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "People ______ eat more food during cold winter months.",
+    "sentence_translation": "在寒冷的冬季，人们倾向于吃更多食物。"
   },
   {
     "chinese": "确保",
     "english": "make sure",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Please ______ you lock the door before leaving the house.",
+    "sentence_translation": "离开家前请确保锁好门。"
   },
   {
     "chinese": "更有可能",
     "english": "be more likely to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Students who study regularly ______ ______ ______ pass their exams.",
+    "sentence_translation": "经常学习的学生更有可能通过考试。"
   },
   {
     "chinese": "这样，用这个方法",
     "english": "in this way",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ ______, we can solve the problem efficiently and quickly.",
+    "sentence_translation": "这样，我们就能高效快速地解决这个问题。"
   },
   {
     "chinese": "新分支",
     "english": "new branch of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The university opened a ______ ______ ______ the science department last year.",
+    "sentence_translation": "这所大学去年开设了科学系的一个新分支。"
   },
   {
     "chinese": "以...为例",
     "english": "take... as an example",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ this city ______ ______ ______, we can see how technology changes life.",
+    "sentence_translation": "以这座城市为例，我们可以看到科技如何改变生活。"
   },
   {
     "chinese": "知名的",
     "english": "well-known",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "This is a ______ ______ brand for producing high-quality watches.",
+    "sentence_translation": "这是一个生产高品质手表的知名品牌。"
   },
   {
     "chinese": "一部分",
     "english": "a part of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Reading is ______ ______ ______ his daily routine for many years.",
+    "sentence_translation": "多年来，阅读一直是他日常生活的一部分。"
   },
   {
     "chinese": "想出，提出（计划）",
     "english": "come up with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "They need to ______ ______ ______ a solution to the problem by Friday.",
+    "sentence_translation": "他们需要在周五前想出这个问题的解决方案。"
   },
   {
     "chinese": "对...有信心",
     "english": "be confident of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The team ______ ______ ______ winning the championship this year.",
+    "sentence_translation": "这个团队有信心今年赢得冠军。"
   },
   {
     "chinese": "将会是",
     "english": "be going to be",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The weather forecast says it ______ ______ ______ a sunny day tomorrow.",
+    "sentence_translation": "天气预报说明天将会是晴天。"
   }
 ]

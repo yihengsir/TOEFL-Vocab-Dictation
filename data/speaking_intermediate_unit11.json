@@ -2,306 +2,428 @@
   {
     "chinese": "费用",
     "english": "fee",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The membership ______ is due at the end of the month.",
+    "sentence_translation": "会员费月底到期。"
   },
   {
     "chinese": "数量多的",
     "english": "multiple",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She has ______ reasons for choosing this university.",
+    "sentence_translation": "她选择这所大学有多个原因。"
   },
   {
     "chinese": "一段时间",
     "english": "session",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The training ______ will start at 9 a.m. tomorrow.",
+    "sentence_translation": "培训时段将于明天上午9点开始。"
   },
   {
     "chinese": "奖学金",
     "english": "scholarship",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He won a ______ to study abroad for a year.",
+    "sentence_translation": "他获得了一份奖学金，可在国外学习一年。"
   },
   {
     "chinese": "现今，目前",
     "english": "nowadays",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "______，many students prefer online learning.",
+    "sentence_translation": "现今，许多学生更喜欢在线学习。"
   },
   {
     "chinese": "容纳；适应",
     "english": "accommodate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The hotel can ______ up to 500 guests at a time.",
+    "sentence_translation": "这家酒店一次可容纳多达500名客人。"
   },
   {
     "chinese": "扩张",
     "english": "expand",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The company plans to ______ its business into Asian markets.",
+    "sentence_translation": "该公司计划将业务扩张到亚洲市场。"
   },
   {
     "chinese": "设施",
     "english": "facility",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The sports ______ includes a swimming pool and a gym.",
+    "sentence_translation": "这个体育设施包括一个游泳池和一个健身房。"
   },
   {
     "chinese": "过渡，转变",
     "english": "transition",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ from high school to college can be challenging.",
+    "sentence_translation": "从高中到大学的过渡可能具有挑战性。"
   },
   {
     "chinese": "翻新",
     "english": "renovate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "They decided to ______ the old house instead of buying a new one.",
+    "sentence_translation": "他们决定翻新老房子而不是买新房。"
   },
   {
     "chinese": "院长；（大学）学院院长；系主任",
     "english": "dean",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of the medical school will give a speech at the ceremony.",
+    "sentence_translation": "医学院院长将在典礼上发表演讲。"
   },
   {
     "chinese": "宿舍",
     "english": "dorm",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Students living in the ______ must follow the curfew rules.",
+    "sentence_translation": "住在宿舍的学生必须遵守宵禁规定。"
   },
   {
     "chinese": "学期",
     "english": "semester",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The first ______ ends in December.",
+    "sentence_translation": "第一学期在12月结束。"
   },
   {
     "chinese": "使用权；通道",
     "english": "access",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Employees have free ______ to the company library.",
+    "sentence_translation": "员工可免费使用公司图书馆。"
   },
   {
     "chinese": "令人烦恼的",
     "english": "annoying",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ noise from the construction site kept me awake.",
+    "sentence_translation": "建筑工地令人烦恼的噪音让我无法入睡。"
   },
   {
     "chinese": "砍",
     "english": "chop",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "He needs to ______ the wood into small pieces for the fire.",
+    "sentence_translation": "他需要把木头砍成小块生火。"
   },
   {
     "chinese": "评论",
     "english": "comment",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "Please leave your ______ on our new product.",
+    "sentence_translation": "请对我们的新产品留下你的评论。"
   },
   {
     "chinese": "总是，经常，不断地",
     "english": "constantly",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "Technology is ______ changing our way of life.",
+    "sentence_translation": "科技不断地改变我们的生活方式。"
   },
   {
     "chinese": "详细的",
     "english": "detailed",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She gave a ______ explanation of the project plan.",
+    "sentence_translation": "她对项目计划做了详细的解释。"
   },
   {
     "chinese": "环境",
     "english": "environment",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We should protect the natural ______ for future generations.",
+    "sentence_translation": "我们应该为后代保护自然环境。"
   },
   {
     "chinese": "最终",
     "english": "eventually",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "After many attempts, he ______ succeeded in solving the problem.",
+    "sentence_translation": "经过多次尝试，他最终成功解决了这个问题。"
   },
   {
     "chinese": "翻转",
     "english": "flip",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Please ______ the page to see the next part of the story.",
+    "sentence_translation": "请翻页查看故事的下一部分。"
   },
   {
     "chinese": "外国的",
     "english": "foreign",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She dreams of working in a ______ country after graduation.",
+    "sentence_translation": "她梦想毕业后在外国工作。"
   },
   {
     "chinese": "等级；成绩",
     "english": "grade",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "His ______ in math improved significantly this semester.",
+    "sentence_translation": "这学期他的数学成绩有了显著提高。"
   },
   {
     "chinese": "数学的",
     "english": "mathematic",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ problem requires advanced calculation skills.",
+    "sentence_translation": "这道数学题需要高级计算技巧。"
   },
   {
     "chinese": "信息",
     "english": "message",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "I left a ______ on his phone but he hasn't replied yet.",
+    "sentence_translation": "我在他手机上留了信息，但他还没回复。"
   },
   {
     "chinese": "混合的",
     "english": "mixed",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The team consists of ______ groups of experts from different fields.",
+    "sentence_translation": "这个团队由来自不同领域的混合专家小组组成。"
   },
   {
     "chinese": "物理的",
     "english": "physical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ exercise is important for maintaining good health.",
+    "sentence_translation": "体育锻炼对保持健康很重要。"
   },
   {
     "chinese": "流行的",
     "english": "popular",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This song has become ______ among teenagers recently.",
+    "sentence_translation": "这首歌最近在青少年中很流行。"
   },
   {
     "chinese": "普及，流行",
     "english": "popularity",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of social media has grown rapidly in recent years.",
+    "sentence_translation": "近年来社交媒体的普及率迅速增长。"
   },
   {
     "chinese": "打印",
     "english": "print",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Could you ______ these documents for the meeting?",
+    "sentence_translation": "你能为会议打印这些文件吗？"
   },
   {
     "chinese": "预算",
     "english": "budget",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We need to stay within the ______ for this project.",
+    "sentence_translation": "我们需要在这个项目的预算范围内。"
   },
   {
     "chinese": "生产",
     "english": "produce",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The factory ______ over 1,000 cars every day.",
+    "sentence_translation": "这家工厂每天生产超过1000辆汽车。"
   },
   {
     "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The school will ______ textbooks for all students.",
+    "sentence_translation": "学校将为所有学生提供教科书。"
   },
   {
     "chinese": "光线，光束",
     "english": "ray",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "A ______ of sunlight came through the window.",
+    "sentence_translation": "一束阳光从窗户照进来。"
   },
   {
     "chinese": "参考，提及",
     "english": "reference",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "The author made a ______ to ancient history in his book.",
+    "sentence_translation": "作者在他的书中提到了古代历史。"
   },
   {
     "chinese": "放松",
     "english": "relax",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Listening to music helps her ______ after a long day.",
+    "sentence_translation": "听音乐帮助她在漫长的一天后放松。"
   },
   {
     "chinese": "替换",
     "english": "replace",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We need to ______ the old computer with a new one.",
+    "sentence_translation": "我们需要用新电脑替换旧电脑。"
   },
   {
     "chinese": "智力的",
     "english": "intellectual",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Reading is a good ______ activity that improves thinking skills.",
+    "sentence_translation": "阅读是一项有益的智力活动，能提高思维能力。"
   },
   {
     "chinese": "锋利的",
     "english": "sharp",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Be careful with that knife—it's very ______.",
+    "sentence_translation": "小心那把刀，它很锋利。"
   },
   {
     "chinese": "架子",
     "english": "shelf",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Put the books back on the ______ after reading.",
+    "sentence_translation": "读完后把书放回架子上。"
   },
   {
     "chinese": "对......有复杂的感受",
     "english": "have mixed feelings about",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She ______ ______ ______ ______ ______ the new policy.",
+    "sentence_translation": "她对这项新政策有复杂的感受。"
   },
   {
     "chinese": "专业相关的课程",
     "english": "major-related classes",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "He is taking several ______ ______ ______ this semester.",
+    "sentence_translation": "这学期他在上几门专业相关的课程。"
   },
   {
     "chinese": "少量的",
     "english": "a handful of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Only ______ ______ ______ students attended the lecture.",
+    "sentence_translation": "只有少量的学生参加了讲座。"
   },
   {
     "chinese": "高昂的",
     "english": "be sky-high",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Housing prices in this area ______ ______ ______.",
+    "sentence_translation": "这个地区的房价很高昂。"
   },
   {
     "chinese": "减轻......的压力",
     "english": "reduce stress",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Meditation can help ______ ______ in daily life.",
+    "sentence_translation": "冥想有助于减轻日常生活中的压力。"
   },
   {
     "chinese": "释放",
     "english": "free up",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Delegating tasks can ______ ______ time for more important work.",
+    "sentence_translation": "分配任务可以释放时间做更重要的工作。"
   },
   {
     "chinese": "忙碌的课表",
     "english": "busy schedules",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Teachers and students both have ______ ______ during the school year.",
+    "sentence_translation": "学年期间，老师和学生都有忙碌的课表。"
   },
   {
     "chinese": "一齐",
     "english": "all at once",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Don't try to do everything ______ ______ ______—take it step by step.",
+    "sentence_translation": "不要试图一下子做所有事情，一步一步来。"
   },
   {
     "chinese": "对......有用",
     "english": "be used for",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "This tool can ______ ______ ______ cutting and shaping wood.",
+    "sentence_translation": "这个工具可用于切割和塑造木材。"
   },
   {
     "chinese": "为.......购买",
     "english": "buy ... for",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She went to the store to ______ a gift ______ her mother's birthday.",
+    "sentence_translation": "她去商店为妈妈的生日购买礼物。"
   },
   {
     "chinese": "用于支付",
     "english": "go towards",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Part of his salary will ______ ______ rent and utilities.",
+    "sentence_translation": "他工资的一部分将用于支付房租和水电费。"
   },
   {
     "chinese": "学术成功",
     "english": "academic success",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Hard work and good study habits are key to ______ ______.",
+    "sentence_translation": "努力学习和良好的学习习惯是学术成功的关键。"
   },
   {
     "chinese": "转向",
     "english": "switch to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The company decided to ______ ______ renewable energy sources.",
+    "sentence_translation": "该公司决定转向可再生能源。"
   },
   {
     "chinese": "和......的约会/约定",
     "english": "engagement with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Her ______ ______ the community has lasted for years.",
+    "sentence_translation": "她与社区的约定已经持续了多年。"
   },
   {
     "chinese": "即时反馈",
     "english": "immediate feedback",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Online quizzes provide ______ ______ to help students learn.",
+    "sentence_translation": "在线测验提供即时反馈以帮助学生学习。"
   },
   {
     "chinese": "实践活动",
     "english": "hands-on activities",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Science classes often include ______ ______ to enhance learning.",
+    "sentence_translation": "科学课通常包括实践活动以加强学习。"
   },
   {
     "chinese": "网络连接",
     "english": "internet connection",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "A stable ______ ______ is necessary for online classes.",
+    "sentence_translation": "稳定的网络连接对在线课程很有必要。"
   },
   {
     "chinese": "真人课堂",
     "english": "in-person classes",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Many students prefer ______ ______ ______ over online courses.",
+    "sentence_translation": "许多学生更喜欢真人课堂而不是在线课程。"
   },
   {
     "chinese": "环境友好的",
     "english": "environmentally friendly",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Using reusable bags is an ______ ______ choice.",
+    "sentence_translation": "使用可重复使用的袋子是一种环境友好的选择。"
   },
   {
     "chinese": "电子版本",
     "english": "digital version",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "You can download the ______ ______ of the book for free.",
+    "sentence_translation": "你可以免费下载这本书的电子版本。"
   }
 ]

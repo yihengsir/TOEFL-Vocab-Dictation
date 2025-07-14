@@ -1,492 +1,688 @@
 [
   {
+    "chinese": "做决定",
     "english": "make a decision",
-    "pos": "v.",
-    "chinese": "做决定"
+    "pos": "phrase",
+    "sentence": "It's difficult to ______ without enough information.",
+    "sentence_translation": "没有足够的信息，很难做出决定。"
   },
   {
+    "chinese": "花时间做某事",
     "english": "spend time doing something",
-    "pos": "v.",
-    "chinese": "花时间做某事"
+    "pos": "phrase",
+    "sentence": "She ______ reading every day to improve her vocabulary.",
+    "sentence_translation": "她每天花两个小时阅读以提高词汇量。"
   },
   {
+    "chinese": "浪费时间",
     "english": "a waste of time",
-    "pos": "n.",
-    "chinese": "浪费时间"
+    "pos": "phrase",
+    "sentence": "Watching too much TV is ______ when you have homework to do.",
+    "sentence_translation": "当你有作业要做时，看太多电视是浪费时间。"
   },
   {
+    "chinese": "与……关系好",
     "english": "have a good relationship with",
-    "pos": "v.",
-    "chinese": "与……关系好"
+    "pos": "phrase",
+    "sentence": "He ______ his classmates, so he always feels happy at school.",
+    "sentence_translation": "他与同学们关系很好，所以他在学校总是感到快乐。"
   },
   {
+    "chinese": "从错误中学习",
     "english": "learn from mistakes",
-    "pos": "v.",
-    "chinese": "从错误中学习"
+    "pos": "phrase",
+    "sentence": "We should ______ instead of being afraid of making them.",
+    "sentence_translation": "我们应该从错误中学习，而不是害怕犯错。"
   },
   {
+    "chinese": "提高沟通能力",
     "english": "improve communication skills",
-    "pos": "v.",
-    "chinese": "提高沟通能力"
+    "pos": "phrase",
+    "sentence": "Joining a public speaking club can help ______.",
+    "sentence_translation": "加入一个公共演讲俱乐部可以帮助提高沟通能力。"
   },
   {
+    "chinese": "保持专注",
     "english": "stay focused",
-    "pos": "v.",
-    "chinese": "保持专注"
+    "pos": "phrase",
+    "sentence": "It's important to ______ while studying to get better results.",
+    "sentence_translation": "学习时保持专注很重要，才能取得更好的成绩。"
   },
   {
+    "chinese": "对……负责",
     "english": "be responsible for",
-    "pos": "v.",
-    "chinese": "对……负责"
+    "pos": "phrase",
+    "sentence": "As a team leader, she ______ assigning tasks to each member.",
+    "sentence_translation": "作为团队负责人，她负责给每个成员分配任务。"
   },
   {
+    "chinese": "应对压力",
     "english": "deal with pressure",
-    "pos": "v.",
-    "chinese": "应对压力"
+    "pos": "phrase",
+    "sentence": "Doing exercise is a good way to ______ from work.",
+    "sentence_translation": "做运动是应对工作压力的好方法。"
   },
   {
+    "chinese": "与……相处融洽",
     "english": "get along well with",
-    "pos": "v.",
-    "chinese": "与……相处融洽"
+    "pos": "phrase",
+    "sentence": "He can ______ others because he is always kind and patient.",
+    "sentence_translation": "他能与他人相处融洽，因为他总是善良和有耐心。"
   },
   {
+    "chinese": "养成习惯",
     "english": "develop a habit",
-    "pos": "v.",
-    "chinese": "养成习惯"
+    "pos": "phrase",
+    "sentence": "______ of reading in the morning can make you more knowledgeable.",
+    "sentence_translation": "养成早上阅读的习惯可以让你更有知识。"
   },
   {
+    "chinese": "省钱",
     "english": "save money",
-    "pos": "v.",
-    "chinese": "省钱"
+    "pos": "phrase",
+    "sentence": "She ______ by cooking at home instead of eating out every day.",
+    "sentence_translation": "她通过在家做饭而不是每天外出就餐来省钱。"
   },
   {
+    "chinese": "在……上花钱",
     "english": "spend money on",
-    "pos": "v.",
-    "chinese": "在……上花钱"
+    "pos": "phrase",
+    "sentence": "He ______ books because he loves reading.",
+    "sentence_translation": "他在书上花了很多钱，因为他喜欢阅读。"
   },
   {
+    "chinese": "结交新朋友",
     "english": "make new friends",
-    "pos": "v.",
-    "chinese": "结交新朋友"
+    "pos": "phrase",
+    "sentence": "Joining a sports team is a great way to ______.",
+    "sentence_translation": "加入运动队是结交新朋友的好方法。"
   },
   {
+    "chinese": "面对挑战",
     "english": "face challenges",
-    "pos": "v.",
-    "chinese": "面对挑战"
+    "pos": "phrase",
+    "sentence": "We should ______ bravely instead of running away from them.",
+    "sentence_translation": "我们应该勇敢面对挑战，而不是逃避它们。"
   },
   {
+    "chinese": "设定目标",
     "english": "set a goal",
-    "pos": "v.",
-    "chinese": "设定目标"
+    "pos": "phrase",
+    "sentence": "She ______ to learn 50 new English words every week.",
+    "sentence_translation": "她设定了每周学习50个新英语单词的目标。"
   },
   {
+    "chinese": "取得成功",
     "english": "achieve success",
-    "pos": "v.",
-    "chinese": "取得成功"
+    "pos": "phrase",
+    "sentence": "Success can be ______ through hard work and determination.",
+    "sentence_translation": "成功可以通过努力和决心来取得。"
   },
   {
+    "chinese": "获得经验",
     "english": "gain experience",
-    "pos": "v.",
-    "chinese": "获得经验"
+    "pos": "phrase",
+    "sentence": "Doing part-time jobs can help students ______ before graduation.",
+    "sentence_translation": "做兼职工作可以帮助学生在毕业前获得工作经验。"
   },
   {
+    "chinese": "学到新东西",
     "english": "learn something new",
-    "pos": "v.",
-    "chinese": "学到新东西"
+    "pos": "phrase",
+    "sentence": "Traveling to different countries allows you to ______ about various cultures.",
+    "sentence_translation": "去不同的国家旅行可以让你了解不同文化的新事物。"
   },
   {
+    "chinese": "休息一下",
     "english": "take a break",
-    "pos": "v.",
-    "chinese": "休息一下"
+    "pos": "phrase",
+    "sentence": "If you feel tired, ______ and have a cup of coffee.",
+    "sentence_translation": "如果你感到累了，休息一下，喝杯咖啡。"
   },
   {
+    "chinese": "专注学习",
     "english": "focus on study",
-    "pos": "v.",
-    "chinese": "专注学习"
+    "pos": "phrase",
+    "sentence": "Turn off your phone to ______ without distractions.",
+    "sentence_translation": "关掉手机，专心学习，不受干扰。"
   },
   {
+    "chinese": "专心工作",
     "english": "concentrate on work",
-    "pos": "v.",
-    "chinese": "专心工作"
+    "pos": "phrase",
+    "sentence": "He ______ so much that he forgot to have lunch.",
+    "sentence_translation": "他太专心工作了，以至于忘了吃午饭。"
   },
   {
+    "chinese": "加入社团",
     "english": "join a club",
-    "pos": "v.",
-    "chinese": "加入社团"
+    "pos": "phrase",
+    "sentence": "She ______ to pursue her hobby of playing the guitar.",
+    "sentence_translation": "她加入了音乐社团，追求她弹吉他的爱好。"
   },
   {
+    "chinese": "参加活动",
     "english": "participate in an activity",
-    "pos": "v.",
-    "chinese": "参加活动"
+    "pos": "phrase",
+    "sentence": "Students are encouraged to ______ various activities after school.",
+    "sentence_translation": "鼓励学生参加各种课后活动。"
   },
   {
+    "chinese": "平衡学习和生活",
     "english": "balance study and life",
-    "pos": "v.",
-    "chinese": "平衡学习和生活"
+    "pos": "phrase",
+    "sentence": "It's important to ______ to avoid getting too stressed.",
+    "sentence_translation": "平衡学习和生活很重要，以避免压力过大。"
   },
   {
+    "chinese": "减压",
     "english": "reduce stress",
-    "pos": "v.",
-    "chinese": "减压"
+    "pos": "phrase",
+    "sentence": "Listening to music is a good way to ______ and relax.",
+    "sentence_translation": "听音乐是减压和放松的好方法。"
   },
   {
+    "chinese": "提高效率",
     "english": "increase productivity",
-    "pos": "v.",
-    "chinese": "提高效率"
+    "pos": "phrase",
+    "sentence": "Taking short breaks can actually ______ at work.",
+    "sentence_translation": "短暂休息实际上可以提高工作效率。"
   },
   {
+    "chinese": "更自由",
     "english": "have more freedom",
-    "pos": "v.",
-    "chinese": "更自由"
+    "pos": "phrase",
+    "sentence": "Living off campus gives students ______ to manage their time.",
+    "sentence_translation": "校外住宿让学生有更多自由支配时间。"
   },
   {
+    "chinese": "感到放松",
     "english": "feel relaxed",
-    "pos": "v.",
-    "chinese": "感到放松"
+    "pos": "phrase",
+    "sentence": "She ______ after taking a warm bath and listening to soft music.",
+    "sentence_translation": "洗完热水澡听着轻柔的音乐，她感到很放松。"
   },
   {
+    "chinese": "提升自信",
     "english": "improve self-confidence",
-    "pos": "v.",
-    "chinese": "提升自信"
+    "pos": "phrase",
+    "sentence": "Winning the competition helped her ______ a lot.",
+    "sentence_translation": "赢得比赛极大地帮助她提升了自信。"
   },
   {
+    "chinese": "表达观点",
     "english": "express opinions",
-    "pos": "v.",
-    "chinese": "表达观点"
+    "pos": "phrase",
+    "sentence": "Everyone should be able to ______ freely in a democratic discussion.",
+    "sentence_translation": "在民主讨论中，每个人都应该能够自由表达观点。"
   },
   {
+    "chinese": "高效工作",
     "english": "work efficiently",
-    "pos": "v.",
-    "chinese": "高效工作"
+    "pos": "phrase",
+    "sentence": "Using a to-do list can help you ______ and finish tasks on time.",
+    "sentence_translation": "使用待办事项清单可以帮助你高效工作并按时完成任务。"
   },
   {
+    "chinese": "保持有条理",
     "english": "stay organized",
-    "pos": "v.",
-    "chinese": "保持有条理"
+    "pos": "phrase",
+    "sentence": "______ helps you manage time and avoid last-minute rushes.",
+    "sentence_translation": "保持有条理有助于你管理时间，避免临时抱佛脚。"
   },
   {
+    "chinese": "提前计划",
     "english": "plan ahead",
-    "pos": "v.",
-    "chinese": "提前计划"
+    "pos": "phrase",
+    "sentence": "______ before starting a project to ensure everything goes smoothly.",
+    "sentence_translation": "在开始一个项目之前提前计划，以确保一切顺利。"
   },
   {
+    "chinese": "按时完成任务",
     "english": "meet deadlines",
-    "pos": "v.",
-    "chinese": "按时完成任务"
+    "pos": "phrase",
+    "sentence": "He always ______ no matter how busy he is.",
+    "sentence_translation": "无论他多忙，他总是能按时完成任务。"
   },
   {
+    "chinese": "按时完成任务",
     "english": "finish tasks on time",
-    "pos": "v.",
-    "chinese": "按时完成任务"
+    "pos": "phrase",
+    "sentence": "To ______, you need to manage your time effectively.",
+    "sentence_translation": "要按时完成任务，你需要有效地管理时间。"
   },
   {
+    "chinese": "向他人学习",
     "english": "learn from others",
-    "pos": "v.",
-    "chinese": "向他人学习"
+    "pos": "phrase",
+    "sentence": "We can ______' experiences to avoid making the same mistakes.",
+    "sentence_translation": "我们可以从他人的经验中学习，避免犯同样的错误。"
   },
   {
+    "chinese": "享受过程",
     "english": "enjoy the process",
-    "pos": "v.",
-    "chinese": "享受过程"
+    "pos": "phrase",
+    "sentence": "Don't just focus on the result, ______ of learning something new.",
+    "sentence_translation": "不要只关注结果，享受学习新事物的过程。"
   },
   {
+    "chinese": "与家人共度时光",
     "english": "spend time with family",
-    "pos": "v.",
-    "chinese": "与家人共度时光"
+    "pos": "phrase",
+    "sentence": "______ during holidays is very important to her.",
+    "sentence_translation": "假期与家人共度时光对她来说非常重要。"
   },
   {
+    "chinese": "做些运动",
     "english": "get some exercise",
-    "pos": "v.",
-    "chinese": "做些运动"
+    "pos": "phrase",
+    "sentence": "______ every day is good for both physical and mental health.",
+    "sentence_translation": "每天做些运动对身心健康都有好处。"
   },
   {
+    "chinese": "去散步",
     "english": "go for a walk",
-    "pos": "v.",
-    "chinese": "去散步"
+    "pos": "phrase",
+    "sentence": "They often ______ in the park after dinner.",
+    "sentence_translation": "他们晚饭后经常去公园散步。"
   },
   {
+    "chinese": "保持健康的生活方式",
     "english": "keep a healthy lifestyle",
-    "pos": "v.",
-    "chinese": "保持健康的生活方式"
+    "pos": "phrase",
+    "sentence": "Eating well, exercising regularly, and sleeping enough help ______.",
+    "sentence_translation": "饮食良好、定期锻炼和充足睡眠有助于保持健康的生活方式。"
   },
   {
+    "chinese": "吃健康的食物",
     "english": "eat healthy food",
-    "pos": "v.",
-    "chinese": "吃健康的食物"
+    "pos": "phrase",
+    "sentence": "______ can improve your energy and overall well-being.",
+    "sentence_translation": "吃健康的食物可以提高你的精力，改善整体健康状况。"
   },
   {
+    "chinese": "睡眠充足",
     "english": "get enough sleep",
-    "pos": "v.",
-    "chinese": "睡眠充足"
+    "pos": "phrase",
+    "sentence": "It's hard to focus in class if you don't ______ at night.",
+    "sentence_translation": "如果你晚上睡眠不足，很难在课堂上集中注意力。"
   },
   {
+    "chinese": "做兼职工作",
     "english": "do part-time jobs",
-    "pos": "v.",
-    "chinese": "做兼职工作"
+    "pos": "phrase",
+    "sentence": "Many students ______ to earn some pocket money and gain experience.",
+    "sentence_translation": "许多学生做兼职工作来赚零花钱和获得经验。"
   },
   {
+    "chinese": "上网课",
     "english": "take online courses",
-    "pos": "v.",
-    "chinese": "上网课"
+    "pos": "phrase",
+    "sentence": "______ gives you the flexibility to learn at your own pace.",
+    "sentence_translation": "上网课让你能根据自己的节奏灵活学习。"
   },
   {
+    "chinese": "在家学习",
     "english": "study at home",
-    "pos": "v.",
-    "chinese": "在家学习"
+    "pos": "phrase",
+    "sentence": "She prefers to ______ because it's quiet and comfortable.",
+    "sentence_translation": "她更喜欢在家学习，因为它安静舒适。"
   },
   {
+    "chinese": "住在校园里",
     "english": "live on campus",
-    "pos": "v.",
-    "chinese": "住在校园里"
+    "pos": "phrase",
+    "sentence": "______ makes it convenient to attend classes and join campus activities.",
+    "sentence_translation": "住在校园里方便上课和参加校园活动。"
   },
   {
+    "chinese": "住在校外",
     "english": "live off campus",
-    "pos": "v.",
-    "chinese": "住在校外"
+    "pos": "phrase",
+    "sentence": "Some students choose to ______ for more privacy and space.",
+    "sentence_translation": "一些学生选择住在校外，以获得更多的隐私和空间。"
   },
   {
+    "chinese": "共度美好时光",
     "english": "spend quality time",
-    "pos": "v.",
-    "chinese": "共度美好时光"
+    "pos": "phrase",
+    "sentence": "______ with friends can strengthen your relationship.",
+    "sentence_translation": "与朋友共度美好时光可以增进你们的关系。"
   },
   {
+    "chinese": "制定计划",
     "english": "make a schedule",
-    "pos": "v.",
-    "chinese": "制定计划"
+    "pos": "phrase",
+    "sentence": "______ can help you organize your day and use time wisely.",
+    "sentence_translation": "制定计划可以帮助你安排好一天，明智地利用时间。"
   },
   {
+    "chinese": "培养时间管理能力",
     "english": "develop time-management skills",
-    "pos": "v.",
-    "chinese": "培养时间管理能力"
+    "pos": "phrase",
+    "sentence": "______ is essential for students to balance study and hobbies.",
+    "sentence_translation": "培养时间管理能力对学生平衡学习和爱好至关重要。"
   },
   {
+    "chinese": "比起B更喜欢A",
     "english": "prefer A to B",
-    "pos": "v.",
-    "chinese": "比起B更喜欢A"
+    "pos": "phrase",
+    "sentence": "I ______ reading books to watching TV in my free time.",
+    "sentence_translation": "我空闲时更喜欢看书而不是看电视。"
   },
   {
+    "chinese": "有机会接触",
     "english": "have access to",
-    "pos": "v.",
-    "chinese": "有机会接触"
+    "pos": "phrase",
+    "sentence": "Students in this school ______ excellent educational resources.",
+    "sentence_translation": "这所学校的学生有机会接触到优秀的教育资源。"
   },
   {
+    "chinese": "取得进步",
     "english": "make progress",
-    "pos": "v.",
-    "chinese": "取得进步"
+    "pos": "phrase",
+    "sentence": "You can ______ in English by practicing every day.",
+    "sentence_translation": "你每天练习就可以在英语方面取得进步。"
   },
   {
+    "chinese": "克服困难",
     "english": "overcome difficulties",
-    "pos": "v.",
-    "chinese": "克服困难"
+    "pos": "phrase",
+    "sentence": "It's a great feeling to ______ and achieve your goal.",
+    "sentence_translation": "克服困难并实现目标是一种很棒的感觉。"
   },
   {
+    "chinese": "避免干扰",
     "english": "avoid distractions",
-    "pos": "v.",
-    "chinese": "避免干扰"
+    "pos": "phrase",
+    "sentence": "Find a quiet place to study to ______ from noise and people.",
+    "sentence_translation": "找一个安静的地方学习，以避免噪音和人群的干扰。"
   },
   {
+    "chinese": "容易分心",
     "english": "get distracted easily",
-    "pos": "v.",
-    "chinese": "容易分心"
+    "pos": "phrase",
+    "sentence": "He ______, so he needs a quiet environment to work.",
+    "sentence_translation": "他很容易分心，所以他需要一个安静的环境来工作。"
   },
   {
+    "chinese": "团队合作",
     "english": "work in a team",
-    "pos": "v.",
-    "chinese": "团队合作"
+    "pos": "phrase",
+    "sentence": "______ can bring different ideas and perspectives to a project.",
+    "sentence_translation": "团队合作可以为项目带来不同的想法和视角。"
   },
   {
+    "chinese": "与他人合作",
     "english": "collaborate with others",
-    "pos": "v.",
-    "chinese": "与他人合作"
+    "pos": "phrase",
+    "sentence": "Scientists often ______ from different countries on research projects.",
+    "sentence_translation": "科学家们经常与来自不同国家的同行合作进行研究项目。"
   },
   {
+    "chinese": "分享观点",
     "english": "share ideas",
-    "pos": "v.",
-    "chinese": "分享观点"
+    "pos": "phrase",
+    "sentence": "______ with classmates can help you understand the lesson better.",
+    "sentence_translation": "与同学分享观点可以帮助你更好地理解课程。"
   },
   {
+    "chinese": "意见不同",
     "english": "have different opinions",
-    "pos": "v.",
-    "chinese": "意见不同"
+    "pos": "phrase",
+    "sentence": "It's normal to ______ in a group discussion.",
+    "sentence_translation": "在小组讨论中意见不同是正常的。"
   },
   {
+    "chinese": "彼此尊重",
     "english": "respect each other",
-    "pos": "v.",
-    "chinese": "彼此尊重"
+    "pos": "phrase",
+    "sentence": "______'s opinions is important in any relationship.",
+    "sentence_translation": "在任何关系中，尊重彼此的意见都很重要。"
   },
   {
+    "chinese": "喜欢做某事",
     "english": "enjoy doing something",
-    "pos": "v.",
-    "chinese": "喜欢做某事"
+    "pos": "phrase",
+    "sentence": "She ______ playing the piano because it makes her happy and relaxed.",
+    "sentence_translation": "她喜欢弹钢琴，因为它让她感到快乐和放松。"
   },
   {
+    "chinese": "对……充满热情",
     "english": "be passionate about",
-    "pos": "v.",
-    "chinese": "对……充满热情"
+    "pos": "phrase",
+    "sentence": "He ______ environmental protection and volunteers for green projects.",
+    "sentence_translation": "他对环境保护充满热情，并为绿色项目做志愿者。"
   },
   {
+    "chinese": "承担责任",
     "english": "take responsibility",
-    "pos": "v.",
-    "chinese": "承担责任"
+    "pos": "phrase",
+    "sentence": "As an adult, you need to ______ for your actions and decisions.",
+    "sentence_translation": "作为成年人，你需要为自己的行为和决定承担责任。"
   },
   {
+    "chinese": "遵守规则",
     "english": "follow the rules",
-    "pos": "v.",
-    "chinese": "遵守规则"
+    "pos": "phrase",
+    "sentence": "______ is important to maintain order in school and society.",
+    "sentence_translation": "遵守规则对维护学校和社会的秩序很重要。"
   },
   {
+    "chinese": "留下好印象",
     "english": "make a good impression",
-    "pos": "v.",
-    "chinese": "留下好印象"
+    "pos": "phrase",
+    "sentence": "Dressing appropriately and being polite can help you ______.",
+    "sentence_translation": "着装得体和礼貌可以帮助你留下好印象。"
   },
   {
+    "chinese": "受到……的启发",
     "english": "get inspired by",
-    "pos": "v.",
-    "chinese": "受到……的启发"
+    "pos": "phrase",
+    "sentence": "Many writers ______ the beauty of nature and daily life.",
+    "sentence_translation": "许多作家受到大自然和日常生活中美感的启发。"
   },
   {
+    "chinese": "培养批判性思维",
     "english": "develop critical thinking",
-    "pos": "v.",
-    "chinese": "培养批判性思维"
+    "pos": "phrase",
+    "sentence": "Reading different types of books can help ______ skills.",
+    "sentence_translation": "阅读不同类型的书籍有助于培养批判性思维能力。"
   },
   {
+    "chinese": "分析问题",
     "english": "analyze problems",
-    "pos": "v.",
-    "chinese": "分析问题"
+    "pos": "phrase",
+    "sentence": "Before solving a problem, you need to ______ carefully to find the root cause.",
+    "sentence_translation": "在解决问题之前，你需要仔细分析问题，找出根本原因。"
   },
   {
+    "chinese": "解决问题",
     "english": "solve problems",
-    "pos": "v.",
-    "chinese": "解决问题"
+    "pos": "phrase",
+    "sentence": "Working together, we can ______ more effectively and efficiently.",
+    "sentence_translation": "共同努力，我们可以更有效、更高效地解决问题。"
   },
   {
+    "chinese": "提出想法",
     "english": "come up with ideas",
-    "pos": "v.",
-    "chinese": "提出想法"
+    "pos": "phrase",
+    "sentence": "Brainstorming with others can help you ______ new and creative ideas.",
+    "sentence_translation": "与他人头脑风暴可以帮助你提出新颖和有创意的想法。"
   },
   {
+    "chinese": "为……感到自豪",
     "english": "feel proud of",
-    "pos": "v.",
-    "chinese": "为……感到自豪"
+    "pos": "phrase",
+    "sentence": "She ______ her son for winning the science competition.",
+    "sentence_translation": "她为儿子赢得科学竞赛感到自豪。"
   },
   {
+    "chinese": "充分利用",
     "english": "make the most of",
-    "pos": "v.",
-    "chinese": "充分利用"
+    "pos": "phrase",
+    "sentence": "______ your time in college to learn and experience new things.",
+    "sentence_translation": "充分利用你在大学的时间去学习和体验新事物。"
   },
   {
+    "chinese": "利用……的优势",
     "english": "take advantage of",
-    "pos": "v.",
-    "chinese": "利用……的优势"
+    "pos": "phrase",
+    "sentence": "______ the free resources available online to improve your language skills.",
+    "sentence_translation": "利用网上可用的免费资源来提高你的语言能力。"
   },
   {
+    "chinese": "对……感兴趣",
     "english": "be interested in",
-    "pos": "v.",
-    "chinese": "对……感兴趣"
+    "pos": "phrase",
+    "sentence": "He ______ history and spends a lot of time reading historical books.",
+    "sentence_translation": "他对历史感兴趣，花很多时间阅读历史书籍。"
   },
   {
+    "chinese": "擅长……",
     "english": "be good at",
-    "pos": "v.",
-    "chinese": "擅长……"
+    "pos": "phrase",
+    "sentence": "She ______ painting and has won several awards for her artwork.",
+    "sentence_translation": "她擅长绘画，并因她的艺术作品获得了多个奖项。"
   },
   {
+    "chinese": "在……方面挣扎",
     "english": "struggle with",
-    "pos": "v.",
-    "chinese": "在……方面挣扎"
+    "pos": "phrase",
+    "sentence": "Many students ______ time management when they first go to college.",
+    "sentence_translation": "许多学生刚上大学时在时间管理方面挣扎。"
   },
   {
+    "chinese": "享受当下",
     "english": "enjoy the moment",
-    "pos": "v.",
-    "chinese": "享受当下"
+    "pos": "phrase",
+    "sentence": "Don't worry too much about the future; just ______ and have fun.",
+    "sentence_translation": "不要过多担心未来；享受当下，玩得开心就好。"
   },
   {
+    "chinese": "获得知识",
     "english": "gain knowledge",
-    "pos": "v.",
-    "chinese": "获得知识"
+    "pos": "phrase",
+    "sentence": "Traveling to different places is a great way to ______ about the world.",
+    "sentence_translation": "去不同的地方旅行是获取世界知识的好方法。"
   },
   {
+    "chinese": "养成好习惯",
     "english": "form a good habit",
-    "pos": "v.",
-    "chinese": "养成好习惯"
+    "pos": "phrase",
+    "sentence": "______ of exercising in the morning can benefit your health in the long run.",
+    "sentence_translation": "养成早上锻炼的好习惯，长远来看对你的健康有益。"
   },
   {
+    "chinese": "改掉坏习惯",
     "english": "break bad habits",
-    "pos": "v.",
-    "chinese": "改掉坏习惯"
+    "pos": "phrase",
+    "sentence": "It's not easy to ______, but it's possible with patience and determination.",
+    "sentence_translation": "改掉坏习惯不容易，但只要有耐心和决心就能做到。"
   },
   {
+    "chinese": "有明确的目标",
     "english": "have a clear goal",
-    "pos": "v.",
-    "chinese": "有明确的目标"
+    "pos": "phrase",
+    "sentence": "______ can help you stay focused and motivated to achieve it.",
+    "sentence_translation": "有明确的目标可以帮助你保持专注并有动力去实现它。"
   },
   {
+    "chinese": "带来巨大变化",
     "english": "make a big difference",
-    "pos": "v.",
-    "chinese": "带来巨大变化"
+    "pos": "phrase",
+    "sentence": "Small actions can ______ in protecting the environment.",
+    "sentence_translation": "小小的行动可以在环境保护方面带来巨大变化。"
   },
   {
+    "chinese": "保持积极态度",
     "english": "have a positive attitude",
-    "pos": "v.",
-    "chinese": "保持积极态度"
+    "pos": "phrase",
+    "sentence": "______ can help you overcome challenges and stay happy.",
+    "sentence_translation": "保持积极的态度可以帮助你克服挑战并保持快乐。"
   },
   {
+    "chinese": "思想开明",
     "english": "be open-minded",
-    "pos": "adj.",
-    "chinese": "思想开明"
+    "pos": "phrase",
+    "sentence": "______ allows you to accept new ideas and learn from others.",
+    "sentence_translation": "思想开明让你能够接受新想法并向他人学习。"
   },
   {
+    "chinese": "应对压力",
     "english": "deal with stress",
-    "pos": "v.",
-    "chinese": "应对压力"
+    "pos": "phrase",
+    "sentence": "Different people have different ways to ______ in their lives.",
+    "sentence_translation": "不同的人有不同的方式来应对生活中的压力。"
   },
   {
+    "chinese": "处理冲突",
     "english": "handle conflict",
-    "pos": "v.",
-    "chinese": "处理冲突"
+    "pos": "phrase",
+    "sentence": "Learning to ______ peacefully is an important life skill.",
+    "sentence_translation": "学会和平处理冲突是一项重要的生活技能。"
   },
   {
+    "chinese": "信任他人",
     "english": "trust others",
-    "pos": "v.",
-    "chinese": "信任他人"
+    "pos": "phrase",
+    "sentence": "It's important to ______ in a team to work together effectively.",
+    "sentence_translation": "在团队中信任他人对于有效协作很重要。"
   },
   {
+    "chinese": "感到舒服",
     "english": "feel comfortable",
-    "pos": "v.",
-    "chinese": "感到舒服"
+    "pos": "phrase",
+    "sentence": "She ______ in her new apartment because it's cozy and well-decorated.",
+    "sentence_translation": "她在新公寓里感到很舒服，因为它温馨且装修精良。"
   },
   {
+    "chinese": "有自律性",
     "english": "be self-disciplined",
-    "pos": "adj.",
-    "chinese": "有自律性"
+    "pos": "phrase",
+    "sentence": "______ helps you stick to your plans and achieve your goals.",
+    "sentence_translation": "有自律性可以帮助你坚持计划并实现目标。"
   },
   {
+    "chinese": "坚持规律生活",
     "english": "stick to a routine",
-    "pos": "v.",
-    "chinese": "坚持规律生活"
+    "pos": "phrase",
+    "sentence": "______ can make your life more organized and less stressful.",
+    "sentence_translation": "坚持规律的生活可以让你的生活更有条理，压力更小。"
   },
   {
+    "chinese": "有动力",
     "english": "be motivated",
-    "pos": "adj.",
-    "chinese": "有动力"
+    "pos": "phrase",
+    "sentence": "Setting small goals can help you ______ and focused on your studies.",
+    "sentence_translation": "设定小目标可以帮助你保持动力并专注于学习。"
   },
   {
+    "chinese": "不断进步",
     "english": "keep improving",
-    "pos": "v.",
-    "chinese": "不断进步"
+    "pos": "phrase",
+    "sentence": "The key to success is to ______ and never give up.",
+    "sentence_translation": "成功的关键是不断进步，永不放弃。"
   },
   {
+    "chinese": "欣赏小事",
     "english": "appreciate small things",
-    "pos": "v.",
-    "chinese": "欣赏小事"
+    "pos": "phrase",
+    "sentence": "Learning to ______ in life can bring more happiness and gratitude.",
+    "sentence_translation": "学会欣赏生活中的小事可以带来更多的幸福和感激。"
   },
   {
+    "chinese": "保持积极",
     "english": "stay positive",
-    "pos": "v.",
-    "chinese": "保持积极"
+    "pos": "phrase",
+    "sentence": "______ even when things go wrong, and you'll find a way to solve the problem.",
+    "sentence_translation": "即使事情出了问题，也要保持积极，你总会找到解决问题的方法。"
   },
   {
+    "chinese": "相信自己",
     "english": "believe in myself",
-    "pos": "v.",
-    "chinese": "相信自己"
+    "pos": "phrase",
+    "sentence": "______ is the first step to achieving anything you want in life.",
+    "sentence_translation": "相信自己是实现生活中任何目标的第一步。"
   }
 ]

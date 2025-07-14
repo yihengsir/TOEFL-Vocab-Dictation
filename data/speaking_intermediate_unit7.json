@@ -2,291 +2,407 @@
   {
     "chinese": "蜥蜴",
     "english": "lizard",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "A small ______ was sunning itself on the rock.",
+    "sentence_translation": "一只小蜥蜴正在岩石上晒太阳。"
   },
   {
     "chinese": "昆虫",
     "english": "insect",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Many birds feed on small ______ in the garden.",
+    "sentence_translation": "许多鸟以花园里的小昆虫为食。"
   },
   {
     "chinese": "使最小化",
     "english": "minimize",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We should try to ______ the risk of accidents in the workplace.",
+    "sentence_translation": "我们应该努力将工作场所的事故风险降到最低。"
   },
   {
     "chinese": "猎物；受害者",
     "english": "prey",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The lion stalked its ______ through the grass.",
+    "sentence_translation": "狮子在草丛中悄悄跟踪它的猎物。"
   },
   {
     "chinese": "震动",
     "english": "vibration",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ from the machine made the floor shake slightly.",
+    "sentence_translation": "机器的震动使地板轻微摇晃。"
   },
   {
     "chinese": "捕获",
     "english": "capture",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The camera managed to ______ the rare bird in flight.",
+    "sentence_translation": "相机成功捕捉到了这只稀有鸟类飞行的画面。"
   },
   {
     "chinese": "气候",
     "english": "climate",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ in this region is warm and humid all year round.",
+    "sentence_translation": "这个地区的气候全年温暖湿润。"
   },
   {
     "chinese": "使能够",
     "english": "enable",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "New technology will ______ us to finish the task more quickly.",
+    "sentence_translation": "新技术将使我们能够更快地完成任务。"
   },
   {
     "chinese": "恶劣的; 严厉的; 严酷的",
     "english": "harsh",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ winter winds made it difficult to go outside.",
+    "sentence_translation": "严酷的冬风让人难以外出。"
   },
   {
     "chinese": "（生理）感觉",
     "english": "sense",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Dogs have a strong ______ of smell that helps them find food.",
+    "sentence_translation": "狗有敏锐的嗅觉，能帮助它们找到食物。"
   },
   {
     "chinese": "微妙的; 巧妙的; 狡猾的",
     "english": "subtle",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "There is a ______ difference between the two paintings.",
+    "sentence_translation": "这两幅画之间有微妙的差别。"
   },
   {
     "chinese": "温度",
     "english": "temperature",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ in the room has risen by 5 degrees since this morning.",
+    "sentence_translation": "自早上以来，房间里的温度上升了5度。"
   },
   {
     "chinese": "地下的",
     "english": "subsurface",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ water sources are important for plants in dry areas.",
+    "sentence_translation": "地下水源对干旱地区的植物很重要。"
   },
   {
     "chinese": "表面",
     "english": "surface",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of the lake was smooth as glass on a calm day.",
+    "sentence_translation": "平静的日子里，湖面像玻璃一样光滑。"
   },
   {
     "chinese": "暴露",
     "english": "exposure",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Long ______ to sunlight can damage your skin.",
+    "sentence_translation": "长时间暴露在阳光下会损伤皮肤。"
   },
   {
     "chinese": "突出；伸出",
     "english": "protrude",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "A sharp rock ______ from the wall, so be careful not to hit it.",
+    "sentence_translation": "一块尖石从墙上突出来，小心别撞到。"
   },
   {
     "chinese": "北极的",
     "english": "arctic",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Polar bears live in the ______ regions of the world.",
+    "sentence_translation": "北极熊生活在世界的北极地区。"
   },
   {
     "chinese": "紧凑的；小型的",
     "english": "compact",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This ______ camera is easy to carry when traveling.",
+    "sentence_translation": "这款小型相机旅行时便于携带。"
   },
   {
     "chinese": "猫头鹰",
     "english": "owl",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "An ______ hooted loudly in the tree outside my window last night.",
+    "sentence_translation": "昨晚一只猫头鹰在我窗外的树上大声鸣叫。"
   },
   {
     "chinese": "包括；在于；由…组成",
     "english": "consist",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The team will ______ of five experienced researchers.",
+    "sentence_translation": "这个团队将由五名有经验的研究人员组成。"
   },
   {
     "chinese": "有效地；效率高地",
     "english": "efficiently",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She manages her time ______ to balance work and family.",
+    "sentence_translation": "她高效地管理时间，以平衡工作和家庭。"
   },
   {
     "chinese": "层",
     "english": "layer",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Add another ______ of paint to make the color more vibrant.",
+    "sentence_translation": "再涂一层颜料，让颜色更鲜艳。"
   },
   {
     "chinese": "主要地",
     "english": "primarily",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "This course is ______ designed for beginners in computer science.",
+    "sentence_translation": "这门课程主要是为计算机科学的初学者设计的。"
   },
   {
     "chinese": "相对地",
     "english": "relatively",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "The task is ______ easy compared to the one we did last week.",
+    "sentence_translation": "与我们上周做的任务相比，这个任务相对容易。"
   },
   {
     "chinese": "保持；保留",
     "english": "retain",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It's important to ______ a positive attitude even when facing difficulties.",
+    "sentence_translation": "即使面临困难，保持积极的态度也很重要。"
   },
   {
     "chinese": "保护某人或某物",
     "english": "shield",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Trees can ______ the house from strong winds during storms.",
+    "sentence_translation": "暴风雨期间，树木可以保护房子免受强风侵袭。"
   },
   {
     "chinese": "羽毛",
     "english": "feather",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "A colorful ______ from a peacock fell on the ground.",
+    "sentence_translation": "一根色彩鲜艳的孔雀羽毛掉在了地上。"
   },
   {
     "chinese": "特征；特色",
     "english": "feature",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "One unique ______ of this phone is its long battery life.",
+    "sentence_translation": "这款手机的一个独特特征是电池续航时间长。"
   },
   {
     "chinese": "毛；皮毛",
     "english": "fur",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The cat's ______ is soft and shiny after being brushed.",
+    "sentence_translation": "猫被梳理后，皮毛柔软而有光泽。"
   },
   {
     "chinese": "身体的；物质的",
     "english": "physical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Regular ______ exercise is good for both the body and mind.",
+    "sentence_translation": "有规律的体育锻炼对身心都有好处。"
   },
   {
     "chinese": "营养",
     "english": "nutrient",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Fruits and vegetables are rich in essential ______.",
+    "sentence_translation": "水果和蔬菜富含必需的营养。"
   },
   {
     "chinese": "土壤",
     "english": "soil",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Plants grow better in fertile ______ with plenty of organic matter.",
+    "sentence_translation": "植物在富含有机物质的肥沃土壤中生长得更好。"
   },
   {
     "chinese": "活跃的",
     "english": "active",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Children are usually more ______ than adults, especially outdoors.",
+    "sentence_translation": "孩子们通常比成年人更活跃，尤其是在户外。"
   },
   {
     "chinese": "陷阱",
     "english": "trap",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The hunter set a ______ to catch the wild fox in the forest.",
+    "sentence_translation": "猎人在森林里设了一个陷阱来捕捉野狐狸。"
   },
   {
     "chinese": "吸引",
     "english": "attract",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Bright flowers ______ bees and butterflies to the garden.",
+    "sentence_translation": "鲜艳的花朵吸引蜜蜂和蝴蝶来到花园。"
   },
   {
     "chinese": "笼子",
     "english": "cage",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The zoo keeper cleaned the ______ before putting the tiger back in.",
+    "sentence_translation": "动物园管理员清理了笼子，然后把老虎放回去。"
   },
   {
     "chinese": "消化",
     "english": "digest",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It takes several hours for the body to ______ a large meal.",
+    "sentence_translation": "身体需要几个小时来消化一顿大餐。"
   },
   {
     "chinese": "被动的",
     "english": "passive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Being ______ in a discussion means you don't share your own ideas.",
+    "sentence_translation": "在讨论中表现被动意味着你不分享自己的想法。"
   },
   {
     "chinese": "茅膏菜；露水",
     "english": "sundew",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ is a carnivorous plant that catches insects with sticky droplets.",
+    "sentence_translation": "茅膏菜是一种食肉植物，用粘性液滴捕捉昆虫。"
   },
   {
     "chinese": "胶水",
     "english": "glue",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Use some ______ to stick the two pieces of paper together.",
+    "sentence_translation": "用一些胶水把这两张纸粘在一起。"
   },
   {
     "chinese": "物质",
     "english": "substance",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The scientist tested the unknown ______ to find out what it was made of.",
+    "sentence_translation": "科学家对这种未知物质进行了测试，以查明它的成分。"
   },
   {
     "chinese": "条件",
     "english": "condition",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The house is in good ______ despite being over 50 years old.",
+    "sentence_translation": "这栋房子虽然有50多年的历史，但状况良好。"
   },
   {
     "chinese": "适应",
     "english": "adapt",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Animals must ______ to changing environments to survive.",
+    "sentence_translation": "动物必须适应不断变化的环境才能生存。"
   },
   {
     "chinese": "极端的",
     "english": "extreme",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ weather conditions can cause serious damage to crops.",
+    "sentence_translation": "极端天气条件会对农作物造成严重损害。"
   },
   {
     "chinese": "结果",
     "english": "result",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Hard work and dedication will eventually lead to good ______.",
+    "sentence_translation": "努力工作和奉献精神最终会带来好结果。"
   },
   {
     "chinese": "狼",
     "english": "wolf",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "A pack of ______ howled loudly in the distance at night.",
+    "sentence_translation": "一群狼在夜间远处大声嚎叫。"
   },
   {
     "chinese": "移动",
     "english": "locomotion",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Fish use fins for ______ in water, while birds use wings to fly.",
+    "sentence_translation": "鱼在水中用鳍移动，而鸟用翅膀飞行。"
   },
   {
     "chinese": "暴露",
     "english": "expose",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Leaving the metal outside will ______ it to rust in the rain.",
+    "sentence_translation": "把金属放在外面会使其在雨中暴露而生锈。"
   },
   {
     "chinese": "沙子",
     "english": "sand",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Children enjoy building castles with ______ on the beach.",
+    "sentence_translation": "孩子们喜欢在海滩上用沙子堆城堡。"
   },
   {
     "chinese": "沙漠",
     "english": "desert",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Very few plants and animals can survive in the hot, dry ______.",
+    "sentence_translation": "很少有动植物能在炎热干燥的沙漠中生存。"
   },
   {
     "chinese": "来源",
     "english": "source",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The river is an important ______ of drinking water for the village.",
+    "sentence_translation": "这条河是这个村庄重要的饮用水来源。"
   },
   {
     "chinese": "被困在",
     "english": "be stuck on",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The butterfly ______ the spider's web and couldn't escape.",
+    "sentence_translation": "这只蝴蝶被困在蜘蛛网上，无法逃脱。"
   },
   {
-    "chinese": "地下（次表面）移动",
+    "chinese": "地表移动",
     "english": "surface locomotion",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Snakes use ______ to move smoothly across the ground.",
+    "sentence_translation": "蛇通过地表移动在地面上平稳爬行。"
   },
   {
     "chinese": "出其不意地",
     "english": "by surprise",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The sudden rain caught us ______, and we had no umbrellas.",
+    "sentence_translation": "突如其来的雨让我们措手不及，我们没带伞。"
   },
   {
     "chinese": "在......（地方）常见",
     "english": "commonly seen",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "This type of bird is ______ in forests and mountain areas.",
+    "sentence_translation": "这种鸟在森林和山区很常见。"
   },
   {
     "chinese": "到处都是",
     "english": "all over",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Flowers of different colors can be seen ______ the garden in spring.",
+    "sentence_translation": "春天，花园里到处都能看到不同颜色的花。"
   },
   {
     "chinese": "保持温暖",
     "english": "stay warm",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "People wear thick clothes to ______ during cold winters.",
+    "sentence_translation": "冬天寒冷时，人们穿厚衣服来保暖。"
   },
   {
     "chinese": "体温",
     "english": "body heat",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Animals in cold regions often have thick fur to retain ______.",
+    "sentence_translation": "寒冷地区的动物通常有厚厚的皮毛来保持体温。"
   }
 ]

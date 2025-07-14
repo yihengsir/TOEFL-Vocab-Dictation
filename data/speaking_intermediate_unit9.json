@@ -2,331 +2,456 @@
   {
     "chinese": "管弦乐队",
     "english": "orchestra",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ will perform a symphony at the concert hall tonight.",
+    "sentence_translation": "管弦乐队今晚将在音乐厅演奏一首交响曲。"
   },
   {
     "chinese": "聪明的",
     "english": "intelligent",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She is an ______ girl who solves math problems quickly.",
+    "sentence_translation": "她是一个聪明的女孩，能快速解决数学问题。"
   },
   {
     "chinese": "罕见，非常",
     "english": "exceptionally",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "The weather this summer has been ______ hot and dry.",
+    "sentence_translation": "今年夏天的天气异常炎热干燥。"
   },
   {
     "chinese": "音乐会",
     "english": "concert",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We bought tickets to the ______ featuring a famous pianist.",
+    "sentence_translation": "我们买了有著名钢琴家参演的音乐会门票。"
   },
   {
     "chinese": "古典的，经典的",
     "english": "classical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "He enjoys listening to ______ music by composers like Beethoven.",
+    "sentence_translation": "他喜欢听贝多芬等作曲家的古典音乐。"
   },
   {
     "chinese": "先前的，之前的",
     "english": "previous",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Her ______ job was in a bookstore before she became a teacher.",
+    "sentence_translation": "在成为教师之前，她之前的工作是在一家书店。"
   },
   {
     "chinese": "回忆，召回",
     "english": "recall",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "I can't ______ the name of the movie we watched last week.",
+    "sentence_translation": "我想不起我们上周看的那部电影的名字了。"
   },
   {
     "chinese": "毁灭的，毁灭性的",
     "english": "destructive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ storm caused widespread damage to the village.",
+    "sentence_translation": "这场毁灭性的暴风雨对村庄造成了广泛破坏。"
   },
   {
     "chinese": "探索",
     "english": "explore",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Scientists plan to ______ the deep ocean to find new species.",
+    "sentence_translation": "科学家们计划探索深海以发现新物种。"
   },
   {
     "chinese": "旁白者",
     "english": "narrator",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of the documentary has a clear and pleasant voice.",
+    "sentence_translation": "这部纪录片的旁白者有着清晰悦耳的声音。"
   },
   {
     "chinese": "观点，态度",
     "english": "perspective",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "From a child's ______, the world is full of wonders.",
+    "sentence_translation": "从孩子的视角来看，世界充满了奇迹。"
   },
   {
     "chinese": "教授",
     "english": "professor",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ will give a lecture on environmental science tomorrow.",
+    "sentence_translation": "这位教授明天将做一场关于环境科学的讲座。"
   },
   {
     "chinese": "心理上的",
     "english": "psychological",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Long-term stress can have ______ effects on a person's health.",
+    "sentence_translation": "长期压力会对人的健康产生心理上的影响。"
   },
   {
     "chinese": "心理学家",
     "english": "psychologist",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ helped her deal with her anxiety through counseling.",
+    "sentence_translation": "这位心理学家通过心理咨询帮助她缓解焦虑。"
   },
   {
     "chinese": "心理学",
     "english": "psychology",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She is studying ______ to understand how the human mind works.",
+    "sentence_translation": "她正在学习心理学，以了解人类的思维方式。"
   },
   {
     "chinese": "解决",
     "english": "solve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Working together, we can ______ this problem more efficiently.",
+    "sentence_translation": "齐心协力，我们能更高效地解决这个问题。"
   },
   {
     "chinese": "理论",
     "english": "theory",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Einstein's ______ of relativity changed the way we understand the universe.",
+    "sentence_translation": "爱因斯坦的相对论改变了我们对宇宙的理解方式。"
   },
   {
     "chinese": "冲动，欲望",
     "english": "urge",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He felt a sudden ______ to travel and see the world.",
+    "sentence_translation": "他突然有了旅行看世界的冲动。"
   },
   {
     "chinese": "依赖",
     "english": "dependency",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Over time, his ______ on coffee became stronger.",
+    "sentence_translation": "随着时间的推移，他对咖啡的依赖变得更强了。"
   },
   {
     "chinese": "幻想",
     "english": "fantasy",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The novel tells a ______ story of dragons and magic kingdoms.",
+    "sentence_translation": "这部小说讲述了一个关于龙和魔法王国的幻想故事。"
   },
   {
     "chinese": "发明",
     "english": "invent",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Edison was able to ______ many useful devices during his lifetime.",
+    "sentence_translation": "爱迪生一生中发明了许多有用的装置。"
   },
   {
     "chinese": "机制",
     "english": "mechanism",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of the clock ensures it keeps accurate time.",
+    "sentence_translation": "钟表的机制确保它能准确计时。"
   },
   {
     "chinese": "升华，纯化",
     "english": "sublimation",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of water from ice to vapor skips the liquid stage.",
+    "sentence_translation": "水从冰直接升华为蒸汽跳过了液态阶段。"
   },
   {
     "chinese": "无意识地",
     "english": "unconsciously",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She ______ tapped her foot to the rhythm of the music.",
+    "sentence_translation": "她无意识地随着音乐的节奏轻拍脚。"
   },
   {
     "chinese": "使改变方向",
     "english": "redirect",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "They decided to ______ the river to prevent flooding in the town.",
+    "sentence_translation": "他们决定使河流改道以防止城镇洪水。"
   },
   {
     "chinese": "防止",
     "english": "prevent",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Washing hands regularly can ______ the spread of germs.",
+    "sentence_translation": "经常洗手可以防止细菌传播。"
   },
   {
     "chinese": "守卫，看护",
     "english": "guard",
-    "pos": "v."
-  },
-  {
-    "chinese": "解决",
-    "english": "solve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Security officers ______ the entrance to the building 24 hours a day.",
+    "sentence_translation": "保安人员全天24小时守卫大楼入口。"
   },
   {
     "chinese": "通常地",
     "english": "typically",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "______, the store closes at 9 p.m. on weekdays.",
+    "sentence_translation": "通常情况下，这家商店在工作日晚上9点关门。"
   },
   {
     "chinese": "行为",
     "english": "behavior",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The child's good ______ was praised by the teacher.",
+    "sentence_translation": "这个孩子的良好行为受到了老师的表扬。"
   },
   {
     "chinese": "建造/构造",
     "english": "construct",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Workers will ______ a new bridge over the river next year.",
+    "sentence_translation": "工人们明年将在河上建造一座新桥。"
   },
   {
     "chinese": "一致的，相符的",
     "english": "according",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Her actions were not ______ with her promises.",
+    "sentence_translation": "她的行为与她的承诺不一致。"
   },
   {
     "chinese": "成年人",
     "english": "adult",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Each ______ is responsible for their own decisions.",
+    "sentence_translation": "每个成年人都要对自己的决定负责。"
   },
   {
     "chinese": "焦虑的",
     "english": "anxious",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She felt ______ before her first job interview.",
+    "sentence_translation": "第一次求职面试前，她感到很焦虑。"
   },
   {
     "chinese": "好处/有益于",
     "english": "benefit",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "Regular exercise has many ______ for physical health.",
+    "sentence_translation": "有规律的锻炼对身体健康有很多好处。"
   },
   {
     "chinese": "块/阻碍",
     "english": "block",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "A fallen tree ______ the road, so we had to find another way.",
+    "sentence_translation": "一棵倒下的树挡住了路，所以我们不得不另找一条路。"
   },
   {
     "chinese": "常见的",
     "english": "common",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Colds are ______ in winter when people stay indoors more.",
+    "sentence_translation": "冬天人们更多待在室内，感冒很常见。"
   },
   {
     "chinese": "恒定的/常数",
     "english": "constant",
-    "pos": "adj./n."
+    "pos": "adj./n.",
+    "sentence": "The ______ noise from the construction site disturbed the neighbors.",
+    "sentence_translation": "建筑工地持续不断的噪音打扰了邻居。"
   },
   {
     "chinese": "贡献/捐献",
     "english": "contribute",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Everyone can ______ to protecting the environment in small ways.",
+    "sentence_translation": "每个人都能以小行动为保护环境做贡献。"
   },
   {
     "chinese": "好奇的",
     "english": "curious",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ cat explored every corner of the new house.",
+    "sentence_translation": "这只好奇的猫探索了新房子的每个角落。"
   },
   {
     "chinese": "愿望/渴望",
     "english": "desire",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "His ______ to learn drove him to study day and night.",
+    "sentence_translation": "他对学习的渴望驱使他日夜苦读。"
   },
   {
     "chinese": "发展",
     "english": "development",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of new technologies has changed our daily lives.",
+    "sentence_translation": "新技术的发展改变了我们的日常生活。"
   },
   {
     "chinese": "情感上地",
     "english": "emotionally",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "Moving to a new city made her ______ vulnerable for a while.",
+    "sentence_translation": "搬到新城市让她在情感上脆弱了一段时间。"
   },
   {
     "chinese": "塔",
     "english": "tower",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ancient ______ stands tall in the center of the city.",
+    "sentence_translation": "这座古老的塔高耸在城市中心。"
   },
   {
     "chinese": "伤害/损害",
     "english": "harm",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "Too much sugar can ______ your teeth over time.",
+    "sentence_translation": "长期来看，过多的糖会伤害你的牙齿。"
   },
   {
     "chinese": "代表/象征",
     "english": "represent",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The dove ______ peace in many cultures around the world.",
+    "sentence_translation": "在世界许多文化中，鸽子象征着和平。"
   },
   {
     "chinese": "粉碎/撞击",
     "english": "smash",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "He accidentally ______ the vase when he bumped into the table.",
+    "sentence_translation": "他撞到桌子时不小心打碎了花瓶。"
   },
   {
     "chinese": "不安的/不稳定的",
     "english": "uneasy",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She felt ______ about walking alone in the dark alley.",
+    "sentence_translation": "在黑暗的小巷里独自行走，她感到不安。"
   },
   {
     "chinese": "玩的开心",
     "english": "have fun",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "We always ______ ______ at the beach during summer vacations.",
+    "sentence_translation": "暑假期间，我们在海滩总是玩得很开心。"
   },
   {
     "chinese": "依赖于",
     "english": "depend on",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Plants ______ ______ sunlight and water to grow.",
+    "sentence_translation": "植物依赖阳光和水生长。"
   },
   {
     "chinese": "能够",
     "english": "be able to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "With practice, you will ______ ______ ______ speak English fluently.",
+    "sentence_translation": "通过练习，你将能够流利地说英语。"
   },
   {
     "chinese": "根据",
     "english": "according to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ the weather forecast, it will rain tomorrow.",
+    "sentence_translation": "根据天气预报，明天会下雨。"
   },
   {
     "chinese": "...的感觉",
     "english": "a sense of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Helping others gives her ______ ______ ______ satisfaction.",
+    "sentence_translation": "帮助他人给她一种满足感。"
   },
   {
     "chinese": "掌控，控制",
     "english": "be in control",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Staying calm helps you ______ ______ ______ in difficult situations.",
+    "sentence_translation": "保持冷静能帮助你在困境中掌控局面。"
   },
   {
     "chinese": "有助于，促成",
     "english": "contribute to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Eating a balanced diet can ______ ______ better health.",
+    "sentence_translation": "均衡饮食有助于身体健康。"
   },
   {
     "chinese": "采取行动，对...有作用",
     "english": "act on",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "It's important to ______ ______ good advice when you receive it.",
+    "sentence_translation": "收到好建议时，采取行动很重要。"
   },
   {
     "chinese": "搞砸，弄乱",
     "english": "mess up",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "He tried to cook but ______ ______ the recipe completely.",
+    "sentence_translation": "他试着做饭，却把食谱完全搞砸了。"
   },
   {
     "chinese": "对...感到沮丧",
     "english": "be upset with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She ______ ______ ______ her brother for breaking her favorite toy.",
+    "sentence_translation": "她因为哥哥弄坏了她最喜欢的玩具而感到沮丧。"
   },
   {
     "chinese": "被允许做",
     "english": "be allowed to do",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Children under 12 are not ______ ______ ______ ride the roller coaster.",
+    "sentence_translation": "12岁以下的儿童不被允许乘坐过山车。"
   },
   {
     "chinese": "...的细节",
     "english": "details of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The report includes all the ______ ______ the project plan.",
+    "sentence_translation": "这份报告包含了项目计划的所有细节。"
   },
   {
     "chinese": "另一方面",
     "english": "on the other hand",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Living in the city is convenient. ______ ______ ______ ______, it's more expensive.",
+    "sentence_translation": "住在城市很方便，另一方面，开销更大。"
   },
   {
     "chinese": "比方说，让我们说",
     "english": "let‘s say",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ we leave at 8 a.m. – we'll arrive by noon.",
+    "sentence_translation": "比方说我们早上8点出发——我们会在中午前到达。"
   },
   {
     "chinese": "与...不同",
     "english": "be different from",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "This new model ______ ______ ______ the old one in many ways.",
+    "sentence_translation": "这款新型号在很多方面与旧型号不同。"
   },
   {
     "chinese": "保护...免受",
     "english": "protect from",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Sunscreen helps ______ your skin ______ harmful UV rays.",
+    "sentence_translation": "防晒霜有助于保护皮肤免受有害紫外线的伤害。"
   },
   {
     "chinese": "而不是",
     "english": "instead of",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She chose to walk ______ ______ taking the bus.",
+    "sentence_translation": "她选择步行而不是乘公交车。"
   },
   {
     "chinese": "远离",
-    "english": "keep away",
-    "pos": "phrase"
+    "english": "keep...away",
+    "pos": "phrase",
+    "sentence": "We need to ______ children ______ dangerous chemicals.",
+    "sentence_translation": "我们需要让孩子们远离危险化学品。"
   }
 ]

@@ -1,337 +1,450 @@
 [
   {
+    "chinese": "侵略的，侵略性的",
     "english": "aggressive",
     "pos": "adj.",
-    "chinese": "侵略的，侵略性的"
+    "sentence": "Some animals become ______ when they feel threatened.",
+    "sentence_translation": "有些动物在感到受威胁时会变得具有侵略性。"
   },
   {
+    "chinese": "出现，发生，发展",
     "english": "arise",
     "pos": "v.",
-    "chinese": "出现，发生，发展"
+    "sentence": "A new problem has ______ that we need to solve immediately.",
+    "sentence_translation": "一个新问题出现了，我们需要立即解决。"
   },
   {
+    "chinese": "争斗的",
     "english": "agonistic",
     "pos": "adj.",
-    "chinese": "争斗的"
+    "sentence": "The two teams showed ______ behavior during the competition.",
+    "sentence_translation": "这两支队伍在比赛中表现出争斗行为。"
   },
   {
+    "chinese": "冲突",
     "english": "conflict",
     "pos": "n.",
-    "chinese": "冲突"
+    "sentence": "There was a ______ between the two neighbors over the fence.",
+    "sentence_translation": "这两个邻居因栅栏发生了冲突。"
   },
   {
+    "chinese": "示范",
     "english": "demonstrate",
     "pos": "v.",
-    "chinese": "示范"
+    "sentence": "The teacher will ______ how to do the experiment step by step.",
+    "sentence_translation": "老师将一步步示范如何做这个实验。"
   },
   {
+    "chinese": "参与",
     "english": "participate",
     "pos": "v.",
-    "chinese": "参与"
+    "sentence": "Everyone is encouraged to ______ in the discussion.",
+    "sentence_translation": "鼓励每个人参与讨论。"
   },
   {
+    "chinese": "解决",
     "english": "resolve",
     "pos": "v.",
-    "chinese": "解决"
+    "sentence": "We need to find a way to ______ this misunderstanding.",
+    "sentence_translation": "我们需要找到方法解决这个误会。"
   },
   {
+    "chinese": "资源",
     "english": "resource",
     "pos": "n.",
-    "chinese": "资源"
+    "sentence": "Natural ______ should be used wisely and preserved.",
+    "sentence_translation": "自然资源应被合理利用并保护。"
   },
   {
+    "chinese": "领地",
     "english": "territory",
     "pos": "n.",
-    "chinese": "领地"
+    "sentence": "Animals often fight to protect their ______.",
+    "sentence_translation": "动物经常为保护自己的领地而争斗。"
   },
   {
+    "chinese": "投降",
     "english": "surrender",
     "pos": "v.",
-    "chinese": "投降"
+    "sentence": "The enemy was forced to ______ after days of battle.",
+    "sentence_translation": "经过几天的战斗，敌人被迫投降。"
   },
   {
+    "chinese": "分散，散开",
     "english": "scatter",
     "pos": "v.",
-    "chinese": "分散，散开"
+    "sentence": "The crowd ______ when it started raining heavily.",
+    "sentence_translation": "下起大雨时，人群散开了。"
   },
   {
-    "english": "scatter",
-    "pos": "n.",
-    "chinese": "散落"
-  },
-  {
+    "chinese": "不像，与…不同",
     "english": "unlike",
-    "pos": "prep",
-    "chinese": "不像，与…不同"
+    "pos": "prep.",
+    "sentence": "______ her sister, she prefers reading over watching TV.",
+    "sentence_translation": "和她姐姐不同，她更喜欢读书而不是看电视。"
   },
   {
+    "chinese": "稀少的",
     "english": "scarce",
     "pos": "adj.",
-    "chinese": "稀少的"
+    "sentence": "Water becomes ______ during the dry season.",
+    "sentence_translation": "旱季时，水变得稀少。"
   },
   {
-    "english": "scarce",
-    "pos": "adv.",
-    "chinese": "几乎不"
-  },
-  {
+    "chinese": "相互冲突的",
     "english": "competing",
     "pos": "adj.",
-    "chinese": "相互冲突的"
+    "sentence": "There are ______ interests in the project that need to be balanced.",
+    "sentence_translation": "这个项目中有相互冲突的利益需要平衡。"
   },
   {
-    "english": "competing",
-    "pos": "v.",
-    "chinese": "竞争，对抗 (compete的-ing形式)"
-  },
-  {
+    "chinese": "因素",
     "english": "factor",
     "pos": "n.",
-    "chinese": "因素"
+    "sentence": "Climate is an important ______ in agricultural production.",
+    "sentence_translation": "气候是农业生产中的一个重要因素。"
   },
   {
+    "chinese": "昆虫",
     "english": "insect",
     "pos": "n.",
-    "chinese": "昆虫"
+    "sentence": "Butterflies are beautiful ______ that can fly.",
+    "sentence_translation": "蝴蝶是会飞的美丽昆虫。"
   },
   {
+    "chinese": "生物，微生物，有机体",
     "english": "organism",
     "pos": "n.",
-    "chinese": "生物，微生物，有机体"
+    "sentence": "All ______ need water and food to survive.",
+    "sentence_translation": "所有生物都需要水和食物来生存。"
   },
   {
+    "chinese": "捕食者（动物）",
     "english": "predator",
     "pos": "n.",
-    "chinese": "捕食者（动物）"
+    "sentence": "Lions are top ______ in the African savanna.",
+    "sentence_translation": "狮子是非洲热带草原的顶级捕食者。"
   },
   {
+    "chinese": "生物的",
     "english": "biotic",
     "pos": "adj.",
-    "chinese": "生物的"
+    "sentence": "______ factors include plants, animals, and microorganisms.",
+    "sentence_translation": "生物因素包括植物、动物和微生物。"
   },
   {
+    "chinese": "非生物的",
     "english": "abiotic",
     "pos": "adj.",
-    "chinese": "非生物的"
+    "sentence": "______ factors like sunlight and temperature affect plant growth.",
+    "sentence_translation": "阳光和温度等非生物因素影响植物生长。"
   },
   {
+    "chinese": "无生命的",
     "english": "nonliving",
     "pos": "adj.",
-    "chinese": "无生命的"
+    "sentence": "Rocks and water are ______ things in the ecosystem.",
+    "sentence_translation": "岩石和水是生态系统中的无生命物质。"
   },
   {
+    "chinese": "生物学",
     "english": "biology",
     "pos": "n.",
-    "chinese": "生物学"
+    "sentence": "She studies ______ to understand how living things work.",
+    "sentence_translation": "她学习生物学以了解生物的运作方式。"
   },
   {
+    "chinese": "观察",
     "english": "observe",
     "pos": "v.",
-    "chinese": "观察"
+    "sentence": "Scientists ______ animals in their natural habitat.",
+    "sentence_translation": "科学家在动物的自然栖息地观察它们。"
   },
   {
+    "chinese": "蛇",
     "english": "snake",
     "pos": "n.",
-    "chinese": "蛇"
+    "sentence": "Some ______ are poisonous, while others are harmless.",
+    "sentence_translation": "有些蛇有毒，而其他蛇则无害。"
   },
   {
+    "chinese": "目击",
     "english": "witness",
     "pos": "v.",
-    "chinese": "目击"
+    "sentence": "I ______ a car accident on my way to work.",
+    "sentence_translation": "我在上班路上目击了一场车祸。"
   },
   {
+    "chinese": "格格作响",
     "english": "rattle",
     "pos": "v.",
-    "chinese": "格格作响"
+    "sentence": "The old door ______ when the wind blows.",
+    "sentence_translation": "刮风时，旧门会格格作响。"
   },
   {
+    "chinese": "响尾蛇",
     "english": "rattlesnake",
     "pos": "n.",
-    "chinese": "响尾蛇"
+    "sentence": "______ use their rattles to warn others of their presence.",
+    "sentence_translation": "响尾蛇用它们的响尾警告其他生物自己的存在。"
   },
   {
+    "chinese": "多样的",
     "english": "various",
     "pos": "adj.",
-    "chinese": "多样的"
+    "sentence": "There are ______ ways to solve this problem.",
+    "sentence_translation": "有多种方法可以解决这个问题。"
   },
   {
+    "chinese": "洞穴",
     "english": "burrow",
     "pos": "n.",
-    "chinese": "洞穴"
+    "sentence": "Rabbits live in ______ underground.",
+    "sentence_translation": "兔子住在地下的洞穴里。"
   },
   {
+    "chinese": "直立的",
     "english": "upright",
     "pos": "adj.",
-    "chinese": "直立的"
+    "sentence": "Humans can stand ______ on two legs.",
+    "sentence_translation": "人类可以用两条腿直立站立。"
   },
   {
+    "chinese": "摔跤",
     "english": "wrestle",
     "pos": "v.",
-    "chinese": "摔跤"
+    "sentence": "They used to ______ with each other when they were kids.",
+    "sentence_translation": "他们小时候经常互相摔跤。"
   },
   {
+    "chinese": "获得",
     "english": "gain",
     "pos": "v.",
-    "chinese": "获得"
+    "sentence": "Reading books can help you ______ knowledge and wisdom.",
+    "sentence_translation": "读书可以帮助你获得知识和智慧。"
   },
   {
+    "chinese": "铲",
     "english": "shove",
     "pos": "v.",
-    "chinese": "铲"
+    "sentence": "He had to ______ the snow away from the driveway.",
+    "sentence_translation": "他不得不把车道上的雪铲掉。"
   },
   {
+    "chinese": "移动",
     "english": "maneuver",
     "pos": "v.",
-    "chinese": "移动"
+    "sentence": "The ship ______ carefully through the narrow channel.",
+    "sentence_translation": "船小心翼翼地穿过狭窄的水道。"
   },
   {
+    "chinese": "（两者）都不",
     "english": "neither",
-    "pos": "adj.",
-    "chinese": "（两者）都不"
+    "pos": "pron.",
+    "sentence": "______ of the options seems suitable for us.",
+    "sentence_translation": "这两个选项似乎都不适合我们。"
   },
   {
+    "chinese": "咬",
     "english": "bite",
     "pos": "v.",
-    "chinese": "咬"
+    "sentence": "Be careful, the dog might ______ if it feels scared.",
+    "sentence_translation": "小心点，如果狗感到害怕，可能会咬人。"
   },
   {
+    "chinese": "伤害",
     "english": "injure",
     "pos": "v.",
-    "chinese": "伤害"
+    "sentence": "He ______ his leg while playing football.",
+    "sentence_translation": "他踢足球时伤了腿。"
   },
   {
+    "chinese": "释放",
     "english": "release",
     "pos": "v.",
-    "chinese": "释放"
+    "sentence": "The company will ______ a new product next month.",
+    "sentence_translation": "公司下个月将发布一款新产品。"
   },
   {
+    "chinese": "例子",
     "english": "example",
     "pos": "n.",
-    "chinese": "例子"
+    "sentence": "Let me give you an ______ to explain this concept.",
+    "sentence_translation": "让我给你举个例子来解释这个概念。"
   },
   {
+    "chinese": "物种",
     "english": "species",
     "pos": "n.",
-    "chinese": "物种"
+    "sentence": "Many ______ of animals are endangered due to habitat loss.",
+    "sentence_translation": "由于栖息地丧失，许多动物物种濒临灭绝。"
   },
   {
+    "chinese": "松鼠",
     "english": "squirrel",
     "pos": "n.",
-    "chinese": "松鼠"
+    "sentence": "______ often bury nuts to save for winter.",
+    "sentence_translation": "松鼠经常储存坚果以备过冬。"
   },
   {
+    "chinese": "主要的",
     "english": "primary",
     "pos": "adj.",
-    "chinese": "主要的"
+    "sentence": "The ______ goal of this project is to improve education.",
+    "sentence_translation": "这个项目的主要目标是改善教育。"
   },
   {
+    "chinese": "坚果",
     "english": "nut",
     "pos": "n.",
-    "chinese": "坚果"
+    "sentence": "Walnuts and almonds are both types of ______.",
+    "sentence_translation": "核桃和杏仁都是坚果的种类。"
   },
   {
+    "chinese": "保存",
     "english": "preserve",
     "pos": "v.",
-    "chinese": "保存"
+    "sentence": "We should ______ historical buildings for future generations.",
+    "sentence_translation": "我们应该为后代保存历史建筑。"
   },
   {
+    "chinese": "埋",
     "english": "bury",
     "pos": "v.",
-    "chinese": "埋"
+    "sentence": "They decided to ______ the treasure in the forest.",
+    "sentence_translation": "他们决定把宝藏埋在森林里。"
   },
   {
+    "chinese": "存活",
     "english": "survive",
     "pos": "v.",
-    "chinese": "存活"
+    "sentence": "Only the fittest organisms can ______ in harsh environments.",
+    "sentence_translation": "只有最适应环境的生物才能在恶劣环境中存活。"
   },
   {
+    "chinese": "猫头鹰",
     "english": "owl",
     "pos": "n.",
-    "chinese": "猫头鹰"
+    "sentence": "______ are nocturnal birds that hunt small animals.",
+    "sentence_translation": "猫头鹰是夜间活动的鸟类，以捕食小动物为生。"
   },
   {
+    "chinese": "老鼠（复数）",
     "english": "mice",
     "pos": "n.",
-    "chinese": "老鼠（复数）"
+    "sentence": "Cats are known for chasing and catching ______.",
+    "sentence_translation": "猫以追逐和捕捉老鼠而闻名。"
   },
   {
+    "chinese": "繁殖",
     "english": "reproduce",
     "pos": "v.",
-    "chinese": "繁殖"
+    "sentence": "Plants ______ through seeds or spores.",
+    "sentence_translation": "植物通过种子或孢子繁殖。"
   },
   {
+    "chinese": "持续",
     "english": "last",
     "pos": "v.",
-    "chinese": "持续"
+    "sentence": "The meeting ______ for about two hours.",
+    "sentence_translation": "会议持续了大约两个小时。"
   },
   {
+    "chinese": "季节",
     "english": "season",
     "pos": "n.",
-    "chinese": "季节"
+    "sentence": "Autumn is my favorite ______ because of the colorful leaves.",
+    "sentence_translation": "秋天是我最喜欢的季节，因为树叶色彩斑斓。"
   },
   {
+    "chinese": "生殖的",
     "english": "reproductive",
     "pos": "adj.",
-    "chinese": "生殖的"
+    "sentence": "The ______ system is essential for the continuation of species.",
+    "sentence_translation": "生殖系统对物种的延续至关重要。"
   },
   {
+    "chinese": "一窝幼崽",
     "english": "litter",
     "pos": "n.",
-    "chinese": "一窝幼崽"
+    "sentence": "The cat had a ______ of four kittens.",
+    "sentence_translation": "这只猫生了一窝四只小猫。"
   },
   {
+    "chinese": "增加",
     "english": "increase",
     "pos": "v.",
-    "chinese": "增加"
+    "sentence": "We need to ______ our efforts to achieve the goal.",
+    "sentence_translation": "我们需要加大努力以实现目标。"
   },
   {
+    "chinese": "循环",
     "english": "cycle",
     "pos": "n.",
-    "chinese": "循环"
+    "sentence": "The water ______ is an important natural process.",
+    "sentence_translation": "水循环是一个重要的自然过程。"
   },
   {
+    "chinese": "分开",
     "english": "divide sth up",
     "pos": "phrase",
-    "chinese": "分开"
+    "sentence": "Let's ______ the work ______ so we can finish it faster.",
+    "sentence_translation": "让我们把工作分开做，这样能更快完成。"
   },
   {
+    "chinese": "隐藏",
     "english": "hide sth in",
     "pos": "phrase",
-    "chinese": "隐藏"
+    "sentence": "She ______ the key ______ a secret place.",
+    "sentence_translation": "她把钥匙藏在一个秘密的地方。"
   },
   {
+    "chinese": "从某处掉落",
     "english": "fall from",
     "pos": "phrase",
-    "chinese": "从某处掉落"
+    "sentence": "The leaves ______ ______ the trees in autumn.",
+    "sentence_translation": "秋天树叶从树上掉落。"
   },
   {
+    "chinese": "将某物放入",
     "english": "put sth in",
     "pos": "phrase",
-    "chinese": "将某物放入"
+    "sentence": "Please ______ the books ______ the backpack.",
+    "sentence_translation": "请把书放进背包里。"
   },
   {
+    "chinese": "造成某种影响",
     "english": "cause ... changes",
     "pos": "phrase",
-    "chinese": "造成某种影响"
+    "sentence": "Climate change can ______ big ______ to the environment.",
+    "sentence_translation": "气候变化会对环境造成重大影响。"
   },
   {
+    "chinese": "关于某事物的冲突",
     "english": "conflict over sth",
     "pos": "phrase",
-    "chinese": "关于某事物的冲突"
+    "sentence": "There was a ______ ______ the use of the common area.",
+    "sentence_translation": "关于公共区域的使用发生了一场冲突。"
   },
   {
+    "chinese": "解决冲突",
     "english": "resolve conflict",
     "pos": "phrase",
-    "chinese": "解决冲突"
+    "sentence": "A mediator was called to ______ the ______ between the two sides.",
+    "sentence_translation": "一名调解员被请来解决双方的冲突。"
   },
   {
+    "chinese": "在未来使用",
     "english": "for future use",
     "pos": "phrase",
-    "chinese": "在未来使用"
+    "sentence": "Save these notes ______ ______ ______ when studying for exams.",
+    "sentence_translation": "保存这些笔记，以备考试复习时使用。"
   },
   {
+    "chinese": "一旦某物出现",
     "english": "Once sth is established",
     "pos": "phrase",
-    "chinese": "一旦某物出现"
+    "sentence": "______ a routine ______ ______, it's easier to follow.",
+    "sentence_translation": "一旦形成惯例，就更容易遵循了。"
   }
 ]

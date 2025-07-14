@@ -2,305 +2,428 @@
   {
     "chinese": "集中，集中注意力",
     "english": "focus",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Students need to ______ on their studies during exams.",
+    "sentence_translation": "考试期间，学生需要集中注意力在学习上。"
   },
   {
     "chinese": "正当的，合乎情理的",
     "english": "justified",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Her anger was ______ after waiting for hours with no explanation.",
+    "sentence_translation": "在等待数小时却没有任何解释后，她的愤怒是合乎情理的。"
   },
   {
     "chinese": "任务",
     "english": "task",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Finishing the report on time is an important ______ for the team.",
+    "sentence_translation": "按时完成报告对团队来说是一项重要任务。"
   },
   {
     "chinese": "更可取的",
     "english": "preferable",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "It is ______ to start early to avoid the rush hour traffic.",
+    "sentence_translation": "为避开高峰时段的交通，早点出发更可取。"
   },
   {
     "chinese": "通识课程",
-    "english": "general education courses"
+    "english": "general education courses",
+    "pos": "n. phrase",
+    "sentence": "All freshmen are required to take several ______ in their first year.",
+    "sentence_translation": "所有新生第一年都需要修几门通识课程。"
   },
   {
     "chinese": "化学",
     "english": "chemistry",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She is good at ______ and often helps her classmates with experiments.",
+    "sentence_translation": "她擅长化学，经常帮助同学做实验。"
   },
   {
     "chinese": "方法，方法论",
     "english": "methodology",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The research uses a new ______ to analyze social behavior.",
+    "sentence_translation": "这项研究采用新的方法论来分析社会行为。"
   },
   {
     "chinese": "文学",
     "english": "literature",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Classic ______ includes works by Shakespeare and Dickens.",
+    "sentence_translation": "经典文学包括莎士比亚和狄更斯的作品。"
   },
   {
     "chinese": "分析",
     "english": "analysis",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The data ______ shows a clear trend in consumer behavior.",
+    "sentence_translation": "数据分析显示了消费者行为的明显趋势。"
   },
   {
     "chinese": "核心",
     "english": "core",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Honesty is at the ______ of a healthy relationship.",
+    "sentence_translation": "诚实是健康关系的核心。"
   },
   {
     "chinese": "论文，散文",
     "english": "essay",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He spent the weekend writing an ______ on environmental protection.",
+    "sentence_translation": "他周末写了一篇关于环境保护的论文。"
   },
   {
     "chinese": "跳过",
     "english": "skip",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "You shouldn't ______ any steps in the process, or it might fail.",
+    "sentence_translation": "你不应该跳过过程中的任何步骤，否则可能会失败。"
   },
   {
     "chinese": "学费",
     "english": "tuition",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Scholarships can help reduce the burden of ______ for many students.",
+    "sentence_translation": "奖学金可以帮助许多学生减轻学费负担。"
   },
   {
     "chinese": "省略",
     "english": "omit",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Please don't ______ any important details in your presentation.",
+    "sentence_translation": "请不要在你的演示中省略任何重要细节。"
   },
   {
     "chinese": "毕业典礼",
     "english": "graduation",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Family and friends attended the ______ to celebrate the students' achievements.",
+    "sentence_translation": "家人和朋友参加了毕业典礼，庆祝学生们的成就。"
   },
   {
     "chinese": "出现，产生",
     "english": "arise",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "New problems may ______ as we carry out the plan.",
+    "sentence_translation": "在我们执行计划时可能会出现新问题。"
   },
   {
     "chinese": "专家",
     "english": "expert",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "An ______ in computer science was invited to give a lecture.",
+    "sentence_translation": "一位计算机科学专家被邀请来做讲座。"
   },
   {
     "chinese": "应用，申请",
     "english": "apply",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "You need to ______ for a visa before traveling to that country.",
+    "sentence_translation": "去那个国家旅行前，你需要申请签证。"
   },
   {
     "chinese": "方法/接近",
     "english": "approach",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "We need a new ______ to solve this complex problem.",
+    "sentence_translation": "我们需要一种新方法来解决这个复杂问题。"
   },
   {
     "chinese": "参加，出席",
     "english": "attend",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "All students are expected to ______ the morning assembly.",
+    "sentence_translation": "所有学生都应参加晨会。"
   },
   {
     "chinese": "职业",
     "english": "career",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She has had a successful ______ in medicine for over 20 years.",
+    "sentence_translation": "她在医学界拥有超过20年的成功职业生涯。"
   },
   {
     "chinese": "常见的，普通的",
     "english": "common",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Colds are a ______ illness during the winter months.",
+    "sentence_translation": "感冒是冬季常见的疾病。"
   },
   {
     "chinese": "发展，开发",
     "english": "develop",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The company plans to ______ a new software program next year.",
+    "sentence_translation": "公司计划明年开发一个新的软件程序。"
   },
   {
     "chinese": "讨论",
     "english": "discussion",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ about climate change lasted for two hours.",
+    "sentence_translation": "关于气候变化的讨论持续了两个小时。"
   },
   {
     "chinese": "完全地，彻底地",
     "english": "entirely",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "Her opinion is ______ different from mine on this issue.",
+    "sentence_translation": "在这个问题上，她的观点与我的完全不同。"
   },
   {
     "chinese": "改进，提高",
     "english": "improve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Practicing daily can help you ______ your language skills.",
+    "sentence_translation": "每天练习可以帮助你提高语言技能。"
   },
   {
     "chinese": "实例，情况",
     "english": "instance",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There have been several ______ of theft in the neighborhood recently.",
+    "sentence_translation": "最近小区里发生了几起盗窃事件。"
   },
   {
     "chinese": "知识",
     "english": "knowledge",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Traveling can increase your ______ of different cultures.",
+    "sentence_translation": "旅行可以增加你对不同文化的知识。"
   },
   {
     "chinese": "紧张的，焦虑的",
     "english": "nervous",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She felt ______ before giving her first public speech.",
+    "sentence_translation": "在第一次公开演讲前，她感到很紧张。"
   },
   {
     "chinese": "意见，看法",
     "english": "opinion",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "In my ______, exercise is essential for good health.",
+    "sentence_translation": "在我看来，锻炼对健康至关重要。"
   },
   {
     "chinese": "组织",
     "english": "organize",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We need to ______ a meeting to discuss the upcoming event.",
+    "sentence_translation": "我们需要组织一次会议来讨论即将到来的活动。"
   },
   {
     "chinese": "实际的，实用的",
     "english": "practical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This tool is very ______ for fixing small appliances at home.",
+    "sentence_translation": "这个工具在家修理小电器时非常实用。"
   },
   {
     "chinese": "多产的，富有成效的",
     "english": "productive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The meeting was ______ and we made several important decisions.",
+    "sentence_translation": "这次会议富有成效，我们做出了几项重要决定。"
   },
   {
     "chinese": "项目",
     "english": "project",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The science ______ won first prize at the school competition.",
+    "sentence_translation": "这个科学项目在学校竞赛中获得了一等奖。"
   },
   {
     "chinese": "提供",
     "english": "provide",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The hotel will ______ free breakfast for all guests.",
+    "sentence_translation": "酒店将为所有客人提供免费早餐。"
   },
   {
     "chinese": "减少，降低",
     "english": "reduce",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Using public transport can help ______ air pollution in cities.",
+    "sentence_translation": "使用公共交通有助于减少城市的空气污染。"
   },
   {
     "chinese": "研究/调查",
     "english": "research",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "The ______ on cancer treatment has made significant progress.",
+    "sentence_translation": "癌症治疗研究取得了重大进展。"
   },
   {
     "chinese": "时间表/安排",
     "english": "schedule",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "According to the ______, the train will arrive at 3 p.m.",
+    "sentence_translation": "根据时间表，火车将于下午3点到达。"
   },
   {
     "chinese": "使锋利，增强",
     "english": "sharpen",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Practicing logic puzzles can ______ your thinking skills.",
+    "sentence_translation": "做逻辑谜题可以增强你的思维能力。"
   },
   {
     "chinese": "技能，技巧",
     "english": "skill",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Playing the piano requires both talent and ______.",
+    "sentence_translation": "弹钢琴既需要天赋也需要技巧。"
   },
   {
     "chinese": "具体的，特定的",
     "english": "specific",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Can you give me a ______ example to explain your idea?",
+    "sentence_translation": "你能给我一个具体的例子来解释你的想法吗？"
   },
   {
     "chinese": "压力/强调",
     "english": "stress",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "Work ______ can have a negative impact on mental health.",
+    "sentence_translation": "工作压力会对心理健康产生负面影响。"
   },
   {
     "chinese": "斗争/奋斗",
     "english": "struggle",
-    "pos": "n./v."
+    "pos": "n./v.",
+    "sentence": "She had to ______ to overcome her fear of public speaking.",
+    "sentence_translation": "她必须努力克服对公开演讲的恐惧。"
   },
   {
     "chinese": "话题",
     "english": "topic",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of today's class is environmental protection.",
+    "sentence_translation": "今天课的话题是环境保护。"
   },
   {
     "chinese": "沮丧的",
     "english": "upset",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "He was ______ when he heard the bad news.",
+    "sentence_translation": "听到这个坏消息时，他很沮丧。"
   },
   {
     "chinese": "方法论",
     "english": "methodology",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The course introduces different research ______ used in social sciences.",
+    "sentence_translation": "这门课程介绍了社会科学中使用的不同研究方法论。"
   },
   {
     "chinese": "互相学习",
     "english": "learn from each other",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "In group work, students can ______ ______ ______ ______ and improve together.",
+    "sentence_translation": "在小组作业中，学生们可以互相学习，共同进步。"
   },
   {
     "chinese": "偏离主题",
     "english": "go off-topic",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Please try not to ______ ______  during the discussion.",
+    "sentence_translation": "讨论期间请尽量不要偏离主题。"
   },
   {
     "chinese": "导致",
     "english": "result in",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Poor time management can ______ ______ missed deadlines.",
+    "sentence_translation": "时间管理不善会导致错过截止日期。"
   },
   {
     "chinese": "与...沟通",
     "english": "communicate with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "It's important to ______ ______ your parents regularly.",
+    "sentence_translation": "定期与父母沟通很重要。"
   },
   {
     "chinese": "解决",
     "english": "deal with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She doesn't know how to ______ ______ difficult customers.",
+    "sentence_translation": "她不知道如何应对难缠的顾客。"
   },
   {
     "chinese": "为了",
     "english": "in order to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "He works hard ______ ______ ______ support his family.",
+    "sentence_translation": "他努力工作是为了养家。"
   },
   {
     "chinese": "得出结论",
     "english": "reach a conclusion",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "After hours of debate, they finally ______ ______ ______.",
+    "sentence_translation": "经过数小时的辩论，他们终于得出结论。"
   },
   {
     "chinese": "努力",
     "english": "struggle to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Many people ______ ______ afford housing in big cities.",
+    "sentence_translation": "许多人努力在大城市买得起房。"
   },
   {
     "chinese": "共同，接受",
     "english": "get on board with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "It took time for everyone to ______ ______ ______ the new policy.",
+    "sentence_translation": "大家花了时间才接受这项新政策。"
   },
   {
     "chinese": "合乎情理",
     "english": "make sense",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Your explanation doesn't ______ ______ – can you clarify it?",
+    "sentence_translation": "你的解释不合乎情理——你能澄清一下吗？"
   },
   {
     "chinese": "因此",
     "english": "as a result",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "He forgot to set his alarm; ______ ______ ______, he was late for work.",
+    "sentence_translation": "他忘了设闹钟，因此上班迟到了。"
   },
   {
     "chinese": "受冷落",
     "english": "feel left out",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "New students often ______ ______ ______ on their first day of school.",
+    "sentence_translation": "新生在开学第一天经常感到受冷落。"
   },
   {
     "chinese": "运用到",
     "english": "apply to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The rules ______ ______ all members of the club.",
+    "sentence_translation": "这些规则适用于俱乐部的所有成员。"
   },
   {
     "chinese": "出席",
     "english": "attend to",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The doctor needs to ______ ______ the patient immediately.",
+    "sentence_translation": "医生需要立即照料这位病人。"
   },
   {
     "chinese": "对...感到沮丧",
     "english": "be upset with",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She ______ ______ ______ herself for making such a mistake.",
+    "sentence_translation": "她为自己犯了这样的错误而感到沮丧。"
   }
 ]

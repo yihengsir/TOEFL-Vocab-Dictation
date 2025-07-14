@@ -1,337 +1,464 @@
 [
   {
+    "chinese": "学术的",
     "english": "academic",
     "pos": "adj.",
-    "chinese": "学术的"
+    "sentence": "This ______ research has made significant contributions to the field.",
+    "sentence_translation": "这项学术研究为该领域做出了重大贡献。"
   },
   {
+    "chinese": "概念",
     "english": "concept",
     "pos": "n.",
-    "chinese": "概念"
+    "sentence": "Understanding the basic ______ is crucial for learning advanced knowledge.",
+    "sentence_translation": "理解基本概念对学习高级知识至关重要。"
   },
   {
+    "chinese": "表达",
     "english": "convey",
     "pos": "v.",
-    "chinese": "表达"
+    "sentence": "Artists often use their works to ______ emotions and ideas.",
+    "sentence_translation": "艺术家们常通过作品表达情感和思想。"
   },
   {
+    "chinese": "整合",
     "english": "integrate",
     "pos": "v.",
-    "chinese": "整合"
+    "sentence": "We should ______ theory with practice in our study.",
+    "sentence_translation": "我们在学习中应将理论与实践整合起来。"
   },
   {
+    "chinese": "讲座",
     "english": "lecture",
     "pos": "n.",
-    "chinese": "讲座"
+    "sentence": "The professor gave an interesting ______ on modern literature.",
+    "sentence_translation": "教授做了一场关于现代文学的有趣讲座。"
   },
   {
+    "chinese": "章节",
     "english": "passage",
     "pos": "n.",
-    "chinese": "章节"
+    "sentence": "Please read this ______ carefully and answer the questions.",
+    "sentence_translation": "请仔细阅读这一章节并回答问题。"
   },
   {
+    "chinese": "不同种类，多样性",
     "english": "variety",
     "pos": "n.",
-    "chinese": "不同种类，多样性"
+    "sentence": "The store offers a wide ______ of products to meet different needs.",
+    "sentence_translation": "这家商店提供各种各样的产品以满足不同需求。"
   },
   {
+    "chinese": "说明；（用示例）解释",
     "english": "illustrate",
     "pos": "v.",
-    "chinese": "说明；（用示例）解释"
+    "sentence": "The teacher used pictures to ______ the difficult point.",
+    "sentence_translation": "老师用图片来解释这个难点。"
   },
   {
+    "chinese": "术语",
     "english": "term",
     "pos": "n.",
-    "chinese": "术语"
+    "sentence": "This medical ______ is difficult for ordinary people to understand.",
+    "sentence_translation": "这个医学术语对普通人来说很难理解。"
   },
   {
+    "chinese": "牵引，拉（动）",
     "english": "draw",
     "pos": "v.",
-    "chinese": "牵引，拉（动）"
+    "sentence": "The horse can ______ a heavy cart.",
+    "sentence_translation": "这匹马能拉动沉重的马车。"
   },
   {
+    "chinese": "表现",
     "english": "behave",
     "pos": "v.",
-    "chinese": "表现"
+    "sentence": "Children should learn to ______ properly in public.",
+    "sentence_translation": "孩子们应该学会在公共场合举止得体。"
   },
   {
+    "chinese": "行为",
     "english": "behavior",
     "pos": "n.",
-    "chinese": "行为"
+    "sentence": "His ______ at the party was quite inappropriate.",
+    "sentence_translation": "他在派对上的行为相当不得体。"
   },
   {
+    "chinese": "遇见",
     "english": "encounter",
     "pos": "v.",
-    "chinese": "遇见"
+    "sentence": "She ______ an old friend in the street by chance.",
+    "sentence_translation": "她在街上偶然遇见了一位老朋友。"
   },
   {
+    "chinese": "模仿",
     "english": "imitate",
     "pos": "v.",
-    "chinese": "模仿"
+    "sentence": "Young children often ______ the actions of their parents.",
+    "sentence_translation": "小孩子经常模仿父母的行为。"
   },
   {
+    "chinese": "评估",
     "english": "assessment",
     "pos": "n.",
-    "chinese": "评估"
+    "sentence": "The teacher's ______ of my work was very encouraging.",
+    "sentence_translation": "老师对我作业的评估非常鼓舞人心。"
   },
   {
+    "chinese": "反驳；相反",
     "english": "contradict",
     "pos": "v.",
-    "chinese": "反驳；相反"
+    "sentence": "His words ______ his actions.",
+    "sentence_translation": "他的话与他的行为相矛盾。"
   },
   {
+    "chinese": "印象",
     "english": "impression",
     "pos": "n.",
-    "chinese": "印象"
+    "sentence": "What's your first ______ of this new city?",
+    "sentence_translation": "你对这座新城市的第一印象是什么？"
   },
   {
+    "chinese": "起初的；初始的",
     "english": "initial",
     "pos": "adj.",
-    "chinese": "起初的；初始的"
+    "sentence": "The ______ plan was quite good, but we had to change it later.",
+    "sentence_translation": "初始计划相当不错，但后来我们不得不修改它。"
   },
   {
+    "chinese": "首要；首要地位",
     "english": "primacy",
     "pos": "n.",
-    "chinese": "首要；首要地位"
+    "sentence": "Safety should always take ______ in any situation.",
+    "sentence_translation": "在任何情况下，安全都应始终处于首要地位。"
   },
   {
+    "chinese": "影响",
     "english": "impact",
-    "pos": "v.",
-    "chinese": "影响"
+    "pos": "n.",
+    "sentence": "Parents should be aware of the ______ they have on their children.",
+    "sentence_translation": "父母应该意识到他们对孩子的影响。"
   },
   {
+    "chinese": "负面的",
     "english": "negative",
     "pos": "adj.",
-    "chinese": "负面的"
+    "sentence": "Try to avoid ______ thoughts and stay positive.",
+    "sentence_translation": "尽量避免负面想法，保持积极心态。"
   },
   {
+    "chinese": "技巧；技术",
     "english": "technique",
     "pos": "n.",
-    "chinese": "技巧；技术"
+    "sentence": "Learning different painting ______ can improve your skills.",
+    "sentence_translation": "学习不同的绘画技巧能提高你的技能。"
   },
   {
+    "chinese": "中止",
     "english": "discontinue",
     "pos": "v.",
-    "chinese": "中止"
+    "sentence": "They decided to ______ the project due to lack of funding.",
+    "sentence_translation": "由于资金不足，他们决定中止这个项目。"
   },
   {
+    "chinese": "叙述的",
     "english": "narrative",
     "pos": "adj.",
-    "chinese": "叙述的"
+    "sentence": "The novel has a very interesting ______ style.",
+    "sentence_translation": "这部小说有着非常有趣的叙述风格。"
   },
   {
+    "chinese": "元素",
     "english": "element",
     "pos": "n.",
-    "chinese": "元素"
+    "sentence": "Water is an essential ______ for all living things.",
+    "sentence_translation": "水是所有生物必不可少的元素。"
   },
   {
+    "chinese": "参考",
     "english": "reference",
     "pos": "n.",
-    "chinese": "参考"
+    "sentence": "This book is a valuable ______ for students.",
+    "sentence_translation": "这本书对学生来说是很有价值的参考书。"
   },
   {
+    "chinese": "钦佩",
     "english": "admire",
     "pos": "v.",
-    "chinese": "钦佩"
+    "sentence": "I really ______ her for her courage and determination.",
+    "sentence_translation": "我真的很钦佩她的勇气和决心。"
   },
   {
+    "chinese": "尊重",
     "english": "respect",
     "pos": "v.",
-    "chinese": "尊重"
+    "sentence": "We should ______ the opinions and feelings of others.",
+    "sentence_translation": "我们应该尊重他人的观点和感受。"
   },
   {
+    "chinese": "态度",
     "english": "attitude",
     "pos": "n.",
-    "chinese": "态度"
+    "sentence": "A positive ______ is the key to success.",
+    "sentence_translation": "积极的态度是成功的关键。"
   },
   {
+    "chinese": "情况",
     "english": "circumstance",
     "pos": "n.",
-    "chinese": "情况"
+    "sentence": "Under the ______, we had to change our plan.",
+    "sentence_translation": "在这种情况下，我们不得不改变计划。"
   },
   {
+    "chinese": "休闲的",
     "english": "casual",
     "pos": "adj.",
-    "chinese": "休闲的"
+    "sentence": "You don't need to dress formally. ______ clothes are fine.",
+    "sentence_translation": "你不需要穿得很正式，休闲服装就可以。"
   },
   {
+    "chinese": "运动鞋",
     "english": "sneaker",
     "pos": "n.",
-    "chinese": "运动鞋"
+    "sentence": "He bought a new pair of ______ for running.",
+    "sentence_translation": "他买了一双新运动鞋用于跑步。"
   },
   {
+    "chinese": "令人钦佩的",
     "english": "impressive",
     "pos": "adj.",
-    "chinese": "令人钦佩的"
+    "sentence": "The view from the top of the mountain is really ______.",
+    "sentence_translation": "山顶的景色真的令人赞叹。"
   },
   {
+    "chinese": "时髦的",
     "english": "fashionable",
     "pos": "adj.",
-    "chinese": "时髦的"
+    "sentence": "This kind of dress is very ______ this year.",
+    "sentence_translation": "这种连衣裙今年非常时髦。"
   },
   {
+    "chinese": "时髦的",
     "english": "sharp",
     "pos": "adj.",
-    "chinese": "时髦的"
+    "sentence": "He always dresses in a ______ way.",
+    "sentence_translation": "他总是穿得很时髦。"
   },
   {
+    "chinese": "首位",
     "english": "primacy",
     "pos": "n.",
-    "chinese": "首位"
+    "sentence": "The company gives ______ to customer satisfaction.",
+    "sentence_translation": "这家公司将客户满意度放在首位。"
   },
   {
+    "chinese": "效应",
     "english": "effect",
     "pos": "n.",
-    "chinese": "效应"
+    "sentence": "The new policy has had a positive ______ on the economy.",
+    "sentence_translation": "这项新政策对经济产生了积极效应。"
   },
   {
+    "chinese": "最初的",
     "english": "initial",
     "pos": "adj.",
-    "chinese": "最初的"
+    "sentence": "The ______ response to the proposal was quite positive.",
+    "sentence_translation": "对这项提议的最初反应相当积极。"
   },
   {
+    "chinese": "相矛盾",
     "english": "contradict",
     "pos": "v.",
-    "chinese": "相矛盾"
+    "sentence": "His statement ______ the facts we already know.",
+    "sentence_translation": "他的陈述与我们已知的事实相矛盾。"
   },
   {
+    "chinese": "迹象",
     "english": "evidence",
     "pos": "n.",
-    "chinese": "迹象"
+    "sentence": "There is no ______ to support his claim.",
+    "sentence_translation": "没有迹象支持他的主张。"
   },
   {
-    "english": "assistant",
-    "pos": "n.",
-    "chinese": "助手"
-  },
-  {
+    "chinese": "实验",
     "english": "experiment",
     "pos": "n.",
-    "chinese": "实验"
+    "sentence": "They are conducting an ______ to test the new drug.",
+    "sentence_translation": "他们正在做实验来测试这种新药。"
   },
   {
+    "chinese": "不可靠的",
     "english": "unreliable",
     "pos": "adj.",
-    "chinese": "不可靠的"
+    "sentence": "This information is from an ______ source.",
+    "sentence_translation": "这个信息来自一个不可靠的来源。"
   },
   {
+    "chinese": "恢复",
     "english": "recover",
     "pos": "v.",
-    "chinese": "恢复"
+    "sentence": "She is ______ well from the illness.",
+    "sentence_translation": "她正从疾病中很好地恢复过来。"
   },
   {
+    "chinese": "普通的",
     "english": "average",
     "pos": "adj.",
-    "chinese": "普通的"
+    "sentence": "He is just an ______ student in the class.",
+    "sentence_translation": "他在班里只是个普通学生。"
   },
   {
+    "chinese": "实验室",
     "english": "laboratory",
     "pos": "n.",
-    "chinese": "实验室"
+    "sentence": "Students often do experiments in the ______.",
+    "sentence_translation": "学生们经常在实验室做实验。"
   },
   {
+    "chinese": "出现",
     "english": "occur",
     "pos": "v.",
-    "chinese": "出现"
+    "sentence": "Many accidents ______ due to carelessness.",
+    "sentence_translation": "许多事故因粗心而出现。"
   },
   {
+    "chinese": "判断",
     "english": "judgement",
     "pos": "n.",
-    "chinese": "判断"
+    "sentence": "We should make a careful ______ before making a decision.",
+    "sentence_translation": "我们在做决定前应该做出谨慎的判断。"
   },
   {
+    "chinese": "不称职的",
     "english": "incompetent",
     "pos": "adj.",
-    "chinese": "不称职的"
+    "sentence": "The manager was fired because of his ______ work.",
+    "sentence_translation": "这位经理因工作不称职而被解雇。"
   },
   {
+    "chinese": "注意",
     "english": "notice",
     "pos": "v.",
-    "chinese": "注意"
+    "sentence": "Did you ______ anything unusual in the room?",
+    "sentence_translation": "你注意到房间里有什么不寻常的东西吗？"
   },
   {
+    "chinese": "被称作",
     "english": "be known as",
     "pos": "phrase",
-    "chinese": "被称作"
+    "sentence": "He ______ a very talented writer.",
+    "sentence_translation": "他被称作一位非常有才华的作家。"
   },
   {
+    "chinese": "参照系",
     "english": "frame of reference",
-    "pos": "n.",
-    "chinese": "参照系"
+    "pos": "n. phrase",
+    "sentence": "Your ______ affects how you perceive the world.",
+    "sentence_translation": "你的参照系会影响你对世界的认知。"
   },
   {
+    "chinese": "换句话说",
     "english": "in other words",
     "pos": "phrase",
-    "chinese": "换句话说"
+    "sentence": "He is very lazy. ______, he doesn't like to work.",
+    "sentence_translation": "他很懒，换句话说，他不喜欢工作。"
   },
   {
-    "english": "draw attention to",
+    "chinese": "引起注意",
+    "english": "draw attention",
     "pos": "phrase",
-    "chinese": "吸引注意"
+    "sentence": "The bright colors of the advertisement ______ people's attention.",
+    "sentence_translation": "广告的鲜艳色彩引起了人们的注意。"
   },
   {
+    "chinese": "做实验",
     "english": "run an experiment",
     "pos": "phrase",
-    "chinese": "做实验"
+    "sentence": "They ______ to see how plants grow in different conditions.",
+    "sentence_translation": "他们做实验来观察植物在不同条件下的生长情况。"
   },
   {
+    "chinese": "改主意",
     "english": "change sb's mind",
     "pos": "phrase",
-    "chinese": "改主意"
+    "sentence": "It's very difficult to ______ once he has made a decision.",
+    "sentence_translation": "一旦他做了决定，很难让他改主意。"
   },
   {
+    "chinese": "结果是、原来是",
     "english": "turn out",
     "pos": "phrase",
-    "chinese": "结果是、原来是"
+    "sentence": "The party ______ to be a great success.",
+    "sentence_translation": "这场派对结果非常成功。"
   },
   {
+    "chinese": "基于",
     "english": "based on",
     "pos": "phrase",
-    "chinese": "基于"
+    "sentence": "This movie is ______ a true story.",
+    "sentence_translation": "这部电影基于一个真实的故事。"
   },
   {
+    "chinese": "尽管",
     "english": "even though",
     "pos": "phrase",
-    "chinese": "尽管"
+    "sentence": "______ it was raining heavily, he still went to school.",
+    "sentence_translation": "尽管雨下得很大，他还是去上学了。"
   },
   {
+    "chinese": "穿着正式",
     "english": "dress up",
     "pos": "phrase",
-    "chinese": "穿着正式"
+    "sentence": "You should ______ for the job interview.",
+    "sentence_translation": "你应该为求职面试穿得正式些。"
   },
   {
+    "chinese": "被......影响",
     "english": "be influenced by",
     "pos": "phrase",
-    "chinese": "被......影响"
+    "sentence": "Children are easily ______ their parents' behavior.",
+    "sentence_translation": "孩子们很容易被父母的行为影响。"
   },
   {
+    "chinese": "一群",
     "english": "a bunch of",
     "pos": "phrase",
-    "chinese": "一群"
+    "sentence": "______ students are waiting for the bus.",
+    "sentence_translation": "一群学生在等公交车。"
   },
   {
+    "chinese": "融入",
     "english": "fit in",
     "pos": "phrase",
-    "chinese": "融入"
+    "sentence": "It's not easy for him to ______ with the new group.",
+    "sentence_translation": "他很难融入这个新群体。"
   },
   {
+    "chinese": "形成关于……的看法",
     "english": "form opinions about",
     "pos": "phrase",
-    "chinese": "形成关于……的看法"
+    "sentence": "We should not ______ others too quickly.",
+    "sentence_translation": "我们不应该太快形成对他人的看法。"
   },
   {
+    "chinese": "做出判断",
     "english": "make judgement",
     "pos": "phrase",
-    "chinese": "做出判断"
+    "sentence": "You need to ______ based on the facts.",
+    "sentence_translation": "你需要根据事实做出判断。"
   },
   {
+    "chinese": "承担责任",
     "english": "handle responsibility",
     "pos": "phrase",
-    "chinese": "承担责任"
+    "sentence": "He is old enough to ______.",
+    "sentence_translation": "他已经足够大，可以承担责任了。"
   },
   {
+    "chinese": "认为某人是",
     "english": "thought of sb. as",
     "pos": "phrase",
-    "chinese": "认为某人是"
+    "sentence": "We all ______ a reliable friend.",
+    "sentence_translation": "我们都认为他是一个可靠的朋友。"
   }
 ]

@@ -2,315 +2,447 @@
   {
     "chinese": "取消；终止",
     "english": "eliminate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We should ______ unnecessary expenses to save money.",
+    "sentence_translation": "我们应该取消不必要的开支以节省资金。"
   },
   {
     "chinese": "国际的；国际化的",
     "english": "international",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This ______ conference attracts many experts from all over the world.",
+    "sentence_translation": "这个国际会议吸引了来自世界各地的许多专家。"
   },
   {
     "chinese": "来源",
     "english": "source",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We need to find a new ______ of energy to solve the problem.",
+    "sentence_translation": "我们需要找到一种新的能源来源来解决这个问题。"
   },
   {
     "chinese": "日历",
     "english": "calendar",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Please mark the important dates on the ______.",
+    "sentence_translation": "请在日历上标记重要的日期。"
   },
   {
     "chinese": "校园",
     "english": "campus",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There are many beautiful buildings on the ______.",
+    "sentence_translation": "校园里有许多漂亮的建筑。"
   },
   {
     "chinese": "通知",
     "english": "announcement",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The teacher made an ______ about the exam.",
+    "sentence_translation": "老师发布了一则关于考试的通知。"
   },
   {
     "chinese": "提议",
     "english": "proposal",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The manager put forward a new ______ at the meeting.",
+    "sentence_translation": "经理在会议上提出了一项新提议。"
   },
   {
     "chinese": "施工；建设",
     "english": "construction",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of the new bridge will start next month.",
+    "sentence_translation": "新桥的建设将于下个月开始。"
   },
   {
     "chinese": "扰乱性的",
     "english": "disruptive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "His ______ behavior in class made the teacher angry.",
+    "sentence_translation": "他在课堂上的扰乱性行为让老师很生气。"
   },
   {
     "chinese": "一段时间",
     "english": "session",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The training ______ will last for three hours.",
+    "sentence_translation": "这次培训时段将持续三个小时。"
   },
   {
     "chinese": "不便；麻烦",
     "english": "inconvenience",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We apologize for any ______ caused by the delay.",
+    "sentence_translation": "我们对延误造成的任何不便表示歉意。"
   },
   {
     "chinese": "真诚地",
     "english": "sincerely",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She ______ thanked everyone for their help.",
+    "sentence_translation": "她真诚地感谢每个人的帮助。"
   },
   {
     "chinese": "有空的",
     "english": "available",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Is there a room ______ for the meeting tomorrow?",
+    "sentence_translation": "明天有会议室有空吗？"
   },
   {
     "chinese": "借",
     "english": "borrow",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Can I ______ your pen for a moment?",
+    "sentence_translation": "我能借你的笔用一下吗？"
   },
   {
     "chinese": "项目；物品",
     "english": "item",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "This ______ on the list is very important.",
+    "sentence_translation": "清单上的这个项目非常重要。"
   },
   {
     "chinese": "图书馆",
     "english": "library",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We often go to the ______ to read books.",
+    "sentence_translation": "我们经常去图书馆看书。"
   },
   {
     "chinese": "员工",
     "english": "staff",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The hotel ______ are very friendly and helpful.",
+    "sentence_translation": "酒店员工非常友好且乐于助人。"
   },
   {
     "chinese": "标题",
     "english": "title",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "What's the ______ of this article?",
+    "sentence_translation": "这篇文章的标题是什么？"
   },
   {
     "chinese": "（综合性）大学",
     "english": "university",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He graduated from a famous ______ last year.",
+    "sentence_translation": "他去年从一所著名的大学毕业。"
   },
   {
     "chinese": "（正式地）要求",
     "english": "request",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We ______ all guests to leave before 10 p.m.",
+    "sentence_translation": "我们要求所有客人在晚上10点前离开。"
   },
   {
     "chinese": "设施，设备",
     "english": "facility",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The sports center has excellent ______ for swimmers.",
+    "sentence_translation": "体育中心有完善的游泳设施。"
   },
   {
     "chinese": "改善，提升",
     "english": "improve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We need to ______ our English skills to communicate better.",
+    "sentence_translation": "我们需要提高英语技能以更好地交流。"
   },
   {
     "chinese": "公告",
     "english": "bulletin",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The latest news is posted on the school ______ board.",
+    "sentence_translation": "最新消息发布在学校公告栏上。"
   },
   {
     "chinese": "表达，表露",
     "english": "express",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "She wants to ______ her thanks to you in person.",
+    "sentence_translation": "她想亲自向你表达感谢。"
   },
   {
     "chinese": "简短地，简要地",
     "english": "briefly",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "He ______ explained his plan to the team.",
+    "sentence_translation": "他向团队简要地解释了他的计划。"
   },
   {
     "chinese": "状态，状况",
     "english": "state",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The patient's ______ is getting better day by day.",
+    "sentence_translation": "病人的状况一天天好转。"
   },
   {
     "chinese": "每日的，日常的",
     "english": "daily",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Reading is part of my ______ life.",
+    "sentence_translation": "阅读是我日常生活的一部分。"
   },
   {
     "chinese": "板块；部分",
     "english": "section",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Please turn to the sports ______ of the newspaper.",
+    "sentence_translation": "请翻到报纸的体育板块。"
   },
   {
     "chinese": "包含最新信息的",
     "english": "up-to-date",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "We need ______ information for the report.",
+    "sentence_translation": "我们需要最新的信息来写这份报告。"
   },
   {
     "chinese": "报道；覆盖范围",
     "english": "coverage",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The media ______ of the event was extensive.",
+    "sentence_translation": "媒体对这一事件的报道很广泛。"
   },
   {
     "chinese": "项目；计划",
     "english": "project",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ will be completed by the end of the year.",
+    "sentence_translation": "这个项目将在年底完成。"
   },
   {
     "chinese": "人行道",
     "english": "sidewalk",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We walked along the ______ to the park.",
+    "sentence_translation": "我们沿着人行道走到公园。"
   },
   {
     "chinese": "计划（表）",
     "english": "schedule",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Let's check the ______ to see when the train leaves.",
+    "sentence_translation": "我们查一下时刻表看看火车什么时候开。"
   },
   {
     "chinese": "额外的",
     "english": "extra",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "We need to hire ______ workers for the job.",
+    "sentence_translation": "我们需要为这项工作雇佣额外的工人。"
   },
   {
     "chinese": "焦虑，压力",
     "english": "strain",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Work can put a lot of ______ on family life.",
+    "sentence_translation": "工作会给家庭生活带来很大压力。"
   },
   {
     "chinese": "预算",
     "english": "budget",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We need to stay within the ______ for this project.",
+    "sentence_translation": "我们需要在这个项目的预算范围内。"
   },
   {
     "chinese": "暴风雪",
     "english": "snowstorm",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ caused many roads to be closed.",
+    "sentence_translation": "暴风雪导致许多道路封闭。"
   },
   {
     "chinese": "收藏品",
     "english": "collection",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "His ______ of stamps is very valuable.",
+    "sentence_translation": "他的邮票收藏品非常珍贵。"
   },
   {
     "chinese": "特定的",
     "english": "certain",
-    "pos": "n."
+    "pos": "adj.",
+    "sentence": "I need to talk to you about a ______ matter.",
+    "sentence_translation": "我需要和你谈谈一件特定的事情。"
   },
   {
     "chinese": "修理，修补",
     "english": "repair",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "My father will ______ the broken bike this weekend.",
+    "sentence_translation": "我爸爸这个周末会修理那辆坏了的自行车。"
   },
   {
     "chinese": "报道；覆盖",
     "english": "cover",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The journalist will ______ the conference tomorrow.",
+    "sentence_translation": "记者明天将报道这次会议。"
   },
   {
     "chinese": "海报",
     "english": "poster",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We put up a ______ to advertise the concert.",
+    "sentence_translation": "我们贴了一张海报来宣传音乐会。"
   },
   {
     "chinese": "现在地",
     "english": "currently",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She is ______ working on a new book.",
+    "sentence_translation": "她目前正在写一本新书。"
   },
   {
     "chinese": "权限；通道",
     "english": "access",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Students have free ______ to the computer lab.",
+    "sentence_translation": "学生可以免费使用计算机实验室。"
   },
   {
     "chinese": "停车场",
     "english": "lot",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The car is parked in the ______ across the street.",
+    "sentence_translation": "车停在街对面的停车场。"
   },
   {
     "chinese": "场所",
     "english": "spot",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "This is a great ______ for a picnic.",
+    "sentence_translation": "这是野餐的好地方。"
   },
   {
     "chinese": "确切的",
     "english": "exact",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Do you know the ______ time the meeting will start?",
+    "sentence_translation": "你知道会议开始的确切时间吗？"
   },
   {
     "chinese": "几乎不",
     "english": "hardly",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She ______ ever goes out on weekends.",
+    "sentence_translation": "她周末几乎不出去。"
   },
   {
     "chinese": "东西，物品",
     "english": "stuff",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Please put your ______ in the closet.",
+    "sentence_translation": "请把你的东西放进衣柜里。"
   },
   {
     "chinese": "主要的",
     "english": "major",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ problem is lack of funding.",
+    "sentence_translation": "主要问题是资金短缺。"
   },
   {
     "chinese": "剪出，裁剪",
-    "english": "cut out"
+    "english": "cut out",
+    "sentence": "She ______ a heart from the red paper.",
+    "sentence_translation": "她从红纸上剪出一颗心。"
   },
   {
     "chinese": "过渡性表达",
-    "english": "transitional expression"
+    "english": "transitional expression",
+    "sentence": "Using a ______ can make your writing flow better.",
+    "sentence_translation": "使用过渡性表达可以让你的写作更流畅。"
   },
   {
     "chinese": "浏览；查看",
-    "english": "look through"
+    "english": "look through",
+    "sentence": "He ______ the magazine while waiting.",
+    "sentence_translation": "他等待时浏览了这本杂志。"
   },
   {
     "chinese": "坚持使用；继续保持",
-    "english": "stick with"
+    "english": "stick with",
+    "sentence": "If you ______ this plan, you will succeed.",
+    "sentence_translation": "如果你坚持这个计划，你会成功的。"
   },
   {
     "chinese": "抽出时间做；开始做",
-    "english": "get around to"
+    "english": "get around to",
+    "sentence": "I finally ______ cleaning the house yesterday.",
+    "sentence_translation": "我昨天终于抽出时间打扫房子了。"
   },
   {
     "chinese": "随身携带",
-    "english": "carry around"
+    "english": "carry around",
+    "sentence": "She always ______ a notebook to write down ideas.",
+    "sentence_translation": "她总是随身携带一个笔记本记录想法。"
   },
   {
     "chinese": "首先",
-    "english": "first off"
+    "english": "first off",
+    "sentence": "______, I want to thank everyone for coming.",
+    "sentence_translation": "首先，我想感谢大家的到来。"
   },
   {
     "chinese": "给...带来压力和负担",
-    "english": "put strain on"
+    "english": "put strain on",
+    "sentence": "His illness ______ his family.",
+    "sentence_translation": "他的病给家人带来了压力和负担。"
   },
   {
-    "chinese": "进行中；上课中",
-    "english": "in session"
+    "chinese": "上课中",
+    "english": "in session",
+    "sentence": "The class is ______, so we can't go in.",
+    "sentence_translation": "课正在进行中，所以我们不能进去。"
   },
   {
     "chinese": "停车位",
-    "english": "parking lot"
+    "english": "parking lots",
+    "sentence": "There are not enough ______ in the downtown area.",
+    "sentence_translation": "市中心没有足够的停车位。"
   },
   {
     "chinese": "绕圈",
-    "english": "circle around"
+    "english": "circle around",
+    "sentence": "The birds ______ the tree before flying away.",
+    "sentence_translation": "鸟儿绕着树飞了几圈然后飞走了。"
   },
   {
     "chinese": "几个",
-    "english": "a couple of"
+    "english": "a couple of",
+    "sentence": "I need ______ days to finish the work.",
+    "sentence_translation": "我需要几天时间完成这项工作。"
   },
   {
     "chinese": "跟踪，追踪",
-    "english": "keep track of"
+    "english": "keep track of",
+    "sentence": "It's important to ______ your expenses.",
+    "sentence_translation": "跟踪你的开支很重要。"
   },
   {
     "chinese": "发生",
-    "english": "take place"
+    "english": "take place",
+    "sentence": "The meeting will ______ in the conference room.",
+    "sentence_translation": "会议将在会议室举行。"
   },
   {
     "chinese": "被允许做...",
-    "english": "be allowed to"
+    "english": "be allowed to",
+    "sentence": "Children ______ watch TV for an hour a day.",
+    "sentence_translation": "孩子们被允许每天看一小时电视。"
   },
   {
     "chinese": "非常赞成和支持某事",
-    "english": "all for it"
+    "english": "all for it",
+    "sentence": "I'm ______ because it's a good idea.",
+    "sentence_translation": "我非常赞成，因为这是个好主意。"
   }
 ]

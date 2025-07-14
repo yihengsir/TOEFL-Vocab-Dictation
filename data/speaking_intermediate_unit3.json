@@ -1,302 +1,436 @@
 [
   {
+    "chinese": "味道；滋味",
     "english": "flavor",
     "pos": "n.",
-    "chinese": "味道；滋味"
+    "sentence": "This ice cream comes in various ______, such as chocolate and strawberry.",
+    "sentence_translation": "这款冰淇淋有多种味道，比如巧克力味和草莓味。"
   },
   {
+    "chinese": "零食",
     "english": "snack",
     "pos": "n.",
-    "chinese": "零食"
+    "sentence": "She often has a ______ between meals to keep her energy up.",
+    "sentence_translation": "她经常在两餐之间吃点零食来保持精力。"
   },
   {
+    "chinese": "社交",
     "english": "socialize",
     "pos": "v.",
-    "chinese": "社交"
+    "sentence": "Joining a club is a great way to ______ and make new friends.",
+    "sentence_translation": "加入俱乐部是社交和结交新朋友的好方法。"
   },
   {
+    "chinese": "英格兰松饼",
     "english": "muffin",
     "pos": "n.",
-    "chinese": "英格兰松饼"
+    "sentence": "She baked blueberry ______ for breakfast this morning.",
+    "sentence_translation": "今天早上她烤了蓝莓英格兰松饼当早餐。"
   },
   {
+    "chinese": "翻修",
     "english": "renovation",
     "pos": "n.",
-    "chinese": "翻修"
+    "sentence": "The school is undergoing ______ to improve its facilities.",
+    "sentence_translation": "这所学校正在进行翻修以改善其设施。"
   },
   {
+    "chinese": "反对",
     "english": "disagree",
     "pos": "v.",
-    "chinese": "反对"
+    "sentence": "I ______ with his opinion with regard to the best approach to solve the problem.",
+    "sentence_translation": "关于解决这个问题的最佳方法，我反对他的观点。"
   },
   {
+    "chinese": "定金",
     "english": "deposit",
     "pos": "n.",
-    "chinese": "定金"
+    "sentence": "You need to pay a ______ to secure the booking of the room.",
+    "sentence_translation": "为了确保房间预订，你需要支付一笔定金。"
   },
   {
+    "chinese": "单车",
     "english": "bicycle",
     "pos": "n.",
-    "chinese": "单车"
+    "sentence": "He rides a ______ to work every day to keep fit.",
+    "sentence_translation": "他每天骑单车上上班以保持健康。"
   },
   {
+    "chinese": "方便的",
     "english": "convenient",
     "pos": "adj.",
-    "chinese": "方便的"
+    "sentence": "Living near the subway station is very ______ for daily commuting.",
+    "sentence_translation": "住在地铁站附近对日常通勤来说非常方便。"
   },
   {
+    "chinese": "健身房",
     "english": "gym",
     "pos": "n.",
-    "chinese": "健身房"
+    "sentence": "She goes to the ______ three times a week to exercise.",
+    "sentence_translation": "她每周去健身房锻炼三次。"
   },
   {
+    "chinese": "内容",
     "english": "content",
     "pos": "n.",
-    "chinese": "内容"
+    "sentence": "The ______ of the book is very informative and helpful.",
+    "sentence_translation": "这本书的内容信息量很大，很有帮助。"
   },
   {
+    "chinese": "设备",
     "english": "device",
     "pos": "n.",
-    "chinese": "设备"
+    "sentence": "Modern electronic ______ have changed our way of life greatly.",
+    "sentence_translation": "现代电子设备极大地改变了我们的生活方式。"
   },
   {
+    "chinese": "有效的",
     "english": "effective",
     "pos": "adj.",
-    "chinese": "有效的"
+    "sentence": "This method has proved to be very ______ in improving pronunciation.",
+    "sentence_translation": "事实证明这种方法在改善发音方面非常有效。"
   },
   {
+    "chinese": "电子的",
     "english": "electronic",
     "pos": "adj.",
-    "chinese": "电子的"
+    "sentence": "______ books are becoming more and more popular among readers.",
+    "sentence_translation": "电子书在读者中越来越受欢迎。"
   },
   {
+    "chinese": "此外；而且；再者",
     "english": "furthermore",
     "pos": "adv.",
-    "chinese": "此外；而且；再者"
+    "sentence": "The price is reasonable. ______, the quality is excellent.",
+    "sentence_translation": "价格很合理，此外，质量也很好。"
   },
   {
+    "chinese": "高光",
     "english": "highlighting",
-    "pos": "v.",
-    "chinese": "高光"
+    "pos": "v.-ing",
+    "sentence": "______ key points can help you remember important information.",
+    "sentence_translation": "突出关键要点能帮助你记住重要信息。"
   },
   {
+    "chinese": "文本",
     "english": "text",
     "pos": "n.",
-    "chinese": "文本"
+    "sentence": "He is typing a ______ message on his phone.",
+    "sentence_translation": "他正在手机上打一条文本信息。"
   },
   {
+    "chinese": "管理人；经理",
     "english": "manager",
     "pos": "n.",
-    "chinese": "管理人；经理"
+    "sentence": "The ______ is responsible for overseeing the daily operations of the company.",
+    "sentence_translation": "经理负责监督公司的日常运营。"
   },
   {
+    "chinese": "最近地",
     "english": "recently",
     "pos": "adv.",
-    "chinese": "最近地"
+    "sentence": "They ______ moved to a new city for better job opportunities.",
+    "sentence_translation": "为了更好的工作机会，他们最近搬到了一个新城市。"
   },
   {
+    "chinese": "改善，改进之处",
     "english": "improvement",
     "pos": "n.",
-    "chinese": "改善，改进之处"
+    "sentence": "There has been a significant ______ in her English speaking skills.",
+    "sentence_translation": "她的英语口语能力有了显著的提高。"
   },
   {
+    "chinese": "质量",
     "english": "quality",
     "pos": "n.",
-    "chinese": "质量"
+    "sentence": "We should never compromise on the ______ of our products.",
+    "sentence_translation": "我们绝不能在产品质量上妥协。"
   },
   {
+    "chinese": "有利于健康的",
     "english": "healthful",
     "pos": "adj.",
-    "chinese": "有利于健康的"
+    "sentence": "Eating a ______ diet is essential for maintaining good health.",
+    "sentence_translation": "吃有利于健康的饮食对保持良好健康至关重要。"
   },
   {
+    "chinese": "一段时期",
     "english": "period",
     "pos": "n.",
-    "chinese": "一段时期"
+    "sentence": "She lived in France for a ______ of time to learn the language.",
+    "sentence_translation": "为了学习这门语言，她在法国住了一段时间。"
   },
   {
+    "chinese": "最大限度的",
     "english": "maximum",
     "pos": "adj.",
-    "chinese": "最大限度的"
+    "sentence": "The ______ speed of this car is 200 kilometers per hour.",
+    "sentence_translation": "这辆车的最高时速是200公里。"
   },
   {
+    "chinese": "辨认",
     "english": "identification",
     "pos": "n.",
-    "chinese": "辨认"
+    "sentence": "______ of the suspect was made through DNA testing.",
+    "sentence_translation": "通过DNA检测确认了嫌疑人的身份。"
   },
   {
+    "chinese": "建议",
     "english": "suggestion",
     "pos": "n.",
-    "chinese": "建议"
+    "sentence": "Thank you for your ______ on how to improve our service.",
+    "sentence_translation": "感谢你对如何改进我们的服务提出的建议。"
   },
   {
+    "chinese": "基本上",
     "english": "basically",
     "pos": "adv.",
-    "chinese": "基本上"
+    "sentence": "______, the project is divided into three main stages.",
+    "sentence_translation": "基本上，这个项目分为三个主要阶段。"
   },
   {
+    "chinese": "夜间",
     "english": "nighttime",
     "pos": "n.",
-    "chinese": "夜间"
+    "sentence": "She enjoys taking walks at ______ when the city is quiet.",
+    "sentence_translation": "她喜欢在城市安静的夜间散步。"
   },
   {
+    "chinese": "切实可行的",
     "english": "practical",
     "pos": "adj.",
-    "chinese": "切实可行的"
+    "sentence": "This is a ______ solution to the problem we are facing.",
+    "sentence_translation": "这是解决我们面临问题的一个切实可行的办法。"
   },
   {
+    "chinese": "转换",
     "english": "switch",
     "pos": "v.",
-    "chinese": "转换"
+    "sentence": "You can ______ between different languages on this device.",
+    "sentence_translation": "你可以在这个设备上转换不同的语言。"
   },
   {
-    "english": "content",
-    "pos": "n.",
-    "chinese": "内容"
-  },
-  {
+    "chinese": "屏幕",
     "english": "screen",
     "pos": "n.",
-    "chinese": "屏幕"
+    "sentence": "The ______ of the phone is cracked and needs to be replaced.",
+    "sentence_translation": "这部手机的屏幕裂了，需要更换。"
   },
   {
+    "chinese": "材料",
     "english": "material",
     "pos": "n.",
-    "chinese": "材料"
+    "sentence": "The dress is made of a very soft and comfortable ______.",
+    "sentence_translation": "这条裙子是由非常柔软舒适的材料制成的。"
   },
   {
+    "chinese": "定期的，规律的",
     "english": "regular",
     "pos": "adj.",
-    "chinese": "定期的，规律的"
+    "sentence": "______ exercise is good for both physical and mental health.",
+    "sentence_translation": "规律的锻炼对身心健康都有好处。"
   },
   {
+    "chinese": "帮助，援助",
     "english": "aid",
     "pos": "n.",
-    "chinese": "帮助，援助"
+    "sentence": "A dictionary is a useful ______ for learning a new language.",
+    "sentence_translation": "字典是学习新语言的有用辅助工具。"
   },
   {
+    "chinese": "运转",
     "english": "operate",
     "pos": "v.",
-    "chinese": "运转"
+    "sentence": "Do you know how to ______ this machine?",
+    "sentence_translation": "你知道如何操作这台机器吗？"
   },
   {
+    "chinese": "特点",
     "english": "feature",
     "pos": "n.",
-    "chinese": "特点"
+    "sentence": "One of the main ______ of this app is its user-friendly interface.",
+    "sentence_translation": "这款应用的主要特点之一是其友好的用户界面。"
   },
   {
+    "chinese": "笔记，随手记",
     "english": "note-taking",
     "pos": "n.",
-    "chinese": "笔记，随手记"
+    "sentence": "Good ______ skills can help you retain information better.",
+    "sentence_translation": "良好的记笔记技巧能帮助你更好地记住信息。"
   },
   {
+    "chinese": "务实的",
     "english": "realistic",
     "pos": "adj.",
-    "chinese": "务实的"
+    "sentence": "It's important to set ______ goals that you can actually achieve.",
+    "sentence_translation": "设定你确实能实现的务实目标很重要。"
   },
   {
+    "chinese": "华丽的",
     "english": "fancy",
     "pos": "adj.",
-    "chinese": "华丽的"
+    "sentence": "She doesn't like ______ clothes and prefers simple styles.",
+    "sentence_translation": "她不喜欢华丽的衣服，更喜欢简单的风格。"
   },
   {
+    "chinese": "取代",
     "english": "replace",
     "pos": "v.",
-    "chinese": "取代"
+    "sentence": "They plan to ______ the old furniture with new ones.",
+    "sentence_translation": "他们计划用新家具取代旧家具。"
   },
   {
+    "chinese": "按键",
     "english": "keypad",
     "pos": "n.",
-    "chinese": "按键"
+    "sentence": "The ______ of the phone is a bit tricky to use.",
+    "sentence_translation": "这部手机的按键用起来有点棘手。"
   },
   {
+    "chinese": "按钮",
     "english": "button",
     "pos": "n.",
-    "chinese": "按钮"
+    "sentence": "Press the red ______ to turn off the machine.",
+    "sentence_translation": "按红色按钮关闭机器。"
   },
   {
+    "chinese": "工作，运转",
     "english": "function",
     "pos": "v.",
-    "chinese": "工作，运转"
+    "sentence": "The machine is not ______ properly and needs to be repaired.",
+    "sentence_translation": "这台机器运转不正常，需要修理。"
   },
   {
+    "chinese": "在...划下划线",
     "english": "underlining",
-    "pos": "v.",
-    "chinese": "在...划下划线"
+    "pos": "v.-ing",
+    "sentence": "______ important words can help you focus while reading.",
+    "sentence_translation": "在重要的单词下划下划线能帮助你阅读时集中注意力。"
   },
   {
+    "chinese": "过时的",
     "english": "old-fashioned",
     "pos": "adj.",
-    "chinese": "过时的"
+    "sentence": "This style of clothing is considered ______ by young people.",
+    "sentence_translation": "这种服装风格被年轻人认为是过时的。"
   },
   {
+    "chinese": "音节",
     "english": "syllable",
     "pos": "n.",
-    "chinese": "音节"
+    "sentence": "Each word has a certain number of ______.",
+    "sentence_translation": "每个单词都有一定数量的音节。"
   },
   {
+    "chinese": "无压力的",
     "english": "unstressed",
     "pos": "adj.",
-    "chinese": "无压力的"
+    "sentence": "In this word, the first syllable is stressed and the second is ______.",
+    "sentence_translation": "在这个单词中，第一个音节是重音，第二个是轻音（无压力的）。"
   },
   {
+    "chinese": "隔离",
     "english": "isolation",
     "pos": "n.",
-    "chinese": "隔离"
+    "sentence": "Long periods of ______ can have a negative impact on mental health.",
+    "sentence_translation": "长期隔离会对心理健康产生负面影响。"
   },
   {
+    "chinese": "语音的",
     "english": "phonetic",
     "pos": "adj.",
-    "chinese": "语音的"
+    "sentence": "______ symbols can help you pronounce words correctly.",
+    "sentence_translation": "语音符号能帮助你正确发音单词。"
   },
   {
+    "chinese": "节奏，韵律",
     "english": "rhythm",
     "pos": "n.",
-    "chinese": "节奏，韵律"
+    "sentence": "The ______ of the music is very catchy and makes you want to dance.",
+    "sentence_translation": "这首音乐的节奏很动听，让你想跳舞。"
   },
   {
+    "chinese": "实际上",
+    "english": "in fact",
+    "pos": "phrase",
+    "sentence": "I thought he was from China, but ______, he is from Japan.",
+    "sentence_translation": "我以为他来自中国，实际上，他来自日本。"
+  },
+  {
+    "chinese": "学生证",
     "english": "student identification card",
-    "pos": "n.",
-    "chinese": "学生证"
+    "pos": "n. phrase",
+    "sentence": "You need to show your ______ to enter the library.",
+    "sentence_translation": "进入图书馆你需要出示学生证。"
   },
   {
+    "chinese": "例如",
     "english": "for instance",
     "pos": "phrase",
-    "chinese": "例如"
+    "sentence": "There are many ways to learn a language, ______, by watching movies or reading books.",
+    "sentence_translation": "学习语言有很多方法，例如，通过看电影或读书。"
   },
   {
+    "chinese": "州立公园",
+    "english": "state park",
+    "pos": "n. phrase",
+    "sentence": "We went hiking in the ______ last weekend.",
+    "sentence_translation": "上周末我们去州立公园徒步旅行了。"
+  },
+  {
+    "chinese": "传统书籍",
     "english": "traditional-bound textbook",
-    "pos": "n.",
-    "chinese": "传统书籍"
+    "pos": "n. phrase",
+    "sentence": "Some students still prefer ______ over e-books.",
+    "sentence_translation": "一些学生仍然更喜欢传统书籍而不是电子书。"
   },
   {
+    "chinese": "一次性费用",
     "english": "one-time expense",
-    "pos": "n.",
-    "chinese": "一次性费用"
+    "pos": "n. phrase",
+    "sentence": "Buying a laptop is a ______, but it's worth it in the long run.",
+    "sentence_translation": "买笔记本电脑是一笔一次性费用，但从长远来看是值得的。"
   },
   {
+    "chinese": "长期来看",
     "english": "in the long run",
     "pos": "phrase",
-    "chinese": "长期来看"
+    "sentence": "Investing in education will benefit you ______.",
+    "sentence_translation": "投资教育长期来看会让你受益。"
   },
   {
+    "chinese": "首先",
+    "english": "for one thing",
+    "pos": "phrase",
+    "sentence": "I can't go with you. ______, I have too much work to do.",
+    "sentence_translation": "我不能和你一起去。首先，我有太多工作要做。"
+  },
+  {
+    "chinese": "押金",
     "english": "cash deposit",
-    "pos": "n.",
-    "chinese": "押金"
+    "pos": "n. phrase",
+    "sentence": "You need to pay a ______ when renting an apartment.",
+    "sentence_translation": "租公寓时你需要支付一笔押金。"
   },
   {
+    "chinese": "浪费空间",
     "english": "a waste of space",
     "pos": "phrase",
-    "chinese": "浪费空间"
+    "sentence": "Storing old magazines is just ______.",
+    "sentence_translation": "存放旧杂志只是浪费空间。"
   },
   {
+    "chinese": "电子书",
     "english": "electronic book",
-    "pos": "n.",
-    "chinese": "电子书"
+    "pos": "n. phrase",
+    "sentence": "______ are more convenient to carry around than traditional ones.",
+    "sentence_translation": "电子书比传统书籍更方便携带。"
   },
   {
+    "chinese": "学习辅助工具",
     "english": "study aid",
-    "pos": "n.",
-    "chinese": "学习辅助工具"
+    "pos": "n. phrase",
+    "sentence": "A grammar guide is a useful ______ for language learners.",
+    "sentence_translation": "语法指南对语言学习者来说是有用的学习辅助工具。"
   }
 ]

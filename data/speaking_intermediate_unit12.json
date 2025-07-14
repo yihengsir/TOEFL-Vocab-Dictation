@@ -2,271 +2,379 @@
   {
     "chinese": "期待",
     "english": "anticipate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We ______ that the project will be completed on time.",
+    "sentence_translation": "我们期待这个项目能按时完成。"
   },
   {
     "chinese": "评估",
     "english": "evaluate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Teachers need to ______ students' performance regularly.",
+    "sentence_translation": "教师需要定期评估学生的表现。"
   },
   {
     "chinese": "节奏，步伐",
     "english": "pace",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He walked at a slow ______ to enjoy the scenery.",
+    "sentence_translation": "他以缓慢的步伐行走，欣赏风景。"
   },
   {
     "chinese": "精确地",
     "english": "precisely",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "Please tell me ______ what time the meeting will start.",
+    "sentence_translation": "请精确地告诉我会议将在几点开始。"
   },
   {
     "chinese": "足够的",
     "english": "sufficient",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "We have ______ evidence to support our claim.",
+    "sentence_translation": "我们有足够的证据支持我们的主张。"
   },
   {
     "chinese": "周到的",
     "english": "thorough",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ investigation covered all possible details.",
+    "sentence_translation": "这次周到的调查涵盖了所有可能的细节。"
   },
   {
     "chinese": "连贯地",
     "english": "coherently",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She presented her ideas ______ during the debate.",
+    "sentence_translation": "她在辩论中连贯地阐述了自己的观点。"
   },
   {
     "chinese": "分配，配给",
     "english": "allot",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The teacher will ______ 30 minutes for each group to present.",
+    "sentence_translation": "老师将给每个小组分配30分钟进行展示。"
   },
   {
     "chinese": "收到",
     "english": "receive",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "I ______ a package from my parents yesterday.",
+    "sentence_translation": "我昨天收到了父母寄来的包裹。"
   },
   {
     "chinese": "电子邮件",
     "english": "email",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She sent an ______ to her teacher about the homework.",
+    "sentence_translation": "她给老师发了一封关于作业的电子邮件。"
   },
   {
     "chinese": "活页夹",
     "english": "binder",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He keeps all his notes organized in a ______.",
+    "sentence_translation": "他把所有笔记整理在一个活页夹里。"
   },
   {
     "chinese": "反射，反映",
     "english": "reflect",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The lake ______ the beautiful mountains in the distance.",
+    "sentence_translation": "湖面反射着远处美丽的山脉。"
   },
   {
     "chinese": "明确指出",
     "english": "pinpoint",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The report helped ______ the main cause of the problem.",
+    "sentence_translation": "这份报告帮助明确指出了问题的主要原因。"
   },
   {
     "chinese": "口头的",
     "english": "verbal",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ communication is more direct than written messages.",
+    "sentence_translation": "口头交流比书面信息更直接。"
   },
   {
     "chinese": "语法",
     "english": "grammar",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Good ______ is important for clear writing.",
+    "sentence_translation": "良好的语法对清晰的写作很重要。"
   },
   {
     "chinese": "批判",
     "english": "criticize",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It's not polite to ______ others without knowing the facts.",
+    "sentence_translation": "在不了解事实的情况下批判他人是不礼貌的。"
   },
   {
     "chinese": "真诚地",
     "english": "genuinely",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "She ______ cares about the welfare of her students.",
+    "sentence_translation": "她真诚地关心学生的福祉。"
   },
   {
     "chinese": "面部的",
     "english": "facial",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ expressions can show how a person feels.",
+    "sentence_translation": "面部表情能显示一个人的感受。"
   },
   {
     "chinese": "语气",
     "english": "tone",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Her ______ of voice indicated that she was angry.",
+    "sentence_translation": "她的语气表明她很生气。"
   },
   {
     "chinese": "准确的",
     "english": "accurate",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "It's important to provide ______ information in research papers.",
+    "sentence_translation": "在研究论文中提供准确的信息很重要。"
   },
   {
     "chinese": "解决",
     "english": "resolve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The two parties agreed to ______ their differences through discussion.",
+    "sentence_translation": "双方同意通过讨论解决分歧。"
   },
   {
     "chinese": "发短信",
     "english": "text",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "She likes to ______ her friends instead of making phone calls.",
+    "sentence_translation": "她喜欢给朋友发短信，而不是打电话。"
   },
   {
     "chinese": "轮廓，大纲",
     "english": "outline",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He wrote a ______ for his essay before starting to write.",
+    "sentence_translation": "他在开始写作前为论文写了一个大纲。"
   },
   {
     "chinese": "大喊",
     "english": "yell",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The coach had to ______ to be heard over the noise of the crowd.",
+    "sentence_translation": "教练不得不大喊，才能在人群的嘈杂声中被听到。"
   },
   {
     "chinese": "交流",
     "english": "communicate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "People use language to ______ their thoughts and feelings.",
+    "sentence_translation": "人们用语言交流思想和感受。"
   },
   {
     "chinese": "语句",
     "english": "phrase",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "This ______ is often used in formal writing.",
+    "sentence_translation": "这个语句常用于正式写作中。"
   },
   {
     "chinese": "误解，曲解",
     "english": "misinterpret",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It's easy to ______ someone's words without context.",
+    "sentence_translation": "没有上下文的话，很容易误解别人的话。"
   },
   {
     "chinese": "冲突",
     "english": "conflict",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There was a ______ between the two countries over border issues.",
+    "sentence_translation": "两国在边界问题上存在冲突。"
   },
   {
     "chinese": "迅速的，快捷的，瞬间的",
     "english": "rapid",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ development of technology has changed our lives.",
+    "sentence_translation": "科技的迅速发展改变了我们的生活。"
   },
   {
     "chinese": "偏好",
     "english": "preference",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Her ______ for tea over coffee is well-known among friends.",
+    "sentence_translation": "她偏好茶而不是咖啡，这在朋友中是众所周知的。"
   },
   {
     "chinese": "描述",
     "english": "describe",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Can you ______ the man who stole your bag?",
+    "sentence_translation": "你能描述一下偷你包的那个男人吗？"
   },
   {
     "chinese": "有效的",
     "english": "effective",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Regular exercise is an ______ way to stay healthy.",
+    "sentence_translation": "有规律的锻炼是保持健康的有效方式。"
   },
   {
     "chinese": "撤回",
     "english": "withdraw",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "He decided to ______ his application for the job.",
+    "sentence_translation": "他决定撤回求职申请。"
   },
   {
     "chinese": "鼓舞人心的",
     "english": "encouraging",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The teacher's ______ words made her more confident.",
+    "sentence_translation": "老师鼓舞人心的话语让她更加自信。"
   },
   {
     "chinese": "用......的方式表达",
     "english": "phrase",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "She ______ her request politely to avoid misunderstanding.",
+    "sentence_translation": "她用礼貌的方式表达请求，以避免误解。"
   },
   {
     "chinese": "表达",
     "english": "convey",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "A smile can ______ friendliness and warmth.",
+    "sentence_translation": "微笑能表达友好和温暖。"
   },
   {
     "chinese": "互动",
     "english": "interaction",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Positive ______ between students and teachers improves learning.",
+    "sentence_translation": "学生和教师之间的积极互动能促进学习。"
   },
   {
     "chinese": "融洽（关系）；和谐（关系）",
     "english": "rapport",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The coach built a good ______ with the team members.",
+    "sentence_translation": "教练与队员建立了融洽的关系。"
   },
   {
     "chinese": "通过，借助于",
     "english": "via",
-    "pos": "prep."
+    "pos": "prep.",
+    "sentence": "We can contact each other ______ email or phone.",
+    "sentence_translation": "我们可以通过电子邮件或电话联系彼此。"
   },
   {
     "chinese": "确保",
     "english": "ensure",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Please ______ that all doors are locked before leaving.",
+    "sentence_translation": "离开前请确保所有门都锁好了。"
   },
   {
     "chinese": "种类；范畴",
     "english": "category",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Books in the library are arranged by ______.",
+    "sentence_translation": "图书馆的书按种类分类摆放。"
   },
   {
     "chinese": "记住",
     "english": "Keep in mind",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ ______ that practice makes perfect.",
+    "sentence_translation": "记住熟能生巧。"
   },
   {
     "chinese": "给某人计时",
     "english": "Time oneself",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ while doing the exercise to track progress.",
+    "sentence_translation": "做练习时给自己计时，以跟踪进度。"
   },
   {
     "chinese": "摸清楚某事",
     "english": "Get an idea of sth",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Read the first chapter to ______ ______ ______ ______ the book.",
+    "sentence_translation": "读第一章来摸清楚这本书的情况。"
   },
   {
     "chinese": "保持记录",
     "english": "Keep a record",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ ______ of your expenses to manage money better.",
+    "sentence_translation": "保持记录你的开支，以便更好地理财。"
   },
   {
     "chinese": "隔三差五",
     "english": "Every once in a while",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ ______ ______ ______, we go hiking in the mountains.",
+    "sentence_translation": "我们隔三差五去山里徒步旅行。"
   },
   {
     "chinese": "对...有作用；向...做工作",
     "english": "work on sth",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She needs to ______ ______ her presentation skills before the meeting.",
+    "sentence_translation": "她需要在会议前提升自己的演讲技能。"
   },
   {
     "chinese": "三思",
     "english": "think carefully",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "______ ______ before making an important decision.",
+    "sentence_translation": "做重要决定前要三思。"
   },
   {
     "chinese": "面对面",
     "english": "face-to-face",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "They had a ______ ______ meeting to discuss the issue.",
+    "sentence_translation": "他们举行了一次面对面的会议来讨论这个问题。"
   },
   {
     "chinese": "口头反馈",
     "english": "verbal feedback",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "The teacher gave ______ ______ on the students' performances.",
+    "sentence_translation": "老师对学生的表现给出了口头反馈。"
   },
   {
     "chinese": "字面反馈",
     "english": "written feedback",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "You will receive ______ ______ on your essay next week.",
+    "sentence_translation": "下周你会收到关于论文的书面反馈。"
   },
   {
     "chinese": "面部表情",
     "english": "facial expression",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Her ______ ______ showed that she was surprised.",
+    "sentence_translation": "她的面部表情表明她很惊讶。"
   },
   {
     "chinese": "使某人微笑",
     "english": "put a smile on one's face",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "A small gift can ______ ______ ______ ______ ______ easily.",
+    "sentence_translation": "一份小礼物就能轻易使某人微笑。"
   },
   {
     "chinese": "自在",
     "english": "at ease",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "She felt ______ ______ when talking to her old friends.",
+    "sentence_translation": "和老朋友聊天时，她感到很自在。"
   }
 ]

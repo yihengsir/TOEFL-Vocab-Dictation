@@ -2,136 +2,204 @@
   {
     "chinese": "取得",
     "english": "achieve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "With hard work, you can ______ great things in life.",
+    "sentence_translation": "通过努力，你可以在生活中取得伟大的成就。"
   },
   {
     "chinese": "参加",
     "english": "enroll",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "She plans to ______ in a music course next semester.",
+    "sentence_translation": "她计划下学期参加一门音乐课程。"
   },
   {
     "chinese": "最终的",
     "english": "ultimate",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "His ______ goal is to start his own company.",
+    "sentence_translation": "他最终的目标是创办自己的公司。"
   },
   {
     "chinese": "成功",
     "english": "succeed",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "If you keep trying, you will ______ in the end.",
+    "sentence_translation": "如果你坚持尝试，最终会成功的。"
   },
   {
     "chinese": "促进",
     "english": "foster",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Good communication helps ______ understanding between people.",
+    "sentence_translation": "良好的沟通有助于促进人与人之间的理解。"
   },
   {
     "chinese": "动力",
     "english": "motivation",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Her ______ to learn comes from her love for knowledge.",
+    "sentence_translation": "她学习的动力来自对知识的热爱。"
   },
   {
     "chinese": "完成",
     "english": "accomplish",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "They worked together to ______ the difficult task on time.",
+    "sentence_translation": "他们齐心协力按时完成了这项艰巨的任务。"
   },
   {
     "chinese": "独立；自主",
     "english": "independence",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Children need to learn ______ as they grow up.",
+    "sentence_translation": "孩子们成长过程中需要学习独立。"
   },
   {
     "chinese": "合适的",
     "english": "appropriate",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "It's important to wear ______ clothes for a job interview.",
+    "sentence_translation": "求职面试时穿合适的衣服很重要。"
   },
   {
     "chinese": "使沮丧",
     "english": "frustrate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Delays and mistakes can ______ even the most patient person.",
+    "sentence_translation": "拖延和错误即使能使最有耐心的人也感到沮丧。"
   },
   {
     "chinese": "气馁",
     "english": "discourage",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Don't let ______ stop you from pursuing your dreams.",
+    "sentence_translation": "不要让气馁阻止你追求梦想。"
   },
   {
     "chinese": "个性",
     "english": "personality",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Her cheerful ______ makes her popular among friends.",
+    "sentence_translation": "她开朗的个性使她在朋友中很受欢迎。"
   },
   {
     "chinese": "平衡",
     "english": "balance",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Finding a ______ between work and life is important for happiness.",
+    "sentence_translation": "找到工作和生活之间的平衡对幸福很重要。"
   },
   {
     "chinese": "了解；洞悉",
     "english": "insight",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "His experience gave him unique ______ into the problem.",
+    "sentence_translation": "他的经历让他对这个问题有了独特的洞悉。"
   },
   {
     "chinese": "节奏",
     "english": "rhythm",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Dancers move to the ______ of the music.",
+    "sentence_translation": "舞者随着音乐的节奏舞动。"
   },
   {
     "chinese": "热诚的",
     "english": "passionate",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She is ______ about protecting the environment.",
+    "sentence_translation": "她对保护环境充满热诚。"
   },
   {
     "chinese": "优势",
     "english": "strength",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Creativity is his greatest ______ in his work.",
+    "sentence_translation": "创造力是他工作中最大的优势。"
   },
   {
     "chinese": "联系；人脉",
     "english": "connection",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Building professional ______ can help in career development.",
+    "sentence_translation": "建立职业人脉有助于职业发展。"
   },
   {
     "chinese": "债务",
     "english": "debt",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "He worked hard to pay off his ______ after college.",
+    "sentence_translation": "他大学毕业后努力工作还清债务。"
   },
   {
     "chinese": "职业道路",
-    "english": "career path"
+    "english": "career path",
+    "pos": "phrase",
+    "sentence": "Choosing a suitable ______ ______ requires careful consideration.",
+    "sentence_translation": "选择合适的职业道路需要慎重考虑。"
   },
   {
     "chinese": "比......更了解",
-    "english": "know better than"
+    "english": "know better than",
+    "pos": "phrase",
+    "sentence": "You ______ ______ ______ to make such a mistake again.",
+    "sentence_translation": "你比谁都清楚不要再犯这样的错误。"
   },
   {
     "chinese": "在不同领域工作",
-    "english": "work in different fields/industries"
+    "english": "work in different fields/industries",
+    "pos": "phrase",
+    "sentence": "Her friends ______ ______ ______ ______ ______ and have diverse experiences.",
+    "sentence_translation": "她的朋友们在不同领域工作，有着丰富多样的经历。"
   },
   {
     "chinese": "做正确的决定",
-    "english": "make the right decision"
+    "english": "make the right decision",
+    "pos": "phrase",
+    "sentence": "Taking time to think can help you ______ ______ ______ ______.",
+    "sentence_translation": "花时间思考能帮助你做正确的决定。"
   },
   {
     "chinese": "更支持",
-    "english": "be more supportive of"
+    "english": "be more supportive of",
+    "pos": "phrase",
+    "sentence": "Parents should ______ ______ ______ ______ their children's dreams.",
+    "sentence_translation": "父母应该更支持孩子的梦想。"
   },
   {
     "chinese": "感到有责任",
-    "english": "feel responsible for"
+    "english": "feel responsible for",
+    "pos": "phrase",
+    "sentence": "Teachers ______ ______ ______ ______ their students' growth.",
+    "sentence_translation": "教师感到对学生的成长有责任。"
   },
   {
     "chinese": "对......感到恐惧",
-    "english": "be fearful of"
+    "english": "be fearful of",
+    "pos": "phrase",
+    "sentence": "Many people ______ ______ ______ taking risks in their careers.",
+    "sentence_translation": "很多人对在职业生涯中冒险感到恐惧。"
   },
   {
     "chinese": "踏板",
-    "english": "stepping stones"
+    "english": "stepping stones",
+    "pos": "phrase",
+    "sentence": "Small challenges can be ______ ______ to greater success.",
+    "sentence_translation": "小挑战可以成为通往更大成功的踏板。"
   },
   {
     "chinese": "增强韧性",
-    "english": "increase resiliency"
+    "english": "increase resiliency",
+    "pos": "phrase",
+    "sentence": "Overcoming difficulties can help ______ ______ in life.",
+    "sentence_translation": "克服困难有助于增强生活中的韧性。"
   },
   {
     "chinese": "建立自信",
-    "english": "build confidence"
+    "english": "build confidence",
+    "pos": "phrase",
+    "sentence": "Practicing skills regularly can help ______ ______ in oneself.",
+    "sentence_translation": "定期练习技能有助于建立自信。"
   }
 ]

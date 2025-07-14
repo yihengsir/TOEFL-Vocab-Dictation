@@ -2,276 +2,386 @@
   {
     "chinese": "认识，识别",
     "english": "recognition",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The brand has gained wide ______ among consumers.",
+    "sentence_translation": "这个品牌在消费者中获得了广泛的认可。"
   },
   {
     "chinese": "加盟连销权（加盟店）",
     "english": "franchising",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "______ is a common way for businesses to expand globally.",
+    "sentence_translation": "特许经营是企业向全球扩张的常见方式。"
   },
   {
     "chinese": "消费者",
     "english": "consumer",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "______ should be aware of their rights when making purchases.",
+    "sentence_translation": "消费者在购物时应了解自己的权利。"
   },
   {
     "chinese": "尽管，即使",
     "english": "despite",
-    "pos": "prep."
+    "pos": "prep.",
+    "sentence": "______ the rain, the outdoor event still took place.",
+    "sentence_translation": "尽管下雨，户外活动仍然举行了。"
   },
   {
     "chinese": "说服",
     "english": "persuade",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It's not easy to ______ him to change his mind.",
+    "sentence_translation": "说服他改变主意并不容易。"
   },
   {
     "chinese": "缺点",
     "english": "drawback",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The main ______ of this plan is its high cost.",
+    "sentence_translation": "这个计划的主要缺点是成本高。"
   },
   {
     "chinese": "驳斥；批驳",
     "english": "refute",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "He tried to ______ the argument with logical reasoning.",
+    "sentence_translation": "他试图用逻辑推理驳斥这个论点。"
   },
   {
     "chinese": "弱势",
     "english": "disadvantage",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Being short can be a ______ in some sports.",
+    "sentence_translation": "在某些运动中，个子矮可能是一种劣势。"
   },
   {
     "chinese": "限制",
     "english": "limitation",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There are ______ to what technology can achieve.",
+    "sentence_translation": "技术能实现的目标是有局限性的。"
   },
   {
     "chinese": "指示；表明；示意",
     "english": "indicate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Research ______ that exercise improves mental health.",
+    "sentence_translation": "研究表明，锻炼能改善心理健康。"
   },
   {
     "chinese": "实现；（凭长期努力）达到（某目标）",
     "english": "achieve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "It takes hard work to ______ your goals.",
+    "sentence_translation": "实现目标需要付出努力。"
   },
   {
     "chinese": "联系；相关联；连接",
     "english": "link",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Scientists have ______ smoking to lung cancer.",
+    "sentence_translation": "科学家已经将吸烟与肺癌联系起来。"
   },
   {
     "chinese": "逻辑上；合乎逻辑地",
     "english": "logically",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "______, if you study more, you should get better grades.",
+    "sentence_translation": "从逻辑上讲，如果你学习更努力，成绩应该会更好。"
   },
   {
     "chinese": "符号；象征；记号",
     "english": "symbol",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The dove is a ______ of peace.",
+    "sentence_translation": "鸽子是和平的象征。"
   },
   {
     "chinese": "视觉的",
     "english": "visual",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "______ aids can help make presentations more effective.",
+    "sentence_translation": "视觉辅助工工具能让演示更有效。"
   },
   {
     "chinese": "竞争者",
     "english": "competitor",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The company is facing strong competition from its ______.",
+    "sentence_translation": "这家公司正面临来自竞争对手的激烈竞争。"
   },
   {
     "chinese": "饼干",
     "english": "biscuit",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She enjoys having a ______ with her tea.",
+    "sentence_translation": "她喜欢喝茶时搭配一块饼干。"
   },
   {
     "chinese": "广告",
     "english": "commercial",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There are too many ______ during TV shows.",
+    "sentence_translation": "电视节目期间有太多广告了。"
   },
   {
     "chinese": "娱乐的；有趣的",
     "english": "entertaining",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The movie was highly ______ and funny.",
+    "sentence_translation": "这部电影非常有趣，很搞笑。"
   },
   {
     "chinese": "形象；印象；画像",
     "english": "image",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The company is trying to improve its public ______.",
+    "sentence_translation": "这家公司正努力改善其公众形象。"
   },
   {
     "chinese": "滑稽的; 可笑的; 有趣的",
     "english": "comical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "His ______ expressions made everyone laugh.",
+    "sentence_translation": "他滑稽的表情让所有人都笑了。"
   },
   {
     "chinese": "活泼的; 令人兴奋的; 生气勃勃的",
     "english": "lively",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ music got everyone dancing.",
+    "sentence_translation": "欢快的音乐让所有人都跳了起来。"
   },
   {
     "chinese": "连锁店",
     "english": "chain",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "There's a coffee ______ store on every corner.",
+    "sentence_translation": "每个街角都有一家咖啡连锁店。"
   },
   {
     "chinese": "受欢迎的",
     "english": "popular",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This new app has become very ______ among young people.",
+    "sentence_translation": "这款新应用在年轻人中非常受欢迎。"
   },
   {
     "chinese": "饭店",
     "english": "restaurant",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We had dinner at a nice ______ last night.",
+    "sentence_translation": "昨晚我们在一家不错的饭店吃了晚饭。"
   },
   {
     "chinese": "要求",
     "english": "demand",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Customers ______ high-quality products and services.",
+    "sentence_translation": "顾客要求高质量的产品和服务。"
   },
   {
     "chinese": "披萨",
     "english": "pizza",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Would you like a slice of ______?",
+    "sentence_translation": "你想来一片披萨吗？"
   },
   {
     "chinese": "困难的",
     "english": "tough",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The exam was much ______ than I expected.",
+    "sentence_translation": "这次考试比我预想的要难得多。"
   },
   {
     "chinese": "联系",
     "english": "contact",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Please ______ me if you have any questions.",
+    "sentence_translation": "如果你有任何问题，请联系我。"
   },
   {
     "chinese": "成功",
     "english": "success",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "His ______ in business inspired many others.",
+    "sentence_translation": "他在商业上的成功激励了许多人。"
   },
   {
     "chinese": "交换",
     "english": "exchange",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "We ______ gifts during the holiday season.",
+    "sentence_translation": "我们在节日期间交换礼物。"
   },
   {
     "chinese": "购买",
     "english": "purchase",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "You can ______ tickets online or at the venue.",
+    "sentence_translation": "你可以在网上或现场购买门票。"
   },
   {
     "chinese": "平底锅",
     "english": "pan",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Use a ______ to fry the eggs.",
+    "sentence_translation": "用平底锅煎鸡蛋。"
   },
   {
     "chinese": "专业的",
     "english": "professional",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She is a ______ photographer.",
+    "sentence_translation": "她是一名专业的摄影师。"
   },
   {
     "chinese": "观众；受众",
     "english": "audience",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The speaker addressed the ______ directly.",
+    "sentence_translation": "演讲者直接向观众讲话。"
   },
   {
     "chinese": "厨具",
     "english": "cookware",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "This store sells a variety of ______.",
+    "sentence_translation": "这家商店出售各种厨具。"
   },
   {
     "chinese": "值得的",
     "english": "worthwhile",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Traveling abroad is a ______ experience.",
+    "sentence_translation": "出国旅行是一次值得的经历。"
   },
   {
     "chinese": "担保",
     "english": "warranty",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The product comes with a two-year ______.",
+    "sentence_translation": "这款产品有两年的保修期。"
   },
   {
     "chinese": "目标",
     "english": "goal",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Set a clear ______ before starting the project.",
+    "sentence_translation": "开始项目前要设定明确的目标。"
   },
   {
     "chinese": "设计",
     "english": "design",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She helped with the ______ of the new company logo.",
+    "sentence_translation": "她协助设计了新公司的标志。"
   },
   {
     "chinese": "典型的",
     "english": "typical",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "A ______ day for him includes exercise and reading.",
+    "sentence_translation": "他典型的一天包括锻炼和阅读。"
   },
   {
     "chinese": "积极的",
     "english": "positive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Maintaining a ______ attitude is important.",
+    "sentence_translation": "保持积极的态度很重要。"
   },
   {
     "chinese": "未来",
     "english": "future",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "We should plan for the ______ but enjoy the present.",
+    "sentence_translation": "我们应该为未来做计划，但也要享受当下。"
   },
   {
     "chinese": "联系；联合；联想",
     "english": "associate",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Many people ______ summer with beaches and vacations.",
+    "sentence_translation": "许多人把夏天和海滩、假期联系在一起。"
   },
   {
     "chinese": "饼干；曲奇",
     "english": "cookie",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She baked chocolate chip ______ for the party.",
+    "sentence_translation": "她为派对烤了巧克力曲奇。"
   },
   {
     "chinese": "角色",
     "english": "character",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The main ______ in the story is very brave.",
+    "sentence_translation": "故事中的主角非常勇敢。"
   },
   {
     "chinese": "所以；因此",
     "english": "therefore",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "He didn't study, ______ he failed the test.",
+    "sentence_translation": "他没学习，所以考试不及格。"
   },
   {
     "chinese": "独一无二的",
     "english": "one-of-a-kind",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "This artwork is ______ and priceless.",
+    "sentence_translation": "这件艺术品独一无二，价值连城。"
   },
   {
     "chinese": "锅",
     "english": "pot",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Boil water in a ______ and add the noodles.",
+    "sentence_translation": "在锅里烧水，然后加入面条。"
   },
   {
     "chinese": "众所周知的",
     "english": "well-known",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She is a ______ author in the literary world.",
+    "sentence_translation": "她是文坛上一位众所周知的作家。"
   },
   {
     "chinese": "作为交换",
     "english": "In exchange",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "I'll help you study, and ______, you help me with my project.",
+    "sentence_translation": "我会帮你学习，作为交换，你帮我做项目。"
   },
   {
     "chinese": "电视广告",
     "english": "TV commercial",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "I saw a new ______ for a smartphone yesterday.",
+    "sentence_translation": "我昨天看到一则新的智能手机电视广告。"
   },
   {
     "chinese": "由……制造",
     "english": "made by",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "This product is ______ a local company.",
+    "sentence_translation": "这款产品由一家本地公司制造。"
   },
   {
     "chinese": "有需求的",
     "english": "in-demand",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Skills like coding are ______ in the job market.",
+    "sentence_translation": "编程等技能在就业市场上很有需求。"
   },
   {
     "chinese": "知名度",
     "english": "name recognition",
-    "pos": "phrase"
+    "pos": "phrase",
+    "sentence": "Building ______ takes time and effort.",
+    "sentence_translation": "建立知名度需要时间和努力。"
   }
 ]

@@ -2,133 +2,197 @@
   {
     "chinese": "仅仅",
     "english": "merely",
-    "pos": "adv."
+    "pos": "adv.",
+    "sentence": "He ______ wanted to offer help, not to interfere.",
+    "sentence_translation": "他仅仅是想提供帮助，不是要干涉。"
   },
   {
     "chinese": "阐明",
     "english": "clarify",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Could you ______ your suggestion so that everyone can follow it?",
+    "sentence_translation": "你能阐明你的建议吗，以便每个人都能理解。"
   },
   {
     "chinese": "暴力",
     "english": "violence",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "______ in any form is unacceptable in a civilized society.",
+    "sentence_translation": "任何形式的暴力在文明社会中都是不可接受的。"
   },
   {
     "chinese": "禁止",
     "english": "ban",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The school decided to ______ smoking on campus to protect students' health.",
+    "sentence_translation": "学校决定禁止在校园内吸烟，以保护学生的健康。"
   },
   {
     "chinese": "娱乐性",
     "english": "entertaining",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ show attracted a large audience of all ages.",
+    "sentence_translation": "这场有娱乐性的表演吸引了各年龄段的大量观众。"
   },
   {
     "chinese": "噩梦",
     "english": "nightmare",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Being late for the final exam was a ______ he often had before graduation.",
+    "sentence_translation": "期末考试迟到是他毕业前经常做的噩梦。"
   },
   {
     "chinese": "值得",
     "english": "deserve",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "Those who work hard ______ recognition and rewards.",
+    "sentence_translation": "那些努力工作的人值得认可和奖励。"
   },
   {
     "chinese": "满意的",
     "english": "satisfied",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "She was ______ with the service provided by the hotel staff.",
+    "sentence_translation": "她对酒店员工提供的服务很满意。"
   },
   {
     "chinese": "营救",
     "english": "rescue",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "The firefighters managed to ______ all the people trapped in the burning building.",
+    "sentence_translation": "消防员成功营救了所有被困在着火大楼里的人。"
   },
   {
     "chinese": "勇敢的",
     "english": "bravery",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "His ______ act of saving the child from the river won everyone's praise.",
+    "sentence_translation": "他从河里救孩子的勇敢行为赢得了所有人的赞扬。"
   },
   {
     "chinese": "角色",
     "english": "character",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The lead ______ in this play has a complex personality and deep emotions.",
+    "sentence_translation": "这部剧中的主角有着复杂的个性和深沉的情感。"
   },
   {
     "chinese": "闲暇；空余时间",
     "english": "leisure",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Reading and hiking are her favorite activities during ______ time.",
+    "sentence_translation": "阅读和徒步是她闲暇时间最喜欢的活动。"
   },
   {
     "chinese": "拳打",
     "english": "punch",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "He was so angry that he wanted to ______ the wall to release his frustration.",
+    "sentence_translation": "他太生气了，想拳打墙壁来发泄沮丧。"
   },
   {
     "chinese": "内容",
     "english": "content",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The ______ of this book is suitable for children aged 8 to 12.",
+    "sentence_translation": "这本书的内容适合8到12岁的儿童。"
   },
   {
     "chinese": "好斗的",
     "english": "aggressive",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The ______ animal attacked anyone who got close to its territory.",
+    "sentence_translation": "这只好斗的动物攻击任何靠近它领地的人。"
   },
   {
     "chinese": "负面的",
     "english": "negative",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "Constant ______ news can affect people's mental health.",
+    "sentence_translation": "持续的负面新闻会影响人们的心理健康。"
   },
   {
     "chinese": "识字；读写能力",
     "english": "literacy",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "Improving ______ rates is crucial for the development of a nation.",
+    "sentence_translation": "提高识字率对一个国家的发展至关重要。"
   },
   {
     "chinese": "旁听",
     "english": "audit",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "She decided to ______ the physics class even though she wasn't enrolled in it.",
+    "sentence_translation": "即使没有注册，她还是决定旁听这节物理课。"
   },
   {
     "chinese": "证明",
     "english": "certificate",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "After completing the training, she received a ______ to prove her qualification.",
+    "sentence_translation": "完成培训后，她获得了一份证明自己资格的证书。"
   },
   {
     "chinese": "不同的；多样的",
     "english": "diverse",
-    "pos": "adj."
+    "pos": "adj.",
+    "sentence": "The city is home to a ______ population from various cultural backgrounds.",
+    "sentence_translation": "这座城市居住着来自不同文化背景的多样化人口。"
   },
   {
     "chinese": "应当被禁止",
-    "english": "should be banned"
+    "english": "should be banned",
+    "pos": "phrase",
+    "sentence": "Products that harm the environment ______ ______ ______.",
+    "sentence_translation": "危害环境的产品应当被禁止。"
   },
   {
     "chinese": "让人不安",
-    "english": "make people anxious"
+    "english": "make people anxious",
+    "pos": "phrase",
+    "sentence": "Uncertainty about the future can ______ ______ ______ easily.",
+    "sentence_translation": "对未来的不确定性很容易让人不安。"
   },
   {
     "chinese": "被跟踪",
-    "english": "being stalked"
+    "english": "being stalked",
+    "pos": "phrase",
+    "sentence": "She felt scared because she suspected she was ______ ______.",
+    "sentence_translation": "她感到害怕，因为她怀疑自己被跟踪了。"
   },
   {
     "chinese": "感到满足",
-    "english": "feel satisfied"
+    "english": "feel satisfied",
+    "pos": "phrase",
+    "sentence": "Finishing a challenging task on time makes people ______ ______.",
+    "sentence_translation": "按时完成一项有挑战性的任务会让人感到满足。"
   },
   {
     "chinese": "对.......共情",
-    "english": "get emotonally attached to"
+    "english": "get emotionally attached to",
+    "pos": "phrase",
+    "sentence": "It's easy to ______ ______ ______ ______ the main character in this novel.",
+    "sentence_translation": "人们很容易对这部小说中的主角共情。"
   },
   {
     "chinese": "打击",
-    "english": "fight against"
+    "english": "fight against",
+    "pos": "phrase",
+    "sentence": "We should unite to ______ ______ corruption in society.",
+    "sentence_translation": "我们应当团结起来打击社会中的腐败现象。"
   },
   {
     "chinese": "好榜样",
-    "english": "good role models for"
+    "english": "good role models for",
+    "pos": "phrase",
+    "sentence": "Honest and hardworking people are ______ ______ ______ ______ the younger generation.",
+    "sentence_translation": "诚实勤劳的人是年轻一代的好榜样。"
   },
   {
     "chinese": "必要",
-    "english": "be necessary to"
+    "english": "be necessary to",
+    "pos": "phrase",
+    "sentence": "It may ______ ______ ______ limit screen time for children.",
+    "sentence_translation": "限制儿童的屏幕时间可能是必要的。"
   }
 ]
