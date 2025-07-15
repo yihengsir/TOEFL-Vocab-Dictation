@@ -1,232 +1,324 @@
 [
   {
-    "english": "library",
     "chinese": "图书馆",
-    "pos": "n."
+    "english": "library",
+    "pos": "n.",
+    "sentence": "We often borrow books from the ______.",
+    "sentence_translation": "我们经常从图书馆借书。"
   },
   {
-    "english": "cafeteria",
     "chinese": "食堂",
-    "pos": "n."
+    "english": "cafeteria",
+    "pos": "n.",
+    "sentence": "Students usually have lunch in the school ______.",
+    "sentence_translation": "学生们通常在学校食堂吃午饭。"
   },
   {
-    "english": "dormitory",
     "chinese": "宿舍",
-    "pos": "n."
+    "english": "dormitory",
+    "pos": "n.",
+    "sentence": "Freshmen live in the new ______ on campus.",
+    "sentence_translation": "新生住在校园的新宿舍里。"
   },
   {
-    "english": "gallery",
     "chinese": "美术馆，画廊",
-    "pos": "n."
+    "english": "gallery",
+    "pos": "n.",
+    "sentence": "The new ______ displays works by local artists.",
+    "sentence_translation": "这座新美术馆展出当地艺术家的作品。"
   },
   {
+    "chinese": "很，远，大量",
     "english": "way",
-    "chinese": "远远地，大地",
-    "pos": "n."
+    "pos": "adv.",
+    "sentence": "The park is ______ from here, so we need to take a bus.",
+    "sentence_translation": "公园离这里很远，所以我们需要坐公交车。"
   },
   {
-    "english": "editor",
     "chinese": "编辑",
-    "pos": "n."
+    "english": "editor",
+    "pos": "n.",
+    "sentence": "The ______ checked the article for grammar errors.",
+    "sentence_translation": "编辑检查了这篇文章的语法错误。"
   },
   {
+    "chinese": "健美操，有氧运动",
     "english": "aerobics",
-    "chinese": "健美操",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "She attends ______ classes three times a week to keep fit.",
+    "sentence_translation": "她每周参加三次健美操课来保持健康。"
   },
   {
-    "english": "internship",
     "chinese": "实习",
-    "pos": "n."
+    "english": "internship",
+    "pos": "n.",
+    "sentence": "He completed a summer ______ at a software company.",
+    "sentence_translation": "他在一家软件公司完成了暑期实习。"
   },
   {
-    "english": "funding",
     "chinese": "资助",
-    "pos": "v."
+    "english": "funding",
+    "pos": "n.",
+    "sentence": "The research project received ______ from the government.",
+    "sentence_translation": "这个研究项目得到了政府的资助。"
   },
   {
-    "english": "automatically",
     "chinese": "自动地",
-    "pos": "adv."
+    "english": "automatically",
+    "pos": "adv.",
+    "sentence": "The door ______ opens when someone approaches.",
+    "sentence_translation": "有人靠近时，门会自动打开。"
   },
   {
+    "chinese": "体育馆(全写)",
     "english": "gymnasium",
-    "chinese": "体育馆",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The basketball match will be held in the ______ tomorrow.",
+    "sentence_translation": "篮球赛明天将在体育馆举行。"
   },
   {
-    "english": "bare",
     "chinese": "光秃秃的",
-    "pos": "n."
+    "english": "bare",
+    "pos": "adj.",
+    "sentence": "The tree stands ______ in winter without leaves.",
+    "sentence_translation": "这棵树冬天没有叶子，光秃秃的。"
   },
   {
-    "english": "laundry",
     "chinese": "洗衣房",
-    "pos": "n."
+    "english": "laundry",
+    "pos": "n.",
+    "sentence": "She goes to the ______ to wash her clothes every weekend.",
+    "sentence_translation": "她每周去洗衣房洗衣服。"
   },
   {
-    "english": "bulletin",
     "chinese": "公告栏",
-    "pos": "n."
+    "english": "bulletin",
+    "pos": "n.",
+    "sentence": "Important notices are posted on the school ______.",
+    "sentence_translation": "重要通知贴在学校公告栏上。"
   },
   {
-    "english": "eliminate",
     "chinese": "去除，消除",
-    "pos": "n."
+    "english": "eliminate",
+    "pos": "v.",
+    "sentence": "We need to ______ all risks before starting the project.",
+    "sentence_translation": "我们需要在启动项目前消除所有风险。"
   },
   {
-    "english": "residency",
     "chinese": "居住，住所",
-    "pos": "n."
+    "english": "residency",
+    "pos": "n.",
+    "sentence": "He applied for permanent ______ in this country.",
+    "sentence_translation": "他申请了这个国家的永久居住权。"
   },
   {
-    "english": "ensure",
     "chinese": "保证，确保",
-    "pos": "n."
+    "english": "ensure",
+    "pos": "v.",
+    "sentence": "Please ______ that all doors are locked before leaving.",
+    "sentence_translation": "离开前请确保所有门都锁好了。"
   },
   {
-    "english": "install",
     "chinese": "安装",
-    "pos": "n."
+    "english": "install",
+    "pos": "v.",
+    "sentence": "The workers will ______ a new air-conditioner in the office.",
+    "sentence_translation": "工人们将在办公室安装一台新空调。"
   },
   {
-    "english": "renovate",
     "chinese": "翻新，修复",
-    "pos": "n."
+    "english": "renovate",
+    "pos": "v.",
+    "sentence": "They plan to ______ the old building into a modern library.",
+    "sentence_translation": "他们计划把这座旧建筑翻新成现代化图书馆。"
   },
   {
-    "english": "freshman",
     "chinese": "新生",
-    "pos": "n."
+    "english": "freshman",
+    "pos": "n.",
+    "sentence": "The ______ orientation will help new students adapt to college life.",
+    "sentence_translation": "新生入学指导将帮助新生适应大学生活。"
   },
   {
-    "english": "upperclassman",
     "chinese": "高年级学生",
-    "pos": "n."
+    "english": "upperclassman",
+    "pos": "n.",
+    "sentence": "An ______ volunteered to guide the freshmen around campus.",
+    "sentence_translation": "一名高年级学生自愿带新生参观校园。"
   },
   {
-    "english": "admission director",
     "chinese": "招生官",
-    "pos": "phrase"
+    "english": "admission director",
+    "pos": "phrase",
+    "sentence": "The ______ ______ will answer questions about the application process.",
+    "sentence_translation": "招生官将解答关于申请流程的问题。"
   },
   {
-    "english": "explore potential careers",
-    "chinese": "探索职业路径",
-    "pos": "phrase"
+    "chinese": "探索潜在职业路径",
+    "english": "explore potential career",
+    "pos": "phrase",
+    "sentence": "Internships help students ______ ______ ______ paths.",
+    "sentence_translation": "实习帮助学生探索潜在职业路径。"
   },
   {
-    "english": "on the edge of...",
-    "chinese": "几乎..., 在...的边缘",
-    "pos": "phrase"
+    "chinese": "几乎，在…的边缘",
+    "english": "on the edge of",
+    "pos": "phrase",
+    "sentence": "The company is ______ ______ ______ bankruptcy due to poor management.",
+    "sentence_translation": "由于管理不善，这家公司濒临破产。"
   },
   {
-    "english": "registration fee",
     "chinese": "注册费，报名费",
-    "pos": "phrase"
+    "english": "registration fee",
+    "pos": "phrase",
+    "sentence": "You need to pay the ______ ______ when applying for the course.",
+    "sentence_translation": "申请这门课程时你需要支付注册费。"
   },
   {
-    "english": "interaction and networking with...",
-    "chinese": "和...互动、社交",
-    "pos": "phrase"
+    "chinese": "和…互动、社交",
+    "english": "interaction and networking with",
+    "pos": "phrase",
+    "sentence": "The workshop encourages ______ ______ ______ ______ industry experts.",
+    "sentence_translation": "这个研讨会鼓励和行业专家互动、社交。"
   },
   {
-    "english": "come in handy",
     "chinese": "派上用场",
-    "pos": "phrase"
+    "english": "come in handy",
+    "pos": "phrase",
+    "sentence": "A good command of English will ______ ______ ______ when traveling abroad.",
+    "sentence_translation": "熟练掌握英语在出国旅行时会派上用场。"
   },
   {
-    "english": "mock interview",
     "chinese": "模拟面试",
-    "pos": "phrase"
+    "english": "mock interview",
+    "pos": "phrase",
+    "sentence": "The career center offers ______ ______ to help students prepare for job hunting.",
+    "sentence_translation": "职业发展中心提供模拟面试，帮助学生准备求职。"
   },
   {
-    "english": "parking lot",
     "chinese": "停车场",
-    "pos": "phrase"
+    "english": "parking lot",
+    "pos": "phrase",
+    "sentence": "We parked our car in the ______ ______ near the shopping mall.",
+    "sentence_translation": "我们把车停在购物中心附近的停车场。"
   },
   {
-    "english": "go to and from classes",
-    "chinese": "上学、放学",
-    "pos": "phrase"
+    "chinese": "往返上课",
+    "english": "go to and from class",
+    "pos": "phrase",
+    "sentence": "Many students ride bikes to ______ ______ ______ ______ every day.",
+    "sentence_translation": "许多学生每天骑自行车往返上课。"
   },
   {
-    "english": "free of charge",
     "chinese": "免费",
-    "pos": "phrase"
+    "english": "free of charge",
+    "pos": "phrase",
+    "sentence": "The museum is open ______ ______ ______ on weekends.",
+    "sentence_translation": "这家博物馆周末免费开放。"
   },
   {
-    "english": "computer lab",
     "chinese": "机房，电脑室",
-    "pos": "phrase"
+    "english": "computer lab",
+    "pos": "phrase",
+    "sentence": "Students can use the ______ ______ to finish their assignments.",
+    "sentence_translation": "学生们可以使用机房完成作业。"
   },
   {
-    "english": "career center",
     "chinese": "职业发展中心",
-    "pos": "phrase"
+    "english": "career center",
+    "pos": "phrase",
+    "sentence": "The ______ ______ provides resume writing services for students.",
+    "sentence_translation": "职业发展中心为学生提供简历撰写服务。"
   },
   {
-    "english": "make a difference",
     "chinese": "有影响，起作用",
-    "pos": "phrase"
+    "english": "make a difference",
+    "pos": "phrase",
+    "sentence": "Even small actions can ______ ______ ______ in protecting the environment.",
+    "sentence_translation": "即使是小行动也能在保护环境方面起作用。"
   },
   {
-    "english": "increase the appeal of...",
-    "chinese": "提升...的吸引力",
-    "pos": "phrase"
+    "chinese": "提升…的吸引力",
+    "english": "increase the appeal of",
+    "pos": "phrase",
+    "sentence": "Adding more facilities will ______ ______ ______ ______ the park.",
+    "sentence_translation": "增加更多设施将提升公园的吸引力。"
   },
   {
-    "english": "postpone enrollment",
     "chinese": "延迟入学",
-    "pos": "phrase"
+    "english": "postpone enrollment",
+    "pos": "phrase",
+    "sentence": "He decided to ______ ______ for a year to travel around the world.",
+    "sentence_translation": "他决定延迟入学一年，去环游世界。"
   },
   {
-    "english": "printing center",
     "chinese": "打印中心",
-    "pos": "phrase"
+    "english": "printing center",
+    "pos": "phrase",
+    "sentence": "You can print your thesis at the campus ______ ______.",
+    "sentence_translation": "你可以在校园打印中心打印论文。"
   },
   {
-    "english": "gap year",
     "chinese": "间隔年",
-    "pos": "phrase"
+    "english": "gap year",
+    "pos": "phrase",
+    "sentence": "Taking a ______ ______ before college can help students gain life experience.",
+    "sentence_translation": "上大学前度过一个间隔年能帮助学生获得生活经验。"
   },
   {
-    "english": "financial support",
     "chinese": "经济支持",
-    "pos": "phrase"
+    "english": "financial support",
+    "pos": "phrase",
+    "sentence": "Many students rely on ______ ______ from their parents to pay tuition.",
+    "sentence_translation": "许多学生依靠父母的经济支持来支付学费。"
   },
   {
-    "english": "prospective new students",
     "chinese": "准新生",
-    "pos": "phrase"
+    "english": "prospective new student",
+    "pos": "phrase",
+    "sentence": "The university holds an open day for ______ ______ ______ every spring.",
+    "sentence_translation": "这所大学每年春天为准新生举办开放日。"
   },
   {
-    "english": "set aside...",
-    "chinese": "把...放在一边",
-    "pos": "phrase"
+    "chinese": "留出；把…放在一边",
+    "english": "set aside",
+    "pos": "phrase",
+    "sentence": "We should ______ ______ some money each month for emergencies.",
+    "sentence_translation": "我们应该每月留出一些钱以备不时之需。"
   },
   {
-    "english": "in advance",
     "chinese": "提前",
-    "pos": "phrase"
+    "english": "in advance",
+    "pos": "phrase",
+    "sentence": "It's better to book the tickets ______ ______ during peak season.",
+    "sentence_translation": "旺季时最好提前订票。"
   },
   {
-    "english": "scenic spots",
     "chinese": "景点",
-    "pos": "phrase"
+    "english": "scenic spot",
+    "pos": "phrase",
+    "sentence": "The Great Wall is a famous ______ ______ in China.",
+    "sentence_translation": "长城是中国著名的景点。"
   },
   {
-    "english": "overhead lights",
     "chinese": "顶灯",
-    "pos": "phrase"
+    "english": "overhead light",
+    "pos": "phrase",
+    "sentence": "The ______ ______ in the classroom is bright enough for reading.",
+    "sentence_translation": "教室里的顶灯足够亮，适合阅读。"
   },
   {
-    "english": "air-conditioning",
     "chinese": "空调",
-    "pos": "v."
+    "english": "air-conditioning",
+    "pos": "n.",
+    "sentence": "The ______ keeps the office cool in summer.",
+    "sentence_translation": "空调在夏天使办公室保持凉爽。"
   },
   {
-    "english": "default settings",
     "chinese": "默认设置",
-    "pos": "phrase"
+    "english": "default settings",
+    "pos": "phrase",
+    "sentence": "The software uses ______ ______ that can be changed by users.",
+    "sentence_translation": "这款软件使用默认设置，用户可以更改。"
   }
 ]

@@ -1,67 +1,93 @@
 [
   {
-    "english": "feature",
     "chinese": "以...为特色",
-    "pos": "n."
+    "english": "feature",
+    "pos": "v.",
+    "sentence": "The new restaurant ______ traditional dishes from various regions.",
+    "sentence_translation": "这家新餐厅以各地的传统菜肴为特色。"
   },
   {
-    "english": "personalized",
     "chinese": "个性化的",
-    "pos": "v."
+    "english": "personalized",
+    "pos": "adj.",
+    "sentence": "She received a ______ notebook with her name printed on the cover.",
+    "sentence_translation": "她收到一个个性化的笔记本，封面上印着她的名字。"
   },
   {
-    "english": "taste",
     "chinese": "品味",
-    "pos": "n."
+    "english": "taste",
+    "pos": "n.",
+    "sentence": "Her ______ in clothing is simple but elegant.",
+    "sentence_translation": "她在服装方面的品味简洁而优雅。"
   },
   {
-    "english": "well-organized",
     "chinese": "井然有序的",
-    "pos": "v."
+    "english": "well-organized",
+    "pos": "adj.",
+    "sentence": "The ______ classroom has neatly arranged desks and bookshelves.",
+    "sentence_translation": "这间井然有序的教室有整齐排列的课桌和书架。"
   },
   {
-    "english": "summer break",
     "chinese": "暑假",
-    "pos": "phrase"
+    "english": "summer break",
+    "pos": "phrase",
+    "sentence": "We plan to visit our grandparents during ______ ______.",
+    "sentence_translation": "我们计划在暑假期间去看望祖父母。"
   },
   {
-    "english": "have access to",
     "chinese": "有权进入...，能获取...",
-    "pos": "phrase"
+    "english": "have access to",
+    "pos": "phrase",
+    "sentence": "Students ______ ______ ______ online resources through the school library.",
+    "sentence_translation": "学生们能通过学校图书馆获取在线资源。"
   },
   {
-    "english": "local customs",
     "chinese": "当地习俗",
-    "pos": "phrase"
+    "english": "local customs",
+    "pos": "phrase",
+    "sentence": "When traveling abroad, it's polite to learn about ______ ______ first.",
+    "sentence_translation": "出国旅行时，先了解当地习俗是有礼貌的。"
   },
   {
-    "english": "sense of humor",
     "chinese": "幽默感",
-    "pos": "phrase"
+    "english": "sense of humor",
+    "pos": "phrase",
+    "sentence": "His good ______ ______ ______ makes him popular among classmates.",
+    "sentence_translation": "他良好的幽默感让他在同学中很受欢迎。"
   },
   {
-    "english": "academic performance",
     "chinese": "学术表现",
-    "pos": "phrase"
+    "english": "academic performance",
+    "pos": "phrase",
+    "sentence": "Regular study habits can improve students' ______ ______ significantly.",
+    "sentence_translation": "规律的学习习惯能显著提高学生的学术表现。"
   },
   {
-    "english": "home-cooked food",
     "chinese": "自制食物",
-    "pos": "phrase"
+    "english": "home-cooked food",
+    "pos": "phrase",
+    "sentence": "Eating ______ ______ ______ is healthier than eating out often.",
+    "sentence_translation": "吃自制食物比经常外出就餐更健康。"
   },
   {
-    "english": "guest speaker",
     "chinese": "客座教授",
-    "pos": "phrase"
+    "english": "guest speaker",
+    "pos": "phrase",
+    "sentence": "A famous author will be the ______ ______ at the literature festival.",
+    "sentence_translation": "一位著名作家将是文学节的客座教授。"
   },
   {
-    "english": "controversial opinions",
     "chinese": "有争议的观点",
-    "pos": "phrase"
+    "english": "controversial opinions",
+    "pos": "phrase",
+    "sentence": "The debate discussed some ______ ______ about social issues.",
+    "sentence_translation": "这场辩论讨论了一些关于社会问题的有争议的观点。"
   },
   {
-    "english": "regardless of",
     "chinese": "不论，不管...",
-    "pos": "phrase"
+    "english": "regardless of",
+    "pos": "phrase",
+    "sentence": "The policy applies to all employees ______ ______ their position or salary.",
+    "sentence_translation": "这项政策适用于所有员工，不论其职位或薪水如何。"
   }
 ]

@@ -1,197 +1,275 @@
 [
   {
-    "english": "generate",
     "chinese": "产生",
-    "pos": "n."
+    "english": "generate",
+    "pos": "v.",
+    "sentence": "The new policy will ______ more job opportunities for young people.",
+    "sentence_translation": "这项新政策将为年轻人产生更多就业机会。"
   },
   {
-    "english": "demand",
     "chinese": "需求",
-    "pos": "n."
+    "english": "demand",
+    "pos": "n.",
+    "sentence": "There is a high ______ for organic food in the market recently.",
+    "sentence_translation": "最近市场对有机食品的需求很大。"
   },
   {
-    "english": "crucial",
     "chinese": "关键的",
-    "pos": "adj."
+    "english": "crucial",
+    "pos": "adj.",
+    "sentence": "It is ______ to finish the project on time to meet the deadline.",
+    "sentence_translation": "按时完成项目以赶上截止日期是关键的。"
   },
   {
-    "english": "strategy",
     "chinese": "策略",
-    "pos": "n."
+    "english": "strategy",
+    "pos": "n.",
+    "sentence": "The company's new ______ helped increase its sales by 30%.",
+    "sentence_translation": "公司的新策略帮助其销售额增长了30%。"
   },
   {
-    "english": "primary",
     "chinese": "主要的",
-    "pos": "n."
+    "english": "primary",
+    "pos": "adj.",
+    "sentence": "The ______ goal of education is to develop students' abilities.",
+    "sentence_translation": "教育的主要目标是培养学生的能力。"
   },
   {
-    "english": "stimulation",
     "chinese": "刺激",
-    "pos": "n."
+    "english": "stimulation",
+    "pos": "n.",
+    "sentence": "Intellectual ______ helps keep the brain active and healthy.",
+    "sentence_translation": "智力刺激有助于保持大脑活跃和健康。"
   },
   {
-    "english": "category",
     "chinese": "类别",
-    "pos": "n."
+    "english": "category",
+    "pos": "n.",
+    "sentence": "Books in the library are divided into different ______ for easy finding.",
+    "sentence_translation": "图书馆的书籍被分为不同类别，方便查找。"
   },
   {
-    "english": "emphasize",
     "chinese": "强调",
-    "pos": "n."
+    "english": "emphasize",
+    "pos": "v.",
+    "sentence": "The teacher tried to ______ the importance of practice to help students master the skill quickly.",
+    "sentence_translation": "老师努力强调练习的重要性，帮助学生快速掌握技能。"
   },
   {
-    "english": "speciality",
     "chinese": "专长",
-    "pos": "n."
+    "english": "speciality",
+    "pos": "n.",
+    "sentence": "Her ______ in computer science made her an important member of the team.",
+    "sentence_translation": "她在计算机科学方面的专长使她成为团队的重要成员。"
   },
   {
-    "english": "promote",
     "chinese": "促销",
-    "pos": "n."
+    "english": "promote",
+    "pos": "v.",
+    "sentence": "The store plans to ______ its new products with a summer campaign to attract more customers.",
+    "sentence_translation": "商店计划通过夏季活动促销新产品，吸引更多顾客。"
   },
   {
-    "english": "exceptional",
     "chinese": "杰出的",
-    "pos": "adj."
+    "english": "exceptional",
+    "pos": "adj.",
+    "sentence": "She showed ______ talent in music when she was only five years old.",
+    "sentence_translation": "她五岁时就在音乐方面展现出杰出的天赋。"
   },
   {
-    "english": "appeal",
     "chinese": "吸引力",
-    "pos": "adj."
+    "english": "appeal",
+    "pos": "n.",
+    "sentence": "The ______ of the product's design made it popular among young people.",
+    "sentence_translation": "产品设计的吸引力使其在年轻人中很受欢迎。"
   },
   {
-    "english": "nostalgia",
     "chinese": "怀旧",
-    "pos": "n."
+    "english": "nostalgia",
+    "pos": "n.",
+    "sentence": "Looking at old photos filled her with ______ for her childhood.",
+    "sentence_translation": "看着旧照片，她心中充满了对童年的怀旧之情。"
   },
   {
-    "english": "sentimental",
     "chinese": "情感的",
-    "pos": "adj."
+    "english": "sentimental",
+    "pos": "adj.",
+    "sentence": "She kept the old letter for its ______ value rather than practical use.",
+    "sentence_translation": "她保留这封旧信是因为其情感价值，而非实际用途。"
   },
   {
-    "english": "beverage",
     "chinese": "饮料",
-    "pos": "n."
+    "english": "beverage",
+    "pos": "n.",
+    "sentence": "The restaurant offers a variety of ______, including coffee, tea, and juice.",
+    "sentence_translation": "这家餐厅提供多种饮料，包括咖啡、茶和果汁。"
   },
   {
-    "english": "broad",
     "chinese": "广泛的",
-    "pos": "n."
+    "english": "broad",
+    "pos": "adj.",
+    "sentence": "His ______ knowledge covers history, science, and art.",
+    "sentence_translation": "他广泛的知识涵盖历史、科学和艺术。"
   },
   {
-    "english": "sway",
     "chinese": "影响",
-    "pos": "n."
+    "english": "sway",
+    "pos": "n.",
+    "sentence": "The leader's speech had a great ______ on the audience's opinions.",
+    "sentence_translation": "这位领导人的演讲对听众的观点有很大影响。"
   },
   {
-    "english": "incentive",
     "chinese": "激励",
-    "pos": "adj."
+    "english": "incentive",
+    "pos": "n.",
+    "sentence": "The ______ of a bonus encouraged employees to work harder.",
+    "sentence_translation": "奖金的激励促使员工更加努力工作。"
   },
   {
-    "english": "backfire",
     "chinese": "适得其反",
-    "pos": "n."
+    "english": "backfire",
+    "pos": "v.",
+    "sentence": "The plan ______ and surprised everyone, as it caused more problems than solutions.",
+    "sentence_translation": "这个计划适得其反，让所有人都感到惊讶，因为它带来的问题比解决的问题更多。"
   },
   {
-    "english": "persuade",
     "chinese": "说服",
-    "pos": "n."
+    "english": "persuade",
+    "pos": "v.",
+    "sentence": "He tried to ______ the team to accept the new plan, which took a lot of effort.",
+    "sentence_translation": "他努力说服团队接受新计划，这花了很大力气。"
   },
   {
-    "english": "testimonial",
     "chinese": "证明",
-    "pos": "adj."
+    "english": "testimonial",
+    "pos": "n.",
+    "sentence": "The customer ______ helped the product gain trust in the market.",
+    "sentence_translation": "客户的证明帮助该产品在市场上获得信任。"
   },
   {
-    "english": "merit",
     "chinese": "优点",
-    "pos": "n."
+    "english": "merit",
+    "pos": "n.",
+    "sentence": "The ______ of this method is its simplicity and effectiveness.",
+    "sentence_translation": "这种方法的优点是简单且有效。"
   },
   {
-    "english": "approach",
     "chinese": "方法",
-    "pos": "n."
+    "english": "approach",
+    "pos": "n.",
+    "sentence": "We need a new ______ to solve this complex problem.",
+    "sentence_translation": "我们需要一种新方法来解决这个复杂问题。"
   },
   {
-    "english": "release",
     "chinese": "发布",
-    "pos": "n."
+    "english": "release",
+    "pos": "v.",
+    "sentence": "The company plans to ______ the new software next month.",
+    "sentence_translation": "公司计划下个月发布新软件。"
   },
   {
-    "english": "image",
     "chinese": "形象",
-    "pos": "n."
+    "english": "image",
+    "pos": "n.",
+    "sentence": "The company is working hard to improve its public ______ after the scandal.",
+    "sentence_translation": "丑闻之后，该公司正努力改善其公众形象。"
   },
   {
-    "english": "uniqueness",
     "chinese": "独特性",
-    "pos": "n."
+    "english": "uniqueness",
+    "pos": "n.",
+    "sentence": "The ______ of the cultural festival attracts visitors from all over the world.",
+    "sentence_translation": "这个文化节的独特性吸引了来自世界各地的游客。"
   },
   {
-    "english": "longing",
     "chinese": "渴望",
-    "pos": "v."
+    "english": "longing",
+    "pos": "v.",
+    "sentence": "She ______ for the warm days of summer during the cold winter.",
+    "sentence_translation": "寒冷的冬天里，她渴望夏天的温暖日子。"
   },
   {
-    "english": "conflict with …",
     "chinese": "与……冲突",
-    "pos": "phrase"
+    "english": "conflict with …",
+    "pos": "phrase",
+    "sentence": "His personal interests ______ ______ ______ the company's goals.",
+    "sentence_translation": "他的个人利益与公司目标冲突。"
   },
   {
-    "english": "brand-new",
     "chinese": "全新的",
-    "pos": "n."
+    "english": "brand-new",
+    "pos": "adj.",
+    "sentence": "The ______ technology brought revolutionary changes to the industry.",
+    "sentence_translation": "这项全新的技术给行业带来了革命性变化。"
   },
   {
-    "english": "make fun of …",
     "chinese": "取笑……",
-    "pos": "phrase"
+    "english": "make fun of …",
+    "pos": "phrase",
+    "sentence": "It's not polite to ______ ______ ______ people with different opinions.",
+    "sentence_translation": "取笑有不同意见的人是不礼貌的。"
   },
   {
-    "english": "marketing strategy",
     "chinese": "营销策略",
-    "pos": "phrase"
+    "english": "marketing strategy",
+    "pos": "phrase",
+    "sentence": "The company's new ______ ______ helped it gain more market share.",
+    "sentence_translation": "公司的新营销策略帮助它获得了更多市场份额。"
   },
   {
-    "english": "generate demand",
     "chinese": "产生需求",
-    "pos": "phrase"
+    "english": "generate demand",
+    "pos": "phrase",
+    "sentence": "Creative advertising can ______ ______ for new products.",
+    "sentence_translation": "有创意的广告能为新产品产生需求。"
   },
   {
-    "english": "at high speeds",
     "chinese": "以高速",
-    "pos": "phrase"
+    "english": "at high speeds",
+    "pos": "phrase",
+    "sentence": "The train travels ______ ______ ______ through the countryside.",
+    "sentence_translation": "火车以高速穿过乡村。"
   },
   {
-    "english": "browse the Internet",
     "chinese": "浏览互联网",
-    "pos": "phrase"
+    "english": "browse the Internet",
+    "pos": "phrase",
+    "sentence": "Many people like to ______ ______ ______ in their free time to get information.",
+    "sentence_translation": "很多人喜欢在空闲时间浏览互联网获取信息。"
   },
   {
-    "english": "appeal to …",
     "chinese": "吸引……",
-    "pos": "phrase"
+    "english": "appeal to …",
+    "pos": "phrase",
+    "sentence": "The colorful packaging ______ ______ ______ young consumers.",
+    "sentence_translation": "这种彩色包装吸引年轻消费者。"
   },
   {
-    "english": "reflect on the past",
     "chinese": "回顾过去",
-    "pos": "phrase"
+    "english": "reflect on the past",
+    "pos": "phrase",
+    "sentence": "People often ______ ______ ______ ______ during festivals.",
+    "sentence_translation": "人们在节日期间常常回顾过去。"
   },
   {
-    "english": "extra incentive",
     "chinese": "额外激励",
-    "pos": "phrase"
+    "english": "extra incentive",
+    "pos": "phrase",
+    "sentence": "The bonus serves as an ______ ______ for employees to work harder.",
+    "sentence_translation": "奖金作为额外激励，鼓励员工更加努力工作。"
   },
   {
-    "english": "past customer",
     "chinese": "过去的客户",
-    "pos": "phrase"
+    "english": "past customer",
+    "pos": "phrase",
+    "sentence": "The store offers discounts to ______ ______ to encourage them to return.",
+    "sentence_translation": "这家商店为过去的客户提供折扣，鼓励他们再来。"
   },
   {
-    "english": "old-fashioned",
     "chinese": "老式的",
-    "pos": "v."
+    "english": "old-fashioned",
+    "pos": "adj.",
+    "sentence": "She still uses an ______ camera instead of a digital one.",
+    "sentence_translation": "她仍然使用老式的相机，而不是数码相机。"
   }
 ]

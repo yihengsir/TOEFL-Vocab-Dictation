@@ -1,262 +1,366 @@
 [
   {
-    "english": "time-consuming",
     "chinese": "耗时的",
-    "pos": "v."
+    "english": "time-consuming",
+    "pos": "adj.",
+    "sentence": "Preparing a home-cooked meal from scratch can be ______ but rewarding.",
+    "sentence_translation": "从头准备一顿家常菜可能很耗时，但很有意义。"
   },
   {
-    "english": "be busy with",
     "chinese": "忙于……",
-    "pos": "phrase"
+    "english": "be busy with",
+    "pos": "phrase",
+    "sentence": "She ______ ______ ______ her final exams and has no time for parties.",
+    "sentence_translation": "她忙于期末考试，没时间参加派对。"
   },
   {
-    "english": "a fitness test",
     "chinese": "健身测试",
-    "pos": "phrase"
+    "english": "a fitness test",
+    "pos": "phrase",
+    "sentence": "All athletes must pass ______ ______ ______ before joining the team.",
+    "sentence_translation": "所有运动员加入团队前必须通过健身测试。"
   },
   {
-    "english": "benefit … academically",
     "chinese": "在学业上受益",
-    "pos": "phrase"
+    "english": "benefit … academically",
+    "pos": "phrase",
+    "sentence": "Regular reading can ______ students ______ in many subjects.",
+    "sentence_translation": "定期阅读能让学生在多个学科上在学业上受益。"
   },
   {
-    "english": "perform better",
     "chinese": "表现得更好",
-    "pos": "phrase"
+    "english": "perform better",
+    "pos": "phrase",
+    "sentence": "Students who get enough sleep tend to ______ ______ in class.",
+    "sentence_translation": "睡眠充足的学生在课堂上往往表现得更好。"
   },
   {
-    "english": "be a fan of …",
     "chinese": "是……的粉丝",
-    "pos": "phrase"
+    "english": "be a fan of …",
+    "pos": "phrase",
+    "sentence": "He ______ ______ ______ jazz music and collects many albums.",
+    "sentence_translation": "他是爵士乐的粉丝，收藏了很多专辑。"
   },
   {
-    "english": "a waste of money",
     "chinese": "浪费钱",
-    "pos": "phrase"
+    "english": "a waste of money",
+    "pos": "phrase",
+    "sentence": "Buying expensive clothes you never wear is ______ ______ ______.",
+    "sentence_translation": "买昂贵却从不穿的衣服是浪费钱。"
   },
   {
-    "english": "invest in …",
     "chinese": "投资于……",
-    "pos": "phrase"
+    "english": "invest in …",
+    "pos": "phrase",
+    "sentence": "The company plans to ______ ______ new technology to improve efficiency.",
+    "sentence_translation": "公司计划投资于新技术以提高效率。"
   },
   {
-    "english": "hire additional staff",
     "chinese": "雇用额外的员工",
-    "pos": "phrase"
+    "english": "hire additional staff",
+    "pos": "phrase",
+    "sentence": "The restaurant needs to ______ ______ ______ during peak seasons.",
+    "sentence_translation": "这家餐厅在旺季需要雇用额外的员工。"
   },
   {
-    "english": "maintain sports facilities",
     "chinese": "维护体育设施",
-    "pos": "phrase"
+    "english": "maintain sports facilities",
+    "pos": "phrase",
+    "sentence": "The school allocates funds to ______ ______ ______ every year.",
+    "sentence_translation": "学校每年拨款维护体育设施。"
   },
   {
-    "english": "create negative feelings",
     "chinese": "产生负面情绪",
-    "pos": "phrase"
+    "english": "create negative feelings",
+    "pos": "phrase",
+    "sentence": "Unfair criticism can ______ ______ ______ among team members.",
+    "sentence_translation": "不公平的批评会在团队成员中产生负面情绪。"
   },
   {
-    "english": "be inspired to do …",
     "chinese": "被激励去做……",
-    "pos": "phrase"
+    "english": "be inspired to do …",
+    "pos": "phrase",
+    "sentence": "Young people ______ ______ ______ pursue their dreams by his success story.",
+    "sentence_translation": "年轻人被他的成功故事激励去追求梦想。"
   },
   {
-    "english": "affect my learning efficiency",
     "chinese": "影响我的学习效率",
-    "pos": "phrase"
+    "english": "affect my learning efficiency",
+    "pos": "phrase",
+    "sentence": "Too much noise in the library can ______ ______ ______ ______.",
+    "sentence_translation": "图书馆里噪音太大能影响我的学习效率。"
   },
   {
-    "english": "a demanding workload",
     "chinese": "要求很高的工作量",
-    "pos": "phrase"
+    "english": "a demanding workload",
+    "pos": "phrase",
+    "sentence": "Doctors often face ______ ______ ______ during flu season.",
+    "sentence_translation": "流感季节，医生经常面临要求很高的工作量。"
   },
   {
-    "english": "affect my grades",
     "chinese": "影响我的成绩",
-    "pos": "phrase"
+    "english": "affect my grades",
+    "pos": "phrase",
+    "sentence": "Playing video games for hours every day may ______ ______ ______.",
+    "sentence_translation": "每天玩几小时电子游戏可能影响我的成绩。"
   },
   {
-    "english": "hire a tutor",
     "chinese": "雇请家教",
-    "pos": "phrase"
+    "english": "hire a tutor",
+    "pos": "phrase",
+    "sentence": "Her parents decided to ______ ______ ______ to help her with physics.",
+    "sentence_translation": "她的父母决定雇请家教帮她补习物理。"
   },
   {
-    "english": "community service",
     "chinese": "社区服务",
-    "pos": "phrase"
+    "english": "community service",
+    "pos": "phrase",
+    "sentence": "Volunteering for ______ ______ is a good way to give back to society.",
+    "sentence_translation": "参与社区服务是回馈社会的好方式。"
   },
   {
-    "english": "under a lot of pressure",
     "chinese": "承受很大压力",
-    "pos": "phrase"
+    "english": "under a lot of pressure",
+    "pos": "phrase",
+    "sentence": "Employees are ______ ______ ______ ______ to meet the project deadline.",
+    "sentence_translation": "为了赶上项目截止日期，员工们承受很大压力。"
   },
   {
-    "english": "a tight schedule",
     "chinese": "时间安排紧张",
-    "pos": "phrase"
+    "english": "a tight schedule",
+    "pos": "phrase",
+    "sentence": "With ______ ______ ______, she has to balance work and study carefully.",
+    "sentence_translation": "时间安排紧张，她必须小心平衡工作和学习。"
   },
   {
-    "english": "public transportation",
     "chinese": "公共交通",
-    "pos": "phrase"
+    "english": "public transportation",
+    "pos": "phrase",
+    "sentence": "Taking ______ ______ is cheaper than driving a car in the city.",
+    "sentence_translation": "在城市里乘坐公共交通比开车便宜。"
   },
   {
-    "english": "participate in …",
     "chinese": "参与……",
-    "pos": "phrase"
+    "english": "participate in …",
+    "pos": "phrase",
+    "sentence": "Students are encouraged to ______ ______ sports and cultural activities.",
+    "sentence_translation": "鼓励学生参与体育和文化活动。"
   },
   {
-    "english": "be required to do …",
     "chinese": "被要求做……",
-    "pos": "phrase"
+    "english": "be required to do …",
+    "pos": "phrase",
+    "sentence": "All visitors ______ ______ ______ ______ wear ID badges in the building.",
+    "sentence_translation": "所有访客被要求在大楼内佩戴身份徽章。"
   },
   {
-    "english": "than intended",
     "chinese": "比预期的多/久",
-    "pos": "phrase"
+    "english": "than intended",
+    "pos": "phrase",
+    "sentence": "The trip lasted two days longer ______ ______ due to bad weather.",
+    "sentence_translation": "由于天气不好，这次旅行比预期的久了两天。"
   },
   {
-    "english": "token",
     "chinese": "代币",
-    "pos": "n."
+    "english": "token",
+    "pos": "n.",
+    "sentence": "You can exchange this ______ for a free meal at the cafeteria.",
+    "sentence_translation": "你可以用这个代币在食堂换一顿免费的饭。"
   },
   {
-    "english": "dice",
     "chinese": "骰子",
-    "pos": "n."
+    "english": "dice",
+    "pos": "n.",
+    "sentence": "We need a pair of ______ to play this board game.",
+    "sentence_translation": "我们需要一对骰子来玩这个桌面游戏。"
   },
   {
-    "english": "stare",
     "chinese": "凝视",
-    "pos": "n."
+    "english": "stare",
+    "pos": "v.",
+    "sentence": "It's rude to ______ at people with curiosity in public places.",
+    "sentence_translation": "在公共场所好奇地凝视别人是不礼貌的。"
   },
   {
-    "english": "bond",
     "chinese": "建立联系；增进感情",
-    "pos": "n."
+    "english": "bond",
+    "pos": "v.",
+    "sentence": "Family gatherings help ______ relatives closer together.",
+    "sentence_translation": "家庭聚会有助于亲戚之间增进感情。"
   },
   {
-    "english": "fast-paced",
     "chinese": "快节奏的",
-    "pos": "v."
+    "english": "fast-paced",
+    "pos": "adj.",
+    "sentence": "Working in a ______ environment requires good time management.",
+    "sentence_translation": "在快节奏的环境中工作需要良好的时间管理能力。"
   },
   {
-    "english": "post",
     "chinese": "帖子，职位",
-    "pos": "n."
+    "english": "post",
+    "pos": "n.",
+    "sentence": "She shared a travel ______ with beautiful photos on her blog.",
+    "sentence_translation": "她在博客上分享了一篇带漂亮照片的旅行帖子。"
   },
   {
-    "english": "distracting",
     "chinese": "分散注意力的",
-    "pos": "v."
+    "english": "distracting",
+    "pos": "adj.",
+    "sentence": "The ______ music in the café made it hard to focus on reading.",
+    "sentence_translation": "咖啡馆里分散注意力的音乐让人难以专注阅读。"
   },
   {
-    "english": "flash light",
     "chinese": "闪光灯",
-    "pos": "phrase"
+    "english": "flash light",
+    "pos": "phrase",
+    "sentence": "He used a ______ ______ to take photos in the dark room.",
+    "sentence_translation": "他用闪光灯在暗室里拍照。"
   },
   {
-    "english": "bother",
     "chinese": "打扰，烦扰",
-    "pos": "n."
+    "english": "bother",
+    "pos": "v.",
+    "sentence": "Please don't ______ your sister while she's doing homework.",
+    "sentence_translation": "你妹妹做作业时请不要打扰她。"
   },
   {
-    "english": "artwork",
     "chinese": "艺术品",
-    "pos": "n."
+    "english": "artwork",
+    "pos": "n.",
+    "sentence": "The museum exhibits ______ from ancient civilizations around the world.",
+    "sentence_translation": "这家博物馆展出了来自世界各地古代文明的艺术品。"
   },
   {
-    "english": "appreciate",
     "chinese": "欣赏",
-    "pos": "n."
+    "english": "appreciate",
+    "pos": "v.",
+    "sentence": "We should ______ the efforts teachers make for our education.",
+    "sentence_translation": "我们应该欣赏老师为我们的教育所做的努力。"
   },
   {
-    "english": "exhibition",
     "chinese": "展览",
-    "pos": "n."
+    "english": "exhibition",
+    "pos": "n.",
+    "sentence": "The new ______ of impressionist paintings will open next week.",
+    "sentence_translation": "新的印象派绘画展览将于下周开幕。"
   },
   {
-    "english": "immerse",
     "chinese": "沉浸",
-    "pos": "n."
+    "english": "immerse",
+    "pos": "v.",
+    "sentence": "Readers can ______ themselves in the magical world of the novel.",
+    "sentence_translation": "读者可以沉浸在小说的魔幻世界中。"
   },
   {
-    "english": "entertaining",
     "chinese": "有趣的",
-    "pos": "v."
+    "english": "entertaining",
+    "pos": "adj.",
+    "sentence": "The ______ talk show made the audience laugh throughout the program.",
+    "sentence_translation": "这个有趣的脱口秀让观众在整个节目过程中都笑个不停。"
   },
   {
-    "english": "complicated",
     "chinese": "复杂的",
-    "pos": "v."
+    "english": "complicated",
+    "pos": "adj.",
+    "sentence": "The ______ instructions made it hard to assemble the furniture.",
+    "sentence_translation": "复杂的说明让人难以组装家具。"
   },
   {
-    "english": "sore",
     "chinese": "疼痛的",
-    "pos": "n."
+    "english": "sore",
+    "pos": "adj.",
+    "sentence": "His throat felt ______ after speaking for hours at the meeting.",
+    "sentence_translation": "在会议上讲话几小时后，他的喉咙感到疼痛。"
   },
   {
-    "english": "comedy",
     "chinese": "喜剧",
-    "pos": "n."
+    "english": "comedy",
+    "pos": "n.",
+    "sentence": "Watching a light ______ is a good way to relax after a busy day.",
+    "sentence_translation": "忙碌一天后，看一部轻松的喜剧是放松的好方法。"
   },
   {
-    "english": "video game",
     "chinese": "电子游戏",
-    "pos": "phrase"
+    "english": "video game",
+    "pos": "phrase",
+    "sentence": "Playing ______ ______ for too long can harm your eyesight.",
+    "sentence_translation": "玩太久电子游戏会损害视力。"
   },
   {
-    "english": "board game",
     "chinese": "桌面游戏",
-    "pos": "phrase"
+    "english": "board game",
+    "pos": "phrase",
+    "sentence": "We often play ______ ______ like monopoly with family on weekends.",
+    "sentence_translation": "我们周末经常和家人玩大富翁之类的桌面游戏。"
   },
   {
-    "english": "board game place",
     "chinese": "桌游店",
-    "pos": "phrase"
+    "english": "board game place",
+    "pos": "phrase",
+    "sentence": "They met at a popular ______ ______ ______ to try new games.",
+    "sentence_translation": "他们在一家受欢迎的桌游店见面尝试新游戏。"
   },
   {
-    "english": "online mode",
     "chinese": "在线模式",
-    "pos": "phrase"
+    "english": "online mode",
+    "pos": "phrase",
+    "sentence": "This game's ______ ______ allows players from different countries to compete.",
+    "sentence_translation": "这款游戏的在线模式允许来自不同国家的玩家竞技。"
   },
   {
-    "english": "catch up",
     "chinese": "赶上，跟上",
-    "pos": "phrase"
+    "english": "catch up",
+    "pos": "phrase",
+    "sentence": "She needs to ______ ______ on her studies after missing a week of school.",
+    "sentence_translation": "缺课一周后，她需要赶上学习进度。"
   },
   {
-    "english": "electronic product",
     "chinese": "电子产品",
-    "pos": "phrase"
+    "english": "electronic product",
+    "pos": "phrase",
+    "sentence": "The store sells various ______ ______ such as smartphones and tablets.",
+    "sentence_translation": "这家店出售各种电子产品，如智能手机和平板电脑。"
   },
   {
-    "english": "concentrate on",
     "chinese": "专注于",
-    "pos": "phrase"
+    "english": "concentrate on",
+    "pos": "phrase",
+    "sentence": "It's important to ______ ______ one task at a time to do it well.",
+    "sentence_translation": "一次专注于一项任务才能把它做好，这很重要。"
   },
   {
-    "english": "light-hearted comedy",
     "chinese": "轻松的喜剧",
-    "pos": "phrase"
+    "english": "light-hearted comedy",
+    "pos": "phrase",
+    "sentence": "Watching a ______ ______ ______ helps reduce stress after work.",
+    "sentence_translation": "下班后看一部轻松的喜剧有助于缓解压力。"
   },
   {
-    "english": "get a good laugh",
     "chinese": "捧腹大笑",
-    "pos": "phrase"
+    "english": "get a good laugh",
+    "pos": "phrase",
+    "sentence": "The funny scene in the movie made the whole audience ______ ______ ______ ______.",
+    "sentence_translation": "电影里的搞笑场景让全场观众捧腹大笑。"
   },
   {
-    "english": "go through a lot of trouble",
     "chinese": "费很大劲",
-    "pos": "phrase"
+    "english": "go through a lot of trouble",
+    "pos": "phrase",
+    "sentence": "They ______ ______ ______ ______ ______ to help the lost child find his parents.",
+    "sentence_translation": "他们费很大劲帮助那个迷路的孩子找到父母。"
   },
   {
-    "english": "get attention",
     "chinese": "获得关注",
-    "pos": "phrase"
+    "english": "get attention",
+    "pos": "phrase",
+    "sentence": "Bright colors and creative designs help advertisements ______ ______ easily.",
+    "sentence_translation": "鲜艳的颜色和有创意的设计帮助广告轻松获得关注。"
   },
   {
-    "english": "hard to follow",
     "chinese": "难以理解",
-    "pos": "phrase"
+    "english": "hard to follow",
+    "pos": "phrase",
+    "sentence": "The professor's lecture was so abstract that it was ______ ______ ______ for beginners.",
+    "sentence_translation": "这位教授的讲座太抽象，初学者难以理解。"
   }
 ]

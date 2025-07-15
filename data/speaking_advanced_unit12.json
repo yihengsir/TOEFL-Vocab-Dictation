@@ -1,132 +1,184 @@
 [
   {
-    "english": "physiologically",
     "chinese": "生理上地",
-    "pos": "adv."
+    "english": "physiologically",
+    "pos": "adv.",
+    "sentence": "Lack of sleep affects the body ______ by weakening the immune system.",
+    "sentence_translation": "睡眠不足会通过削弱免疫系统在生理上影响身体。"
   },
   {
-    "english": "attachment",
     "chinese": "依附，联系",
-    "pos": "n."
+    "english": "attachment",
+    "pos": "n.",
+    "sentence": "A baby's ______ to its mother is crucial for emotional development.",
+    "sentence_translation": "婴儿对母亲的依附对情感发展至关重要。"
   },
   {
-    "english": "nourishment",
     "chinese": "滋养，营养",
-    "pos": "n."
+    "english": "nourishment",
+    "pos": "n.",
+    "sentence": "Plants get ______ from soil, water, and sunlight.",
+    "sentence_translation": "植物从土壤、水和阳光中获取滋养。"
   },
   {
-    "english": "curious",
     "chinese": "好奇的",
-    "pos": "adj."
+    "english": "curious",
+    "pos": "adj.",
+    "sentence": "The ______ child asked endless questions about the stars.",
+    "sentence_translation": "这个好奇的孩子对星星问个不停。"
   },
   {
-    "english": "internal",
     "chinese": "内部的",
-    "pos": "adj."
+    "english": "internal",
+    "pos": "adj.",
+    "sentence": "The company is dealing with ______ problems that affect its efficiency.",
+    "sentence_translation": "这家公司正在处理影响其效率的内部问题。"
   },
   {
-    "english": "unique",
     "chinese": "独特的",
-    "pos": "n."
+    "english": "unique",
+    "pos": "adj.",
+    "sentence": "Each person has a ______ fingerprint that distinguishes them from others.",
+    "sentence_translation": "每个人都有独特的指纹，以此与他人区分。"
   },
   {
-    "english": "adaptation",
     "chinese": "适应，改编",
-    "pos": "n."
+    "english": "adaptation",
+    "pos": "n.",
+    "sentence": "The ______ of desert animals to dry conditions is remarkable.",
+    "sentence_translation": "沙漠动物对干旱环境的适应能力令人惊叹。"
   },
   {
-    "english": "substance",
     "chinese": "物质，实质",
-    "pos": "n."
+    "english": "substance",
+    "pos": "n.",
+    "sentence": "Scientists are studying the unknown ______ found in the deep ocean.",
+    "sentence_translation": "科学家们正在研究深海中发现的未知物质。"
   },
   {
-    "english": "vulnerable",
     "chinese": "脆弱的，易受伤害的",
-    "pos": "adj."
+    "english": "vulnerable",
+    "pos": "adj.",
+    "sentence": "Young birds are ______ to predators when they first leave the nest.",
+    "sentence_translation": "幼鸟刚离巢时易受捕食者伤害。"
   },
   {
-    "english": "reinforce",
     "chinese": "加强，巩固",
-    "pos": "n."
+    "english": "reinforce",
+    "pos": "v.",
+    "sentence": "Regular practice helps to ______ language skills and improve fluency.",
+    "sentence_translation": "定期练习有助于加强语言技能并提高流利度。"
   },
   {
-    "english": "supportive",
     "chinese": "支持的",
-    "pos": "adj."
+    "english": "supportive",
+    "pos": "adj.",
+    "sentence": "Her ______ family encouraged her to pursue a career in art.",
+    "sentence_translation": "她的支持性家人鼓励她从事艺术事业。"
   },
   {
-    "english": "prompt",
     "chinese": "迅速的，及时的",
-    "pos": "n."
+    "english": "prompt",
+    "pos": "adj.",
+    "sentence": "A ______ response to the emergency saved many lives.",
+    "sentence_translation": "对紧急情况的及时回应挽救了许多生命。"
   },
   {
-    "english": "bond",
     "chinese": "纽带，联系",
-    "pos": "n."
+    "english": "bond",
+    "pos": "n.",
+    "sentence": "The ______ between siblings often grows stronger with time.",
+    "sentence_translation": "兄弟姐妹之间的纽带往往会随着时间变得更牢固。"
   },
   {
-    "english": "contraption",
     "chinese": "奇怪的装置",
-    "pos": "n."
+    "english": "contraption",
+    "pos": "n.",
+    "sentence": "The inventor showed us a ______ that he claimed could clean floors automatically.",
+    "sentence_translation": "发明家向我们展示了一个奇怪的装置，他声称这个装置能自动清洁地板。"
   },
   {
-    "english": "mental abilities",
     "chinese": "心智能力",
-    "pos": "phrase"
+    "english": "mental abilities",
+    "pos": "phrase",
+    "sentence": "Reading books regularly can improve ______ ______ like memory and focus.",
+    "sentence_translation": "定期读书可以提高记忆力和专注力等心智能力。"
   },
   {
-    "english": "in particular",
     "chinese": "尤其，特别",
-    "pos": "phrase"
+    "english": "in particular",
+    "pos": "phrase",
+    "sentence": "I love all kinds of fruits, ______ ______ strawberries and mangoes.",
+    "sentence_translation": "我喜欢各种水果，尤其草莓和芒果。"
   },
   {
-    "english": "care for",
     "chinese": "照顾，关心",
-    "pos": "phrase"
+    "english": "care for",
+    "pos": "phrase",
+    "sentence": "Volunteers ______ ______ elderly people in the community who live alone.",
+    "sentence_translation": "志愿者们照顾社区里独居的老年人。"
   },
   {
-    "english": "find … way through",
     "chinese": "找到通过…的方法",
-    "pos": "phrase"
+    "english": "find … way through",
+    "pos": "phrase",
+    "sentence": "With a map, we can ______ our ______ ______ the complicated forest trails.",
+    "sentence_translation": "有了地图，我们能找到通过复杂森林小径的方法。"
   },
   {
-    "english": "be vulnerable to",
     "chinese": "易受…影响",
-    "pos": "phrase"
+    "english": "be vulnerable to",
+    "pos": "phrase",
+    "sentence": "Plants in this region ______ ______ ______ damage from strong winds.",
+    "sentence_translation": "这个地区的植物易受强风影响而受损。"
   },
   {
-    "english": "maintain a … attitude towards …",
     "chinese": "对…保持某种态度",
-    "pos": "phrase"
+    "english": "maintain a … attitude towards …",
+    "pos": "phrase",
+    "sentence": "It's important to ______ ______ positive ______ ______ life challenges.",
+    "sentence_translation": "对生活中的挑战保持积极态度很重要。"
   },
   {
-    "english": "build confidence",
     "chinese": "建立信心",
-    "pos": "phrase"
+    "english": "build confidence",
+    "pos": "phrase",
+    "sentence": "Practicing public speaking helps students to ______ ______ in communication.",
+    "sentence_translation": "练习公开演讲帮助学生建立沟通信心。"
   },
   {
-    "english": "clear up misunderstanding",
     "chinese": "消除误解",
-    "pos": "phrase"
+    "english": "clear up misunderstanding",
+    "pos": "phrase",
+    "sentence": "Open and honest dialogue can ______ ______ ______ between friends.",
+    "sentence_translation": "坦诚的对话可以消除朋友间的误解。"
   },
   {
-    "english": "end up with …",
     "chinese": "以…告终",
-    "pos": "phrase"
+    "english": "end up with …",
+    "pos": "phrase",
+    "sentence": "After months of hard work, they ______ ______ ______ a successful project.",
+    "sentence_translation": "经过数月的努力，他们以一个成功的项目告终。"
   },
   {
-    "english": "perform … function",
     "chinese": "执行…功能",
-    "pos": "phrase"
+    "english": "perform … function",
+    "pos": "phrase",
+    "sentence": "The heart's main job is to ______ the ______ of pumping blood throughout the body.",
+    "sentence_translation": "心脏的主要工作是执行向全身泵血的功能。"
   },
   {
-    "english": "become attached to …",
     "chinese": "对…产生依恋",
-    "pos": "phrase"
+    "english": "become attached to …",
+    "pos": "phrase",
+    "sentence": "Children often ______ ______ ______ their favorite toys or blankets.",
+    "sentence_translation": "孩子们常常对他们最喜欢的玩具或毯子产生依恋。"
   },
   {
-    "english": "form/create a bond",
     "chinese": "形成/建立纽带",
-    "pos": "phrase"
+    "english": "form/create a bond",
+    "pos": "phrase",
+    "sentence": "Shared hobbies and experiences help people to ______ a ______ with each other.",
+    "sentence_translation": "共同的爱好和经历帮助人们彼此形成纽带。"
   }
 ]

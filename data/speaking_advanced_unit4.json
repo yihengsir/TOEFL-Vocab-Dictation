@@ -1,82 +1,114 @@
 [
   {
-    "english": "downside",
     "chinese": "缺点",
-    "pos": "n."
+    "english": "downside",
+    "pos": "n.",
+    "sentence": "The only ______ of this job is the long working hours.",
+    "sentence_translation": "这份工作唯一的缺点是工作时间长。"
   },
   {
-    "english": "downtown",
     "chinese": "市中心",
-    "pos": "n."
+    "english": "downtown",
+    "pos": "n.",
+    "sentence": "We decided to meet at a café in the ______ this evening.",
+    "sentence_translation": "我们决定今晚在市中心的一家咖啡馆见面。"
   },
   {
-    "english": "whereas",
     "chinese": "然而",
-    "pos": "n."
+    "english": "whereas",
+    "pos": "conj.",
+    "sentence": "She enjoys outdoor activities, ______ her sister prefers staying at home.",
+    "sentence_translation": "她喜欢户外活动，然而她妹妹更喜欢待在家里。"
   },
   {
-    "english": "dial",
     "chinese": "拨号",
-    "pos": "adj."
+    "english": "dial",
+    "pos": "v.",
+    "sentence": "Please ______ the emergency number if you need help.",
+    "sentence_translation": "如果你需要帮助，请拨打紧急号码。"
   },
   {
-    "english": "unexpectedly",
     "chinese": "意想不到地",
-    "pos": "adv."
+    "english": "unexpectedly",
+    "pos": "adv.",
+    "sentence": "The weather changed ______, and it started to rain heavily.",
+    "sentence_translation": "天气意想不到地变了，开始下大雨。"
   },
   {
-    "english": "narrow down",
     "chinese": "缩小范围",
-    "pos": "phrase"
+    "english": "narrow down",
+    "pos": "phrase",
+    "sentence": "We need to ______ ______ our choices before making a final decision.",
+    "sentence_translation": "我们需要在做最终决定前缩小选择范围。"
   },
   {
-    "english": "on one’s mind",
     "chinese": "挂在心上",
-    "pos": "phrase"
+    "english": "on one’s mind",
+    "pos": "phrase",
+    "sentence": "The exam has been ______ ______ ______ all week, so she can't relax.",
+    "sentence_translation": "考试整周都挂在她心上，所以她无法放松。"
   },
   {
-    "english": "know one’s way around",
     "chinese": "熟悉某地",
-    "pos": "phrase"
+    "english": "know one’s way around",
+    "pos": "phrase",
+    "sentence": "After living in Paris for a year, he ______ ______ ______ ______ the city very well.",
+    "sentence_translation": "在巴黎住了一年后，他非常熟悉这座城市。"
   },
   {
-    "english": "have no idea",
     "chinese": "不知道",
-    "pos": "phrase"
+    "english": "have no idea",
+    "pos": "phrase",
+    "sentence": "I ______ ______ ______ how to solve this math problem.",
+    "sentence_translation": "我不知道如何解决这道数学题。"
   },
   {
-    "english": "look something up",
     "chinese": "查阅某事",
-    "pos": "phrase"
+    "english": "look something up",
+    "pos": "phrase",
+    "sentence": "If you don't understand the word, ______ it ______ in a dictionary.",
+    "sentence_translation": "如果你不理解这个单词，在字典里查阅它。"
   },
   {
-    "english": "point to",
     "chinese": "指向",
-    "pos": "phrase"
+    "english": "point to",
+    "pos": "phrase",
+    "sentence": "The teacher ______ ______ the chart to explain the theory.",
+    "sentence_translation": "老师指向图表解释这个理论。"
   },
   {
-    "english": "work on something",
     "chinese": "（努力）做某事",
-    "pos": "phrase"
+    "english": "work on something",
+    "pos": "phrase",
+    "sentence": "She has been ______ ______ her painting skills every day.",
+    "sentence_translation": "她每天都在努力提升自己的绘画技巧。"
   },
   {
-    "english": "be likely to do something",
     "chinese": "可能做某事",
-    "pos": "phrase"
+    "english": "be likely to do something",
+    "pos": "phrase",
+    "sentence": "Children ______ ______ ______ ______ excited about festivals.",
+    "sentence_translation": "孩子们可能会对节日感到兴奋。"
   },
   {
-    "english": "a big reader",
     "chinese": "读书迷",
-    "pos": "phrase"
+    "english": "a big reader",
+    "pos": "phrase",
+    "sentence": "As ______ ______ ______, she spends most of her free time reading novels.",
+    "sentence_translation": "作为一个读书迷，她大部分空闲时间都在看小说。"
   },
   {
-    "english": "have no trouble doing something",
     "chinese": "做某事毫不费力",
-    "pos": "phrase"
+    "english": "have no trouble doing something",
+    "pos": "phrase",
+    "sentence": "He ______ ______ ______ ______ learning new languages.",
+    "sentence_translation": "他学习新语言毫不费力。"
   },
   {
-    "english": "run into someone",
     "chinese": "偶遇某人",
-    "pos": "phrase"
+    "english": "run into someone",
+    "pos": "phrase",
+    "sentence": "I ______ ______ my primary school teacher while walking in the park.",
+    "sentence_translation": "我在公园散步时偶遇了我的小学老师。"
   }
 ]

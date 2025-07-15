@@ -1,247 +1,345 @@
 [
   {
-    "english": "seagoing",
     "chinese": "远洋的",
-    "pos": "v."
+    "english": "seagoing",
+    "pos": "adj.",
+    "sentence": "The ______ ship can travel across the Pacific Ocean.",
+    "sentence_translation": "这艘远洋的船能穿越太平洋。"
   },
   {
-    "english": "exhibit",
     "chinese": "展示，展览",
-    "pos": "n."
+    "english": "exhibit",
+    "pos": "n.",
+    "sentence": "The new ______ at the museum features ancient artifacts.",
+    "sentence_translation": "博物馆的新展览以古代文物为特色。"
   },
   {
-    "english": "mature",
     "chinese": "成熟的",
-    "pos": "n."
+    "english": "mature",
+    "pos": "adj.",
+    "sentence": "______ salmon return to their birthplace to spawn.",
+    "sentence_translation": "成熟的三文鱼回到它们的出生地产卵。"
   },
   {
-    "english": "salmon",
     "chinese": "三文鱼",
-    "pos": "n."
+    "english": "salmon",
+    "pos": "n.",
+    "sentence": "We had grilled ______ with lemon for dinner.",
+    "sentence_translation": "我们晚餐吃了柠檬烤三文鱼。"
   },
   {
+    "chinese": "繁殖",
     "english": "breed",
-    "chinese": "繁殖",
-    "pos": "v."
+    "pos": "v.",
+    "sentence": "These birds ______ in the spring when food is abundant.",
+    "sentence_translation": "这些鸟在食物充足的春天繁殖。"
   },
   {
-    "english": "hatch",
     "chinese": "孵化",
-    "pos": "n."
+    "english": "hatch",
+    "pos": "n.",
+    "sentence": "The ______ of the eggs takes about three weeks.",
+    "sentence_translation": "这些蛋的孵化大约需要三周时间。"
   },
   {
-    "english": "dart",
     "chinese": "飞奔，急驰",
-    "pos": "n."
+    "english": "dart",
+    "pos": "n.",
+    "sentence": "The rabbit made a quick ______ into the bush to escape the fox.",
+    "sentence_translation": "兔子迅速飞奔到灌木丛中躲避狐狸。"
   },
   {
-    "english": "spawn",
     "chinese": "产卵",
-    "pos": "n."
+    "english": "spawn",
+    "pos": "n.",
+    "sentence": "The river is full of fish ______ during the breeding season.",
+    "sentence_translation": "繁殖季节，河里满是鱼卵。"
   },
   {
-    "english": "obtain",
     "chinese": "获得",
-    "pos": "n."
+    "english": "obtain",
+    "pos": "v.",
+    "sentence": "They need to ______ permission before starting the project.",
+    "sentence_translation": "他们在启动项目前需要获得许可。"
   },
   {
-    "english": "baboon",
     "chinese": "狒狒",
-    "pos": "n."
+    "english": "baboon",
+    "pos": "n.",
+    "sentence": "A troop of ______ was spotted near the waterhole.",
+    "sentence_translation": "在水坑附近发现了一群狒狒。"
   },
   {
-    "english": "predator",
     "chinese": "捕食者",
-    "pos": "n."
+    "english": "predator",
+    "pos": "n.",
+    "sentence": "Lions are one of the top ______ in the African savanna.",
+    "sentence_translation": "狮子是非洲稀树草原的顶级捕食者之一。"
   },
   {
-    "english": "alert",
     "chinese": "警告",
-    "pos": "n."
+    "english": "alert",
+    "pos": "n.",
+    "sentence": "The villagers sounded an ______ when the storm approached.",
+    "sentence_translation": "暴风雨来临时，村民们发出了警告。"
   },
   {
-    "english": "spread",
     "chinese": "散布，传播",
-    "pos": "n."
+    "english": "spread",
+    "pos": "n.",
+    "sentence": "The ______ of the virus was controlled by strict measures.",
+    "sentence_translation": "通过严格措施控制了病毒的传播。"
   },
   {
+    "chinese": "觅食",
     "english": "forage",
-    "chinese": "觅食",
-    "pos": "n."
+    "pos": "n.",
+    "sentence": "The deer went out for ______ in the early morning.",
+    "sentence_translation": "鹿在清晨出去觅食。"
   },
   {
-    "english": "feed",
     "chinese": "喂养",
-    "pos": "v."
+    "english": "feed",
+    "pos": "v.",
+    "sentence": "Mother birds ______ their chicks with worms and insects.",
+    "sentence_translation": "母鸟用蠕虫和昆虫喂养雏鸟。"
   },
   {
-    "english": "groom",
     "chinese": "打理（毛发）",
-    "pos": "n."
+    "english": "groom",
+    "pos": "n.",
+    "sentence": "The monkey spent hours on ______ to keep its fur clean.",
+    "sentence_translation": "这只猴子花了几个小时打理毛发，保持皮毛干净。"
   },
   {
-    "english": "migrate",
     "chinese": "迁徙",
-    "pos": "n."
+    "english": "migrate",
+    "pos": "v.",
+    "sentence": "Geese ______ south every winter to avoid the cold.",
+    "sentence_translation": "鹅每年冬天迁徙到南方躲避寒冷。"
   },
   {
-    "english": "freshwater",
     "chinese": "淡水",
-    "pos": "n."
+    "english": "freshwater",
+    "pos": "n.",
+    "sentence": "The lake provides ______ for the surrounding villages.",
+    "sentence_translation": "这个湖为周边村庄提供淡水。"
   },
   {
-    "english": "survival",
     "chinese": "生存",
-    "pos": "adj."
+    "english": "survival",
+    "pos": "n.",
+    "sentence": "Adaptability is key to ______ in harsh environments.",
+    "sentence_translation": "适应性是在恶劣环境中生存的关键。"
   },
   {
-    "english": "temporarily",
     "chinese": "暂时地",
-    "pos": "adv."
+    "english": "temporarily",
+    "pos": "adv.",
+    "sentence": "The company will ______ close during the renovation.",
+    "sentence_translation": "公司在翻新期间将暂时关闭。"
   },
   {
-    "english": "capacity",
     "chinese": "容量",
-    "pos": "n."
+    "english": "capacity",
+    "pos": "n.",
+    "sentence": "The water tank has a ______ of 500 liters.",
+    "sentence_translation": "这个水箱的容量是500升。"
   },
   {
-    "english": "allocation",
     "chinese": "分配",
-    "pos": "n."
+    "english": "allocation",
+    "pos": "n.",
+    "sentence": "The ______ of resources should be fair to all teams.",
+    "sentence_translation": "资源的分配应对所有团队公平。"
   },
   {
-    "english": "reproduce",
     "chinese": "繁殖",
-    "pos": "n."
+    "english": "reproduce",
+    "pos": "v.",
+    "sentence": "Plants ______ through seeds or cuttings.",
+    "sentence_translation": "植物通过种子或插条繁殖。"
   },
   {
-    "english": "fulfill",
     "chinese": "满足",
-    "pos": "n."
+    "english": "fulfill",
+    "pos": "v.",
+    "sentence": "Hard work can help you ______ your dreams.",
+    "sentence_translation": "努力工作能帮助你实现梦想。"
   },
   {
-    "english": "disrupt",
     "chinese": "扰乱",
-    "pos": "n."
+    "english": "disrupt",
+    "pos": "v.",
+    "sentence": "The storm ______ the normal operation of the airport.",
+    "sentence_translation": "暴风雨扰乱了机场的正常运营。"
   },
   {
-    "english": "distinct",
     "chinese": "独特的，明显不同的",
-    "pos": "n."
+    "english": "distinct",
+    "pos": "adj.",
+    "sentence": "The two species have ______ characteristics that are easy to tell apart.",
+    "sentence_translation": "这两个物种有明显不同的特征，很容易区分。"
   },
   {
-    "english": "coloring",
     "chinese": "颜色，外观",
-    "pos": "v."
+    "english": "coloring",
+    "pos": "n.",
+    "sentence": "The butterfly's bright ______ helps it attract mates.",
+    "sentence_translation": "蝴蝶鲜艳的颜色有助于它吸引配偶。"
   },
   {
-    "english": "employ",
     "chinese": "使用",
-    "pos": "n."
+    "english": "employ",
+    "pos": "v.",
+    "sentence": "Scientists ______ new technology to study climate change.",
+    "sentence_translation": "科学家使用新技术研究气候变化。"
   },
   {
-    "english": "prey",
     "chinese": "猎物",
-    "pos": "n."
+    "english": "prey",
+    "pos": "n.",
+    "sentence": "The owl silently hunted for ______ in the dark.",
+    "sentence_translation": "猫头鹰在黑暗中静静地捕食猎物。"
   },
   {
-    "english": "pollen",
     "chinese": "花粉",
-    "pos": "n."
+    "english": "pollen",
+    "pos": "n.",
+    "sentence": "Bees carry ______ from one flower to another, helping plants reproduce.",
+    "sentence_translation": "蜜蜂将花粉从一朵花带到另一朵花，帮助植物繁殖。"
   },
   {
-    "english": "nectar",
     "chinese": "花蜜",
-    "pos": "n."
+    "english": "nectar",
+    "pos": "n.",
+    "sentence": "Honey is made from the ______ of flowers by bees.",
+    "sentence_translation": "蜂蜜是蜜蜂用花的花蜜制成的。"
   },
   {
-    "english": "species",
     "chinese": "物种",
-    "pos": "n."
+    "english": "species",
+    "pos": "n.",
+    "sentence": "This forest is home to many rare ______ of plants and animals.",
+    "sentence_translation": "这片森林是许多珍稀动植物物种的家园。"
   },
   {
-    "english": "vulnerable",
     "chinese": "脆弱的，易受伤害的",
-    "pos": "adj."
+    "english": "vulnerable",
+    "pos": "adj.",
+    "sentence": "Young children are more ______ to diseases than adults.",
+    "sentence_translation": "幼儿比成人更易受疾病侵害。"
   },
   {
-    "english": "salt water",
     "chinese": "盐水",
-    "pos": "phrase"
+    "english": "salt water",
+    "pos": "phrase",
+    "sentence": "Most ______ ______ fish cannot live in freshwater.",
+    "sentence_translation": "大多数盐水鱼不能生活在淡水中。"
   },
   {
-    "english": "a certain age",
     "chinese": "某个年龄",
-    "pos": "phrase"
+    "english": "a certain age",
+    "pos": "phrase",
+    "sentence": "People ______ ______ ______ are required to have regular health checks.",
+    "sentence_translation": "某个年龄段的人需要定期体检。"
   },
   {
-    "english": "survival needs",
     "chinese": "生存需求",
-    "pos": "phrase"
+    "english": "survival needs",
+    "pos": "phrase",
+    "sentence": "Food, water, and shelter are basic ______ ______ for all living things.",
+    "sentence_translation": "食物、水和住所是所有生物的基本生存需求。"
   },
   {
-    "english": "in response to",
     "chinese": "响应",
-    "pos": "phrase"
+    "english": "in response to",
+    "pos": "phrase",
+    "sentence": "The government took action ______ ______ ______ public concerns.",
+    "sentence_translation": "政府响应公众关切采取了行动。"
   },
   {
-    "english": "engage in",
     "chinese": "从事",
-    "pos": "phrase"
+    "english": "engage in",
+    "pos": "phrase",
+    "sentence": "They ______ ______ various outdoor activities during the vacation.",
+    "sentence_translation": "他们在假期从事各种户外活动。"
   },
   {
-    "english": "attempts to",
     "chinese": "尝试",
-    "pos": "phrase"
+    "english": "attempts to",
+    "pos": "phrase",
+    "sentence": "She ______ ______ learn a new language every year.",
+    "sentence_translation": "她每年尝试学习一门新语言。"
   },
   {
-    "english": "physical features",
     "chinese": "身体特征",
-    "pos": "phrase"
+    "english": "physical features",
+    "pos": "phrase",
+    "sentence": "The animal's ______ ______ help it survive in cold climates.",
+    "sentence_translation": "这种动物的身体特征帮助它在寒冷气候中生存。"
   },
   {
-    "english": "defense mechanism",
     "chinese": "防御机制",
-    "pos": "phrase"
+    "english": "defense mechanism",
+    "pos": "phrase",
+    "sentence": "Camouflage is a common ______ ______ used by many animals.",
+    "sentence_translation": "伪装是许多动物使用的常见防御机制。"
   },
   {
-    "english": "transfer pollen",
     "chinese": "传播花粉",
-    "pos": "phrase"
+    "english": "transfer pollen",
+    "pos": "phrase",
+    "sentence": "Butterflies and bees ______ ______ between flowers as they feed.",
+    "sentence_translation": "蝴蝶和蜜蜂在觅食时在花之间传播花粉。"
   },
   {
-    "english": "a limited number of",
     "chinese": "有限的数量",
-    "pos": "phrase"
+    "english": "a limited number of",
+    "pos": "phrase",
+    "sentence": "There are only ______ ______ ______ tickets available for the concert.",
+    "sentence_translation": "这场音乐会只有有限的数量的票可供购买。"
   },
   {
-    "english": "spread far apart",
     "chinese": "散布得很远",
-    "pos": "phrase"
+    "english": "spread far apart",
+    "pos": "phrase",
+    "sentence": "The villages in the mountain area are ______ ______ ______ from each other.",
+    "sentence_translation": "山区的村庄彼此散布得很远。"
   },
   {
-    "english": "spread out",
     "chinese": "扩散开",
-    "pos": "phrase"
+    "english": "spread out",
+    "pos": "phrase",
+    "sentence": "The crowd ______ ______ across the square to watch the performance.",
+    "sentence_translation": "人群在广场上扩散开来观看表演。"
   },
   {
-    "english": "search for food",
     "chinese": "觅食",
-    "pos": "phrase"
+    "english": "search for food",
+    "pos": "phrase",
+    "sentence": "The wolves went out to ______ ______ ______ when night fell.",
+    "sentence_translation": "夜幕降临时，狼群出去觅食。"
   },
   {
-    "english": "grow to full size",
     "chinese": "长到完全大小",
-    "pos": "phrase"
+    "english": "grow to full size",
+    "pos": "phrase",
+    "sentence": "The tree will take about ten years to ______ ______ ______ ______.",
+    "sentence_translation": "这棵树大约需要十年才能长到完全大小。"
   },
   {
-    "english": "dart back down into safety",
     "chinese": "迅速回到安全处",
-    "pos": "phrase"
+    "english": "dart back down into safety",
+    "pos": "phrase",
+    "sentence": "The small fish ______ ______ ______ ______ ______ when they saw a shark.",
+    "sentence_translation": "小鱼看到鲨鱼时迅速回到安全处。"
   },
   {
-    "english": "sea creatures",
     "chinese": "海洋生物",
-    "pos": "phrase"
+    "english": "sea creatures",
+    "pos": "phrase",
+    "sentence": "The aquarium displays a variety of ______ ______ from the deep ocean.",
+    "sentence_translation": "水族馆展示了各种来自深海的海洋生物。"
   }
 ]

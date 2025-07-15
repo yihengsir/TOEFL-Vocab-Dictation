@@ -1,97 +1,135 @@
 [
   {
-    "english": "assignment",
     "chinese": "作业，任务",
-    "pos": "n."
+    "english": "assignment",
+    "pos": "n.",
+    "sentence": "The history teacher assigned a research ______ due next Friday.",
+    "sentence_translation": "历史老师布置了一项下周五截止的研究作业。"
   },
   {
-    "english": "academically",
     "chinese": "学术上",
-    "pos": "adv."
+    "english": "academically",
+    "pos": "adv.",
+    "sentence": "She excels ______ and has won several scholarships.",
+    "sentence_translation": "她在学术上表现出色，赢得了多项奖学金。"
   },
   {
-    "english": "perform",
     "chinese": "表现，执行",
-    "pos": "n."
+    "english": "perform",
+    "pos": "v.",
+    "sentence": "He can ______ the task perfectly with enough time.",
+    "sentence_translation": "有足够时间的话，他能完美地执行这项任务。"
   },
   {
-    "english": "invest",
     "chinese": "投资",
-    "pos": "n."
+    "english": "invest",
+    "pos": "v.",
+    "sentence": "They plan to ______ in new technology to improve efficiency.",
+    "sentence_translation": "他们计划投资新技术以提高效率。"
   },
   {
-    "english": "equipment",
     "chinese": "设备，器材",
-    "pos": "n."
+    "english": "equipment",
+    "pos": "n.",
+    "sentence": "The lab is equipped with advanced scientific ______.",
+    "sentence_translation": "实验室配备了先进的科学设备。"
   },
   {
-    "english": "staff",
     "chinese": "员工，职员",
-    "pos": "n."
+    "english": "staff",
+    "pos": "n.",
+    "sentence": "The hotel ______ are trained to provide excellent service.",
+    "sentence_translation": "酒店员工接受过培训，能提供优质服务。"
   },
   {
-    "english": "maintain",
     "chinese": "维护，保养",
-    "pos": "n."
+    "english": "maintain",
+    "pos": "v.",
+    "sentence": "It's important to ______ your car regularly to keep it running well.",
+    "sentence_translation": "定期保养你的车以保持其良好运行很重要。"
   },
   {
-    "english": "facility",
     "chinese": "设施，设备",
-    "pos": "n."
+    "english": "facility",
+    "pos": "n.",
+    "sentence": "The sports center has a swimming pool and other modern ______.",
+    "sentence_translation": "体育中心有游泳池和其他现代化设施。"
   },
   {
-    "english": "fund",
     "chinese": "资金，基金",
-    "pos": "n."
+    "english": "fund",
+    "pos": "n.",
+    "sentence": "The charity launched a ______ to help homeless children.",
+    "sentence_translation": "该慈善机构发起了一项基金来帮助无家可归的儿童。"
   },
   {
-    "english": "expand",
     "chinese": "扩展，扩大",
-    "pos": "n."
+    "english": "expand",
+    "pos": "v.",
+    "sentence": "The company plans to ______ its business into European markets.",
+    "sentence_translation": "该公司计划将业务扩展到欧洲市场。"
   },
   {
-    "english": "resentful",
     "chinese": "感到怨恨的",
-    "pos": "adj."
+    "english": "resentful",
+    "pos": "adj.",
+    "sentence": "She felt ______ when her ideas were ignored in the meeting.",
+    "sentence_translation": "会议上自己的想法被忽视时，她感到很怨恨。"
   },
   {
-    "english": "genuinely",
     "chinese": "真诚地，真正地",
-    "pos": "adv."
+    "english": "genuinely",
+    "pos": "adv.",
+    "sentence": "He ______ cares about his students' progress in studies.",
+    "sentence_translation": "他真诚地关心学生的学习进步。"
   },
   {
-    "english": "inspire",
     "chinese": "激励，启发",
-    "pos": "n."
+    "english": "inspire",
+    "pos": "v.",
+    "sentence": "Her story ______ many young people to pursue their dreams.",
+    "sentence_translation": "她的故事激励了许多年轻人追求梦想。"
   },
   {
-    "english": "mandatory",
     "chinese": "强制的，必须的",
-    "pos": "n."
+    "english": "mandatory",
+    "pos": "adj.",
+    "sentence": "Wearing seat belts is ______ for all passengers in the car.",
+    "sentence_translation": "车上所有乘客系安全带是必须的。"
   },
   {
-    "english": "eliminate",
     "chinese": "消除，淘汰",
-    "pos": "n."
+    "english": "eliminate",
+    "pos": "v.",
+    "sentence": "We need to ______ all errors in the report before submitting it.",
+    "sentence_translation": "提交报告前我们需要消除所有错误。"
   },
   {
-    "english": "irrelevant",
     "chinese": "无关的，不相关的",
-    "pos": "n."
+    "english": "irrelevant",
+    "pos": "adj.",
+    "sentence": "His comments about the weather are ______ to our discussion.",
+    "sentence_translation": "他关于天气的评论与我们的讨论无关。"
   },
   {
-    "english": "distract",
     "chinese": "分散注意力",
-    "pos": "n."
+    "english": "distract",
+    "pos": "v.",
+    "sentence": "Loud noises can ______ students during class.",
+    "sentence_translation": "嘈杂的声音会在上课时分散学生的注意力。"
   },
   {
-    "english": "unpleasant",
     "chinese": "令人不愉快的",
-    "pos": "n."
+    "english": "unpleasant",
+    "pos": "adj.",
+    "sentence": "We had an ______ experience at the restaurant due to bad service.",
+    "sentence_translation": "由于服务差，我们在这家餐厅有一次令人不愉快的经历。"
   },
   {
-    "english": "additional",
     "chinese": "额外的，附加的",
-    "pos": "adj."
+    "english": "additional",
+    "pos": "adj.",
+    "sentence": "Please prepare ______ documents to support your application.",
+    "sentence_translation": "请准备额外的文件来支持你的申请。"
   }
 ]

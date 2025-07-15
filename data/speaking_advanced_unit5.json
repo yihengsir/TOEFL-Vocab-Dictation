@@ -1,202 +1,282 @@
 [
   {
-    "english": "vine",
     "chinese": "藤蔓",
-    "pos": "n."
+    "english": "vine",
+    "pos": "n.",
+    "sentence": "The ______ climbed up the trellis and bloomed with purple flowers.",
+    "sentence_translation": "藤蔓爬上棚架，开出了紫色的花。"
   },
   {
-    "english": "root",
     "chinese": "根",
-    "pos": "n."
+    "english": "root",
+    "pos": "n.",
+    "sentence": "The plant's ______ spread deep into the soil to absorb water.",
+    "sentence_translation": "这株植物的根深深扎入土壤吸收水分。"
   },
   {
-    "english": "maize",
     "chinese": "玉米",
-    "pos": "n."
+    "english": "maize",
+    "pos": "n.",
+    "sentence": "Farmers grow ______ in the field to use as food and animal feed.",
+    "sentence_translation": "农民在田里种玉米，用作食物和饲料。"
   },
   {
-    "english": "shadow",
     "chinese": "阴影",
-    "pos": "n."
+    "english": "shadow",
+    "pos": "n.",
+    "sentence": "We sat in the ______ of the big tree to avoid the hot sun.",
+    "sentence_translation": "我们坐在大树的阴影里躲避烈日。"
   },
   {
-    "english": "conserve",
     "chinese": "保存",
-    "pos": "n."
+    "english": "conserve",
+    "pos": "n.",
+    "sentence": "The ______ of natural resources is important for future generations.",
+    "sentence_translation": "自然资源的保存对后代很重要。"
   },
   {
-    "english": "moisture",
     "chinese": "水分",
-    "pos": "n."
+    "english": "moisture",
+    "pos": "n.",
+    "sentence": "Plants need ______ from the soil to grow healthily.",
+    "sentence_translation": "植物需要土壤中的水分才能健康生长。"
   },
   {
-    "english": "sideways",
     "chinese": "向侧面地",
-    "pos": "n."
+    "english": "sideways",
+    "pos": "n.",
+    "sentence": "The wind pushed the tree ______, but it didn't fall.",
+    "sentence_translation": "风把树推向侧面，但它没有倒下。"
   },
   {
-    "english": "shed",
     "chinese": "脱落",
-    "pos": "v."
+    "english": "shed",
+    "pos": "v.",
+    "sentence": "Trees ______ their leaves in autumn to prepare for winter.",
+    "sentence_translation": "树木在秋天脱落叶子，为冬天做准备。"
   },
   {
-    "english": "maple",
     "chinese": "枫树",
-    "pos": "n."
+    "english": "maple",
+    "pos": "n.",
+    "sentence": "The ______ leaves turn red and yellow in fall, making the forest beautiful.",
+    "sentence_translation": "枫叶在秋天变成红色和黄色，使森林很美。"
   },
   {
-    "english": "avocado",
     "chinese": "牛油果",
-    "pos": "n."
+    "english": "avocado",
+    "pos": "n.",
+    "sentence": "She made a salad with ______ and tomatoes for lunch.",
+    "sentence_translation": "她午餐做了牛油果和西红柿沙拉。"
   },
   {
-    "english": "nutrient",
     "chinese": "营养物质",
-    "pos": "n."
+    "english": "nutrient",
+    "pos": "n.",
+    "sentence": "Fertilizer provides ______ that help plants grow better.",
+    "sentence_translation": "肥料提供帮助植物更好生长的营养物质。"
   },
   {
-    "english": "remain",
     "chinese": "保留",
-    "pos": "n."
+    "english": "remain",
+    "pos": "n.",
+    "sentence": "The ______ of the old building reminds people of its history.",
+    "sentence_translation": "这座旧建筑的保留让人们想起它的历史。"
   },
   {
-    "english": "nourish",
     "chinese": "滋养",
-    "pos": "n."
+    "english": "nourish",
+    "pos": "n.",
+    "sentence": "The soil's ______ helps crops grow strong and healthy.",
+    "sentence_translation": "土壤的滋养帮助作物长得茁壮健康。"
   },
   {
-    "english": "aerial",
     "chinese": "空中的",
-    "pos": "adj."
+    "english": "aerial",
+    "pos": "adj.",
+    "sentence": "Birds have ______ skills that allow them to fly long distances.",
+    "sentence_translation": "鸟类有空中技能，能长途飞行。"
   },
   {
-    "english": "absorb",
     "chinese": "吸收",
-    "pos": "n."
+    "english": "absorb",
+    "pos": "n.",
+    "sentence": "The ______ of water by the roots is essential for plant survival.",
+    "sentence_translation": "根对水的吸收对植物生存至关重要。"
   },
   {
-    "english": "swamp",
     "chinese": "沼泽",
-    "pos": "n."
+    "english": "swamp",
+    "pos": "n.",
+    "sentence": "Many unique plants and animals live in the ______ ecosystem.",
+    "sentence_translation": "许多独特的动植物生活在沼泽生态系统中。"
   },
   {
-    "english": "survival",
     "chinese": "生存",
-    "pos": "adj."
+    "english": "survival",
+    "pos": "adj.",
+    "sentence": "The ______ skills of desert plants help them live in dry conditions.",
+    "sentence_translation": "沙漠植物的生存技能帮助它们在干旱环境中生长。"
   },
   {
-    "english": "function",
     "chinese": "功能",
-    "pos": "n."
+    "english": "function",
+    "pos": "n.",
+    "sentence": "The main ______ of a leaf is to make food for the plant using sunlight.",
+    "sentence_translation": "叶子的主要功能是利用阳光为植物制造食物。"
   },
   {
-    "english": "mature",
     "chinese": "成熟的",
-    "pos": "n."
+    "english": "mature",
+    "pos": "n.",
+    "sentence": "The ______ of the fruit takes about three months after flowering.",
+    "sentence_translation": "果实的成熟在开花后大约需要三个月。"
   },
   {
-    "english": "phenomenon",
     "chinese": "现象",
-    "pos": "n."
+    "english": "phenomenon",
+    "pos": "n.",
+    "sentence": "The changing colors of leaves in autumn is a natural ______.",
+    "sentence_translation": "秋天树叶变色是一种自然现象。"
   },
   {
-    "english": "stem",
     "chinese": "茎",
-    "pos": "n."
+    "english": "stem",
+    "pos": "n.",
+    "sentence": "The ______ of the flower holds it up and carries water from the roots.",
+    "sentence_translation": "花的茎支撑着它，并从根部输送水分。"
   },
   {
-    "english": "adequately",
     "chinese": "充分地",
-    "pos": "adv."
+    "english": "adequately",
+    "pos": "adv.",
+    "sentence": "Plants need to be watered ______ to prevent them from wilting.",
+    "sentence_translation": "植物需要被充分浇水以防止枯萎。"
   },
   {
-    "english": "fibrous",
     "chinese": "纤维状的",
-    "pos": "adj."
+    "english": "fibrous",
+    "pos": "adj.",
+    "sentence": "The ______ roots of the plant help it stay firmly in the soil.",
+    "sentence_translation": "植物的纤维状根帮助它牢牢扎根在土壤中。"
   },
   {
-    "english": "shallow",
     "chinese": "浅的",
-    "pos": "n."
+    "english": "shallow",
+    "pos": "n.",
+    "sentence": "The ______ of the river allows children to play safely in it.",
+    "sentence_translation": "这条河的浅处让孩子们可以安全地在里面玩耍。"
   },
   {
-    "english": "segment",
     "chinese": "部分",
-    "pos": "n."
+    "english": "segment",
+    "pos": "n.",
+    "sentence": "Each ______ of the orange is easy to peel and eat.",
+    "sentence_translation": "橘子的每一部分都很容易剥开食用。"
   },
   {
-    "english": "marsh",
     "chinese": "沼泽地",
-    "pos": "n."
+    "english": "marsh",
+    "pos": "n.",
+    "sentence": "Reeds and water lilies grow thickly in the ______.",
+    "sentence_translation": "芦苇和睡莲在沼泽地茂密生长。"
   },
   {
-    "english": "attach",
     "chinese": "附着",
-    "pos": "n."
+    "english": "attach",
+    "pos": "n.",
+    "sentence": "The ______ of the vine to the wall is helped by its small tendrils.",
+    "sentence_translation": "藤蔓的卷须帮助它附着在墙上。"
   },
   {
-    "english": "expose",
     "chinese": "暴露",
-    "pos": "n."
+    "english": "expose",
+    "pos": "n.",
+    "sentence": "The ______ of the roots to air can cause them to dry out quickly.",
+    "sentence_translation": "根暴露在空气中会导致它们快速干燥。"
   },
   {
-    "english": "retain",
     "chinese": "保持",
-    "pos": "n."
+    "english": "retain",
+    "pos": "n.",
+    "sentence": "The ______ of moisture in the soil is key to growing healthy plants.",
+    "sentence_translation": "保持土壤中的水分是种植健康植物的关键。"
   },
   {
-    "english": "edge",
     "chinese": "边缘",
-    "pos": "n."
+    "english": "edge",
+    "pos": "n.",
+    "sentence": "A small stream flows along the ______ of the forest.",
+    "sentence_translation": "一条小溪沿着森林的边缘流淌。"
   },
   {
-    "english": "dry out",
     "chinese": "干燥",
-    "pos": "phrase"
+    "english": "dry out",
+    "pos": "phrase",
+    "sentence": "If you don't water the plants, they will ______ ______ soon.",
+    "sentence_translation": "如果你不给植物浇水，它们很快就会干燥。"
   },
   {
-    "english": "prevent damage",
     "chinese": "防止损害",
-    "pos": "phrase"
+    "english": "prevent damage",
+    "pos": "phrase",
+    "sentence": "Covering the plants in winter can ______ ______ from frost.",
+    "sentence_translation": "冬天给植物盖上东西可以防止霜冻损害。"
   },
   {
-    "english": "conserve moisture",
     "chinese": "保存水分",
-    "pos": "phrase"
+    "english": "conserve moisture",
+    "pos": "phrase",
+    "sentence": "Adding mulch to the soil helps to ______ ______ in hot weather.",
+    "sentence_translation": "在土壤中添加覆盖物有助于在炎热天气保存水分。"
   },
   {
-    "english": "conserve nutrients",
     "chinese": "保存养分",
-    "pos": "phrase"
+    "english": "conserve nutrients",
+    "pos": "phrase",
+    "sentence": "Crop rotation is a way to ______ ______ in farmland.",
+    "sentence_translation": "轮作是在农田中保存养分的一种方法。"
   },
   {
-    "english": "get blown away",
     "chinese": "被吹走",
-    "pos": "phrase"
+    "english": "get blown away",
+    "pos": "phrase",
+    "sentence": "Light seeds can ______ ______ ______ by strong winds.",
+    "sentence_translation": "轻的种子会被强风吹走。"
   },
   {
-    "english": "at the approach of …",
     "chinese": "在……接近时",
-    "pos": "phrase"
+    "english": "at the approach of …",
+    "pos": "phrase",
+    "sentence": "Animals prepare for hibernation ______ ______ ______ winter.",
+    "sentence_translation": "在冬天接近时，动物准备冬眠。"
   },
   {
-    "english": "build up",
     "chinese": "积累",
-    "pos": "phrase"
+    "english": "build up",
+    "pos": "phrase",
+    "sentence": "Healthy soil ______ ______ over years with proper care.",
+    "sentence_translation": "经过适当护理，健康的土壤会逐年积累。"
   },
   {
-    "english": "develop into maturity",
     "chinese": "发育成熟",
-    "pos": "phrase"
+    "english": "develop into maturity",
+    "pos": "phrase",
+    "sentence": "It takes several years for the tree to ______ ______ ______.",
+    "sentence_translation": "这棵树需要几年时间才能发育成熟。"
   },
   {
-    "english": "compensate for",
     "chinese": "弥补",
-    "pos": "phrase"
+    "english": "compensate for",
+    "pos": "phrase",
+    "sentence": "Deep roots help plants ______ ______ lack of rain.",
+    "sentence_translation": "深根帮助植物弥补雨水的不足。"
   },
   {
-    "english": "cling to",
     "chinese": "紧紧附着",
-    "pos": "phrase"
+    "english": "cling to",
+    "pos": "phrase",
+    "sentence": "Tendrils of the vine ______ ______ the fence to climb upward.",
+    "sentence_translation": "藤蔓的卷须紧紧附着在栅栏上向上攀爬。"
   }
 ]

@@ -1,177 +1,247 @@
 [
   {
-    "english": "required",
     "chinese": "必须的，规定的",
-    "pos": "v."
+    "english": "required",
+    "pos": "v.",
+    "sentence": "The course has a ______ project that all students must finish.",
+    "sentence_translation": "这门课有一个所有学生都必须完成的规定项目。"
   },
   {
-    "english": "conduct",
     "chinese": "实施，进行",
-    "pos": "n."
+    "english": "conduct",
+    "pos": "n.",
+    "sentence": "The ______ of the survey will start next Monday.",
+    "sentence_translation": "这项调查的实施将在下周一启动。"
   },
   {
-    "english": "employer",
     "chinese": "雇主",
-    "pos": "n."
+    "english": "employer",
+    "pos": "n.",
+    "sentence": "The ______ announced a new policy on working hours.",
+    "sentence_translation": "雇主宣布了一项关于工作时间的新政策。"
   },
   {
-    "english": "session",
     "chinese": "一段时间，时段",
-    "pos": "n."
+    "english": "session",
+    "pos": "n.",
+    "sentence": "The training ______ lasts for three hours every afternoon.",
+    "sentence_translation": "每次培训时段每天下午持续三小时。"
   },
   {
-    "english": "realistic",
     "chinese": "现实的",
-    "pos": "adj."
+    "english": "realistic",
+    "pos": "adj.",
+    "sentence": "It's ______ to finish the task in two days with enough help.",
+    "sentence_translation": "有足够帮助的话，两天内完成这项任务是现实的。"
   },
   {
-    "english": "relaxed",
     "chinese": "放松的",
-    "pos": "v."
+    "english": "relaxed",
+    "pos": "v.",
+    "sentence": "She ______ after listening to her favorite music for a while.",
+    "sentence_translation": "听了一会儿最喜欢的音乐后，她放松了下来。"
   },
   {
-    "english": "timing",
     "chinese": "时机",
-    "pos": "v."
+    "english": "timing",
+    "pos": "v.",
+    "sentence": "The ______ of the meeting is perfect for everyone to attend.",
+    "sentence_translation": "会议的时机很合适，所有人都能参加。"
   },
   {
-    "english": "stressful",
     "chinese": "有压力的",
-    "pos": "adj."
+    "english": "stressful",
+    "pos": "adj.",
+    "sentence": "Meeting tight deadlines can be ______ for new employees.",
+    "sentence_translation": "赶紧迫的截止日期对新员工来说可能是有压力的。"
   },
   {
-    "english": "option",
     "chinese": "选择",
-    "pos": "n."
+    "english": "option",
+    "pos": "n.",
+    "sentence": "You have the ______ to take the exam online or in person.",
+    "sentence_translation": "你可以选择在线参加考试或现场参加。"
   },
   {
-    "english": "assignment",
     "chinese": "作业",
-    "pos": "n."
+    "english": "assignment",
+    "pos": "n.",
+    "sentence": "The math teacher gave us a difficult ______ to finish by Friday.",
+    "sentence_translation": "数学老师给我们布置了一项难作业，要在周五前完成。"
   },
   {
-    "english": "gym",
     "chinese": "健身房",
-    "pos": "n."
+    "english": "gym",
+    "pos": "n.",
+    "sentence": "He goes to the ______ every morning to lift weights and run.",
+    "sentence_translation": "他每天早上去健身房举重和跑步。"
   },
   {
-    "english": "practice interviews",
     "chinese": "模拟面试",
-    "pos": "phrase"
+    "english": "practice interviews",
+    "pos": "phrase",
+    "sentence": "The career center offers ______ ______ to help students prepare.",
+    "sentence_translation": "职业服务中心提供模拟面试来帮助学生做准备。"
   },
   {
-    "english": "career-services center",
     "chinese": "职业服务中心",
-    "pos": "phrase"
+    "english": "career-services center",
+    "pos": "phrase",
+    "sentence": "The ______ ______ ______ provides resume advice for graduates.",
+    "sentence_translation": "职业服务中心为毕业生提供简历建议。"
   },
   {
-    "english": "job interviews",
     "chinese": "求职面试",
-    "pos": "phrase"
+    "english": "job interviews",
+    "pos": "phrase",
+    "sentence": "She prepared carefully for the ______ ______ with several companies.",
+    "sentence_translation": "她为几家公司的求职面试做了认真准备。"
   },
   {
-    "english": "improve the chances of getting a job",
     "chinese": "提高找工作的机会",
-    "pos": "phrase"
+    "english": "improve the chances of getting a job",
+    "pos": "phrase",
+    "sentence": "Gaining work experience can ______ ______ ______ ______ ______ ______.",
+    "sentence_translation": "获得工作经验能提高找工作的机会。"
   },
   {
-    "english": "student volunteers",
     "chinese": "学生志愿者",
-    "pos": "phrase"
+    "english": "student volunteers",
+    "pos": "phrase",
+    "sentence": "______ ______ helped organize the campus charity event.",
+    "sentence_translation": "学生志愿者帮助组织了校园慈善活动。"
   },
   {
-    "english": "final semester",
     "chinese": "最后一个学期",
-    "pos": "phrase"
+    "english": "final semester",
+    "pos": "phrase",
+    "sentence": "In his ______ ______, he focused on writing his graduation thesis.",
+    "sentence_translation": "在他的最后一个学期，他专注于写毕业论文。"
   },
   {
-    "english": "look for jobs",
     "chinese": "找工作",
-    "pos": "phrase"
+    "english": "look for jobs",
+    "pos": "phrase",
+    "sentence": "Many seniors start to ______ ______ ______ months before graduation.",
+    "sentence_translation": "许多大四学生在毕业前几个月就开始找工作。"
   },
   {
-    "english": "take it seriously",
     "chinese": "认真对待",
-    "pos": "phrase"
+    "english": "take it seriously",
+    "pos": "phrase",
+    "sentence": "You need to ______ ______ ______ if you want to pass the exam.",
+    "sentence_translation": "如果你想通过考试，就需要认真对待它。"
   },
   {
-    "english": "work on",
     "chinese": "做，处理",
-    "pos": "phrase"
+    "english": "work on",
+    "pos": "phrase",
+    "sentence": "She spends two hours every evening to ______ ______ her art project.",
+    "sentence_translation": "她每天晚上花两小时做她的艺术项目。"
   },
   {
-    "english": "research paper",
     "chinese": "研究论文",
-    "pos": "phrase"
+    "english": "research paper",
+    "pos": "phrase",
+    "sentence": "He spent months collecting data for his ______ ______ on climate change.",
+    "sentence_translation": "他花了几个月时间为他关于气候变化的研究论文收集数据。"
   },
   {
-    "english": "take final exams",
     "chinese": "参加期末考试",
-    "pos": "phrase"
+    "english": "take final exams",
+    "pos": "phrase",
+    "sentence": "Students are busy reviewing to ______ ______ ______ at the end of the term.",
+    "sentence_translation": "学期末，学生们忙着复习以参加期末考试。"
   },
   {
-    "english": "work a part-time job",
     "chinese": "做兼职",
-    "pos": "phrase"
+    "english": "work a part-time job",
+    "pos": "phrase",
+    "sentence": "She ______ ______ ______ ______ in a café to earn pocket money.",
+    "sentence_translation": "她在一家咖啡馆做兼职来赚零花钱。"
   },
   {
-    "english": "keep track of",
     "chinese": "跟踪",
-    "pos": "phrase"
+    "english": "keep track of",
+    "pos": "phrase",
+    "sentence": "It's important to ______ ______ ______ your expenses to avoid overspending.",
+    "sentence_translation": "跟踪你的开支以避免超支是很重要的。"
   },
   {
-    "english": "fit into the very full schedules",
     "chinese": "融入紧张的日程安排",
-    "pos": "phrase"
+    "english": "fit into the very full schedules",
+    "pos": "phrase",
+    "sentence": "Exercise can ______ ______ ______ ______ ______ ______ with good time management.",
+    "sentence_translation": "通过良好的时间管理，锻炼可以融入紧张的日程安排。"
   },
   {
-    "english": "free of charge",
     "chinese": "免费",
-    "pos": "phrase"
+    "english": "free of charge",
+    "pos": "phrase",
+    "sentence": "The campus clinic provides basic medical services ______ ______ ______.",
+    "sentence_translation": "校园诊所提供免费的基本医疗服务。"
   },
   {
-    "english": "reduce car traffic",
     "chinese": "减少汽车交通",
-    "pos": "phrase"
+    "english": "reduce car traffic",
+    "pos": "phrase",
+    "sentence": "Encouraging cycling can help ______ ______ ______ on campus roads.",
+    "sentence_translation": "鼓励骑自行车有助于减少校园道路上的汽车交通。"
   },
   {
-    "english": "on campus",
     "chinese": "在校园内",
-    "pos": "phrase"
+    "english": "on campus",
+    "pos": "phrase",
+    "sentence": "There are several cafes and bookstores ______ ______ for students.",
+    "sentence_translation": "校园内有几家供学生使用的咖啡馆和书店。"
   },
   {
-    "english": "get more exercise",
     "chinese": "多锻炼",
-    "pos": "phrase"
+    "english": "get more exercise",
+    "pos": "phrase",
+    "sentence": "Walking to class instead of taking a bus helps students ______ ______ ______.",
+    "sentence_translation": "步行去上课而不是坐公交车有助于学生多锻炼。"
   },
   {
-    "english": "academic buildings",
     "chinese": "教学楼",
-    "pos": "phrase"
+    "english": "academic buildings",
+    "pos": "phrase",
+    "sentence": "The library is located between two ______ ______ on the east campus.",
+    "sentence_translation": "图书馆位于东校区的两栋教学楼之间。"
   },
   {
-    "english": "get around",
     "chinese": "四处走动",
-    "pos": "phrase"
+    "english": "get around",
+    "pos": "phrase",
+    "sentence": "Bikes are a popular way to ______ ______ on a large campus.",
+    "sentence_translation": "在大学校园里，自行车是四处走动的常用方式。"
   },
   {
-    "english": "the roads get really busy",
     "chinese": "道路变得非常繁忙",
-    "pos": "phrase"
+    "english": "the roads get really busy",
+    "pos": "phrase",
+    "sentence": "During rush hour, ______ ______ ______ ______ with cars and buses.",
+    "sentence_translation": "高峰时段，道路变得非常繁忙，挤满了小汽车和公交车。"
   },
   {
-    "english": "way better",
     "chinese": "好得多",
-    "pos": "phrase"
+    "english": "way better",
+    "pos": "phrase",
+    "sentence": "Studying in the library is ______ ______ than studying in a noisy dorm.",
+    "sentence_translation": "在图书馆学习比在嘈杂的宿舍学习好得多。"
   },
   {
-    "english": "go jogging",
     "chinese": "去慢跑",
-    "pos": "phrase"
+    "english": "go jogging",
+    "pos": "phrase",
+    "sentence": "He likes to ______ ______ in the park early in the morning.",
+    "sentence_translation": "他喜欢一大早去公园慢跑。"
   },
   {
-    "english": "set aside extra time",
     "chinese": "额外留出时间",
-    "pos": "phrase"
+    "english": "set aside extra time",
+    "pos": "phrase",
+    "sentence": "You should ______ ______ ______ ______ to review before the exam.",
+    "sentence_translation": "考试前你应该额外留出时间复习。"
   }
 ]

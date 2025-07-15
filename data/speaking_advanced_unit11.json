@@ -1,132 +1,184 @@
 [
   {
-    "english": "instinctual",
     "chinese": "本能的",
-    "pos": "adj."
+    "english": "instinctual",
+    "pos": "adj.",
+    "sentence": "Birds have an ______ ability to build nests without being taught.",
+    "sentence_translation": "鸟类有一种本能的能力，不用教就会筑巢。"
   },
   {
-    "english": "cumulative",
     "chinese": "累积的",
-    "pos": "adj."
+    "english": "cumulative",
+    "pos": "adj.",
+    "sentence": "The ______ effect of daily exercise improves overall health over time.",
+    "sentence_translation": "日常锻炼的累积效应会逐渐改善整体健康状况。"
   },
   {
-    "english": "modify",
     "chinese": "修改",
-    "pos": "n."
+    "english": "modify",
+    "pos": "v.",
+    "sentence": "We need to ______ the design to make it more user-friendly.",
+    "sentence_translation": "我们需要修改设计，使其更便于使用。"
   },
   {
-    "english": "ritual",
     "chinese": "仪式",
-    "pos": "adj."
+    "english": "ritual",
+    "pos": "n.",
+    "sentence": "The family gathers for a special ______ during the Spring Festival.",
+    "sentence_translation": "春节期间，这家人会举行一个特别的仪式。"
   },
   {
-    "english": "innovation",
     "chinese": "创新",
-    "pos": "n."
+    "english": "innovation",
+    "pos": "n.",
+    "sentence": "The company's latest ______ in technology has revolutionized the industry.",
+    "sentence_translation": "该公司最新的技术创新彻底改变了这个行业。"
   },
   {
-    "english": "exposure",
     "chinese": "暴露，显露",
-    "pos": "n."
+    "english": "exposure",
+    "pos": "n.",
+    "sentence": "Prolonged ______ to loud noise can damage hearing.",
+    "sentence_translation": "长时间暴露在嘈杂的噪音中会损伤听力。"
   },
   {
-    "english": "reference",
     "chinese": "参考，参照",
-    "pos": "n."
+    "english": "reference",
+    "pos": "n.",
+    "sentence": "This book is a useful ______ for students learning history.",
+    "sentence_translation": "这本书是学习历史的学生的有用参考。"
   },
   {
-    "english": "dormancy",
     "chinese": "休眠",
-    "pos": "n."
+    "english": "dormancy",
+    "pos": "n.",
+    "sentence": "Bears enter a state of ______ during the cold winter months.",
+    "sentence_translation": "熊在寒冷的冬季进入休眠状态。"
   },
   {
-    "english": "dormant",
     "chinese": "休眠的",
-    "pos": "n."
+    "english": "dormant",
+    "pos": "adj.",
+    "sentence": "The ______ seeds will germinate when spring arrives with rain and warmth.",
+    "sentence_translation": "当春天带着雨水和温暖到来时，这些休眠的种子会发芽。"
   },
   {
-    "english": "inactivity",
     "chinese": "静止",
-    "pos": "n."
+    "english": "inactivity",
+    "pos": "n.",
+    "sentence": "Long periods of ______ can lead to muscle weakness.",
+    "sentence_translation": "长时间的静止会导致肌肉无力。"
   },
   {
-    "english": "nourishment",
     "chinese": "滋养",
-    "pos": "n."
+    "english": "nourishment",
+    "pos": "n.",
+    "sentence": "The soil provides essential ______ for the growth of crops.",
+    "sentence_translation": "土壤为农作物的生长提供必要的滋养。"
   },
   {
-    "english": "elaborate",
     "chinese": "精细的，复杂的",
-    "pos": "n."
+    "english": "elaborate",
+    "pos": "adj.",
+    "sentence": "The artist created an ______ pattern on the vase using tiny brushstrokes.",
+    "sentence_translation": "艺术家用细小的笔触在花瓶上绘制了精细的图案。"
   },
   {
-    "english": "subsequent",
     "chinese": "随后的",
-    "pos": "n."
+    "english": "subsequent",
+    "pos": "adj.",
+    "sentence": "In the ______ weeks, we will focus on improving our teamwork skills.",
+    "sentence_translation": "在随后的几周里，我们将专注于提高团队合作技能。"
   },
   {
-    "english": "scarce",
     "chinese": "稀少的",
-    "pos": "n."
+    "english": "scarce",
+    "pos": "adj.",
+    "sentence": "Fresh water is ______ in desert regions, so people value every drop.",
+    "sentence_translation": "沙漠地区的淡水很稀少，所以人们珍惜每一滴水。"
   },
   {
-    "english": "a shared behavior",
     "chinese": "一个共同的行为",
-    "pos": "phrase"
+    "english": "a shared behavior",
+    "pos": "phrase",
+    "sentence": "Shaking hands when meeting is ______ ______ ______ in many Western cultures.",
+    "sentence_translation": "见面时握手是许多西方文化中一个共同的行为。"
   },
   {
-    "english": "pass on",
     "chinese": "传递",
-    "pos": "phrase"
+    "english": "pass on",
+    "pos": "phrase",
+    "sentence": "Grandparents often ______ ______ stories from the past to their grandchildren.",
+    "sentence_translation": "祖父母经常向孙辈传递过去的故事。"
   },
   {
-    "english": "a challenging part",
     "chinese": "一个有难度的部分",
-    "pos": "phrase"
+    "english": "a challenging part",
+    "pos": "phrase",
+    "sentence": "Solving the math problem's final step is ______ ______ ______ for most students.",
+    "sentence_translation": "对大多数学生来说，解这道数学题的最后一步是一个有难度的部分。"
   },
   {
-    "english": "environmental factor",
     "chinese": "环境因素",
-    "pos": "phrase"
+    "english": "environmental factor",
+    "pos": "phrase",
+    "sentence": "Climate change is a key ______ ______ affecting wildlife habitats.",
+    "sentence_translation": "气候变化是影响野生动物栖息地的关键环境因素。"
   },
   {
-    "english": "add to",
     "chinese": "增加",
-    "pos": "phrase"
+    "english": "add to",
+    "pos": "phrase",
+    "sentence": "The new park will ______ ______ the beauty of our neighborhood.",
+    "sentence_translation": "新公园将增加我们社区的美感。"
   },
   {
-    "english": "future generation",
     "chinese": "下一代",
-    "pos": "phrase"
+    "english": "future generation",
+    "pos": "phrase",
+    "sentence": "We should protect natural resources for the ______ ______ to enjoy.",
+    "sentence_translation": "我们应该保护自然资源，供下一代享用。"
   },
   {
-    "english": "brush off",
     "chinese": "洗刷掉",
-    "pos": "phrase"
+    "english": "brush off",
+    "pos": "phrase",
+    "sentence": "You can ______ ______ the mud from your shoes before entering the house.",
+    "sentence_translation": "进屋前你可以把鞋子上的泥洗刷掉。"
   },
   {
-    "english": "introduce an innovation",
     "chinese": "引入一项创新",
-    "pos": "phrase"
+    "english": "introduce an innovation",
+    "pos": "phrase",
+    "sentence": "The team plans to ______ ______ ______ to simplify the production process.",
+    "sentence_translation": "该团队计划引入一项创新来简化生产流程。"
   },
   {
-    "english": "develop ability",
     "chinese": "发展能力",
-    "pos": "phrase"
+    "english": "develop ability",
+    "pos": "phrase",
+    "sentence": "Practicing public speaking regularly helps to ______ ______ in communication.",
+    "sentence_translation": "定期练习公开演讲有助于发展沟通能力。"
   },
   {
-    "english": "stop trying",
     "chinese": "停止尝试",
-    "pos": "phrase"
+    "english": "stop trying",
+    "pos": "phrase",
+    "sentence": "Even when facing failures, it's important not to ______ ______.",
+    "sentence_translation": "即使面临失败，也重要的是不要停止尝试。"
   },
   {
-    "english": "give up on",
     "chinese": "在...上放弃",
-    "pos": "phrase"
+    "english": "give up on",
+    "pos": "phrase",
+    "sentence": "Teachers should never ______ ______ ______ students who struggle with studies.",
+    "sentence_translation": "教师绝不应该在学习有困难的学生身上放弃。"
   },
   {
-    "english": "take measures to do",
     "chinese": "采取措施去做...",
-    "pos": "phrase"
+    "english": "take measures to do",
+    "pos": "phrase",
+    "sentence": "The government will ______ ______ ______ ______ prevent air pollution from worsening.",
+    "sentence_translation": "政府将采取措施防止空气污染加剧。"
   }
 ]

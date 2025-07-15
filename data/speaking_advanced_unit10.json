@@ -1,127 +1,177 @@
 [
   {
-    "english": "introductory",
     "chinese": "入门的，基础（课程）的",
-    "pos": "n."
+    "english": "introductory",
+    "pos": "adj.",
+    "sentence": "The ______ course in chemistry is designed for beginners with no prior knowledge.",
+    "sentence_translation": "这门入门的化学课程是为没有基础知识的初学者设计的。"
   },
   {
-    "english": "determine",
     "chinese": "决定",
-    "pos": "n."
+    "english": "determine",
+    "pos": "v.",
+    "sentence": "The results of the experiment will ______ the next steps of the research.",
+    "sentence_translation": "实验结果将决定研究的下一步。"
   },
   {
-    "english": "overwhelming",
     "chinese": "难以承受的",
-    "pos": "v."
+    "english": "overwhelming",
+    "pos": "adj.",
+    "sentence": "The ______ amount of homework made her feel stressed and tired.",
+    "sentence_translation": "难以承受的作业量让她感到压力和疲惫。"
   },
   {
-    "english": "analysis (pl. analyses)",
     "chinese": "分析",
-    "pos": "phrase"
+    "english": "analysis (pl. analyses)",
+    "pos": "n.",
+    "sentence": "The data ______ showed a clear trend in consumer behavior over the past year.",
+    "sentence_translation": "数据分析显示了过去一年消费者行为的明显趋势。"
   },
   {
-    "english": "consume",
     "chinese": "消费，消耗",
-    "pos": "n."
+    "english": "consume",
+    "pos": "v.",
+    "sentence": "Modern households ______ more electricity than those 50 years ago due to new appliances.",
+    "sentence_translation": "由于新电器的使用，现代家庭比50年前消耗更多电力。"
   },
   {
-    "english": "accommodation",
     "chinese": "住宿",
-    "pos": "n."
+    "english": "accommodation",
+    "pos": "n.",
+    "sentence": "The university provides ______ for international students on campus.",
+    "sentence_translation": "这所大学为国际学生提供校内住宿。"
   },
   {
-    "english": "interact",
     "chinese": "互动",
-    "pos": "n."
+    "english": "interact",
+    "pos": "v.",
+    "sentence": "Children learn social skills by ______ with their peers in group activities.",
+    "sentence_translation": "孩子们通过在团体活动中与同伴互动学习社交技能。"
   },
   {
-    "english": "overhead",
     "chinese": "经费",
-    "pos": "n."
+    "english": "overhead",
+    "pos": "n.",
+    "sentence": "The company reduced ______ by moving to a smaller office building.",
+    "sentence_translation": "公司通过搬到更小的办公楼减少了经费。"
   },
   {
-    "english": "initiative",
     "chinese": "倡议，动议",
-    "pos": "adj."
+    "english": "initiative",
+    "pos": "n.",
+    "sentence": "The new environmental ______ aims to reduce plastic waste in the community.",
+    "sentence_translation": "这项新的环保倡议旨在减少社区的塑料垃圾。"
   },
   {
-    "english": "installation",
     "chinese": "安装，安置",
-    "pos": "n."
+    "english": "installation",
+    "pos": "n.",
+    "sentence": "The ______ of the new security system will be completed by the end of the week.",
+    "sentence_translation": "新安全系统的安装将在本周末完成。"
   },
   {
-    "english": "dramatically",
     "chinese": "戏剧性地，引人注目地",
-    "pos": "adv."
+    "english": "dramatically",
+    "pos": "adv.",
+    "sentence": "The number of online shoppers has ______ increased since the pandemic began.",
+    "sentence_translation": "自疫情开始以来，网上购物者的数量引人注目地增加了。"
   },
   {
-    "english": "guidance",
     "chinese": "指导，引导",
-    "pos": "n."
+    "english": "guidance",
+    "pos": "n.",
+    "sentence": "Young entrepreneurs often need ______ from experienced business owners.",
+    "sentence_translation": "年轻的企业家通常需要有经验的企业主的指导。"
   },
   {
-    "english": "inevitable",
     "chinese": "无法避免的",
-    "pos": "adj."
+    "english": "inevitable",
+    "pos": "adj.",
+    "sentence": "Change is ______ in a rapidly developing society like ours.",
+    "sentence_translation": "在我们这样快速发展的社会中，变化是无法避免的。"
   },
   {
-    "english": "time consuming",
     "chinese": "费时的",
-    "pos": "phrase"
+    "english": "time consuming",
+    "pos": "phrase",
+    "sentence": "Handwriting each invitation is ______ ______, but it feels more personal.",
+    "sentence_translation": "手写每一份邀请函很费时，但感觉更具人情味。"
   },
   {
-    "english": "ahead of schedule",
     "chinese": "比计划提前",
-    "pos": "phrase"
+    "english": "ahead of schedule",
+    "pos": "phrase",
+    "sentence": "Thanks to everyone's hard work, the project was completed ______ ______ ______.",
+    "sentence_translation": "多亏了大家的努力，项目比计划提前完成了。"
   },
   {
-    "english": "absolute quiet",
     "chinese": "绝对安静",
-    "pos": "phrase"
+    "english": "absolute quiet",
+    "pos": "phrase",
+    "sentence": "The library requires ______ ______ to help students focus on their studies.",
+    "sentence_translation": "图书馆需要绝对安静，以帮助学生专注于学习。"
   },
   {
-    "english": "get in the zone",
     "chinese": "进入状态",
-    "pos": "phrase"
+    "english": "get in the zone",
+    "pos": "phrase",
+    "sentence": "Once she starts painting, she can ______ ______ ______ and work for hours without stopping.",
+    "sentence_translation": "一旦开始画画，她就能进入状态，连续工作几个小时不休息。"
   },
   {
-    "english": "go in a different direction",
     "chinese": "改变方向",
-    "pos": "phrase"
+    "english": "go in a different direction",
+    "pos": "phrase",
+    "sentence": "After receiving feedback, the team decided to ______ ______ ______ ______ with their design.",
+    "sentence_translation": "收到反馈后，团队决定改变设计方向。"
   },
   {
-    "english": "halfway through",
     "chinese": "中途，半途",
-    "pos": "phrase"
+    "english": "halfway through",
+    "pos": "phrase",
+    "sentence": "We stopped for a short break ______ ______ the long hike up the mountain.",
+    "sentence_translation": "在漫长的登山途中，我们中途停下来短暂休息。"
   },
   {
-    "english": "provide for ...",
     "chinese": "提供",
-    "pos": "phrase"
+    "english": "provide for",
+    "pos": "phrase",
+    "sentence": "The government plans to ______ ______ better healthcare for rural communities.",
+    "sentence_translation": "政府计划为农村社区提供更好的医疗服务。"
   },
   {
-    "english": "up there",
     "chinese": "在那里",
-    "pos": "phrase"
+    "english": "up there",
+    "pos": "phrase",
+    "sentence": "The best view of the city is from the tower ______ ______ on the hill.",
+    "sentence_translation": "城市的最佳景观来自山上那座塔的那里。"
   },
   {
-    "english": "spend a fortune on …",
     "chinese": "在…上花钱",
-    "pos": "phrase"
+    "english": "spend a fortune on …",
+    "pos": "phrase",
+    "sentence": "Some people ______ ______ ______ ______ luxury cars even though they don't need them.",
+    "sentence_translation": "有些人在豪华汽车上花钱，尽管他们并不需要。"
   },
   {
-    "english": "make sense",
     "chinese": "有道理，讲得通",
-    "pos": "phrase"
+    "english": "make sense",
+    "pos": "phrase",
+    "sentence": "Her explanation about the problem ______ ______ once I saw the data for myself.",
+    "sentence_translation": "当我自己看到数据时，她对这个问题的解释就有道理了。"
   },
   {
-    "english": "introductory course",
     "chinese": "基础课，入门课",
-    "pos": "phrase"
+    "english": "introductory course",
+    "pos": "phrase",
+    "sentence": "I'm taking an ______ ______ in psychology to see if I want to major in it.",
+    "sentence_translation": "我正在上一门心理学基础课，看看自己是否想主修它。"
   },
   {
-    "english": "electricity bill",
     "chinese": "电费账单",
-    "pos": "phrase"
+    "english": "electricity bill",
+    "pos": "phrase",
+    "sentence": "We need to reduce energy use to lower our monthly ______ ______.",
+    "sentence_translation": "我们需要减少能源使用以降低每月的电费账单。"
   }
 ]
