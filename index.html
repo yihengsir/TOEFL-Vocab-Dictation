@@ -1257,6 +1257,79 @@
                 console.log('您的浏览器不支持语音合成');
             }
         }
+        function normalizeWord(word) {
+            return word
+                .toLowerCase()
+                .replace(/[.,!?;:'"()]/g, '')   // remove punctuation
+                .replace(/\s+/g, '')            // remove extra spaces
+                .replace(/’/g, "'")              // normalize quotes
+                .trim();
+        }
+
+        function levenshteinDistance(a, b) {
+            const dp = Array.from({ length: a.length + 1 }, () => Array(b.length + 1).fill(0));
+            for (let i = 0; i <= a.length; i++) dp[i][0] = i;
+            for (let j = 0; j <= b.length; j++) dp[0][j] = j;
+            for (let i = 1; i <= a.length; i++) {
+                for (let j = 1; j <= b.length; j++) {
+                    const cost = a[i - 1] === b[j - 1] ? 0 : 1;
+                    dp[i][j] = Math.min(
+                        dp[i - 1][j] + 1,
+                        dp[i][j - 1] + 1,
+                        dp[i - 1][j - 1] + cost
+                    );
+                }
+            }
+            return dp[a.length][b.length];
+        }
+
+        function isFlexibleMatch(userAnswer, correct) {
+            const u = normalizeWord(userAnswer);
+            const c = normalizeWord(correct);
+
+            if (u === c) return true;
+
+            // common inflection variants
+            const variants = new Set();
+
+            // plural/singular
+            variants.add(c + 's');
+            variants.add(c.replace(/s$/, ''));
+
+            // -es
+            if (/([sxz]|(sh|ch))$/.test(c)) {
+                variants.add(c + 'es');
+            }
+
+            // y -> ies and reverse
+            if (/y$/.test(c)) variants.add(c.replace(/y$/, 'ies'));
+            if (/ies$/.test(c)) variants.add(c.replace(/ies$/, 'y'));
+
+            // past tense
+            variants.add(c + 'ed');
+            if (/e$/.test(c)) variants.add(c + 'd');
+            if (/[^aeiou]y$/.test(c)) variants.add(c.replace(/y$/, 'ied'));
+            // drop last consonant for doubled forms: stop->stopped (rough)
+            if (/([bcdfghjklmnpqrstvwxyz])\1$/.test(c)) {
+                variants.add(c + 'ed');
+            }
+
+            // present participle
+            variants.add(c + 'ing');
+            if (/e$/.test(c)) variants.add(c.replace(/e$/, '') + 'ing'); // make -> making
+            if (/([bcdfghjklmnpqrstvwxyz])([aeiou])([bcdfghjklmnpqrstvwxyz])$/.test(c)) {
+                // CVC -> double last consonant (run -> running)
+                variants.add(c + c.slice(-1) + 'ing');
+            }
+
+            if (variants.has(u)) return true;
+
+            // allow minor typos distance <= 1
+            if (levenshteinDistance(u, c) <= 1) return true;
+
+            return false;
+        }
+
 
         function checkCurrentAnswer() {
             appState.questionsAttempted++;
@@ -1265,7 +1338,7 @@
 
             const correctAnswers = currentWord.english.split('/').map(ans => ans.trim());
 
-            const isCorrect = correctAnswers.some(correct => userAnswer.toLowerCase() === correct.toLowerCase());
+            const isCorrect = correctAnswers.some(correct => isFlexibleMatch(userAnswer, correct));
 
             if (isCorrect) {
                 appState.correctAnswersCount++;
