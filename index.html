@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOEFL 词汇测试 - 完整版</title>
+    <title>新托福词汇背诵听写版</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -719,6 +719,39 @@
         .practice-unit-btn:hover {
             background: #0da271;
         }
+    
+        /* ===== 新增：登录页 / 学习进度 / 发音 ===== */
+        .login-icon {
+            width: 84px; height: 84px; border-radius: 50%;
+            background: linear-gradient(135deg, #4f46e5, #7c3aed);
+            color: #fff; display: flex; align-items: center; justify-content: center;
+            font-size: 2.2rem; box-shadow: 0 10px 25px rgba(79, 70, 229, 0.35);
+            margin: 0 auto 0.25rem;
+        }
+        .view .header-title.login-title { font-size: clamp(1.7rem, 6vw, 2.5rem); line-height: 1.25; }
+        .remember-row {
+            display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+            color: var(--text-medium); font-size: 1rem; cursor: pointer; user-select: none; margin-top: 0.9rem;
+        }
+        .remember-row input { width: 1.1rem; height: 1.1rem; accent-color: var(--primary); }
+        .listen-row { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; margin-bottom: 1rem; }
+        .listen-btn { flex-grow: 0 !important; padding: 0.6rem 1.6rem !important; font-size: 1.05rem !important; }
+        .voice-info { font-size: 0.8rem; color: #94a3b8; }
+        .correct-answer-hint.study-hint { color: var(--primary); }
+        .unit-progress { width: 80%; height: 6px; background: #e2e8f0; border-radius: 99px; overflow: hidden; margin-top: 0.5rem; }
+        .unit-progress-bar { height: 100%; background: var(--success); border-radius: 99px; }
+        .unit-progress-text { font-size: 0.78rem; color: var(--text-medium); margin-top: 0.25rem; font-weight: 500; }
+        .extra-panel {
+            display: none; flex-direction: column; align-items: center; gap: 0.75rem;
+            width: 100%; max-width: 600px; margin: 1rem auto 0; padding-top: 1rem; border-top: 1px dashed #cbd5e0;
+        }
+        .extra-stats { font-size: 0.95rem; color: var(--text-medium); }
+        .extra-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; justify-content: center; }
+        .extra-actions .action-button { font-size: 1rem; padding: 0.6rem 1.4rem; flex-grow: 0; }
+        .link-btn { background: none; border: none; color: var(--secondary); text-decoration: underline; cursor: pointer; font-size: 0.9rem; }
+        .resume-actions { display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap; }
+        .modal-content .btn-ghost { background-color: #e2e8f0; color: var(--text-dark); }
+        .modal-content .btn-ghost:hover { background-color: #cbd5e0; }
     </style>
 </head>
 <body class="selection-view">
@@ -734,29 +767,32 @@
         </button>
 
         <div id="access-view" class="view active">
-            <h1 class="header-title">词汇听写测试</h1>
+            <div class="login-icon"><i class="fas fa-headphones"></i></div>
+            <h1 class="header-title login-title">新托福词汇背诵听写版</h1>
             <p class="header-subtitle">锋锋老师 · TOEFL词汇训练系统</p>
             
             <div class="feature-card">
                 <h3><i class="fas fa-star"></i> 系统功能</h3>
-                <p>1. 支持例句模式测试（带填空的句子）</p>
-                <p>2. 支持词性提示和首字母提示</p>
-                <p>3. 自动朗读单词发音</p>
-                <p>4. 错题回顾与成绩分析</p>
-                <p>5. 全局单词搜索功能</p>
+                <p>1. 例句填空 + 词性/首字母提示</p>
+                <p>2. Edge 自然语音发音，听写时可随时点击播放</p>
+                <p>3. 自动记住登录、学习进度，可断点续学</p>
+                <p>4. 错题自动收录，支持错题复习</p>
+                <p>5. 直接按回车 = 学习模式（不计入错题）</p>
+                <p>6. 全局单词搜索功能</p>
             </div>
             
             <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
                 <div class="password-container">
                     <label class="password-label">请输入测验码</label>
                     <input type="password" id="accessCode" class="answer-input" placeholder="请输入测验码">
+                    <label class="remember-row"><input type="checkbox" id="rememberLogin" checked><span>记住登录（下次无需再输入测验码）</span></label>
                 </div>
             </div>
             <button id="accessSubmitBtn" class="action-button">进入测试</button>
         </div>
 
         <div id="welcome-view" class="view">
-            <h1 class="header-title">TOEFL 词汇测试</h1>
+            <h1 class="header-title login-title">新托福词汇背诵听写版</h1>
             <p class="header-subtitle">开始您的词汇学习之旅</p>
             
             <div class="w-full max-w-sm flex flex-col gap-4 mb-6">
@@ -773,6 +809,7 @@
             <h2 id="selectionTitle" class="text-2xl font-bold text-gray-800 mb-6">选择类别</h2>
             <div id="selectionContent" class="grid-selection">
                 </div>
+            <div id="extraPanel" class="extra-panel"></div>
             <button id="startTestBtn" class="action-button mt-auto hidden">开始测试</button>
         </div>
 
@@ -789,6 +826,11 @@
 
             <div id="wordDisplayContainer"></div>
             
+            <div class="listen-row">
+                <button id="playWordBtn" class="action-button secondary listen-btn" type="button"><i class="fas fa-volume-up"></i> 播放单词</button>
+                <span id="voiceInfo" class="voice-info"></span>
+            </div>
+
             <input type="text" id="answerInput" class="answer-input mb-4" placeholder="输入英文词汇（首字母提示）">
             <div id="correctAnswerHint" class="correct-answer-hint"></div>
             <div class="control-buttons">
@@ -807,6 +849,7 @@
                 <p>姓名: <span id="resultsStudentName">N/A</span></p>
                 <p>班级: <span id="resultsStudentClass">N/A</span></p>
                 <p>检测单词数: <span id="attemptedCount">0</span></p>
+                <p>学习模式（未计入）: <span id="studiedCount">0</span></p>
                 <p>正确数量: <span id="correctCount">0</span>/<span id="totalQuestions">0</span></p>
                 <p>正确率: <span id="accuracyRate">0%</span></p>
                 <p>耗时: <span id="timeTaken">00:00</span></p>
@@ -835,6 +878,17 @@
         </div>
     </div>
 
+    <div id="resumeOverlay" class="modal-overlay">
+        <div class="modal-content">
+            <h3>继续上次进度？</h3>
+            <p id="resumeMessage"></p>
+            <div class="resume-actions">
+                <button id="resumeContinueBtn">继续上次</button>
+                <button id="resumeRestartBtn" class="btn-ghost">重新开始</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // --- Application State Management ---
         const appState = {
@@ -858,7 +912,11 @@
             // 记录搜索前的视图
             previousView: null,
             // 记录搜索结果
-            searchResults: []
+            searchResults: [],
+            // 学习模式计数 / 当前单元标识 / 当前题序
+            studiedCount: 0,
+            unitKey: null,
+            sessionOrder: null
         };
 
         // --- DOM Elements ---
@@ -897,6 +955,10 @@
         const accuracyRateSpan = document.getElementById('accuracyRate');
         const timeTakenSpan = document.getElementById('timeTaken');
         const attemptedCountSpan = document.getElementById('attemptedCount');
+        const studiedCountSpan = document.getElementById('studiedCount');
+        const playWordBtn = document.getElementById('playWordBtn');
+        const voiceInfo = document.getElementById('voiceInfo');
+        const rememberLogin = document.getElementById('rememberLogin');
         const incorrectWordsListDiv = document.getElementById('incorrectWordsList');
         const retakeTestBtn = document.getElementById('retakeTestBtn');
         const shareResultsBtn = document.getElementById('shareResultsBtn');
@@ -1001,6 +1063,201 @@
             writing: '写作'
         };
 
+        // --- Persistent storage (登录 / 学习进度 / 错题本) ---
+        const STORE_KEY = 'toefl_dictation_v2';
+        function loadStore() {
+            try {
+                const s = JSON.parse(localStorage.getItem(STORE_KEY));
+                if (s && typeof s === 'object') {
+                    s.users = s.users || {};
+                    s.last = s.last || { name: '', cls: '' };
+                    return s;
+                }
+            } catch (e) {}
+            return { authed: false, last: { name: '', cls: '' }, users: {} };
+        }
+        let store = loadStore();
+        function saveStore() {
+            try { localStorage.setItem(STORE_KEY, JSON.stringify(store)); } catch (e) {}
+        }
+        function getUserData() {
+            const n = appState.studentName || '默认';
+            if (!store.users[n]) store.users[n] = { progress: {}, wrong: {} };
+            const u = store.users[n];
+            u.progress = u.progress || {};
+            u.wrong = u.wrong || {};
+            return u;
+        }
+        function wordKey(w) { return `${w.english}|${w.chinese}`; }
+        function getUnitKey() {
+            const s = appState;
+            if (s.selectedContentType === 'review' || !s.selectedCategory || !s.selectedLevel) return null;
+            if (s.selectedContentType === 'past') return `${s.selectedCategory}/${s.selectedLevel}/all`;
+            if (s.selectedContentType === 'unit' && s.selectedUnit) {
+                return `${s.selectedCategory}/${s.selectedLevel}/${String(s.selectedUnit).replace('Unit', '')}`;
+            }
+            return null;
+        }
+        function ensureProgress(key) {
+            const u = getUserData();
+            if (!u.progress[key]) u.progress[key] = { total: 0, words: {}, session: null };
+            return u.progress[key];
+        }
+        // state: 'c' 答对 / 's' 学习模式看过 / 'w' 答错
+        function markWord(w, state) {
+            const key = appState.unitKey;
+            if (!key) return;
+            const p = ensureProgress(key);
+            p.total = appState.currentTestVocabulary.length;
+            const k = wordKey(w);
+            if (state === 's' && p.words[k] === 'c') return;
+            p.words[k] = state;
+            p.updated = Date.now();
+        }
+        function addWrong(w) {
+            const u = getUserData();
+            const k = wordKey(w);
+            const old = u.wrong[k];
+            u.wrong[k] = {
+                english: w.english, chinese: w.chinese, pos: w.pos || '',
+                sentence: w.sentence || '', sentence_translation: w.sentence_translation || '',
+                unitKey: appState.unitKey || (old && old.unitKey) || null,
+                times: (old ? old.times : 0) + 1, ts: Date.now()
+            };
+        }
+        function resolveWrong(w) {
+            const u = getUserData();
+            const k = wordKey(w);
+            const old = u.wrong[k];
+            if (!old) return;
+            if (old.unitKey && u.progress[old.unitKey]) u.progress[old.unitKey].words[k] = 'c';
+            delete u.wrong[k];
+        }
+        function saveSession() {
+            const key = appState.unitKey;
+            if (!key || !appState.sessionOrder) return;
+            const p = ensureProgress(key);
+            p.total = appState.currentTestVocabulary.length;
+            const nextIndex = appState.currentWordIndex + 1;
+            p.session = nextIndex >= appState.sessionOrder.length ? null : {
+                order: appState.sessionOrder,
+                index: nextIndex,
+                correct: appState.correctAnswersCount,
+                attempted: appState.questionsAttempted,
+                studied: appState.studiedCount,
+                incorrect: appState.incorrectAnswers,
+                elapsed: Date.now() - appState.testStartTime,
+                vocabLen: appState.currentTestVocabulary.length,
+                ts: Date.now()
+            };
+        }
+        function persist() { saveSession(); saveStore(); }
+
+        function getUnitTotal(cat, level, num) {
+            const t = appState.allVocabulary.filter(w => w.category === cat && w.level === level && w.unit === num).length;
+            if (t) return t;
+            const p = getUserData().progress[`${cat}/${level}/${num}`];
+            return (p && p.total) || 0;
+        }
+        function unitProgressHTML(cat, level, num) {
+            const p = getUserData().progress[`${cat}/${level}/${num}`];
+            const total = getUnitTotal(cat, level, num);
+            if (!p) return total ? `<p class="unit-progress-text">0/${total}</p>` : '';
+            const vals = Object.values(p.words || {});
+            const done = vals.filter(v => v === 'c' || v === 's').length;
+            const wrong = vals.filter(v => v === 'w').length;
+            const denom = total || done || 1;
+            const pct = Math.min(100, Math.round(done / denom * 100));
+            return `<div class="unit-progress"><div class="unit-progress-bar" style="width:${pct}%"></div></div>` +
+                `<p class="unit-progress-text">${done}/${total || done}${wrong ? ` · 错${wrong}` : ''}${p.session ? ' · 可续学' : ''}</p>`;
+        }
+
+        function renderExtraPanel(show) {
+            const el = document.getElementById('extraPanel');
+            if (!el) return;
+            if (!show) { el.style.display = 'none'; return; }
+            const u = getUserData();
+            const wrongN = Object.keys(u.wrong).length;
+            let learned = 0;
+            Object.values(u.progress).forEach(p => Object.values(p.words || {}).forEach(v => { if (v === 'c' || v === 's') learned++; }));
+            el.innerHTML = `
+                <div class="extra-stats"><i class="fas fa-user"></i> ${appState.studentName || ''} · 累计已学习 ${learned} 词 · 错题本 ${wrongN} 词</div>
+                <div class="extra-actions">
+                    <button id="reviewWrongBtn" class="action-button warning"><i class="fas fa-redo"></i> 错题复习 (${wrongN})</button>
+                </div>
+                <button id="logoutBtn" class="link-btn">退出登录 / 切换学生</button>`;
+            el.style.display = 'flex';
+            document.getElementById('reviewWrongBtn').addEventListener('click', startReview);
+            document.getElementById('logoutBtn').addEventListener('click', logout);
+        }
+
+        function startReview() {
+            const u = getUserData();
+            const list = Object.values(u.wrong).map(w => ({
+                english: w.english, chinese: w.chinese, pos: w.pos,
+                sentence: w.sentence, sentence_translation: w.sentence_translation
+            }));
+            if (!list.length) {
+                showModal('错题本为空', '太棒了，目前没有需要复习的错题！');
+                return;
+            }
+            appState.selectedCategory = '';
+            appState.selectedLevel = '';
+            appState.selectedUnit = '';
+            appState.selectedContentType = 'review';
+            appState.currentTestVocabulary = list;
+            startTest(true);
+        }
+
+        function logout() {
+            store.authed = false;
+            saveStore();
+            resetTestState();
+            appState.studentName = '';
+            appState.studentClass = '';
+            accessCodeInput.value = '';
+            showView('access-view', false);
+        }
+
+        function backToWelcome() {
+            if (store.authed) {
+                renderCategorySelection();
+                showView('selection-view', false);
+            } else {
+                showView('welcome-view', false);
+            }
+        }
+
+        // --- Edge 自然语音 (Web Speech API: Microsoft ... Online (Natural)) ---
+        let ttsVoice = null;
+        function pickEnglishVoice() {
+            if (!('speechSynthesis' in window)) return null;
+            const voices = window.speechSynthesis.getVoices() || [];
+            if (!voices.length) return null;
+            const en = voices.filter(v => /^en/i.test(v.lang));
+            const us = en.filter(v => /^en[-_]US/i.test(v.lang));
+            const isNatural = v => /Natural/i.test(v.name);
+            const pool = us.filter(isNatural);
+            const prefer = ['Aria', 'Jenny', 'Ava', 'Emma', 'Andrew', 'Brian', 'Guy', 'Michelle'];
+            let v = null;
+            for (const n of prefer) { v = pool.find(x => x.name.includes(n)); if (v) break; }
+            return v || pool[0] || en.find(isNatural) ||
+                us.find(x => /Online|Google|Samantha/i.test(x.name)) || us[0] || en[0] || null;
+        }
+        function updateVoiceInfo() {
+            if (!voiceInfo) return;
+            if (!ttsVoice) { voiceInfo.textContent = ''; return; }
+            const short = ttsVoice.name.replace(/^Microsoft\s+/, '').replace(/\s+Online.*$/, '');
+            voiceInfo.textContent = /Natural/i.test(ttsVoice.name)
+                ? `发音：${short}（Edge 自然语音）`
+                : `发音：${short}（用 Edge 浏览器可获得自然语音）`;
+        }
+        function refreshVoice() { ttsVoice = pickEnglishVoice(); updateVoiceInfo(); }
+        if ('speechSynthesis' in window) {
+            window.speechSynthesis.onvoiceschanged = refreshVoice;
+            refreshVoice();
+        }
+
         // --- Utility Functions ---
         function showView(viewName, pushState = true) {
             Object.values(views).forEach(view => {
@@ -1058,12 +1315,12 @@
                     showView('selection-view', false);
                 } else if (appState.selectedCategory) {
                     appState.selectedCategory = '';
-                    showView('welcome-view', false);
+                    backToWelcome();
                 } else {
-                    showView('welcome-view', false);
+                    backToWelcome();
                 }
             } else if (appState.currentView === 'test-view') {
-                showModal("提示", "当前测试进度将不会被保存，确定返回吗？", () => {
+                showModal("提示", appState.unitKey ? "当前进度已自动保存（下次可继续学习），确定返回吗？" : "确定返回吗？", () => {
                     resetTestState();
                     if (appState.selectedContentType === 'unit' && appState.selectedCategory === 'foundation') {
                         renderLevelSelection(appState.selectedCategory);
@@ -1138,6 +1395,10 @@
             appState.questionsAttempted = 0;
             appState.incorrectAnswers = [];
             appState.testStartTime = null;
+            appState.studiedCount = 0;
+            appState.unitKey = null;
+            appState.sessionOrder = null;
+            correctAnswerHint.classList.remove('study-hint');
             answerInput.value = '';
             checkAnswerBtn.classList.remove('hidden');
             nextWordBtn.classList.add('hidden');
@@ -1150,7 +1411,8 @@
         let timerInterval;
 
         function startTimer() {
-            appState.testStartTime = Date.now();
+            if (timerInterval) clearInterval(timerInterval);
+            if (!appState.testStartTime) appState.testStartTime = Date.now();
             timerInterval = setInterval(updateTimer, 1000);
         }
 
@@ -1173,6 +1435,7 @@
             nextWordBtn.classList.add('hidden');
             showAnswerBtn.classList.remove('hidden');
             correctAnswerHint.textContent = '';
+            correctAnswerHint.classList.remove('study-hint');
             wordDisplayContainer.innerHTML = '';
 
             if (appState.currentWordIndex < appState.shuffledTestVocabulary.length) {
@@ -1248,13 +1511,27 @@
         }
 
         function speakWord(word) {
-            if ('speechSynthesis' in window) {
+            if (!('speechSynthesis' in window)) {
+                console.log('您的浏览器不支持语音合成');
+                return;
+            }
+            if (!ttsVoice) refreshVoice();
+            const synth = window.speechSynthesis;
+            const run = () => {
                 const utterance = new SpeechSynthesisUtterance(word);
                 utterance.lang = 'en-US';
+                if (ttsVoice) {
+                    utterance.voice = ttsVoice;
+                    utterance.lang = ttsVoice.lang;
+                }
                 utterance.rate = 0.9; // 稍慢的语速
-                window.speechSynthesis.speak(utterance);
+                synth.speak(utterance);
+            };
+            if (synth.speaking || synth.pending) {
+                synth.cancel();
+                setTimeout(run, 80);
             } else {
-                console.log('您的浏览器不支持语音合成');
+                run();
             }
         }
         function normalizeWord(word) {
@@ -1331,10 +1608,30 @@
         }
 
 
+        function studyCurrentWord(currentWord) {
+            // 不输入直接回车 = 学习模式：看答案 + 发音，不计入错题、不计入答题数
+            appState.studiedCount++;
+            markWord(currentWord, 's');
+            correctAnswerHint.classList.add('study-hint');
+            correctAnswerHint.textContent = `学习模式 · 正确答案: ${currentWord.english}`;
+            answerInput.disabled = true;
+            checkAnswerBtn.classList.add('hidden');
+            nextWordBtn.classList.remove('hidden');
+            showAnswerBtn.classList.add('hidden');
+            persist();
+            speakWord(currentWord.english);
+        }
+
         function checkCurrentAnswer() {
-            appState.questionsAttempted++;
             const currentWord = appState.shuffledTestVocabulary[appState.currentWordIndex];
             const userAnswer = answerInput.value.trim();
+
+            if (!userAnswer) {
+                studyCurrentWord(currentWord);
+                return;
+            }
+
+            appState.questionsAttempted++;
 
             const correctAnswers = currentWord.english.split('/').map(ans => ans.trim());
 
@@ -1344,6 +1641,8 @@
                 appState.correctAnswersCount++;
                 answerInput.classList.remove('border-error');
                 answerInput.classList.add('border-success');
+                markWord(currentWord, 'c');
+                if (appState.selectedContentType === 'review') resolveWrong(currentWord);
             } else {
                 answerInput.classList.remove('border-success');
                 answerInput.classList.add('border-error');
@@ -1353,12 +1652,15 @@
                     yourAnswer: userAnswer
                 });
                 correctAnswerHint.textContent = `正确答案: ${currentWord.english}`;
+                markWord(currentWord, 'w');
+                addWrong(currentWord);
             }
 
             answerInput.disabled = true;
             checkAnswerBtn.classList.add('hidden');
             nextWordBtn.classList.remove('hidden');
             showAnswerBtn.classList.add('hidden');
+            persist();
 
             // 无论对错，都朗读正确单词
             speakWord(currentWord.english);
@@ -1384,6 +1686,9 @@
             });
             appState.questionsAttempted++;
             correctAnswerHint.textContent = `正确答案: ${currentWord.english}`;
+            markWord(currentWord, 'w');
+            addWrong(currentWord);
+            persist();
 
             // 朗读正确单词
             speakWord(currentWord.english);
@@ -1395,17 +1700,23 @@
             resultsStudentClass.textContent = appState.studentClass || 'N/A';
             
             // 新增：设置科目和单元
-            resultsSubject.textContent = `${categoryNames[appState.selectedCategory]} - ${levelNames[appState.selectedLevel]}`;
-            
-            if (appState.selectedContentType === 'unit') {
-                resultsUnit.textContent = appState.selectedUnit.replace('Unit', '单元 ');
+            if (appState.selectedContentType === 'review') {
+                resultsSubject.textContent = '错题复习';
+                resultsUnit.textContent = '错题本';
             } else {
-                resultsUnit.textContent = '所有单元';
+                resultsSubject.textContent = `${categoryNames[appState.selectedCategory]} - ${levelNames[appState.selectedLevel]}`;
+
+                if (appState.selectedContentType === 'unit') {
+                    resultsUnit.textContent = appState.selectedUnit.replace('Unit', '单元 ');
+                } else {
+                    resultsUnit.textContent = '所有单元';
+                }
             }
             
             correctCountSpan.textContent = appState.correctAnswersCount;
             totalQuestionsSpan.textContent = appState.shuffledTestVocabulary.length;
             attemptedCountSpan.textContent = appState.questionsAttempted;
+            studiedCountSpan.textContent = appState.studiedCount;
             
             const accuracy = appState.questionsAttempted > 0 ? 
                 (appState.correctAnswersCount / appState.questionsAttempted) * 100 : 0;
@@ -1684,6 +1995,7 @@
         // --- Render Functions for Selections ---
         function renderCategorySelection() {
             selectionTitle.textContent = '选择类别';
+            renderExtraPanel(true);
             selectionContent.innerHTML = '';
             selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3');
             selectionContent.classList.add('grid-col-2-md-3');
@@ -1713,6 +2025,7 @@
 
         function renderLevelSelection(category) {
             selectionTitle.textContent = `选择 ${categoryNames[category]} 难度`;
+            renderExtraPanel(false);
             selectionContent.innerHTML = '';
 
             const levels = Object.keys(vocabStructure[category]);
@@ -1755,6 +2068,7 @@
 
         function renderContentTypeSelection(category, level) {
             selectionTitle.textContent = `选择 ${levelNames[level]} 内容类型`;
+            renderExtraPanel(false);
             selectionContent.innerHTML = '';
             selectionContent.classList.remove('grid-col-1-md-2', 'grid-col-2-md-3');
             selectionContent.classList.add('grid-col-1-md-2');
@@ -1795,6 +2109,7 @@
 
         function renderUnitSelection(category, level) {
             selectionTitle.textContent = `选择 ${levelNames[level]} 单元`;
+            renderExtraPanel(false);
             selectionContent.innerHTML = '';
             selectionContent.classList.remove('grid-col-1-md-2');
             selectionContent.classList.add('grid-col-2-md-3');
@@ -1810,6 +2125,7 @@
                 button.innerHTML = `
                     <p class="chinese-text">单元 ${unitNumber}</p>
                     <p class="english-text">Unit ${unitNumber}</p>
+                    ${unitProgressHTML(category, level, unitNumber)}
                 `;
                 button.dataset.unit = `Unit${unitNumber}`;
                 button.addEventListener('click', () => {
@@ -1881,22 +2197,65 @@
             }
         }
 
-        function startTest() {
+        function showResumeDialog(sess, onResume, onRestart) {
+            const overlay = document.getElementById('resumeOverlay');
+            document.getElementById('resumeMessage').textContent =
+                `上次学到第 ${sess.index} / ${sess.order.length} 词，要继续吗？`;
+            overlay.classList.add('active');
+            document.getElementById('resumeContinueBtn').onclick = () => { overlay.classList.remove('active'); onResume(); };
+            document.getElementById('resumeRestartBtn').onclick = () => { overlay.classList.remove('active'); onRestart(); };
+        }
+
+        function beginTest(sess) {
+            const vocab = appState.currentTestVocabulary;
+            appState.unitKey = getUnitKey();
+            if (sess) {
+                appState.sessionOrder = sess.order.slice();
+                appState.shuffledTestVocabulary = sess.order.map(i => vocab[i]);
+                appState.currentWordIndex = sess.index;
+                appState.correctAnswersCount = sess.correct || 0;
+                appState.questionsAttempted = sess.attempted || 0;
+                appState.studiedCount = sess.studied || 0;
+                appState.incorrectAnswers = sess.incorrect || [];
+                appState.testStartTime = Date.now() - (sess.elapsed || 0);
+            } else {
+                const order = shuffleArray(vocab.map((_, i) => i));
+                appState.sessionOrder = appState.unitKey ? order : null;
+                appState.shuffledTestVocabulary = order.map(i => vocab[i]);
+                appState.currentWordIndex = 0;
+                appState.correctAnswersCount = 0;
+                appState.questionsAttempted = 0;
+                appState.studiedCount = 0;
+                appState.incorrectAnswers = [];
+                appState.testStartTime = Date.now();
+                if (appState.unitKey) {
+                    const p = ensureProgress(appState.unitKey);
+                    p.total = vocab.length;
+                    p.session = null;
+                    saveStore();
+                }
+            }
+            startTimer();
+            showView('test-view');
+            displayNextQuestion();
+        }
+
+        function startTest(forceNew = false) {
             if (appState.currentTestVocabulary.length === 0) {
                 showModal('错误', '词汇表未加载。请返回重新选择。', () => goBack());
                 return;
             }
-
-            appState.shuffledTestVocabulary = shuffleArray(appState.currentTestVocabulary);
-            appState.currentWordIndex = 0;
-            appState.correctAnswersCount = 0;
-            appState.questionsAttempted = 0;
-            appState.incorrectAnswers = [];
-            appState.testStartTime = Date.now();
-
-            startTimer();
-            showView('test-view');
-            displayNextQuestion();
+            const key = getUnitKey();
+            if (!forceNew && key) {
+                const p = getUserData().progress[key];
+                const s = p && p.session;
+                if (s && Array.isArray(s.order) && s.vocabLen === appState.currentTestVocabulary.length &&
+                    s.index > 0 && s.index < s.order.length) {
+                    showResumeDialog(s, () => beginTest(s), () => beginTest(null));
+                    return;
+                }
+            }
+            beginTest(null);
         }
 
         // --- Application Startup ---
@@ -1909,8 +2268,21 @@
                     return;
                 }
             }
-            showView('access-view', false);
-            
+            studentNameInput.value = store.last.name || '';
+            studentClassInput.value = store.last.cls || '';
+            if (store.authed && store.last.name) {
+                // 已记住登录：直接进入选择页
+                appState.studentName = store.last.name;
+                appState.studentClass = store.last.cls || '';
+                renderCategorySelection();
+                showView('selection-view', false);
+                loadAllVocabulary();
+            } else if (store.authed) {
+                showView('welcome-view', false);
+            } else {
+                showView('access-view', false);
+            }
+
             // 添加搜索事件监听器
             globalSearchInput.addEventListener('keydown', (e) => {
                 if (e.key === 'Enter') {
@@ -1930,8 +2302,10 @@
                 return;
             }
             
-            appState.studentName = studentNameInput.value;
-            appState.studentClass = studentClassInput.value;
+            appState.studentName = studentNameInput.value.trim();
+            appState.studentClass = studentClassInput.value.trim();
+            store.last = { name: appState.studentName, cls: appState.studentClass };
+            saveStore();
             renderCategorySelection();
             showView('selection-view');
             
@@ -1947,6 +2321,8 @@
                 showModal('提示', '测验码不正确，请重新输入');
                 return;
             }
+            store.authed = rememberLogin.checked;
+            saveStore();
             showView('welcome-view');
         });
 
@@ -1961,8 +2337,16 @@
             showResults();
         }));
         retakeTestBtn.addEventListener('click', () => {
+            const vocab = appState.currentTestVocabulary;
             resetTestState();
-            startTest();
+            appState.currentTestVocabulary = vocab;
+            startTest(true);
+        });
+        playWordBtn.addEventListener('click', () => {
+            const w = appState.shuffledTestVocabulary[appState.currentWordIndex];
+            if (w && w.english) speakWord(w.english);
+            playWordBtn.blur();
+            if (!answerInput.disabled) answerInput.focus();
         });
         newTestBtn.addEventListener('click', () => {
             resetTestState();
